@@ -7291,6 +7291,30 @@
     "verified": "2026-11-12"
   },
   {
+    "id": "hamburger-di-gomez",
+    "size": 270000000000000,
+    "kind": "n",
+    "glyph": "3",
+    "flags": [
+      "u",
+      "r"
+    ],
+    "image": null,
+    "sources": [
+      {
+        "title": "The ALMA View of the Edge-on Gomez's Hamburger System: A Highly-Dynamic, Asymmetric Protoplanetary Disk Reveals the Earliest Phases of Giant Planet Formation",
+        "url": "https://arxiv.org/abs/2609.09290",
+        "publisher": "Law et al., accettato da The Astrophysical Journal (2026), arXiv"
+      },
+      {
+        "title": "The ALMA View of the Edge-on Gomez's Hamburger System (testo completo)",
+        "url": "https://arxiv.org/html/2609.09290",
+        "publisher": "Law et al., accettato da The Astrophysical Journal (2026), arXiv"
+      }
+    ],
+    "verified": "2026-11-12"
+  },
+  {
     "id": "ton-618",
     "size": 390000000000000,
     "kind": "h",
@@ -7319,10 +7343,28 @@
     "size": 800000000000000,
     "kind": "n",
     "glyph": "2",
-    "flags": [],
+    "flags": [
+      "u"
+    ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Birth and early evolution of a planetary nebula",
+        "url": "https://arxiv.org/pdf/astro-ph/9804022",
+        "publisher": "Bobrowsky et al., Nature 392, 469 (1998), arXiv"
+      },
+      {
+        "title": "The Decline and Fall of the Youngest Planetary Nebula",
+        "url": "https://arxiv.org/pdf/2009.01701",
+        "publisher": "Balick et al., The Astrophysical Journal (2021), arXiv"
+      },
+      {
+        "title": "Hubble Captures Unprecedented Fading of Stingray Nebula",
+        "url": "https://science.nasa.gov/missions/hubble/hubble-captures-unprecedented-fading-of-stingray-nebula/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "petametro",
@@ -7365,45 +7407,60 @@
   },
   {
     "id": "nebulosa-occhio-di-gatto",
-    "size": 1950000000000000,
+    "size": 2400000000000000,
     "kind": "n",
     "glyph": "1",
-    "flags": [],
-    "image": null,
-    "sources": [],
-    "verified": null
-  },
-  {
-    "id": "hamburger-di-gomez",
-    "size": 2500000000000000,
-    "kind": "n",
-    "glyph": "3",
     "flags": [
+      "r",
       "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
-  },
-  {
-    "id": "nebulosa-clessidra",
-    "size": 3000000000000000,
-    "kind": "n",
-    "glyph": "0",
-    "flags": [],
-    "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Hubble Space Telescope Measurements of the Expansion of NGC 6543: Parallax Distance and Nebular Evolution",
+        "url": "https://arxiv.org/abs/astro-ph/9907313",
+        "publisher": "Reed et al., The Astronomical Journal (1999), arXiv"
+      },
+      {
+        "title": "Hubble Space Telescope Measurements of the Expansion of NGC 6543 (testo completo, tabella 2)",
+        "url": "https://arxiv.org/pdf/astro-ph/9907313",
+        "publisher": "Reed et al., The Astronomical Journal (1999), arXiv"
+      },
+      {
+        "title": "Dying star creates fantasy-like sculpture of gas and dust (heic0414)",
+        "url": "https://esahubble.org/news/heic0414/",
+        "publisher": "ESA/Hubble"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "nebulosa-blinking",
     "size": 4500000000000000,
     "kind": "n",
     "glyph": "1",
-    "flags": [],
+    "flags": [
+      "u"
+    ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Caldwell 15",
+        "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-caldwell-catalog/caldwell-15/",
+        "publisher": "NASA Science"
+      },
+      {
+        "title": "HST/WFPC2 imaging analysis and Cloudy modelling of the multiple shell planetary nebulae NGC 3242, NGC 6826 and NGC 7662",
+        "url": "https://arxiv.org/pdf/1807.01787",
+        "publisher": "Barría e Kimeswenger, MNRAS (2018), arXiv"
+      },
+      {
+        "title": "Caldwell 39",
+        "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-caldwell-catalog/caldwell-39/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "nebulosa-homunculus",
@@ -7414,20 +7471,38 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "NASA's Hubble Space Telescope Resolves Eruption of a Massive Star",
+        "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-space-telescope-resolves-eruption-of-a-massive-star/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
-    "id": "nebulosa-ngc-2392",
-    "size": 6400000000000000,
+    "id": "nebulosa-clessidra",
+    "size": 6500000000000000,
     "kind": "n",
-    "glyph": "2",
+    "glyph": "0",
     "flags": [
-      "r"
+      "r",
+      "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "VLT observations of the asymmetric Etched Hourglass Nebula, MyCn 18",
+        "url": "https://arxiv.org/pdf/1408.4030",
+        "publisher": "Clyne et al., Astronomy & Astrophysics (2014), arXiv"
+      },
+      {
+        "title": "Hubble Finds an Hourglass Nebula Around a Dying Star",
+        "url": "https://science.nasa.gov/missions/hubble/hubble-finds-an-hourglass-nebula-around-a-dying-star/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "anno-luce",
@@ -7451,46 +7526,95 @@
     "verified": "2026-11-12"
   },
   {
-    "id": "nebulosa-uovo-marcio",
-    "size": 13000000000000000,
-    "kind": "n",
-    "glyph": "3",
-    "flags": [],
-    "image": null,
-    "sources": [],
-    "verified": null
-  },
-  {
-    "id": "nebulosa-formica",
-    "size": 19000000000000000,
-    "kind": "n",
-    "glyph": "0",
-    "flags": [],
-    "image": null,
-    "sources": [],
-    "verified": null
-  },
-  {
-    "id": "nebulosa-boomerang",
-    "size": 19200000000000000,
-    "kind": "n",
-    "glyph": "1",
-    "flags": [],
-    "image": null,
-    "sources": [],
-    "verified": null
-  },
-  {
     "id": "nebulosa-anello",
-    "size": 25000000000000000,
+    "size": 9500000000000000,
     "kind": "n",
     "glyph": "2",
     "flags": [
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "NASA's Hubble Space Telescope Reveals the Ring Nebula's True Shape",
+        "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-space-telescope-reveals-the-ring-nebulas-true-shape/",
+        "publisher": "NASA Science"
+      },
+      {
+        "title": "Webb captures detailed beauty of Ring Nebula (NIRCam and MIRI images)",
+        "url": "https://esawebb.org/images/weic2320a/",
+        "publisher": "ESA/Webb"
+      }
+    ],
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "nebulosa-ngc-2392",
+    "size": 9600000000000000,
+    "kind": "n",
+    "glyph": "2",
+    "flags": [
+      "r",
+      "u"
+    ],
+    "image": null,
+    "sources": [
+      {
+        "title": "A Detailed Morpho-Kinematic Model of the Eskimo, NGC 2392. A Unifying View with the Cat's Eye and Saturn Planetary Nebulae",
+        "url": "https://arxiv.org/pdf/1211.6717",
+        "publisher": "García-Díaz et al., The Astrophysical Journal (2012), arXiv"
+      },
+      {
+        "title": "NGC 2392: A Beautiful End to a Star's Life",
+        "url": "https://chandra.harvard.edu/photo/2013/ngc2392/",
+        "publisher": "Chandra X-ray Center (NASA/SAO)"
+      },
+      {
+        "title": "NASA to Reexamine Nicknames for Cosmic Objects",
+        "url": "https://www.nasa.gov/solar-system/nasa-to-reexamine-nicknames-for-cosmic-objects/",
+        "publisher": "NASA"
+      }
+    ],
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "nebulosa-uovo-marcio",
+    "size": 13000000000000000,
+    "kind": "n",
+    "glyph": "3",
+    "flags": [],
+    "image": null,
+    "sources": [
+      {
+        "title": "Rotten Egg Nebula (PIA04228)",
+        "url": "https://science.nasa.gov/photojournal/rotten-egg-nebula/",
+        "publisher": "NASA/JPL Photojournal"
+      }
+    ],
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "nebulosa-formica",
+    "size": 19000000000000000,
+    "kind": "n",
+    "glyph": "0",
+    "flags": [
+      "u"
+    ],
+    "image": null,
+    "sources": [
+      {
+        "title": "The Ant Nebula (Menzel 3): Fiery Lobes Protrude From Dying, Sun-like Star",
+        "url": "https://science.nasa.gov/asset/hubble/the-ant-nebula-menzel-3-fiery-lobes-protrude-from-dying-sun-like-star",
+        "publisher": "NASA Science (STScI)"
+      },
+      {
+        "title": "Ants in space?",
+        "url": "https://esahubble.org/images/heic0101a/",
+        "publisher": "ESA/Hubble"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "nube-di-oort",
@@ -7546,6 +7670,34 @@
     "image": null,
     "sources": [],
     "verified": null
+  },
+  {
+    "id": "nebulosa-boomerang",
+    "size": 36000000000000000,
+    "kind": "n",
+    "glyph": "1",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [
+      {
+        "title": "The Coldest Place in the Universe: Probing the Ultra-Cold Outflow and Dusty Disk in the Boomerang Nebula",
+        "url": "https://arxiv.org/abs/1703.06929",
+        "publisher": "Sahai, Vlemmings e Nyman, The Astrophysical Journal (2017), arXiv"
+      },
+      {
+        "title": "True shape of the Boomerang",
+        "url": "https://www.eso.org/public/images/potw1724a/",
+        "publisher": "ESO"
+      },
+      {
+        "title": "The Boomerang Nebula - the coolest place in the Universe?",
+        "url": "https://esahubble.org/news/heic0301/",
+        "publisher": "ESA/Hubble"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "distanza-sole-proxima",

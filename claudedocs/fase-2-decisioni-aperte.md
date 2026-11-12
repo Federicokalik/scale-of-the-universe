@@ -21,6 +21,12 @@ Aggiornato dopo ogni ondata. Le correzioni sono già applicate ai dati; le decis
 | Enif | 2,9 × 10¹¹ m | 2,54 × 10¹¹ m | Baines e colleghi 2025 (arXiv 2506.02912): raggio 182,6 R☉ |
 | La Superba | 4,4 × 10¹¹ m | 4,8 × 10¹¹ m | derivato con la legge di Stefan-Boltzmann da luminosità e temperatura (arXiv 0706.4211); segnato incerto |
 | V382 Carinae | 6,7 × 10¹¹ m | 8,57 × 10¹¹ m | Kasikov e colleghi 2026 (A&A, arXiv 2602.02449): raggio 616 ± 69 R☉ |
+| Nebulosa Occhio di Gatto | 1,95 × 10¹⁵ m | 2,4 × 10¹⁵ m | Reed e colleghi 1999: nucleo interno di 16,1″ a 1.001 pc; incerta |
+| Hamburger di Gomez | 2,5 × 10¹⁵ m | 2,7 × 10¹⁴ m | Law e colleghi 2026 (arXiv 2609.09290): disco di CO di circa 900 UA di raggio a 139 pc; incerto |
+| Nebulosa Clessidra | 3 × 10¹⁵ m | 6,5 × 10¹⁵ m | Clyne e colleghi 2014: 18″ da polo a polo a 2,4 kpc; incerta |
+| NGC 2392 | 6,4 × 10¹⁵ m | 9,6 × 10¹⁵ m | García-Díaz e colleghi 2012: guscio esterno di 46″ a 1,4 kpc; controllo con la scala Chandra; incerta |
+| Nebulosa Boomerang | 1,92 × 10¹⁶ m | 3,6 × 10¹⁶ m | Sahai e colleghi 2017: deflusso freddo ALMA, almeno 120.000 UA di raggio; ESO "quasi quattro anni luce" |
+| Nebulosa Anello | 2,5 × 10¹⁶ m | 9,5 × 10¹⁵ m | NASA/Hubble: "circa 1 anno luce" per l'anello principale |
 
 ## Decisioni aperte
 
@@ -81,6 +87,10 @@ Aggiornato dopo ogni ondata. Le correzioni sono già applicate ai dati; le decis
 54. **Raggio di Hubble**: da 13,4 a 14,5 miliardi di anni luce a seconda della costante di Hubble usata (67,4 o 73,0 km/s/Mpc). Segnato incerto.
 55. **MoM-z14**: la distanza di circa 34 miliardi di anni luce è un calcolo dal redshift con i parametri di Planck, non una cifra citata; "la più distante" vale a gennaio 2026.
 56. **Strada percorsa dalla Terra attorno al Sole**: valore derivato (circonferenza dell'orbita per 4,54 miliardi di anni), assumendo un'orbita invariata.
+57. **Hamburger di Gomez**: il valore scende di dieci volte perché oggi è considerato un disco protoplanetario vicino (139 pc) e non una nebulosa lontana. La distanza resta incerta (con 250 pc il diametro raddoppia). Verificare che la categoria e il nome sul sito siano ancora adatti.
+58. **Nebulosa Boomerang**: il nuovo valore misura il deflusso freddo visto da ALMA, non i lobi visibili nell'immagine Hubble, per i quali non c'è una fonte con la misura.
+59. **Nebulosa Anello**: il vecchio valore (2,6 anni luce) forse includeva gli aloni esterni, ma nessuna fonte aperta ne dà la misura. Ora vale per l'anello principale.
+60. **Nebulose Stingray, Blinking e Formica**: valori lasciati, segnate incerte perché le distanze pubblicate divergono (per Stingray da 0,83 a 5,6 kpc).
 
 ## Da sistemare prima di chiudere la fase
 
@@ -96,8 +106,8 @@ Aggiornato dopo ogni ondata. Le correzioni sono già applicate ai dati; le decis
 
 ## Avanzamento
 
-Lotti applicati: black-holes, particles-1/2, atoms-1/2, waves-1/2, molecules-1/2, units-1/2/3, biology-1/2/3/4/5, objects-1/2/3/4/5, places-1/2/3/4, solar-system-1/2/3/4/5, stars-1/2/3/4, distances-1/2/3 (372 oggetti su 447).
+Lotti applicati: black-holes, particles-1/2, atoms-1/2, waves-1/2, molecules-1/2, units-1/2/3, biology-1/2/3/4/5, objects-1/2/3/4/5, places-1/2/3/4, solar-system-1/2/3/4/5, stars-1/2/3/4, distances-1/2/3, nebulae-1 (383 oggetti su 447).
 
-Lotti da fare: nebulae-1/2/3, galaxies-1/2, cosmic-1/2.
+Lotti da fare: nebulae-2/3, galaxies-1/2, cosmic-1/2.
 
 Per ogni lotto: `node scripts/apply-research.mjs --check`, `node scripts/check-links.mjs`, campione di fonti riletto in modo indipendente, poi `node scripts/apply-research.mjs`, `npm run validate`, `npm test`, commit.

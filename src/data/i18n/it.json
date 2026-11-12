@@ -1530,7 +1530,7 @@
     },
     "nebulosa-stingray": {
       "name": "Nebulosa Stingray",
-      "desc": "La nebulosa planetaria più giovane nota. In vent'anni si è affievolita a vista d'occhio."
+      "desc": "La Nebulosa Stingray (Hen 3-1357) è considerata la più giovane nebulosa planetaria nota: il suo gas ha cominciato a brillare solo negli anni Ottanta. Il diametro dipende dalla distanza, stimata tra 0,83 e 5,6 kiloparsec, e va quindi da circa 2 × 10^14 a 1,5 × 10^15 m. Le immagini di Hubble del 1996 e del 2016 mostrano che in vent'anni si è affievolita in modo drastico."
     },
     "petametro": {
       "name": "Petametro",
@@ -1542,27 +1542,27 @@
     },
     "nebulosa-occhio-di-gatto": {
       "name": "Nebulosa Occhio di Gatto",
-      "desc": "Il nucleo brillante."
+      "desc": "La Nebulosa Occhio di Gatto (NGC 6543) è una nebulosa planetaria nella costellazione del Drago, tra le più complesse conosciute. Il nucleo brillante interno misura 16,1 secondi d'arco che, alla distanza di 1001 ± 269 parsec ricavata dalla sua espansione, corrispondono a circa 2,4 × 10^15 m, con un'incertezza di circa il 27%. Lo stesso studio gli attribuisce un'età di circa 1000 anni."
     },
     "hamburger-di-gomez": {
       "name": "Hamburger di Gomez",
-      "desc": "Una giovane stella nascosta da un disco visto di taglio."
+      "desc": "L'Hamburger di Gomez (IRAS 18059-3211) è una giovane stella nascosta da un grande disco protoplanetario visto quasi di taglio: la polvere scura è la polpetta, la luce riflessa sono i due panini. Le osservazioni ALMA pubblicate nel 2026 danno al disco di gas un raggio di circa 900 unità astronomiche, quindi un diametro di circa 2,7 × 10^14 m, a una distanza rivista di 139 ± 24 parsec. Con la distanza di 250 parsec usata in precedenza il disco risulterebbe quasi il doppio."
     },
     "nebulosa-clessidra": {
       "name": "Nebulosa Clessidra",
-      "desc": ""
+      "desc": "La Nebulosa Clessidra (MyCn 18) è una giovane nebulosa planetaria nella costellazione della Mosca, a circa 8000 anni luce. La clessidra misura 18 secondi d'arco da polo a polo, pari a circa 6,5 × 10^15 m alla distanza abituale di 2,4 kiloparsec, oppure 8,6 × 10^15 m se la distanza è di 3,2 kiloparsec. Hubble ne ha rivelato nel 1996 la forma a clessidra con le pareti incise da sottili archi."
     },
     "nebulosa-blinking": {
       "name": "Nebulosa Blinking",
-      "desc": ""
+      "desc": "La Nebulosa Blinking (NGC 6826, Caldwell 15) è una nebulosa planetaria nel Cigno: al telescopio sembra sparire quando si fissa la stella centrale e riapparire quando si sposta lo sguardo. Per la NASA dista circa 2200 anni luce, ha circa mille anni ed è larga meno di mezzo anno luce. Il guscio esterno misura 31 × 27 secondi d'arco, quindi da circa 3 × 10^15 m a oltre 7 × 10^15 m secondo la distanza adottata."
     },
     "nebulosa-homunculus": {
       "name": "Nebulosa Homunculus",
-      "desc": "I due lobi espulsi da Eta Carinae nell'Ottocento. L'originale la faceva trecento volte più piccola."
+      "desc": "La Nebulosa Homunculus è il guscio di gas e polvere a due lobi espulso dalla stella Eta Carinae durante l'eruzione del 1843, quando divenne per qualche tempo la seconda stella più brillante del cielo. Secondo la NASA misura circa due terzi di anno luce lungo l'asse maggiore, cioè intorno a 6 × 10^15 m. Il nome, dato da Enrique Gaviola nel 1950, viene dalle appendici che ricordano vagamente una testa e dei piedi."
     },
     "nebulosa-ngc-2392": {
       "name": "Nebulosa NGC 2392",
-      "desc": "La ex Nebulosa Eschimese: la NASA ha ritirato quel soprannome nel 2020. L'originale: 2 anni luce."
+      "desc": "NGC 2392 è una nebulosa planetaria nei Gemelli, scoperta da William Herschel nel 1787: una bolla interna spinta dal vento della stella morente e un guscio esterno ornato da filamenti a forma di cometa. Il guscio esterno ha un raggio di 23 secondi d'arco e, a 1,4 kiloparsec, un diametro di circa 9,6 × 10^15 m, ma le stime di distanza vanno da 1,28 a 1,8 kiloparsec. Nel 2020 la NASA ha annunciato che non avrebbe più usato il soprannome \"Nebulosa Eschimese\"."
     },
     "anno-luce": {
       "name": "Anno luce",
@@ -1570,19 +1570,19 @@
     },
     "nebulosa-uovo-marcio": {
       "name": "Nebulosa Uovo Marcio",
-      "desc": "Ricca di composti dello zolfo."
+      "desc": "La Nebulosa Uovo Marcio, detta anche Nebulosa Calabash o OH 231.8+4.2, è il gas espulso da una stella morente a circa 5000 anni luce, nella costellazione della Poppa. È lunga 1,4 anni luce, circa 1,3 × 10^16 m, e deve il soprannome all'abbondanza di zolfo. Secondo la NASA diventerà una nebulosa planetaria completa fra circa 1000 anni."
     },
     "nebulosa-formica": {
       "name": "Nebulosa Formica",
-      "desc": ""
+      "desc": "La Nebulosa Formica (Menzel 3) è una nebulosa planetaria bipolare nella costellazione del Regolo: due lobi di gas espulsi da una stella morente simile al Sole, che insieme ricordano la testa e il torace di una formica. In cielo è lunga circa 1 primo d'arco. La NASA la pone a circa 3000 anni luce, il che dà 1,6 anni luce (1,5 × 10^16 m), mentre la scheda ESA/Hubble indica 8000 anni luce, che porterebbero la lunghezza a circa 2,2 × 10^16 m."
     },
     "nebulosa-boomerang": {
       "name": "Nebulosa Boomerang",
-      "desc": "Il luogo naturale più freddo noto: 1 K, meno del fondo cosmico."
+      "desc": "La Nebulosa Boomerang è una giovane nebulosa planetaria nel Centauro, a circa 5000 anni luce. Il suo gas in rapida espansione si è raffreddato fino a circa 1 kelvin, meno del fondo cosmico a microonde, e ne fa l'oggetto più freddo conosciuto nell'Universo. Le osservazioni ALMA mostrano che il deflusso ultrafreddo si estende per quasi quattro anni luce, circa 3,6 × 10^16 m."
     },
     "nebulosa-anello": {
       "name": "Nebulosa Anello",
-      "desc": "Nel 2023 il telescopio Webb ne ha mostrato migliaia di globuli densi."
+      "desc": "La Nebulosa Anello (M57, NGC 6720) è una nebulosa planetaria nella Lira, a circa 2000-2500 anni luce dalla Terra. Secondo la NASA l'anello principale misura circa 1 anno luce, cioè circa 9,5 × 10^15 m. Nel 2023 il telescopio Webb vi ha mostrato circa 20.000 globuli densi ricchi di idrogeno molecolare."
     },
     "nube-di-oort": {
       "name": "Nube di Oort",

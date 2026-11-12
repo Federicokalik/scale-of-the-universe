@@ -1,0 +1,308 @@
+[
+  {
+    "id": "nebulosa-stingray",
+    "size": 800000000000000,
+    "basis": "diametro del guscio ionizzato (dimensione angolare × distanza, con distanza molto incerta)",
+    "verdict": "uncertain",
+    "flags": [
+      "u"
+    ],
+    "desc": "La Nebulosa Stingray (Hen 3-1357) è considerata la più giovane nebulosa planetaria nota: il suo gas ha cominciato a brillare solo negli anni Ottanta. Il diametro dipende dalla distanza, stimata tra 0,83 e 5,6 kiloparsec, e va quindi da circa 2 × 10^14 a 1,5 × 10^15 m. Le immagini di Hubble del 1996 e del 2016 mostrano che in vent'anni si è affievolita in modo drastico.",
+    "sources": [
+      {
+        "title": "Birth and early evolution of a planetary nebula",
+        "url": "https://arxiv.org/pdf/astro-ph/9804022",
+        "publisher": "Bobrowsky et al., Nature 392, 469 (1998), arXiv",
+        "evidence": "Given a distance of 5.6 kpc, the approximate radius of the nebula is 0.025 pc"
+      },
+      {
+        "title": "The Decline and Fall of the Youngest Planetary Nebula",
+        "url": "https://arxiv.org/pdf/2009.01701",
+        "publisher": "Balick et al., The Astrophysical Journal (2021), arXiv",
+        "evidence": "estimates of D/kpc range from 0.83 (Fresneau et al., 2007), 1.6 (R+14), 1.8 (A+13)"
+      },
+      {
+        "title": "Hubble Captures Unprecedented Fading of Stingray Nebula",
+        "url": "https://science.nasa.gov/missions/hubble/hubble-captures-unprecedented-fading-of-stingray-nebula/",
+        "publisher": "NASA Science",
+        "evidence": "has faded precipitously over just the past two decades"
+      }
+    ],
+    "note": "Bobrowsky et al. (1998): raggio 0,025 pc a 5,6 kpc, cioè diametro 0,05 pc = 0,05 × 3,086e16 m = 1,54e15 m. Il valore attuale 8e14 m coincide quasi con il solo raggio a 5,6 kpc (0,025 pc = 7,7e14 m), ma le distanze più recenti citate da Balick et al. (0,83; 1,6; 1,8; 1,63–4,92 kpc) riducono il diametro in proporzione: 1,54e15 × 0,83/5,6 = 2,3e14 m; × 1,6/5,6 = 4,4e14 m. 8e14 m resta dentro l'intervallo (corrisponde a circa 2,9 kpc), quindi il valore è mantenuto con flag u. \"La più giovane nota\" è l'affermazione della NASA (1998) e del titolo di Balick et al.; l'ho attenuata in \"considerata\".",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "nebulosa-occhio-di-gatto",
+    "size": 2400000000000000,
+    "basis": "asse maggiore del nucleo brillante interno (ellisse E25, 16,1 secondi d'arco) alla distanza di 1001 pc",
+    "verdict": "corrected",
+    "flags": [
+      "r",
+      "u"
+    ],
+    "desc": "La Nebulosa Occhio di Gatto (NGC 6543) è una nebulosa planetaria nella costellazione del Drago, tra le più complesse conosciute. Il nucleo brillante interno misura 16,1 secondi d'arco che, alla distanza di 1001 ± 269 parsec ricavata dalla sua espansione, corrispondono a circa 2,4 × 10^15 m, con un'incertezza di circa il 27%. Lo stesso studio gli attribuisce un'età di circa 1000 anni.",
+    "sources": [
+      {
+        "title": "Hubble Space Telescope Measurements of the Expansion of NGC 6543: Parallax Distance and Nebular Evolution",
+        "url": "https://arxiv.org/abs/astro-ph/9907313",
+        "publisher": "Reed et al., The Astronomical Journal (1999), arXiv",
+        "evidence": "a distance to NGC 6543 of 1001±269 pc"
+      },
+      {
+        "title": "Hubble Space Telescope Measurements of the Expansion of NGC 6543 (testo completo, tabella 2)",
+        "url": "https://arxiv.org/pdf/astro-ph/9907313",
+        "publisher": "Reed et al., The Astronomical Journal (1999), arXiv",
+        "evidence": "E25 major 16.′′1 (in [O III])"
+      },
+      {
+        "title": "Dying star creates fantasy-like sculpture of gas and dust (heic0414)",
+        "url": "https://esahubble.org/news/heic0414/",
+        "publisher": "ESA/Hubble",
+        "evidence": "one of the most complex planetary nebulae ever seen in space"
+      }
+    ],
+    "note": "Da 1,95e15 a 2,4e15 m. Calcolo: 16,1\" × 1001 pc = 16.116 UA; × 1,496e11 m = 2,41e15 m. Il valore precedente (0,2 anni luce) corrisponderebbe a soli 13\", misura che non trovo nella fonte. Aggiunto u perché la distanza ha un errore del 27% (intervallo 1,8–3,1e15 m). Le calotte polari che circondano il nucleo arrivano a 21,2\" (3,2e15 m) e l'alone esterno è molto più grande. Età cinematica del nucleo nella fonte: 1039 ± 259 anni.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "hamburger-di-gomez",
+    "size": 270000000000000,
+    "basis": "diametro del disco di gas (due volte l'estensione radiale del CO, 6,5 secondi d'arco) alla distanza di 139 pc",
+    "verdict": "corrected",
+    "flags": [
+      "u",
+      "r"
+    ],
+    "desc": "L'Hamburger di Gomez (IRAS 18059-3211) è una giovane stella nascosta da un grande disco protoplanetario visto quasi di taglio: la polvere scura è la polpetta, la luce riflessa sono i due panini. Le osservazioni ALMA pubblicate nel 2026 danno al disco di gas un raggio di circa 900 unità astronomiche, quindi un diametro di circa 2,7 × 10^14 m, a una distanza rivista di 139 ± 24 parsec. Con la distanza di 250 parsec usata in precedenza il disco risulterebbe quasi il doppio.",
+    "sources": [
+      {
+        "title": "The ALMA View of the Edge-on Gomez's Hamburger System: A Highly-Dynamic, Asymmetric Protoplanetary Disk Reveals the Earliest Phases of Giant Planet Formation",
+        "url": "https://arxiv.org/abs/2609.09290",
+        "publisher": "Law et al., accettato da The Astrophysical Journal (2026), arXiv",
+        "evidence": "a revised dust-extinction-map-based distance of 139 ± 24 pc"
+      },
+      {
+        "title": "The ALMA View of the Edge-on Gomez's Hamburger System (testo completo)",
+        "url": "https://arxiv.org/html/2609.09290",
+        "publisher": "Law et al., accettato da The Astrophysical Journal (2026), arXiv",
+        "evidence": "12CO radial extent of ≈6.″5 (≈900 au)"
+      }
+    ],
+    "note": "Da 2,5e15 a 2,7e14 m. Calcolo: 2 × 900 UA = 1800 UA; × 1,496e11 m = 2,69e14 m. Il valore precedente (circa 16.700 UA) presuppone una distanza di migliaia di anni luce, come quando l'oggetto era ritenuto una nebulosa protoplanetaria (la scheda ESA/Hubble del 2002 indica ancora 1600 anni luce e \"planetary nebula\"). Resta u: non esiste una parallasse Gaia affidabile e con 250 pc (Teague et al. 2020, citato nell'articolo) il diametro sarebbe circa 4,9e14 m.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "nebulosa-clessidra",
+    "size": 6500000000000000,
+    "basis": "lunghezza da polo a polo della clessidra (18 secondi d'arco) alla distanza di 2,4 kpc",
+    "verdict": "corrected",
+    "flags": [
+      "r",
+      "u"
+    ],
+    "desc": "La Nebulosa Clessidra (MyCn 18) è una giovane nebulosa planetaria nella costellazione della Mosca, a circa 8000 anni luce. La clessidra misura 18 secondi d'arco da polo a polo, pari a circa 6,5 × 10^15 m alla distanza abituale di 2,4 kiloparsec, oppure 8,6 × 10^15 m se la distanza è di 3,2 kiloparsec. Hubble ne ha rivelato nel 1996 la forma a clessidra con le pareti incise da sottili archi.",
+    "sources": [
+      {
+        "title": "VLT observations of the asymmetric Etched Hourglass Nebula, MyCn 18",
+        "url": "https://arxiv.org/pdf/1408.4030",
+        "publisher": "Clyne et al., Astronomy & Astrophysics (2014), arXiv",
+        "evidence": "Pole-to-pole length (along its major axis) 18″"
+      },
+      {
+        "title": "Hubble Finds an Hourglass Nebula Around a Dying Star",
+        "url": "https://science.nasa.gov/missions/hubble/hubble-finds-an-hourglass-nebula-around-a-dying-star/",
+        "publisher": "NASA Science",
+        "evidence": "a young planetary nebula located about 8,000 light-years away"
+      }
+    ],
+    "note": "Da 3e15 a 6,5e15 m. Calcolo: 18\" × 2400 pc = 43.200 UA; × 1,496e11 m = 6,46e15 m. Con 3,2 kpc: 57.600 UA = 8,6e15 m. Il valore precedente corrisponde circa alla metà (un raggio). Aggiunto u: Clyne et al. scrivono che 2,4 kpc è la distanza citata di solito, che una rianalisi dà 3,2 kpc e che in letteratura si va da 1 a 3 kpc. I 18\" sono il parametro del modello morfologico della clessidra principale, costruito sulle immagini HST. Gli 8000 anni luce della NASA equivalgono a circa 2,45 kpc.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "nebulosa-blinking",
+    "size": 4500000000000000,
+    "basis": "diametro del guscio esterno (31 × 27 secondi d'arco); la distanza è incerta",
+    "verdict": "uncertain",
+    "flags": [
+      "u"
+    ],
+    "desc": "La Nebulosa Blinking (NGC 6826, Caldwell 15) è una nebulosa planetaria nel Cigno: al telescopio sembra sparire quando si fissa la stella centrale e riapparire quando si sposta lo sguardo. Per la NASA dista circa 2200 anni luce, ha circa mille anni ed è larga meno di mezzo anno luce. Il guscio esterno misura 31 × 27 secondi d'arco, quindi da circa 3 × 10^15 m a oltre 7 × 10^15 m secondo la distanza adottata.",
+    "sources": [
+      {
+        "title": "Caldwell 15",
+        "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-caldwell-catalog/caldwell-15/",
+        "publisher": "NASA Science",
+        "evidence": "less than half a light-year across"
+      },
+      {
+        "title": "HST/WFPC2 imaging analysis and Cloudy modelling of the multiple shell planetary nebulae NGC 3242, NGC 6826 and NGC 7662",
+        "url": "https://arxiv.org/pdf/1807.01787",
+        "publisher": "Barría e Kimeswenger, MNRAS (2018), arXiv",
+        "evidence": "outer shell of 31″ × 27″"
+      },
+      {
+        "title": "Caldwell 39",
+        "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-caldwell-catalog/caldwell-39/",
+        "publisher": "NASA Science",
+        "evidence": "When looking directly at the central star, the surrounding nebulosity fades"
+      }
+    ],
+    "note": "Valore mantenuto: 4,5e15 m (0,48 anni luce) è compatibile con \"less than half a light-year\" della NASA. Calcoli sull'asse maggiore di 31\": a 2200 anni luce (675 pc) 31 × 675 = 20.900 UA = 3,1e15 m; alla distanza Gaia DR2 riportata da Barría e Kimeswenger (1,575 kpc) 48.800 UA = 7,3e15 m; il loro modello migliore richiede 2,1 kpc (9,7e15 m). Le fonti quindi non concordano e ho aggiunto u. L'effetto di \"lampeggiamento\" è descritto nella pagina NASA Caldwell 39, che lo attribuisce anche a Caldwell 15 (\"a blinking effect similar to that of Caldwell 15\").",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "nebulosa-homunculus",
+    "size": 6000000000000000,
+    "basis": "lunghezza lungo l'asse maggiore dei due lobi",
+    "verdict": "confirmed",
+    "flags": [
+      "r"
+    ],
+    "desc": "La Nebulosa Homunculus è il guscio di gas e polvere a due lobi espulso dalla stella Eta Carinae durante l'eruzione del 1843, quando divenne per qualche tempo la seconda stella più brillante del cielo. Secondo la NASA misura circa due terzi di anno luce lungo l'asse maggiore, cioè intorno a 6 × 10^15 m. Il nome, dato da Enrique Gaviola nel 1950, viene dalle appendici che ricordano vagamente una testa e dei piedi.",
+    "sources": [
+      {
+        "title": "NASA's Hubble Space Telescope Resolves Eruption of a Massive Star",
+        "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-space-telescope-resolves-eruption-of-a-massive-star/",
+        "publisher": "NASA Science",
+        "evidence": "about two thirds of a light year across along its long axis"
+      }
+    ],
+    "note": "Due terzi di anno luce = 0,667 × 9,461e15 m = 6,3e15 m, entro il 5% dal valore attuale. La nebulosa si sta ancora espandendo e comunicati NASA più recenti parlano in modo più vago di \"circa un anno luce\". Tolta la frase sul valore dell'elenco originale (\"trecento volte più piccola\"): non è un fatto verificabile su una fonte.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "nebulosa-ngc-2392",
+    "size": 9600000000000000,
+    "basis": "diametro del guscio esterno (raggio angolare 23 secondi d'arco, raddoppiato) alla distanza di 1,4 kpc",
+    "verdict": "corrected",
+    "flags": [
+      "r",
+      "u"
+    ],
+    "desc": "NGC 2392 è una nebulosa planetaria nei Gemelli, scoperta da William Herschel nel 1787: una bolla interna spinta dal vento della stella morente e un guscio esterno ornato da filamenti a forma di cometa. Il guscio esterno ha un raggio di 23 secondi d'arco e, a 1,4 kiloparsec, un diametro di circa 9,6 × 10^15 m, ma le stime di distanza vanno da 1,28 a 1,8 kiloparsec. Nel 2020 la NASA ha annunciato che non avrebbe più usato il soprannome \"Nebulosa Eschimese\".",
+    "sources": [
+      {
+        "title": "A Detailed Morpho-Kinematic Model of the Eskimo, NGC 2392. A Unifying View with the Cat's Eye and Saturn Planetary Nebulae",
+        "url": "https://arxiv.org/pdf/1211.6717",
+        "publisher": "García-Díaz et al., The Astrophysical Journal (2012), arXiv",
+        "evidence": "outer shell angular radius r = 23′′ ... adopting a distance D = 1.4 kpc"
+      },
+      {
+        "title": "NGC 2392: A Beautiful End to a Star's Life",
+        "url": "https://chandra.harvard.edu/photo/2013/ngc2392/",
+        "publisher": "Chandra X-ray Center (NASA/SAO)",
+        "evidence": "Image is 1 arcmin across (about 1.2 light years)"
+      },
+      {
+        "title": "NASA to Reexamine Nicknames for Cosmic Objects",
+        "url": "https://www.nasa.gov/solar-system/nasa-to-reexamine-nicknames-for-cosmic-objects/",
+        "publisher": "NASA",
+        "evidence": "will no longer refer to planetary nebula NGC 2392 ... as the “Eskimo Nebula.”"
+      }
+    ],
+    "note": "Da 6,4e15 a 9,6e15 m. Calcolo: 2 × 23\" = 46\"; 46 × 1400 pc = 64.400 UA; × 1,496e11 m = 9,63e15 m. Con le distanze elencate da García-Díaz et al.: 1,28 kpc dà 8,8e15 m, 1,8 kpc dà 1,24e16 m. Controllo indipendente con la scala Chandra (1 arcmin = 1,2 anni luce, distanza 4200 anni luce): 46/60 × 1,2 = 0,92 anni luce = 8,7e15 m. Il valore precedente (0,68 anni luce) è sotto tutto l'intervallo. Aggiunto u per la distanza; la pagina NASA Caldwell 39 indica addirittura 5000 anni luce e data la scoperta al 1787. Tolto il riferimento al valore dell'elenco originale (2 anni luce), non verificabile.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "nebulosa-uovo-marcio",
+    "size": 13000000000000000,
+    "basis": "lunghezza della nebulosa da un'estremità all'altra",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "La Nebulosa Uovo Marcio, detta anche Nebulosa Calabash o OH 231.8+4.2, è il gas espulso da una stella morente a circa 5000 anni luce, nella costellazione della Poppa. È lunga 1,4 anni luce, circa 1,3 × 10^16 m, e deve il soprannome all'abbondanza di zolfo. Secondo la NASA diventerà una nebulosa planetaria completa fra circa 1000 anni.",
+    "sources": [
+      {
+        "title": "Rotten Egg Nebula (PIA04228)",
+        "url": "https://science.nasa.gov/photojournal/rotten-egg-nebula/",
+        "publisher": "NASA/JPL Photojournal",
+        "evidence": "The Calabash Nebula is 1.4 light years (more than 8 trillion miles) long"
+      }
+    ],
+    "note": "1,4 × 9,461e15 m = 1,32e16 m. Lo zolfo è confermato dalla stessa pagina (\"it contains a lot of sulphur\").",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "nebulosa-formica",
+    "size": 19000000000000000,
+    "basis": "lunghezza dei due lobi da un'estremità all'altra (circa 1 primo d'arco); la distanza è incerta",
+    "verdict": "uncertain",
+    "flags": [
+      "u"
+    ],
+    "desc": "La Nebulosa Formica (Menzel 3) è una nebulosa planetaria bipolare nella costellazione del Regolo: due lobi di gas espulsi da una stella morente simile al Sole, che insieme ricordano la testa e il torace di una formica. In cielo è lunga circa 1 primo d'arco. La NASA la pone a circa 3000 anni luce, il che dà 1,6 anni luce (1,5 × 10^16 m), mentre la scheda ESA/Hubble indica 8000 anni luce, che porterebbero la lunghezza a circa 2,2 × 10^16 m.",
+    "sources": [
+      {
+        "title": "The Ant Nebula (Menzel 3): Fiery Lobes Protrude From Dying, Sun-like Star",
+        "url": "https://science.nasa.gov/asset/hubble/the-ant-nebula-menzel-3-fiery-lobes-protrude-from-dying-sun-like-star",
+        "publisher": "NASA Science (STScI)",
+        "evidence": "The object is roughly 1 arcminute or 0.5 pc (1.6 light-years) long."
+      },
+      {
+        "title": "Ants in space?",
+        "url": "https://esahubble.org/images/heic0101a/",
+        "publisher": "ESA/Hubble",
+        "evidence": "Distance: 8000 light years"
+      }
+    ],
+    "note": "Valore mantenuto con flag u perché le due schede istituzionali danno distanze diverse. Calcoli: 0,5 pc = 1,54e16 m (NASA, a 900 pc); a 8000 anni luce 1' = 8000/3438 = 2,33 anni luce = 2,2e16 m. Il valore attuale 1,9e16 m (2,0 anni luce) cade in mezzo ai due.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "nebulosa-boomerang",
+    "size": 36000000000000000,
+    "basis": "diametro del deflusso ultrafreddo osservato da ALMA (raggio di almeno 120.000 UA, raddoppiato)",
+    "verdict": "corrected",
+    "flags": [
+      "r"
+    ],
+    "desc": "La Nebulosa Boomerang è una giovane nebulosa planetaria nel Centauro, a circa 5000 anni luce. Il suo gas in rapida espansione si è raffreddato fino a circa 1 kelvin, meno del fondo cosmico a microonde, e ne fa l'oggetto più freddo conosciuto nell'Universo. Le osservazioni ALMA mostrano che il deflusso ultrafreddo si estende per quasi quattro anni luce, circa 3,6 × 10^16 m.",
+    "sources": [
+      {
+        "title": "The Coldest Place in the Universe: Probing the Ultra-Cold Outflow and Dusty Disk in the Boomerang Nebula",
+        "url": "https://arxiv.org/abs/1703.06929",
+        "publisher": "Sahai, Vlemmings e Nyman, The Astrophysical Journal (2017), arXiv",
+        "evidence": "distant regions of this ultra-cold outflow, out to ≳120,000 AU"
+      },
+      {
+        "title": "True shape of the Boomerang",
+        "url": "https://www.eso.org/public/images/potw1724a/",
+        "publisher": "ESO",
+        "evidence": "span a distance of almost four light-years across the sky"
+      },
+      {
+        "title": "The Boomerang Nebula - the coolest place in the Universe?",
+        "url": "https://esahubble.org/news/heic0301/",
+        "publisher": "ESA/Hubble",
+        "evidence": "With a temperature of -272°C, it is only 1 degree warmer than absolute zero"
+      }
+    ],
+    "note": "Da 1,92e16 a 3,6e16 m. Calcolo: 2 × 120.000 UA = 240.000 UA; × 1,496e11 m = 3,59e16 m = 3,8 anni luce, coerente con \"almost four light-years\" dell'ESO. Il valore precedente (2,0 anni luce) equivale circa al solo raggio (120.000 UA = 1,8e16 m). La misura è un limite inferiore (≳). I lobi visibili nell'immagine Hubble sono più piccoli, ma non ho trovato una fonte primaria che ne dia la misura.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "nebulosa-anello",
+    "size": 9500000000000000,
+    "basis": "diametro dell'anello principale",
+    "verdict": "corrected",
+    "flags": [
+      "r"
+    ],
+    "desc": "La Nebulosa Anello (M57, NGC 6720) è una nebulosa planetaria nella Lira, a circa 2000-2500 anni luce dalla Terra. Secondo la NASA l'anello principale misura circa 1 anno luce, cioè circa 9,5 × 10^15 m. Nel 2023 il telescopio Webb vi ha mostrato circa 20.000 globuli densi ricchi di idrogeno molecolare.",
+    "sources": [
+      {
+        "title": "NASA's Hubble Space Telescope Reveals the Ring Nebula's True Shape",
+        "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-space-telescope-reveals-the-ring-nebulas-true-shape/",
+        "publisher": "NASA Science",
+        "evidence": "about 2,000 light-years from Earth and measures roughly 1 light-year across"
+      },
+      {
+        "title": "Webb captures detailed beauty of Ring Nebula (NIRCam and MIRI images)",
+        "url": "https://esawebb.org/images/weic2320a/",
+        "publisher": "ESA/Webb",
+        "evidence": "There are some 20,000 dense globules in the nebula"
+      }
+    ],
+    "note": "Da 2,5e16 a 9,5e15 m. Calcolo: 1 anno luce = 9,461e15 m. Il valore precedente (2,6 anni luce) non trova riscontro nelle fonti aperte per l'anello principale; potrebbe includere gli aloni esterni più deboli, ma non ho una fonte che ne dia la misura. La pagina Hubble del 1999 (via AstroPix) dice anch'essa \"about a light-year in diameter\". Distanza: 2000 anni luce per la NASA (2013), 2500 per ESA/Webb (2023).",
+    "verified": "2026-11-12"
+  }
+]
