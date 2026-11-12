@@ -1,0 +1,236 @@
+[
+  {
+    "id": "r136a1",
+    "size": 59000000000,
+    "basis": "diametro della stella (due volte il raggio ricavato dall'analisi spettroscopica)",
+    "verdict": "confirmed",
+    "flags": ["n"],
+    "desc": "R136a1 è una stella di tipo Wolf-Rayet nell'ammasso R136, nella Grande Nube di Magellano. L'analisi degli spettri di Hubble le assegna un raggio di circa 42,7 raggi solari, cioè un diametro di circa 59 milioni di km. È la stella più massiccia conosciuta: le stime vanno da 170 a 230 masse solari secondo le osservazioni Gemini del 2022, fino a oltre 250 secondo altri studi.",
+    "sources": [
+      {
+        "title": "The R136 star cluster dissected with Hubble Space Telescope/STIS. III. The most massive stars and their clumped winds",
+        "url": "https://arxiv.org/pdf/2202.11080",
+        "publisher": "Brands et al., Astronomy & Astrophysics (arXiv)",
+        "evidence": "Table 4, R136a1: R⋆/R⊙ 42.7 (+1.6, −0.9)"
+      },
+      {
+        "title": "Sharpest Image Ever of Universe's Most Massive Known Star",
+        "url": "https://noirlab.edu/public/news/noirlab2220/",
+        "publisher": "NSF NOIRLab",
+        "evidence": "may be only 170 to 230 times the mass of the Sun"
+      }
+    ],
+    "note": "Calcolo: 2 × 42,7 × 6,957e8 m = 5,94e10 m, entro l'1% dal valore attuale. La stessa tabella dà 44,9 raggi solari per il fit solo ottico. La massa di 'circa 200 masse solari' della descrizione precedente è sostituita dall'intervallo NOIRLab (170-230) e dalla massa iniziale di almeno 250 di Brands et al.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "aldebaran",
+    "size": 62700000000,
+    "basis": "diametro della stella (due volte il raggio ricavato dal diametro angolare con oscuramento al bordo)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Aldebaran è una gigante arancione di tipo K5 III, la stella più brillante del Toro, a circa 20,4 parsec (67 anni luce) dal Sole. Il suo diametro angolare di circa 20 millesimi di secondo d'arco corrisponde a un raggio di 45,1 raggi solari, cioè a un diametro di circa 62,7 milioni di km. Ha una massa di poco superiore a quella del Sole, circa 1,13 masse solari.",
+    "sources": [
+      {
+        "title": "Long-lived, long-period radial velocity variations in Aldebaran: A planetary companion and stellar activity",
+        "url": "https://arxiv.org/pdf/1505.03454",
+        "publisher": "Hatzes et al., Astronomy & Astrophysics (arXiv)",
+        "evidence": "yielding a radius of 45.1 ± 0.1 R⊙ for the limb-darkened case"
+      }
+    ],
+    "note": "Calcolo: 2 × 45,1 × 6,957e8 m = 6,275e10 m. Il raggio è quello interferometrico di Richichi & Roccatagliata (2005) riportato da Hatzes et al.; lo stesso articolo ricava dalle tracce evolutive un valore più piccolo (36,68 ± 2,46 raggi solari) ma adotta quello interferometrico.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "polare",
+    "size": 64000000000,
+    "basis": "diametro medio della stella Polaris Aa (due volte il raggio medio ricavato dal diametro angolare CHARA e dalla distanza Gaia)",
+    "verdict": "confirmed",
+    "flags": ["r"],
+    "desc": "La Stella Polare (Polaris Aa) è una supergigante gialla e la variabile Cefeide più vicina, a circa 137 parsec (447 anni luce). L'interferometro CHARA ne ha misurato un diametro angolare medio di 3,143 millesimi di secondo d'arco, pari a un raggio di 46,3 raggi solari e a un diametro di circa 64 milioni di km. Dall'orbita della compagna, che dura circa 30 anni, si ricava una massa di 5,13 masse solari.",
+    "sources": [
+      {
+        "title": "The Orbit and Dynamical Mass of Polaris: Observations with the CHARA Array",
+        "url": "https://arxiv.org/pdf/2407.09641",
+        "publisher": "Evans et al., The Astrophysical Journal (arXiv)",
+        "evidence": "corresponds to a mean radius of 46.27 ± 0.42 R⊙"
+      }
+    ],
+    "note": "Calcolo: 2 × 46,27 × 6,957e8 m = 6,44e10 m. Tolta la frase 'L'originale: 40 milioni di km': è una nota sulla lista del 2012 che non ho potuto verificare su una fonte. Il diametro varia leggermente con la pulsazione; il valore è la media. 'La Cefeide più vicina' è un'affermazione corrente ma non è scritta nella fonte aperta: da ammorbidire se si vuole restare strettamente alla fonte.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "albireo-a",
+    "size": 82000000000,
+    "basis": "diametro della gigante Albireo Aa (due volte il raggio ricavato dal diametro angolare NPOI e dalla parallasse)",
+    "verdict": "confirmed",
+    "flags": ["r"],
+    "desc": "Albireo A è la componente arancione della celebre stella doppia del Cigno, una gigante luminosa di tipo K. L'interferometro NPOI ne ha misurato un diametro angolare di 4,904 millesimi di secondo d'arco, che corrisponde a un raggio di circa 58,7 raggi solari e a un diametro di circa 82 milioni di km. Non è una stella singola: ha almeno una compagna stretta, con un periodo orbitale di circa 122 anni.",
+    "sources": [
+      {
+        "title": "Thirty-Three New Stellar Angular Diameters from the NPOI, and Nearly 180 NPOI Diameters as an Ensemble",
+        "url": "https://arxiv.org/pdf/2505.23514",
+        "publisher": "Baines et al., The Astronomical Journal (arXiv)",
+        "evidence": "183912: θLD 4.904±0.035 mas; R 58.69 (+2.83, −3.12) R⊙"
+      }
+    ],
+    "note": "Calcolo: 2 × 58,69 × 6,957e8 m = 8,17e10 m. Tolta la frase 'L'originale: 22 milioni di km' (nota sulla lista del 2012, non verificabile su una fonte). Il periodo di 121,65 anni è quello di Drimmel et al. (2021) riportato nello stesso articolo di Baines et al.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "rigel",
+    "size": 108000000000,
+    "basis": "diametro della stella (due volte il raggio ricavato dal diametro angolare interferometrico e dalla distanza Hipparcos)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Rigel è una supergigante blu di tipo B8 Ia, la stella più brillante di Orione. Il diametro angolare di 2,75 millesimi di secondo d'arco, misurato con l'interferometro CHARA, corrisponde a un raggio di 78,9 ± 7,4 raggi solari, cioè a un diametro di circa 110 milioni di km. È una delle stelle più vicine destinate a esplodere come supernova di tipo II.",
+    "sources": [
+      {
+        "title": "Asteroseismology of the Nearby SN-II Progenitor: Rigel. Part I. The MOST High Precision Photometry and Radial Velocity Monitoring",
+        "url": "https://arxiv.org/pdf/1201.0843",
+        "publisher": "Moravveji et al., The Astrophysical Journal (arXiv)",
+        "evidence": "in combination with dHip yields R = 78.9±7.4R⊙"
+      }
+    ],
+    "note": "Calcolo: 2 × 78,9 × 6,957e8 m = 1,098e11 m, entro il 2% dal valore attuale (1,08e11 m) e molto dentro l'errore di misura (circa 9%).",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "gacrux",
+    "size": 100000000000,
+    "basis": "diametro della stella (diametro angolare interferometrico per la distanza da parallasse; equivale a due volte il raggio)",
+    "verdict": "corrected",
+    "flags": ["r"],
+    "desc": "Gacrux (Gamma Crucis) è la gigante rossa di tipo M3,5 III in cima alla Croce del Sud, a circa 27 parsec (88 anni luce) dal Sole. Il diametro angolare di 24,7 millesimi di secondo d'arco corrisponde a un raggio di circa 73 raggi solari, cioè a un diametro di circa 100 milioni di km. È una delle giganti rosse più vicine a noi.",
+    "sources": [
+      {
+        "title": "The Advanced Spectral Library: The Evolution of Chromospheric Wind Characteristics from Noncoronal to Hybrid Giant Stars",
+        "url": "https://iopscience.iop.org/article/10.3847/1538-4357/acdcf1",
+        "publisher": "Nielsen et al., The Astrophysical Journal",
+        "evidence": "γ Cru: Π (arcsec) 0.037; Radius (R☉) 73; Ang. diameter (mas) 24.7"
+      }
+    ],
+    "note": "Corretto da 1,67e11 m (120 raggi solari) a 1,0e11 m. La tabella 2 di Nielsen et al. dà 73 raggi solari (da temperatura e luminosità di Ohnaka 2014) e un diametro angolare di 24,7 mas (Glindemann et al. 2001) con parallasse 0,037 arcsec. Calcoli: 2 × 73 × 6,957e8 m = 1,016e11 m; in alternativa 0,0247 arcsec × (1/0,037) pc = 0,668 UA = 9,99e10 m. I due metodi concordano entro il 2%; non ho trovato alcuna fonte primaria per 120 raggi solari. 'Una delle giganti rosse più vicine' è un'affermazione corrente non scritta nella fonte aperta.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "deneb",
+    "size": 280000000000,
+    "basis": "diametro della stella (due volte il raggio; il raggio dipende dalla distanza adottata)",
+    "verdict": "uncertain",
+    "flags": ["u"],
+    "desc": "Deneb è una supergigante bianca di tipo A2, la stella più brillante del Cigno. La sua distanza è mal conosciuta e con essa il raggio: l'analisi spettroscopica a 802 parsec dà 203 ± 17 raggi solari (circa 280 milioni di km di diametro), mentre il diametro angolare NPOI con la parallasse Hipparcos (circa 433 parsec) dà circa 117 raggi solari. In entrambi i casi è una delle stelle intrinsecamente più luminose visibili a occhio nudo, con circa 196.000 volte la luminosità del Sole nella stima più alta.",
+    "sources": [
+      {
+        "title": "Quantitative spectroscopy of Deneb",
+        "url": "https://arxiv.org/pdf/0712.0040",
+        "publisher": "Schiller & Przybilla, Astronomy & Astrophysics (arXiv)",
+        "evidence": "a radius of 203 ± 17 R⊙"
+      },
+      {
+        "title": "Vintage NPOI: New and Updated Angular Diameters for 145 Stars",
+        "url": "https://arxiv.org/pdf/2506.02912",
+        "publisher": "Baines et al., The Astronomical Journal (arXiv)",
+        "evidence": "197345: θLD 2.512±0.029 mas; R 116.87 (+14.28, −18.84) R⊙"
+      }
+    ],
+    "note": "Il valore attuale corrisponde alla stima di Schiller & Przybilla: 2 × 203 × 6,957e8 m = 2,82e11 m. La stima di Baines et al. (parallasse 2,31 ± 0,32 mas, cioè 1000/2,31 = 433 pc) darebbe 2 × 116,87 × 6,957e8 m = 1,63e11 m. Intervallo: circa 117-203 raggi solari, quindi 1,6e11-2,8e11 m.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "enif",
+    "size": 254000000000,
+    "basis": "diametro della stella (due volte il raggio ricavato dal diametro angolare NPOI e dalla parallasse Hipparcos)",
+    "verdict": "corrected",
+    "flags": ["r"],
+    "desc": "Enif (Epsilon Pegasi) è una supergigante arancione di tipo K2, la stella più brillante di Pegaso, a circa 211 parsec (690 anni luce). L'interferometro NPOI ne ha misurato un diametro angolare di 8,038 millesimi di secondo d'arco, che corrisponde a un raggio di circa 183 raggi solari e a un diametro di circa 254 milioni di km. La sua luminosità è circa 8.500 volte quella del Sole.",
+    "sources": [
+      {
+        "title": "Vintage NPOI: New and Updated Angular Diameters for 145 Stars",
+        "url": "https://arxiv.org/pdf/2506.02912",
+        "publisher": "Baines et al., The Astronomical Journal (arXiv)",
+        "evidence": "206778: θLD 8.038±0.023 mas; R 182.63 (+6.36, −6.83) R⊙"
+      }
+    ],
+    "note": "Corretto da 2,9e11 m (circa 208 raggi solari) a 2,54e11 m: 2 × 182,63 × 6,957e8 m = 2,541e11 m. Distanza: parallasse 4,73 ± 0,17 mas, 1000/4,73 = 211 pc. Il valore precedente è più alto del 14% e non trova riscontro nella fonte; è probabile che derivi da un '211' che è in realtà la distanza in parsec. Luminosità 8508 L⊙ dalla stessa tabella. Tolta la frase 'L'originale: 160 milioni di km' (nota sulla lista del 2012, non verificabile su una fonte).",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "r-doradus",
+    "size": 415000000000,
+    "basis": "diametro della fotosfera nell'infrarosso (diametro angolare con oscuramento al bordo per la distanza Hipparcos)",
+    "verdict": "confirmed",
+    "flags": ["r"],
+    "desc": "R Doradus è una gigante rossa variabile a circa 55 parsec (180 anni luce), la stella del ramo asintotico più vicina a noi. Il suo diametro angolare nell'infrarosso, 51,2 millesimi di secondo d'arco, corrisponde a un diametro di circa 415 milioni di km, intorno a 300 volte quello del Sole. Nel 2024 ALMA ne ha ripreso la superficie, seguendo bolle di gas caldo grandi 75 volte il Sole che affiorano e sprofondano nel giro di un mese.",
+    "sources": [
+      {
+        "title": "Infrared Interferometric Three-dimensional Diagnosis of the Atmospheric Dynamics of the AGB Star R Dor with VLTI/AMBER",
+        "url": "https://arxiv.org/pdf/1908.06997",
+        "publisher": "Ohnaka, Weigelt & Hofmann, The Astrophysical Journal (arXiv)",
+        "evidence": "limb-darkened disk diameter of 51.18±2.24 mas"
+      },
+      {
+        "title": "Astronomers track bubbles on star's surface in most detailed video yet",
+        "url": "https://www.eso.org/public/news/eso2412/",
+        "publisher": "European Southern Observatory (ESO)",
+        "evidence": "giant, hot bubbles of gas, 75 times the size of the Sun"
+      }
+    ],
+    "note": "Calcolo: parallasse 18,31 mas, distanza 1000/18,31 = 54,6 pc; 0,05118 arcsec × 54,6 pc = 2,795 UA = 4,18e11 m, entro l'1% dal valore attuale. Il comunicato ESO indica in modo approssimato 'roughly 350 times' il diametro del Sole (circa 4,9e11 m): alle lunghezze d'onda millimetriche di ALMA la stella appare più grande. Ho tenuto la misura infrarossa della fotosfera.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "pistol-star",
+    "size": 430000000000,
+    "basis": "diametro della stella (due volte il raggio a profondità ottica 2/3 del modello di atmosfera)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "La Pistol Star è una variabile blu luminosa nell'ammasso del Quintupletto, vicino al centro della Via Lattea. I modelli di atmosfera le assegnano un raggio di 306 raggi solari, cioè un diametro di circa 430 milioni di km, e una luminosità di circa 1,6 milioni di volte quella del Sole. La polvere del piano galattico la nasconde alla luce visibile: si studia nell'infrarosso.",
+    "sources": [
+      {
+        "title": "Metallicity in the Galactic Center: The Quintuplet cluster",
+        "url": "https://arxiv.org/pdf/0809.3185",
+        "publisher": "Najarro et al., The Astrophysical Journal (arXiv)",
+        "evidence": "Pistol: L∗ (10^6 L⊙) 1.60; R2/3 (R⊙) 306"
+      }
+    ],
+    "note": "Calcolo: 2 × 306 × 6,957e8 m = 4,26e11 m, entro l'1% dal valore attuale. La fonte la classifica come variabile blu luminosa (LBV), non come 'ipergigante blu': ho adeguato la descrizione. L'analisi di Najarro et al. usa spettri infrarossi; la frase sull'oscuramento da polvere è un fatto noto ma non è una citazione della fonte.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "la-superba",
+    "size": 480000000000,
+    "basis": "diametro della stella (due volte il raggio calcolato da luminosità e temperatura efficace)",
+    "verdict": "corrected",
+    "flags": ["u", "r"],
+    "desc": "La Superba (Y Canum Venaticorum) è una stella al carbonio di tipo J nei Cani da Caccia, di un rosso molto intenso. Il suo raggio non è misurato direttamente: da una luminosità di circa 6.200 volte quella del Sole e da una temperatura di circa 2.760 K si ricavano circa 340 raggi solari a 218 parsec, cioè circa 480 milioni di km di diametro, e fino a circa 430 raggi solari se la distanza è di 272 parsec. È circondata da un guscio di gas e polvere espulso in passato.",
+    "sources": [
+      {
+        "title": "The formation of a detached shell around the carbon star Y CVn",
+        "url": "https://arxiv.org/pdf/0706.4211",
+        "publisher": "Libert, Gérard & Le Bertre, Monthly Notices of the Royal Astronomical Society (arXiv)",
+        "evidence": "∼ 6200 L⊙ at 218 pc; effective temperature is ∼ 2760 K"
+      }
+    ],
+    "note": "Corretto da 4,4e11 m (316 raggi solari) a 4,8e11 m, e segnato come incerto. Derivazione dalla legge di Stefan-Boltzmann con temperatura solare nominale 5772 K: R = √6200 × (5772/2760)² = 78,7 × 4,374 = 344 raggi solari; 2 × 344 × 6,957e8 m = 4,79e11 m. La luminosità scala con il quadrato della distanza: a 272 pc (parallasse rivista citata nello stesso articolo) R = 344 × 272/218 = 430 raggi solari (6,0e11 m). Il valore precedente (circa 315 raggi solari) compare in Wikipedia con rimando a un catalogo VizieR che non si è aperto (CDS non raggiungibile) e quindi non è citato. Non ho trovato una fonte primaria apribile per 'tra le più rosse del cielo': ho scritto solo 'di un rosso molto intenso'.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "s-doradus",
+    "size": 500000000000,
+    "basis": "diametro della stella vicino al massimo di luce (due volte il raggio; il raggio varia nel tempo)",
+    "verdict": "uncertain",
+    "flags": ["u"],
+    "desc": "S Doradus è una variabile blu luminosa nella Grande Nube di Magellano, prototipo della classe di variabili che porta il suo nome. Il suo raggio cambia davvero nel tempo: da circa 100 raggi solari al minimo di luce a circa 380 al massimo, cioè da circa 140 a 530 milioni di km di diametro. Intanto la temperatura superficiale scende da circa 20.000 a 9.000 K.",
+    "sources": [
+      {
+        "title": "Observations and Interpretation of Luminous Blue Variables",
+        "url": "https://cambridge.org/core/services/aop-cambridge-core/content/view/0E8F037B67C0649A53A8A8EAA2E1BE0F/S0252921100036940a.pdf/observations-and-interpretation-of-luminous-blue-variables.pdf",
+        "publisher": "H. J. G. L. M. Lamers, IAU Colloquium 155, ASP Conference Series vol. 83 (Cambridge University Press)",
+        "evidence": "the radius of the star varies between 100 and 380 R⊙"
+      }
+    ],
+    "note": "Il valore attuale (5,0e11 m, circa 359 raggi solari) cade vicino al massimo dell'intervallo. Calcoli: 2 × 100 × 6,957e8 m = 1,39e11 m; 2 × 380 × 6,957e8 m = 5,29e11 m. La fonte è del 1995 ed è basata su modelli di atmosfera, non su una misura diretta del diametro.",
+    "verified": "2026-11-12"
+  }
+]

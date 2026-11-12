@@ -17,6 +17,9 @@ Aggiornato dopo ogni ondata. Le correzioni sono già applicate ai dati; le decis
 | West Virginia | 400 km | 426 km | Worldmark Encyclopedia of the States (Gale, via Encyclopedia.com): estensione est–ovest |
 | Idra (luna di Plutone) | 51 km | 62 km | NASA NSSDCA Pluto Fact Sheet (62,0 × 36,5 × 29,3 km, asse più lungo); Weaver e colleghi 2016 danno 65 × 45 × 25 km |
 | Stella di Luyten | 4,9 × 10⁸ m | 4,44 × 10⁸ m | Pineda e colleghi 2021 (ApJ, arXiv 2106.07656): raggio 0,319 R☉ |
+| Gacrux | 1,67 × 10¹¹ m | 1,0 × 10¹¹ m | Nielsen e colleghi 2023 (ApJ): raggio 73 R☉ |
+| Enif | 2,9 × 10¹¹ m | 2,54 × 10¹¹ m | Baines e colleghi 2025 (arXiv 2506.02912): raggio 182,6 R☉ |
+| La Superba | 4,4 × 10¹¹ m | 4,8 × 10¹¹ m | derivato con la legge di Stefan-Boltzmann da luminosità e temperatura (arXiv 0706.4211); segnato incerto |
 
 ## Decisioni aperte
 
@@ -56,6 +59,14 @@ Aggiornato dopo ogni ondata. Le correzioni sono già applicate ai dati; le decis
 33. **Gliese 229 B**: oggi è nota come binaria (due nane brune di 38 e 34 masse gioviane) e nessuna componente ha un raggio misurato. Lasciata a 1,3 × 10⁸ m, segnata incerta: tenerla così, rinominarla o toglierla.
 34. **Proxima Centauri**: confermata sul raggio adottato (0,1542 R☉); l'interferometria diretta dà 0,141 R☉, il 9% in meno.
 35. **Gliese 229 A**: il raggio è citato di seconda mano da una tabella di confronto (Gaidos 2014 via Calamari 2022).
+36. **VV Cephei B**: raggio solo stimato (13–25 R☉); unica fonte aperta una scheda della British Astronomical Association. Segnata incerta.
+37. **Alnitak**: 20 ± 3,2 R☉, dipende dalla distanza adottata (387 o 294 pc). Segnata incerta.
+38. **Altair, Vega, Regolo**: stelle schiacciate dalla rotazione, confermate come diametri medi; i diametri equatoriali sarebbero 2,82, 3,79 e 5,86 × 10⁹ m. Stesso criterio da fissare della decisione 24.
+39. **Pollux**: la fonte dà 8,8 R☉ (1,22 × 10¹⁰ m); il valore attuale è il 2,9% più alto, lasciato.
+40. **La Superba**: il nuovo valore è un calcolo (Stefan-Boltzmann), non una misura diretta. In alternativa: tenere 4,4 × 10¹¹ m segnato incerto.
+41. **Deneb**: 203 ± 17 R☉ (Schiller e Przybilla, valore attuale) contro circa 117 R☉ (Baines e colleghi 2025, con parallasse incerta). Segnata incerta.
+42. **S Doradus**: il raggio varia tra 100 e 380 R☉; il valore attuale (circa 359 R☉) è vicino al massimo. Segnata incerta.
+43. **Pistol Star**: la fonte la classifica come variabile blu luminosa (LBV), non come ipergigante blu.
 
 ## Da sistemare prima di chiudere la fase
 
@@ -70,8 +81,8 @@ Aggiornato dopo ogni ondata. Le correzioni sono già applicate ai dati; le decis
 
 ## Avanzamento
 
-Lotti applicati: black-holes, particles-1/2, atoms-1/2, waves-1/2, molecules-1/2, units-1/2/3, biology-1/2/3/4/5, objects-1/2/3/4/5, places-1/2/3/4, solar-system-1/2/3/4/5, stars-1 (305 oggetti su 447).
+Lotti applicati: black-holes, particles-1/2, atoms-1/2, waves-1/2, molecules-1/2, units-1/2/3, biology-1/2/3/4/5, objects-1/2/3/4/5, places-1/2/3/4, solar-system-1/2/3/4/5, stars-1/2/3 (329 oggetti su 447).
 
-Lotti da fare: stars-2/3/4, distances-1/2/3, nebulae-1/2/3, galaxies-1/2, cosmic-1/2.
+Lotti da fare: stars-4, distances-1/2/3, nebulae-1/2/3, galaxies-1/2, cosmic-1/2.
 
 Per ogni lotto: `node scripts/apply-research.mjs --check`, `node scripts/check-links.mjs`, campione di fonti riletto in modo indipendente, poi `node scripts/apply-research.mjs`, `npm run validate`, `npm test`, commit.

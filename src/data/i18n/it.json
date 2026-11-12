@@ -1378,23 +1378,23 @@
     },
     "r136a1": {
       "name": "R136a1",
-      "desc": "La stella più massiccia nota: circa 200 masse solari."
+      "desc": "R136a1 è una stella di tipo Wolf-Rayet nell'ammasso R136, nella Grande Nube di Magellano. L'analisi degli spettri di Hubble le assegna un raggio di circa 42,7 raggi solari, cioè un diametro di circa 59 milioni di km. È la stella più massiccia conosciuta: le stime vanno da 170 a 230 masse solari secondo le osservazioni Gemini del 2022, fino a oltre 250 secondo altri studi."
     },
     "aldebaran": {
       "name": "Aldebaran",
-      "desc": ""
+      "desc": "Aldebaran è una gigante arancione di tipo K5 III, la stella più brillante del Toro, a circa 20,4 parsec (67 anni luce) dal Sole. Il suo diametro angolare di circa 20 millesimi di secondo d'arco corrisponde a un raggio di 45,1 raggi solari, cioè a un diametro di circa 62,7 milioni di km. Ha una massa di poco superiore a quella del Sole, circa 1,13 masse solari."
     },
     "polare": {
       "name": "Polare",
-      "desc": "L'originale: 40 milioni di km."
+      "desc": "La Stella Polare (Polaris Aa) è una supergigante gialla e la variabile Cefeide più vicina, a circa 137 parsec (447 anni luce). L'interferometro CHARA ne ha misurato un diametro angolare medio di 3,143 millesimi di secondo d'arco, pari a un raggio di 46,3 raggi solari e a un diametro di circa 64 milioni di km. Dall'orbita della compagna, che dura circa 30 anni, si ricava una massa di 5,13 masse solari."
     },
     "albireo-a": {
       "name": "Albireo A",
-      "desc": "L'originale: 22 milioni di km."
+      "desc": "Albireo A è la componente arancione della celebre stella doppia del Cigno, una gigante luminosa di tipo K. L'interferometro NPOI ne ha misurato un diametro angolare di 4,904 millesimi di secondo d'arco, che corrisponde a un raggio di circa 58,7 raggi solari e a un diametro di circa 82 milioni di km. Non è una stella singola: ha almeno una compagna stretta, con un periodo orbitale di circa 122 anni."
     },
     "rigel": {
       "name": "Rigel",
-      "desc": ""
+      "desc": "Rigel è una supergigante blu di tipo B8 Ia, la stella più brillante di Orione. Il diametro angolare di 2,75 millesimi di secondo d'arco, misurato con l'interferometro CHARA, corrisponde a un raggio di 78,9 ± 7,4 raggi solari, cioè a un diametro di circa 110 milioni di km. È una delle stelle più vicine destinate a esplodere come supernova di tipo II."
     },
     "distanza-terra-sole": {
       "name": "Distanza Terra–Sole",
@@ -1402,31 +1402,31 @@
     },
     "gacrux": {
       "name": "Gacrux",
-      "desc": ""
+      "desc": "Gacrux (Gamma Crucis) è la gigante rossa di tipo M3,5 III in cima alla Croce del Sud, a circa 27 parsec (88 anni luce) dal Sole. Il diametro angolare di 24,7 millesimi di secondo d'arco corrisponde a un raggio di circa 73 raggi solari, cioè a un diametro di circa 100 milioni di km. È una delle giganti rosse più vicine a noi."
     },
     "deneb": {
       "name": "Deneb",
-      "desc": "La distanza è incerta, e con lei il raggio."
+      "desc": "Deneb è una supergigante bianca di tipo A2, la stella più brillante del Cigno. La sua distanza è mal conosciuta e con essa il raggio: l'analisi spettroscopica a 802 parsec dà 203 ± 17 raggi solari (circa 280 milioni di km di diametro), mentre il diametro angolare NPOI con la parallasse Hipparcos (circa 433 parsec) dà circa 117 raggi solari. In entrambi i casi è una delle stelle intrinsecamente più luminose visibili a occhio nudo, con circa 196.000 volte la luminosità del Sole nella stima più alta."
     },
     "enif": {
       "name": "Enif",
-      "desc": "L'originale: 160 milioni di km."
+      "desc": "Enif (Epsilon Pegasi) è una supergigante arancione di tipo K2, la stella più brillante di Pegaso, a circa 211 parsec (690 anni luce). L'interferometro NPOI ne ha misurato un diametro angolare di 8,038 millesimi di secondo d'arco, che corrisponde a un raggio di circa 183 raggi solari e a un diametro di circa 254 milioni di km. La sua luminosità è circa 8.500 volte quella del Sole."
     },
     "r-doradus": {
       "name": "R Doradus",
-      "desc": "Nel 2024 ALMA ne ha filmato le bolle di gas in superficie, grandi 75 volte il Sole."
+      "desc": "R Doradus è una gigante rossa variabile a circa 55 parsec (180 anni luce), la stella del ramo asintotico più vicina a noi. Il suo diametro angolare nell'infrarosso, 51,2 millesimi di secondo d'arco, corrisponde a un diametro di circa 415 milioni di km, intorno a 300 volte quello del Sole. Nel 2024 ALMA ne ha ripreso la superficie, seguendo bolle di gas caldo grandi 75 volte il Sole che affiorano e sprofondano nel giro di un mese."
     },
     "pistol-star": {
       "name": "Pistol Star",
-      "desc": "Ipergigante blu vicino al centro galattico."
+      "desc": "La Pistol Star è una variabile blu luminosa nell'ammasso del Quintupletto, vicino al centro della Via Lattea. I modelli di atmosfera le assegnano un raggio di 306 raggi solari, cioè un diametro di circa 430 milioni di km, e una luminosità di circa 1,6 milioni di volte quella del Sole. La polvere del piano galattico la nasconde alla luce visibile: si studia nell'infrarosso."
     },
     "la-superba": {
       "name": "La Superba",
-      "desc": "Stella al carbonio tra le più rosse del cielo."
+      "desc": "La Superba (Y Canum Venaticorum) è una stella al carbonio di tipo J nei Cani da Caccia, di un rosso molto intenso. Il suo raggio non è misurato direttamente: da una luminosità di circa 6.200 volte quella del Sole e da una temperatura di circa 2.760 K si ricavano circa 340 raggi solari a 218 parsec, cioè circa 480 milioni di km di diametro, e fino a circa 430 raggi solari se la distanza è di 272 parsec. È circondata da un guscio di gas e polvere espulso in passato."
     },
     "s-doradus": {
       "name": "S Doradus",
-      "desc": "Variabile blu luminosa: il raggio cambia di molto nel tempo."
+      "desc": "S Doradus è una variabile blu luminosa nella Grande Nube di Magellano, prototipo della classe di variabili che porta il suo nome. Il suo raggio cambia davvero nel tempo: da circa 100 raggi solari al minimo di luce a circa 380 al massimo, cioè da circa 140 a 530 milioni di km di diametro. Intanto la temperatura superficiale scende da circa 20.000 a 9.000 K."
     },
     "v838-monocerotis": {
       "name": "V838 Monocerotis",

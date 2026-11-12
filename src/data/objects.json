@@ -6449,8 +6449,19 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "The R136 star cluster dissected with Hubble Space Telescope/STIS. III. The most massive stars and their clumped winds",
+        "url": "https://arxiv.org/pdf/2202.11080",
+        "publisher": "Brands et al., Astronomy & Astrophysics (arXiv)"
+      },
+      {
+        "title": "Sharpest Image Ever of Universe's Most Massive Known Star",
+        "url": "https://noirlab.edu/public/news/noirlab2220/",
+        "publisher": "NSF NOIRLab"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "aldebaran",
@@ -6459,8 +6470,14 @@
     "glyph": "#ffa66b",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Long-lived, long-period radial velocity variations in Aldebaran: A planetary companion and stellar activity",
+        "url": "https://arxiv.org/pdf/1505.03454",
+        "publisher": "Hatzes et al., Astronomy & Astrophysics (arXiv)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "polare",
@@ -6471,8 +6488,14 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "The Orbit and Dynamical Mass of Polaris: Observations with the CHARA Array",
+        "url": "https://arxiv.org/pdf/2407.09641",
+        "publisher": "Evans et al., The Astrophysical Journal (arXiv)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "albireo-a",
@@ -6483,8 +6506,32 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Thirty-Three New Stellar Angular Diameters from the NPOI, and Nearly 180 NPOI Diameters as an Ensemble",
+        "url": "https://arxiv.org/pdf/2505.23514",
+        "publisher": "Baines et al., The Astronomical Journal (arXiv)"
+      }
+    ],
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "gacrux",
+    "size": 100000000000,
+    "kind": "s",
+    "glyph": "#ff8a5c",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [
+      {
+        "title": "The Advanced Spectral Library: The Evolution of Chromospheric Wind Characteristics from Noncoronal to Hybrid Giant Stars",
+        "url": "https://iopscience.iop.org/article/10.3847/1538-4357/acdcf1",
+        "publisher": "Nielsen et al., The Astrophysical Journal"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "rigel",
@@ -6493,8 +6540,14 @@
     "glyph": "#a9c4ff",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Asteroseismology of the Nearby SN-II Progenitor: Rigel. Part I. The MOST High Precision Photometry and Radial Velocity Monitoring",
+        "url": "https://arxiv.org/pdf/1201.0843",
+        "publisher": "Moravveji et al., The Astrophysical Journal (arXiv)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "distanza-terra-sole",
@@ -6507,14 +6560,22 @@
     "verified": null
   },
   {
-    "id": "gacrux",
-    "size": 167000000000,
+    "id": "enif",
+    "size": 254000000000,
     "kind": "s",
-    "glyph": "#ff8a5c",
-    "flags": [],
+    "glyph": "#ffb27a",
+    "flags": [
+      "r"
+    ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Vintage NPOI: New and Updated Angular Diameters for 145 Stars",
+        "url": "https://arxiv.org/pdf/2506.02912",
+        "publisher": "Baines et al., The Astronomical Journal (arXiv)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "deneb",
@@ -6525,20 +6586,19 @@
       "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
-  },
-  {
-    "id": "enif",
-    "size": 290000000000,
-    "kind": "s",
-    "glyph": "#ffb27a",
-    "flags": [
-      "r"
+    "sources": [
+      {
+        "title": "Quantitative spectroscopy of Deneb",
+        "url": "https://arxiv.org/pdf/0712.0040",
+        "publisher": "Schiller & Przybilla, Astronomy & Astrophysics (arXiv)"
+      },
+      {
+        "title": "Vintage NPOI: New and Updated Angular Diameters for 145 Stars",
+        "url": "https://arxiv.org/pdf/2506.02912",
+        "publisher": "Baines et al., The Astronomical Journal (arXiv)"
+      }
     ],
-    "image": null,
-    "sources": [],
-    "verified": null
+    "verified": "2026-11-12"
   },
   {
     "id": "r-doradus",
@@ -6549,8 +6609,19 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Infrared Interferometric Three-dimensional Diagnosis of the Atmospheric Dynamics of the AGB Star R Dor with VLTI/AMBER",
+        "url": "https://arxiv.org/pdf/1908.06997",
+        "publisher": "Ohnaka, Weigelt & Hofmann, The Astrophysical Journal (arXiv)"
+      },
+      {
+        "title": "Astronomers track bubbles on star's surface in most detailed video yet",
+        "url": "https://www.eso.org/public/news/eso2412/",
+        "publisher": "European Southern Observatory (ESO)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "pistol-star",
@@ -6559,18 +6630,33 @@
     "glyph": "#a9c4ff",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Metallicity in the Galactic Center: The Quintuplet cluster",
+        "url": "https://arxiv.org/pdf/0809.3185",
+        "publisher": "Najarro et al., The Astrophysical Journal (arXiv)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "la-superba",
-    "size": 440000000000,
+    "size": 480000000000,
     "kind": "s",
     "glyph": "#ff5a3c",
-    "flags": [],
+    "flags": [
+      "u",
+      "r"
+    ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "The formation of a detached shell around the carbon star Y CVn",
+        "url": "https://arxiv.org/pdf/0706.4211",
+        "publisher": "Libert, Gérard & Le Bertre, Monthly Notices of the Royal Astronomical Society (arXiv)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "s-doradus",
@@ -6581,8 +6667,14 @@
       "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Observations and Interpretation of Luminous Blue Variables",
+        "url": "https://cambridge.org/core/services/aop-cambridge-core/content/view/0E8F037B67C0649A53A8A8EAA2E1BE0F/S0252921100036940a.pdf/observations-and-interpretation-of-luminous-blue-variables.pdf",
+        "publisher": "H. J. G. L. M. Lamers, IAU Colloquium 155, ASP Conference Series vol. 83 (Cambridge University Press)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "v838-monocerotis",
