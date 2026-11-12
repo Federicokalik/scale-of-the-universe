@@ -1,0 +1,272 @@
+[
+  {
+    "id": "messier-14",
+    "size": 6.8e17,
+    "basis": "diametro dell'ammasso (estensione visibile, valore convenzionale)",
+    "verdict": "corrected",
+    "flags": ["r", "u"],
+    "desc": "Messier 14 è un ammasso globulare nella costellazione di Ofiuco, a circa 29.000 anni luce dalla Terra, che contiene oltre 150.000 stelle. NOIRLab gli attribuisce un diametro di circa 72 anni luce, ma un ammasso globulare non ha un bordo netto e altre stime arrivano a circa 100 anni luce. Fu scoperto da Charles Messier nel 1764.",
+    "sources": [
+      {
+        "title": "M14, NGC 6402",
+        "url": "https://noirlab.edu/public/images/noao-m14/",
+        "publisher": "NOIRLab (NSF)",
+        "evidence": "about 29000 light-years away and about 72 light-years across"
+      },
+      {
+        "title": "Messier 14",
+        "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-14/",
+        "publisher": "NASA Science",
+        "evidence": "home to over 150,000 stars ... located 29,000 light-years away"
+      }
+    ],
+    "note": "Da 9,5e17 m (100 anni luce) a 6,8e17 m: 72 anni luce × 9,4607e15 m = 6,81e17 m. L'unica fonte istituzionale che ho potuto aprire con un diametro lineare è NOIRLab (72 anni luce). Il valore di 100 anni luce è quello diffuso da SEDS e da siti divulgativi, ma messier.seds.org non era raggiungibile da questa sessione e SIMBAD era fuori servizio, quindi non lo cito come fonte; resta menzionato nella descrizione come stima alternativa e per questo ho aggiunto il flag u. La vecchia descrizione (\"Ammasso globulare.\") è stata ampliata.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "nebulosa-laguna",
+    "size": 9.5e17,
+    "basis": "estensione massima della nebulosa (dimensione angolare × distanza)",
+    "verdict": "corrected",
+    "flags": ["r", "u"],
+    "desc": "La Nebulosa Laguna (Messier 8) è una grande nube di gas e polveri nel Sagittario in cui nascono nuove stelle, visibile anche a occhio nudo sotto cieli bui. Secondo l'ESO dista circa 5.000 anni luce e si estende per circa 100 anni luce, ma le stime variano: ESA/Hubble indica 55 anni luce a una distanza di 4.000. Al suo interno si trova il giovane ammasso stellare NGC 6530.",
+    "sources": [
+      {
+        "title": "The VLT Survey Telescope Snaps the Lagoon Nebula (eso1403)",
+        "url": "https://www.eso.org/public/news/eso1403/",
+        "publisher": "ESO",
+        "evidence": "a giant cloud 100 light-years across"
+      },
+      {
+        "title": "Hubble's Lagoon Nebula (heic1808)",
+        "url": "https://esahubble.org/news/heic1808/",
+        "publisher": "ESA/Hubble",
+        "evidence": "a colossal object 55 light-year wide and 20 light-years tall"
+      },
+      {
+        "title": "Messier 8",
+        "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-8/",
+        "publisher": "NASA Science",
+        "evidence": "M8 is home to its own star cluster: NGC 6530"
+      }
+    ],
+    "note": "Da 1,04e18 m (110 anni luce) a 9,5e17 m: 100 anni luce × 9,4607e15 m = 9,46e17 m. Il valore di 110 anni luce (110 × 50) compare solo su Wikipedia e siti divulgativi; ESO e NASA APOD (\"nearly 100 light-years across\", https://apod.nasa.gov/apod/ap220808.html) danno circa 100. ESA/Hubble dà invece 55 × 20 anni luce con una distanza di 4.000 anni luce: le fonti istituzionali non concordano né sulla distanza (4.000-5.200 anni luce) né sull'estensione, da cui il flag u. La visibilità a occhio nudo (magnitudine 6, \"faintly visible to the unaided eye in dark skies\") e l'ammasso NGC 6530 sono nella pagina NASA.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "nebulosa-rosetta",
+    "size": 1.2e18,
+    "basis": "diametro della nebulosa",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "La Nebulosa Rosetta è una nube di gas a emissione nella costellazione dell'Unicorno, a circa 5.000 anni luce dalla Terra. Ha un diametro di circa 130 anni luce, più di cinque volte quello della Nebulosa di Orione. Al centro si trova il giovane ammasso stellare NGC 2244, le cui stelle massicce hanno scavato la cavità centrale e fanno brillare il gas.",
+    "sources": [
+      {
+        "title": "Radiant Stars at the Heart of a Cosmic Rose (noirlab2424)",
+        "url": "https://noirlab.edu/public/news/noirlab2424/",
+        "publisher": "NOIRLab (NSF)",
+        "evidence": "the Rosette Nebula has a diameter of 130 light-years"
+      }
+    ],
+    "note": "130 anni luce × 9,4607e15 m = 1,23e18 m, entro il 3% dal valore attuale di 1,2e18 m. La descrizione era vuota; ammasso NGC 2244, cavità centrale e distanza (\"Around 5000 light-years away\") sono nello stesso comunicato NOIRLab.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "omega-centauri",
+    "size": 1.4e18,
+    "basis": "diametro dell'ammasso (estensione visibile, valore convenzionale)",
+    "verdict": "uncertain",
+    "flags": ["u"],
+    "desc": "Omega Centauri è l'ammasso globulare più massiccio della Via Lattea, con circa 10 milioni di stelle a circa 17.000 anni luce dalla Terra. L'ESO gli attribuisce un diametro di circa 150 anni luce, mentre la NASA indica circa 450 anni luce contando le regioni esterne più rarefatte. Nel 2024 il moto di sette stelle velocissime osservate da Hubble ha fornito forti indizi di un buco nero di massa intermedia al suo centro.",
+    "sources": [
+      {
+        "title": "Omega Centauri",
+        "url": "https://www.eso.org/public/images/b09/",
+        "publisher": "ESO",
+        "evidence": "Spanning about 150 light-years across, it is the most massive"
+      },
+      {
+        "title": "Caldwell 80",
+        "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-caldwell-catalog/caldwell-80/",
+        "publisher": "NASA Science",
+        "evidence": "the cluster has a diameter of about 450 light-years"
+      },
+      {
+        "title": "Hubble finds strong evidence for intermediate-mass black hole in Omega Centauri (heic2409)",
+        "url": "https://esahubble.org/news/heic2409/",
+        "publisher": "ESA/Hubble",
+        "evidence": "compelling new evidence for the presence of an intermediate-mass black hole"
+      }
+    ],
+    "note": "Valore attuale 1,4e18 m = 148 anni luce, in accordo con l'ESO (150 anni luce = 1,42e18 m). La NASA dà però circa 450 anni luce (4,3e18 m): un fattore 3, perché il bordo di un ammasso globulare è una convenzione. Dimensione mantenuta, flag u aggiunto. La pagina NASA non spiega a quale raggio si riferisca il suo valore: \"contando le regioni esterne\" è una mia interpretazione. \"Il più grande\" è stato sostituito con \"il più massiccio\", che è ciò che l'ESO afferma; la notizia del 2024 è confermata da ESA/Hubble (10 luglio 2024).",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "nebulosa-della-carena",
+    "size": 2.5e18,
+    "basis": "estensione massima della nebulosa",
+    "verdict": "corrected",
+    "flags": ["r"],
+    "desc": "La Nebulosa della Carena è una vasta regione di formazione stellare della Via Lattea, a circa 7.500 anni luce dalla Terra nella costellazione australe della Carena. Secondo ESO ed ESA si estende per circa 260 anni luce, mentre la NASA indica circa 300. Ospita Eta Carinae, un sistema stellare oltre un milione di volte più luminoso del Sole.",
+    "sources": [
+      {
+        "title": "The Carina Nebula",
+        "url": "https://www.eso.org/public/images/etamosaicnm2/",
+        "publisher": "ESO",
+        "evidence": "the nebula itself spans some 260 light years across"
+      },
+      {
+        "title": "Webb opens a Treasure Chest filled with stars",
+        "url": "https://www.esa.int/ESA_Multimedia/Images/2026/08/Webb_opens_a_Treasure_Chest_filled_with_stars",
+        "publisher": "ESA",
+        "evidence": "Spanning roughly 260 light-years"
+      },
+      {
+        "title": "Caldwell 92",
+        "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-caldwell-catalog/caldwell-92/",
+        "publisher": "NASA Science",
+        "evidence": "the nebula's enormous size – about 300 light-years"
+      }
+    ],
+    "note": "Da 2,2e18 m (circa 230 anni luce) a 2,5e18 m: 260 anni luce × 9,4607e15 m = 2,46e18 m. Nessuna fonte aperta sostiene 230 anni luce; ESO ed ESA (2026) danno 260, la NASA circa 300 (2,84e18 m). Ho scelto 260 perché sostenuto da due enti; l'intervallo è nella descrizione. Attenzione: un altro comunicato ESO (eso0905) dice \"about 100 light-years\", riferito però alla sola parte centrale ripresa. La frase \"L'originale: 60\" è stata tolta perché è una nota redazionale, non un fatto verificabile. La luminosità di Eta Carinae (\"brighter than one million Suns\") è nella pagina ESO. Non ho trovato nelle pagine aperte un superlativo sulla dimensione, quindi la descrizione dice solo \"vasta\".",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "anello-di-barnard",
+    "size": 2.8e18,
+    "basis": "larghezza dell'arco (diametro dell'anello)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "L'Anello di Barnard è un immenso arco di idrogeno incandescente che avvolge la costellazione di Orione, largo circa 300 anni luce e distante circa 1.500. È troppo debole per essere visto a occhio nudo e appare solo nelle fotografie a lunga esposizione. Si ritiene che sia stato modellato da antiche esplosioni di supernova e dai venti delle stelle massicce della regione.",
+    "sources": [
+      {
+        "title": "Astronomy Picture of the Day, 19 January 2013: Barnard Stares at NGC 2170",
+        "url": "https://apod.nasa.gov/apod/ap130119.html",
+        "publisher": "NASA APOD",
+        "evidence": "an immense, 300 light-year wide arc"
+      }
+    ],
+    "note": "300 anni luce × 9,4607e15 m = 2,84e18 m, entro il 2% dal valore attuale. La descrizione era vuota; distanza, invisibilità a occhio nudo e origine sono nella stessa pagina APOD. Non ho trovato una misura in un articolo scientifico: il valore è una cifra tonda divulgativa della NASA.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "messier-54",
+    "size": 2.9e18,
+    "basis": "diametro dell'ammasso (valore convenzionale, tra il raggio di metà luce e il raggio mareale)",
+    "verdict": "uncertain",
+    "flags": ["u"],
+    "desc": "Messier 54 è un ammasso globulare a circa 90.000 anni luce dalla Terra, il primo scoperto fuori dalla Via Lattea: appartiene alla galassia nana ellittica del Sagittario, di cui occupa il nucleo. La sua estensione dipende dalla definizione: il raggio mareale di circa 77 parsec corrisponde a un diametro di circa 500 anni luce, ma metà della luce proviene da una sfera di appena 6,4 parsec di raggio. Messier lo scoprì nel 1778 e solo nel 1994 si capì che non fa parte della nostra galassia.",
+    "sources": [
+      {
+        "title": "A Deep View into the Nucleus of the Sagittarius Dwarf Spheroidal Galaxy with MUSE. III.",
+        "url": "https://arxiv.org/abs/2209.06229",
+        "publisher": "Kacharov et al., The Astrophysical Journal, arXiv",
+        "evidence": "within M54's tidal radius (∼75 pc)"
+      },
+      {
+        "title": "Messier 54",
+        "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-54/",
+        "publisher": "NASA Science",
+        "evidence": "the first globular cluster found outside our galaxy"
+      },
+      {
+        "title": "First globular cluster outside the Milky Way (potw1145a)",
+        "url": "https://esahubble.org/images/potw1145a/",
+        "publisher": "ESA/Hubble",
+        "evidence": "in 1994, that astronomers found Messier 54 to be part"
+      }
+    ],
+    "note": "Il valore attuale (2,9e18 m = 306 anni luce) corrisponde alla stima divulgativa di 12 primi d'arco a 87.000 anni luce, che non ho trovato in alcuna fonte istituzionale apribile (SEDS e SIMBAD non erano raggiungibili). Il testo completo dell'articolo di Kacharov et al. (2022), che ho aperto, riporta dal catalogo di Harris: raggio di metà luce 49\" (6,4 pc) e raggio mareale 592\" (77 pc); l'abstract su arXiv dice \"∼75 pc\". Diametro mareale: 2 × 77 pc × 3,0857e16 m = 4,75e18 m (circa 500 anni luce); gli autori avvertono che il raggio mareale ha poco significato per un ammasso nucleare. Il valore attuale cade dentro questo intervallo, quindi lo mantengo con flag u. Che M54 occupi il nucleo della nana del Sagittario è nel titolo e nell'abstract dell'articolo.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "nebulosa-tarantola",
+    "size": 9.5e18,
+    "basis": "estensione massima della nebulosa (dimensione angolare × distanza)",
+    "verdict": "corrected",
+    "flags": ["r"],
+    "desc": "La Nebulosa Tarantola (30 Doradus) si trova nella Grande Nube di Magellano, a circa 170.000 anni luce dalla Terra, e misura circa 1.000 anni luce da un capo all'altro. Secondo la NASA è la regione di formazione stellare più grande e luminosa del Gruppo Locale e ospita le stelle più calde e massicce conosciute. Nonostante la distanza è visibile a occhio nudo dall'emisfero australe.",
+    "sources": [
+      {
+        "title": "The Tarantula Nebula",
+        "url": "https://www.eso.org/public/images/tarantula/",
+        "publisher": "ESO",
+        "evidence": "it measures nearly 1,000 light years across"
+      },
+      {
+        "title": "A Cosmic Tarantula, Caught by NASA's Webb",
+        "url": "https://science.nasa.gov/missions/webb/a-cosmic-tarantula-caught-by-nasas-webb/",
+        "publisher": "NASA Science",
+        "evidence": "the largest and brightest star-forming region in the Local Group"
+      },
+      {
+        "title": "Caldwell 103",
+        "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-caldwell-catalog/caldwell-103/",
+        "publisher": "NASA Science",
+        "evidence": "a magnitude of 4, making it visible to the unaided eye"
+      }
+    ],
+    "note": "Da 6e18 m (circa 630 anni luce) a 9,5e18 m: 1.000 anni luce × 9,4607e15 m = 9,46e18 m. L'ESO dà \"nearly 1,000 light years\" e, in un altro comunicato (eso0216, https://www.eso.org/public/news/eso0216/), \"more than 1000 light-years across\" per oltre un terzo di grado a 170.000 anni luce (0,333° = 0,00582 rad × 170.000 = 990 anni luce). Il vecchio valore coincide con il campo del mosaico di Hubble del 2012 (\"roughly 650 light-years across\", heic1206), che è la dimensione dell'immagine e non della nebulosa. \"La più attiva del Gruppo Locale\" è stato riformulato come \"più grande e luminosa\", che è ciò che la NASA afferma. La NASA usa 161.000 anni luce nel comunicato Webb e 170.000 nella pagina Caldwell; ho tenuto 170.000 come l'ESO.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "bolla-locale",
+    "size": 9.5e18,
+    "basis": "larghezza della cavità",
+    "verdict": "confirmed",
+    "flags": ["n"],
+    "desc": "La Bolla Locale è una cavità di gas rarefatto larga circa 1.000 anni luce, al cui interno si trova oggi il Sole. Secondo uno studio pubblicato su Nature nel 2022 è stata scavata da circa 15 supernove esplose a partire da 14 milioni di anni fa. Sulla sua superficie si trovano tutte le giovani regioni di formazione stellare vicine a noi.",
+    "sources": [
+      {
+        "title": "1,000-Light-Year Wide Bubble Surrounding Earth is Source of All Nearby, Young Stars",
+        "url": "https://www.cfa.harvard.edu/news/1000-light-year-wide-bubble-surrounding-earth-source-all-nearby-young-stars",
+        "publisher": "Center for Astrophysics | Harvard & Smithsonian",
+        "evidence": "The Earth sits in a 1,000-light-year-wide void"
+      }
+    ],
+    "note": "1.000 anni luce × 9,4607e15 m = 9,46e18 m, uguale al valore attuale. La bolla ha forma irregolare e 1.000 anni luce è la cifra tonda del comunicato (Zucker et al., Nature, 12 gennaio 2022). Le 15 supernove e i 14 milioni di anni sono nello stesso comunicato.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "onda-di-radcliffe",
+    "size": 8.5e19,
+    "basis": "lunghezza della struttura",
+    "verdict": "confirmed",
+    "flags": ["n"],
+    "desc": "L'Onda di Radcliffe è una catena ondulata di nubi di gas in cui nascono stelle, lunga circa 2,7 kiloparsec, cioè circa 9.000 anni luce, che attraversa i dintorni del Sole. È stata descritta su Nature nel gennaio 2020 grazie alle distanze misurate dal satellite Gaia e contiene circa tre milioni di masse solari di gas. La sua forma è quella di un'onda smorzata che sale e scende fino a circa 500 anni luce rispetto al piano della Via Lattea.",
+    "sources": [
+      {
+        "title": "A Galactic-scale gas wave in the solar neighbourhood",
+        "url": "https://www.nature.com/articles/s41586-019-1874-z",
+        "publisher": "Alves et al., Nature",
+        "evidence": "a narrow and coherent 2.7-kiloparsec arrangement of dense gas"
+      },
+      {
+        "title": "The Radcliffe Wave",
+        "url": "https://www.cfa.harvard.edu/news/radcliffe-wave",
+        "publisher": "Center for Astrophysics | Harvard & Smithsonian",
+        "evidence": "stretching about nine thousand light-years in length"
+      }
+    ],
+    "note": "2,7 kpc × 3,0857e19 m = 8,33e19 m (8.800 anni luce), entro il 2% dal valore attuale di 8,5e19 m (9.000 anni luce). \"Scoperta nel 2020\" confermato: articolo pubblicato su Nature il 7 gennaio 2020. La massa di gas e l'ampiezza di circa 500 anni luce (160 pc nell'abstract) e l'uso dei dati della missione Gaia sono nella pagina del CfA.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "bolle-di-fermi",
+    "size": 4.7e20,
+    "basis": "estensione totale da un'estremità all'altra dei due lobi",
+    "verdict": "confirmed",
+    "flags": ["n"],
+    "desc": "Le Bolle di Fermi sono due enormi lobi che emettono raggi gamma e si estendono sopra e sotto il centro della Via Lattea. Ciascuno è alto circa 25.000 anni luce, per un totale di 50.000 anni luce, circa metà del diametro della galassia. Furono scoperte nel 2010 nei dati del telescopio spaziale Fermi della NASA e potrebbero essere il residuo di un'antica eruzione del buco nero centrale.",
+    "sources": [
+      {
+        "title": "NASA's Fermi Telescope Finds Giant Structure in our Galaxy",
+        "url": "https://www.nasa.gov/universe/nasas-fermi-telescope-finds-giant-structure-in-our-galaxy/",
+        "publisher": "NASA",
+        "evidence": "the newly discovered gamma-ray bubbles extend 50,000 light-years"
+      }
+    ],
+    "note": "50.000 anni luce × 9,4607e15 m = 4,73e20 m, uguale al valore attuale entro l'1%. Scoperta del 2010 confermata: comunicato NASA del 9 novembre 2010. L'origine da un'eruzione del buco nero centrale è presentata dalla NASA come ipotesi (\"may be the remnant\") e così è riportata.",
+    "verified": "2026-11-12"
+  }
+]

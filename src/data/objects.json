@@ -7827,6 +7827,30 @@
     "verified": null
   },
   {
+    "id": "messier-14",
+    "size": 680000000000000000,
+    "kind": "n",
+    "glyph": "4",
+    "flags": [
+      "r",
+      "u"
+    ],
+    "image": null,
+    "sources": [
+      {
+        "title": "M14, NGC 6402",
+        "url": "https://noirlab.edu/public/images/noao-m14/",
+        "publisher": "NOIRLab (NSF)"
+      },
+      {
+        "title": "Messier 14",
+        "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-14/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
+  },
+  {
     "id": "nebulosa-nord-america",
     "size": 850000000000000000,
     "kind": "n",
@@ -7839,16 +7863,33 @@
     "verified": null
   },
   {
-    "id": "messier-14",
+    "id": "nebulosa-laguna",
     "size": 950000000000000000,
     "kind": "n",
-    "glyph": "4",
+    "glyph": "0",
     "flags": [
-      "r"
+      "r",
+      "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "The VLT Survey Telescope Snaps the Lagoon Nebula (eso1403)",
+        "url": "https://www.eso.org/public/news/eso1403/",
+        "publisher": "ESO"
+      },
+      {
+        "title": "Hubble's Lagoon Nebula (heic1808)",
+        "url": "https://esahubble.org/news/heic1808/",
+        "publisher": "ESA/Hubble"
+      },
+      {
+        "title": "Messier 8",
+        "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-8/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "esametro",
@@ -7872,46 +7913,76 @@
     "verified": "2026-11-12"
   },
   {
-    "id": "nebulosa-laguna",
-    "size": 1040000000000000000,
-    "kind": "n",
-    "glyph": "0",
-    "flags": [],
-    "image": null,
-    "sources": [],
-    "verified": null
-  },
-  {
     "id": "nebulosa-rosetta",
     "size": 1200000000000000000,
     "kind": "n",
     "glyph": "0",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Radiant Stars at the Heart of a Cosmic Rose (noirlab2424)",
+        "url": "https://noirlab.edu/public/news/noirlab2424/",
+        "publisher": "NOIRLab (NSF)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "omega-centauri",
     "size": 1400000000000000000,
     "kind": "n",
     "glyph": "4",
-    "flags": [],
+    "flags": [
+      "u"
+    ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Omega Centauri",
+        "url": "https://www.eso.org/public/images/b09/",
+        "publisher": "ESO"
+      },
+      {
+        "title": "Caldwell 80",
+        "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-caldwell-catalog/caldwell-80/",
+        "publisher": "NASA Science"
+      },
+      {
+        "title": "Hubble finds strong evidence for intermediate-mass black hole in Omega Centauri (heic2409)",
+        "url": "https://esahubble.org/news/heic2409/",
+        "publisher": "ESA/Hubble"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "nebulosa-della-carena",
-    "size": 2200000000000000000,
+    "size": 2500000000000000000,
     "kind": "n",
     "glyph": "0",
     "flags": [
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "The Carina Nebula",
+        "url": "https://www.eso.org/public/images/etamosaicnm2/",
+        "publisher": "ESO"
+      },
+      {
+        "title": "Webb opens a Treasure Chest filled with stars",
+        "url": "https://www.esa.int/ESA_Multimedia/Images/2026/08/Webb_opens_a_Treasure_Chest_filled_with_stars",
+        "publisher": "ESA"
+      },
+      {
+        "title": "Caldwell 92",
+        "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-caldwell-catalog/caldwell-92/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "anello-di-barnard",
@@ -7920,28 +7991,70 @@
     "glyph": "0",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Astronomy Picture of the Day, 19 January 2013: Barnard Stares at NGC 2170",
+        "url": "https://apod.nasa.gov/apod/ap130119.html",
+        "publisher": "NASA APOD"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "messier-54",
     "size": 2900000000000000000,
     "kind": "n",
     "glyph": "4",
-    "flags": [],
+    "flags": [
+      "u"
+    ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "A Deep View into the Nucleus of the Sagittarius Dwarf Spheroidal Galaxy with MUSE. III.",
+        "url": "https://arxiv.org/abs/2209.06229",
+        "publisher": "Kacharov et al., The Astrophysical Journal, arXiv"
+      },
+      {
+        "title": "Messier 54",
+        "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-54/",
+        "publisher": "NASA Science"
+      },
+      {
+        "title": "First globular cluster outside the Milky Way (potw1145a)",
+        "url": "https://esahubble.org/images/potw1145a/",
+        "publisher": "ESA/Hubble"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "nebulosa-tarantola",
-    "size": 6000000000000000000,
+    "size": 9500000000000000000,
     "kind": "n",
     "glyph": "2",
-    "flags": [],
+    "flags": [
+      "r"
+    ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "The Tarantula Nebula",
+        "url": "https://www.eso.org/public/images/tarantula/",
+        "publisher": "ESO"
+      },
+      {
+        "title": "A Cosmic Tarantula, Caught by NASA's Webb",
+        "url": "https://science.nasa.gov/missions/webb/a-cosmic-tarantula-caught-by-nasas-webb/",
+        "publisher": "NASA Science"
+      },
+      {
+        "title": "Caldwell 103",
+        "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-caldwell-catalog/caldwell-103/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "bolla-locale",
@@ -7952,8 +8065,14 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "1,000-Light-Year Wide Bubble Surrounding Earth is Source of All Nearby, Young Stars",
+        "url": "https://www.cfa.harvard.edu/news/1000-light-year-wide-bubble-surrounding-earth-source-all-nearby-young-stars",
+        "publisher": "Center for Astrophysics | Harvard & Smithsonian"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "leo-ii",
@@ -8017,8 +8136,19 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "A Galactic-scale gas wave in the solar neighbourhood",
+        "url": "https://www.nature.com/articles/s41586-019-1874-z",
+        "publisher": "Alves et al., Nature"
+      },
+      {
+        "title": "The Radcliffe Wave",
+        "url": "https://www.cfa.harvard.edu/news/radcliffe-wave",
+        "publisher": "Center for Astrophysics | Harvard & Smithsonian"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "nana-ellittica-del-sagittario",
@@ -8083,8 +8213,14 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "NASA's Fermi Telescope Finds Giant Structure in our Galaxy",
+        "url": "https://www.nasa.gov/universe/nasas-fermi-telescope-finds-giant-structure-in-our-galaxy/",
+        "publisher": "NASA"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "galassia-occhio-nero",

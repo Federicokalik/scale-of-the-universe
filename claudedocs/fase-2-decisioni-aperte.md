@@ -27,6 +27,10 @@ Aggiornato dopo ogni ondata. Le correzioni sono già applicate ai dati; le decis
 | NGC 2392 | 6,4 × 10¹⁵ m | 9,6 × 10¹⁵ m | García-Díaz e colleghi 2012: guscio esterno di 46″ a 1,4 kpc; controllo con la scala Chandra; incerta |
 | Nebulosa Boomerang | 1,92 × 10¹⁶ m | 3,6 × 10¹⁶ m | Sahai e colleghi 2017: deflusso freddo ALMA, almeno 120.000 UA di raggio; ESO "quasi quattro anni luce" |
 | Nebulosa Anello | 2,5 × 10¹⁶ m | 9,5 × 10¹⁵ m | NASA/Hubble: "circa 1 anno luce" per l'anello principale |
+| Messier 14 | 9,5 × 10¹⁷ m | 6,8 × 10¹⁷ m | NOIRLab: circa 72 anni luce; incerto |
+| Nebulosa Laguna | 1,04 × 10¹⁸ m | 9,5 × 10¹⁷ m | ESO: 100 anni luce; incerta (ESA/Hubble: 55 anni luce) |
+| Nebulosa della Carena | 2,2 × 10¹⁸ m | 2,5 × 10¹⁸ m | ESO e ESA: circa 260 anni luce (NASA: circa 300) |
+| Nebulosa Tarantola | 6 × 10¹⁸ m | 9,5 × 10¹⁸ m | ESO: quasi 1.000 anni luce |
 
 ## Decisioni aperte
 
@@ -91,6 +95,9 @@ Aggiornato dopo ogni ondata. Le correzioni sono già applicate ai dati; le decis
 58. **Nebulosa Boomerang**: il nuovo valore misura il deflusso freddo visto da ALMA, non i lobi visibili nell'immagine Hubble, per i quali non c'è una fonte con la misura.
 59. **Nebulosa Anello**: il vecchio valore (2,6 anni luce) forse includeva gli aloni esterni, ma nessuna fonte aperta ne dà la misura. Ora vale per l'anello principale.
 60. **Nebulose Stingray, Blinking e Formica**: valori lasciati, segnate incerte perché le distanze pubblicate divergono (per Stingray da 0,83 a 5,6 kpc).
+61. **Omega Centauri**: ESO dà circa 150 anni luce (valore attuale), la NASA 450. Segnato incerto.
+62. **Messier 14 e Messier 54**: le cifre popolari (100 e 306 anni luce) non hanno una fonte apribile. M14 poggia su una sola didascalia NOIRLab; per M54 l'abstract citato dice solo "circa 75 pc" di raggio mareale. Segnati incerti.
+63. **Anello di Barnard**: una sola fonte, una didascalia NASA APOD (300 anni luce).
 
 ## Da sistemare prima di chiudere la fase
 
@@ -106,8 +113,8 @@ Aggiornato dopo ogni ondata. Le correzioni sono già applicate ai dati; le decis
 
 ## Avanzamento
 
-Lotti applicati: black-holes, particles-1/2, atoms-1/2, waves-1/2, molecules-1/2, units-1/2/3, biology-1/2/3/4/5, objects-1/2/3/4/5, places-1/2/3/4, solar-system-1/2/3/4/5, stars-1/2/3/4, distances-1/2/3, nebulae-1 (383 oggetti su 447).
+Lotti applicati: black-holes, particles-1/2, atoms-1/2, waves-1/2, molecules-1/2, units-1/2/3, biology-1/2/3/4/5, objects-1/2/3/4/5, places-1/2/3/4, solar-system-1/2/3/4/5, stars-1/2/3/4, distances-1/2/3, nebulae-1/3 (394 oggetti su 447).
 
-Lotti da fare: nebulae-2/3, galaxies-1/2, cosmic-1/2.
+Lotti da fare: nebulae-2, galaxies-1/2, cosmic-1/2.
 
 Per ogni lotto: `node scripts/apply-research.mjs --check`, `node scripts/check-links.mjs`, campione di fonti riletto in modo indipendente, poi `node scripts/apply-research.mjs`, `npm run validate`, `npm test`, commit.

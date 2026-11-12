@@ -1646,7 +1646,7 @@
     },
     "messier-14": {
       "name": "Messier 14",
-      "desc": "Ammasso globulare."
+      "desc": "Messier 14 è un ammasso globulare nella costellazione di Ofiuco, a circa 29.000 anni luce dalla Terra, che contiene oltre 150.000 stelle. NOIRLab gli attribuisce un diametro di circa 72 anni luce, ma un ammasso globulare non ha un bordo netto e altre stime arrivano a circa 100 anni luce. Fu scoperto da Charles Messier nel 1764."
     },
     "esametro": {
       "name": "Esametro",
@@ -1654,35 +1654,35 @@
     },
     "nebulosa-laguna": {
       "name": "Nebulosa Laguna",
-      "desc": ""
+      "desc": "La Nebulosa Laguna (Messier 8) è una grande nube di gas e polveri nel Sagittario in cui nascono nuove stelle, visibile anche a occhio nudo sotto cieli bui. Secondo l'ESO dista circa 5.000 anni luce e si estende per circa 100 anni luce, ma le stime variano: ESA/Hubble indica 55 anni luce a una distanza di 4.000. Al suo interno si trova il giovane ammasso stellare NGC 6530."
     },
     "nebulosa-rosetta": {
       "name": "Nebulosa Rosetta",
-      "desc": ""
+      "desc": "La Nebulosa Rosetta è una nube di gas a emissione nella costellazione dell'Unicorno, a circa 5.000 anni luce dalla Terra. Ha un diametro di circa 130 anni luce, più di cinque volte quello della Nebulosa di Orione. Al centro si trova il giovane ammasso stellare NGC 2244, le cui stelle massicce hanno scavato la cavità centrale e fanno brillare il gas."
     },
     "omega-centauri": {
       "name": "Omega Centauri",
-      "desc": "Il più grande ammasso globulare della Via Lattea. Nel 2024 vi si sono trovati indizi di un buco nero di massa intermedia."
+      "desc": "Omega Centauri è l'ammasso globulare più massiccio della Via Lattea, con circa 10 milioni di stelle a circa 17.000 anni luce dalla Terra. L'ESO gli attribuisce un diametro di circa 150 anni luce, mentre la NASA indica circa 450 anni luce contando le regioni esterne più rarefatte. Nel 2024 il moto di sette stelle velocissime osservate da Hubble ha fornito forti indizi di un buco nero di massa intermedia al suo centro."
     },
     "nebulosa-della-carena": {
       "name": "Nebulosa della Carena",
-      "desc": "Circa 230 anni luce. L'originale: 60."
+      "desc": "La Nebulosa della Carena è una vasta regione di formazione stellare della Via Lattea, a circa 7.500 anni luce dalla Terra nella costellazione australe della Carena. Secondo ESO ed ESA si estende per circa 260 anni luce, mentre la NASA indica circa 300. Ospita Eta Carinae, un sistema stellare oltre un milione di volte più luminoso del Sole."
     },
     "anello-di-barnard": {
       "name": "Anello di Barnard",
-      "desc": ""
+      "desc": "L'Anello di Barnard è un immenso arco di idrogeno incandescente che avvolge la costellazione di Orione, largo circa 300 anni luce e distante circa 1.500. È troppo debole per essere visto a occhio nudo e appare solo nelle fotografie a lunga esposizione. Si ritiene che sia stato modellato da antiche esplosioni di supernova e dai venti delle stelle massicce della regione."
     },
     "messier-54": {
       "name": "Messier 54",
-      "desc": "Ammasso globulare che appartiene alla nana del Sagittario."
+      "desc": "Messier 54 è un ammasso globulare a circa 90.000 anni luce dalla Terra, il primo scoperto fuori dalla Via Lattea: appartiene alla galassia nana ellittica del Sagittario, di cui occupa il nucleo. La sua estensione dipende dalla definizione: il raggio mareale di circa 77 parsec corrisponde a un diametro di circa 500 anni luce, ma metà della luce proviene da una sfera di appena 6,4 parsec di raggio. Messier lo scoprì nel 1778 e solo nel 1994 si capì che non fa parte della nostra galassia."
     },
     "nebulosa-tarantola": {
       "name": "Nebulosa Tarantola",
-      "desc": "La regione di formazione stellare più attiva del Gruppo Locale."
+      "desc": "La Nebulosa Tarantola (30 Doradus) si trova nella Grande Nube di Magellano, a circa 170.000 anni luce dalla Terra, e misura circa 1.000 anni luce da un capo all'altro. Secondo la NASA è la regione di formazione stellare più grande e luminosa del Gruppo Locale e ospita le stelle più calde e massicce conosciute. Nonostante la distanza è visibile a occhio nudo dall'emisfero australe."
     },
     "bolla-locale": {
       "name": "Bolla Locale",
-      "desc": "La cavità di mille anni luce scavata da antiche supernove, in cui si trova il Sole."
+      "desc": "La Bolla Locale è una cavità di gas rarefatto larga circa 1.000 anni luce, al cui interno si trova oggi il Sole. Secondo uno studio pubblicato su Nature nel 2022 è stata scavata da circa 15 supernove esplose a partire da 14 milioni di anni fa. Sulla sua superficie si trovano tutte le giovani regioni di formazione stellare vicine a noi."
     },
     "leo-ii": {
       "name": "Leo II",
@@ -1702,7 +1702,7 @@
     },
     "onda-di-radcliffe": {
       "name": "Onda di Radcliffe",
-      "desc": "Una catena ondulata di nubi di gas lunga 9.000 anni luce, scoperta nel 2020."
+      "desc": "L'Onda di Radcliffe è una catena ondulata di nubi di gas in cui nascono stelle, lunga circa 2,7 kiloparsec, cioè circa 9.000 anni luce, che attraversa i dintorni del Sole. È stata descritta su Nature nel gennaio 2020 grazie alle distanze misurate dal satellite Gaia e contiene circa tre milioni di masse solari di gas. La sua forma è quella di un'onda smorzata che sale e scende fino a circa 500 anni luce rispetto al piano della Via Lattea."
     },
     "nana-ellittica-del-sagittario": {
       "name": "Nana ellittica del Sagittario",
@@ -1726,7 +1726,7 @@
     },
     "bolle-di-fermi": {
       "name": "Bolle di Fermi",
-      "desc": "Due lobi di raggi gamma sopra e sotto il centro galattico, scoperti nel 2010."
+      "desc": "Le Bolle di Fermi sono due enormi lobi che emettono raggi gamma e si estendono sopra e sotto il centro della Via Lattea. Ciascuno è alto circa 25.000 anni luce, per un totale di 50.000 anni luce, circa metà del diametro della galassia. Furono scoperte nel 2010 nei dati del telescopio spaziale Fermi della NASA e potrebbero essere il residuo di un'antica eruzione del buco nero centrale."
     },
     "galassia-occhio-nero": {
       "name": "Galassia Occhio Nero",
