@@ -44,9 +44,10 @@ test('an unknown id in the link opens no card and raises no error', async ({ pag
   expect(errors).toEqual([]);
 });
 
+// The match is the one object left without a description or a source: it is proposed for removal.
 test('an object without a description hides the paragraph', async ({ page }) => {
-  await page.goto('/it/#formica');
-  await expect(page.locator('#cName')).toHaveText('Formica');
+  await page.goto('/it/#fiammifero');
+  await expect(page.locator('#cName')).toHaveText('Fiammifero');
   await expect(page.locator('#cNote')).toBeHidden();
 });
 
@@ -136,7 +137,7 @@ test('a verified object shows its sources and the date it was checked', async ({
 });
 
 test('an object not verified yet shows no sources block', async ({ page }) => {
-  await page.goto('/it/#formica');
-  await expect(page.locator('#cName')).toHaveText('Formica');
+  await page.goto('/it/#fiammifero');
+  await expect(page.locator('#cName')).toHaveText('Fiammifero');
   await expect(page.locator('#cSources')).toBeHidden();
 });

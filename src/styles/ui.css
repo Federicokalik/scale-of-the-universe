@@ -304,3 +304,28 @@ dialog h3 {
   pointer-events: none;
   background: linear-gradient(rgba(7, 8, 12, 0.82), rgba(7, 8, 12, 0.5) 55%, rgba(7, 8, 12, 0));
 }
+
+/* ---- full source list in the method dialog ---- */
+.source-list {
+  margin-top: 8px;
+}
+.source-list summary {
+  cursor: pointer;
+  font-size: 15px;
+  color: var(--teal);
+}
+.source-list h4 {
+  margin: 14px 0 2px;
+  font-size: 13px;
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+.source-list h4 span {
+  font-weight: 400;
+  color: var(--grey);
+}
+.source-list li {
+  font-size: 13px;
+  line-height: 1.45;
+  overflow-wrap: anywhere;
+}

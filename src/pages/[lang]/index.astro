@@ -6,6 +6,7 @@ import { FLAG_COLOUR, FLAG_ORDER, ZOOM_MAX, ZOOM_MIN, ZOOM_START } from '../../e
 import Base from '../../layouts/Base.astro';
 import { loadSceneData } from '../../lib/data';
 import { fill } from '../../lib/format';
+import { countSources, sourceIndex } from '../../lib/sources';
 
 export function getStaticPaths() {
   return ENABLED_LOCALES.map((locale) => ({ params: { lang: locale.code }, props: { locale } }));
@@ -20,7 +21,17 @@ const data = await loadSceneData(locale.code);
 const { ui, objects } = data;
 
 const count = (flag: string) => objects.filter((o) => o.flags.some((f) => f === flag)).length;
-const totals = { n: objects.length, r: count('r'), new: count('n'), i: count('i'), u: count('u') };
+const sourceGroups = sourceIndex(objects);
+const totals = {
+  n: objects.length,
+  r: count('r'),
+  new: count('n'),
+  i: count('i'),
+  u: count('u'),
+  verified: objects.filter((o) => o.verified).length,
+  sources: countSources(sourceGroups),
+  sites: sourceGroups.length,
+};
 const flagVar = { r: 'var(--accent)', n: 'var(--teal)', i: 'var(--violet)', u: 'var(--grey)' };
 
 // Inlined for the client script. "<" is escaped so no description can close the script tag.
@@ -109,10 +120,28 @@ const payload = JSON.stringify(data).replace(/</g, '\\u003c');
     <p>{ui['dialog.sizes.body']}</p>
 
     <h3>{ui['dialog.sources.title']}</h3>
-    <ul>
-      {['codata', 'nasa', 'mom', 'quipu', 'horseshoe', 'woh'].map((key) => <li set:html={ui[`dialog.sources.${key}`]} />)}
-    </ul>
-    <p>{ui['dialog.sources.note']}</p>
+    <p>{fill(ui['dialog.sources.intro'], totals)}</p>
+    <details class="source-list">
+      <summary>{fill(ui['dialog.sources.all'], totals)}</summary>
+      {
+        sourceGroups.map((group) => (
+          <section>
+            <h4>
+              {group.host} <span>{group.sources.length}</span>
+            </h4>
+            <ul>
+              {group.sources.map((source) => (
+                <li>
+                  <a href={source.url} rel="noopener">
+                    {source.title}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </section>
+        ))
+      }
+    </details>
 
     <h3>{ui['dialog.ui.title']}</h3>
     <ul>

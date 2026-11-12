@@ -151,6 +151,11 @@ Aggiornato dopo ogni ondata. Le correzioni sono già applicate ai dati; le decis
 
 Lotti applicati: tutti e 44 (446 oggetti su 447). L'unico oggetto non verificato è il fiammifero, proposto per la rimozione (decisione 9).
 
-Lotti da fare: nessuno.
+Chiusura della fase:
 
-Per ogni lotto: `node scripts/apply-research.mjs --check`, `node scripts/check-links.mjs`, campione di fonti riletto in modo indipendente, poi `node scripts/apply-research.mjs`, `npm run validate`, `npm test`, commit.
+- **Elenco delle fonti**: "Metodo e fonti" ora mostra l'elenco completo generato dai dati (678 fonti da 198 siti, raggruppate per sito). Le sei voci scritte a mano sono state tolte: due rimandavano a space.com e sci.news, fuori dai criteri.
+- **Validazione rigorosa**: `npm run validate -- --strict` segnala solo le immagini mancanti (fase 3) e le tre righe del fiammifero.
+- **Test**: 78 test unitari e 23 test nel browser passano. Due test nel browser puntavano alla formica come oggetto senza descrizione né fonti: ora usano il fiammifero, quindi vanno aggiornati se il fiammifero viene tolto o verificato.
+- **Test nel browser in ambienti cloud**: `astro preview` si mette da solo in background e Playwright lo vede uscire; inoltre la versione di Playwright del progetto cerca un Chromium diverso da quello installato. Qui sono stati eseguiti con una configurazione temporanea, senza toccare `playwright.config.ts`.
+- **Controllo dei link**: `check-links.mjs` in ambienti con proxy va lanciato con `NODE_USE_ENV_PROXY=1`.
+- **Oggetti da aggiungere**: nessuna proposta raccolta dai lotti; la lista è da fare a parte, se la si vuole.
