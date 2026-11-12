@@ -754,7 +754,7 @@
     },
     "dal-pavimento-al-soffitto": {
       "name": "Dal pavimento al soffitto",
-      "desc": "Altezza abitabile minima in Italia."
+      "desc": "È l'altezza interna minima richiesta in Italia per i locali di abitazione: 2,70 m. Dal 28 luglio 2024 il testo unico dell'edilizia consente al progettista di asseverare anche locali più bassi, fino al limite di 2,40 m, in presenza di determinate condizioni."
     },
     "onde-radio-fm": {
       "name": "Onde radio FM",
@@ -802,7 +802,7 @@
     },
     "casa-media-negli-usa": {
       "name": "Casa media negli USA",
-      "desc": ""
+      "desc": "Negli Stati Uniti le case unifamiliari completate nel 2025 hanno una superficie mediana di 2.142 piedi quadrati, circa 199 m², secondo il Census Bureau. Su un solo piano equivale a un quadrato di circa 14 m di lato, quindi i 15 m indicati sono un ordine di grandezza del lato maggiore e non un dato misurato."
     },
     "quercia": {
       "name": "Quercia",
@@ -826,7 +826,7 @@
     },
     "torre-di-pisa": {
       "name": "Torre di Pisa",
-      "desc": ""
+      "desc": "È il campanile del Duomo di Pisa, iniziato nel 1174 e inclinatosi già durante la costruzione. L'Opera della Primaziale Pisana, che lo gestisce, indica un'altezza di 58,36 m, un diametro esterno di 15 m e un peso di 14.453 tonnellate. All'interno una scala di 273 gradini porta alla cella delle sette campane."
     },
     "boeing-747-8": {
       "name": "Boeing 747-8",
@@ -838,7 +838,7 @@
     },
     "campo-da-football-americano": {
       "name": "Campo da football americano",
-      "desc": "Zone di meta comprese."
+      "desc": "Il regolamento della NFL prescrive un campo rettangolare lungo 360 piedi, cioè 109,7 m, e largo 160 piedi, circa 48,8 m. La lunghezza comprende le due zone di meta, profonde 10 iarde ciascuna, ai lati delle 100 iarde del terreno di gioco."
     },
     "saturn-v": {
       "name": "Saturn V",
@@ -854,7 +854,7 @@
     },
     "grande-piramide-di-giza": {
       "name": "Grande Piramide di Giza",
-      "desc": "Altezza attuale. In origine arrivava a 146,6 m."
+      "desc": "È la piramide del faraone Cheope a Giza, in Egitto, la più alta del mondo secondo il Guinness World Records. Completata circa 4.500 anni fa, era alta 146,7 m. Erosione e vandalismi l'hanno abbassata a circa 137-138 m."
     },
     "dimorphos": {
       "name": "Dimorphos",
@@ -862,11 +862,11 @@
     },
     "colosseo": {
       "name": "Colosseo",
-      "desc": "Asse maggiore dell'ellisse."
+      "desc": "L'Anfiteatro Flavio di Roma, inaugurato dall'imperatore Tito nell'anno 80, è il più grande anfiteatro del mondo. La pianta misura 189 m sull'asse maggiore e 156 m su quello minore, per una superficie di circa 2 ettari. Le stime sulla capienza variano molto, da 45.000 a 87.000 spettatori."
     },
     "gateway-arch": {
       "name": "Gateway Arch",
-      "desc": ""
+      "desc": "È l'arco rivestito in acciaio inossidabile che sorge a Saint Louis, nel Missouri, sulla riva del Mississippi. È alto 630 piedi, cioè 192 m, ed è largo altrettanto tra le facce esterne delle due gambe. Ha la forma di una catenaria rovesciata e il National Park Service lo indica come il monumento più alto degli Stati Uniti."
     },
     "oumuamua": {
       "name": "ʻOumuamua",
@@ -874,7 +874,7 @@
     },
     "diga-di-hoover": {
       "name": "Diga di Hoover",
-      "desc": ""
+      "desc": "È una diga ad arco-gravità in calcestruzzo sul fiume Colorado, al confine tra Arizona e Nevada. Misura 726,4 piedi, cioè 221,4 m, dalla roccia di fondazione alla strada sul coronamento. Il corpo della diga contiene 3,25 milioni di iarde cubiche di calcestruzzo, circa 2,5 milioni di m³, gettati tra il giugno 1933 e il maggio 1935."
     },
     "titanic": {
       "name": "Titanic",
@@ -886,7 +886,7 @@
     },
     "torre-eiffel": {
       "name": "Torre Eiffel",
-      "desc": "Dal 2022, con la nuova antenna. L'originale: 320 m."
+      "desc": "La torre costruita da Gustave Eiffel per l'Esposizione universale di Parigi del 1889 raggiunge oggi 330 m alla punta delle antenne. La struttura architettonica, senza antenne, è alta 300 m e ha una massa di circa 8.000 tonnellate."
     },
     "apophis": {
       "name": "Apophis",
@@ -894,7 +894,7 @@
     },
     "willis-tower": {
       "name": "Willis Tower",
-      "desc": "La ex Sears Tower."
+      "desc": "Il grattacielo di Chicago, chiamato Sears Tower fino al 2009, è alto 442,1 m al tetto e 527 m alla punta delle antenne. Al termine dei lavori, nel 1973 secondo la proprietà, era l'edificio più alto del mondo."
     },
     "international-commerce-centre": {
       "name": "International Commerce Centre",

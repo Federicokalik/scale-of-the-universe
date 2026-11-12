@@ -1,0 +1,224 @@
+[
+  {
+    "id": "dal-pavimento-al-soffitto",
+    "size": 2.7,
+    "basis": "altezza interna minima dei locali di abitazione prevista dalla normativa italiana",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "È l'altezza interna minima richiesta in Italia per i locali di abitazione: 2,70 m. Dal 28 luglio 2024 il testo unico dell'edilizia consente al progettista di asseverare anche locali più bassi, fino al limite di 2,40 m, in presenza di determinate condizioni.",
+    "sources": [
+      {
+        "title": "Decreto del Presidente della Repubblica 6 giugno 2001, n. 380, art. 24 (Agibilità), comma 5-bis",
+        "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:2001-06-06;380~art24",
+        "publisher": "Normattiva, Presidenza del Consiglio dei Ministri",
+        "evidence": "altezza minima interna inferiore a 2,70 metri fino al limite massimo di 2,40 metri"
+      }
+    ],
+    "note": "Il limite di 2,70 m nasce dal decreto del Ministero della Sanità del 5 luglio 1975, ma la pagina della Gazzetta Ufficiale con il testo originale non ha caricato il contenuto e quindi non è citata. Il valore è confermato dal testo vigente dell'art. 24, comma 5-bis, del DPR 380/2001 (in vigore dal 28-7-2024), che lo richiama come soglia ordinaria e introduce la deroga fino a 2,40 m.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "casa-media-negli-usa",
+    "size": 15,
+    "basis": "lato maggiore indicativo della pianta di una casa unifamiliare statunitense (convenzione ricavata dalla superficie, non una misura)",
+    "verdict": "uncertain",
+    "flags": ["u"],
+    "desc": "Negli Stati Uniti le case unifamiliari completate nel 2025 hanno una superficie mediana di 2.142 piedi quadrati, circa 199 m², secondo il Census Bureau. Su un solo piano equivale a un quadrato di circa 14 m di lato, quindi i 15 m indicati sono un ordine di grandezza del lato maggiore e non un dato misurato.",
+    "sources": [
+      {
+        "title": "Highlights of 2025 Characteristics of New Housing",
+        "url": "https://www.census.gov/construction/chars/highlights.html",
+        "publisher": "U.S. Census Bureau",
+        "evidence": "The median size of a completed single-family home was 2,142 square feet."
+      }
+    ],
+    "note": "Nessuna fonte ufficiale dà una lunghezza o larghezza media delle case: il Census Bureau pubblica solo la superficie. Calcolo: 2.142 ft² × 0,092903 = 199,0 m²; radice quadrata = 14,1 m. Il dato riguarda le case nuove, non l'intero patrimonio abitativo, e una casa a due piani ha un'impronta minore. Il valore di 15 m resta come convenzione, con flag u.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "torre-di-pisa",
+    "size": 56,
+    "basis": "altezza della torre",
+    "verdict": "confirmed",
+    "flags": ["n"],
+    "desc": "È il campanile del Duomo di Pisa, iniziato nel 1174 e inclinatosi già durante la costruzione. L'Opera della Primaziale Pisana, che lo gestisce, indica un'altezza di 58,36 m, un diametro esterno di 15 m e un peso di 14.453 tonnellate. All'interno una scala di 273 gradini porta alla cella delle sette campane.",
+    "sources": [
+      {
+        "title": "Tower",
+        "url": "https://www.opapisa.it/en/square-of-miracles/tower/",
+        "publisher": "Opera della Primaziale Pisana",
+        "evidence": "Height: 58,36 metres External diameter: 15 metres Weight: 14.453 tonnes"
+      },
+      {
+        "title": "Pisa, Enciclopedia on line",
+        "url": "https://www.treccani.it/enciclopedia/pisa/",
+        "publisher": "Istituto della Enciclopedia Italiana Treccani",
+        "evidence": "Il celebre campanile, a torre pendente, fu iniziato da Bonanno nel 1174"
+      }
+    ],
+    "note": "L'ente gestore dà 58,36 m; il valore attuale di 56 m è più basso del 4,0% (56 / 58,36 = 0,960), quindi entro la soglia del 5% e lasciato invariato. Non ho potuto aprire una fonte che dichiari 56 m o che spieghi la differenza (di solito attribuita alla misura dal piano di fondazione anziché dal suolo): Britannica è bloccata da una verifica anti-bot. Da valutare se portare il valore a 58,36 m per coerenza con la descrizione. L'inclinazione non è riportata perché la pagina ufficiale dà circa 5,115°, valore che non ho potuto confrontare con un'altra fonte.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "campo-da-football-americano",
+    "size": 109.7,
+    "basis": "lunghezza del campo regolamentare NFL, zone di meta comprese",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il regolamento della NFL prescrive un campo rettangolare lungo 360 piedi, cioè 109,7 m, e largo 160 piedi, circa 48,8 m. La lunghezza comprende le due zone di meta, profonde 10 iarde ciascuna, ai lati delle 100 iarde del terreno di gioco.",
+    "sources": [
+      {
+        "title": "2026 NFL Rulebook, Rule 1 Section 1 Article 1 (Playing Lines)",
+        "url": "https://operations.nfl.com/the-rules/nfl-rulebook/",
+        "publisher": "National Football League, NFL Football Operations",
+        "evidence": "a rectangular field, 360 feet in length and 160 feet in width"
+      }
+    ],
+    "note": "Calcolo: 360 ft × 0,3048 = 109,728 m; 160 ft × 0,3048 = 48,768 m. Le linee di meta sono a 10 iarde da ciascuna linea di fondo (stessa pagina), quindi 120 − 20 = 100 iarde di gioco. Mantenuto il dato della descrizione precedente sulle zone di meta.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "grande-piramide-di-giza",
+    "size": 138.5,
+    "basis": "altezza attuale della piramide",
+    "verdict": "confirmed",
+    "flags": ["r"],
+    "desc": "È la piramide del faraone Cheope a Giza, in Egitto, la più alta del mondo secondo il Guinness World Records. Completata circa 4.500 anni fa, era alta 146,7 m. Erosione e vandalismi l'hanno abbassata a circa 137-138 m.",
+    "sources": [
+      {
+        "title": "Tallest pyramid",
+        "url": "https://www.guinnessworldrecords.com/world-records/tallest-pyramid",
+        "publisher": "Guinness World Records",
+        "evidence": "reduced its height to 137.5 m (451 ft 1 in) high today"
+      },
+      {
+        "title": "Giza, Enciclopedia on line",
+        "url": "https://www.treccani.it/enciclopedia/giza/",
+        "publisher": "Istituto della Enciclopedia Italiana Treccani",
+        "evidence": "le piramidi di Cheope (la maggiore di tutte, alta ora 136 m)"
+      }
+    ],
+    "note": "Le fonti aperte danno 137,5 m (Guinness) e 136 m (Treccani); il valore attuale di 138,5 m dista meno dell'1% dal primo e meno del 2% dal secondo, quindi resta invariato. L'altezza originaria nella descrizione passa da 146,6 a 146,7 m, come riportato da Guinness. Britannica non è stata consultabile (verifica anti-bot).",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "colosseo",
+    "size": 189,
+    "basis": "lunghezza massima della pianta (asse maggiore dell'ellisse)",
+    "verdict": "confirmed",
+    "flags": ["n"],
+    "desc": "L'Anfiteatro Flavio di Roma, inaugurato dall'imperatore Tito nell'anno 80, è il più grande anfiteatro del mondo. La pianta misura 189 m sull'asse maggiore e 156 m su quello minore, per una superficie di circa 2 ettari. Le stime sulla capienza variano molto, da 45.000 a 87.000 spettatori.",
+    "sources": [
+      {
+        "title": "Largest amphitheatre",
+        "url": "https://www.guinnessworldrecords.com/world-records/largest-amphitheatre",
+        "publisher": "Guinness World Records",
+        "evidence": "maximum length of 189 m (620 ft) and a maximum width of 156 m"
+      },
+      {
+        "title": "Colosseo, Enciclopedia Italiana",
+        "url": "https://www.treccani.it/enciclopedia/colosseo_(Enciclopedia-Italiana)/",
+        "publisher": "Istituto della Enciclopedia Italiana Treccani",
+        "evidence": "una capacità massima di 45.000 spettatori"
+      },
+      {
+        "title": "The Colosseum",
+        "url": "https://colosseo.it/en/area/the-colosseum/",
+        "publisher": "Parco archeologico del Colosseo",
+        "evidence": "It is the largest amphitheatre in the world"
+      }
+    ],
+    "note": "La capienza di 87.000 spettatori è quella indicata da Guinness, 45.000 quella della Treccani. L'inaugurazione sotto Tito nell'80 d.C. è confermata dalla voce Colosseo dell'Enciclopedia on line Treccani e da Guinness (completato nell'80). L'altezza non è riportata perché le fonti divergono.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "gateway-arch",
+    "size": 192,
+    "basis": "altezza massima dell'arco (uguale alla larghezza alla base)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "È l'arco rivestito in acciaio inossidabile che sorge a Saint Louis, nel Missouri, sulla riva del Mississippi. È alto 630 piedi, cioè 192 m, ed è largo altrettanto tra le facce esterne delle due gambe. Ha la forma di una catenaria rovesciata e il National Park Service lo indica come il monumento più alto degli Stati Uniti.",
+    "sources": [
+      {
+        "title": "Gateway Arch Fact Sheet",
+        "url": "https://www.nps.gov/jeff/planyourvisit/gateway-arch-fact-sheet.htm",
+        "publisher": "U.S. National Park Service",
+        "evidence": "Maximum Height 630' (192m)"
+      },
+      {
+        "title": "How Tall is it?",
+        "url": "https://www.nps.gov/jeff/planyourvisit/arch-height.htm",
+        "publisher": "U.S. National Park Service",
+        "evidence": "the Gateway Arch is America's tallest monument"
+      }
+    ],
+    "note": "630 ft × 0,3048 = 192,02 m. La forma a catenaria rovesciata e la larghezza di 630 piedi sono nella pagina NPS Materials and Techniques (https://www.nps.gov/jeff/planyourvisit/materials-and-techniques.htm), aperta e verificata.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "diga-di-hoover",
+    "size": 221,
+    "basis": "altezza strutturale, dalla roccia di fondazione alla strada sul coronamento",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "È una diga ad arco-gravità in calcestruzzo sul fiume Colorado, al confine tra Arizona e Nevada. Misura 726,4 piedi, cioè 221,4 m, dalla roccia di fondazione alla strada sul coronamento. Il corpo della diga contiene 3,25 milioni di iarde cubiche di calcestruzzo, circa 2,5 milioni di m³, gettati tra il giugno 1933 e il maggio 1935.",
+    "sources": [
+      {
+        "title": "Hoover Dam Frequently Asked Questions and Answers: The Dam",
+        "url": "https://www.usbr.gov/lc/hooverdam/faqs/damfaqs.html",
+        "publisher": "U.S. Bureau of Reclamation",
+        "evidence": "It is 726.4 feet from foundation rock to the roadway on the crest"
+      }
+    ],
+    "note": "726,4 ft × 0,3048 = 221,41 m. Calcestruzzo: 3.250.000 yd³ × 0,764555 = 2.484.800 m³. Tipo di diga, posizione e date dei getti (6 giugno 1933 - 29 maggio 1935) sono nella stessa pagina.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "torre-eiffel",
+    "size": 330,
+    "basis": "altezza alla punta, antenne comprese",
+    "verdict": "confirmed",
+    "flags": ["r"],
+    "desc": "La torre costruita da Gustave Eiffel per l'Esposizione universale di Parigi del 1889 raggiunge oggi 330 m alla punta delle antenne. La struttura architettonica, senza antenne, è alta 300 m e ha una massa di circa 8.000 tonnellate.",
+    "sources": [
+      {
+        "title": "Eiffel Tower",
+        "url": "https://www.skyscrapercenter.com/building/eiffel-tower/9410",
+        "publisher": "Council on Vertical Urbanism (già CTBUH), The Skyscraper Center",
+        "evidence": "330 m / 1,083 ft"
+      },
+      {
+        "title": "Eiffel, Alexandre-Gustave, Enciclopedia on line",
+        "url": "https://www.treccani.it/enciclopedia/alexandre-gustave-eiffel/",
+        "publisher": "Istituto della Enciclopedia Italiana Treccani",
+        "evidence": "(300 m di altezza, massa 8000 t)"
+      }
+    ],
+    "note": "Sulla pagina Skyscraper Center 330 m è l'altezza 'To Tip' e 300 m quella architettonica; completamento 1889. Tolte dalla descrizione le frasi 'Dal 2022, con la nuova antenna' e 'L'originale: 320 m': il sito ufficiale toureiffel.paris è bloccato da una verifica anti-bot e non ho potuto aprire una pagina che attesti la data del 2022, mentre il valore di 320 m non trova riscontro (le fonti aperte danno 300 m per la struttura).",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "willis-tower",
+    "size": 442,
+    "basis": "altezza architettonica (al tetto, antenne escluse)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il grattacielo di Chicago, chiamato Sears Tower fino al 2009, è alto 442,1 m al tetto e 527 m alla punta delle antenne. Al termine dei lavori, nel 1973 secondo la proprietà, era l'edificio più alto del mondo.",
+    "sources": [
+      {
+        "title": "Willis Tower",
+        "url": "https://www.skyscrapercenter.com/building/willis-tower/169",
+        "publisher": "Council on Vertical Urbanism (già CTBUH), The Skyscraper Center",
+        "evidence": "442.1 m / 1,451 ft"
+      },
+      {
+        "title": "About Willis Tower",
+        "url": "https://www.willistower.com/about",
+        "publisher": "Willis Tower (Perform Properties)",
+        "evidence": "2009 ‘Sears Tower’ is renamed ‘Willis Tower’"
+      }
+    ],
+    "note": "Skyscraper Center: 442,1 m architettonica, 527 m 'To Tip', 108 piani, completamento 1974. Il sito della proprietà dà 110 piani e il 1973 come fine dei lavori ('construction is completed on what is then the tallest building in the world'); la descrizione attribuisce la data alla proprietà e non cita il numero di piani. Mantenuto il riferimento alla ex Sears Tower.",
+    "verified": "2026-11-12"
+  }
+]

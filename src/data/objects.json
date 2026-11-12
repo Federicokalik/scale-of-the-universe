@@ -3234,8 +3234,14 @@
     "glyph": "🚪",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Decreto del Presidente della Repubblica 6 giugno 2001, n. 380, art. 24 (Agibilità), comma 5-bis",
+        "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:2001-06-06;380~art24",
+        "publisher": "Normattiva, Presidenza del Consiglio dei Ministri"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "onde-radio-fm",
@@ -3460,10 +3466,18 @@
     "size": 15,
     "kind": "g",
     "glyph": "🏠",
-    "flags": [],
+    "flags": [
+      "u"
+    ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Highlights of 2025 Characteristics of New Housing",
+        "url": "https://www.census.gov/construction/chars/highlights.html",
+        "publisher": "U.S. Census Bureau"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "quercia",
@@ -3561,8 +3575,19 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Tower",
+        "url": "https://www.opapisa.it/en/square-of-miracles/tower/",
+        "publisher": "Opera della Primaziale Pisana"
+      },
+      {
+        "title": "Pisa, Enciclopedia on line",
+        "url": "https://www.treccani.it/enciclopedia/pisa/",
+        "publisher": "Istituto della Enciclopedia Italiana Treccani"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "boeing-747-8",
@@ -3615,8 +3640,14 @@
     "glyph": "🏈",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "2026 NFL Rulebook, Rule 1 Section 1 Article 1 (Playing Lines)",
+        "url": "https://operations.nfl.com/the-rules/nfl-rulebook/",
+        "publisher": "National Football League, NFL Football Operations"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "saturn-v",
@@ -3684,8 +3715,19 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Tallest pyramid",
+        "url": "https://www.guinnessworldrecords.com/world-records/tallest-pyramid",
+        "publisher": "Guinness World Records"
+      },
+      {
+        "title": "Giza, Enciclopedia on line",
+        "url": "https://www.treccani.it/enciclopedia/giza/",
+        "publisher": "Istituto della Enciclopedia Italiana Treccani"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "dimorphos",
@@ -3708,8 +3750,24 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Largest amphitheatre",
+        "url": "https://www.guinnessworldrecords.com/world-records/largest-amphitheatre",
+        "publisher": "Guinness World Records"
+      },
+      {
+        "title": "Colosseo, Enciclopedia Italiana",
+        "url": "https://www.treccani.it/enciclopedia/colosseo_(Enciclopedia-Italiana)/",
+        "publisher": "Istituto della Enciclopedia Italiana Treccani"
+      },
+      {
+        "title": "The Colosseum",
+        "url": "https://colosseo.it/en/area/the-colosseum/",
+        "publisher": "Parco archeologico del Colosseo"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "gateway-arch",
@@ -3718,8 +3776,19 @@
     "glyph": "🌉",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Gateway Arch Fact Sheet",
+        "url": "https://www.nps.gov/jeff/planyourvisit/gateway-arch-fact-sheet.htm",
+        "publisher": "U.S. National Park Service"
+      },
+      {
+        "title": "How Tall is it?",
+        "url": "https://www.nps.gov/jeff/planyourvisit/arch-height.htm",
+        "publisher": "U.S. National Park Service"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "oumuamua",
@@ -3741,8 +3810,14 @@
     "glyph": "🏞️",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Hoover Dam Frequently Asked Questions and Answers: The Dam",
+        "url": "https://www.usbr.gov/lc/hooverdam/faqs/damfaqs.html",
+        "publisher": "U.S. Bureau of Reclamation"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "titanic",
@@ -3787,8 +3862,19 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Eiffel Tower",
+        "url": "https://www.skyscrapercenter.com/building/eiffel-tower/9410",
+        "publisher": "Council on Vertical Urbanism (già CTBUH), The Skyscraper Center"
+      },
+      {
+        "title": "Eiffel, Alexandre-Gustave, Enciclopedia on line",
+        "url": "https://www.treccani.it/enciclopedia/alexandre-gustave-eiffel/",
+        "publisher": "Istituto della Enciclopedia Italiana Treccani"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "apophis",
@@ -3809,8 +3895,19 @@
     "glyph": "🏢",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Willis Tower",
+        "url": "https://www.skyscrapercenter.com/building/willis-tower/169",
+        "publisher": "Council on Vertical Urbanism (già CTBUH), The Skyscraper Center"
+      },
+      {
+        "title": "About Willis Tower",
+        "url": "https://www.willistower.com/about",
+        "publisher": "Willis Tower (Perform Properties)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "international-commerce-centre",
