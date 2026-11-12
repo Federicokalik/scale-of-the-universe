@@ -1,0 +1,152 @@
+[
+  {
+    "id": "raggi-gamma",
+    "size": 1.3e-12,
+    "basis": "lunghezza d'onda rappresentativa della banda gamma (fotone di circa 0,95 MeV); la banda non ha un valore unico",
+    "verdict": "uncertain",
+    "flags": ["u"],
+    "desc": "I raggi gamma sono la radiazione elettromagnetica con la lunghezza d'onda più corta e l'energia più alta. Per convenzione la NASA chiama gamma tutti i fotoni con energia superiore a 100 keV, cioè con lunghezza d'onda sotto i 12 picometri circa; il valore mostrato qui, 1,3 picometri, corrisponde a un fotone di circa 1 MeV. Sulla Terra sono prodotti da decadimenti radioattivi, fulmini ed esplosioni nucleari.",
+    "sources": [
+      {
+        "title": "The Electromagnetic Spectrum (Imagine the Universe!)",
+        "url": "https://imagine.gsfc.nasa.gov/science/toolbox/emspectrum1.html",
+        "publisher": "NASA Goddard Space Flight Center",
+        "evidence": "Gamma-rays then are all the photons with energies greater than 100 keV"
+      },
+      {
+        "title": "Gamma Rays (Tour of the Electromagnetic Spectrum)",
+        "url": "https://science.nasa.gov/ems/12_gammarays/",
+        "publisher": "NASA Science",
+        "evidence": "Gamma rays have the smallest wavelengths and the most energy"
+      }
+    ],
+    "note": "La dimensione è una convenzione: un punto scelto dentro una banda che non ha limite inferiore. Conversioni (λ = hc/E, hc = 1239,84 eV·nm): 100 keV → 1239,84/100000 nm = 0,0124 nm = 12,4 pm; 1,3 pm → 1239,84/0,0013 eV = 0,95 MeV. La soglia di 100 keV è quella della pagina NASA; la descrizione precedente diceva 'sotto i 10 picometri circa', sostituito con circa 12 pm derivato dalla soglia citata. Il confine con i raggi X varia da fonte a fonte. Britannica non si è aperta (403) e non è citata.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "lunghezza-d-onda-compton-dell-elettrone",
+    "size": 2.426e-12,
+    "basis": "lunghezza d'onda Compton dell'elettrone (costante fisica, valore CODATA 2022)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "La lunghezza d'onda Compton dell'elettrone è una costante fisica legata alla massa dell'elettrone. Il valore raccomandato CODATA 2022 è 2,42631023538 × 10⁻¹² m, cioè circa 2,43 picometri. Prende il nome dall'effetto Compton, in cui un fotone urta un elettrone e perde energia.",
+    "sources": [
+      {
+        "title": "CODATA Value: Compton wavelength",
+        "url": "https://physics.nist.gov/cgi-bin/cuu/Value?ecomwl",
+        "publisher": "NIST, CODATA 2022",
+        "evidence": "2.426 310 235 38 x 10-12 m"
+      },
+      {
+        "title": "Gamma Rays (Tour of the Electromagnetic Spectrum)",
+        "url": "https://science.nasa.gov/ems/12_gammarays/",
+        "publisher": "NASA Science",
+        "evidence": "wherein a gamma ray strikes an electron and loses energy"
+      }
+    ],
+    "note": "Valore attuale 2,426e-12 m contro 2,42631e-12 m CODATA: differenza dello 0,01%. Tolta la frase precedente ('sotto questa scala, localizzare un elettrone crea nuove coppie di particelle'): non ho aperto una fonte istituzionale che la sostenga. La pagina NASA descrive lo scattering Compton ma non la costante; il legame con la massa dell'elettrone (λ = h/(m c)) è la definizione standard, non riportata testualmente nelle pagine aperte. La pagina del Nobel 1927 non si è aperta (403) e non è citata.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "raggi-x",
+    "size": 1.54e-10,
+    "basis": "lunghezza d'onda della riga Kα del rame (Kα1 = 1,5406 Å; media Kα = 1,5418 Å), scelta come esempio di raggi X",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "I raggi X sono qui rappresentati dalla riga Kα del rame, emessa dai tubi a raggi X con anodo di rame. La componente Kα1 ha una lunghezza d'onda misurata di 1,5405929 ångström, circa 0,154 nanometri, paragonabile alle distanze tra gli atomi in un cristallo. Il rame è il materiale più comune per l'anodo nella diffrazione su cristallo singolo.",
+    "sources": [
+      {
+        "title": "X-ray Transition Energies Database (SRD 128): Cu KL3",
+        "url": "https://physics.nist.gov/cgi-bin/XrayTrans/search.pl?element=Cu&trans=KL3&lower=&upper=&units=A",
+        "publisher": "NIST",
+        "evidence": "1.540 592 90(50)"
+      },
+      {
+        "title": "X-ray Powder Diffraction (XRD)",
+        "url": "https://serc.carleton.edu/research_education/geochemsheets/techniques/XRD.html",
+        "publisher": "Science Education Resource Center, Carleton College",
+        "evidence": "Copper is the most common target material for single-crystal diffraction, with CuKα radiation = 1.5418Å"
+      }
+    ],
+    "note": "1,5405929 Å = 1,5405929e-10 m (Kα1, valore sperimentale diretto NIST); la media pesata del doppietto è 1,5418 Å. Il valore attuale 1,54e-10 m è entro lo 0,1% da entrambi. Il superlativo 'la più usata in cristallografia' è stato ristretto a quanto dice la fonte (anodo più comune per la diffrazione su cristallo singolo). Il confronto con le distanze interatomiche è un'affermazione generale non citata testualmente dalle pagine aperte.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "luce-euv-per-litografia",
+    "size": 1.35e-8,
+    "basis": "lunghezza d'onda della luce ultravioletta estrema usata nelle macchine litografiche EUV",
+    "verdict": "confirmed",
+    "flags": ["n"],
+    "desc": "La litografia EUV stampa i circuiti dei microchip con luce ultravioletta estrema di lunghezza d'onda 13,5 nm, quasi al confine con i raggi X. Per generarla, un laser a CO2 colpisce con due impulsi una goccia di stagno in rapido movimento. Secondo il produttore ASML queste macchine stampano gli strati più complessi dei chip dei nodi a 7, 5 e 3 nm.",
+    "sources": [
+      {
+        "title": "EUV lithography systems",
+        "url": "https://www.asml.com/en/products/euv-lithography-systems",
+        "publisher": "ASML",
+        "evidence": "light with a wavelength of just 13.5 nm"
+      }
+    ],
+    "note": "13,5 nm = 1,35e-8 m, identico al valore attuale. 'I chip più avanzati' è stato reso con la formulazione del produttore (strati più complessi, nodi a 7, 5 e 3 nm).",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "ultravioletto",
+    "size": 1e-7,
+    "basis": "lunghezza d'onda rappresentativa della banda ultravioletta: 100 nm, limite corto della regione UV secondo l'OMS",
+    "verdict": "uncertain",
+    "flags": ["u"],
+    "desc": "L'ultravioletto è la radiazione con lunghezza d'onda più corta della luce visibile. Secondo l'Organizzazione Mondiale della Sanità la regione UV va da 100 a 400 nm e si divide in UVA (315-400 nm), UVB (280-315 nm) e UVC (100-280 nm); altre convenzioni la estendono a lunghezze d'onda più corte. L'UVC è filtrato del tutto dall'atmosfera e circa il 95% dell'UV che arriva al suolo è UVA.",
+    "sources": [
+      {
+        "title": "Radiation: Ultraviolet (UV) radiation (Questions and answers)",
+        "url": "https://www.who.int/news-room/questions-and-answers/item/radiation-ultraviolet-(uv)",
+        "publisher": "World Health Organization",
+        "evidence": "The UV region covers the wavelength range 100-400 nm"
+      }
+    ],
+    "note": "La dimensione è una convenzione: un punto dentro una banda, qui coincidente con il limite corto OMS (100 nm = 1e-7 m). La descrizione precedente diceva 'tra 10 e 400 nm': il limite di 10 nm non è stato trovato in una fonte che si aprisse (Britannica 403, pagina ISO 21348 404; la pagina NASA sull'ultravioletto non dà valori in nm), quindi è sostituito dall'intervallo OMS con un accenno generico alle altre convenzioni. Che la banda continui sotto i 100 nm è coerente con la pagina ASML, che chiama ultravioletto estremo la luce a 13,5 nm.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "luce-viola",
+    "size": 4e-7,
+    "basis": "lunghezza d'onda al limite corto dello spettro visibile (estremo viola), fissato per convenzione tra 380 e 400 nm",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il viola è il colore con la lunghezza d'onda più corta dello spettro visibile. Il confine con l'ultravioletto è convenzionale: la NASA indica circa 380 nm come limite per l'occhio umano, mentre altre sue pagine fanno partire il visibile da 400 nm, il valore usato qui. All'altro estremo c'è il rosso, a circa 700 nm.",
+    "sources": [
+      {
+        "title": "The Electromagnetic Spectrum (Imagine the Universe!)",
+        "url": "https://imagine.gsfc.nasa.gov/science/toolbox/emspectrum1.html",
+        "publisher": "NASA Goddard Space Flight Center",
+        "evidence": "wavelengths between 400 and 700 nanometers"
+      },
+      {
+        "title": "Visible Light (Tour of the Electromagnetic Spectrum)",
+        "url": "https://science.nasa.gov/ems/09_visiblelight/",
+        "publisher": "NASA Science",
+        "evidence": "Violet has the shortest wavelength, at around 380 nanometers"
+      }
+    ],
+    "note": "400 nm = 4e-7 m. Le due pagine NASA danno 400 nm e circa 380 nm: la differenza è del 5%, dentro la variabilità naturale del limite (dipende dall'osservatore), quindi il valore resta confermato e la descrizione riporta entrambe le cifre. Se si preferisce trattare il limite come convenzione, il verdetto alternativo sarebbe 'uncertain'.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "luce-verde",
+    "size": 5.5e-7,
+    "basis": "lunghezza d'onda della luce verde vicino al massimo di sensibilità dell'occhio in visione diurna (555 nm)",
+    "verdict": "confirmed",
+    "flags": ["n"],
+    "desc": "La luce verde intorno a 550 nm cade dove l'occhio umano è più sensibile in condizioni di buona illuminazione. La funzione di efficienza luminosa fotopica V(λ) ha il massimo a 555 nm. La candela, l'unità SI dell'intensità luminosa, è realizzata con un'efficacia luminosa di 683 lm/W a 540 × 10¹² Hz, pari a 555,016 nm in aria.",
+    "sources": [
+      {
+        "title": "Realization of the Candela",
+        "url": "https://www.nist.gov/optical-radiation-group/realization-candela",
+        "publisher": "NIST",
+        "evidence": "normalized to unity at its peak, 555 nm"
+      }
+    ],
+    "note": "Valore attuale 550 nm contro il massimo a 555 nm: differenza dello 0,9%. La sensibilità massima vale per la visione fotopica (diurna); la pagina aperta non riporta i limiti in nm della banda del verde, quindi la descrizione non li dà.",
+    "verified": "2026-11-12"
+  }
+]

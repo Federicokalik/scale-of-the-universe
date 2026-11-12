@@ -1,0 +1,140 @@
+[
+  {
+    "id": "luce-rossa",
+    "size": 7e-7,
+    "basis": "lunghezza d'onda al limite lungo (rosso) dello spettro visibile",
+    "verdict": "confirmed",
+    "flags": ["r"],
+    "desc": "La luce rossa occupa l'estremo a lunghezza d'onda maggiore dello spettro visibile, attorno a 700 nanometri. Secondo la NASA l'occhio umano percepisce tipicamente le lunghezze d'onda comprese tra 380 nm (violetto) e 700 nm (rosso). Oltre questo limite comincia l'infrarosso.",
+    "sources": [
+      {
+        "title": "Visible Light (Tour of the Electromagnetic Spectrum)",
+        "url": "https://science.nasa.gov/ems/09_visiblelight/",
+        "publisher": "NASA Science",
+        "evidence": "red has the longest wavelength, at around 700 nanometers"
+      }
+    ],
+    "note": "700 nm = 7e-7 m, confermato. Il limite è una convenzione: la sensibilità dell'occhio cala gradualmente e la NASA scrive \"around\". Tolta la frase sull'etichetta dell'originale del 2012 (\"la etichettava di nuovo come viola\"), che non ho potuto verificare su una fonte.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "infrarosso-termico",
+    "size": 0.00001,
+    "basis": "lunghezza d'onda tipica dell'infrarosso termico (circa 10 µm, vicino al picco di emissione di un corpo a temperatura ambiente)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "L'infrarosso termico è la banda in cui emettono gli oggetti a temperatura ambiente: per la legge di Wien un corpo a 20 °C ha il picco di emissione a circa 9,9 µm. La NASA indica come infrarosso termico la regione tra 8 e 15 µm. L'infrarosso fu scoperto nel 1800 da William Herschel misurando la temperatura oltre il rosso dello spettro solare.",
+    "sources": [
+      {
+        "title": "Infrared Waves (Tour of the Electromagnetic Spectrum)",
+        "url": "https://science.nasa.gov/ems/07_infraredwaves/",
+        "publisher": "NASA Science",
+        "evidence": "The region from 8 to 15 microns (µm) is referred to ... as thermal infrared"
+      },
+      {
+        "title": "Wien wavelength displacement law constant (CODATA value)",
+        "url": "https://physics.nist.gov/cgi-bin/cuu/Value?bwien",
+        "publisher": "NIST / CODATA",
+        "evidence": "2.897 771 955... x 10-3 m K"
+      }
+    ],
+    "note": "Calcolo: λ = b / T = 2,897771955e-3 m K / 293,15 K = 9,885e-6 m (a 300 K: 9,66e-6 m). Il valore attuale di 1e-5 m è entro il 5% e cade nella banda 8-15 µm indicata dalla NASA, quindi confermato. È un valore rappresentativo di una banda, non una riga precisa.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "picco-del-fondo-cosmico-a-microonde",
+    "size": 0.00106,
+    "basis": "lunghezza d'onda del picco dello spettro di corpo nero del fondo cosmico (picco per unità di lunghezza d'onda, legge di Wien)",
+    "verdict": "confirmed",
+    "flags": ["n"],
+    "desc": "Il fondo cosmico a microonde è la radiazione residua del Big Bang che riempie tutto l'universo, formatasi circa 380.000 anni dopo. Oggi ha lo spettro di un corpo nero a 2,7255 K, il cui picco per unità di lunghezza d'onda cade a circa 1,06 mm. È il punto più lontano nel tempo che si possa osservare con la luce.",
+    "sources": [
+      {
+        "title": "The Temperature of the Cosmic Microwave Background",
+        "url": "https://arxiv.org/abs/0911.1955",
+        "publisher": "D. J. Fixsen, The Astrophysical Journal, arXiv",
+        "evidence": "2.72548 +/- 0.00057 K"
+      },
+      {
+        "title": "Wien wavelength displacement law constant (CODATA value)",
+        "url": "https://physics.nist.gov/cgi-bin/cuu/Value?bwien",
+        "publisher": "NIST / CODATA",
+        "evidence": "2.897 771 955... x 10-3 m K"
+      },
+      {
+        "title": "Planck and the cosmic microwave background",
+        "url": "https://www.esa.int/Science_Exploration/Space_Science/Planck/Planck_and_the_cosmic_microwave_background",
+        "publisher": "ESA",
+        "evidence": "formed about 380,000 years after the Big Bang"
+      }
+    ],
+    "note": "Calcolo: λ = b / T = 2,897771955e-3 m K / 2,72548 K = 1,0632e-3 m, cioè 1,06 mm: confermato. Attenzione: è il picco dello spettro espresso per unità di lunghezza d'onda; espresso per unità di frequenza il picco cade a circa 160 GHz, che corrisponde a circa 1,9 mm (valore non citato nella descrizione perché non letto su una fonte). \"La luce più antica dell'universo\" è stata riformulata secondo la frase ESA \"the furthest back in time we can explore using light\".",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "microonde-del-forno",
+    "size": 0.122,
+    "basis": "lunghezza d'onda nel vuoto delle microonde di un forno domestico (frequenza 2,45 GHz)",
+    "verdict": "confirmed",
+    "flags": ["r"],
+    "desc": "I forni a microonde domestici lavorano a 2.450 MHz, che corrisponde a una lunghezza d'onda di circa 12,2 cm. Le microonde fanno vibrare le molecole d'acqua contenute nel cibo e questo produce il calore che lo cuoce. La frequenza cade in una banda riservata agli usi industriali, scientifici e medici (2.450 MHz ± 50 MHz), la stessa regione dello spettro usata dai dispositivi radio senza licenza a 2,4 GHz.",
+    "sources": [
+      {
+        "title": "Microwave Ovens (HyperPhysics)",
+        "url": "https://hyperphysics.gsu.edu/hbase/Waves/mwoven.html",
+        "publisher": "Georgia State University, Department of Physics and Astronomy",
+        "evidence": "Modern microwave ovens operate at the frequency 2,450 MHz."
+      },
+      {
+        "title": "47 CFR § 18.301 - Operating frequencies (ISM equipment)",
+        "url": "https://www.law.cornell.edu/cfr/text/47/18.301",
+        "publisher": "U.S. Code of Federal Regulations (FCC), via Cornell Legal Information Institute",
+        "evidence": "2450 MHz ± 50.0 MHz"
+      },
+      {
+        "title": "Microwave Ovens",
+        "url": "https://www.fda.gov/radiation-emitting-products/resources-you-radiation-emitting-products/microwave-ovens",
+        "publisher": "U.S. Food and Drug Administration (FDA)",
+        "evidence": "Microwaves cause water molecules in food to vibrate, producing heat"
+      }
+    ],
+    "note": "Calcolo: λ = c / f = 299.792.458 m/s / 2,45e9 Hz = 0,12236 m, confermato (HyperPhysics scrive \"about 12 cm\"). Il confronto esplicito con il Wi-Fi è stato attenuato: ho verificato solo che la FCC (47 CFR § 15.247, https://www.law.cornell.edu/cfr/text/47/15.247) autorizza dispositivi senza licenza a 2400-2483,5 MHz, ma quella pagina non nomina il Wi-Fi. Tolto il riferimento al valore dell'originale (\"1 cm\"), non verificato su una fonte. Le pagine fcc.gov e britannica.com hanno risposto 403 e non sono citate.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "onde-radio-fm",
+    "size": 3,
+    "basis": "lunghezza d'onda rappresentativa della banda di radiodiffusione FM (100 MHz, al centro della banda 88-108 MHz)",
+    "verdict": "confirmed",
+    "flags": ["r"],
+    "desc": "La radio FM trasmette nella banda compresa tra 88 e 108 MHz. A queste frequenze la lunghezza d'onda va da circa 3,4 m a circa 2,8 m: 3 m corrispondono a 100 MHz, al centro della banda.",
+    "sources": [
+      {
+        "title": "47 CFR § 73.201 - Numerical designation of FM broadcast channels",
+        "url": "https://www.law.cornell.edu/cfr/text/47/73.201",
+        "publisher": "U.S. Code of Federal Regulations (FCC), via Cornell Legal Information Institute",
+        "evidence": "between 88 MHz and 108 MHz"
+      }
+    ],
+    "note": "Calcolo: λ = c / f. 299.792.458 / 88e6 = 3,407 m; / 108e6 = 2,776 m; / 100e6 = 2,998 m. Il valore 3 m è confermato come rappresentativo della banda. La fonte è la norma statunitense; la stessa banda 88-108 MHz (in Europa 87,5-108 MHz) non è stata verificata su un documento ITU. Tolto il riferimento al valore dell'originale (\"1 m\"), non verificato. La pagina fcc.gov/media/radio/fm-radio ha risposto 403.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "onde-radio-am",
+    "size": 300,
+    "basis": "lunghezza d'onda rappresentativa della banda di radiodiffusione AM in onde medie (1 MHz, entro la banda 535-1705 kHz)",
+    "verdict": "confirmed",
+    "flags": ["r"],
+    "desc": "La radio AM in onde medie usa, secondo la norma statunitense, la banda compresa tra 535 e 1.705 kHz. A queste frequenze la lunghezza d'onda va da circa 560 m a circa 176 m: 300 m corrispondono a 1 MHz.",
+    "sources": [
+      {
+        "title": "47 CFR § 73.14 - AM broadcast definitions",
+        "url": "https://www.law.cornell.edu/cfr/text/47/73.14",
+        "publisher": "U.S. Code of Federal Regulations (FCC), via Cornell Legal Information Institute",
+        "evidence": "The band of frequencies extending from 535 to 1705 kHz."
+      }
+    ],
+    "note": "Calcolo: λ = c / f. 299.792.458 / 535e3 = 560,4 m; / 1705e3 = 175,8 m; / 1e6 = 299,8 m. Il valore 300 m è confermato come rappresentativo della banda. La descrizione precedente dava 180-570 m, che corrisponde alla banda europea delle onde medie (526,5-1606,5 kHz): non l'ho trovata su una fonte aperta, quindi ho usato i limiti FCC. Tolto il riferimento al valore dell'originale (\"1 km\"), non verificato. La pagina fcc.gov/media/radio/am-radio ha risposto 403.",
+    "verified": "2026-11-12"
+  }
+]

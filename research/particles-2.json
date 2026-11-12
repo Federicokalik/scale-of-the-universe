@@ -1,0 +1,200 @@
+[
+  {
+    "id": "quark-charm",
+    "size": 1.3e-19,
+    "basis": "valore convenzionale, non una misura: i quark non hanno una dimensione misurata",
+    "verdict": "uncertain",
+    "flags": ["u"],
+    "desc": "Il quark charm appartiene alla seconda generazione di quark, ha carica elettrica +2/3 e una massa di circa 1,273 GeV secondo il Particle Data Group. Non ha una dimensione misurata: la grandezza mostrata è una convenzione. L'esperimento ZEUS a HERA ha stabilito che un'eventuale struttura dei quark è più piccola di 0,43×10⁻¹⁸ m.",
+    "sources": [
+      {
+        "title": "Quarks, Summary Table, Review of Particle Physics 2024",
+        "url": "https://pdg.lbl.gov/2024/tables/rpp2024-sum-quarks.pdf",
+        "publisher": "Particle Data Group (LBNL)",
+        "evidence": "mc = 1.2730 ± 0.0046 GeV"
+      },
+      {
+        "title": "Limits on the effective quark radius from inclusive ep scattering at HERA",
+        "url": "https://arxiv.org/abs/1604.01280",
+        "publisher": "ZEUS Collaboration, arXiv (accettato da Physics Letters B)",
+        "evidence": "upper limit on the effective quark radius is $0.43\\cdot 10^{-16}$ cm"
+      }
+    ],
+    "note": "Nessuna fonte dà una dimensione del quark charm: 1,3e-19 m resta un valore convenzionale ereditato, mantenuto come da istruzioni di categoria. La massa è la massa MS-bar del PDG 2024 (PDF aperto ed estratto in testo). Il limite ZEUS vale 0,43e-16 cm = 0,43e-18 m e riguarda il raggio efficace dei quark in generale. Seconda generazione: pagina CERN sul Modello Standard (citata nella voce quark-up).",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "quark-strange",
+    "size": 4e-19,
+    "basis": "valore convenzionale, non una misura: i quark non hanno una dimensione misurata",
+    "verdict": "uncertain",
+    "flags": ["u"],
+    "desc": "Il quark strange appartiene alla seconda generazione di quark, ha carica elettrica −1/3 e una massa di circa 93,5 MeV secondo il Particle Data Group. Non ha una dimensione misurata: la grandezza mostrata è una convenzione. L'esperimento ZEUS a HERA ha stabilito che un'eventuale struttura dei quark è più piccola di 0,43×10⁻¹⁸ m.",
+    "sources": [
+      {
+        "title": "Quarks, Summary Table, Review of Particle Physics 2024",
+        "url": "https://pdg.lbl.gov/2024/tables/rpp2024-sum-quarks.pdf",
+        "publisher": "Particle Data Group (LBNL)",
+        "evidence": "ms = 93.5 ± 0.8 MeV"
+      },
+      {
+        "title": "Limits on the effective quark radius from inclusive ep scattering at HERA",
+        "url": "https://arxiv.org/abs/1604.01280",
+        "publisher": "ZEUS Collaboration, arXiv (accettato da Physics Letters B)",
+        "evidence": "upper limit on the effective quark radius is $0.43\\cdot 10^{-16}$ cm"
+      }
+    ],
+    "note": "Nessuna fonte dà una dimensione del quark strange: 4e-19 m resta un valore convenzionale ereditato. La massa è la massa MS-bar a 2 GeV del PDG 2024 (PDF aperto ed estratto in testo). Limite ZEUS: 0,43e-16 cm = 0,43e-18 m.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "limite-sul-raggio-dei-quark",
+    "size": 4.3e-19,
+    "basis": "limite superiore sperimentale (95% di livello di confidenza) sul raggio efficace dei quark",
+    "verdict": "confirmed",
+    "flags": ["r"],
+    "desc": "È il limite superiore sul raggio efficace dei quark ottenuto dalla collaborazione ZEUS con gli urti tra elettroni e protoni dell'acceleratore HERA, ad Amburgo. L'analisi, pubblicata nel 2016 su dati corrispondenti a circa 1 fb⁻¹ di luminosità, fissa il limite a 0,43×10⁻¹⁸ m con un livello di confidenza del 95%. Se i quark hanno una struttura interna, è più piccola di così.",
+    "sources": [
+      {
+        "title": "Limits on the effective quark radius from inclusive ep scattering at HERA",
+        "url": "https://arxiv.org/abs/1604.01280",
+        "publisher": "ZEUS Collaboration, arXiv (accettato da Physics Letters B)",
+        "evidence": "upper limit on the effective quark radius is $0.43\\cdot 10^{-16}$ cm"
+      }
+    ],
+    "note": "Conversione: 0,43e-16 cm = 0,43e-18 m = 4,3e-19 m, uguale al valore attuale. La misura è un raggio (non raddoppiato). L'anno 2016 è quello del preprint arXiv (1604); la pagina arXiv indica solo \"accepted by Phys. Lett. B\". La descrizione attribuisce il risultato a ZEUS, uno degli esperimenti di HERA; la sede di HERA ad Amburgo (DESY) è un fatto noto non riportato nell'abstract.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "quark-up",
+    "size": 1.1e-18,
+    "basis": "valore convenzionale, non una misura: i quark non hanno una dimensione misurata",
+    "verdict": "uncertain",
+    "flags": ["u"],
+    "desc": "Il quark up ha carica elettrica +2/3 e una massa di circa 2,16 MeV secondo il Particle Data Group. Con il quark down forma la prima generazione, quella di cui è fatta tutta la materia stabile. Non ha una dimensione misurata: la grandezza mostrata è una convenzione, e l'esperimento ZEUS a HERA indica che un'eventuale struttura è più piccola di 0,43×10⁻¹⁸ m.",
+    "sources": [
+      {
+        "title": "Quarks, Summary Table, Review of Particle Physics 2024",
+        "url": "https://pdg.lbl.gov/2024/tables/rpp2024-sum-quarks.pdf",
+        "publisher": "Particle Data Group (LBNL)",
+        "evidence": "mu = 2.16 ± 0.07 MeV"
+      },
+      {
+        "title": "The Standard Model",
+        "url": "https://home.cern/science/physics/standard-model",
+        "publisher": "CERN",
+        "evidence": "stable matter in the universe is made from particles that belong to the first generation"
+      },
+      {
+        "title": "Limits on the effective quark radius from inclusive ep scattering at HERA",
+        "url": "https://arxiv.org/abs/1604.01280",
+        "publisher": "ZEUS Collaboration, arXiv (accettato da Physics Letters B)",
+        "evidence": "upper limit on the effective quark radius is $0.43\\cdot 10^{-16}$ cm"
+      }
+    ],
+    "note": "Il valore convenzionale 1,1e-18 m è più grande del limite sperimentale ZEUS (0,43e-18 m): mantenuto come da istruzioni di categoria, ma la descrizione lo dice. Da valutare se abbassarlo sotto il limite. La frase \"costituente di protoni e neutroni\" è stata sostituita con quella sulla prima generazione, sostenuta dalla pagina CERN. Massa MS-bar a 2 GeV dal PDG 2024 (PDF aperto ed estratto in testo).",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "quark-down",
+    "size": 1.2e-18,
+    "basis": "valore convenzionale, non una misura: i quark non hanno una dimensione misurata",
+    "verdict": "uncertain",
+    "flags": ["u"],
+    "desc": "Il quark down ha carica elettrica −1/3 e una massa di circa 4,70 MeV secondo il Particle Data Group, poco più del doppio di quella del quark up. Con il quark up forma la prima generazione, quella di cui è fatta tutta la materia stabile. Non ha una dimensione misurata: la grandezza mostrata è una convenzione, e l'esperimento ZEUS a HERA indica che un'eventuale struttura è più piccola di 0,43×10⁻¹⁸ m.",
+    "sources": [
+      {
+        "title": "Quarks, Summary Table, Review of Particle Physics 2024",
+        "url": "https://pdg.lbl.gov/2024/tables/rpp2024-sum-quarks.pdf",
+        "publisher": "Particle Data Group (LBNL)",
+        "evidence": "md = 4.70 ± 0.07 MeV"
+      },
+      {
+        "title": "The Standard Model",
+        "url": "https://home.cern/science/physics/standard-model",
+        "publisher": "CERN",
+        "evidence": "stable matter in the universe is made from particles that belong to the first generation"
+      },
+      {
+        "title": "Limits on the effective quark radius from inclusive ep scattering at HERA",
+        "url": "https://arxiv.org/abs/1604.01280",
+        "publisher": "ZEUS Collaboration, arXiv (accettato da Physics Letters B)",
+        "evidence": "upper limit on the effective quark radius is $0.43\\cdot 10^{-16}$ cm"
+      }
+    ],
+    "note": "Il valore convenzionale 1,2e-18 m è più grande del limite sperimentale ZEUS (0,43e-18 m): mantenuto come da istruzioni di categoria, ma la descrizione lo dice. Da valutare se abbassarlo sotto il limite. Rapporto delle masse: il PDG dà mu/md = 0,462, cioè md è circa 2,2 volte mu. La frase \"costituente di protoni e neutroni\" è stata sostituita con quella sulla prima generazione, sostenuta dalla pagina CERN.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "elettrone-limite-superiore",
+    "size": 2.8e-19,
+    "basis": "limite superiore sperimentale (95% di livello di confidenza) sulla dimensione dell'elettrone, da urti elettrone-positrone a LEP",
+    "verdict": "corrected",
+    "flags": ["u", "r"],
+    "desc": "Negli urti tra elettroni e positroni non è mai stata osservata alcuna struttura interna dell'elettrone. Un'analisi dei dati degli esperimenti ALEPH, L3 e OPAL all'acceleratore LEP del CERN fissa per la sua dimensione un limite superiore di 2,8×10⁻¹⁹ m, con un livello di confidenza del 95%. L'elettrone si comporta quindi come un punto almeno fino a questa scala.",
+    "sources": [
+      {
+        "title": "Search for TeV Strings and New Phenomena in Bhabha Scattering at LEP2",
+        "url": "https://arxiv.org/abs/hep-ph/0002172",
+        "publisher": "D. Bourilkov, Physical Review D 62, 076005 (2000), arXiv",
+        "evidence": "upper limit on the electron size of 2.8 x 10^{-19} m at 95 % confidence level"
+      }
+    ],
+    "note": "Da 1,4e-18 m a 2,8e-19 m. Non ho trovato alcuna fonte per 1,4e-18 m; il limite pubblicato e verificabile è 2,8e-19 m (Bourilkov 2000, diffusione Bhabha a 183 e 189 GeV). Una ricerca ha indicato anche un valore preliminare del gruppo di lavoro elettrodebole di LEP di 1,4e-19 m (hep-ex/0511027), che non ho potuto aprire e verificare: il valore originale potrebbe esserne un refuso di un fattore 10. Il limite dipende dal modello (fattore di forma), quindi resta il flag u. Il valore è la \"dimensione\" data dall'articolo, non raddoppiata. Gli esperimenti ALEPH, L3 e OPAL sono citati nel riassunto della ricerca, non nella frase copiata in evidence.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "raggio-d-azione-della-forza-debole",
+    "size": 2.5e-18,
+    "basis": "raggio d'azione della forza debole, calcolato come lunghezza d'onda Compton ridotta del bosone W: ħ/(m_W·c)",
+    "verdict": "confirmed",
+    "flags": ["r"],
+    "desc": "La forza debole agisce solo a distanze brevissime perché le particelle che la trasportano, i bosoni W e Z, sono molto pesanti. Il suo raggio d'azione si stima dividendo ħc per l'energia di massa del bosone W, 80,37 GeV: si ottiene circa 2,5×10⁻¹⁸ m. È meno di un centesimo del raggio classico dell'elettrone.",
+    "sources": [
+      {
+        "title": "Gauge and Higgs Bosons, Summary Table, Review of Particle Physics 2024",
+        "url": "https://pdg.lbl.gov/2024/tables/rpp2024-sum-gauge-higgs-bosons.pdf",
+        "publisher": "Particle Data Group (LBNL)",
+        "evidence": "Mass m = 80.3692 ± 0.0133 GeV"
+      },
+      {
+        "title": "reduced Planck constant times c in MeV fm (2022 CODATA)",
+        "url": "https://physics.nist.gov/cgi-bin/cuu/Value?hbcmevf",
+        "publisher": "NIST / CODATA",
+        "evidence": "197.326 980 4... MeV fm"
+      },
+      {
+        "title": "The Standard Model",
+        "url": "https://home.cern/science/physics/standard-model",
+        "publisher": "CERN",
+        "evidence": "the \"W and Z bosons\" are responsible for the weak force"
+      }
+    ],
+    "note": "Calcolo: ħc / (m_W c²) = 197,327 MeV·fm / 80.369,2 MeV = 2,455e-3 fm = 2,455e-18 m, entro il 2% da 2,5e-18 m: confermato. È una stima d'ordine di grandezza (lunghezza di Yukawa), non una misura diretta. La frase \"L'originale indicava 10⁻¹⁷ m\" è stata tolta dalla descrizione perché non ho potuto verificare la lista del 2012. Confronto con il raggio classico: 2,818e-15 / 2,455e-18 ≈ 1150.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "elettrone-raggio-classico",
+    "size": 5.64e-15,
+    "basis": "due volte il raggio classico dell'elettrone (costante CODATA), non una dimensione misurata",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il raggio classico dell'elettrone è una costante con le dimensioni di una lunghezza, costruita con la carica e la massa dell'elettrone: vale 2,818×10⁻¹⁵ m secondo CODATA 2022. La grandezza mostrata è il doppio, circa 5,64×10⁻¹⁵ m. È una convenzione e non una misura: negli esperimenti l'elettrone appare puntiforme fino a scale migliaia di volte più piccole.",
+    "sources": [
+      {
+        "title": "classical electron radius (2022 CODATA)",
+        "url": "https://physics.nist.gov/cgi-bin/cuu/Value?re",
+        "publisher": "NIST / CODATA",
+        "evidence": "2.817 940 3205 x 10-15 m"
+      },
+      {
+        "title": "Search for TeV Strings and New Phenomena in Bhabha Scattering at LEP2",
+        "url": "https://arxiv.org/abs/hep-ph/0002172",
+        "publisher": "D. Bourilkov, Physical Review D 62, 076005 (2000), arXiv",
+        "evidence": "upper limit on the electron size of 2.8 x 10^{-19} m at 95 % confidence level"
+      }
+    ],
+    "note": "Calcolo: 2 × 2,8179403205e-15 m = 5,6359e-15 m, arrotondato a 5,64e-15 m. \"Migliaia di volte più piccole\": 2,818e-15 / 2,8e-19 ≈ 10.000. La definizione (carica e massa dell'elettrone) è quella standard r_e = e²/(4πε₀·m_e·c²); la pagina NIST riporta solo nome e valore.",
+    "verified": "2026-11-12"
+  }
+]

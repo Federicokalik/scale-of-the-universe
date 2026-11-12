@@ -5,11 +5,23 @@
     "kind": "q",
     "glyph": "",
     "flags": [
-      "i"
+      "i",
+      "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Planck length (CODATA 2022 recommended value)",
+        "url": "https://physics.nist.gov/cgi-bin/cuu/Value?plkl",
+        "publisher": "NIST, CODATA"
+      },
+      {
+        "title": "Space-time Foam: NASA Telescopes Set Limits on Space-time Quantum Foam",
+        "url": "https://chandra.harvard.edu/photo/2015/quantum/",
+        "publisher": "Chandra X-ray Center (NASA, Harvard-Smithsonian)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "stringa",
@@ -17,11 +29,23 @@
     "kind": "q",
     "glyph": "",
     "flags": [
-      "i"
+      "i",
+      "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Teoria delle stringhe (Enciclopedia della Scienza e della Tecnica)",
+        "url": "https://www.treccani.it/enciclopedia/teoria-delle-stringhe_(Enciclopedia-della-Scienza-e-della-Tecnica)/",
+        "publisher": "Treccani"
+      },
+      {
+        "title": "Planck length (CODATA 2022 recommended value)",
+        "url": "https://physics.nist.gov/cgi-bin/cuu/Value?plkl",
+        "publisher": "NIST, CODATA"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "lunghezza-di-planck",
@@ -52,8 +76,14 @@
       "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Direct neutrino-mass measurement based on 259 days of KATRIN data",
+        "url": "https://arxiv.org/abs/2406.13516",
+        "publisher": "KATRIN Collaboration (Aker et al.), arXiv"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "quark-top",
@@ -64,8 +94,19 @@
       "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "t quark (pdgLive, Review of Particle Physics)",
+        "url": "https://pdglive.lbl.gov/Particle.action?node=Q007&init=0",
+        "publisher": "Particle Data Group"
+      },
+      {
+        "title": "CMS measures the mass of the top quark with unparalleled accuracy",
+        "url": "https://home.cern/cms-measures-mass-top-quark-unparalleled-accuracy/",
+        "publisher": "CERN"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "zeptometro",
@@ -83,11 +124,23 @@
     "kind": "q",
     "glyph": "",
     "flags": [
-      "i"
+      "i",
+      "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Quark and Lepton Compositeness, Searches for (pdgLive)",
+        "url": "https://pdgprod.lbl.gov/pdgprod/pdgLive/Particle.action?node=S054",
+        "publisher": "Particle Data Group"
+      },
+      {
+        "title": "Searches for Quark and Lepton Compositeness (Review of Particle Physics 2024)",
+        "url": "https://pdg.lbl.gov/2024/reviews/rpp2024-rev-searches-quark-lep-compositeness.pdf",
+        "publisher": "Particle Data Group (Hikasa, Tanabashi, Terashi, Varelas)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "neutrino-ad-alta-energia",
@@ -98,8 +151,14 @@
       "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "KM3NeT detects the highest energy neutrino ever observed",
+        "url": "https://www.km3net.org/km3net-detects-the-highest-energy-neutrino-ever-observed/",
+        "publisher": "KM3NeT Collaboration"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "quark-bottom",
@@ -110,8 +169,19 @@
       "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "b quark (pdgLive, Review of Particle Physics)",
+        "url": "https://pdglive.lbl.gov/Particle.action?node=Q005&init=0",
+        "publisher": "Particle Data Group"
+      },
+      {
+        "title": "This month in Fermilab history: June",
+        "url": "https://news.fnal.gov/2017/06/month-fermilab-history-june/",
+        "publisher": "Fermilab"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "lunghezze-sondate-da-lhc",
@@ -119,11 +189,28 @@
     "kind": "q",
     "glyph": "",
     "flags": [
-      "r"
+      "r",
+      "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Large Hadron Collider restarts",
+        "url": "https://home.cern/large-hadron-collider-restarts",
+        "publisher": "CERN"
+      },
+      {
+        "title": "Can we reach the Zeptouniverse with rare K and B_{s,d} decays?",
+        "url": "https://arxiv.org/abs/1408.0728",
+        "publisher": "Buras, Buttazzo, Girrbach-Noe, Knegjens, arXiv"
+      },
+      {
+        "title": "reduced Planck constant times c in MeV fm (CODATA 2022)",
+        "url": "https://physics.nist.gov/cgi-bin/cuu/Value?hbcmevf",
+        "publisher": "NIST, CODATA"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "sensibilita-di-ligo",
@@ -146,8 +233,38 @@
       "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Quarks, Summary Table, Review of Particle Physics 2024",
+        "url": "https://pdg.lbl.gov/2024/tables/rpp2024-sum-quarks.pdf",
+        "publisher": "Particle Data Group (LBNL)"
+      },
+      {
+        "title": "Limits on the effective quark radius from inclusive ep scattering at HERA",
+        "url": "https://arxiv.org/abs/1604.01280",
+        "publisher": "ZEUS Collaboration, arXiv (accettato da Physics Letters B)"
+      }
+    ],
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "elettrone-limite-superiore",
+    "size": 2.8e-19,
+    "kind": "q",
+    "glyph": "",
+    "flags": [
+      "u",
+      "r"
+    ],
+    "image": null,
+    "sources": [
+      {
+        "title": "Search for TeV Strings and New Phenomena in Bhabha Scattering at LEP2",
+        "url": "https://arxiv.org/abs/hep-ph/0002172",
+        "publisher": "D. Bourilkov, Physical Review D 62, 076005 (2000), arXiv"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "quark-strange",
@@ -158,8 +275,19 @@
       "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Quarks, Summary Table, Review of Particle Physics 2024",
+        "url": "https://pdg.lbl.gov/2024/tables/rpp2024-sum-quarks.pdf",
+        "publisher": "Particle Data Group (LBNL)"
+      },
+      {
+        "title": "Limits on the effective quark radius from inclusive ep scattering at HERA",
+        "url": "https://arxiv.org/abs/1604.01280",
+        "publisher": "ZEUS Collaboration, arXiv (accettato da Physics Letters B)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "limite-sul-raggio-dei-quark",
@@ -170,8 +298,14 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Limits on the effective quark radius from inclusive ep scattering at HERA",
+        "url": "https://arxiv.org/abs/1604.01280",
+        "publisher": "ZEUS Collaboration, arXiv (accettato da Physics Letters B)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "attometro",
@@ -192,8 +326,24 @@
       "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Quarks, Summary Table, Review of Particle Physics 2024",
+        "url": "https://pdg.lbl.gov/2024/tables/rpp2024-sum-quarks.pdf",
+        "publisher": "Particle Data Group (LBNL)"
+      },
+      {
+        "title": "The Standard Model",
+        "url": "https://home.cern/science/physics/standard-model",
+        "publisher": "CERN"
+      },
+      {
+        "title": "Limits on the effective quark radius from inclusive ep scattering at HERA",
+        "url": "https://arxiv.org/abs/1604.01280",
+        "publisher": "ZEUS Collaboration, arXiv (accettato da Physics Letters B)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "quark-down",
@@ -204,20 +354,24 @@
       "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
-  },
-  {
-    "id": "elettrone-limite-superiore",
-    "size": 1.4e-18,
-    "kind": "q",
-    "glyph": "",
-    "flags": [
-      "u"
+    "sources": [
+      {
+        "title": "Quarks, Summary Table, Review of Particle Physics 2024",
+        "url": "https://pdg.lbl.gov/2024/tables/rpp2024-sum-quarks.pdf",
+        "publisher": "Particle Data Group (LBNL)"
+      },
+      {
+        "title": "The Standard Model",
+        "url": "https://home.cern/science/physics/standard-model",
+        "publisher": "CERN"
+      },
+      {
+        "title": "Limits on the effective quark radius from inclusive ep scattering at HERA",
+        "url": "https://arxiv.org/abs/1604.01280",
+        "publisher": "ZEUS Collaboration, arXiv (accettato da Physics Letters B)"
+      }
     ],
-    "image": null,
-    "sources": [],
-    "verified": null
+    "verified": "2026-11-12"
   },
   {
     "id": "raggio-d-azione-della-forza-debole",
@@ -228,8 +382,24 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Gauge and Higgs Bosons, Summary Table, Review of Particle Physics 2024",
+        "url": "https://pdg.lbl.gov/2024/tables/rpp2024-sum-gauge-higgs-bosons.pdf",
+        "publisher": "Particle Data Group (LBNL)"
+      },
+      {
+        "title": "reduced Planck constant times c in MeV fm (2022 CODATA)",
+        "url": "https://physics.nist.gov/cgi-bin/cuu/Value?hbcmevf",
+        "publisher": "NIST / CODATA"
+      },
+      {
+        "title": "The Standard Model",
+        "url": "https://home.cern/science/physics/standard-model",
+        "publisher": "CERN"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "femtometro",
@@ -250,8 +420,14 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "CODATA Value: proton rms charge radius",
+        "url": "https://physics.nist.gov/cgi-bin/cuu/Value?rp",
+        "publisher": "NIST, CODATA 2022"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "neutrone",
@@ -260,8 +436,14 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "pdgLive: n (neutron) summary",
+        "url": "https://pdglive.lbl.gov/Particle.action?node=S017&init=0",
+        "publisher": "Particle Data Group (PDG), Lawrence Berkeley National Laboratory"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "nucleo-di-elio",
@@ -272,8 +454,19 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "CODATA Value: alpha particle rms charge radius",
+        "url": "https://physics.nist.gov/cgi-bin/cuu/Value?ral",
+        "publisher": "NIST, CODATA 2022"
+      },
+      {
+        "title": "Measuring the α-particle charge radius with muonic helium-4 ions",
+        "url": "https://research.vu.nl/en/publications/measuring-the-%CE%B1-particle-charge-radius-with-muonic-helium-4-ions/",
+        "publisher": "Krauth et al., Nature 589, 527-531 (2021), scheda del portale di ricerca della Vrije Universiteit Amsterdam"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "deuterone",
@@ -284,8 +477,19 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "CODATA Value: deuteron rms charge radius",
+        "url": "https://physics.nist.gov/cgi-bin/cuu/Value?rd",
+        "publisher": "NIST, CODATA 2022"
+      },
+      {
+        "title": "CODATA Value: alpha particle rms charge radius",
+        "url": "https://physics.nist.gov/cgi-bin/cuu/Value?ral",
+        "publisher": "NIST, CODATA 2022"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "elettrone-raggio-classico",
@@ -294,8 +498,19 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "classical electron radius (2022 CODATA)",
+        "url": "https://physics.nist.gov/cgi-bin/cuu/Value?re",
+        "publisher": "NIST / CODATA"
+      },
+      {
+        "title": "Search for TeV Strings and New Phenomena in Bhabha Scattering at LEP2",
+        "url": "https://arxiv.org/abs/hep-ph/0002172",
+        "publisher": "D. Bourilkov, Physical Review D 62, 076005 (2000), arXiv"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "nucleo-di-cloro",
@@ -304,8 +519,19 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Modern approach to muonic x-ray spectroscopy demonstrated through the measurement of stable Cl radii",
+        "url": "https://arxiv.org/abs/2506.08804",
+        "publisher": "Beyer et al., arXiv:2506.08804 (2025)"
+      },
+      {
+        "title": "Charge radii of Cl isotopes from x-ray spectroscopy of muonic atoms",
+        "url": "https://arxiv.org/abs/2605.08413",
+        "publisher": "Beyer et al., arXiv:2605.08413 (2026)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "nucleo-atomico-medio",
@@ -314,8 +540,19 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Nuclear Units / Nuclear Size and Density",
+        "url": "https://hyperphysics.gsu.edu/hbase/Nuclear/nucuni.html",
+        "publisher": "HyperPhysics, Georgia State University"
+      },
+      {
+        "title": "DOE Explains...Nuclei",
+        "url": "https://www.energy.gov/science/doe-explainsnuclei",
+        "publisher": "U.S. Department of Energy, Office of Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "nucleo-di-piombo-208",
@@ -326,8 +563,24 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "208Pb nuclear charge radius revisited: closing the fine-structure-anomaly gap",
+        "url": "https://arxiv.org/abs/2504.19977",
+        "publisher": "Sun et al., arXiv:2504.19977 (2025)"
+      },
+      {
+        "title": "Accurate Determination of the Neutron Skin Thickness of 208Pb through Parity-Violation in Electron Scattering",
+        "url": "https://arxiv.org/abs/2102.10767",
+        "publisher": "Adhikari et al. (PREX), Phys. Rev. Lett. 126, 172502 (2021), arXiv"
+      },
+      {
+        "title": "Why is Pb208 the heaviest stable nuclide?",
+        "url": "https://arxiv.org/abs/2309.13082",
+        "publisher": "Kosyakov, Popov, Vronsky, arXiv:2309.13082"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "nucleo-di-uranio",
@@ -336,8 +589,14 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Nuclear deformation effect on the binding energies in heavy ions",
+        "url": "https://arxiv.org/pdf/0711.4607",
+        "publisher": "Kozhedub et al., Physical Review A 77, 032501 (2008), arXiv"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "picometro",
@@ -354,10 +613,23 @@
     "size": 1.3e-12,
     "kind": "w",
     "glyph": "#c9a2ff",
-    "flags": [],
+    "flags": [
+      "u"
+    ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "The Electromagnetic Spectrum (Imagine the Universe!)",
+        "url": "https://imagine.gsfc.nasa.gov/science/toolbox/emspectrum1.html",
+        "publisher": "NASA Goddard Space Flight Center"
+      },
+      {
+        "title": "Gamma Rays (Tour of the Electromagnetic Spectrum)",
+        "url": "https://science.nasa.gov/ems/12_gammarays/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "lunghezza-d-onda-compton-dell-elettrone",
@@ -366,8 +638,19 @@
     "glyph": "#9fd0ff",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "CODATA Value: Compton wavelength",
+        "url": "https://physics.nist.gov/cgi-bin/cuu/Value?ecomwl",
+        "publisher": "NIST, CODATA 2022"
+      },
+      {
+        "title": "Gamma Rays (Tour of the Electromagnetic Spectrum)",
+        "url": "https://science.nasa.gov/ems/12_gammarays/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "risoluzione-record-di-un-microscopio-elettronico",
@@ -390,8 +673,19 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Helium: radii of atoms and ions",
+        "url": "https://www.webelements.com/helium/atom_sizes.html",
+        "publisher": "WebElements (Mark Winter, University of Sheffield)"
+      },
+      {
+        "title": "CODATA Value: Bohr radius",
+        "url": "https://physics.nist.gov/cgi-bin/cuu/Value?bohrrada0",
+        "publisher": "NIST, CODATA 2022"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "angstrom",
@@ -412,8 +706,19 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "CODATA Value: Bohr radius",
+        "url": "https://physics.nist.gov/cgi-bin/cuu/Value?bohrrada0",
+        "publisher": "NIST, CODATA 2022"
+      },
+      {
+        "title": "Hydrogen: radii of atoms and ions",
+        "url": "https://www.webelements.com/hydrogen/atom_sizes.html",
+        "publisher": "WebElements (Mark Winter, University of Sheffield)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "atomo-di-carbonio",
@@ -422,8 +727,14 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Carbon: radii of atoms and ions",
+        "url": "https://www.webelements.com/carbon/atom_sizes.html",
+        "publisher": "WebElements (Mark Winter, University of Sheffield)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "raggi-x",
@@ -432,8 +743,19 @@
     "glyph": "#b8c8ff",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "X-ray Transition Energies Database (SRD 128): Cu KL3",
+        "url": "https://physics.nist.gov/cgi-bin/XrayTrans/search.pl?element=Cu&trans=KL3&lower=&upper=&units=A",
+        "publisher": "NIST"
+      },
+      {
+        "title": "X-ray Powder Diffraction (XRD)",
+        "url": "https://serc.carleton.edu/research_education/geochemsheets/techniques/XRD.html",
+        "publisher": "Science Education Resource Center, Carleton College"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "legame-carbonio-carbonio",
@@ -456,8 +778,14 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Sulfur: radii of atoms and ions",
+        "url": "https://www.webelements.com/sulfur/atom_sizes.html",
+        "publisher": "WebElements (Mark Winter, University of Sheffield)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "molecola-di-co2",
@@ -500,8 +828,24 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Caesium: crystal structures",
+        "url": "https://www.webelements.com/caesium/crystal_structure.html",
+        "publisher": "WebElements (Mark Winter, University of Sheffield)"
+      },
+      {
+        "title": "Caesium: radii of atoms and ions",
+        "url": "https://www.webelements.com/caesium/atom_sizes.html",
+        "publisher": "WebElements (Mark Winter, University of Sheffield)"
+      },
+      {
+        "title": "SI base unit: second (s)",
+        "url": "https://www.bipm.org/en/si-base-units/second",
+        "publisher": "BIPM"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "molecola-di-caffeina",
@@ -654,8 +998,14 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "EUV lithography systems",
+        "url": "https://www.asml.com/en/products/euv-lithography-systems",
+        "publisher": "ASML"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "circovirus-suino",
@@ -706,10 +1056,18 @@
     "size": 1e-7,
     "kind": "w",
     "glyph": "#8f7bff",
-    "flags": [],
+    "flags": [
+      "u"
+    ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Radiation: Ultraviolet (UV) radiation (Questions and answers)",
+        "url": "https://www.who.int/news-room/questions-and-answers/item/radiation-ultraviolet-(uv)",
+        "publisher": "World Health Organization"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "sars-cov-2",
@@ -796,8 +1154,19 @@
     "glyph": "#8b5cf6",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "The Electromagnetic Spectrum (Imagine the Universe!)",
+        "url": "https://imagine.gsfc.nasa.gov/science/toolbox/emspectrum1.html",
+        "publisher": "NASA Goddard Space Flight Center"
+      },
+      {
+        "title": "Visible Light (Tour of the Electromagnetic Spectrum)",
+        "url": "https://science.nasa.gov/ems/09_visiblelight/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "luce-verde",
@@ -808,8 +1177,14 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Realization of the Candela",
+        "url": "https://www.nist.gov/optical-radiation-group/realization-candela",
+        "publisher": "NIST"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "luce-rossa",
@@ -820,8 +1195,14 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Visible Light (Tour of the Electromagnetic Spectrum)",
+        "url": "https://science.nasa.gov/ems/09_visiblelight/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "mimivirus",
@@ -956,8 +1337,19 @@
     "glyph": "#f97316",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Infrared Waves (Tour of the Electromagnetic Spectrum)",
+        "url": "https://science.nasa.gov/ems/07_infraredwaves/",
+        "publisher": "NASA Science"
+      },
+      {
+        "title": "Wien wavelength displacement law constant (CODATA value)",
+        "url": "https://physics.nist.gov/cgi-bin/cuu/Value?bwien",
+        "publisher": "NIST / CODATA"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "globulo-bianco",
@@ -1246,8 +1638,24 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "The Temperature of the Cosmic Microwave Background",
+        "url": "https://arxiv.org/abs/0911.1955",
+        "publisher": "D. J. Fixsen, The Astrophysical Journal, arXiv"
+      },
+      {
+        "title": "Wien wavelength displacement law constant (CODATA value)",
+        "url": "https://physics.nist.gov/cgi-bin/cuu/Value?bwien",
+        "publisher": "NIST / CODATA"
+      },
+      {
+        "title": "Planck and the cosmic microwave background",
+        "url": "https://www.esa.int/Science_Exploration/Space_Science/Planck/Planck_and_the_cosmic_microwave_background",
+        "publisher": "ESA"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "goccia-di-pioggia",
@@ -1506,8 +1914,24 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Microwave Ovens (HyperPhysics)",
+        "url": "https://hyperphysics.gsu.edu/hbase/Waves/mwoven.html",
+        "publisher": "Georgia State University, Department of Physics and Astronomy"
+      },
+      {
+        "title": "47 CFR § 18.301 - Operating frequencies (ISM equipment)",
+        "url": "https://www.law.cornell.edu/cfr/text/47/18.301",
+        "publisher": "U.S. Code of Federal Regulations (FCC), via Cornell Legal Information Institute"
+      },
+      {
+        "title": "Microwave Ovens",
+        "url": "https://www.fda.gov/radiation-emitting-products/resources-you-radiation-emitting-products/microwave-ovens",
+        "publisher": "U.S. Food and Drug Administration (FDA)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "smartphone",
@@ -1744,8 +2168,14 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "47 CFR § 73.201 - Numerical designation of FM broadcast channels",
+        "url": "https://www.law.cornell.edu/cfr/text/47/73.201",
+        "publisher": "U.S. Code of Federal Regulations (FCC), via Cornell Legal Information Institute"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "albatro-urlatore",
@@ -2090,8 +2520,14 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "47 CFR § 73.14 - AM broadcast definitions",
+        "url": "https://www.law.cornell.edu/cfr/text/47/73.14",
+        "publisher": "U.S. Code of Federal Regulations (FCC), via Cornell Legal Information Institute"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "torre-eiffel",

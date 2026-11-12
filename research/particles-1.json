@@ -1,0 +1,188 @@
+[
+  {
+    "id": "schiuma-quantistica",
+    "size": 1e-35,
+    "basis": "scala convenzionale: ordine di grandezza della lunghezza di Planck, a cui lo spaziotempo potrebbe non essere più liscio",
+    "verdict": "uncertain",
+    "flags": ["i", "u"],
+    "desc": "La schiuma quantistica è l'ipotetica struttura irregolare e fluttuante che lo spaziotempo potrebbe avere a scale estreme, dell'ordine della lunghezza di Planck, pari a circa 1,6 × 10⁻³⁵ m. Non è mai stata osservata e la dimensione indicata è una convenzione, non una misura. Nel 2015 le osservazioni di quasar lontani con i telescopi Chandra, Fermi e VERITAS hanno escluso due dei modelli proposti.",
+    "sources": [
+      {
+        "title": "Planck length (CODATA 2022 recommended value)",
+        "url": "https://physics.nist.gov/cgi-bin/cuu/Value?plkl",
+        "publisher": "NIST, CODATA",
+        "evidence": "1.616 255(18) × 10⁻³⁵ m"
+      },
+      {
+        "title": "Space-time Foam: NASA Telescopes Set Limits on Space-time Quantum Foam",
+        "url": "https://chandra.harvard.edu/photo/2015/quantum/",
+        "publisher": "Chandra X-ray Center (NASA, Harvard-Smithsonian)",
+        "evidence": "rules out one model, according to which photons diffuse randomly through space-time foam"
+      }
+    ],
+    "note": "Oggetto ipotetico: la dimensione resta 1e-35 m come ordine di grandezza, la lunghezza di Planck CODATA 2022 è 1,616e-35 m. La pagina Chandra descrive la scala come circa 10⁻²⁰ volte il diametro del nucleo di idrogeno, senza usare il termine \"lunghezza di Planck\": l'accostamento è mio. Aggiunto il flag u perché il valore è una convenzione.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "stringa",
+    "size": 1.2e-35,
+    "basis": "lunghezza caratteristica della stringa (convenzione: ordine di grandezza della lunghezza di Planck)",
+    "verdict": "uncertain",
+    "flags": ["i", "u"],
+    "desc": "Nella teoria delle stringhe le particelle elementari sono i modi di vibrazione di oggetti unidimensionali, le stringhe. Se la teoria deve descrivere anche la gravità, la loro lunghezza caratteristica è dell'ordine della lunghezza di Planck, circa 10⁻³⁵ m. A oggi non esistono dati sperimentali che la confermino e la dimensione indicata è una convenzione.",
+    "sources": [
+      {
+        "title": "Teoria delle stringhe (Enciclopedia della Scienza e della Tecnica)",
+        "url": "https://www.treccani.it/enciclopedia/teoria-delle-stringhe_(Enciclopedia-della-Scienza-e-della-Tecnica)/",
+        "publisher": "Treccani",
+        "evidence": "ℓs∼ℓPl∼10−35 m"
+      },
+      {
+        "title": "Planck length (CODATA 2022 recommended value)",
+        "url": "https://physics.nist.gov/cgi-bin/cuu/Value?plkl",
+        "publisher": "NIST, CODATA",
+        "evidence": "1.616 255(18) × 10⁻³⁵ m"
+      }
+    ],
+    "note": "Oggetto ipotetico. Treccani dà solo l'ordine di grandezza (10⁻³⁵ m) e afferma che \"a tutt'oggi non esistono dati sperimentali che rendano imperativo il ricorso alla teoria delle stringhe\". Il valore 1,2e-35 m non ha una fonte specifica: è mantenuto come convenzione compatibile con quell'ordine di grandezza. Aggiunto il flag u.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "neutrino",
+    "size": 1.3e-24,
+    "basis": "posizione convenzionale sulla scala: il neutrino non ha una dimensione misurata",
+    "verdict": "uncertain",
+    "flags": ["u"],
+    "desc": "Il neutrino è una particella elementare priva di carica elettrica e non ha una dimensione misurata: il valore indicato è una posizione convenzionale. È la più leggera delle particelle dotate di massa note. L'esperimento KATRIN, con 259 giorni di dati, ha fissato per la sua massa un limite superiore di 0,45 eV al 90% di confidenza.",
+    "sources": [
+      {
+        "title": "Direct neutrino-mass measurement based on 259 days of KATRIN data",
+        "url": "https://arxiv.org/abs/2406.13516",
+        "publisher": "KATRIN Collaboration (Aker et al.), arXiv",
+        "evidence": "m_ν < 0.45 eV at 90 % confidence level"
+      }
+    ],
+    "note": "Dimensione invariata: è una convenzione senza fonte, non una misura. Nell'abstract arXiv il limite è scritto in notazione TeX. La frase \"la più leggera delle particelle dotate di massa note\" segue dal limite sub-eV (l'elettrone pesa 511 keV) ma non è citata testualmente dalla fonte. Tolto dalla descrizione il riferimento all'originale del 2012, non verificabile.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "quark-top",
+    "size": 1e-22,
+    "basis": "posizione convenzionale sulla scala: il quark top non ha una dimensione misurata",
+    "verdict": "uncertain",
+    "flags": ["u"],
+    "desc": "Il quark top è la particella elementare più pesante conosciuta. La media delle misure dirette raccolta dal Particle Data Group dà una massa di 172,60 ± 0,27 GeV. Non ha una dimensione misurata e il valore indicato è una convenzione.",
+    "sources": [
+      {
+        "title": "t quark (pdgLive, Review of Particle Physics)",
+        "url": "https://pdglive.lbl.gov/Particle.action?node=Q007&init=0",
+        "publisher": "Particle Data Group",
+        "evidence": "172.60 ± 0.27 GeV (direct measurements)"
+      },
+      {
+        "title": "CMS measures the mass of the top quark with unparalleled accuracy",
+        "url": "https://home.cern/cms-measures-mass-top-quark-unparalleled-accuracy/",
+        "publisher": "CERN",
+        "evidence": "the heaviest known elementary particle"
+      }
+    ],
+    "note": "Dimensione invariata (convenzione). Massa aggiornata nella descrizione da 172,5 a 172,60 GeV (media PDG delle misure dirette, letta su pdgLive il 2026-11-12). La pagina CERN (aprile 2022) riporta la misura CMS di 171,77 ± 0,38 GeV, compatibile ma meno aggiornata della media PDG.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "preone",
+    "size": 1.3e-21,
+    "basis": "posizione convenzionale di un ipotetico costituente di quark e leptoni, al di sotto dei limiti sperimentali sulla scala di compositezza",
+    "verdict": "uncertain",
+    "flags": ["i", "u"],
+    "desc": "I preoni sono ipotetici costituenti di quark e leptoni, mai osservati. Le ricerche di interazioni di contatto agli acceleratori non hanno trovato segni di una struttura interna e fissano la scala di compositezza oltre 24 TeV per il canale elettrone-quark. Questo corrisponde a distanze inferiori a circa 10⁻²⁰ m, quindi la dimensione indicata è solo una convenzione.",
+    "sources": [
+      {
+        "title": "Quark and Lepton Compositeness, Searches for (pdgLive)",
+        "url": "https://pdgprod.lbl.gov/pdgprod/pdgLive/Particle.action?node=S054",
+        "publisher": "Particle Data Group",
+        "evidence": "Λ(eeqq) > 24 TeV, CL = 95%"
+      },
+      {
+        "title": "Searches for Quark and Lepton Compositeness (Review of Particle Physics 2024)",
+        "url": "https://pdg.lbl.gov/2024/reviews/rpp2024-rev-searches-quark-lep-compositeness.pdf",
+        "publisher": "Particle Data Group (Hikasa, Tanabashi, Terashi, Varelas)",
+        "evidence": "If quarks and leptons are made of constituents"
+      }
+    ],
+    "note": "Oggetto ipotetico, dimensione invariata. Conversione del limite: ħc / Λ = 197,327 MeV·fm / 24 TeV = 8,2e-21 m, cioè meno di circa 1e-20 m (ħc da NIST CODATA: https://physics.nist.gov/cgi-bin/cuu/Value?hbcmevf). La review PDG parla di \"constituents\" e non usa la parola \"preoni\": il nome non è sostenuto da una fonte aperta. Aggiunto il flag u.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "neutrino-ad-alta-energia",
+    "size": 1.5e-20,
+    "basis": "posizione convenzionale sulla scala: non è un raggio fisico misurato",
+    "verdict": "uncertain",
+    "flags": ["u"],
+    "desc": "Il 13 febbraio 2023 il rivelatore ARCA del telescopio per neutrini KM3NeT ha registrato un evento compatibile con un neutrino di circa 220 PeV. Secondo la collaborazione l'evento, chiamato KM3-230213A, è il neutrino più energetico mai osservato. La dimensione indicata è una convenzione, perché un neutrino non ha un raggio misurato.",
+    "sources": [
+      {
+        "title": "KM3NeT detects the highest energy neutrino ever observed",
+        "url": "https://www.km3net.org/km3net-detects-the-highest-energy-neutrino-ever-observed/",
+        "publisher": "KM3NeT Collaboration",
+        "evidence": "a neutrino with an estimated energy of about 220 PeV"
+      }
+    ],
+    "note": "Dimensione invariata (convenzione senza fonte). Tolta la frase \"scala legata alla sezione d'urto\": non ho trovato una fonte che colleghi 1,5e-20 m a una sezione d'urto. Il primato è attribuito alla collaborazione (\"the most energetic neutrino ever observed\"); non ho verificato se dopo l'annuncio siano stati registrati eventi più energetici.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "quark-bottom",
+    "size": 3e-20,
+    "basis": "posizione convenzionale sulla scala: il quark bottom non ha una dimensione misurata",
+    "verdict": "uncertain",
+    "flags": ["u"],
+    "desc": "Il quark bottom è un quark di terza generazione con carica elettrica −1/3 e massa di circa 4,19 GeV nello schema usato dal Particle Data Group. Fu scoperto al Fermilab nel 1977, quando l'esperimento E288 osservò la particella upsilon, stato legato di un bottom e del suo antiquark. Non ha una dimensione misurata e il valore indicato è una convenzione.",
+    "sources": [
+      {
+        "title": "b quark (pdgLive, Review of Particle Physics)",
+        "url": "https://pdglive.lbl.gov/Particle.action?node=Q005&init=0",
+        "publisher": "Particle Data Group",
+        "evidence": "4.1859 ± 0.0034 GeV (MS-bar mass)"
+      },
+      {
+        "title": "This month in Fermilab history: June",
+        "url": "https://news.fnal.gov/2017/06/month-fermilab-history-june/",
+        "publisher": "Fermilab",
+        "evidence": "June 30, 1977: Discovery of the bottom quark"
+      }
+    ],
+    "note": "Dimensione invariata (convenzione). La massa è quella \"running\" nello schema MS-bar letta su pdgLive il 2026-11-12; l'edizione 2024 riportava 4,183 GeV, quindi nella descrizione è arrotondata a 4,19. \"Terza generazione\" è nozione standard, non estratta testualmente dalle pagine aperte.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "lunghezze-sondate-da-lhc",
+    "size": 5e-20,
+    "basis": "distanza minima risolta nelle collisioni di LHC, stimata come ħc / E (convenzione: dipende dall'energia effettiva dei costituenti del protone)",
+    "verdict": "uncertain",
+    "flags": ["r", "u"],
+    "desc": "Dal 2022 il Large Hadron Collider del CERN fa collidere protoni all'energia record di 13,6 TeV. La distanza più piccola che si riesce a esplorare dipende dall'energia scambiata tra i costituenti dei protoni: le stime vanno da circa 10⁻¹⁹ m, per energie di qualche TeV, a circa 1,5 × 10⁻²⁰ m se si considera l'intera energia di collisione. Il valore indicato è quindi un ordine di grandezza e non una misura.",
+    "sources": [
+      {
+        "title": "Large Hadron Collider restarts",
+        "url": "https://home.cern/large-hadron-collider-restarts",
+        "publisher": "CERN",
+        "evidence": "a record energy of 13.6 trillion electronvolts (13.6 TeV)"
+      },
+      {
+        "title": "Can we reach the Zeptouniverse with rare K and B_{s,d} decays?",
+        "url": "https://arxiv.org/abs/1408.0728",
+        "publisher": "Buras, Buttazzo, Girrbach-Noe, Knegjens, arXiv",
+        "evidence": "directly probe distance scales as short as 10^{-19}m"
+      },
+      {
+        "title": "reduced Planck constant times c in MeV fm (CODATA 2022)",
+        "url": "https://physics.nist.gov/cgi-bin/cuu/Value?hbcmevf",
+        "publisher": "NIST, CODATA",
+        "evidence": "197.326 980 4... MeV fm"
+      }
+    ],
+    "note": "Dimensione invariata a 5e-20 m, che equivale a ħc / E per E ≈ 3,9 TeV (197,327 MeV·fm / 3,9e6 MeV = 5,0e-5 fm = 5,0e-20 m), cioè \"qualche TeV\" come nell'abstract di Buras et al., che però arrotonda a 10⁻¹⁹ m. Con l'intera energia di 13,6 TeV: 197,327 MeV·fm / 1,36e7 MeV = 1,45e-5 fm = 1,45e-20 m. Nessuna fonte CERN aperta dà un valore ufficiale in metri, quindi verdetto incerto e flag u aggiunto. La pagina CERN è dell'aprile 2022 (riavvio; presa dati prevista per l'estate 2022). Tolte le frasi \"la scala più piccola esplorata direttamente\" e \"l'originale fermava il confine a 10⁻¹⁶ m\": non verificate.",
+    "verified": "2026-11-12"
+  }
+]

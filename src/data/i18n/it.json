@@ -114,11 +114,11 @@
   "objects": {
     "schiuma-quantistica": {
       "name": "Schiuma quantistica",
-      "desc": "Fluttuazioni ipotetiche dello spaziotempo alla scala di Planck. Mai osservate."
+      "desc": "La schiuma quantistica è l'ipotetica struttura irregolare e fluttuante che lo spaziotempo potrebbe avere a scale estreme, dell'ordine della lunghezza di Planck, pari a circa 1,6 × 10⁻³⁵ m. Non è mai stata osservata e la dimensione indicata è una convenzione, non una misura. Nel 2015 le osservazioni di quasar lontani con i telescopi Chandra, Fermi e VERITAS hanno escluso due dei modelli proposti."
     },
     "stringa": {
       "name": "Stringa",
-      "desc": "Oggetto fondamentale della teoria delle stringhe. Nessuna conferma sperimentale."
+      "desc": "Nella teoria delle stringhe le particelle elementari sono i modi di vibrazione di oggetti unidimensionali, le stringhe. Se la teoria deve descrivere anche la gravità, la loro lunghezza caratteristica è dell'ordine della lunghezza di Planck, circa 10⁻³⁵ m. A oggi non esistono dati sperimentali che la confermino e la dimensione indicata è una convenzione."
     },
     "lunghezza-di-planck": {
       "name": "Lunghezza di Planck",
@@ -130,11 +130,11 @@
     },
     "neutrino": {
       "name": "Neutrino",
-      "desc": "Puntiforme nel Modello Standard: non ha una dimensione misurata. Posizione convenzionale ereditata dall'originale."
+      "desc": "Il neutrino è una particella elementare priva di carica elettrica e non ha una dimensione misurata: il valore indicato è una posizione convenzionale. È la più leggera delle particelle dotate di massa note. L'esperimento KATRIN, con 259 giorni di dati, ha fissato per la sua massa un limite superiore di 0,45 eV al 90% di confidenza."
     },
     "quark-top": {
       "name": "Quark top",
-      "desc": "Puntiforme entro i limiti sperimentali. È la particella elementare più massiccia: circa 172,5 GeV."
+      "desc": "Il quark top è la particella elementare più pesante conosciuta. La media delle misure dirette raccolta dal Particle Data Group dà una massa di 172,60 ± 0,27 GeV. Non ha una dimensione misurata e il valore indicato è una convenzione."
     },
     "zeptometro": {
       "name": "Zeptometro",
@@ -142,19 +142,19 @@
     },
     "preone": {
       "name": "Preone",
-      "desc": "Ipotetico costituente di quark e leptoni. Nessuna evidenza."
+      "desc": "I preoni sono ipotetici costituenti di quark e leptoni, mai osservati. Le ricerche di interazioni di contatto agli acceleratori non hanno trovato segni di una struttura interna e fissano la scala di compositezza oltre 24 TeV per il canale elettrone-quark. Questo corrisponde a distanze inferiori a circa 10⁻²⁰ m, quindi la dimensione indicata è solo una convenzione."
     },
     "neutrino-ad-alta-energia": {
       "name": "Neutrino ad alta energia",
-      "desc": "Scala legata alla sezione d'urto, non a un raggio fisico. Il rivelatore KM3NeT ha registrato un neutrino da circa 220 PeV, il più energetico mai visto."
+      "desc": "Il 13 febbraio 2023 il rivelatore ARCA del telescopio per neutrini KM3NeT ha registrato un evento compatibile con un neutrino di circa 220 PeV. Secondo la collaborazione l'evento, chiamato KM3-230213A, è il neutrino più energetico mai osservato. La dimensione indicata è una convenzione, perché un neutrino non ha un raggio misurato."
     },
     "quark-bottom": {
       "name": "Quark bottom",
-      "desc": "Puntiforme entro i limiti sperimentali. Valore convenzionale."
+      "desc": "Il quark bottom è un quark di terza generazione con carica elettrica −1/3 e massa di circa 4,19 GeV nello schema usato dal Particle Data Group. Fu scoperto al Fermilab nel 1977, quando l'esperimento E288 osservò la particella upsilon, stato legato di un bottom e del suo antiquark. Non ha una dimensione misurata e il valore indicato è una convenzione."
     },
     "lunghezze-sondate-da-lhc": {
       "name": "Lunghezze sondate da LHC",
-      "desc": "La scala più piccola esplorata direttamente, con collisioni a 13,6 TeV. L'originale fermava il confine a 10⁻¹⁶ m."
+      "desc": "Dal 2022 il Large Hadron Collider del CERN fa collidere protoni all'energia record di 13,6 TeV. La distanza più piccola che si riesce a esplorare dipende dall'energia scambiata tra i costituenti dei protoni: le stime vanno da circa 10⁻¹⁹ m, per energie di qualche TeV, a circa 1,5 × 10⁻²⁰ m se si considera l'intera energia di collisione. Il valore indicato è quindi un ordine di grandezza e non una misura."
     },
     "sensibilita-di-ligo": {
       "name": "Sensibilità di LIGO",
@@ -162,15 +162,15 @@
     },
     "quark-charm": {
       "name": "Quark charm",
-      "desc": "Puntiforme entro i limiti sperimentali. Valore convenzionale."
+      "desc": "Il quark charm appartiene alla seconda generazione di quark, ha carica elettrica +2/3 e una massa di circa 1,273 GeV secondo il Particle Data Group. Non ha una dimensione misurata: la grandezza mostrata è una convenzione. L'esperimento ZEUS a HERA ha stabilito che un'eventuale struttura dei quark è più piccola di 0,43×10⁻¹⁸ m."
     },
     "quark-strange": {
       "name": "Quark strange",
-      "desc": "Puntiforme entro i limiti sperimentali. Valore convenzionale."
+      "desc": "Il quark strange appartiene alla seconda generazione di quark, ha carica elettrica −1/3 e una massa di circa 93,5 MeV secondo il Particle Data Group. Non ha una dimensione misurata: la grandezza mostrata è una convenzione. L'esperimento ZEUS a HERA ha stabilito che un'eventuale struttura dei quark è più piccola di 0,43×10⁻¹⁸ m."
     },
     "limite-sul-raggio-dei-quark": {
       "name": "Limite sul raggio dei quark",
-      "desc": "Esperimento HERA (2016): se i quark hanno una struttura, è più piccola di 0,43×10⁻¹⁸ m."
+      "desc": "È il limite superiore sul raggio efficace dei quark ottenuto dalla collaborazione ZEUS con gli urti tra elettroni e protoni dell'acceleratore HERA, ad Amburgo. L'analisi, pubblicata nel 2016 su dati corrispondenti a circa 1 fb⁻¹ di luminosità, fissa il limite a 0,43×10⁻¹⁸ m con un livello di confidenza del 95%. Se i quark hanno una struttura interna, è più piccola di così."
     },
     "attometro": {
       "name": "Attometro",
@@ -178,19 +178,19 @@
     },
     "quark-up": {
       "name": "Quark up",
-      "desc": "Costituente di protoni e neutroni. Puntiforme entro i limiti sperimentali."
+      "desc": "Il quark up ha carica elettrica +2/3 e una massa di circa 2,16 MeV secondo il Particle Data Group. Con il quark down forma la prima generazione, quella di cui è fatta tutta la materia stabile. Non ha una dimensione misurata: la grandezza mostrata è una convenzione, e l'esperimento ZEUS a HERA indica che un'eventuale struttura è più piccola di 0,43×10⁻¹⁸ m."
     },
     "quark-down": {
       "name": "Quark down",
-      "desc": "Costituente di protoni e neutroni. Puntiforme entro i limiti sperimentali."
+      "desc": "Il quark down ha carica elettrica −1/3 e una massa di circa 4,70 MeV secondo il Particle Data Group, poco più del doppio di quella del quark up. Con il quark up forma la prima generazione, quella di cui è fatta tutta la materia stabile. Non ha una dimensione misurata: la grandezza mostrata è una convenzione, e l'esperimento ZEUS a HERA indica che un'eventuale struttura è più piccola di 0,43×10⁻¹⁸ m."
     },
     "elettrone-limite-superiore": {
       "name": "Elettrone (limite superiore)",
-      "desc": "Nessuna struttura osservata: è puntiforme almeno fino a questa scala."
+      "desc": "Negli urti tra elettroni e positroni non è mai stata osservata alcuna struttura interna dell'elettrone. Un'analisi dei dati degli esperimenti ALEPH, L3 e OPAL all'acceleratore LEP del CERN fissa per la sua dimensione un limite superiore di 2,8×10⁻¹⁹ m, con un livello di confidenza del 95%. L'elettrone si comporta quindi come un punto almeno fino a questa scala."
     },
     "raggio-d-azione-della-forza-debole": {
       "name": "Raggio d'azione della forza debole",
-      "desc": "ħ/(m_W·c) ≈ 2,5×10⁻¹⁸ m. L'originale indicava 10⁻¹⁷ m."
+      "desc": "La forza debole agisce solo a distanze brevissime perché le particelle che la trasportano, i bosoni W e Z, sono molto pesanti. Il suo raggio d'azione si stima dividendo ħc per l'energia di massa del bosone W, 80,37 GeV: si ottiene circa 2,5×10⁻¹⁸ m. È meno di un centesimo del raggio classico dell'elettrone."
     },
     "femtometro": {
       "name": "Femtometro",
@@ -198,39 +198,39 @@
     },
     "protone": {
       "name": "Protone",
-      "desc": "Raggio di carica 0,8408 fm (CODATA 2022). Il rompicapo del raggio del protone si è chiuso sul valore più piccolo."
+      "desc": "Il protone è una delle due particelle che formano i nuclei atomici, composto da tre quark tenuti insieme dai gluoni. Non ha un bordo netto: come dimensione si usa il doppio del raggio di carica quadratico medio, che secondo CODATA 2022 vale 0,84075 fm con un'incertezza di 0,00064 fm. Il diametro risultante è di circa 1,68 fm, cioè 1,68 milionesimi di miliardesimo di metro."
     },
     "neutrone": {
       "name": "Neutrone",
-      "desc": "Tre quark tenuti insieme dai gluoni, come il protone. Libero, decade in circa 15 minuti."
+      "desc": "Il neutrone è la particella neutra dei nuclei atomici, formato da tre quark tenuti insieme dai gluoni come il protone. Essendo privo di carica netta, la sua estensione si ricava dal raggio magnetico, che il Particle Data Group indica in 0,864 fm: il doppio dà circa 1,7 fm. Fuori dal nucleo è instabile e decade con una vita media di 878,3 secondi, poco meno di 15 minuti."
     },
     "nucleo-di-elio": {
       "name": "Nucleo di elio",
-      "desc": "Particella alfa. Raggio di carica 1,678 fm, misurato nel 2021 con l'elio muonico."
+      "desc": "Il nucleo di elio-4, detto anche particella alfa, è formato da due protoni e due neutroni. Il suo raggio di carica quadratico medio vale 1,6785 fm secondo CODATA 2022, quindi il diametro convenzionale è di circa 3,36 fm. La misura più precisa, 1,67824 fm, è stata pubblicata su Nature nel 2021 studiando ioni di elio muonico, in cui un muone prende il posto di un elettrone."
     },
     "deuterone": {
       "name": "Deuterone",
-      "desc": "Un protone e un neutrone. Raggio di carica 2,128 fm."
+      "desc": "Il deuterone è il nucleo del deuterio, l'isotopo pesante dell'idrogeno, ed è formato da un protone e un neutrone. Il suo raggio di carica quadratico medio vale 2,12778 fm secondo CODATA 2022, per un diametro convenzionale di circa 4,3 fm. Pur avendo solo due nucleoni è più esteso del nucleo di elio-4, che ne ha quattro."
     },
     "elettrone-raggio-classico": {
       "name": "Elettrone (raggio classico)",
-      "desc": "Due volte il raggio classico di 2,818 fm. È una convenzione, non una misura."
+      "desc": "Il raggio classico dell'elettrone è una costante con le dimensioni di una lunghezza, costruita con la carica e la massa dell'elettrone: vale 2,818×10⁻¹⁵ m secondo CODATA 2022. La grandezza mostrata è il doppio, circa 5,64×10⁻¹⁵ m. È una convenzione e non una misura: negli esperimenti l'elettrone appare puntiforme fino a scale migliaia di volte più piccole."
     },
     "nucleo-di-cloro": {
       "name": "Nucleo di cloro",
-      "desc": "Cloro-35: raggio di carica quadratico medio di 3,37 fm."
+      "desc": "Il cloro-35 è l'isotopo più comune del cloro, con 17 protoni e 18 neutroni nel nucleo. Una misura del 2025 con raggi X di atomi muonici, eseguita al Paul Scherrer Institut, dà un raggio di carica quadratico medio di 3,3335 fm, quindi un diametro convenzionale di circa 6,7 fm. Il cloro-37, con due neutroni in più, risulta appena più grande: 3,3445 fm."
     },
     "nucleo-atomico-medio": {
       "name": "Nucleo atomico medio",
-      "desc": "Centomila volte più piccolo dell'atomo, ma con oltre il 99,9% della massa."
+      "desc": "Il nucleo è il centro dell'atomo, formato da protoni e neutroni. I nuclei misurano pochi femtometri: il diametro va da circa 1,7 fm per il singolo protone a circa 15 fm per l'oro, e 10 fm è un valore tipico per un nucleo di massa medio-alta. Pur essendo da diecimila a centomila volte più piccolo dell'atomo, il nucleo contiene oltre il 99,9% della sua massa."
     },
     "nucleo-di-piombo-208": {
       "name": "Nucleo di piombo-208",
-      "desc": "Il nucleo stabile più pesante. La sua pelle di neutroni è stata misurata dall'esperimento PREX-II."
+      "desc": "Il piombo-208 ha 82 protoni e 126 neutroni ed è considerato il nuclide stabile più pesante. Il suo raggio di carica quadratico medio vale circa 5,506 fm, per un diametro convenzionale di circa 11 fm. I neutroni si spingono un po' oltre i protoni: l'esperimento PREX-2 del Jefferson Lab ha misurato nel 2021 una \"pelle di neutroni\" spessa 0,283 fm, con un'incertezza di 0,071 fm."
     },
     "nucleo-di-uranio": {
       "name": "Nucleo di uranio",
-      "desc": "Uranio-238: 92 protoni e 146 neutroni."
+      "desc": "Il nucleo dell'uranio-238 contiene 92 protoni e 146 neutroni. Il suo raggio di carica quadratico medio è di 5,857 fm, che corrisponde a una sfera uniforme di circa 15 fm di diametro. Non è una sfera perfetta: i dati sperimentali indicano una forma allungata."
     },
     "picometro": {
       "name": "Picometro",
@@ -238,11 +238,11 @@
     },
     "raggi-gamma": {
       "name": "Raggi gamma",
-      "desc": "Lunghezze d'onda sotto i 10 picometri circa."
+      "desc": "I raggi gamma sono la radiazione elettromagnetica con la lunghezza d'onda più corta e l'energia più alta. Per convenzione la NASA chiama gamma tutti i fotoni con energia superiore a 100 keV, cioè con lunghezza d'onda sotto i 12 picometri circa; il valore mostrato qui, 1,3 picometri, corrisponde a un fotone di circa 1 MeV. Sulla Terra sono prodotti da decadimenti radioattivi, fulmini ed esplosioni nucleari."
     },
     "lunghezza-d-onda-compton-dell-elettrone": {
       "name": "Lunghezza d'onda Compton dell'elettrone",
-      "desc": "Sotto questa scala, localizzare un elettrone crea nuove coppie di particelle."
+      "desc": "La lunghezza d'onda Compton dell'elettrone è una costante fisica legata alla massa dell'elettrone. Il valore raccomandato CODATA 2022 è 2,42631023538 × 10⁻¹² m, cioè circa 2,43 picometri. Prende il nome dall'effetto Compton, in cui un fotone urta un elettrone e perde energia."
     },
     "risoluzione-record-di-un-microscopio-elettronico": {
       "name": "Risoluzione record di un microscopio elettronico",
@@ -250,7 +250,7 @@
     },
     "atomo-di-elio": {
       "name": "Atomo di elio",
-      "desc": "Raggio calcolato di 31 pm: è l'atomo più piccolo. L'originale lo confondeva con il raggio."
+      "desc": "L'elio ha due protoni e due elettroni. Il suo raggio atomico calcolato è di 31 pm, quindi il diametro è di circa 62 pm, contro i 106 pm dell'idrogeno ricavati dal raggio di Bohr (52,9 pm). Il valore dipende dalla definizione: il raggio covalente è di 28 pm."
     },
     "angstrom": {
       "name": "Ångström",
@@ -258,15 +258,15 @@
     },
     "atomo-di-idrogeno": {
       "name": "Atomo di idrogeno",
-      "desc": "Due raggi di Bohr (52,9 pm)."
+      "desc": "L'atomo di idrogeno è formato da un protone e un elettrone. La sua dimensione è qui il doppio del raggio di Bohr, la costante che fissa la scala dell'atomo nello stato fondamentale: 52,9 pm, quindi circa 106 pm di diametro. Legato in una molecola risulta più piccolo: il raggio covalente è di 31 pm."
     },
     "atomo-di-carbonio": {
       "name": "Atomo di carbonio",
-      "desc": "Raggio covalente di 76 pm."
+      "desc": "Il carbonio è l'elemento con sei protoni, alla base delle molecole organiche. Il suo raggio covalente nei legami semplici (sp3) è di 76 pm, quindi il diametro è di circa 152 pm. Il raggio si riduce a 73 pm nel carbonio sp2 e a 69 pm in quello sp."
     },
     "raggi-x": {
       "name": "Raggi X",
-      "desc": "Riga Kα del rame, la più usata in cristallografia."
+      "desc": "I raggi X sono qui rappresentati dalla riga Kα del rame, emessa dai tubi a raggi X con anodo di rame. La componente Kα1 ha una lunghezza d'onda misurata di 1,5405929 ångström, circa 0,154 nanometri, paragonabile alle distanze tra gli atomi in un cristallo. Il rame è il materiale più comune per l'anodo nella diffrazione su cristallo singolo."
     },
     "legame-carbonio-carbonio": {
       "name": "Legame carbonio–carbonio",
@@ -274,7 +274,7 @@
     },
     "atomo-di-zolfo": {
       "name": "Atomo di zolfo",
-      "desc": "Raggio covalente di 105 pm."
+      "desc": "Lo zolfo è l'elemento con 16 protoni. Il suo raggio covalente è di 105 pm, quindi il diametro è di circa 210 pm. Il raggio di van der Waals, che misura l'ingombro dell'atomo non legato, è quasi il doppio: 189 pm."
     },
     "molecola-di-co2": {
       "name": "Molecola di CO₂",
@@ -290,7 +290,7 @@
     },
     "atomo-di-cesio": {
       "name": "Atomo di cesio",
-      "desc": "Tra gli atomi più grandi. Definisce il secondo negli orologi atomici."
+      "desc": "Il cesio è un metallo alcalino con 55 protoni. Nel metallo solido due atomi vicini distano circa 532 pm, che corrisponde a un raggio metallico di 266 pm; il raggio covalente è di 244 pm, più del triplo di quello del carbonio. La transizione iperfine del cesio-133, a 9.192.631.770 Hz, definisce il secondo nel Sistema Internazionale."
     },
     "molecola-di-caffeina": {
       "name": "Molecola di caffeina",
@@ -346,7 +346,7 @@
     },
     "luce-euv-per-litografia": {
       "name": "Luce EUV per litografia",
-      "desc": "13,5 nm: la luce con cui si stampano i chip più avanzati."
+      "desc": "La litografia EUV stampa i circuiti dei microchip con luce ultravioletta estrema di lunghezza d'onda 13,5 nm, quasi al confine con i raggi X. Per generarla, un laser a CO2 colpisce con due impulsi una goccia di stagno in rapido movimento. Secondo il produttore ASML queste macchine stampano gli strati più complessi dei chip dei nodi a 7, 5 e 3 nm."
     },
     "circovirus-suino": {
       "name": "Circovirus suino",
@@ -366,7 +366,7 @@
     },
     "ultravioletto": {
       "name": "Ultravioletto",
-      "desc": "Tra 10 e 400 nm."
+      "desc": "L'ultravioletto è la radiazione con lunghezza d'onda più corta della luce visibile. Secondo l'Organizzazione Mondiale della Sanità la regione UV va da 100 a 400 nm e si divide in UVA (315-400 nm), UVB (280-315 nm) e UVC (100-280 nm); altre convenzioni la estendono a lunghezze d'onda più corte. L'UVC è filtrato del tutto dall'atmosfera e circa il 95% dell'UV che arriva al suolo è UVA."
     },
     "sars-cov-2": {
       "name": "SARS-CoV-2",
@@ -398,15 +398,15 @@
     },
     "luce-viola": {
       "name": "Luce viola",
-      "desc": "Il limite corto dello spettro visibile."
+      "desc": "Il viola è il colore con la lunghezza d'onda più corta dello spettro visibile. Il confine con l'ultravioletto è convenzionale: la NASA indica circa 380 nm come limite per l'occhio umano, mentre altre sue pagine fanno partire il visibile da 400 nm, il valore usato qui. All'altro estremo c'è il rosso, a circa 700 nm."
     },
     "luce-verde": {
       "name": "Luce verde",
-      "desc": "Dove l'occhio umano è più sensibile."
+      "desc": "La luce verde intorno a 550 nm cade dove l'occhio umano è più sensibile in condizioni di buona illuminazione. La funzione di efficienza luminosa fotopica V(λ) ha il massimo a 555 nm. La candela, l'unità SI dell'intensità luminosa, è realizzata con un'efficacia luminosa di 683 lm/W a 540 × 10¹² Hz, pari a 555,016 nm in aria."
     },
     "luce-rossa": {
       "name": "Luce rossa",
-      "desc": "Il limite lungo dello spettro visibile. L'originale la etichettava di nuovo come viola."
+      "desc": "La luce rossa occupa l'estremo a lunghezza d'onda maggiore dello spettro visibile, attorno a 700 nanometri. Secondo la NASA l'occhio umano percepisce tipicamente le lunghezze d'onda comprese tra 380 nm (violetto) e 700 nm (rosso). Oltre questo limite comincia l'infrarosso."
     },
     "mimivirus": {
       "name": "Mimivirus",
@@ -458,7 +458,7 @@
     },
     "infrarosso-termico": {
       "name": "Infrarosso termico",
-      "desc": "Attorno a 10 µm emette un corpo a temperatura ambiente."
+      "desc": "L'infrarosso termico è la banda in cui emettono gli oggetti a temperatura ambiente: per la legge di Wien un corpo a 20 °C ha il picco di emissione a circa 9,9 µm. La NASA indica come infrarosso termico la regione tra 8 e 15 µm. L'infrarosso fu scoperto nel 1800 da William Herschel misurando la temperatura oltre il rosso dello spettro solare."
     },
     "globulo-bianco": {
       "name": "Globulo bianco",
@@ -570,7 +570,7 @@
     },
     "picco-del-fondo-cosmico-a-microonde": {
       "name": "Picco del fondo cosmico a microonde",
-      "desc": "La luce più antica dell'universo: un corpo nero a 2,7255 K."
+      "desc": "Il fondo cosmico a microonde è la radiazione residua del Big Bang che riempie tutto l'universo, formatasi circa 380.000 anni dopo. Oggi ha lo spettro di un corpo nero a 2,7255 K, il cui picco per unità di lunghezza d'onda cade a circa 1,06 mm. È il punto più lontano nel tempo che si possa osservare con la luce."
     },
     "goccia-di-pioggia": {
       "name": "Goccia di pioggia",
@@ -670,7 +670,7 @@
     },
     "microonde-del-forno": {
       "name": "Microonde del forno",
-      "desc": "2,45 GHz, cioè 12,2 cm: la stessa banda del Wi-Fi. L'originale: 1 cm."
+      "desc": "I forni a microonde domestici lavorano a 2.450 MHz, che corrisponde a una lunghezza d'onda di circa 12,2 cm. Le microonde fanno vibrare le molecole d'acqua contenute nel cibo e questo produce il calore che lo cuoce. La frequenza cade in una banda riservata agli usi industriali, scientifici e medici (2.450 MHz ± 50 MHz), la stessa regione dello spettro usata dai dispositivi radio senza licenza a 2,4 GHz."
     },
     "smartphone": {
       "name": "Smartphone",
@@ -758,7 +758,7 @@
     },
     "onde-radio-fm": {
       "name": "Onde radio FM",
-      "desc": "Tra 88 e 108 MHz, cioè circa 3 m. L'originale: 1 m."
+      "desc": "La radio FM trasmette nella banda compresa tra 88 e 108 MHz. A queste frequenze la lunghezza d'onda va da circa 3,4 m a circa 2,8 m: 3 m corrispondono a 100 MHz, al centro della banda."
     },
     "albatro-urlatore": {
       "name": "Albatro urlatore",
@@ -882,7 +882,7 @@
     },
     "onde-radio-am": {
       "name": "Onde radio AM",
-      "desc": "Onde medie: da 180 a 570 m circa. L'originale: 1 km."
+      "desc": "La radio AM in onde medie usa, secondo la norma statunitense, la banda compresa tra 535 e 1.705 kHz. A queste frequenze la lunghezza d'onda va da circa 560 m a circa 176 m: 300 m corrispondono a 1 MHz."
     },
     "torre-eiffel": {
       "name": "Torre Eiffel",

@@ -1,0 +1,134 @@
+[
+  {
+    "id": "nucleo-di-uranio",
+    "size": 1.5e-14,
+    "basis": "diametro della sfera uniforme equivalente al raggio di carica quadratico medio del nucleo di uranio-238 (due volte il raggio)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il nucleo dell'uranio-238 contiene 92 protoni e 146 neutroni. Il suo raggio di carica quadratico medio è di 5,857 fm, che corrisponde a una sfera uniforme di circa 15 fm di diametro. Non è una sfera perfetta: i dati sperimentali indicano una forma allungata.",
+    "sources": [
+      {
+        "title": "Nuclear deformation effect on the binding energies in heavy ions",
+        "url": "https://arxiv.org/pdf/0711.4607",
+        "publisher": "Kozhedub et al., Physical Review A 77, 032501 (2008), arXiv",
+        "evidence": "Def. nuc. 5.8569(33)"
+      }
+    ],
+    "note": "Calcolo: raggio quadratico medio 5,8569 fm (Tabella I dell'articolo, nucleo deformato). Raggio della sfera uniforme equivalente R = √(5/3) × 5,8569 = 7,561 fm; diametro = 15,12 fm = 1,51e-14 m, entro l'1% dal valore attuale. Con il raggio a metà densità della stessa tabella (c0 = 7,0140 fm) il diametro sarebbe 14,0 fm. La forma allungata è sostenuta dal parametro di deformazione quadrupolare β20 = 0,27(1) della stessa tabella. La cifra è nel PDF dell'articolo, non nell'abstract. Il database IAEA dei raggi di carica (Angeli e Marinova 2013) non si è aperto (HTTP 402) e non è citato. 146 neutroni = 238 − 92.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "atomo-di-elio",
+    "size": 6.2e-11,
+    "basis": "due volte il raggio atomico calcolato (Clementi e Raimondi, funzioni SCF) di 31 pm",
+    "verdict": "confirmed",
+    "flags": ["r"],
+    "desc": "L'elio ha due protoni e due elettroni. Il suo raggio atomico calcolato è di 31 pm, quindi il diametro è di circa 62 pm, contro i 106 pm dell'idrogeno ricavati dal raggio di Bohr (52,9 pm). Il valore dipende dalla definizione: il raggio covalente è di 28 pm.",
+    "sources": [
+      {
+        "title": "Helium: radii of atoms and ions",
+        "url": "https://www.webelements.com/helium/atom_sizes.html",
+        "publisher": "WebElements (Mark Winter, University of Sheffield)",
+        "evidence": "Atomic radius (calculated): 31"
+      },
+      {
+        "title": "CODATA Value: Bohr radius",
+        "url": "https://physics.nist.gov/cgi-bin/cuu/Value?bohrrada0",
+        "publisher": "NIST, CODATA 2022",
+        "evidence": "5.291 772 105 44 x 10-11 m"
+      }
+    ],
+    "note": "Calcolo: 2 × 31 pm = 62 pm = 6,2e-11 m. WebElements attribuisce i raggi calcolati a Clementi, Raimondi e Reinhardt, J. Chem. Phys. 38, 2686 (1963); l'articolo originale non è stato aperto. La stessa pagina dà raggio covalente (valori 2008) 28 pm. Tolta l'affermazione 'è l'atomo più piccolo': nessuna fonte aperta la dichiara; resta il confronto con l'idrogeno (53 pm calcolato, 52,9 pm raggio di Bohr). Tolto il riferimento all'errore della lista originale, non verificabile. Il flag r era già presente ed è mantenuto.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "atomo-di-idrogeno",
+    "size": 1.06e-10,
+    "basis": "due volte il raggio di Bohr (52,9 pm)",
+    "verdict": "confirmed",
+    "flags": ["r"],
+    "desc": "L'atomo di idrogeno è formato da un protone e un elettrone. La sua dimensione è qui il doppio del raggio di Bohr, la costante che fissa la scala dell'atomo nello stato fondamentale: 52,9 pm, quindi circa 106 pm di diametro. Legato in una molecola risulta più piccolo: il raggio covalente è di 31 pm.",
+    "sources": [
+      {
+        "title": "CODATA Value: Bohr radius",
+        "url": "https://physics.nist.gov/cgi-bin/cuu/Value?bohrrada0",
+        "publisher": "NIST, CODATA 2022",
+        "evidence": "5.291 772 105 44 x 10-11 m"
+      },
+      {
+        "title": "Hydrogen: radii of atoms and ions",
+        "url": "https://www.webelements.com/hydrogen/atom_sizes.html",
+        "publisher": "WebElements (Mark Winter, University of Sheffield)",
+        "evidence": "Covalent radius (2008 values): 31"
+      }
+    ],
+    "note": "Calcolo: 2 × 5,2918e-11 m = 1,0584e-10 m, arrotondato a 1,06e-10 m. La pagina WebElements dà anche raggio atomico calcolato 53 pm, coerente con il raggio di Bohr. Il flag r era già presente ed è mantenuto.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "atomo-di-carbonio",
+    "size": 1.52e-10,
+    "basis": "due volte il raggio covalente del carbonio sp3 (76 pm)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il carbonio è l'elemento con sei protoni, alla base delle molecole organiche. Il suo raggio covalente nei legami semplici (sp3) è di 76 pm, quindi il diametro è di circa 152 pm. Il raggio si riduce a 73 pm nel carbonio sp2 e a 69 pm in quello sp.",
+    "sources": [
+      {
+        "title": "Carbon: radii of atoms and ions",
+        "url": "https://www.webelements.com/carbon/atom_sizes.html",
+        "publisher": "WebElements (Mark Winter, University of Sheffield)",
+        "evidence": "Covalent radius (2008 values): 76 pm for sp3 carbon"
+      }
+    ],
+    "note": "Calcolo: 2 × 76 pm = 152 pm = 1,52e-10 m. I 'valori 2008' di WebElements sono quelli di Cordero et al., Dalton Trans. 2008, 2832; la pagina dell'articolo sul sito RSC non si è aperta (HTTP 403) e non è citata. Altre definizioni danno valori diversi (raggio calcolato 67 pm, van der Waals 177 pm).",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "atomo-di-zolfo",
+    "size": 2.1e-10,
+    "basis": "due volte il raggio covalente (105 pm)",
+    "verdict": "confirmed",
+    "flags": ["r"],
+    "desc": "Lo zolfo è l'elemento con 16 protoni. Il suo raggio covalente è di 105 pm, quindi il diametro è di circa 210 pm. Il raggio di van der Waals, che misura l'ingombro dell'atomo non legato, è quasi il doppio: 189 pm.",
+    "sources": [
+      {
+        "title": "Sulfur: radii of atoms and ions",
+        "url": "https://www.webelements.com/sulfur/atom_sizes.html",
+        "publisher": "WebElements (Mark Winter, University of Sheffield)",
+        "evidence": "Covalent radius (2008 values): 105"
+      }
+    ],
+    "note": "Calcolo: 2 × 105 pm = 210 pm = 2,1e-10 m. La stessa pagina dà raggio di van der Waals 189 pm e raggio calcolato 88 pm. Il flag r era già presente ed è mantenuto.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "atomo-di-cesio",
+    "size": 5.3e-10,
+    "basis": "due volte il raggio metallico, cioè la distanza tra atomi vicini nel cesio metallico (circa 532 pm)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il cesio è un metallo alcalino con 55 protoni. Nel metallo solido due atomi vicini distano circa 532 pm, che corrisponde a un raggio metallico di 266 pm; il raggio covalente è di 244 pm, più del triplo di quello del carbonio. La transizione iperfine del cesio-133, a 9.192.631.770 Hz, definisce il secondo nel Sistema Internazionale.",
+    "sources": [
+      {
+        "title": "Caesium: crystal structures",
+        "url": "https://www.webelements.com/caesium/crystal_structure.html",
+        "publisher": "WebElements (Mark Winter, University of Sheffield)",
+        "evidence": "bcc (body-centred cubic) a: 614.1 pm"
+      },
+      {
+        "title": "Caesium: radii of atoms and ions",
+        "url": "https://www.webelements.com/caesium/atom_sizes.html",
+        "publisher": "WebElements (Mark Winter, University of Sheffield)",
+        "evidence": "Covalent radius (2008 values): 244"
+      },
+      {
+        "title": "SI base unit: second (s)",
+        "url": "https://www.bipm.org/en/si-base-units/second",
+        "publisher": "BIPM",
+        "evidence": "caesium-133 atom, to be 9 192 631 770"
+      }
+    ],
+    "note": "Calcolo: reticolo cubico a corpo centrato con a = 614,1 pm; distanza tra primi vicini = a × √3 / 2 = 531,8 pm = 5,32e-10 m, entro l'1% dal valore attuale. La pagina WebElements riporta la stessa distanza ('532', raggio metallico '266') ma con l'unità scritta 'nm' per evidente refuso: per questo l'evidenza citata è il parametro di cella. Il valore dipende dalla definizione di raggio: 2 × 244 pm (covalente) = 488 pm, 2 × 260 pm (empirico) = 520 pm, 2 × 298 pm (calcolato) = 596 pm. Tolto 'tra gli atomi più grandi': nessuna fonte aperta lo dichiara, sostituito dal confronto con il carbonio (244 / 76 = 3,2).",
+    "verified": "2026-11-12"
+  }
+]

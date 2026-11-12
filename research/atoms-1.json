@@ -1,0 +1,164 @@
+[
+  {
+    "id": "protone",
+    "size": 1.68e-15,
+    "basis": "due volte il raggio di carica quadratico medio (rms) del protone",
+    "verdict": "confirmed",
+    "flags": ["r"],
+    "desc": "Il protone è una delle due particelle che formano i nuclei atomici, composto da tre quark tenuti insieme dai gluoni. Non ha un bordo netto: come dimensione si usa il doppio del raggio di carica quadratico medio, che secondo CODATA 2022 vale 0,84075 fm con un'incertezza di 0,00064 fm. Il diametro risultante è di circa 1,68 fm, cioè 1,68 milionesimi di miliardesimo di metro.",
+    "sources": [
+      {
+        "title": "CODATA Value: proton rms charge radius",
+        "url": "https://physics.nist.gov/cgi-bin/cuu/Value?rp",
+        "publisher": "NIST, CODATA 2022",
+        "evidence": "8.4075 x 10^-16 m, standard uncertainty 0.0064 x 10^-16 m"
+      }
+    ],
+    "note": "Calcolo: 2 × 0,84075 fm = 1,6815 fm = 1,68e-15 m, uguale al valore attuale. La descrizione precedente riportava 0,8408 fm (arrotondamento di 0,84075) e la frase sul \"rompicapo del raggio del protone\" chiuso sul valore più piccolo: la pagina NIST non ne parla e non ho aperto una fonte che lo affermi, quindi la frase è stata tolta. La composizione in tre quark è nozione generale, non tratta dalla pagina citata.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "neutrone",
+    "size": 1.7e-15,
+    "basis": "due volte il raggio magnetico quadratico medio (rms) del neutrone; il neutrone è neutro e non ha un raggio di carica paragonabile a quello del protone",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il neutrone è la particella neutra dei nuclei atomici, formato da tre quark tenuti insieme dai gluoni come il protone. Essendo privo di carica netta, la sua estensione si ricava dal raggio magnetico, che il Particle Data Group indica in 0,864 fm: il doppio dà circa 1,7 fm. Fuori dal nucleo è instabile e decade con una vita media di 878,3 secondi, poco meno di 15 minuti.",
+    "sources": [
+      {
+        "title": "pdgLive: n (neutron) summary",
+        "url": "https://pdglive.lbl.gov/Particle.action?node=S017&init=0",
+        "publisher": "Particle Data Group (PDG), Lawrence Berkeley National Laboratory",
+        "evidence": "magnetic radius 0.864 +0.009 -0.008 fm; mean life 878.3 ± 0.4 s"
+      }
+    ],
+    "note": "Calcolo: 2 × 0,864 fm = 1,728 fm = 1,73e-15 m, entro il 2% dal valore attuale di 1,7e-15 m. La base è il raggio magnetico e non quello di carica: per il neutrone il PDG riporta solo un raggio quadratico medio di carica negativo (-0,1155 fm²), che non si presta a definire un diametro. 878,3 s = 14,6 minuti, quindi \"circa 15 minuti\" resta corretto. La composizione in tre quark è nozione generale, non tratta dalla pagina citata.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "nucleo-di-elio",
+    "size": 3.36e-15,
+    "basis": "due volte il raggio di carica quadratico medio (rms) della particella alfa (nucleo di elio-4)",
+    "verdict": "confirmed",
+    "flags": ["r"],
+    "desc": "Il nucleo di elio-4, detto anche particella alfa, è formato da due protoni e due neutroni. Il suo raggio di carica quadratico medio vale 1,6785 fm secondo CODATA 2022, quindi il diametro convenzionale è di circa 3,36 fm. La misura più precisa, 1,67824 fm, è stata pubblicata su Nature nel 2021 studiando ioni di elio muonico, in cui un muone prende il posto di un elettrone.",
+    "sources": [
+      {
+        "title": "CODATA Value: alpha particle rms charge radius",
+        "url": "https://physics.nist.gov/cgi-bin/cuu/Value?ral",
+        "publisher": "NIST, CODATA 2022",
+        "evidence": "1.6785 x 10^-15 m, standard uncertainty 0.0021 x 10^-15 m"
+      },
+      {
+        "title": "Measuring the α-particle charge radius with muonic helium-4 ions",
+        "url": "https://research.vu.nl/en/publications/measuring-the-%CE%B1-particle-charge-radius-with-muonic-helium-4-ions/",
+        "publisher": "Krauth et al., Nature 589, 527-531 (2021), scheda del portale di ricerca della Vrije Universiteit Amsterdam",
+        "evidence": "root-mean-square charge radius of the α particle of 1.67824(83) femtometres"
+      }
+    ],
+    "note": "Calcolo: 2 × 1,6785 fm = 3,357 fm = 3,36e-15 m, uguale al valore attuale. La descrizione precedente dava 1,678 fm, coerente con entrambe le fonti. La pagina di Nature richiede autenticazione e non si apre in automatico: per l'articolo del 2021 è citata la scheda con abstract del portale di ricerca della Vrije Universiteit, che ho aperto.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "deuterone",
+    "size": 4.3e-15,
+    "basis": "due volte il raggio di carica quadratico medio (rms) del deuterone",
+    "verdict": "confirmed",
+    "flags": ["n"],
+    "desc": "Il deuterone è il nucleo del deuterio, l'isotopo pesante dell'idrogeno, ed è formato da un protone e un neutrone. Il suo raggio di carica quadratico medio vale 2,12778 fm secondo CODATA 2022, per un diametro convenzionale di circa 4,3 fm. Pur avendo solo due nucleoni è più esteso del nucleo di elio-4, che ne ha quattro.",
+    "sources": [
+      {
+        "title": "CODATA Value: deuteron rms charge radius",
+        "url": "https://physics.nist.gov/cgi-bin/cuu/Value?rd",
+        "publisher": "NIST, CODATA 2022",
+        "evidence": "2.127 78 x 10^-15 m, standard uncertainty 0.000 27 x 10^-15 m"
+      },
+      {
+        "title": "CODATA Value: alpha particle rms charge radius",
+        "url": "https://physics.nist.gov/cgi-bin/cuu/Value?ral",
+        "publisher": "NIST, CODATA 2022",
+        "evidence": "1.6785 x 10^-15 m"
+      }
+    ],
+    "note": "Calcolo: 2 × 2,12778 fm = 4,2556 fm = 4,26e-15 m, entro l'1% dal valore attuale di 4,3e-15 m. Il confronto con l'elio-4 deriva dai due valori CODATA (2,12778 fm contro 1,6785 fm). La descrizione precedente dava 2,128 fm, arrotondamento corretto.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "nucleo-di-cloro",
+    "size": 6.7e-15,
+    "basis": "due volte il raggio di carica quadratico medio (rms) del nucleo di cloro-35",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il cloro-35 è l'isotopo più comune del cloro, con 17 protoni e 18 neutroni nel nucleo. Una misura del 2025 con raggi X di atomi muonici, eseguita al Paul Scherrer Institut, dà un raggio di carica quadratico medio di 3,3335 fm, quindi un diametro convenzionale di circa 6,7 fm. Il cloro-37, con due neutroni in più, risulta appena più grande: 3,3445 fm.",
+    "sources": [
+      {
+        "title": "Modern approach to muonic x-ray spectroscopy demonstrated through the measurement of stable Cl radii",
+        "url": "https://arxiv.org/abs/2506.08804",
+        "publisher": "Beyer et al., arXiv:2506.08804 (2025)",
+        "evidence": "charge radii are 3.3335(23) fm for 35Cl and 3.3445(23) fm"
+      },
+      {
+        "title": "Charge radii of Cl isotopes from x-ray spectroscopy of muonic atoms",
+        "url": "https://arxiv.org/abs/2605.08413",
+        "publisher": "Beyer et al., arXiv:2605.08413 (2026)",
+        "evidence": "3.3333(23) fm"
+      }
+    ],
+    "note": "Calcolo: 2 × 3,3335 fm = 6,667 fm = 6,67e-15 m, entro lo 0,5% dal valore attuale di 6,7e-15 m. La descrizione precedente riportava 3,37 fm, valore della vecchia tabella di Angeli e Marinova (2013) che non sono riuscito ad aprire (il sito IAEA delle tabelle risponde con errore 402): l'ho sostituito con la misura muonica del 2025, che è circa l'1% più piccola e non cambia la dimensione arrotondata. Entrambe le fonti sono preprint arXiv; non ho verificato la pubblicazione su rivista. Il luogo della misura (beamline πE1 del PSI) e il fatto che il cloro-35 sia l'isotopo più abbondante con 18 neutroni non sono stati letti da me nelle pagine citate: il primo viene dal riassunto di una ricerca web, il secondo è nozione generale. Da togliere se si vuole solo ciò che è nell'abstract.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "nucleo-atomico-medio",
+    "size": 1e-14,
+    "basis": "ordine di grandezza del diametro di un nucleo di massa medio-alta (due volte il raggio nucleare)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il nucleo è il centro dell'atomo, formato da protoni e neutroni. I nuclei misurano pochi femtometri: il diametro va da circa 1,7 fm per il singolo protone a circa 15 fm per l'oro, e 10 fm è un valore tipico per un nucleo di massa medio-alta. Pur essendo da diecimila a centomila volte più piccolo dell'atomo, il nucleo contiene oltre il 99,9% della sua massa.",
+    "sources": [
+      {
+        "title": "Nuclear Units / Nuclear Size and Density",
+        "url": "https://hyperphysics.gsu.edu/hbase/Nuclear/nucuni.html",
+        "publisher": "HyperPhysics, Georgia State University",
+        "evidence": "Nuclear sizes are on the order of femtometers; gold nuclear radius 7.3 x 10^-15 m"
+      },
+      {
+        "title": "DOE Explains...Nuclei",
+        "url": "https://www.energy.gov/science/doe-explainsnuclei",
+        "publisher": "U.S. Department of Energy, Office of Science",
+        "evidence": "typically contains more than 99.9% of the mass of the atom"
+      }
+    ],
+    "note": "Oggetto generico: 1e-14 m è un ordine di grandezza, non una misura. Sostegno: raggio del nucleo d'oro 7,3 fm (HyperPhysics), quindi diametro 14,6 fm; in questo stesso lotto il cloro-35 misura 6,7 fm e il piombo-208 11 fm. La frase precedente \"centomila volte più piccolo dell'atomo\" è stata attenuata in \"da diecimila a centomila volte\": con i dati di HyperPhysics per l'oro (raggio atomico 1,3e-10 m, raggio nucleare 7,3e-15 m) il rapporto è circa 18.000, e sale verso 100.000 solo per i nuclei più leggeri. La formula r = r0 × A^(1/3) nella pagina HyperPhysics è un'immagine e non è stata citata.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "nucleo-di-piombo-208",
+    "size": 1.1e-14,
+    "basis": "due volte il raggio di carica quadratico medio (rms) del nucleo di piombo-208",
+    "verdict": "confirmed",
+    "flags": ["n"],
+    "desc": "Il piombo-208 ha 82 protoni e 126 neutroni ed è considerato il nuclide stabile più pesante. Il suo raggio di carica quadratico medio vale circa 5,506 fm, per un diametro convenzionale di circa 11 fm. I neutroni si spingono un po' oltre i protoni: l'esperimento PREX-2 del Jefferson Lab ha misurato nel 2021 una \"pelle di neutroni\" spessa 0,283 fm, con un'incertezza di 0,071 fm.",
+    "sources": [
+      {
+        "title": "208Pb nuclear charge radius revisited: closing the fine-structure-anomaly gap",
+        "url": "https://arxiv.org/abs/2504.19977",
+        "publisher": "Sun et al., arXiv:2504.19977 (2025)",
+        "evidence": "rms charge radius with reduced model dependence to be 5.5062(17) fm"
+      },
+      {
+        "title": "Accurate Determination of the Neutron Skin Thickness of 208Pb through Parity-Violation in Electron Scattering",
+        "url": "https://arxiv.org/abs/2102.10767",
+        "publisher": "Adhikari et al. (PREX), Phys. Rev. Lett. 126, 172502 (2021), arXiv",
+        "evidence": "neutron skin thickness is R_n - R_p = 0.283 ± 0.071 fm"
+      },
+      {
+        "title": "Why is Pb208 the heaviest stable nuclide?",
+        "url": "https://arxiv.org/abs/2309.13082",
+        "publisher": "Kosyakov, Popov, Vronsky, arXiv:2309.13082",
+        "evidence": "Why is Pb208 the heaviest stable nuclide?"
+      }
+    ],
+    "note": "Calcolo: 2 × 5,5062 fm = 11,01 fm = 1,10e-14 m, uguale al valore attuale. Il superlativo \"nucleo stabile più pesante\" è sostenuto solo dal titolo di un articolo teorico (l'abstract parla di un massimo di circa 82 protoni nei nuclei stabili), quindi è scritto come \"è considerato\": è la fonte più debole della scheda. Il valore di 0,283 fm combina PREX-1 e PREX-2; la descrizione precedente scriveva \"PREX-II\", l'articolo usa \"PREX-2\". La sede (Jefferson Lab) e i numeri 82 e 126 vengono dal riassunto di una ricerca web su Physics Today, non da una pagina che ho letto direttamente per quei dettagli.",
+    "verified": "2026-11-12"
+  }
+]
