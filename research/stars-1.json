@@ -1,0 +1,277 @@
+[
+  {
+    "id": "stella-di-neutroni",
+    "size": 24000,
+    "basis": "diametro tipico (due volte il raggio equatoriale misurato, circa 12 km)",
+    "verdict": "confirmed",
+    "flags": [
+      "r"
+    ],
+    "desc": "Una stella di neutroni è il resto compatto del nucleo di una stella massiccia esplosa come supernova. Le misure del telescopio a raggi X NICER danno un raggio di circa 12,7 km per la pulsar PSR J0030+0451 (1,34 masse solari) e di circa 12,4 km per PSR J0740+6620 (2,07 masse solari), con incertezze di circa 1 km. Più massa del Sole sta quindi in una sfera larga circa 24 km.",
+    "sources": [
+      {
+        "title": "A NICER View of PSR J0030+0451: Millisecond Pulsar Parameter Estimation",
+        "url": "https://arxiv.org/abs/1912.05702",
+        "publisher": "Riley et al., The Astrophysical Journal Letters, arXiv",
+        "evidence": "$1.34_{-0.16}^{+0.15}$ M$_{\\odot}$ and $12.71_{-1.19}^{+1.14}$ km"
+      },
+      {
+        "title": "A NICER View of the Massive Pulsar PSR J0740+6620 Informed by Radio Timing and XMM-Newton Spectroscopy",
+        "url": "https://arxiv.org/abs/2105.06980",
+        "publisher": "Riley et al., The Astrophysical Journal Letters, arXiv",
+        "evidence": "$12.39_{-0.98}^{+1.30}$ km and $2.072_{-0.066}^{+0.067}$ M$_{\\odot}$"
+      }
+    ],
+    "note": "Oggetto generico. Calcolo: 2 × 12,39 km = 24,8 km e 2 × 12,71 km = 25,4 km; il valore attuale di 24 km (raggio 12 km) è entro il 3-6% e dentro le barre d'errore di entrambe le misure (circa ±1 km sul raggio), quindi confermato. La frase 'tra 11 e 13 km' è stata sostituita con i due valori misurati. L'origine da supernova è nozione generale, non tratta dalle due fonti.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "sirio-b",
+    "size": 11720000,
+    "basis": "diametro (due volte il raggio fotosferico)",
+    "verdict": "confirmed",
+    "flags": [
+      "r"
+    ],
+    "desc": "Sirio B è la nana bianca più vicina e più luminosa in cielo, compagna di Sirio A, attorno a cui orbita in 50,13 anni. Ha una massa di 1,018 masse solari e un raggio di circa 0,0081 raggi solari, cioè un diametro di 11.300-11.700 km, un po' meno di quello della Terra. Una massa pari a quella del Sole è quindi compressa in un volume inferiore a quello del nostro pianeta.",
+    "sources": [
+      {
+        "title": "The Sirius System and its Astrophysical Puzzles: Hubble Space Telescope and Ground-Based Astrometry",
+        "url": "https://arxiv.org/pdf/1703.10625",
+        "publisher": "Bond et al., The Astrophysical Journal, arXiv",
+        "evidence": "radius of Sirius B is 0.008098 ± 0.000046 R⊙"
+      },
+      {
+        "title": "IAU 2015 Resolution B3 on Recommended Nominal Conversion Constants for Selected Solar and Planetary Properties",
+        "url": "https://arxiv.org/pdf/1510.07674",
+        "publisher": "International Astronomical Union (Mamajek et al.), arXiv",
+        "evidence": "1R⊙N = 6.957 × 10^8 m"
+      }
+    ],
+    "note": "Calcolo: 2 × 0,008098 × 695.700 km = 11.268 km (1,127e7 m). Il valore attuale di 11.720 km (corrisponde a 0,00842 raggi solari, vicino a stime precedenti) è più alto del 3,9%, entro la soglia del 5%, quindi confermato e lasciato invariato; se si preferisce la misura di Bond et al. l'alternativa è 1,127e7 m. Gli errori citati dagli autori sono solo interni. Massa e periodo orbitale dall'abstract dello stesso articolo. Confronto con la Terra: raggio equatoriale nominale IAU 6.378,1 km, diametro 12.756 km (stessa risoluzione IAU B3). Tolta la frase sul valore originale di 20.000 km (storia del dato, non verificata qui); il flag r resta.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "eblm-j0555-57ab",
+    "size": 117000000,
+    "basis": "diametro (due volte il raggio misurato dalle eclissi)",
+    "verdict": "confirmed",
+    "flags": [
+      "n"
+    ],
+    "desc": "EBLM J0555-57Ab è una piccola stella che eclissa una compagna simile al Sole ogni 7,8 giorni, descritta nel 2017. Ha una massa di circa 85 volte quella di Giove (0,081 masse solari) e un raggio di 0,084 raggi solari, quindi un diametro di circa 117.000 km, paragonabile a quello di Saturno. La sua massa è vicina al limite minimo per la fusione dell'idrogeno.",
+    "sources": [
+      {
+        "title": "The EBLM project III. A Saturn-size low-mass star at the hydrogen-burning limit",
+        "url": "https://arxiv.org/abs/1706.08781",
+        "publisher": "von Boetticher et al., Astronomy & Astrophysics, arXiv",
+        "evidence": "($0.084 R_{\\odot}$) that is comparable to that of Saturn"
+      }
+    ],
+    "note": "Calcolo: 2 × 0,084 × 695.700 km = 116.878 km = 1,17e8 m. Con 0,84 raggi gioviani nominali (71.492 km) si ottiene 120.100 km; l'incertezza dell'articolo è +0,14/-0,04 raggi gioviani. 'Appena più grande di Saturno' è stato cambiato in 'paragonabile a Saturno', come dice l'abstract. Tolto 'una delle stelle più piccole note': l'abstract non lo afferma in questi termini; resta il fatto, dal titolo, che è al limite della fusione dell'idrogeno.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "gliese-229-b",
+    "size": 130000000,
+    "basis": "diametro (due volte il raggio stimato quando era considerata un oggetto singolo, circa 0,9 raggi di Giove)",
+    "verdict": "uncertain",
+    "flags": [
+      "r",
+      "u"
+    ],
+    "desc": "Gliese 229 B, scoperta nel 1995 attorno a una nana rossa a 5,76 parsec, è la prima nana bruna di tipo T conosciuta. Nel 2024 si è visto che è una coppia, Gliese 229 Ba e Bb, di 38,1 e 34,4 masse di Giove, che si orbitano ogni 12,1 giorni a 0,042 unità astronomiche. I raggi delle due componenti non sono stati misurati: le stime fatte quando era ritenuta un solo oggetto vanno da circa 0,94 a 1,1 raggi di Giove.",
+    "sources": [
+      {
+        "title": "The cool brown dwarf Gliese 229 B is a close binary",
+        "url": "https://arxiv.org/abs/2410.11953",
+        "publisher": "Xuan et al., Nature, arXiv",
+        "evidence": "masses of $38.1\\pm1.0$ and $34.4\\pm1.5$ $M_{\\rm Jup}$"
+      },
+      {
+        "title": "An Atmospheric Retrieval of the Brown Dwarf Gliese 229B",
+        "url": "https://arxiv.org/pdf/2210.13614",
+        "publisher": "Calamari et al., The Astrophysical Journal, arXiv",
+        "evidence": "Radius (RJup) 0.94 ± 0.15"
+      },
+      {
+        "title": "Improved Dynamical Masses for Six Brown Dwarf Companions Using Hipparcos and Gaia EDR3",
+        "url": "https://arxiv.org/abs/2109.07525",
+        "publisher": "Brandt et al., The Astronomical Journal, arXiv",
+        "evidence": "the first T dwarf Gl~229~B"
+      }
+    ],
+    "note": "Il valore attuale di 130.000 km corrisponde a un raggio di 0,91 raggi gioviani (71.492 km). Calamari et al. (2022) riportano 0,94 ± 0,15 raggi gioviani dalla distribuzione spettrale (diametro 134.400 km) e 1,10 ± 0,04 dall'analisi atmosferica (157.300 km), entrambi per un oggetto singolo. Dopo la scoperta che è una binaria (Xuan et al. 2024) questi raggi non descrivono nessuna delle due componenti, e l'articolo del 2024 non dà raggi individuali: dimensione mantenuta come ordine di grandezza, aggiunto il flag u. 'La prima nana bruna certa' è stato sostituito con 'la prima nana bruna di tipo T', che è ciò che dicono le fonti aperte. L'anno 1995 viene dai riferimenti citati nell'abstract (Nakajima et al. 1995, Oppenheimer et al. 1995). La distanza di 5,76 parsec è nel testo di Xuan et al.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "trappist-1",
+    "size": 166000000,
+    "basis": "diametro (due volte il raggio stellare)",
+    "verdict": "confirmed",
+    "flags": [
+      "n"
+    ],
+    "desc": "TRAPPIST-1 è una nana rossa ultrafredda attorno a cui orbitano sette pianeti noti. Il suo raggio è 0,1192 raggi solari, cioè un diametro di circa 166.000 km, poco più di quello di Giove. Le densità di tutti e sette i pianeti sono compatibili con una composizione rocciosa.",
+    "sources": [
+      {
+        "title": "Refining the transit timing and photometric analysis of TRAPPIST-1: Masses, radii, densities, dynamics, and ephemerides",
+        "url": "https://arxiv.org/pdf/2010.01074",
+        "publisher": "Agol et al., The Planetary Science Journal, arXiv",
+        "evidence": "R[R⊙] 0.1192±0.0013"
+      },
+      {
+        "title": "IAU 2015 Resolution B3 on Recommended Nominal Conversion Constants for Selected Solar and Planetary Properties",
+        "url": "https://arxiv.org/pdf/1510.07674",
+        "publisher": "International Astronomical Union (Mamajek et al.), arXiv",
+        "evidence": "1 ReJ = 7.1492 × 10^7 m"
+      }
+    ],
+    "note": "Calcolo: 2 × 0,1192 × 695.700 km = 165.855 km = 1,66e8 m. Confronto con Giove: diametro equatoriale nominale IAU 2 × 71.492 km = 142.984 km. 'Sette pianeti rocciosi' reso con la formulazione dell'abstract (densità descrivibili con una sola relazione massa-raggio rocciosa). Il simbolo del Sole nella tabella del PDF è reso qui con ⊙.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "wolf-359",
+    "size": 200000000,
+    "basis": "diametro (due volte il raggio stellare)",
+    "verdict": "confirmed",
+    "flags": [
+      "r"
+    ],
+    "desc": "Wolf 359 è una nana rossa di tipo M6 a circa 7,9 anni luce, tra le stelle più vicine al Sole. Ha un raggio di 0,144 raggi solari, cioè un diametro di circa 200.000 km, e una massa di 0,110 masse solari. La temperatura superficiale è di circa 2.750 kelvin, meno della metà di quella del Sole.",
+    "sources": [
+      {
+        "title": "The M-dwarf Ultraviolet Spectroscopic Sample I. Determining Stellar Parameters for Field Stars",
+        "url": "https://arxiv.org/pdf/2106.07656",
+        "publisher": "Pineda, Youngblood & France, The Astrophysical Journal, arXiv",
+        "evidence": "GJ 406 * 0.110 ± 0.003 0.144 ± 0.004"
+      }
+    ],
+    "note": "Wolf 359 è GJ 406 nelle tabelle dell'articolo. Calcolo: 2 × 0,144 × 695.700 km = 200.362 km = 2,0e8 m. Distanza: parallasse 413,13 mas nella stessa fonte, quindi 1/0,41313 = 2,4205 pc × 3,2616 = 7,89 anni luce. Temperatura efficace 2.749 K nella stessa tabella; il confronto con il Sole usa i 5.772 K nominali IAU (risoluzione B3, non citata qui come fonte). 'Tra le stelle più vicine' è una formulazione prudente, non una classifica verificata.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "proxima-centauri",
+    "size": 215000000,
+    "basis": "diametro (due volte il raggio stellare)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Proxima Centauri è la stella più vicina al Sole, a circa 4,2 anni luce, ed è legata gravitazionalmente alla coppia Alfa Centauri A e B con un'orbita di circa 550.000 anni. Il raggio adottato è 0,154 raggi solari, cioè un diametro di circa 215.000 km, mentre la misura interferometrica diretta dà 0,141 raggi solari (circa 196.000 km). La sua massa è circa il 12% di quella del Sole.",
+    "sources": [
+      {
+        "title": "Proxima's orbit around Alpha Centauri",
+        "url": "https://arxiv.org/pdf/1611.03495",
+        "publisher": "Kervella, Thévenin & Lovis, Astronomy & Astrophysics, arXiv",
+        "evidence": "RProx = 0.1542±0.0045 R⊙"
+      },
+      {
+        "title": "How Small are Small Stars Really? VLT Interferometer Measures the Size of Proxima Centauri and Other Nearby Stars",
+        "url": "https://www.eso.org/public/news/eso0232/",
+        "publisher": "European Southern Observatory (ESO)",
+        "evidence": "Proxima Centauri is the nearest star to the Sun currently known"
+      }
+    ],
+    "note": "Calcolo: 2 × 0,1542 × 695.700 km = 214.554 km = 2,15e8 m. Il raggio 0,1542 ± 0,0045 viene da una relazione empirica raggio-luminosità (Mann et al. 2015) adottata da Kervella et al.; lo stesso articolo cita la misura interferometrica di Demory et al. (2009), 0,141 ± 0,007 raggi solari (2 × 0,141 × 695.700 = 196.187 km), più bassa del 9% ma compatibile a 1,6 sigma. Ho confermato il valore attuale perché coincide con quello adottato; se si preferisce la misura diretta l'alternativa è 1,96e8 m, e in quel caso il verdetto sarebbe 'uncertain'. Massa 0,1221 masse solari e periodo orbitale di circa 550.000 anni dallo stesso articolo; distanza 4,2 anni luce dal comunicato ESO.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "stella-di-kapteyn",
+    "size": 400000000,
+    "basis": "diametro (due volte il raggio stellare)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "La stella di Kapteyn è una nana rossa povera di metalli a 3,91 parsec (circa 12,8 anni luce) ed è la stella dell'alone galattico più vicina al Sole. Il suo raggio misurato è 0,291 raggi solari, cioè un diametro di circa 405.000 km. Per la cinematica da stella dell'alone e la bassa metallicità le si attribuisce un'età superiore a 10 miliardi di anni.",
+    "sources": [
+      {
+        "title": "Two planets around Kapteyn's star: a cold and a temperate super-Earth orbiting the nearest halo red-dwarf",
+        "url": "https://arxiv.org/pdf/1406.0818",
+        "publisher": "Anglada-Escudé et al., Monthly Notices of the Royal Astronomical Society Letters, arXiv",
+        "evidence": "A radius of 0.291±0.025 R⊙"
+      }
+    ],
+    "note": "Calcolo: 2 × 0,291 × 695.700 km = 404.897 km, entro l'1,2% dal valore attuale di 400.000 km. Distanza: 3,91 pc × 3,2616 = 12,75 anni luce. L'articolo la definisce 'closest halo star to the Sun' e 'sub-dwarf M-star'; parla di cinematica dell'alone e di età superiore a 10 miliardi di anni. I due pianeti annunciati nello stesso articolo non sono citati nella descrizione perché la loro esistenza è stata poi messa in discussione e non ho aperto fonti in merito.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "stella-di-luyten",
+    "size": 444000000,
+    "basis": "diametro (due volte il raggio stellare)",
+    "verdict": "corrected",
+    "flags": [
+      "r"
+    ],
+    "desc": "La stella di Luyten (GJ 273) è una nana rossa di tipo M3,5 a circa 12,4 anni luce dal Sole. Ha un raggio di 0,319 raggi solari, cioè un diametro di circa 444.000 km, e una massa di circa 0,30 masse solari. La sua temperatura superficiale è di circa 3.300 kelvin.",
+    "sources": [
+      {
+        "title": "The M-dwarf Ultraviolet Spectroscopic Sample I. Determining Stellar Parameters for Field Stars",
+        "url": "https://arxiv.org/pdf/2106.07656",
+        "publisher": "Pineda, Youngblood & France, The Astrophysical Journal, arXiv",
+        "evidence": "GJ 273 * 0.2982 0.319 ± 0.004 3297"
+      }
+    ],
+    "note": "Corretto da 4,9e8 m a 4,44e8 m. Il valore precedente corrisponde a 0,352 raggi solari; Pineda et al. (2021) danno 0,319 ± 0,004 raggi solari, basato sul diametro interferometrico (Rabus et al. 2019, citato nell'articolo per questa stella). Calcolo: 2 × 0,319 × 695.700 km = 443.857 km = 4,44e8 m, il 9,4% in meno. Distanza: parallasse 262,961 mas nella stessa fonte, 1/0,262961 = 3,803 pc × 3,2616 = 12,40 anni luce. Nella tabella del PDF massa e temperatura hanno errori asimmetrici su due righe (0,2982 +0,0067/-0,0064; 3297 +22/-21 K): l'evidenza riporta i valori centrali nell'ordine della riga. Tolta la frase sul valore originale di 330.000 km (storia del dato, non verificata qui).",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "gliese-229-a",
+    "size": 760000000,
+    "basis": "diametro (due volte il raggio stellare)",
+    "verdict": "confirmed",
+    "flags": [
+      "r"
+    ],
+    "desc": "Gliese 229 A è una nana rossa di tipo M1 a 5,76 parsec (circa 18,8 anni luce) dal Sole, con una massa di 0,579 masse solari. Il suo raggio è stimato in 0,53 ± 0,05 raggi solari, cioè un diametro di circa 740.000 km con un margine di circa 70.000 km. Attorno a lei orbita Gliese 229 B, la prima nana bruna di tipo T scoperta.",
+    "sources": [
+      {
+        "title": "An Atmospheric Retrieval of the Brown Dwarf Gliese 229B",
+        "url": "https://arxiv.org/pdf/2210.13614",
+        "publisher": "Calamari et al., The Astrophysical Journal, arXiv",
+        "evidence": "Gaid14 0.53 ± 0.05 0.56 ± 0.07"
+      },
+      {
+        "title": "Improved Dynamical Masses for Six Brown Dwarf Companions Using Hipparcos and Gaia EDR3",
+        "url": "https://arxiv.org/abs/2109.07525",
+        "publisher": "Brandt et al., The Astronomical Journal, arXiv",
+        "evidence": "its host star ($0.579 \\pm 0.007\\,M_{\\odot}$)"
+      }
+    ],
+    "note": "Calcolo: 2 × 0,53 × 695.700 km = 737.442 km (intervallo 668.000-807.000 km); il valore attuale di 760.000 km (0,546 raggi solari) è più alto del 3% e ben dentro l'errore, quindi confermato. Il raggio è quello di Gaidos et al. (2014) come riportato nella Tabella 7 di Calamari et al.; l'articolo di Gaidos non è stato aperto. La stessa tabella riporta anche 0,496 raggi solari (Tsuji & Nakajima 2014). Tipo spettrale M1V e distanza 5,76 pc dal testo di Xuan et al. 2024 (arXiv:2410.11953, aperto per la scheda di Gliese 229 B); 5,76 × 3,2616 = 18,8 anni luce. Tolta la frase sul valore originale di 960.000 km (storia del dato, non verificata qui).",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "alfa-centauri-b",
+    "size": 1200000000,
+    "basis": "diametro (due volte il raggio fotosferico interferometrico)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Alfa Centauri B è una stella arancione di tipo K1, la componente minore della coppia Alfa Centauri, il sistema di tipo solare più vicino a noi. Le misure interferometriche del VLTI danno un diametro angolare di 5,999 millesimi di secondo d'arco e un raggio di 0,8632 raggi solari, cioè un diametro di circa 1,2 milioni di km. La compagna Alfa Centauri A è più grande, con 1,2234 raggi solari.",
+    "sources": [
+      {
+        "title": "The radii and limb darkenings of Alpha Centauri A and B - Interferometric measurements with VLTI/PIONIER",
+        "url": "https://arxiv.org/abs/1610.06185",
+        "publisher": "Kervella et al., Astronomy & Astrophysics, arXiv",
+        "evidence": "RB = 0.8632 +/- 0.0037 Rsun (0.43%)"
+      }
+    ],
+    "note": "Calcolo: 2 × 0,8632 × 695.700 km = 1.201.056 km = 1,2e9 m. La descrizione era vuota: scritta da zero con i dati dell'abstract ('the nearest solar-type stars Alpha Centauri A (G2V) and B (K1V)').",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "sole",
+    "size": 1391400000,
+    "basis": "diametro (due volte il raggio solare nominale IAU)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il Sole è la stella del Sistema Solare. Il raggio solare nominale fissato dall'Unione Astronomica Internazionale nel 2015 è 695.700 km, quindi il diametro è 1.391.400 km. È un valore convenzionale esatto, usato come unità per le altre stelle, basato su una misura del raggio fotosferico di 695.658 ± 140 km.",
+    "sources": [
+      {
+        "title": "IAU 2015 Resolution B3 on Recommended Nominal Conversion Constants for Selected Solar and Planetary Properties",
+        "url": "https://arxiv.org/pdf/1510.07674",
+        "publisher": "International Astronomical Union (Mamajek et al.), arXiv",
+        "evidence": "1R⊙N = 6.957 × 10^8 m"
+      }
+    ],
+    "note": "Calcolo: 2 × 6,957e8 m = 1,3914e9 m. Il testo della risoluzione indica 695.658 (± 140) km come misura su cui si basa il valore nominale.",
+    "verified": "2026-11-12"
+  }
+]

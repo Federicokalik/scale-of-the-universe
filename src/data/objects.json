@@ -4497,8 +4497,19 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "A NICER View of PSR J0030+0451: Millisecond Pulsar Parameter Estimation",
+        "url": "https://arxiv.org/abs/1912.05702",
+        "publisher": "Riley et al., The Astrophysical Journal Letters, arXiv"
+      },
+      {
+        "title": "A NICER View of the Massive Pulsar PSR J0740+6620 Informed by Radio Timing and XMM-Newton Spectroscopy",
+        "url": "https://arxiv.org/abs/2105.06980",
+        "publisher": "Riley et al., The Astrophysical Journal Letters, arXiv"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "future-circular-collider",
@@ -5629,8 +5640,19 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "The Sirius System and its Astrophysical Puzzles: Hubble Space Telescope and Ground-Based Astrometry",
+        "url": "https://arxiv.org/pdf/1703.10625",
+        "publisher": "Bond et al., The Astrophysical Journal, arXiv"
+      },
+      {
+        "title": "IAU 2015 Resolution B3 on Recommended Nominal Conversion Constants for Selected Solar and Planetary Properties",
+        "url": "https://arxiv.org/pdf/1510.07674",
+        "publisher": "International Astronomical Union (Mamajek et al.), arXiv"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "venere",
@@ -5834,8 +5856,14 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "The EBLM project III. A Saturn-size low-mass star at the hydrogen-burning limit",
+        "url": "https://arxiv.org/abs/1706.08781",
+        "publisher": "von Boetticher et al., Astronomy & Astrophysics, arXiv"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "gliese-229-b",
@@ -5843,11 +5871,28 @@
     "kind": "s",
     "glyph": "#b0603a",
     "flags": [
-      "r"
+      "r",
+      "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "The cool brown dwarf Gliese 229 B is a close binary",
+        "url": "https://arxiv.org/abs/2410.11953",
+        "publisher": "Xuan et al., Nature, arXiv"
+      },
+      {
+        "title": "An Atmospheric Retrieval of the Brown Dwarf Gliese 229B",
+        "url": "https://arxiv.org/pdf/2210.13614",
+        "publisher": "Calamari et al., The Astrophysical Journal, arXiv"
+      },
+      {
+        "title": "Improved Dynamical Masses for Six Brown Dwarf Companions Using Hipparcos and Gaia EDR3",
+        "url": "https://arxiv.org/abs/2109.07525",
+        "publisher": "Brandt et al., The Astronomical Journal, arXiv"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "giove",
@@ -5879,8 +5924,19 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Refining the transit timing and photometric analysis of TRAPPIST-1: Masses, radii, densities, dynamics, and ephemerides",
+        "url": "https://arxiv.org/pdf/2010.01074",
+        "publisher": "Agol et al., The Planetary Science Journal, arXiv"
+      },
+      {
+        "title": "IAU 2015 Resolution B3 on Recommended Nominal Conversion Constants for Selected Solar and Planetary Properties",
+        "url": "https://arxiv.org/pdf/1510.07674",
+        "publisher": "International Astronomical Union (Mamajek et al.), arXiv"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "wolf-359",
@@ -5891,8 +5947,14 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "The M-dwarf Ultraviolet Spectroscopic Sample I. Determining Stellar Parameters for Field Stars",
+        "url": "https://arxiv.org/pdf/2106.07656",
+        "publisher": "Pineda, Youngblood & France, The Astrophysical Journal, arXiv"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "proxima-centauri",
@@ -5901,8 +5963,19 @@
     "glyph": "#ff8a5c",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Proxima's orbit around Alpha Centauri",
+        "url": "https://arxiv.org/pdf/1611.03495",
+        "publisher": "Kervella, Thévenin & Lovis, Astronomy & Astrophysics, arXiv"
+      },
+      {
+        "title": "How Small are Small Stars Really? VLT Interferometer Measures the Size of Proxima Centauri and Other Nearby Stars",
+        "url": "https://www.eso.org/public/news/eso0232/",
+        "publisher": "European Southern Observatory (ESO)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "tres-4-b",
@@ -5966,20 +6039,32 @@
     "glyph": "#ff9d6c",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Two planets around Kapteyn's star: a cold and a temperate super-Earth orbiting the nearest halo red-dwarf",
+        "url": "https://arxiv.org/pdf/1406.0818",
+        "publisher": "Anglada-Escudé et al., Monthly Notices of the Royal Astronomical Society Letters, arXiv"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "stella-di-luyten",
-    "size": 490000000,
+    "size": 444000000,
     "kind": "s",
     "glyph": "#ff8a5c",
     "flags": [
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "The M-dwarf Ultraviolet Spectroscopic Sample I. Determining Stellar Parameters for Field Stars",
+        "url": "https://arxiv.org/pdf/2106.07656",
+        "publisher": "Pineda, Youngblood & France, The Astrophysical Journal, arXiv"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "gliese-229-a",
@@ -5990,8 +6075,19 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "An Atmospheric Retrieval of the Brown Dwarf Gliese 229B",
+        "url": "https://arxiv.org/pdf/2210.13614",
+        "publisher": "Calamari et al., The Astrophysical Journal, arXiv"
+      },
+      {
+        "title": "Improved Dynamical Masses for Six Brown Dwarf Companions Using Hipparcos and Gaia EDR3",
+        "url": "https://arxiv.org/abs/2109.07525",
+        "publisher": "Brandt et al., The Astronomical Journal, arXiv"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "gigametro",
@@ -6026,8 +6122,14 @@
     "glyph": "#ffc98a",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "The radii and limb darkenings of Alpha Centauri A and B - Interferometric measurements with VLTI/PIONIER",
+        "url": "https://arxiv.org/abs/1610.06185",
+        "publisher": "Kervella et al., Astronomy & Astrophysics, arXiv"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "sole",
@@ -6036,8 +6138,14 @@
     "glyph": "#ffe9a8",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "IAU 2015 Resolution B3 on Recommended Nominal Conversion Constants for Selected Solar and Planetary Properties",
+        "url": "https://arxiv.org/pdf/1510.07674",
+        "publisher": "International Astronomical Union (Mamajek et al.), arXiv"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "distanza-del-telescopio-webb",

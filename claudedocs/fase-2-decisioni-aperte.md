@@ -16,6 +16,7 @@ Aggiornato dopo ogni ondata. Le correzioni sono già applicate ai dati; le decis
 | Ruanda | 230 km | 248 km | Worldmark Encyclopedia of Nations (Gale, via Encyclopedia.com): estensione massima NE–SO |
 | West Virginia | 400 km | 426 km | Worldmark Encyclopedia of the States (Gale, via Encyclopedia.com): estensione est–ovest |
 | Idra (luna di Plutone) | 51 km | 62 km | NASA NSSDCA Pluto Fact Sheet (62,0 × 36,5 × 29,3 km, asse più lungo); Weaver e colleghi 2016 danno 65 × 45 × 25 km |
+| Stella di Luyten | 4,9 × 10⁸ m | 4,44 × 10⁸ m | Pineda e colleghi 2021 (ApJ, arXiv 2106.07656): raggio 0,319 R☉ |
 
 ## Decisioni aperte
 
@@ -52,6 +53,9 @@ Aggiornato dopo ogni ondata. Le correzioni sono già applicate ai dati; le decis
 30. **Mercurio**: la descrizione dice che BepiColombo entrerà in orbita il 21 novembre 2026 (ESA). Va riscritta dopo quella data.
 31. **K2-18 b**: il comunicato Webb della NASA dà 2,6 raggi terrestri (coerente con il valore attuale), il catalogo esopianeti NASA 2,37 (circa il 9% in meno). Segnato incerto; in alternativa confermato sul 2,6.
 32. **TrES-4 b**: raggi pubblicati da 1,61 a 1,78 raggi gioviani (230.000–255.000 km). Segnato incerto; "tra gli esopianeti più grandi" sostituito con "il più grande pianeta in transito noto alla scoperta".
+33. **Gliese 229 B**: oggi è nota come binaria (due nane brune di 38 e 34 masse gioviane) e nessuna componente ha un raggio misurato. Lasciata a 1,3 × 10⁸ m, segnata incerta: tenerla così, rinominarla o toglierla.
+34. **Proxima Centauri**: confermata sul raggio adottato (0,1542 R☉); l'interferometria diretta dà 0,141 R☉, il 9% in meno.
+35. **Gliese 229 A**: il raggio è citato di seconda mano da una tabella di confronto (Gaidos 2014 via Calamari 2022).
 
 ## Da sistemare prima di chiudere la fase
 
@@ -66,8 +70,8 @@ Aggiornato dopo ogni ondata. Le correzioni sono già applicate ai dati; le decis
 
 ## Avanzamento
 
-Lotti applicati: black-holes, particles-1/2, atoms-1/2, waves-1/2, molecules-1/2, units-1/2/3, biology-1/2/3/4/5, objects-1/2/3/4/5, places-1/2/3/4, solar-system-1/2/3/4/5 (293 oggetti su 447).
+Lotti applicati: black-holes, particles-1/2, atoms-1/2, waves-1/2, molecules-1/2, units-1/2/3, biology-1/2/3/4/5, objects-1/2/3/4/5, places-1/2/3/4, solar-system-1/2/3/4/5, stars-1 (305 oggetti su 447).
 
-Lotti da fare: stars-1/2/3/4, distances-1/2/3, nebulae-1/2/3, galaxies-1/2, cosmic-1/2.
+Lotti da fare: stars-2/3/4, distances-1/2/3, nebulae-1/2/3, galaxies-1/2, cosmic-1/2.
 
 Per ogni lotto: `node scripts/apply-research.mjs --check`, `node scripts/check-links.mjs`, campione di fonti riletto in modo indipendente, poi `node scripts/apply-research.mjs`, `npm run validate`, `npm test`, commit.

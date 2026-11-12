@@ -1002,7 +1002,7 @@
     },
     "stella-di-neutroni": {
       "name": "Stella di neutroni",
-      "desc": "Le misure di NICER danno raggi tra 11 e 13 km."
+      "desc": "Una stella di neutroni è il resto compatto del nucleo di una stella massiccia esplosa come supernova. Le misure del telescopio a raggi X NICER danno un raggio di circa 12,7 km per la pulsar PSR J0030+0451 (1,34 masse solari) e di circa 12,4 km per PSR J0740+6620 (2,07 masse solari), con incertezze di circa 1 km. Più massa del Sole sta quindi in una sfera larga circa 24 km."
     },
     "future-circular-collider": {
       "name": "Future Circular Collider",
@@ -1206,7 +1206,7 @@
     },
     "sirio-b": {
       "name": "Sirio B",
-      "desc": "Nana bianca grande quanto la Terra ma con la massa del Sole. L'originale: 20.000 km."
+      "desc": "Sirio B è la nana bianca più vicina e più luminosa in cielo, compagna di Sirio A, attorno a cui orbita in 50,13 anni. Ha una massa di 1,018 masse solari e un raggio di circa 0,0081 raggi solari, cioè un diametro di 11.300-11.700 km, un po' meno di quello della Terra. Una massa pari a quella del Sole è quindi compressa in un volume inferiore a quello del nostro pianeta."
     },
     "venere": {
       "name": "Venere",
@@ -1246,11 +1246,11 @@
     },
     "eblm-j0555-57ab": {
       "name": "EBLM J0555-57Ab",
-      "desc": "Una delle stelle più piccole note: appena più grande di Saturno."
+      "desc": "EBLM J0555-57Ab è una piccola stella che eclissa una compagna simile al Sole ogni 7,8 giorni, descritta nel 2017. Ha una massa di circa 85 volte quella di Giove (0,081 masse solari) e un raggio di 0,084 raggi solari, quindi un diametro di circa 117.000 km, paragonabile a quello di Saturno. La sua massa è vicina al limite minimo per la fusione dell'idrogeno."
     },
     "gliese-229-b": {
       "name": "Gliese 229 B",
-      "desc": "La prima nana bruna certa. Nel 2024 si è scoperto che sono due, strette in un'orbita di 12 giorni."
+      "desc": "Gliese 229 B, scoperta nel 1995 attorno a una nana rossa a 5,76 parsec, è la prima nana bruna di tipo T conosciuta. Nel 2024 si è visto che è una coppia, Gliese 229 Ba e Bb, di 38,1 e 34,4 masse di Giove, che si orbitano ogni 12,1 giorni a 0,042 unità astronomiche. I raggi delle due componenti non sono stati misurati: le stime fatte quando era ritenuta un solo oggetto vanno da circa 0,94 a 1,1 raggi di Giove."
     },
     "giove": {
       "name": "Giove",
@@ -1258,15 +1258,15 @@
     },
     "trappist-1": {
       "name": "TRAPPIST-1",
-      "desc": "Nana rossa ultrafredda con sette pianeti rocciosi."
+      "desc": "TRAPPIST-1 è una nana rossa ultrafredda attorno a cui orbitano sette pianeti noti. Il suo raggio è 0,1192 raggi solari, cioè un diametro di circa 166.000 km, poco più di quello di Giove. Le densità di tutti e sette i pianeti sono compatibili con una composizione rocciosa."
     },
     "wolf-359": {
       "name": "Wolf 359",
-      "desc": "Nana rossa a 7,9 anni luce."
+      "desc": "Wolf 359 è una nana rossa di tipo M6 a circa 7,9 anni luce, tra le stelle più vicine al Sole. Ha un raggio di 0,144 raggi solari, cioè un diametro di circa 200.000 km, e una massa di 0,110 masse solari. La temperatura superficiale è di circa 2.750 kelvin, meno della metà di quella del Sole."
     },
     "proxima-centauri": {
       "name": "Proxima Centauri",
-      "desc": "La stella più vicina al Sole."
+      "desc": "Proxima Centauri è la stella più vicina al Sole, a circa 4,2 anni luce, ed è legata gravitazionalmente alla coppia Alfa Centauri A e B con un'orbita di circa 550.000 anni. Il raggio adottato è 0,154 raggi solari, cioè un diametro di circa 215.000 km, mentre la misura interferometrica diretta dà 0,141 raggi solari (circa 196.000 km). La sua massa è circa il 12% di quella del Sole."
     },
     "tres-4-b": {
       "name": "TrES-4 b",
@@ -1282,15 +1282,15 @@
     },
     "stella-di-kapteyn": {
       "name": "Stella di Kapteyn",
-      "desc": "Nana rossa dell'alone galattico."
+      "desc": "La stella di Kapteyn è una nana rossa povera di metalli a 3,91 parsec (circa 12,8 anni luce) ed è la stella dell'alone galattico più vicina al Sole. Il suo raggio misurato è 0,291 raggi solari, cioè un diametro di circa 405.000 km. Per la cinematica da stella dell'alone e la bassa metallicità le si attribuisce un'età superiore a 10 miliardi di anni."
     },
     "stella-di-luyten": {
       "name": "Stella di Luyten",
-      "desc": "L'originale: 330.000 km."
+      "desc": "La stella di Luyten (GJ 273) è una nana rossa di tipo M3,5 a circa 12,4 anni luce dal Sole. Ha un raggio di 0,319 raggi solari, cioè un diametro di circa 444.000 km, e una massa di circa 0,30 masse solari. La sua temperatura superficiale è di circa 3.300 kelvin."
     },
     "gliese-229-a": {
       "name": "Gliese 229 A",
-      "desc": "Nana rossa. L'originale: 960.000 km."
+      "desc": "Gliese 229 A è una nana rossa di tipo M1 a 5,76 parsec (circa 18,8 anni luce) dal Sole, con una massa di 0,579 masse solari. Il suo raggio è stimato in 0,53 ± 0,05 raggi solari, cioè un diametro di circa 740.000 km con un margine di circa 70.000 km. Attorno a lei orbita Gliese 229 B, la prima nana bruna di tipo T scoperta."
     },
     "gigametro": {
       "name": "Gigametro",
@@ -1298,11 +1298,11 @@
     },
     "alfa-centauri-b": {
       "name": "Alfa Centauri B",
-      "desc": ""
+      "desc": "Alfa Centauri B è una stella arancione di tipo K1, la componente minore della coppia Alfa Centauri, il sistema di tipo solare più vicino a noi. Le misure interferometriche del VLTI danno un diametro angolare di 5,999 millesimi di secondo d'arco e un raggio di 0,8632 raggi solari, cioè un diametro di circa 1,2 milioni di km. La compagna Alfa Centauri A è più grande, con 1,2234 raggi solari."
     },
     "sole": {
       "name": "Sole",
-      "desc": "Raggio nominale: 695.700 km."
+      "desc": "Il Sole è la stella del Sistema Solare. Il raggio solare nominale fissato dall'Unione Astronomica Internazionale nel 2015 è 695.700 km, quindi il diametro è 1.391.400 km. È un valore convenzionale esatto, usato come unità per le altre stelle, basato su una misura del raggio fotosferico di 695.658 ± 140 km."
     },
     "distanza-del-telescopio-webb": {
       "name": "Distanza del telescopio Webb",
