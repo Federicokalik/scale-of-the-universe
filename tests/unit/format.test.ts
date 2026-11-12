@@ -43,8 +43,8 @@ test('formatSci rounds a mantissa near ten up to the next power', () => {
 
 test.each([
   [1.2742e7, "Circa 1,4K volte l'Everest."],
-  [1e-24, 'Circa 1/1,7 Mld di un protone.'],
-  [8.8e26, 'Circa 1,1 Mln volte la Via Lattea.'],
+  [1e-24, 'Circa 1/1,700a0Mld di un protone.'],
+  [8.8e26, 'Circa 1,100a0Mln volte la Via Lattea.'],
   [1.7, 'Circa 21K volte un capello.'],
 ])('formatCompare(%s) in Italian -> %s', (metres, text) => {
   expect(formatCompare(metres, 'it', ui)).toBe(text);
