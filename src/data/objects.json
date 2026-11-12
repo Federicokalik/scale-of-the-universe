@@ -3738,8 +3738,19 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Hera",
+        "url": "https://www.esa.int/Space_Safety/Hera",
+        "publisher": "European Space Agency (ESA)"
+      },
+      {
+        "title": "Didymos",
+        "url": "https://science.nasa.gov/solar-system/asteroids/didymos/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "colosseo",
@@ -3800,8 +3811,19 @@
       "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "'Oumuamua",
+        "url": "https://science.nasa.gov/solar-system/comets/oumuamua/",
+        "publisher": "NASA Science"
+      },
+      {
+        "title": "NASA Learns More About Interstellar Visitor 'Oumuamua",
+        "url": "https://science.nasa.gov/missions/spitzer/nasa-learns-more-about-interstellar-visitor-oumuamua/",
+        "publisher": "NASA (Spitzer)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "diga-di-hoover",
@@ -3885,8 +3907,19 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Small-Body Database Lookup: 99942 Apophis (2004 MN4)",
+        "url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=99942",
+        "publisher": "NASA/JPL Solar System Dynamics"
+      },
+      {
+        "title": "Apophis",
+        "url": "https://science.nasa.gov/solar-system/asteroids/apophis/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "willis-tower",
@@ -3928,8 +3961,24 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Small-Body Database Lookup: 101955 Bennu (1999 RQ36)",
+        "url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=101955",
+        "publisher": "NASA/JPL Solar System Dynamics"
+      },
+      {
+        "title": "OSIRIS-REx",
+        "url": "https://science.nasa.gov/mission/osiris-rex/",
+        "publisher": "NASA Science"
+      },
+      {
+        "title": "Bennu Facts",
+        "url": "https://science.nasa.gov/solar-system/asteroids/101955-bennu/facts/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "merdeka-118",
@@ -4004,8 +4053,19 @@
       "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Comet 3I/ATLAS",
+        "url": "https://science.nasa.gov/solar-system/comets/3i-atlas/",
+        "publisher": "NASA Science"
+      },
+      {
+        "title": "The size of 3I/ATLAS from non-gravitational acceleration",
+        "url": "https://arxiv.org/abs/2512.18341",
+        "publisher": "Forbes & Butler, arXiv"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "citta-del-vaticano",
@@ -4056,8 +4116,19 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Small-Body Database Lookup: 3753 Cruithne (1986 TO)",
+        "url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=3753",
+        "publisher": "NASA/JPL Solar System Dynamics"
+      },
+      {
+        "title": "An asteroidal companion to the Earth",
+        "url": "https://www.nature.com/articles/42662",
+        "publisher": "Wiegert, Innanen & Mikkola, Nature"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "acceleratore-lineare-di-stanford",
@@ -4098,8 +4169,19 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Comet 67P/Churyumov-Gerasimenko",
+        "url": "https://sci.esa.int/web/rosetta/-/14615-comet-67p",
+        "publisher": "European Space Agency (ESA Science & Technology)"
+      },
+      {
+        "title": "67P/Churyumov-Gerasimenko",
+        "url": "https://science.nasa.gov/solar-system/comets/67p-churyumov-gerasimenko/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "monte-bianco",
@@ -4222,8 +4304,19 @@
     "glyph": "#a89b8c",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Mars Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html",
+        "publisher": "NASA NSSDCA"
+      },
+      {
+        "title": "Deimos",
+        "url": "https://science.nasa.gov/mars/moons/deimos/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "cometa-di-halley",
@@ -4234,8 +4327,19 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "1P/Halley",
+        "url": "https://science.nasa.gov/solar-system/comets/1p-halley/",
+        "publisher": "NASA Science"
+      },
+      {
+        "title": "Giotto overview",
+        "url": "https://www.esa.int/Science_Exploration/Space_Science/Giotto_overview",
+        "publisher": "European Space Agency (ESA)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "olympus-mons-altezza",
@@ -4268,8 +4372,24 @@
     "glyph": "#8d8279",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Mars Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html",
+        "publisher": "NASA NSSDCA"
+      },
+      {
+        "title": "Phobos",
+        "url": "https://science.nasa.gov/mars/moons/phobos/",
+        "publisher": "NASA Science"
+      },
+      {
+        "title": "MMX - Martian Moons eXploration",
+        "url": "https://www.mmx.jaxa.jp/en/",
+        "publisher": "JAXA"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "stella-di-neutroni",

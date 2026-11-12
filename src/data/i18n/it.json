@@ -858,7 +858,7 @@
     },
     "dimorphos": {
       "name": "Dimorphos",
-      "desc": "La luna d'asteroide deviata dalla sonda DART nel 2022. La sonda europea Hera la raggiunge a fine 2026."
+      "desc": "Dimorphos è la piccola luna dell'asteroide Didymos, con un diametro di circa 151 m. Il 26 settembre 2022 la sonda DART della NASA l'ha colpita di proposito, modificandone l'orbita attorno a Didymos. La sonda europea Hera, lanciata il 7 ottobre 2024, ha il rendezvous previsto per novembre 2026 per studiare da vicino gli effetti dell'impatto."
     },
     "colosseo": {
       "name": "Colosseo",
@@ -870,7 +870,7 @@
     },
     "oumuamua": {
       "name": "ʻOumuamua",
-      "desc": "Il primo oggetto interstellare osservato (2017). Dimensioni stimate tra 100 e 400 m."
+      "desc": "ʻOumuamua è il primo oggetto interstellare osservato nel Sistema Solare, scoperto il 19 ottobre 2017 dal telescopio Pan-STARRS1 alle Hawaii. Non è mai stato risolto in immagine: secondo la NASA è lungo fino a 400 m e forse dieci volte più lungo che largo, mentre le misure di Spitzer limitano il diametro sferico equivalente a un valore tra 100 e 440 m secondo la composizione ipotizzata. La sua luminosità variava di un fattore 10 ogni 7,3 ore."
     },
     "diga-di-hoover": {
       "name": "Diga di Hoover",
@@ -890,7 +890,7 @@
     },
     "apophis": {
       "name": "Apophis",
-      "desc": "Il 13 aprile 2029 passerà a circa 32.000 km dalla Terra, sotto i satelliti geostazionari."
+      "desc": "Apophis è un asteroide vicino alla Terra con un diametro medio di circa 340 m, scoperto il 19 giugno 2004. Il 13 aprile 2029 passerà a circa 32.000 km dalla superficie terrestre, più vicino di molti satelliti in orbita geosincrona, senza rischio di impatto. La sonda OSIRIS-APEX della NASA è stata reindirizzata per studiarlo durante il passaggio."
     },
     "willis-tower": {
       "name": "Willis Tower",
@@ -902,7 +902,7 @@
     },
     "bennu": {
       "name": "Bennu",
-      "desc": "La sonda OSIRIS-REx ne ha riportato i campioni nel 2023."
+      "desc": "Bennu è un asteroide vicino alla Terra ricco di carbonio, con un diametro medio di circa 484 m e un diametro equatoriale di circa 500 m. La sonda OSIRIS-REx della NASA ne ha prelevato un campione il 20 ottobre 2020 e lo ha consegnato sulla Terra il 24 settembre 2023. Ruota su se stesso in 4,3 ore."
     },
     "merdeka-118": {
       "name": "Merdeka 118",
@@ -926,7 +926,7 @@
     },
     "3i-atlas": {
       "name": "3I/ATLAS",
-      "desc": "Il terzo oggetto interstellare, una cometa scoperta nel luglio 2025. Nucleo stimato tra 0,4 e 5,6 km."
+      "desc": "3I/ATLAS è una cometa, il terzo oggetto interstellare noto, segnalata il 1º luglio 2025 dal telescopio di sorveglianza ATLAS in Cile. Il nucleo non è visibile direttamente: le osservazioni di Hubble indicano un diametro compreso tra 440 m e 5,6 km, e uno studio basato sull'accelerazione non gravitazionale lo stima intorno a 1 km. Ha raggiunto il perielio intorno al 30 ottobre 2025, a circa 1,4 unità astronomiche dal Sole."
     },
     "citta-del-vaticano": {
       "name": "Città del Vaticano",
@@ -942,7 +942,7 @@
     },
     "cruithne": {
       "name": "Cruithne",
-      "desc": "Asteroide in risonanza orbitale con la Terra. L'originale: 5 km."
+      "desc": "Cruithne è un asteroide vicino alla Terra con un diametro effettivo di circa 2,07 km, misurato nell'infrarosso dal satellite NEOWISE. Compie un giro attorno al Sole in circa un anno, come la Terra, e visto dal nostro pianeta sembra percorrere un'orbita a ferro di cavallo. Non è una luna della Terra, ma un suo compagno orbitale."
     },
     "acceleratore-lineare-di-stanford": {
       "name": "Acceleratore lineare di Stanford",
@@ -958,7 +958,7 @@
     },
     "cometa-67p": {
       "name": "Cometa 67P",
-      "desc": "Churyumov–Gerasimenko, visitata dalla sonda Rosetta."
+      "desc": "La cometa 67P/Churyumov-Gerasimenko ha un nucleo a due lobi che misura 4,34 × 2,60 × 2,12 km. La sonda europea Rosetta l'ha raggiunta nell'agosto 2014 e l'ha accompagnata lungo l'orbita, e il suo lander Philae è stato il primo a posarsi su una cometa. La densità media del nucleo, 533 kg/m³, è circa la metà di quella dell'acqua."
     },
     "monte-bianco": {
       "name": "Monte Bianco",
@@ -986,11 +986,11 @@
     },
     "deimos": {
       "name": "Deimos",
-      "desc": "La luna più piccola di Marte."
+      "desc": "Deimos è la più piccola delle due lune di Marte, scoperta l'11 agosto 1877 da Asaph Hall. Ha forma irregolare, con assi di circa 15 × 12 × 11 km e un diametro medio di circa 12,4 km. Orbita attorno a Marte ogni 30 ore circa."
     },
     "cometa-di-halley": {
       "name": "Cometa di Halley",
-      "desc": "Nucleo di 15 × 8 km. Ha toccato l'afelio nel dicembre 2023 e torna nel 2061."
+      "desc": "La cometa di Halley ha un nucleo di circa 15 × 8 km, fotografato da vicino nel 1986 dalla sonda europea Giotto. È tra gli oggetti più scuri del Sistema Solare: riflette solo il 3% della luce che riceve. Percorre la sua orbita in media in 76 anni e tornerà visibile nel 2061."
     },
     "olympus-mons-altezza": {
       "name": "Olympus Mons (altezza)",
@@ -998,7 +998,7 @@
     },
     "fobos": {
       "name": "Fobos",
-      "desc": "La missione giapponese MMX punta a riportarne campioni."
+      "desc": "Fobos è la più grande delle due lune di Marte, di forma irregolare: misura circa 27 × 22 × 18 km, con un diametro medio di circa 22 km. Orbita così vicino al pianeta da compiere tre giri al giorno. La missione giapponese MMX, lanciata il 20 ottobre 2026, punta a riportarne campioni sulla Terra nel 2031."
     },
     "stella-di-neutroni": {
       "name": "Stella di neutroni",

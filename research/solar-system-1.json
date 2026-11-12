@@ -1,0 +1,272 @@
+[
+  {
+    "id": "dimorphos",
+    "size": 150,
+    "basis": "diametro medio (diametro della sfera di pari volume)",
+    "verdict": "confirmed",
+    "flags": [
+      "n"
+    ],
+    "desc": "Dimorphos è la piccola luna dell'asteroide Didymos, con un diametro di circa 151 m. Il 26 settembre 2022 la sonda DART della NASA l'ha colpita di proposito, modificandone l'orbita attorno a Didymos. La sonda europea Hera, lanciata il 7 ottobre 2024, ha il rendezvous previsto per novembre 2026 per studiare da vicino gli effetti dell'impatto.",
+    "sources": [
+      {
+        "title": "Hera",
+        "url": "https://www.esa.int/Space_Safety/Hera",
+        "publisher": "European Space Agency (ESA)",
+        "evidence": "Rendezvous: November 2026 151 m target asteroid"
+      },
+      {
+        "title": "Didymos",
+        "url": "https://science.nasa.gov/solar-system/asteroids/didymos/",
+        "publisher": "NASA Science",
+        "evidence": "impacted Dimorphos on Sept. 26, 2022"
+      }
+    ],
+    "note": "150 m contro 151 m dell'ESA: entro l'1%. La pagina NASA su Didymos riporta ancora un valore arrotondato più alto, circa 170 m (560 feet). 'A fine 2026' è stato precisato in 'rendezvous previsto per novembre 2026' come indicato dall'ESA; alla data di verifica la pagina ESA non annuncia ancora l'arrivo.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "oumuamua",
+    "size": 200,
+    "basis": "lunghezza (asse maggiore) stimata; valore convenzionale dentro l'intervallo delle stime",
+    "verdict": "uncertain",
+    "flags": [
+      "n",
+      "u"
+    ],
+    "desc": "ʻOumuamua è il primo oggetto interstellare osservato nel Sistema Solare, scoperto il 19 ottobre 2017 dal telescopio Pan-STARRS1 alle Hawaii. Non è mai stato risolto in immagine: secondo la NASA è lungo fino a 400 m e forse dieci volte più lungo che largo, mentre le misure di Spitzer limitano il diametro sferico equivalente a un valore tra 100 e 440 m secondo la composizione ipotizzata. La sua luminosità variava di un fattore 10 ogni 7,3 ore.",
+    "sources": [
+      {
+        "title": "'Oumuamua",
+        "url": "https://science.nasa.gov/solar-system/comets/oumuamua/",
+        "publisher": "NASA Science",
+        "evidence": "up to one-quarter mile (400 meters) long"
+      },
+      {
+        "title": "NASA Learns More About Interstellar Visitor 'Oumuamua",
+        "url": "https://science.nasa.gov/missions/spitzer/nasa-learns-more-about-interstellar-visitor-oumuamua/",
+        "publisher": "NASA (Spitzer)",
+        "evidence": "1,440 feet (440 meters), 460 feet (140 meters) or perhaps as little as 320 feet"
+      }
+    ],
+    "note": "La dimensione non è misurata direttamente: deriva dalla luminosità e da un'albedo ipotizzata. 200 m è un valore convenzionale dentro l'intervallo 100-440 m; l'ESO (eso1737) parla di 'at least 400 metres long'. L'intervallo '100-400 m' della descrizione originale è stato sostituito con le cifre delle due pagine NASA.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "apophis",
+    "size": 340,
+    "basis": "diametro medio (diametro effettivo da osservazioni radar)",
+    "verdict": "confirmed",
+    "flags": [
+      "n"
+    ],
+    "desc": "Apophis è un asteroide vicino alla Terra con un diametro medio di circa 340 m, scoperto il 19 giugno 2004. Il 13 aprile 2029 passerà a circa 32.000 km dalla superficie terrestre, più vicino di molti satelliti in orbita geosincrona, senza rischio di impatto. La sonda OSIRIS-APEX della NASA è stata reindirizzata per studiarlo durante il passaggio.",
+    "sources": [
+      {
+        "title": "Small-Body Database Lookup: 99942 Apophis (2004 MN4)",
+        "url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=99942",
+        "publisher": "NASA/JPL Solar System Dynamics",
+        "evidence": "diameter 0.34 km"
+      },
+      {
+        "title": "Apophis",
+        "url": "https://science.nasa.gov/solar-system/asteroids/apophis/",
+        "publisher": "NASA Science",
+        "evidence": "about 20,000 miles (32,000 kilometers) from our planet’s surface"
+      }
+    ],
+    "note": "Il diametro 0,34 ± 0,04 km nel database JPL viene da Brozovic et al., Icarus 300 (2018). I dati della scheda JPL sono stati letti dal database stesso (la pagina di consultazione li carica dinamicamente). I 32.000 km sono dalla superficie terrestre, precisato nella descrizione.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "bennu",
+    "size": 490,
+    "basis": "diametro medio (il diametro equatoriale è di circa 500 m)",
+    "verdict": "confirmed",
+    "flags": [
+      "n"
+    ],
+    "desc": "Bennu è un asteroide vicino alla Terra ricco di carbonio, con un diametro medio di circa 484 m e un diametro equatoriale di circa 500 m. La sonda OSIRIS-REx della NASA ne ha prelevato un campione il 20 ottobre 2020 e lo ha consegnato sulla Terra il 24 settembre 2023. Ruota su se stesso in 4,3 ore.",
+    "sources": [
+      {
+        "title": "Small-Body Database Lookup: 101955 Bennu (1999 RQ36)",
+        "url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=101955",
+        "publisher": "NASA/JPL Solar System Dynamics",
+        "evidence": "diameter 0.48444 km; extent 0.5047 x 0.4918 x 0.4567"
+      },
+      {
+        "title": "OSIRIS-REx",
+        "url": "https://science.nasa.gov/mission/osiris-rex/",
+        "publisher": "NASA Science",
+        "evidence": "delivered the sample to Earth on Sept. 24, 2023"
+      },
+      {
+        "title": "Bennu Facts",
+        "url": "https://science.nasa.gov/solar-system/asteroids/101955-bennu/facts/",
+        "publisher": "NASA Science",
+        "evidence": "one full rotation on its axis every 4.3 hours"
+      }
+    ],
+    "note": "490 m contro 484,44 m di diametro effettivo (Daly et al. 2020, nel database JPL): differenza dell'1,1%, entro la tolleranza; l'asse maggiore è 504,7 m. I dati della scheda JPL sono stati letti dal database stesso (la pagina di consultazione li carica dinamicamente).",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "3i-atlas",
+    "size": 1040,
+    "basis": "diametro stimato del nucleo; valore convenzionale dentro l'intervallo delle stime",
+    "verdict": "uncertain",
+    "flags": [
+      "n",
+      "u"
+    ],
+    "desc": "3I/ATLAS è una cometa, il terzo oggetto interstellare noto, segnalata il 1º luglio 2025 dal telescopio di sorveglianza ATLAS in Cile. Il nucleo non è visibile direttamente: le osservazioni di Hubble indicano un diametro compreso tra 440 m e 5,6 km, e uno studio basato sull'accelerazione non gravitazionale lo stima intorno a 1 km. Ha raggiunto il perielio intorno al 30 ottobre 2025, a circa 1,4 unità astronomiche dal Sole.",
+    "sources": [
+      {
+        "title": "Comet 3I/ATLAS",
+        "url": "https://science.nasa.gov/solar-system/comets/3i-atlas/",
+        "publisher": "NASA Science",
+        "evidence": "upper limit on its diameter is 3.5 miles (5.6 kilometers)"
+      },
+      {
+        "title": "The size of 3I/ATLAS from non-gravitational acceleration",
+        "url": "https://arxiv.org/abs/2512.18341",
+        "publisher": "Forbes & Butler, arXiv",
+        "evidence": "diameters between 820 meters and 1050 meters"
+      }
+    ],
+    "note": "Il nucleo è nascosto dalla chioma, quindi il valore resta una stima. 1040 m cade nell'intervallo 820-1050 m del preprint di Forbes e Butler (non ancora verificato se pubblicato su rivista) e dentro i limiti di Hubble. Il limite inferiore è stato aggiornato da 0,4 a 0,44 km secondo la pagina NASA (un comunicato Hubble precedente indicava 320 m). La stessa pagina NASA dà il minimo: 'as small as 1,444 feet (440 meters)'.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "cruithne",
+    "size": 2100,
+    "basis": "diametro medio (diametro effettivo da misure infrarosse NEOWISE)",
+    "verdict": "confirmed",
+    "flags": [
+      "r"
+    ],
+    "desc": "Cruithne è un asteroide vicino alla Terra con un diametro effettivo di circa 2,07 km, misurato nell'infrarosso dal satellite NEOWISE. Compie un giro attorno al Sole in circa un anno, come la Terra, e visto dal nostro pianeta sembra percorrere un'orbita a ferro di cavallo. Non è una luna della Terra, ma un suo compagno orbitale.",
+    "sources": [
+      {
+        "title": "Small-Body Database Lookup: 3753 Cruithne (1986 TO)",
+        "url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=3753",
+        "publisher": "NASA/JPL Solar System Dynamics",
+        "evidence": "diameter 2.071 km"
+      },
+      {
+        "title": "An asteroidal companion to the Earth",
+        "url": "https://www.nature.com/articles/42662",
+        "publisher": "Wiegert, Innanen & Mikkola, Nature",
+        "evidence": "distinctive shape characteristic of ‘horseshoe’ orbits"
+      }
+    ],
+    "note": "2100 m contro 2,071 ± 0,106 km (NEOWISE, Mainzer et al. 2012, nel database JPL): entro l'1,4%. I dati della scheda JPL sono stati letti dal database stesso (la pagina di consultazione li carica dinamicamente). Tolta dalla descrizione la frase sul valore dell'elenco originale (5 km), che è una nota redazionale; il flag r resta.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "cometa-67p",
+    "size": 4300,
+    "basis": "lunghezza massima del nucleo (asse maggiore)",
+    "verdict": "confirmed",
+    "flags": [
+      "n"
+    ],
+    "desc": "La cometa 67P/Churyumov-Gerasimenko ha un nucleo a due lobi che misura 4,34 × 2,60 × 2,12 km. La sonda europea Rosetta l'ha raggiunta nell'agosto 2014 e l'ha accompagnata lungo l'orbita, e il suo lander Philae è stato il primo a posarsi su una cometa. La densità media del nucleo, 533 kg/m³, è circa la metà di quella dell'acqua.",
+    "sources": [
+      {
+        "title": "Comet 67P/Churyumov-Gerasimenko",
+        "url": "https://sci.esa.int/web/rosetta/-/14615-comet-67p",
+        "publisher": "European Space Agency (ESA Science & Technology)",
+        "evidence": "4.34 km × 2.60 km × 2.12 km"
+      },
+      {
+        "title": "67P/Churyumov-Gerasimenko",
+        "url": "https://science.nasa.gov/solar-system/comets/67p-churyumov-gerasimenko/",
+        "publisher": "NASA Science",
+        "evidence": "first comet to be orbited and landed upon"
+      }
+    ],
+    "note": "4300 m contro 4,34 km: entro l'1%. Il diametro effettivo (sfera di pari volume) nel database JPL è 3,4 km; qui si usa l'asse maggiore perché il corpo è irregolare.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "deimos",
+    "size": 12400,
+    "basis": "diametro medio (media geometrica dei tre assi)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Deimos è la più piccola delle due lune di Marte, scoperta l'11 agosto 1877 da Asaph Hall. Ha forma irregolare, con assi di circa 15 × 12 × 11 km e un diametro medio di circa 12,4 km. Orbita attorno a Marte ogni 30 ore circa.",
+    "sources": [
+      {
+        "title": "Mars Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html",
+        "publisher": "NASA NSSDCA",
+        "evidence": "Subplanetary axis radius (km) 13.0 7.8 Along-orbit axis radius (km) 11.4 6.0"
+      },
+      {
+        "title": "Deimos",
+        "url": "https://science.nasa.gov/mars/moons/deimos/",
+        "publisher": "NASA Science",
+        "evidence": "15 by 12 by 11 kilometers"
+      }
+    ],
+    "note": "Calcolo: semiassi 7,8 × 6,0 × 5,1 km; media geometrica (7,8 × 6,0 × 5,1)^(1/3) = 6,20 km; diametro medio 12,4 km. Il corpo è irregolare e l'asse maggiore è 15,6 km (2 × 7,8): se per i corpi irregolari si vuole l'asse maggiore, la misura sarebbe 15.600 m. Qui è confermato il valore attuale come diametro medio. Nella scheda NSSDCA le colonne sono Fobos e Deimos; il semiasse polare è 9,1 e 5,1 km.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "cometa-di-halley",
+    "size": 15000,
+    "basis": "lunghezza massima del nucleo (asse maggiore)",
+    "verdict": "confirmed",
+    "flags": [
+      "r"
+    ],
+    "desc": "La cometa di Halley ha un nucleo di circa 15 × 8 km, fotografato da vicino nel 1986 dalla sonda europea Giotto. È tra gli oggetti più scuri del Sistema Solare: riflette solo il 3% della luce che riceve. Percorre la sua orbita in media in 76 anni e tornerà visibile nel 2061.",
+    "sources": [
+      {
+        "title": "1P/Halley",
+        "url": "https://science.nasa.gov/solar-system/comets/1p-halley/",
+        "publisher": "NASA Science",
+        "evidence": "15 kilometers by 8 kilometers"
+      },
+      {
+        "title": "Giotto overview",
+        "url": "https://www.esa.int/Science_Exploration/Space_Science/Giotto_overview",
+        "publisher": "European Space Agency (ESA)",
+        "evidence": "In 1986, it passed closest to the nucleus of a comet, Halley"
+      }
+    ],
+    "note": "Il database JPL riporta 14,9 × 8,2 km (Keller et al. 1987), coerente. Tolto dalla descrizione l'afelio del dicembre 2023: trovato solo su testate giornalistiche (EarthSky, Universe Today), non su una fonte istituzionale aperta.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "fobos",
+    "size": 22200,
+    "basis": "diametro medio (media geometrica dei tre assi)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Fobos è la più grande delle due lune di Marte, di forma irregolare: misura circa 27 × 22 × 18 km, con un diametro medio di circa 22 km. Orbita così vicino al pianeta da compiere tre giri al giorno. La missione giapponese MMX, lanciata il 20 ottobre 2026, punta a riportarne campioni sulla Terra nel 2031.",
+    "sources": [
+      {
+        "title": "Mars Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html",
+        "publisher": "NASA NSSDCA",
+        "evidence": "Subplanetary axis radius (km) 13.0 7.8 Along-orbit axis radius (km) 11.4 6.0"
+      },
+      {
+        "title": "Phobos",
+        "url": "https://science.nasa.gov/mars/moons/phobos/",
+        "publisher": "NASA Science",
+        "evidence": "27 by 22 by 18 kilometers"
+      },
+      {
+        "title": "MMX - Martian Moons eXploration",
+        "url": "https://www.mmx.jaxa.jp/en/",
+        "publisher": "JAXA",
+        "evidence": "return to Earth targeted for 2031"
+      }
+    ],
+    "note": "Calcolo: semiassi 13,0 × 11,4 × 9,1 km; media geometrica (13,0 × 11,4 × 9,1)^(1/3) = 11,05 km; diametro medio 22,1 km, entro lo 0,5% da 22,2 km. Il corpo è irregolare e l'asse maggiore è 26 km (2 × 13,0; 27 km per NASA Science): se per i corpi irregolari si vuole l'asse maggiore, la misura sarebbe circa 26.000 m. Qui è confermato il valore attuale come diametro medio. Nella scheda NSSDCA le colonne sono Fobos e Deimos; il semiasse polare è 9,1 e 5,1 km. La pagina JAXA riporta anche 'LAUNCH [Success] 2026.10.20'.",
+    "verified": "2026-11-12"
+  }
+]
