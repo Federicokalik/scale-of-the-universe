@@ -4713,13 +4713,26 @@
   },
   {
     "id": "ruanda",
-    "size": 230000,
+    "size": 248000,
     "kind": "g",
     "glyph": "",
-    "flags": [],
+    "flags": [
+      "r"
+    ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Rwanda (Worldmark Encyclopedia of Nations), sezione Location, Size, and Extent",
+        "url": "https://www.encyclopedia.com/places/africa/rwandan-political-geography/rwanda",
+        "publisher": "Encyclopedia.com (Gale, Worldmark Encyclopedia of Nations)"
+      },
+      {
+        "title": "About the government of Rwanda",
+        "url": "https://www.gov.rw/about",
+        "publisher": "Governo della Repubblica del Ruanda"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "nereide",
@@ -4747,13 +4760,26 @@
   },
   {
     "id": "west-virginia",
-    "size": 400000,
+    "size": 426000,
     "kind": "g",
     "glyph": "",
-    "flags": [],
+    "flags": [
+      "r"
+    ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "West Virginia (Worldmark Encyclopedia of the States), sezione Location, Size, and Extent",
+        "url": "https://www.encyclopedia.com/places/united-states-and-canada/us-political-geography/west-virginia",
+        "publisher": "Encyclopedia.com (Gale, Worldmark Encyclopedia of the States)"
+      },
+      {
+        "title": "West Virginia, Enciclopedia on line",
+        "url": "https://www.treccani.it/enciclopedia/west-virginia/",
+        "publisher": "Istituto della Enciclopedia Italiana Treccani"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "grand-canyon",
@@ -4762,8 +4788,19 @@
     "glyph": "🏜️",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Frequently Asked Questions - Grand Canyon National Park",
+        "url": "https://www.nps.gov/grca/faqs.htm",
+        "publisher": "U.S. National Park Service"
+      },
+      {
+        "title": "Park Statistics - Grand Canyon National Park",
+        "url": "https://www.nps.gov/grca/learn/management/statistics.htm",
+        "publisher": "U.S. National Park Service"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "miranda",
@@ -4873,8 +4910,19 @@
     "glyph": "🇮🇹",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Italy (Worldmark Encyclopedia of Nations), sezione Location, Size, and Extent",
+        "url": "https://www.encyclopedia.com/places/spain-portugal-italy-greece-and-balkans/italian-political-geography/italy",
+        "publisher": "Encyclopedia.com (Gale, Worldmark Encyclopedia of Nations)"
+      },
+      {
+        "title": "ITALIA, Enciclopedia Italiana",
+        "url": "https://www.treccani.it/enciclopedia/italia_(Enciclopedia-Italiana)/",
+        "publisher": "Istituto della Enciclopedia Italiana Treccani"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "caronte",
@@ -4905,8 +4953,19 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "California (Worldmark Encyclopedia of the States), sezione Location, Size, and Extent",
+        "url": "https://www.encyclopedia.com/places/united-states-and-canada/us-political-geography/california",
+        "publisher": "Encyclopedia.com (Gale, Worldmark Encyclopedia of the States)"
+      },
+      {
+        "title": "California, Enciclopedia on line",
+        "url": "https://www.treccani.it/enciclopedia/california/",
+        "publisher": "Istituto della Enciclopedia Italiana Treccani"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "texas",
@@ -4915,8 +4974,19 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Texas' Natural Environment (Length and Breadth of Texas)",
+        "url": "https://www.texasalmanac.com/articles/environment",
+        "publisher": "Texas Almanac, Texas State Historical Association"
+      },
+      {
+        "title": "Texas, Enciclopedia on line",
+        "url": "https://www.treccani.it/enciclopedia/texas/",
+        "publisher": "Istituto della Enciclopedia Italiana Treccani"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "makemake",
@@ -4961,8 +5031,14 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "What is the Great Barrier Reef?",
+        "url": "https://oceanservice.noaa.gov/facts/gbrlargeststructure.html",
+        "publisher": "NOAA National Ocean Service"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "eris",
@@ -5035,8 +5111,14 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Extreme Distances (computed to mean sea level)",
+        "url": "https://www.usgs.gov/educational-resources/extreme-distances-computed-mean-sea-level",
+        "publisher": "U.S. Geological Survey"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "callisto",
@@ -5095,8 +5177,14 @@
     "glyph": "🌏",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Asia, Enciclopedia on line",
+        "url": "https://www.treccani.it/enciclopedia/asia/",
+        "publisher": "Istituto della Enciclopedia Italiana Treccani"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "trappist-1-e",
@@ -5151,8 +5239,19 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "The Great Wall faces severe preservation challenges",
+        "url": "https://en.chinaculture.org/info/2012-08/14/content_438457.htm",
+        "publisher": "Chinaculture.org"
+      },
+      {
+        "title": "Grande Muraglia, Enciclopedia on line",
+        "url": "https://www.treccani.it/enciclopedia/grande-muraglia/",
+        "publisher": "Istituto della Enciclopedia Italiana Treccani"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "k2-18-b",

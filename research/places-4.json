@@ -1,0 +1,224 @@
+[
+  {
+    "id": "ruanda",
+    "size": 248000,
+    "basis": "massima estensione del territorio, in direzione nord-est/sud-ovest",
+    "verdict": "corrected",
+    "flags": ["r"],
+    "desc": "Il Ruanda è un piccolo Stato senza sbocco sul mare dell'Africa centro-orientale, con una superficie di 26.338 km². Nel punto di massima estensione, da nord-est a sud-ovest, misura circa 248 km, mentre nella direzione perpendicolare arriva a 166 km. È chiamato \"il Paese delle mille colline\" e il suo territorio sale da 950 a 4.500 metri di quota.",
+    "sources": [
+      {
+        "title": "Rwanda (Worldmark Encyclopedia of Nations), sezione Location, Size, and Extent",
+        "url": "https://www.encyclopedia.com/places/africa/rwandan-political-geography/rwanda",
+        "publisher": "Encyclopedia.com (Gale, Worldmark Encyclopedia of Nations)",
+        "evidence": "extending 248 km (154 mi) ne – sw and 166 km (103 mi) se – nw"
+      },
+      {
+        "title": "About the government of Rwanda",
+        "url": "https://www.gov.rw/about",
+        "publisher": "Governo della Repubblica del Ruanda",
+        "evidence": "Rwanda’s total area is Km2 26,338"
+      }
+    ],
+    "note": "Da 230 km a 248 km. Il valore precedente corrisponde alla larghezza est-ovest (circa 227 km secondo le coordinate estreme), per la quale non ho trovato una fonte citabile che riporti la cifra; l'unica misura pubblicata che ho potuto aprire è quella della Worldmark Encyclopedia, che dà la massima estensione (248 km NE-SO), il 7,8% in più. \"Mille colline\" e l'intervallo di quota 950-4.500 m vengono dalla pagina del governo ruandese. Britannica non era raggiungibile (blocco Cloudflare).",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "west-virginia",
+    "size": 426000,
+    "basis": "massima estensione est-ovest dello Stato",
+    "verdict": "corrected",
+    "flags": ["r"],
+    "desc": "La Virginia Occidentale è uno Stato degli USA nella regione dei Monti Appalachi, con capitale Charleston e una superficie di circa 62.760 km². Da est a ovest si estende per 265 miglia, cioè circa 426 km, e da nord a sud per un massimo di 381 km. Ha una delle forme più irregolari tra gli Stati americani, con due strette appendici di territorio a nord e a est.",
+    "sources": [
+      {
+        "title": "West Virginia (Worldmark Encyclopedia of the States), sezione Location, Size, and Extent",
+        "url": "https://www.encyclopedia.com/places/united-states-and-canada/us-political-geography/west-virginia",
+        "publisher": "Encyclopedia.com (Gale, Worldmark Encyclopedia of the States)",
+        "evidence": "The state extends 265 mi (426 km) e-w"
+      },
+      {
+        "title": "West Virginia, Enciclopedia on line",
+        "url": "https://www.treccani.it/enciclopedia/west-virginia/",
+        "publisher": "Istituto della Enciclopedia Italiana Treccani",
+        "evidence": "Stato federato degli USA (62.759 km2 con 1.814.468 ab. nel 2008); capitale Charleston"
+      }
+    ],
+    "note": "Da 400 km a 426 km: 265 mi × 1,609344 = 426,5 km, il 6,5% in più del valore precedente, per il quale non ho trovato alcuna fonte. La stessa voce dà 237 mi (381 km) come massima estensione nord-sud e descrive la forma irregolare con i due \"panhandle\".",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "grand-canyon",
+    "size": 446000,
+    "basis": "lunghezza del canyon misurata lungo il corso del fiume Colorado, da Lees Ferry alle Grand Wash Cliffs",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il Grand Canyon è la gola scavata dal fiume Colorado nell'altopiano dell'Arizona. Misurato lungo il fiume, da Lees Ferry alle Grand Wash Cliffs, è lungo 277 miglia, cioè 446 km. In media è largo 16 km da un bordo all'altro e profondo circa 1,6 km.",
+    "sources": [
+      {
+        "title": "Frequently Asked Questions - Grand Canyon National Park",
+        "url": "https://www.nps.gov/grca/faqs.htm",
+        "publisher": "U.S. National Park Service",
+        "evidence": "Grand Canyon is 277 miles / 446 km long"
+      },
+      {
+        "title": "Park Statistics - Grand Canyon National Park",
+        "url": "https://www.nps.gov/grca/learn/management/statistics.htm",
+        "publisher": "U.S. National Park Service",
+        "evidence": "Average Rim to Rim, 10 miles (16 km)"
+      }
+    ],
+    "note": "La pagina delle statistiche del parco riporta 278 miglia fluviali (447 km), la pagina delle domande frequenti 277 miglia (446 km): differenza irrilevante. Larghezza media e profondità media (1 miglio, 1,6 km) vengono dalla pagina delle statistiche.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "italia",
+    "size": 1200000,
+    "basis": "lunghezza della parte continentale e peninsulare, da nord-ovest a sud-est",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "L'Italia è una penisola a forma di stivale che si allunga nel Mediterraneo per circa 1.185 km da nord-ovest a sud-est, con una larghezza massima di 381 km. Comprese Sicilia e Sardegna, la sua superficie è di circa 301.000 km². Tra la Vetta d'Italia, sulle Alpi, e la costa meridionale di Lampedusa ci sono circa 11 gradi e mezzo di latitudine, pari a quasi 1.290 km.",
+    "sources": [
+      {
+        "title": "Italy (Worldmark Encyclopedia of Nations), sezione Location, Size, and Extent",
+        "url": "https://www.encyclopedia.com/places/spain-portugal-italy-greece-and-balkans/italian-political-geography/italy",
+        "publisher": "Encyclopedia.com (Gale, Worldmark Encyclopedia of Nations)",
+        "evidence": "a length of 1,185 km (736 mi) se – nw and a width of 381 km"
+      },
+      {
+        "title": "ITALIA, Enciclopedia Italiana",
+        "url": "https://www.treccani.it/enciclopedia/italia_(Enciclopedia-Italiana)/",
+        "publisher": "Istituto della Enciclopedia Italiana Treccani",
+        "evidence": "la Cala Malùk sulla costa S. di Lampedusa è a 35° 29′ 24″ N."
+      }
+    ],
+    "note": "Il valore di 1.200 km corrisponde alla lunghezza della penisola (1.185 km, differenza 1,3%), non alla distanza \"dalle Alpi a Lampedusa\" indicata nella descrizione precedente, che ho quindi riformulato. Calcolo per Lampedusa: 47°5′30″ − 35°29′24″ = 11°36′06″ = 11,60° × 111,13 km per grado = circa 1.289 km (solo differenza di latitudine). Le latitudini vengono dalla voce storica dell'Enciclopedia Italiana, che nella stessa frase indica la Vetta d'Italia (47°5′30″ N) come estremo nord: non ho verificato su una fonte recente quale sia oggi il punto più settentrionale.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "california",
+    "size": 1240000,
+    "basis": "massima estensione nord-sud dello Stato",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "La California è uno Stato degli USA affacciato sull'Oceano Pacifico, tra l'Oregon a nord e il Messico a sud, con capitale Sacramento. La sua massima estensione da nord a sud è di circa 780 miglia, cioè intorno a 1.250 km, mentre da est a ovest misura circa 560 km. È il terzo Stato americano per superficie e il primo per popolazione.",
+    "sources": [
+      {
+        "title": "California (Worldmark Encyclopedia of the States), sezione Location, Size, and Extent",
+        "url": "https://www.encyclopedia.com/places/united-states-and-canada/us-political-geography/california",
+        "publisher": "Encyclopedia.com (Gale, Worldmark Encyclopedia of the States)",
+        "evidence": "its maximum n-s extension is 780 mi (1,260 km)"
+      },
+      {
+        "title": "California, Enciclopedia on line",
+        "url": "https://www.treccani.it/enciclopedia/california/",
+        "publisher": "Istituto della Enciclopedia Italiana Treccani",
+        "evidence": "è il terzo per superficie e il primo per popolazione degli USA"
+      }
+    ],
+    "note": "780 mi × 1,609344 = 1.255 km (la fonte arrotonda a 1.260 km): il valore attuale di 1.240 km, cioè 770 miglia, differisce dell'1,2% e resta invariato. La descrizione era vuota.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "texas",
+    "size": 1270000,
+    "basis": "massima distanza in linea retta attraverso lo Stato (801 miglia nord-sud, 773 miglia est-ovest)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il Texas è uno Stato degli USA meridionali, il più esteso della federazione dopo l'Alaska, con capitale Austin. La distanza massima in linea retta è di 801 miglia, circa 1.290 km, dall'angolo nord-ovest del Panhandle fino al Rio Grande sotto Brownsville. Da est a ovest, tra il fiume Sabine e i dintorni di El Paso, misura 773 miglia, circa 1.244 km.",
+    "sources": [
+      {
+        "title": "Texas' Natural Environment (Length and Breadth of Texas)",
+        "url": "https://www.texasalmanac.com/articles/environment",
+        "publisher": "Texas Almanac, Texas State Historical Association",
+        "evidence": "The longest straight-line distance in a general north-south direction is 801 miles"
+      },
+      {
+        "title": "Texas, Enciclopedia on line",
+        "url": "https://www.treccani.it/enciclopedia/texas/",
+        "publisher": "Istituto della Enciclopedia Italiana Treccani",
+        "evidence": "Il più esteso della federazione dopo l'Alaska"
+      }
+    ],
+    "note": "801 mi × 1,609344 = 1.289 km; 773 mi × 1,609344 = 1.244 km. Il valore attuale di 1.270 km sta tra le due misure e dista dell'1,5% dalla maggiore, quindi resta invariato. La descrizione era vuota.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "grande-barriera-corallina",
+    "size": 2300000,
+    "basis": "lunghezza del sistema di barriere lungo la costa nord-orientale dell'Australia",
+    "verdict": "confirmed",
+    "flags": ["r"],
+    "desc": "La Grande Barriera Corallina è il più grande sistema di barriere coralline del mondo e si trova nel Mar dei Coralli, al largo del Queensland, in Australia. Si estende per 1.429 miglia, cioè circa 2.300 km, ed è formata da quasi 3.000 barriere distinte. Gran parte della sua area è protetta da un parco marino gestito da un'autorità australiana.",
+    "sources": [
+      {
+        "title": "What is the Great Barrier Reef?",
+        "url": "https://oceanservice.noaa.gov/facts/gbrlargeststructure.html",
+        "publisher": "NOAA National Ocean Service",
+        "evidence": "Stretching for 1,429 miles over an area of approximately 133,000 square miles"
+      }
+    ],
+    "note": "1.429 mi × 1,609344 = 2.299,8 km. Il sito dell'autorità del parco marino (gbrmpa.gov.au) non era raggiungibile da questa sessione, quindi cito la NOAA. La voce Treccani dà una cifra più arrotondata (2000 km) e non l'ho usata.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "larghezza-degli-stati-uniti",
+    "size": 4500000,
+    "basis": "distanza est-ovest attraverso i 48 Stati contigui, dalla costa atlantica del Maine all'Oceano Pacifico",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "È la distanza da costa a costa attraverso i 48 Stati contigui degli USA. Secondo il Servizio geologico statunitense, da West Quoddy Head nel Maine fino al Pacifico, lungo il parallelo, ci sono 2.742 miglia, circa 4.413 km. I due punti più lontani tra loro, West Quoddy Head e Point Arena in California, distano 2.892 miglia, circa 4.654 km.",
+    "sources": [
+      {
+        "title": "Extreme Distances (computed to mean sea level)",
+        "url": "https://www.usgs.gov/educational-resources/extreme-distances-computed-mean-sea-level",
+        "publisher": "U.S. Geological Survey",
+        "evidence": "West Quoddy Head, ME, along the parallel Pacific Ocean 2,742"
+      }
+    ],
+    "note": "2.742 mi × 1,609344 = 4.413 km; 2.892 mi × 1,609344 = 4.654 km (\"farthest points, 48 States\"). Il valore attuale di 4.500 km sta tra le due misure (2% sopra la prima, 3,3% sotto la seconda) e resta invariato. La descrizione era vuota.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "asia",
+    "size": 8500000,
+    "basis": "estensione nord-sud della terraferma, da Capo Čeljuskin a Capo Piai",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "L'Asia è la più vasta delle parti del mondo, con una superficie di circa 44,6 milioni di km² comprese le acque interne. La terraferma si estende per oltre 75 gradi di latitudine, da Capo Čeljuskin in Siberia a Capo Piai nella penisola malese, cioè per circa 8.500 km da nord a sud. Vi si trovano le montagne più alte della Terra, tra cui l'Everest.",
+    "sources": [
+      {
+        "title": "Asia, Enciclopedia on line",
+        "url": "https://www.treccani.it/enciclopedia/asia/",
+        "publisher": "Istituto della Enciclopedia Italiana Treccani",
+        "evidence": "tra Capo Čeljuskin, 77° 41' N, e Capo Piai, 1°16' N"
+      }
+    ],
+    "note": "Misura derivata: 77°41′ − 1°16′ = 76°25′ = 76,42° × 111,13 km per grado di latitudine = circa 8.490 km, in accordo con il valore attuale di 8.500 km. È una differenza di latitudine, non una distanza misurata tra i due capi; non ho trovato una fonte raggiungibile che riporti direttamente la cifra in km (Britannica era bloccata). In direzione est-ovest il continente è più esteso. La descrizione era vuota.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "grande-muraglia-cinese",
+    "size": 21200000,
+    "basis": "lunghezza complessiva di tutti i tratti e le diramazioni, di tutte le dinastie, secondo il rilevamento ufficiale del 2012",
+    "verdict": "confirmed",
+    "flags": ["r"],
+    "desc": "La Grande Muraglia è un insieme di fortificazioni costruite in Cina da dinastie diverse nell'arco di oltre 2.000 anni. Nel giugno 2012 l'Amministrazione statale per il patrimonio culturale ne ha fissato la lunghezza ufficiale, diramazioni comprese, a 21.196,18 km. La stima precedente di 8.851,8 km riguardava soltanto le mura della dinastia Ming.",
+    "sources": [
+      {
+        "title": "The Great Wall faces severe preservation challenges",
+        "url": "https://en.chinaculture.org/info/2012-08/14/content_438457.htm",
+        "publisher": "Chinaculture.org",
+        "evidence": "official length of the Great Wall with all of its branches at a whopping 21,196.18 km"
+      },
+      {
+        "title": "Grande Muraglia, Enciclopedia on line",
+        "url": "https://www.treccani.it/enciclopedia/grande-muraglia/",
+        "publisher": "Istituto della Enciclopedia Italiana Treccani",
+        "evidence": "deve essere in realtà considerata di circa 22.000 km"
+      }
+    ],
+    "note": "21.196,18 km arrotondati a 21.200 km: valore invariato. La descrizione precedente chiamava \"l'originale\" la misura di 8.800 km: secondo la fonte è la stima preliminare (8.851,8 km) riferita alle sole mura Ming, e l'ho riformulata così. Il rilevamento, iniziato nel 2007, ha censito 43.721 siti in 15 province e regioni. La pagina UNESCO non era raggiungibile (blocco Cloudflare).",
+    "verified": "2026-11-12"
+  }
+]
