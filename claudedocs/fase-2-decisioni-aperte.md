@@ -76,6 +76,11 @@ Aggiornato dopo ogni ondata. Le correzioni sono già applicate ai dati; le decis
 49. **Supergiganti rosse**: otto su dodici dell'ultimo lotto sono segnate incerte perché i raggi pubblicati divergono molto. UY Scuti: 1.708 ± 192 R☉ (2013) contro circa 909 R☉ (Healy e colleghi 2024); il valore attuale corrisponde a circa 905 R☉. WOH G64: 1.540 R☉ (2009, valore attuale) contro circa 800 R☉ (2024). V838 Monocerotis, V354 Cephei e KY Cygni sono al minimo degli intervalli pubblicati. Mu Cephei: 972 ± 228 R☉ o 1.420 R☉; una stima 2026 di 762 R☉ non è stata aperta. Decidere se tenere i valori attuali o passare alle misure più recenti.
 50. **VV Cephei A**: l'articolo dietro i 1.050 R☉ attuali (Bauer 2008) non si apriva; è sostenuto solo l'intervallo 600–1.800 R☉.
 51. **UY Scuti e Stephenson 2-18**: tolti i superlativi "stella più grande", non sostenuti dalle fonti.
+52. **Distanza del Grande Attrattore**: la NASA dà circa 220 milioni di anni luce per l'ammasso del Regolo; il valore attuale corrisponde a 232,5 milioni (5,4% in più) e la regione è diffusa. Segnata incerta. Proposta: allineare a 220 milioni.
+53. **Distanza dell'Hubble Deep Field**: la fonte dà solo limiti ("più di dieci miliardi di anni fa"). Segnata incerta.
+54. **Raggio di Hubble**: da 13,4 a 14,5 miliardi di anni luce a seconda della costante di Hubble usata (67,4 o 73,0 km/s/Mpc). Segnato incerto.
+55. **MoM-z14**: la distanza di circa 34 miliardi di anni luce è un calcolo dal redshift con i parametri di Planck, non una cifra citata; "la più distante" vale a gennaio 2026.
+56. **Strada percorsa dalla Terra attorno al Sole**: valore derivato (circonferenza dell'orbita per 4,54 miliardi di anni), assumendo un'orbita invariata.
 
 ## Da sistemare prima di chiudere la fase
 
@@ -91,8 +96,8 @@ Aggiornato dopo ogni ondata. Le correzioni sono già applicate ai dati; le decis
 
 ## Avanzamento
 
-Lotti applicati: black-holes, particles-1/2, atoms-1/2, waves-1/2, molecules-1/2, units-1/2/3, biology-1/2/3/4/5, objects-1/2/3/4/5, places-1/2/3/4, solar-system-1/2/3/4/5, stars-1/2/3/4, distances-1/2 (362 oggetti su 447).
+Lotti applicati: black-holes, particles-1/2, atoms-1/2, waves-1/2, molecules-1/2, units-1/2/3, biology-1/2/3/4/5, objects-1/2/3/4/5, places-1/2/3/4, solar-system-1/2/3/4/5, stars-1/2/3/4, distances-1/2/3 (372 oggetti su 447).
 
-Lotti da fare: distances-3, nebulae-1/2/3, galaxies-1/2, cosmic-1/2.
+Lotti da fare: nebulae-1/2/3, galaxies-1/2, cosmic-1/2.
 
 Per ogni lotto: `node scripts/apply-research.mjs --check`, `node scripts/check-links.mjs`, campione di fonti riletto in modo indipendente, poi `node scripts/apply-research.mjs`, `npm run validate`, `npm test`, commit.

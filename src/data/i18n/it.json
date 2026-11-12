@@ -1598,7 +1598,7 @@
     },
     "distanza-sole-proxima": {
       "name": "Distanza Sole–Proxima",
-      "desc": "4,2465 anni luce."
+      "desc": "Proxima Centauri è una nana rossa ed è la stella più vicina al Sole: dista 1,295 parsec, cioè circa 4,2 anni luce o 40.000 miliardi di km. La sua luminosità è circa lo 0,1% di quella solare, quindi non si vede a occhio nudo. Dal 2016 si sa che attorno a lei orbita almeno un pianeta, Proxima b."
     },
     "pilastri-della-creazione": {
       "name": "Pilastri della Creazione",
@@ -1690,7 +1690,7 @@
     },
     "getto-relativistico-di-m87": {
       "name": "Getto relativistico di M87",
-      "desc": "Circa 5.000 anni luce di plasma lanciato dal buco nero centrale."
+      "desc": "Dal buco nero supermassiccio al centro della galassia ellittica M87 esce un getto di gas caldissimo che viaggia a velocità prossime a quella della luce. La parte visibile del getto è lunga circa 5.000 anni luce. Tredici anni di osservazioni del telescopio Hubble hanno mostrato che il plasma sembra muoversi a spirale lungo il getto."
     },
     "nana-del-cane-maggiore": {
       "name": "Nana del Cane Maggiore",
@@ -1782,11 +1782,11 @@
     },
     "strada-percorsa-dalla-terra-attorno-al-sole": {
       "name": "Strada percorsa dalla Terra attorno al Sole",
-      "desc": "4,54 miliardi di orbite da 940 milioni di km."
+      "desc": "Ogni anno la Terra percorre attorno al Sole un'orbita lunga circa 940 milioni di km, alla velocità media di 29,78 km/s. Moltiplicando per i 4,54 miliardi di anni di età del pianeta si ottengono circa 4,3 miliardi di miliardi di km, pari a circa 450.000 anni luce. È una stima che suppone un'orbita rimasta sempre uguale a quella di oggi."
     },
     "distanza-di-andromeda": {
       "name": "Distanza di Andromeda",
-      "desc": "2,5 milioni di anni luce."
+      "desc": "La galassia di Andromeda, o M31, dista circa 2,5 milioni di anni luce ed è la grande galassia più vicina alla Via Lattea. La luce che ne vediamo oggi è partita quindi 2,5 milioni di anni fa. Nonostante la distanza, il telescopio Hubble riesce a distinguere le singole stelle del suo disco."
     },
     "ic-1101": {
       "name": "IC 1101",
@@ -1826,7 +1826,7 @@
     },
     "distanza-del-grande-attrattore": {
       "name": "Distanza del Grande Attrattore",
-      "desc": ""
+      "desc": "Il Grande Attrattore è una regione di spazio con un'enorme concentrazione di massa, la cui gravità domina la nostra parte di Universo. Viene associato all'ammasso di galassie della Norma, che dista circa 220 milioni di anni luce. La distanza è approssimativa, perché la zona si trova dietro il piano della Via Lattea, dove stelle e polveri nascondono gran parte degli oggetti."
     },
     "vuoto-del-boote": {
       "name": "Vuoto del Boote",
@@ -1834,7 +1834,7 @@
     },
     "scala-acustica-barionica": {
       "name": "Scala acustica barionica",
-      "desc": "Il righello standard della cosmologia: 490 milioni di anni luce. Le misure DESI del 2025 con questo righello suggeriscono un'energia oscura che cambia nel tempo, ma non è confermato."
+      "desc": "Le onde di pressione dell'Universo primordiale hanno lasciato un'impronta nella distribuzione delle galassie: le coppie di galassie tendono a trovarsi a una distanza che oggi vale circa 500 milioni di anni luce. Questa lunghezza nota fa da righello standard per misurare l'espansione cosmica. Le misure DESI del 2025, combinate con altri dati, preferiscono un'energia oscura che cambia nel tempo, ma con una significatività tra 2,8 e 4,2 sigma che non basta a confermarlo."
     },
     "laniakea": {
       "name": "Laniakea",
@@ -1842,7 +1842,7 @@
     },
     "distanza-del-superammasso-di-shapley": {
       "name": "Distanza del superammasso di Shapley",
-      "desc": ""
+      "desc": "Il superammasso di Shapley, che prende il nome dall'astronomo Harlow Shapley, dista circa 650 milioni di anni luce. È una delle concentrazioni di galassie più massicce dell'Universo locale. Il gas caldo dei suoi ammassi emette raggi X, osservati tra gli altri dal telescopio eROSITA."
     },
     "complesso-pesci-balena": {
       "name": "Complesso Pesci–Balena",
@@ -1882,15 +1882,15 @@
     },
     "distanza-dell-hubble-deep-field": {
       "name": "Distanza dell'Hubble Deep Field",
-      "desc": "La luce delle galassie più deboli ha viaggiato per circa 13 miliardi di anni."
+      "desc": "L'Hubble Deep Field è un'immagine del 1995 di una minuscola zona di cielo, in cui il telescopio Hubble ha rivelato almeno 1.500 galassie, molte circa quattro miliardi di volte più deboli di quanto vede l'occhio umano. Alcune sono viste com'erano più di 10 miliardi di anni fa, forse meno di un miliardo di anni dopo il Big Bang. La distanza indicata, circa 12,7 miliardi di anni luce, è quindi il cammino della luce delle più remote ed è una stima, non una misura unica."
     },
     "raggio-di-hubble": {
       "name": "Raggio di Hubble",
-      "desc": "Oltre 14,4 miliardi di anni luce lo spazio si allontana da noi più veloce della luce."
+      "desc": "Il raggio di Hubble è la distanza alla quale, secondo la legge di Hubble, lo spazio si allontana da noi alla velocità della luce: si ottiene dividendo la velocità della luce per la costante di Hubble. Con il valore ricavato da Planck, 67,4 km/s per megaparsec, vale circa 14,5 miliardi di anni luce; con quello misurato da Cefeidi e supernove, 73,0, scende a circa 13,4. La differenza tra le due misure, nota come tensione di Hubble, non è ancora risolta."
     },
     "mom-z14": {
       "name": "MoM-z14",
-      "desc": "La galassia più lontana confermata (gennaio 2026): redshift 14,44, vista 280 milioni di anni dopo il Big Bang. Oggi dista circa 34 miliardi di anni luce."
+      "desc": "MoM-z14 è una galassia osservata dal telescopio James Webb a redshift 14,44, cioè com'era appena 280 milioni di anni dopo il Big Bang. Alla conferma, pubblicata a gennaio 2026, era la galassia più lontana nota. La sua luce ha viaggiato per circa 13,5 miliardi di anni, ma per l'espansione dell'Universo oggi la galassia dista circa 34 miliardi di anni luce."
     },
     "universo-osservabile": {
       "name": "Universo osservabile",

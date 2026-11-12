@@ -1,0 +1,218 @@
+[
+  {
+    "id": "distanza-sole-proxima",
+    "size": 40180000000000000,
+    "basis": "distanza tra il Sole e Proxima Centauri, la stella più vicina",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Proxima Centauri è una nana rossa ed è la stella più vicina al Sole: dista 1,295 parsec, cioè circa 4,2 anni luce o 40.000 miliardi di km. La sua luminosità è circa lo 0,1% di quella solare, quindi non si vede a occhio nudo. Dal 2016 si sa che attorno a lei orbita almeno un pianeta, Proxima b.",
+    "sources": [
+      {
+        "title": "A terrestrial planet candidate in a temperate orbit around Proxima Centauri",
+        "url": "https://arxiv.org/abs/1609.03449",
+        "publisher": "Anglada-Escudé et al., Nature, arXiv",
+        "evidence": "At a distance of 1.295 parsecs, the red-dwarf Proxima Centauri"
+      },
+      {
+        "title": "Planet Found in Habitable Zone Around Nearest Star",
+        "url": "https://www.eso.org/public/news/eso1629/",
+        "publisher": "European Southern Observatory (ESO)",
+        "evidence": "Just over four light-years from the Solar System lies a red dwarf"
+      }
+    ],
+    "note": "1,295 pc × 3,0857e16 m = 3,996e16 m (4,224 anni luce), contro 4,018e16 m: differenza 0,5%, valore mantenuto. Il valore attuale corrisponde a 4,2465 anni luce (parallasse Gaia di circa 768,07 mas), ma la pagina SIMBAD che lo riporta non si è aperta (servizio CDS non disponibile), quindi la cifra a quattro decimali è stata tolta dalla descrizione e sostituita con il valore del paper.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "getto-relativistico-di-m87",
+    "size": 47000000000000000000,
+    "basis": "lunghezza della parte visibile (ottica) del getto che esce dal nucleo della galassia M87",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Dal buco nero supermassiccio al centro della galassia ellittica M87 esce un getto di gas caldissimo che viaggia a velocità prossime a quella della luce. La parte visibile del getto è lunga circa 5.000 anni luce. Tredici anni di osservazioni del telescopio Hubble hanno mostrato che il plasma sembra muoversi a spirale lungo il getto.",
+    "sources": [
+      {
+        "title": "Hubble Takes Movies of Space Slinky",
+        "url": "https://science.nasa.gov/missions/hubble/hubble-takes-movies-of-space-slinky/",
+        "publisher": "NASA Science",
+        "evidence": "a 5,000-light-year-long jet of superheated gas"
+      },
+      {
+        "title": "Galaxy M87 Jet (Annotated)",
+        "url": "https://science.nasa.gov/asset/hubble/galaxy-m87-jet-annotated/",
+        "publisher": "NASA Science",
+        "evidence": "The visible portion of the jet extends 5,000 light-years."
+      }
+    ],
+    "note": "5.000 anni luce × 9,4607e15 m = 4,73e19 m, contro 4,7e19 m (differenza 0,6%). La cifra riguarda la parte visibile in ottico; l'emissione radio è più estesa, ma non è stata verificata qui e non è citata.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "strada-percorsa-dalla-terra-attorno-al-sole",
+    "size": 4.3e+21,
+    "basis": "lunghezza totale percorsa dalla Terra lungo la sua orbita dalla formazione a oggi (circonferenza dell'orbita per età della Terra)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Ogni anno la Terra percorre attorno al Sole un'orbita lunga circa 940 milioni di km, alla velocità media di 29,78 km/s. Moltiplicando per i 4,54 miliardi di anni di età del pianeta si ottengono circa 4,3 miliardi di miliardi di km, pari a circa 450.000 anni luce. È una stima che suppone un'orbita rimasta sempre uguale a quella di oggi.",
+    "sources": [
+      {
+        "title": "Earth Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html",
+        "publisher": "NASA Space Science Data Coordinated Archive (NSSDCA)",
+        "evidence": "Semimajor axis (10^6 km) 149.598"
+      },
+      {
+        "title": "Geologic Time: Age of the Earth",
+        "url": "https://pubs.usgs.gov/gip/geotime/age.html",
+        "publisher": "U.S. Geological Survey (USGS)",
+        "evidence": "4.54 billion years with an uncertainty of less than 1 percent"
+      }
+    ],
+    "note": "Valore derivato. Circonferenza approssimata a un cerchio: 2π × 149,598 milioni di km = 939,95 milioni di km. 939,95e9 m × 4,54e9 orbite = 4,267e21 m, contro 4,3e21 m (differenza 0,8%). In anni luce: 4,267e21 / 9,4607e15 = 451.000. Velocità media 29,78 km/s dalla stessa scheda NSSDCA. Si assume che l'anno e l'orbita non siano cambiati, cosa non verificabile: la descrizione lo dice.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "distanza-di-andromeda",
+    "size": 2.4e+22,
+    "basis": "distanza tra la Terra (Via Lattea) e la galassia di Andromeda, M31",
+    "verdict": "confirmed",
+    "flags": ["r"],
+    "desc": "La galassia di Andromeda, o M31, dista circa 2,5 milioni di anni luce ed è la grande galassia più vicina alla Via Lattea. La luce che ne vediamo oggi è partita quindi 2,5 milioni di anni fa. Nonostante la distanza, il telescopio Hubble riesce a distinguere le singole stelle del suo disco.",
+    "sources": [
+      {
+        "title": "Messier 31 (The Andromeda Galaxy)",
+        "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-31/",
+        "publisher": "NASA Science (Hubble Messier Catalog)",
+        "evidence": "Distance 2.5 million light-years"
+      }
+    ],
+    "note": "2,5e6 anni luce × 9,4607e15 m = 2,365e22 m, contro 2,4e22 m (differenza 1,5%). Il flag r era già presente ed è stato mantenuto.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "distanza-del-grande-attrattore",
+    "size": 2.2e+24,
+    "basis": "distanza tra la Via Lattea e la regione del Grande Attrattore, il cui nucleo è identificato con l'ammasso della Norma (Abell 3627)",
+    "verdict": "uncertain",
+    "flags": ["u"],
+    "desc": "Il Grande Attrattore è una regione di spazio con un'enorme concentrazione di massa, la cui gravità domina la nostra parte di Universo. Viene associato all'ammasso di galassie della Norma, che dista circa 220 milioni di anni luce. La distanza è approssimativa, perché la zona si trova dietro il piano della Via Lattea, dove stelle e polveri nascondono gran parte degli oggetti.",
+    "sources": [
+      {
+        "title": "Hubble Focuses on \"the Great Attractor\"",
+        "url": "https://science.nasa.gov/missions/hubble/hubble-focuses-on-the-great-attractor/",
+        "publisher": "NASA Science",
+        "evidence": "lies about 220 million light-years away"
+      }
+    ],
+    "note": "Il valore attuale, 2,2e24 m, corrisponde a 232,5 milioni di anni luce; la NASA indica circa 220 milioni di anni luce (2,08e24 m) per l'ammasso della Norma, differenza 5,4%. Il Grande Attrattore è una regione diffusa e non un oggetto con una distanza misurata con precisione: valore mantenuto, verdetto incerto, flag u aggiunto. La descrizione originale era vuota.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "scala-acustica-barionica",
+    "size": 4.6e+24,
+    "basis": "scala delle oscillazioni acustiche barioniche: separazione preferenziale tra coppie di galassie, in distanza comovente (riferita a oggi)",
+    "verdict": "confirmed",
+    "flags": ["n"],
+    "desc": "Le onde di pressione dell'Universo primordiale hanno lasciato un'impronta nella distribuzione delle galassie: le coppie di galassie tendono a trovarsi a una distanza che oggi vale circa 500 milioni di anni luce. Questa lunghezza nota fa da righello standard per misurare l'espansione cosmica. Le misure DESI del 2025, combinate con altri dati, preferiscono un'energia oscura che cambia nel tempo, ma con una significatività tra 2,8 e 4,2 sigma che non basta a confermarlo.",
+    "sources": [
+      {
+        "title": "The DESI Science Mission",
+        "url": "https://www.desi.lbl.gov/the-desi-science-mission/",
+        "publisher": "DESI Collaboration, Lawrence Berkeley National Laboratory",
+        "evidence": "about 500 million light-years today"
+      },
+      {
+        "title": "DESI DR2 Results II: Measurements of Baryon Acoustic Oscillations and Cosmological Constraints",
+        "url": "https://arxiv.org/abs/2503.14738",
+        "publisher": "DESI Collaboration, Physical Review D, arXiv",
+        "evidence": "preferred over ΛCDM at 3.1σ for the combination of DESI BAO and CMB"
+      }
+    ],
+    "note": "4,6e24 m = 486 milioni di anni luce (149 Mpc); la pagina DESI dà 'circa 500 milioni di anni luce' (4,73e24 m), differenza 2,8%: valore mantenuto. La cifra '490 milioni' della descrizione originale è stata sostituita con quella della fonte aperta. L'intervallo 2,8-4,2 sigma (con le supernove) viene dall'abstract DESI DR2.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "distanza-del-superammasso-di-shapley",
+    "size": 6.15e+24,
+    "basis": "distanza tra la Via Lattea e il superammasso di Shapley",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il superammasso di Shapley, che prende il nome dall'astronomo Harlow Shapley, dista circa 650 milioni di anni luce. È una delle concentrazioni di galassie più massicce dell'Universo locale. Il gas caldo dei suoi ammassi emette raggi X, osservati tra gli altri dal telescopio eROSITA.",
+    "sources": [
+      {
+        "title": "High Energy Astrophysics Picture Of the Week: Shapley supercluster (eROSITA)",
+        "url": "https://heasarc.gsfc.nasa.gov/docs/objects/heapow/archive/large_scale_structure/shapley_erosita.html",
+        "publisher": "NASA HEASARC (Goddard Space Flight Center)",
+        "evidence": "at a distance of 650 million light-years"
+      }
+    ],
+    "note": "650e6 anni luce × 9,4607e15 m = 6,149e24 m, contro 6,15e24 m. La descrizione originale era vuota.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "distanza-dell-hubble-deep-field",
+    "size": 1.2e+26,
+    "basis": "distanza percorsa dalla luce delle galassie più lontane dell'Hubble Deep Field (tempo di viaggio della luce per c), non la distanza attuale",
+    "verdict": "uncertain",
+    "flags": ["u"],
+    "desc": "L'Hubble Deep Field è un'immagine del 1995 di una minuscola zona di cielo, in cui il telescopio Hubble ha rivelato almeno 1.500 galassie, molte circa quattro miliardi di volte più deboli di quanto vede l'occhio umano. Alcune sono viste com'erano più di 10 miliardi di anni fa, forse meno di un miliardo di anni dopo il Big Bang. La distanza indicata, circa 12,7 miliardi di anni luce, è quindi il cammino della luce delle più remote ed è una stima, non una misura unica.",
+    "sources": [
+      {
+        "title": "Hubble's Deepest View of the Universe Unveils Bewildering Galaxies across Billions of Years",
+        "url": "https://science.nasa.gov/missions/hubble/hubbles-deepest-view-of-the-universe-unveils-bewildering-galaxies-across-billions-of-years/",
+        "publisher": "NASA Science (comunicato STScI del 1996)",
+        "evidence": "perhaps less than one billion years after the universe's birth"
+      }
+    ],
+    "note": "1,2e26 m / 9,4607e15 = 12,7 miliardi di anni luce di cammino della luce. La fonte dice 'more than ten billion years ago' e 'less than one billion years after the universe's birth' (con un'età dell'Universo di 13,8 miliardi di anni, oltre 12,8 miliardi di anni di viaggio): compatibile, ma è un limite e non un valore, e le galassie del campo stanno a distanze molto diverse. Valore mantenuto, flag u aggiunto. Il 'circa 13 miliardi di anni' della descrizione originale non è scritto in questa forma nella fonte ed è stato riformulato. Anche 'almeno 1.500 galassie' e 'quattro miliardi di volte' vengono dalla stessa pagina.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "raggio-di-hubble",
+    "size": 1.36e+26,
+    "basis": "raggio di Hubble: velocità della luce divisa per la costante di Hubble (c/H0)",
+    "verdict": "uncertain",
+    "flags": ["n", "u"],
+    "desc": "Il raggio di Hubble è la distanza alla quale, secondo la legge di Hubble, lo spazio si allontana da noi alla velocità della luce: si ottiene dividendo la velocità della luce per la costante di Hubble. Con il valore ricavato da Planck, 67,4 km/s per megaparsec, vale circa 14,5 miliardi di anni luce; con quello misurato da Cefeidi e supernove, 73,0, scende a circa 13,4. La differenza tra le due misure, nota come tensione di Hubble, non è ancora risolta.",
+    "sources": [
+      {
+        "title": "Planck 2018 results. VI. Cosmological parameters",
+        "url": "https://arxiv.org/abs/1807.06209",
+        "publisher": "Planck Collaboration, Astronomy & Astrophysics, arXiv",
+        "evidence": "Hubble constant H_0 = (67.4 ± 0.5) km/s/Mpc"
+      },
+      {
+        "title": "A Comprehensive Measurement of the Local Value of the Hubble Constant with 1 km/s/Mpc Uncertainty from the Hubble Space Telescope and the SH0ES Team",
+        "url": "https://arxiv.org/abs/2112.04510",
+        "publisher": "Riess et al., The Astrophysical Journal Letters, arXiv",
+        "evidence": "H0=73.04+-1.04 km/s/Mpc"
+      }
+    ],
+    "note": "Valore derivato. 299.792,458 km/s / 67,4 = 4.448 Mpc = 1,372e26 m = 14,51 miliardi di anni luce; con 73,04: 4.104 Mpc = 1,267e26 m = 13,39 miliardi di anni luce. Il valore attuale 1,36e26 m (14,4 miliardi di anni luce) corrisponde a H0 = 68,0 e resta entro l'1% dal valore Planck: mantenuto. Le due misure di H0 differiscono dell'8%, quindi verdetto incerto e flag u aggiunto. La cifra '14,4' della descrizione originale è stata sostituita dall'intervallo.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "mom-z14",
+    "size": 3.2e+26,
+    "basis": "distanza comovente (attuale) tra noi e la galassia MoM-z14, calcolata dal redshift",
+    "verdict": "confirmed",
+    "flags": ["n"],
+    "desc": "MoM-z14 è una galassia osservata dal telescopio James Webb a redshift 14,44, cioè com'era appena 280 milioni di anni dopo il Big Bang. Alla conferma, pubblicata a gennaio 2026, era la galassia più lontana nota. La sua luce ha viaggiato per circa 13,5 miliardi di anni, ma per l'espansione dell'Universo oggi la galassia dista circa 34 miliardi di anni luce.",
+    "sources": [
+      {
+        "title": "A Cosmic Miracle: A Remarkably Luminous Galaxy at z_spec=14.44 Confirmed with JWST",
+        "url": "https://arxiv.org/abs/2505.11263",
+        "publisher": "Naidu et al., The Open Journal of Astrophysics, arXiv",
+        "evidence": "a mere 280 million years after the Big Bang"
+      },
+      {
+        "title": "NASA Webb Pushes Boundaries of Observable Universe Closer to Big Bang",
+        "url": "https://www.stsci.edu/contents/news-releases/2026/news-2026-107",
+        "publisher": "Space Telescope Science Institute (STScI)",
+        "evidence": "Webb's current most-distant galaxy, MoM-z14"
+      }
+    ],
+    "note": "La distanza attuale non è scritta nelle fonti: è calcolata dal redshift 14,44 integrando c/H(z) in un modello ΛCDM piatto con i parametri Planck 2018 (H0 = 67,4 km/s/Mpc, Ωm = 0,315, più radiazione): 10.373 Mpc = 3,20e26 m = 33,8 miliardi di anni luce, in accordo con il valore attuale. Dipende dal modello cosmologico per qualche punto percentuale. Comunicato STScI/NASA del 28 gennaio 2026; l'articolo è uscito su The Open Journal of Astrophysics a gennaio 2026. Il primato è datato: una ricerca del 12 novembre 2026 non ha trovato galassie confermate a redshift maggiore, ma la descrizione lo riferisce al momento della conferma. '13,5 miliardi di anni' viene dal comunicato STScI.",
+    "verified": "2026-11-12"
+  }
+]

@@ -7554,8 +7554,19 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "A terrestrial planet candidate in a temperate orbit around Proxima Centauri",
+        "url": "https://arxiv.org/abs/1609.03449",
+        "publisher": "Anglada-Escudé et al., Nature, arXiv"
+      },
+      {
+        "title": "Planet Found in Habitable Zone Around Nearest Star",
+        "url": "https://www.eso.org/public/news/eso1629/",
+        "publisher": "European Southern Observatory (ESO)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "pilastri-della-creazione",
@@ -7809,8 +7820,19 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Hubble Takes Movies of Space Slinky",
+        "url": "https://science.nasa.gov/missions/hubble/hubble-takes-movies-of-space-slinky/",
+        "publisher": "NASA Science"
+      },
+      {
+        "title": "Galaxy M87 Jet (Annotated)",
+        "url": "https://science.nasa.gov/asset/hubble/galaxy-m87-jet-annotated/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "nana-del-cane-maggiore",
@@ -8072,8 +8094,19 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Earth Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html",
+        "publisher": "NASA Space Science Data Coordinated Archive (NSSDCA)"
+      },
+      {
+        "title": "Geologic Time: Age of the Earth",
+        "url": "https://pubs.usgs.gov/gip/geotime/age.html",
+        "publisher": "U.S. Geological Survey (USGS)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "distanza-di-andromeda",
@@ -8084,8 +8117,14 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Messier 31 (The Andromeda Galaxy)",
+        "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-31/",
+        "publisher": "NASA Science (Hubble Messier Catalog)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "ic-1101",
@@ -8204,10 +8243,18 @@
     "size": 2.2e+24,
     "kind": "d",
     "glyph": "",
-    "flags": [],
+    "flags": [
+      "u"
+    ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Hubble Focuses on \"the Great Attractor\"",
+        "url": "https://science.nasa.gov/missions/hubble/hubble-focuses-on-the-great-attractor/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "vuoto-del-boote",
@@ -8230,8 +8277,19 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "The DESI Science Mission",
+        "url": "https://www.desi.lbl.gov/the-desi-science-mission/",
+        "publisher": "DESI Collaboration, Lawrence Berkeley National Laboratory"
+      },
+      {
+        "title": "DESI DR2 Results II: Measurements of Baryon Acoustic Oscillations and Cosmological Constraints",
+        "url": "https://arxiv.org/abs/2503.14738",
+        "publisher": "DESI Collaboration, Physical Review D, arXiv"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "laniakea",
@@ -8252,8 +8310,14 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "High Energy Astrophysics Picture Of the Week: Shapley supercluster (eROSITA)",
+        "url": "https://heasarc.gsfc.nasa.gov/docs/objects/heapow/archive/large_scale_structure/shapley_erosita.html",
+        "publisher": "NASA HEASARC (Goddard Space Flight Center)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "complesso-pesci-balena",
@@ -8378,10 +8442,18 @@
     "size": 1.2e+26,
     "kind": "d",
     "glyph": "",
-    "flags": [],
+    "flags": [
+      "u"
+    ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Hubble's Deepest View of the Universe Unveils Bewildering Galaxies across Billions of Years",
+        "url": "https://science.nasa.gov/missions/hubble/hubbles-deepest-view-of-the-universe-unveils-bewildering-galaxies-across-billions-of-years/",
+        "publisher": "NASA Science (comunicato STScI del 1996)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "raggio-di-hubble",
@@ -8389,11 +8461,23 @@
     "kind": "d",
     "glyph": "",
     "flags": [
-      "n"
+      "n",
+      "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Planck 2018 results. VI. Cosmological parameters",
+        "url": "https://arxiv.org/abs/1807.06209",
+        "publisher": "Planck Collaboration, Astronomy & Astrophysics, arXiv"
+      },
+      {
+        "title": "A Comprehensive Measurement of the Local Value of the Hubble Constant with 1 km/s/Mpc Uncertainty from the Hubble Space Telescope and the SH0ES Team",
+        "url": "https://arxiv.org/abs/2112.04510",
+        "publisher": "Riess et al., The Astrophysical Journal Letters, arXiv"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "mom-z14",
@@ -8404,8 +8488,19 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "A Cosmic Miracle: A Remarkably Luminous Galaxy at z_spec=14.44 Confirmed with JWST",
+        "url": "https://arxiv.org/abs/2505.11263",
+        "publisher": "Naidu et al., The Open Journal of Astrophysics, arXiv"
+      },
+      {
+        "title": "NASA Webb Pushes Boundaries of Observable Universe Closer to Big Bang",
+        "url": "https://www.stsci.edu/contents/news-releases/2026/news-2026-107",
+        "publisher": "Space Telescope Science Institute (STScI)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "universo-osservabile",
