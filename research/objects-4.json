@@ -1,0 +1,200 @@
+[
+  {
+    "id": "smartphone",
+    "size": 0.15,
+    "basis": "altezza (lato lungo) di uno smartphone attuale, preso come esempio l'iPhone 16",
+    "verdict": "confirmed",
+    "flags": ["n"],
+    "desc": "Uno smartphone attuale è alto tipicamente circa 15 cm. L'iPhone 16, per esempio, misura 147,6 mm di altezza, 71,6 mm di larghezza e 7,8 mm di spessore, con uno schermo da 6,1 pollici di diagonale. Le dimensioni cambiano da modello a modello.",
+    "sources": [
+      {
+        "title": "iPhone 16 - Technical Specifications",
+        "url": "https://www.apple.com/iphone-16/specs/",
+        "publisher": "Apple",
+        "evidence": "Height: 147.6 mm; Width: 71.6 mm; Depth: 7.80 mm"
+      }
+    ],
+    "note": "Oggetto generico: non esiste una misura standard. L'altezza dell'iPhone 16 (0,1476 m) dista l'1,6% da 0,15 m, quindi il valore è confermato come ordine di grandezza tipico.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "uovo-di-struzzo",
+    "size": 0.152,
+    "basis": "lunghezza media dell'uovo (asse maggiore)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "L'uovo di struzzo è il più grande deposto da un animale vivente. Misura in media circa 15 cm di lunghezza per 13 cm di larghezza e pesa circa 1,5 kg, quanto più o meno 24 uova di gallina. Rispetto alle dimensioni dell'adulto è però un uovo piccolo.",
+    "sources": [
+      {
+        "title": "Ostrich",
+        "url": "https://animals.sandiegozoo.org/animals/ostrich",
+        "publisher": "San Diego Zoo Wildlife Alliance",
+        "evidence": "6 x 5 inches (15 x 13 centimeters) average"
+      }
+    ],
+    "note": "6 pollici × 0,0254 = 0,1524 m, che coincide con il valore attuale. Il primato è sostenuto dalla stessa pagina (\"the ostrich egg is the largest egg ... found on our planet today\"). La pagina Britannica sullo struzzo non si è aperta (HTTP 403) e non è citata.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "chicco-di-grandine-piu-grande",
+    "size": 0.2,
+    "basis": "diametro del chicco di grandine di Vivian (South Dakota), primato statunitense",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il chicco di grandine caduto a Vivian, in South Dakota, il 23 luglio 2010 misurava 8 pollici di diametro, cioè circa 20 cm, e pesava circa 0,88 kg. Secondo il National Weather Service detiene il primato degli Stati Uniti per diametro e per peso. Il primato di circonferenza resta invece a un chicco caduto ad Aurora, in Nebraska, nel 2003.",
+    "sources": [
+      {
+        "title": "Record Setting Hail Event in Vivian, South Dakota on July 23, 2010",
+        "url": "https://www.weather.gov/abr/vivianhailstone",
+        "publisher": "NOAA National Weather Service, Aberdeen SD",
+        "evidence": "8.0 inches in diameter, 18.625 inches in circumference"
+      }
+    ],
+    "note": "8,0 pollici × 0,0254 = 0,2032 m, entro il 2% da 0,2 m. Peso: 1,9375 libbre × 0,4536 = 0,879 kg. La fonte documenta un primato degli Stati Uniti, non mondiale: la descrizione lo dice esplicitamente, anche se il nome dell'oggetto parla del chicco \"più grande\" in assoluto.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "pallone-da-calcio",
+    "size": 0.22,
+    "basis": "diametro ricavato dalla circonferenza regolamentare (68-70 cm)",
+    "verdict": "confirmed",
+    "flags": ["n"],
+    "desc": "Il pallone da calcio regolamentare è una sfera con una circonferenza compresa tra 68 e 70 cm, che corrisponde a un diametro di circa 22 cm. Secondo le Regole del Gioco dell'IFAB deve pesare tra 410 e 450 grammi all'inizio della partita. La pressione prevista va da 0,6 a 1,1 atmosfere.",
+    "sources": [
+      {
+        "title": "Laws of the Game - Law 2: The Ball",
+        "url": "https://www.theifab.com/laws/latest/the-ball/",
+        "publisher": "The International Football Association Board (IFAB)",
+        "evidence": "a circumference of between 68 cm (27 ins) and 70 cm (28 ins)"
+      }
+    ],
+    "note": "Diametro = circonferenza / π: 0,68 / 3,1416 = 0,216 m e 0,70 / 3,1416 = 0,223 m. Il valore attuale di 0,22 m cade dentro l'intervallo.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "pallone-da-basket",
+    "size": 0.24,
+    "basis": "diametro ricavato dalla circonferenza regolamentare del pallone misura 7 (750-770 mm)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il pallone da basket misura 7, usato nelle competizioni maschili, ha una circonferenza compresa tra 750 e 770 mm, pari a un diametro di circa 24 cm. Il regolamento FIBA ne fissa il peso tra 580 e 620 grammi. Nelle competizioni femminili si usa il pallone misura 6, un po' più piccolo, con una circonferenza tra 715 e 730 mm.",
+    "sources": [
+      {
+        "title": "Official Basketball Rules 2026 - Basketball Equipment",
+        "url": "https://assets.fiba.basketball/image/upload/documents-corporate-fiba-official-rules-2026-equipment-v1-0.pdf",
+        "publisher": "FIBA (International Basketball Federation)",
+        "evidence": "Circumference 750 - 770 mm; Weight 580 - 620 g"
+      }
+    ],
+    "note": "Diametro = circonferenza / π: 0,750 / 3,1416 = 0,239 m e 0,770 / 3,1416 = 0,245 m. Il valore attuale di 0,24 m cade dentro l'intervallo. La fonte è un PDF (Tabella 1, \"Basketball circumference and weight tolerances\"), letto estraendone il testo. La pagina del regolamento NBA aperta per confronto riporta solo la pressione, non la circonferenza, e non è citata.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "teiera-di-russell",
+    "size": 0.25,
+    "basis": "dimensione convenzionale di una teiera di porcellana (l'oggetto è immaginario e Russell non ne indica la misura)",
+    "verdict": "uncertain",
+    "flags": ["i", "u"],
+    "desc": "La teiera di Russell è un esperimento mentale proposto dal filosofo Bertrand Russell nel 1952, nel saggio \"Is There a God?\". Russell immagina una teiera di porcellana in orbita ellittica attorno al Sole tra la Terra e Marte, troppo piccola per essere vista anche dai telescopi più potenti: nessuno potrebbe dimostrare che non esiste, ma questo non è un motivo per crederci. L'argomento riguarda l'onere della prova e la misura di circa 25 cm qui indicata è solo quella di una teiera comune.",
+    "sources": [
+      {
+        "title": "Russell's Teapot",
+        "url": "https://heritage.humanists.uk/object/russells-teapot/",
+        "publisher": "Humanists UK, Humanist Heritage",
+        "evidence": "between the Earth and Mars there is a china teapot revolving about the sun"
+      }
+    ],
+    "note": "Oggetto immaginario: nessuna fonte dà una misura, e la pagina citata conferma che Russell descrive la teiera solo come troppo piccola per i telescopi. I 0,25 m sono una convenzione (una teiera comune), perciò aggiunto il flag u accanto a i. Verificati sulla fonte: autore, anno 1952, titolo del saggio, orbita tra Terra e Marte, tema dell'onere della prova.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "righello-da-un-piede",
+    "size": 0.3048,
+    "basis": "lunghezza di un piede internazionale",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Un righello da un piede è lungo esattamente 0,3048 metri, cioè 30,48 cm. Il rapporto tra piede e metro è stato fissato così nel 1959. Negli Stati Uniti il vecchio \"survey foot\", leggermente diverso, è stato dichiarato obsoleto dal 1° gennaio 2023.",
+    "sources": [
+      {
+        "title": "U.S. Survey Foot",
+        "url": "https://www.nist.gov/pml/us-surveyfoot",
+        "publisher": "National Institute of Standards and Technology (NIST)",
+        "evidence": "1 foot = 0.304 8 meter exactly"
+      }
+    ],
+    "note": "La descrizione precedente (\"Dodici pollici\") è corretta per definizione, ma la pagina NIST aperta non la riporta: è stata tolta dalla descrizione e sostituita con i fatti presenti nella fonte.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "uno-schermo",
+    "size": 0.34,
+    "basis": "diagonale dello schermo di un portatile da circa 13 pollici, preso come esempio il MacBook Air da 13 pollici",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Lo schermo di un portatile compatto ha una diagonale di circa 34 cm: più o meno la finestra da cui stai guardando, se usi un computer. Il MacBook Air da 13 pollici, per esempio, ha uno schermo da 13,6 pollici di diagonale, cioè 34,5 cm. Gli schermi dei telefoni sono molto più piccoli e quelli dei monitor da scrivania più grandi.",
+    "sources": [
+      {
+        "title": "MacBook Air - Technical Specifications",
+        "url": "https://www.apple.com/macbook-air/specs/",
+        "publisher": "Apple",
+        "evidence": "13.6-inch (diagonal)"
+      }
+    ],
+    "note": "Oggetto generico: non esiste uno schermo standard. 13,6 pollici × 0,0254 = 0,3454 m, a meno del 2% da 0,34 m. Anche la larghezza del MacBook Air da 15 pollici indicata nella stessa pagina (34,04 cm) coincide con il valore. L'ultima frase della descrizione è un confronto qualitativo, senza cifre.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "fiocco-di-neve-piu-grande",
+    "size": 0.38,
+    "basis": "larghezza riferita dalle cronache per i fiocchi caduti in Montana nel gennaio 1887",
+    "verdict": "uncertain",
+    "flags": ["u"],
+    "desc": "Secondo il Guinness World Records, nella notte del 27 gennaio 1887 una tempesta fece cadere nella valle del fiume Clark Fork, vicino a Missoula nel Montana, fiocchi di neve descritti come \"più grandi di tegami per il latte\". Le cronache parlano di fiocchi larghi fino a 38 cm e spessi 20 cm. Si tratta di una testimonianza dell'epoca, non di una misura strumentale.",
+    "sources": [
+      {
+        "title": "Largest snowflake",
+        "url": "https://www.guinnessworldrecords.com/world-records/73325-largest-snowflake",
+        "publisher": "Guinness World Records",
+        "evidence": "up to 1 ft 3 in (38 cm) wide and 8 in (20 cm) thick"
+      }
+    ],
+    "note": "Valore mantenuto con flag u: la fonte stessa usa la formula \"Reports suggest\". La pagina aperta indica il 27 gennaio 1887 e i dintorni di Missoula (ranch di Matt Coleman); molte fonti secondarie, e secondo i risultati di ricerca un'altra pagina Guinness non aperta, indicano invece il 28 gennaio e Fort Keogh. La descrizione segue la pagina aperta. \"Mai verificata\" della descrizione precedente è reso con una formulazione sostenuta dalla fonte.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "pallone-da-spiaggia",
+    "size": 0.6,
+    "basis": "diametro nominale di un pallone da spiaggia gonfiabile di misura comune (24 pollici)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il pallone da spiaggia è una palla gonfiabile di vinile leggero, di solito a spicchi colorati. Non esiste una misura standard: un modello molto diffuso, il Glossy Panel Ball di Intex, ha un diametro dichiarato di 24 pollici, cioè circa 61 cm. In commercio se ne trovano sia di più piccoli sia di molto più grandi.",
+    "sources": [
+      {
+        "title": "Glossy Panel Inflatable Beach Ball - 24\"",
+        "url": "https://intexcorp.com/products/floats-toys/pool-toys/24in-glossy-panel-ball",
+        "publisher": "Intex Recreation Corp.",
+        "evidence": "Measures 24in in diameter"
+      }
+    ],
+    "note": "24 pollici × 0,0254 = 0,6096 m, a meno del 2% da 0,6 m. Oggetto generico, confermato come misura comune. La pagina del produttore non precisa se i 24 pollici siano misurati a pallone gonfio: la descrizione parla perciò di diametro dichiarato. Materiale (vinile) e spicchi colorati sono descrittivi e non provengono da una cifra della fonte.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "bicicletta",
+    "size": 1.75,
+    "basis": "lunghezza tipica di una bicicletta convenzionale per adulti, da ruota a ruota",
+    "verdict": "confirmed",
+    "flags": ["n"],
+    "desc": "Una bicicletta convenzionale per adulti è lunga tipicamente circa 1,8 metri e larga circa 0,65 metri al manubrio. Sono le dimensioni di riferimento usate nelle linee guida britanniche per progettare i percorsi ciclabili. Cargo bike e biciclette con rimorchio possono essere più lunghe, tanto che per i progetti si considera un ingombro fino a 2,8 metri.",
+    "sources": [
+      {
+        "title": "Traffic-free routes and greenways design guide - 6. Space requirements",
+        "url": "https://www.walkwheelcycletrust.org.uk/for-professionals/infrastructure/walk-wheel-cycle-trust-traffic-free-routes-and-greenways-design-guide/walk-wheel-cycle-trust-traffic-free-routes-and-greenways-design-guide-contents/6-space-requirements/",
+        "publisher": "Walk Wheel Cycle Trust (già Sustrans)",
+        "evidence": "a conventional bike are 1.8m long and 0.65m wide"
+      }
+    ],
+    "note": "Il valore attuale di 1,75 m dista il 2,8% dagli 1,8 m della fonte, entro la variabilità naturale tra modelli e taglie: confermato. I 2,8 m sono l'ingombro di progetto di Highways England citato nella stessa pagina (\"1.2m width by 2.8m length\"). Il PDF governativo LTN 1/20 non si è aperto (file troppo grande) e non è citato.",
+    "verified": "2026-11-12"
+  }
+]

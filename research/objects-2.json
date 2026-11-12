@@ -1,0 +1,236 @@
+[
+  {
+    "id": "granello-di-sale",
+    "size": 0.00031,
+    "basis": "lato di un singolo cristallo di sale da cucina fino",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Un granello di sale da cucina è un piccolo cristallo di cloruro di sodio. Nel sale da tavola granulato i granelli misurano tipicamente da 0,3 a 1,5 mm, e quello mostrato qui è tra i più piccoli. Il sale per conserve è più regolare, con cubetti arrotondati di circa 0,5 mm.",
+    "sources": [
+      {
+        "title": "Salt: The Only Rock We Eat (May 2025)",
+        "url": "https://ucanr.edu/program/uc-master-food-preserver-program/article/salt-only-rock-we-eat-may-2025",
+        "publisher": "University of California Agriculture and Natural Resources, UC Master Food Preserver Program",
+        "evidence": "0.3 - 1.5 mm"
+      }
+    ],
+    "note": "Il valore attuale (0,31 mm) cade all'estremo inferiore dell'intervallo 0,3-1,5 mm che la pagina indica per il sale da tavola granulato; la stessa pagina descrive il sale per conserve come \"very uniform, ~0.5 mm rounded cubes\". Dimensione variabile per natura: confermato come granello fine. Nessuna norma fissa la dimensione di un granello.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "granello-di-sabbia",
+    "size": 0.00052,
+    "basis": "diametro di un granello di sabbia al confine tra sabbia media e grossolana",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "In geologia si chiama sabbia un sedimento sciolto con granuli di diametro compreso tra 0,062 e 2 mm. Le sabbie si dividono in cinque classi, da molto fini (0,125-0,062 mm) a molto grossolane (2-1 mm). Un granello di circa 0,5 mm sta al confine tra sabbia media e sabbia grossolana.",
+    "sources": [
+      {
+        "title": "Sabbia (Enciclopedia on line)",
+        "url": "https://www.treccani.it/enciclopedia/sabbia/",
+        "publisher": "Istituto della Enciclopedia Italiana Treccani",
+        "evidence": "grossolane (1-0,5 mm), medie (0,5-0,25 mm)"
+      }
+    ],
+    "note": "La descrizione attuale (\"tra 0,06 e 2 mm\") è confermata: Treccani dà 2 mm come limite superiore e 0,062 mm come limite inferiore. Il valore 0,52 mm è un granello qualunque dentro l'intervallo, non una misura specifica.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "pelle-delle-palpebre",
+    "size": 0.00053,
+    "basis": "spessore della pelle delle palpebre",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "La pelle delle palpebre è spessa circa 0,5 mm. Secondo l'atlante di istologia dell'Università di Leeds è il valore più basso del corpo umano, dove lo spessore della pelle arriva a 4,0 mm sui talloni. È pelle sottile, con quattro strati cellulari nell'epidermide invece dei cinque della pelle spessa.",
+    "sources": [
+      {
+        "title": "Skin: The Layers of Skin (The Histology Guide)",
+        "url": "https://histology.leeds.ac.uk/home/skin/skin_layers/",
+        "publisher": "University of Leeds, Faculty of Biological Sciences",
+        "evidence": "varies from 0.5mm thick on the eyelids to 4.0mm thick on the heels"
+      }
+    ],
+    "note": "La fonte dà 0,5 mm; il valore attuale 0,53 mm differisce del 6%, dentro la variabilità tra persone e punti di misura, quindi lasciato invariato. Lo studio di misura (Lee e Hwang, Surg Radiol Anat 2002) e le pagine NCBI/StatPearls non si sono aperti (blocco anti-bot) e non sono citati. Il superlativo \"la più sottile\" è sostenuto dalla frase di Leeds, che usa le palpebre come estremo inferiore.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "mina-di-matita",
+    "size": 0.0007,
+    "basis": "diametro nominale di una mina per portamine da 0,7 mm",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Le mine per portamine sono vendute in diametri nominali fissi, e quella mostrata qui è da 0,7 mm. I produttori la descrivono come mina fine, adatta ai comuni portamine, che traccia una linea larga circa 0,7 mm.",
+    "sources": [
+      {
+        "title": "Super-Polymer fineline lead, HB, 0.7 mm, set of 2",
+        "url": "https://www.faber-castell.com/products/FleadSuperPolymer07mmHB2x12BC/121999",
+        "publisher": "Faber-Castell (produttore)",
+        "evidence": "Line width: 0.7 mm"
+      },
+      {
+        "title": "Mars 925 mechanical pencil 925 07BK",
+        "url": "https://www.staedtler.com/us/en/products/pencils-and-accessories/mechanical-pencils-and-lead-holders/mars-925-mechanical-pencil-925-07bk/",
+        "publisher": "STAEDTLER (produttore)",
+        "evidence": "line width approx. 0.7 mm"
+      }
+    ],
+    "note": "0,7 mm è una misura nominale di prodotto. La norma di riferimento (ISO 9177) non è consultabile gratuitamente e la sua pagina di sintesi non riporta i diametri, quindi non è citata; le tolleranze reali del diametro non sono state verificate. Faber-Castell scrive \"Fine leads 0.7 mm for all popular mechanical pencils\".",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "carta-di-credito-spessore",
+    "size": 0.00076,
+    "basis": "spessore nominale di una carta formato ID-1 secondo ISO/IEC 7810",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Le carte di credito seguono il formato ID-1 della norma ISO/IEC 7810, che fissa uno spessore nominale di 0,76 mm. Lo stesso formato misura 85,60 mm per 53,98 mm. La norma prevede lo stesso spessore anche per altri tre formati di carte di identificazione, tra cui l'ID-000 da 25 mm per 15 mm.",
+    "sources": [
+      {
+        "title": "ISO/IEC 7810:2003 Identification cards - Physical characteristics (scope)",
+        "url": "https://www.evs.ee/en/iso-iec-7810-2003",
+        "publisher": "Estonian Centre for Standardisation and Accreditation (EVS), scheda della norma ISO/IEC",
+        "evidence": "nominal thickness of 0,76 mm"
+      }
+    ],
+    "note": "La pagina aperta riporta il campo di applicazione dell'edizione 2003, che risulta sostituita dall'edizione 2019; la pagina iso.org non si è aperta (HTTP 403), quindi il testo dell'edizione 2019 non è stato controllato direttamente. Il valore di 0,76 mm è nominale.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "goccia-di-pioggia",
+    "size": 0.002,
+    "basis": "diametro di una goccia di pioggia di media grandezza",
+    "verdict": "confirmed",
+    "flags": ["n"],
+    "desc": "Le gocce di pioggia non hanno la forma a lacrima dei disegni. Quelle con raggio inferiore a 1 mm sono sferiche, mentre le più grandi cadendo somigliano alla metà superiore di un panino da hamburger. Secondo la NASA una goccia che cresce fino a circa 4 mm o più si divide in gocce più piccole.",
+    "sources": [
+      {
+        "title": "Raindrops are Different Shapes (Water Science School)",
+        "url": "https://www.usgs.gov/water-science-school/science/are-raindrops-shaped-teardrops",
+        "publisher": "U.S. Geological Survey (USGS)",
+        "evidence": "Small raindrops (radius < 1 millimeter (mm)) are spherical"
+      },
+      {
+        "title": "The Shape of a Raindrop",
+        "url": "https://gpm.nasa.gov/resources/students-and-educators/the-shape-of-a-raindrop",
+        "publisher": "NASA Global Precipitation Measurement (GPM)",
+        "evidence": "it pulls apart when it grows to around 4 millimeters or more"
+      }
+    ],
+    "note": "2 mm di diametro (raggio 1 mm) è proprio la soglia USGS tra goccia sferica e goccia schiacciata; la figura NASA mostra forme di equilibrio per diametri di 1-6 mm, quindi 2 mm è una goccia media plausibile. La frase attuale sul panino è confermata ma vale per le gocce più grandi di così: la descrizione lo precisa. USGS dà la soglia di rottura come raggio di circa 4-4,5 mm, la NASA come \"around 4 millimeters\" senza dire se raggio o diametro: riportata la formulazione NASA.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "seme-di-sesamo",
+    "size": 0.0031,
+    "basis": "lunghezza di un seme di sesamo (Sesamum indicum)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il seme di sesamo (Sesamum indicum) è lungo tipicamente circa 3 mm e largo quasi 2 mm. Contiene circa il 50% di olio e il 25% di proteine. Mille semi pesano più o meno 28 grammi.",
+    "sources": [
+      {
+        "title": "Sesamum indicum, seed (Digital Plant Atlas)",
+        "url": "https://p-atlas.app.rug.nl/item/Photo/82370",
+        "publisher": "Plantatlas, Groningen Institute of Archaeology (Università di Groninga) e Deutsches Archäologisches Institut",
+        "evidence": "length 2.9 mm, width 1.8 mm"
+      },
+      {
+        "title": "Sesame (Alternative Field Crops Manual)",
+        "url": "https://hort.purdue.edu/newcrop/afcm/sesame.html",
+        "publisher": "Purdue University, Center for New Crops and Plant Products",
+        "evidence": "approximately 50% oil and 25% protein"
+      }
+    ],
+    "note": "La scheda aperta misura un singolo seme: 2,9 × 1,8 mm, entro il 7% dal valore attuale di 3,1 mm, dentro la variabilità tra semi; lasciato invariato. Altre schede dello stesso atlante (viste solo nei risultati di ricerca, non aperte) danno lunghezze da circa 1,9 a 3,5 mm. Peso di mille semi: Purdue scrive \"about one ounce\", cioè 28,35 g.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "pelle-della-pianta-del-piede",
+    "size": 0.0041,
+    "basis": "spessore della pelle sul tallone",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Sotto il piede la pelle raggiunge lo spessore massimo del corpo umano: circa 4,0 mm sui talloni, contro 0,5 mm sulle palpebre. È pelle spessa, che si trova dove l'abrasione è forte, cioè sulle piante dei piedi, sui palmi e sui polpastrelli. La sua epidermide ha cinque strati cellulari invece dei quattro della pelle sottile.",
+    "sources": [
+      {
+        "title": "Skin: The Layers of Skin (The Histology Guide)",
+        "url": "https://histology.leeds.ac.uk/home/skin/skin_layers/",
+        "publisher": "University of Leeds, Faculty of Biological Sciences",
+        "evidence": "varies from 0.5mm thick on the eyelids to 4.0mm thick on the heels"
+      }
+    ],
+    "note": "La fonte dà 4,0 mm sui talloni; il valore attuale 4,1 mm differisce del 2,5%, confermato. Attenzione: il valore riguarda il tallone, non tutta la pianta. Nei risultati di ricerca (pagine non aperte per blocco anti-bot, quindi non citate) studi ecografici davano 2,3-2,9 mm per la pelle del tallone e uno studio istologico indicava la schiena come sede della pelle complessivamente più spessa: il superlativo regge secondo Leeds ma non è unanime.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "nevischio",
+    "size": 0.001,
+    "basis": "diametro massimo tipico di un granulo di nevischio (snow grains nella classificazione OMM)",
+    "verdict": "corrected",
+    "flags": ["r"],
+    "desc": "Il nevischio è una precipitazione di granuli di ghiaccio molto piccoli, bianchi e opachi, piatti o allungati. Il loro diametro è in genere inferiore a 1 mm. Cadendo a terra non rimbalzano e non si spezzano, e di solito scendono in piccole quantità da nebbie o strati nuvolosi spessi.",
+    "sources": [
+      {
+        "title": "Snow grains (International Cloud Atlas)",
+        "url": "https://cloudatlas.wmo.int/en/snow-grains.html",
+        "publisher": "Organizzazione Meteorologica Mondiale (WMO)",
+        "evidence": "Their diameter is generally less than 1 mm."
+      },
+      {
+        "title": "Nevischio (Vocabolario on line)",
+        "url": "https://www.treccani.it/vocabolario/nevischio/",
+        "publisher": "Istituto della Enciclopedia Italiana Treccani",
+        "evidence": "neve minuta, per lo più mossa dal vento"
+      },
+      {
+        "title": "Ice pellets (International Cloud Atlas)",
+        "url": "https://cloudatlas.wmo.int/en/ice-pellets.html",
+        "publisher": "Organizzazione Meteorologica Mondiale (WMO)",
+        "evidence": "less than 5 mm"
+      }
+    ],
+    "note": "Da 0,0042 m a 0,001 m. Il valore di 4,2 mm corrisponde ai granuli di ghiaccio (ice pellets, \"sleet\" nell'uso americano), che per l'OMM hanno diametro inferiore a 5 mm e rimbalzano. In italiano però \"nevischio\" in senso tecnico indica, secondo Treccani, la neve granulosa fatta di piccoli granuli piatti e allungati che non rimbalzano: è la definizione OMM di snow grains, diametro in genere inferiore a 1 mm. Usato 1 mm come limite superiore. Alternativa da decidere: tenere 4,2 mm e rinominare l'oggetto \"Granuli di ghiaccio\". La frase su nebbie e strati spessi viene dalla voce Treccani.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "microchip",
+    "size": 0.005,
+    "basis": "lunghezza del contenitore di un piccolo circuito integrato a 8 piedini (SOIC); valore di esempio",
+    "verdict": "uncertain",
+    "flags": ["u"],
+    "desc": "Un microchip è un circuito integrato costruito su una minuscola piastrina di silicio. Non esiste una misura unica: l'esempio qui è un piccolo integrato a 8 piedini come il temporizzatore NE555, che nel contenitore SOIC occupa 4,9 mm per 6 mm.",
+    "sources": [
+      {
+        "title": "NE555 Single Precision Timer (scheda prodotto, tabella dei contenitori)",
+        "url": "https://www.ti.com/product/NE555",
+        "publisher": "Texas Instruments (produttore)",
+        "evidence": "SOIC (D) 8 4.9 x 6"
+      },
+      {
+        "title": "Chip (Vocabolario on line)",
+        "url": "https://www.treccani.it/vocabolario/chip/",
+        "publisher": "Istituto della Enciclopedia Italiana Treccani",
+        "evidence": "minuscola piastrina di silicio"
+      }
+    ],
+    "note": "\"Microchip\" non ha una dimensione definita: 5 mm è una convenzione, quindi verdetto incerto con flag u e valore invariato. Come esempio verificabile ho usato un contenitore SOIC a 8 piedini (4,9 × 6 mm secondo Texas Instruments; i 6 mm comprendono i piedini). Non ho trovato una fonte apribile con l'intervallo generale delle dimensioni dei chip (Britannica e le pagine storiche Intel sul 4004 non si sono aperte), quindi la descrizione non dà un intervallo.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "chicco-di-riso",
+    "size": 0.006,
+    "basis": "lunghezza di un chicco di riso di grana media",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "La lunghezza di un chicco di riso dipende dalla varietà. La scala dell'istituto internazionale IRRI, riportata dalla FAO per il riso integrale, chiama corto un chicco sotto 5,50 mm, medio tra 5,51 e 6,60 mm, lungo tra 6,61 e 7,50 mm ed extra lungo oltre 7,50 mm. Un chicco di 6 mm è quindi di grana media.",
+    "sources": [
+      {
+        "title": "Rice in human nutrition: Grain structure, composition and consumers' criteria for quality",
+        "url": "https://www.fao.org/4/t0567e/t0567e07.htm",
+        "publisher": "FAO (Organizzazione delle Nazioni Unite per l'alimentazione e l'agricoltura), con IRRI",
+        "evidence": "long, 6.61 to 7.50 mm; medium, 5.51 to 6.60 mm"
+      }
+    ],
+    "note": "6 mm cade nella classe media della scala IRRI. La scala è riferita al riso integrale (sbramato); la FAO precisa che non esiste uno standard internazionale per dimensione e forma del chicco.",
+    "verified": "2026-11-12"
+  }
+]

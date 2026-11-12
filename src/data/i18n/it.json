@@ -378,7 +378,7 @@
     },
     "fossetta-di-un-cd-profondita": {
       "name": "Fossetta di un CD (profondità)",
-      "desc": "Un quarto della lunghezza d'onda del laser nel policarbonato."
+      "desc": "Le fossette di un CD sono i minuscoli incavi che codificano i dati lungo la traccia a spirale del disco. Sono profonde circa 125 nm, cioè circa un quarto della lunghezza d'onda che il laser infrarosso da 780 nm assume dentro la plastica del disco. Così la luce riflessa dalla fossetta e quella riflessa dalla superficie intorno risultano sfasate di mezza lunghezza d'onda e si attenuano a vicenda, e il lettore distingue i due livelli."
     },
     "limite-del-microscopio-ottico": {
       "name": "Limite del microscopio ottico",
@@ -430,7 +430,7 @@
     },
     "particella-di-argilla": {
       "name": "Particella di argilla",
-      "desc": "Per definizione, sotto i 2 µm."
+      "desc": "In granulometria si chiama argilla la frazione più fine di un terreno. La norma ISO 14688-1 e la classificazione usata negli Stati Uniti fissano lo stesso limite: sono argilla le particelle con diametro fino a 0,002 mm, cioè 2 µm. Il valore indicato è quindi il diametro massimo, e la maggior parte delle particelle è più piccola."
     },
     "mitocondrio": {
       "name": "Mitocondrio",
@@ -466,7 +466,7 @@
     },
     "fibra-di-seta": {
       "name": "Fibra di seta",
-      "desc": "Il filo di un bozzolo di baco da seta."
+      "desc": "Il filo che il baco da seta emette per costruire il bozzolo è formato da due filamenti di fibroina tenuti insieme da uno strato di sericina. Ogni filamento ha un diametro di 7-14 µm, mentre il filo doppio misura tipicamente da 15 a 26 µm. Da un solo bozzolo si ricava un filo continuo lungo da 600 a 1.500 metri."
     },
     "twip": {
       "name": "Twip",
@@ -474,11 +474,11 @@
     },
     "fibra-acrilica": {
       "name": "Fibra acrilica",
-      "desc": ""
+      "desc": "La fibra acrilica è una fibra sintetica composta per almeno l'85% in peso da acrilonitrile. Il diametro dipende dal titolo scelto dal produttore: con una densità di 1,18 g/cm³, una fibra da 3 denari misura circa 19 µm e una da 15 denari circa 42 µm. Non fonde, ma si decompone sopra i 260 °C circa."
     },
     "gocciolina-di-nebbia": {
       "name": "Gocciolina di nebbia",
-      "desc": "Abbastanza leggera da restare sospesa."
+      "desc": "La nebbia è una nube a contatto con il suolo, fatta di goccioline d'acqua sospese nell'aria. Il loro diametro va da circa 1 a 40 µm, come nelle nubi, ma nella nebbia le goccioline si trovano di norma nella parte bassa di questo intervallo. Il valore indicato è quindi un ordine di grandezza, non una misura tipica."
     },
     "thou": {
       "name": "Thou",
@@ -490,7 +490,7 @@
     },
     "particella-di-limo": {
       "name": "Particella di limo",
-      "desc": "Tra argilla e sabbia: da 2 a 63 µm."
+      "desc": "Il limo è la frazione di un terreno con granuli intermedi tra l'argilla e la sabbia. Per la norma ISO 14688-1 comprende le particelle con diametro tra 0,002 e 0,063 mm, cioè da 2 a 63 µm. La classificazione usata negli Stati Uniti per i suoli agrari pone invece il limite superiore a 0,05 mm."
     },
     "granulo-di-polline": {
       "name": "Granulo di polline",
@@ -498,7 +498,7 @@
     },
     "pixel-di-uno-smartphone": {
       "name": "Pixel di uno smartphone",
-      "desc": "Uno schermo da circa 460 pixel per pollice."
+      "desc": "Lo schermo di uno smartphone recente ha una densità di circa 460 pixel per pollice: è il valore che Apple dichiara per l'iPhone 16, con 2556 × 1179 pixel su una diagonale di 6,1 pollici. A questa densità ogni pixel è largo circa 55 µm, meno dello spessore di un capello. Per questo a normale distanza di lettura i singoli pixel non si distinguono."
     },
     "spermatozoo": {
       "name": "Spermatozoo",
@@ -506,15 +506,15 @@
     },
     "capello-umano": {
       "name": "Capello umano",
-      "desc": "Spessore medio: varia da 20 a 180 µm."
+      "desc": "Un capello umano è largo all'incirca da 80 a 100 µm, secondo la National Nanotechnology Initiative degli Stati Uniti. Lo spessore cambia molto da persona a persona e anche tra i capelli della stessa testa. È uno dei termini di paragone più usati per le dimensioni microscopiche: equivale a 80.000-100.000 nanometri."
     },
     "limite-dell-occhio-nudo": {
       "name": "Limite dell'occhio nudo",
-      "desc": "Il più piccolo oggetto distinguibile senza strumenti."
+      "desc": "Il limite dell'occhio nudo è la minima distanza a cui due punti vicini si vedono ancora separati. Il valore di riferimento usato in microscopia è circa 0,1 mm, cioè 100 µm, ma è una convenzione: dipende dalla vista di ciascuno, dalla luce e dal contrasto. Un microscopio ottico standard arriva a circa 0,2 µm, cinquecento volte meglio."
     },
     "foglio-di-carta-spessore": {
       "name": "Foglio di carta (spessore)",
-      "desc": "Carta da stampante da 80 g/m²."
+      "desc": "Un foglio di comune carta per stampante da 80 g/m² è spesso circa un decimo di millimetro. La scheda tecnica di un produttore indica 106 µm, con una tolleranza di 3 µm, misurati secondo la norma ISO 534. Una risma da 500 fogli risulta quindi alta poco più di 5 cm."
     },
     "ovulo-umano": {
       "name": "Ovulo umano",
@@ -530,7 +530,7 @@
     },
     "pixel-di-un-monitor": {
       "name": "Pixel di un monitor",
-      "desc": "Monitor da 96 pixel per pollice. I telefoni di oggi sono cinque volte più fitti."
+      "desc": "La densità di riferimento per i monitor da scrivania è 96 pixel per pollice: a questa densità un pixel è largo 1/96 di pollice, cioè circa 0,26 mm. È anche la base del pixel di riferimento usato dal W3C per definire l'unità px nelle pagine web. Gli schermi dei telefoni di oggi, con circa 460 pixel per pollice, sono quasi cinque volte più fitti."
     },
     "acaro-della-polvere": {
       "name": "Acaro della polvere",
@@ -538,7 +538,7 @@
     },
     "granello-di-sale": {
       "name": "Granello di sale",
-      "desc": "Un cubetto di cloruro di sodio."
+      "desc": "Un granello di sale da cucina è un piccolo cristallo di cloruro di sodio. Nel sale da tavola granulato i granelli misurano tipicamente da 0,3 a 1,5 mm, e quello mostrato qui è tra i più piccoli. Il sale per conserve è più regolare, con cubetti arrotondati di circa 0,5 mm."
     },
     "ameba": {
       "name": "Ameba",
@@ -550,19 +550,19 @@
     },
     "granello-di-sabbia": {
       "name": "Granello di sabbia",
-      "desc": "Per definizione tra 0,06 e 2 mm."
+      "desc": "In geologia si chiama sabbia un sedimento sciolto con granuli di diametro compreso tra 0,062 e 2 mm. Le sabbie si dividono in cinque classi, da molto fini (0,125-0,062 mm) a molto grossolane (2-1 mm). Un granello di circa 0,5 mm sta al confine tra sabbia media e sabbia grossolana."
     },
     "pelle-delle-palpebre": {
       "name": "Pelle delle palpebre",
-      "desc": "La pelle più sottile del corpo."
+      "desc": "La pelle delle palpebre è spessa circa 0,5 mm. Secondo l'atlante di istologia dell'Università di Leeds è il valore più basso del corpo umano, dove lo spessore della pelle arriva a 4,0 mm sui talloni. È pelle sottile, con quattro strati cellulari nell'epidermide invece dei cinque della pelle spessa."
     },
     "mina-di-matita": {
       "name": "Mina di matita",
-      "desc": "Portamine da 0,7 mm."
+      "desc": "Le mine per portamine sono vendute in diametri nominali fissi, e quella mostrata qui è da 0,7 mm. I produttori la descrivono come mina fine, adatta ai comuni portamine, che traccia una linea larga circa 0,7 mm."
     },
     "carta-di-credito-spessore": {
       "name": "Carta di credito (spessore)",
-      "desc": "Standard ISO: 0,76 mm."
+      "desc": "Le carte di credito seguono il formato ID-1 della norma ISO/IEC 7810, che fissa uno spessore nominale di 0,76 mm. Lo stesso formato misura 85,60 mm per 53,98 mm. La norma prevede lo stesso spessore anche per altri tre formati di carte di identificazione, tra cui l'ID-000 da 25 mm per 15 mm."
     },
     "millimetro": {
       "name": "Millimetro",
@@ -574,7 +574,7 @@
     },
     "goccia-di-pioggia": {
       "name": "Goccia di pioggia",
-      "desc": "Non è a lacrima: cadendo si schiaccia come un panino."
+      "desc": "Le gocce di pioggia non hanno la forma a lacrima dei disegni. Quelle con raggio inferiore a 1 mm sono sferiche, mentre le più grandi cadendo somigliano alla metà superiore di un panino da hamburger. Secondo la NASA una goccia che cresce fino a circa 4 mm o più si divide in gocce più piccole."
     },
     "lenticchia-d-acqua": {
       "name": "Lenticchia d'acqua",
@@ -582,7 +582,7 @@
     },
     "seme-di-sesamo": {
       "name": "Seme di sesamo",
-      "desc": ""
+      "desc": "Il seme di sesamo (Sesamum indicum) è lungo tipicamente circa 3 mm e largo quasi 2 mm. Contiene circa il 50% di olio e il 25% di proteine. Mille semi pesano più o meno 28 grammi."
     },
     "formica": {
       "name": "Formica",
@@ -590,19 +590,19 @@
     },
     "pelle-della-pianta-del-piede": {
       "name": "Pelle della pianta del piede",
-      "desc": "La pelle più spessa del corpo."
+      "desc": "Sotto il piede la pelle raggiunge lo spessore massimo del corpo umano: circa 4,0 mm sui talloni, contro 0,5 mm sulle palpebre. È pelle spessa, che si trova dove l'abrasione è forte, cioè sulle piante dei piedi, sui palmi e sui polpastrelli. La sua epidermide ha cinque strati cellulari invece dei quattro della pelle sottile."
     },
     "nevischio": {
       "name": "Nevischio",
-      "desc": ""
+      "desc": "Il nevischio è una precipitazione di granuli di ghiaccio molto piccoli, bianchi e opachi, piatti o allungati. Il loro diametro è in genere inferiore a 1 mm. Cadendo a terra non rimbalzano e non si spezzano, e di solito scendono in piccole quantità da nebbie o strati nuvolosi spessi."
     },
     "microchip": {
       "name": "Microchip",
-      "desc": "Un piccolo circuito integrato."
+      "desc": "Un microchip è un circuito integrato costruito su una minuscola piastrina di silicio. Non esiste una misura unica: l'esempio qui è un piccolo integrato a 8 piedini come il temporizzatore NE555, che nel contenitore SOIC occupa 4,9 mm per 6 mm."
     },
     "chicco-di-riso": {
       "name": "Chicco di riso",
-      "desc": ""
+      "desc": "La lunghezza di un chicco di riso dipende dalla varietà. La scala dell'istituto internazionale IRRI, riportata dalla FAO per il riso integrale, chiama corto un chicco sotto 5,50 mm, medio tra 5,51 e 6,60 mm, lungo tra 6,61 e 7,50 mm ed extra lungo oltre 7,50 mm. Un chicco di 6 mm è quindi di grana media."
     },
     "fiocco-di-neve": {
       "name": "Fiocco di neve",
@@ -674,11 +674,11 @@
     },
     "smartphone": {
       "name": "Smartphone",
-      "desc": ""
+      "desc": "Uno smartphone attuale è alto tipicamente circa 15 cm. L'iPhone 16, per esempio, misura 147,6 mm di altezza, 71,6 mm di larghezza e 7,8 mm di spessore, con uno schermo da 6,1 pollici di diagonale. Le dimensioni cambiano da modello a modello."
     },
     "uovo-di-struzzo": {
       "name": "Uovo di struzzo",
-      "desc": "L'uovo più grande di un animale vivente."
+      "desc": "L'uovo di struzzo è il più grande deposto da un animale vivente. Misura in media circa 15 cm di lunghezza per 13 cm di larghezza e pesa circa 1,5 kg, quanto più o meno 24 uova di gallina. Rispetto alle dimensioni dell'adulto è però un uovo piccolo."
     },
     "lombrico-comune": {
       "name": "Lombrico comune",
@@ -686,31 +686,31 @@
     },
     "chicco-di-grandine-piu-grande": {
       "name": "Chicco di grandine più grande",
-      "desc": "Vivian, South Dakota, 2010: 20 cm di diametro."
+      "desc": "Il chicco di grandine caduto a Vivian, in South Dakota, il 23 luglio 2010 misurava 8 pollici di diametro, cioè circa 20 cm, e pesava circa 0,88 kg. Secondo il National Weather Service detiene il primato degli Stati Uniti per diametro e per peso. Il primato di circonferenza resta invece a un chicco caduto ad Aurora, in Nebraska, nel 2003."
     },
     "pallone-da-calcio": {
       "name": "Pallone da calcio",
-      "desc": ""
+      "desc": "Il pallone da calcio regolamentare è una sfera con una circonferenza compresa tra 68 e 70 cm, che corrisponde a un diametro di circa 22 cm. Secondo le Regole del Gioco dell'IFAB deve pesare tra 410 e 450 grammi all'inizio della partita. La pressione prevista va da 0,6 a 1,1 atmosfere."
     },
     "pallone-da-basket": {
       "name": "Pallone da basket",
-      "desc": ""
+      "desc": "Il pallone da basket misura 7, usato nelle competizioni maschili, ha una circonferenza compresa tra 750 e 770 mm, pari a un diametro di circa 24 cm. Il regolamento FIBA ne fissa il peso tra 580 e 620 grammi. Nelle competizioni femminili si usa il pallone misura 6, un po' più piccolo, con una circonferenza tra 715 e 730 mm."
     },
     "teiera-di-russell": {
       "name": "Teiera di Russell",
-      "desc": "L'esperimento mentale di Bertrand Russell sull'onere della prova: una teiera in orbita tra la Terra e Marte."
+      "desc": "La teiera di Russell è un esperimento mentale proposto dal filosofo Bertrand Russell nel 1952, nel saggio \"Is There a God?\". Russell immagina una teiera di porcellana in orbita ellittica attorno al Sole tra la Terra e Marte, troppo piccola per essere vista anche dai telescopi più potenti: nessuno potrebbe dimostrare che non esiste, ma questo non è un motivo per crederci. L'argomento riguarda l'onere della prova e la misura di circa 25 cm qui indicata è solo quella di una teiera comune."
     },
     "righello-da-un-piede": {
       "name": "Righello da un piede",
-      "desc": "Dodici pollici."
+      "desc": "Un righello da un piede è lungo esattamente 0,3048 metri, cioè 30,48 cm. Il rapporto tra piede e metro è stato fissato così nel 1959. Negli Stati Uniti il vecchio \"survey foot\", leggermente diverso, è stato dichiarato obsoleto dal 1° gennaio 2023."
     },
     "uno-schermo": {
       "name": "Uno schermo",
-      "desc": "Più o meno la finestra da cui stai guardando."
+      "desc": "Lo schermo di un portatile compatto ha una diagonale di circa 34 cm: più o meno la finestra da cui stai guardando, se usi un computer. Il MacBook Air da 13 pollici, per esempio, ha uno schermo da 13,6 pollici di diagonale, cioè 34,5 cm. Gli schermi dei telefoni sono molto più piccoli e quelli dei monitor da scrivania più grandi."
     },
     "fiocco-di-neve-piu-grande": {
       "name": "Fiocco di neve più grande",
-      "desc": "Montana, 1887: una testimonianza mai verificata."
+      "desc": "Secondo il Guinness World Records, nella notte del 27 gennaio 1887 una tempesta fece cadere nella valle del fiume Clark Fork, vicino a Missoula nel Montana, fiocchi di neve descritti come \"più grandi di tegami per il latte\". Le cronache parlano di fiocchi larghi fino a 38 cm e spessi 20 cm. Si tratta di una testimonianza dell'epoca, non di una misura strumentale."
     },
     "gatto": {
       "name": "Gatto",
@@ -718,7 +718,7 @@
     },
     "pallone-da-spiaggia": {
       "name": "Pallone da spiaggia",
-      "desc": ""
+      "desc": "Il pallone da spiaggia è una palla gonfiabile di vinile leggero, di solito a spicchi colorati. Non esiste una misura standard: un modello molto diffuso, il Glossy Panel Ball di Intex, ha un diametro dichiarato di 24 pollici, cioè circa 61 cm. In commercio se ne trovano sia di più piccoli sia di molto più grandi."
     },
     "metro": {
       "name": "Metro",
@@ -738,7 +738,7 @@
     },
     "bicicletta": {
       "name": "Bicicletta",
-      "desc": ""
+      "desc": "Una bicicletta convenzionale per adulti è lunga tipicamente circa 1,8 metri e larga circa 0,65 metri al manubrio. Sono le dimensioni di riferimento usate nelle linee guida britanniche per progettare i percorsi ciclabili. Cargo bike e biciclette con rimorchio possono essere più lunghe, tanto che per i progetti si considera un ingombro fino a 2,8 metri."
     },
     "verme-gigante-del-gippsland": {
       "name": "Verme gigante del Gippsland",

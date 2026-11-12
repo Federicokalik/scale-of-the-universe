@@ -1,0 +1,236 @@
+[
+  {
+    "id": "fossetta-di-un-cd-profondita",
+    "size": 1.25e-7,
+    "basis": "profondità di una fossetta (pit) incisa nello strato di policarbonato di un CD",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Le fossette di un CD sono i minuscoli incavi che codificano i dati lungo la traccia a spirale del disco. Sono profonde circa 125 nm, cioè circa un quarto della lunghezza d'onda che il laser infrarosso da 780 nm assume dentro la plastica del disco. Così la luce riflessa dalla fossetta e quella riflessa dalla superficie intorno risultano sfasate di mezza lunghezza d'onda e si attenuano a vicenda, e il lettore distingue i due livelli.",
+    "sources": [
+      {
+        "title": "All About Digital Audio: Part 5",
+        "url": "https://www.soundonsound.com/sound-advice/all-about-digital-audio-part-5",
+        "publisher": "Sound On Sound",
+        "evidence": "they are arranged to be 0.125µm high"
+      },
+      {
+        "title": "Compact Disc Audio (HyperPhysics)",
+        "url": "https://hyperphysics.gsu.edu/hbase/Audio/cdplay.html",
+        "publisher": "Georgia State University, Department of Physics and Astronomy",
+        "evidence": "about a quarter of the wavelength of this laser in the substrate material"
+      }
+    ],
+    "note": "0,125 µm = 1,25e-7 m. La pagina di Sound On Sound parla di un quarto della lunghezza d'onda del laser a 780 nm senza precisare il mezzo; HyperPhysics chiarisce che si tratta della lunghezza d'onda nel substrato (e cita un laser da 790 nm in aria). L'indice di rifrazione del policarbonato (circa 1,55) non compare in nessuna delle due pagine aperte, quindi la descrizione non lo cita. Sound On Sound è una rivista tecnica, non un ente: la fonte istituzionale conferma il principio ma non dà il valore numerico.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "particella-di-argilla",
+    "size": 2e-6,
+    "basis": "diametro massimo di una particella classificata come argilla (limite superiore della classe granulometrica)",
+    "verdict": "corrected",
+    "flags": ["r"],
+    "desc": "In granulometria si chiama argilla la frazione più fine di un terreno. La norma ISO 14688-1 e la classificazione usata negli Stati Uniti fissano lo stesso limite: sono argilla le particelle con diametro fino a 0,002 mm, cioè 2 µm. Il valore indicato è quindi il diametro massimo, e la maggior parte delle particelle è più piccola.",
+    "sources": [
+      {
+        "title": "ISO 14688-1:2002, Geotechnical investigation and testing. Identification and classification of soil. Part 1 (anteprima, Table 1)",
+        "url": "https://cdn.standards.iteh.ai/samples/25260/d7c2a9901c924564878b6ef3ab2b4ca4/ISO-14688-1-2002.pdf",
+        "publisher": "International Organization for Standardization (ISO)",
+        "evidence": "Clay Cl ≤ 0,002"
+      },
+      {
+        "title": "Soil Texture and Structure (Soils Laboratory Manual, Moorberg and Crouse)",
+        "url": "https://geo.libretexts.org/Bookshelves/Soil_Science/Soils_Laboratory_Manual_(Moorberg_and_Crouse)/03%3A_Soil_Physics/03.1%3A_Soil_Texture_and_Structure",
+        "publisher": "Kansas State University, via LibreTexts",
+        "evidence": "clay (less than 0.002 mm)"
+      }
+    ],
+    "note": "Corretto da 2,2e-6 m a 2,0e-6 m: la descrizione originale diceva già \"sotto i 2 µm\" e il limite di classe nelle fonti è 0,002 mm = 2e-6 m; 2,2 µm cadrebbe nel limo. Il PDF ISO citato è l'anteprima ufficiale dell'edizione 2002 (sostituita dall'edizione 2017, che non ho potuto aprire); i limiti di classe sono riportati nella Table 1 a pagina 4.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "fibra-di-seta",
+    "size": 1.25e-5,
+    "basis": "diametro di un singolo filamento di fibroina del baco da seta (Bombyx mori); il filo doppio del bozzolo è più spesso",
+    "verdict": "uncertain",
+    "flags": ["u"],
+    "desc": "Il filo che il baco da seta emette per costruire il bozzolo è formato da due filamenti di fibroina tenuti insieme da uno strato di sericina. Ogni filamento ha un diametro di 7-14 µm, mentre il filo doppio misura tipicamente da 15 a 26 µm. Da un solo bozzolo si ricava un filo continuo lungo da 600 a 1.500 metri.",
+    "sources": [
+      {
+        "title": "Mode III Tear Resistance of Bombyx mori Silk Cocoons",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11240411/",
+        "publisher": "ACS Materials Au (via PubMed Central, NIH)",
+        "evidence": "two fibroins, each with a diameter of 7–14 μm"
+      },
+      {
+        "title": "Silk reeling and testing manual, Chapter 3: Cocoon quality",
+        "url": "https://www.fao.org/4/x2099e/x2099e03.htm",
+        "publisher": "FAO",
+        "evidence": "The average diameter of cocoon filament is 15 to 20 microns"
+      }
+    ],
+    "note": "Il valore attuale (12,5 µm) rientra nell'intervallo del singolo filamento di fibroina (7-14 µm) ma non corrisponde al \"filo di un bozzolo\" della descrizione originale, che è il filo doppio: 15-20 µm secondo la FAO, 16-26 µm secondo l'articolo su ACS Materials Au. Dimensione lasciata invariata e riferita al singolo filamento; se si preferisce mostrare il filo del bozzolo, il valore supportato è circa 1,75e-5 m (centro dell'intervallo FAO). Lunghezza del filo dalla FAO (\"from 600 to 1 500 m\").",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "fibra-acrilica",
+    "size": 2e-5,
+    "basis": "diametro di una singola fibra acrilica tessile, ricavato dal titolo (denari per filamento) e dalla densità",
+    "verdict": "uncertain",
+    "flags": ["u"],
+    "desc": "La fibra acrilica è una fibra sintetica composta per almeno l'85% in peso da acrilonitrile. Il diametro dipende dal titolo scelto dal produttore: con una densità di 1,18 g/cm³, una fibra da 3 denari misura circa 19 µm e una da 15 denari circa 42 µm. Non fonde, ma si decompone sopra i 260 °C circa.",
+    "sources": [
+      {
+        "title": "Choosing The Proper Short Cut Fiber",
+        "url": "https://www.minifibers.com/files/literature/Choosing-the-Proper-Short-Cut-Fiber-23.pdf",
+        "publisher": "MiniFibers, Inc. (produttore)",
+        "evidence": "Acrylic 1.18 15.0 42.39 1.67 16.5"
+      }
+    ],
+    "note": "Nessuna fonte indica un diametro \"tipico\" unico: è una scelta di produzione, quindi il verdetto è uncertain e la dimensione resta invariata. Formula del produttore: diametro in µm = 11,89 × radice(denari / densità). Per 3 denari: 11,89 × radice(3 / 1,18) = 11,89 × 1,594 = 18,96 µm; il valore attuale di 20 µm corrisponde a circa 3,3 denari. La riga della tabella citata dà densità 1,18, 15 denari, 42,39 µm. Il valore di 3 denari è un esempio calcolato da me con la formula, non una riga della tabella per l'acrilico. Decomposizione: la fonte dice \"in excess of 500°F\", cioè (500 − 32) / 1,8 = 260 °C. Composizione: \"at least 85% by weight of acrylonitrile monomer\". La descrizione originale era vuota.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "gocciolina-di-nebbia",
+    "size": 2.1e-5,
+    "basis": "diametro di una gocciolina d'acqua liquida in sospensione nella nebbia",
+    "verdict": "uncertain",
+    "flags": ["u"],
+    "desc": "La nebbia è una nube a contatto con il suolo, fatta di goccioline d'acqua sospese nell'aria. Il loro diametro va da circa 1 a 40 µm, come nelle nubi, ma nella nebbia le goccioline si trovano di norma nella parte bassa di questo intervallo. Il valore indicato è quindi un ordine di grandezza, non una misura tipica.",
+    "sources": [
+      {
+        "title": "Glossary (voce Fog)",
+        "url": "https://fogquest.org/glossary/",
+        "publisher": "FogQuest: Sustainable Water Solutions (ente non profit canadese)",
+        "evidence": "The droplet diameter range is the same as for cloud (1 to 40 μm)"
+      }
+    ],
+    "note": "Il valore attuale (21 µm) è al centro dell'intervallo 1-40 µm, ma la stessa fonte dice che le goccioline di nebbia sono \"normally at the low end of the size range\": per questo uncertain, dimensione invariata. La voce Fog del glossario dell'American Meteorological Society e due articoli su Atmospheric Chemistry and Physics non si sono aperti, quindi non sono citati; resta una sola fonte, non governativa. La frase originale \"abbastanza leggera da restare sospesa\" è stata riformulata in modo neutro (goccioline sospese), senza cifre sulla velocità di caduta che non ho verificato.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "particella-di-limo",
+    "size": 3.2e-5,
+    "basis": "diametro di una particella di limo a metà della classe granulometrica ISO (da 2 a 63 µm)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il limo è la frazione di un terreno con granuli intermedi tra l'argilla e la sabbia. Per la norma ISO 14688-1 comprende le particelle con diametro tra 0,002 e 0,063 mm, cioè da 2 a 63 µm. La classificazione usata negli Stati Uniti per i suoli agrari pone invece il limite superiore a 0,05 mm.",
+    "sources": [
+      {
+        "title": "ISO 14688-1:2002, Geotechnical investigation and testing. Identification and classification of soil. Part 1 (anteprima, Table 1)",
+        "url": "https://cdn.standards.iteh.ai/samples/25260/d7c2a9901c924564878b6ef3ab2b4ca4/ISO-14688-1-2002.pdf",
+        "publisher": "International Organization for Standardization (ISO)",
+        "evidence": "Silt Si > 0,002 to 0,063"
+      },
+      {
+        "title": "Soil Texture and Structure (Soils Laboratory Manual, Moorberg and Crouse)",
+        "url": "https://geo.libretexts.org/Bookshelves/Soil_Science/Soils_Laboratory_Manual_(Moorberg_and_Crouse)/03%3A_Soil_Physics/03.1%3A_Soil_Texture_and_Structure",
+        "publisher": "Kansas State University, via LibreTexts",
+        "evidence": "silt (0.05 – 0.002 mm)"
+      }
+    ],
+    "note": "Oggetto generico: 32 µm è un valore rappresentativo, circa a metà della classe ISO ((2 + 63) / 2 = 32,5 µm) e dentro anche la classe statunitense (2-50 µm). L'intervallo \"da 2 a 63 µm\" della descrizione originale è confermato dalla Table 1 dell'anteprima ISO (edizione 2002, sostituita nel 2017; l'edizione 2017 non l'ho potuta aprire). La pagina di Kansas State non nomina esplicitamente l'USDA per i limiti, ma li usa insieme al triangolo tessiturale USDA.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "pixel-di-uno-smartphone",
+    "size": 5.5e-5,
+    "basis": "passo tra due pixel adiacenti (lato di un pixel) su uno schermo da 460 pixel per pollice",
+    "verdict": "confirmed",
+    "flags": ["n"],
+    "desc": "Lo schermo di uno smartphone recente ha una densità di circa 460 pixel per pollice: è il valore che Apple dichiara per l'iPhone 16, con 2556 × 1179 pixel su una diagonale di 6,1 pollici. A questa densità ogni pixel è largo circa 55 µm, meno dello spessore di un capello. Per questo a normale distanza di lettura i singoli pixel non si distinguono.",
+    "sources": [
+      {
+        "title": "iPhone 16 Technical Specifications",
+        "url": "https://www.apple.com/iphone-16/specs/",
+        "publisher": "Apple",
+        "evidence": "2556‑by‑1179-pixel resolution at 460 ppi"
+      }
+    ],
+    "note": "Calcolo: 25,4 mm / 460 = 0,0552 mm = 5,5e-5 m. Il confronto con il capello usa l'intervallo 80-100 µm di nano.gov (vedi capello-umano). L'ultima frase sulla visibilità dei pixel è coerente con il limite di circa 0,1 mm dell'occhio nudo (vedi limite-dell-occhio-nudo) ma non è una dichiarazione della pagina Apple.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "capello-umano",
+    "size": 8e-5,
+    "basis": "diametro (larghezza) di un capello umano",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Un capello umano è largo all'incirca da 80 a 100 µm, secondo la National Nanotechnology Initiative degli Stati Uniti. Lo spessore cambia molto da persona a persona e anche tra i capelli della stessa testa. È uno dei termini di paragone più usati per le dimensioni microscopiche: equivale a 80.000-100.000 nanometri.",
+    "sources": [
+      {
+        "title": "Just How Small Is \"Nano\"?",
+        "url": "https://www.nano.gov/about-nanotechnology/just-how-small-is-nano",
+        "publisher": "U.S. National Nanotechnology Initiative (nano.gov)",
+        "evidence": "A human hair is approximately 80,000–100,000 nanometers wide."
+      }
+    ],
+    "note": "80.000 nm = 80 µm = 8e-5 m: il valore attuale è l'estremo inferiore dell'intervallo della fonte, quindi confermato. L'intervallo \"da 20 a 180 µm\" della descrizione originale compare solo su pagine secondarie non citabili (rimandano a uno studio che non ho potuto aprire) ed è stato tolto. La frase sulla variabilità tra persone è generica e non proviene dalla pagina citata.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "limite-dell-occhio-nudo",
+    "size": 1e-4,
+    "basis": "potere risolutivo convenzionale dell'occhio umano senza strumenti (minima distanza tra due punti ancora distinguibili da vicino)",
+    "verdict": "uncertain",
+    "flags": ["u"],
+    "desc": "Il limite dell'occhio nudo è la minima distanza a cui due punti vicini si vedono ancora separati. Il valore di riferimento usato in microscopia è circa 0,1 mm, cioè 100 µm, ma è una convenzione: dipende dalla vista di ciascuno, dalla luce e dal contrasto. Un microscopio ottico standard arriva a circa 0,2 µm, cinquecento volte meglio.",
+    "sources": [
+      {
+        "title": "Resolution and Size Primer",
+        "url": "https://www.jmu.edu/microscopy/access-and-training/resolution.pdf",
+        "publisher": "James Madison University, Light Microscopy and Imaging Facility",
+        "evidence": "The resolution limit for our eyes is approximately 0.1 mm"
+      }
+    ],
+    "note": "Valore convenzionale e arrotondato, non una misura: per questo uncertain, dimensione invariata. La descrizione originale parlava del \"più piccolo oggetto distinguibile\": la fonte parla di limite di risoluzione, cioè di separazione tra due punti, e la descrizione è stata corretta in questo senso (un oggetto isolato e luminoso più piccolo può comunque essere visto). Confronto: 0,1 mm / 0,2 µm = 500, con il dato della stessa pagina (\"standard light microscopes is 0.2 µm\"). La dipendenza da vista, luce e contrasto è una precisazione generica, non tratta dalla pagina citata.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "foglio-di-carta-spessore",
+    "size": 1.05e-4,
+    "basis": "spessore di un foglio di carta per stampante da 80 g/m² (misura secondo ISO 534)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Un foglio di comune carta per stampante da 80 g/m² è spesso circa un decimo di millimetro. La scheda tecnica di un produttore indica 106 µm, con una tolleranza di 3 µm, misurati secondo la norma ISO 534. Una risma da 500 fogli risulta quindi alta poco più di 5 cm.",
+    "sources": [
+      {
+        "title": "REY Copy, scheda tecnica (80 g/m², A4)",
+        "url": "https://dgduupz79pcvd.cloudfront.net/documents/sylvamo/rey-techsheet-copy-en-sa-md-1.pdf",
+        "publisher": "Sylvamo (produttore, marchio REY)",
+        "evidence": "Thickness ISO 534 μm 106 ± 3"
+      },
+      {
+        "title": "Just How Small Is \"Nano\"?",
+        "url": "https://www.nano.gov/about-nanotechnology/just-how-small-is-nano",
+        "publisher": "U.S. National Nanotechnology Initiative (nano.gov)",
+        "evidence": "A sheet of paper is about 100,000 nanometers thick."
+      }
+    ],
+    "note": "Il valore attuale (105 µm) è entro l'1% dai 106 µm della scheda e dentro la sua tolleranza (103-109 µm), quindi confermato. Lo spessore varia leggermente da marca a marca. Risma: 500 × 0,106 mm = 53 mm. La scheda è un PDF ospitato sul CDN del produttore.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "pixel-di-un-monitor",
+    "size": 2.6e-4,
+    "basis": "passo tra due pixel adiacenti (lato di un pixel) su un monitor da 96 pixel per pollice",
+    "verdict": "confirmed",
+    "flags": ["r"],
+    "desc": "La densità di riferimento per i monitor da scrivania è 96 pixel per pollice: a questa densità un pixel è largo 1/96 di pollice, cioè circa 0,26 mm. È anche la base del pixel di riferimento usato dal W3C per definire l'unità px nelle pagine web. Gli schermi dei telefoni di oggi, con circa 460 pixel per pollice, sono quasi cinque volte più fitti.",
+    "sources": [
+      {
+        "title": "CSS Values and Units Module Level 3",
+        "url": "https://www.w3.org/TR/css-values-3/",
+        "publisher": "World Wide Web Consortium (W3C)",
+        "evidence": "1px thus corresponds to about 0.26 mm (1/96 inch)"
+      },
+      {
+        "title": "iPhone 16 Technical Specifications",
+        "url": "https://www.apple.com/iphone-16/specs/",
+        "publisher": "Apple",
+        "evidence": "2556‑by‑1179-pixel resolution at 460 ppi"
+      }
+    ],
+    "note": "Calcolo: 25,4 mm / 96 = 0,2646 mm, arrotondato a 2,6e-4 m (entro il 2%). Il flag r era già presente ed è stato mantenuto. Confronto con i telefoni: 460 / 96 = 4,8, quindi \"quasi cinque volte\" al posto di \"cinque volte\". Molti monitor attuali hanno densità più alte di 96 ppi: il valore è quello di riferimento, non una media di mercato.",
+    "verified": "2026-11-12"
+  }
+]

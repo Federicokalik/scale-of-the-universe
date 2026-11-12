@@ -1421,8 +1421,19 @@
     "glyph": "💿",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "All About Digital Audio: Part 5",
+        "url": "https://www.soundonsound.com/sound-advice/all-about-digital-audio-part-5",
+        "publisher": "Sound On Sound"
+      },
+      {
+        "title": "Compact Disc Audio (HyperPhysics)",
+        "url": "https://hyperphysics.gsu.edu/hbase/Audio/cdplay.html",
+        "publisher": "Georgia State University, Department of Physics and Astronomy"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "limite-del-microscopio-ottico",
@@ -1657,6 +1668,29 @@
     "verified": "2026-11-12"
   },
   {
+    "id": "particella-di-argilla",
+    "size": 0.000002,
+    "kind": "o",
+    "glyph": "",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [
+      {
+        "title": "ISO 14688-1:2002, Geotechnical investigation and testing. Identification and classification of soil. Part 1 (anteprima, Table 1)",
+        "url": "https://cdn.standards.iteh.ai/samples/25260/d7c2a9901c924564878b6ef3ab2b4ca4/ISO-14688-1-2002.pdf",
+        "publisher": "International Organization for Standardization (ISO)"
+      },
+      {
+        "title": "Soil Texture and Structure (Soils Laboratory Manual, Moorberg and Crouse)",
+        "url": "https://geo.libretexts.org/Bookshelves/Soil_Science/Soils_Laboratory_Manual_(Moorberg_and_Crouse)/03%3A_Soil_Physics/03.1%3A_Soil_Texture_and_Structure",
+        "publisher": "Kansas State University, via LibreTexts"
+      }
+    ],
+    "verified": "2026-11-12"
+  },
+  {
     "id": "escherichia-coli",
     "size": 0.0000021,
     "kind": "b",
@@ -1671,16 +1705,6 @@
       }
     ],
     "verified": "2026-11-12"
-  },
-  {
-    "id": "particella-di-argilla",
-    "size": 0.0000022,
-    "kind": "o",
-    "glyph": "",
-    "flags": [],
-    "image": null,
-    "sources": [],
-    "verified": null
   },
   {
     "id": "mitocondrio",
@@ -1845,10 +1869,23 @@
     "size": 0.0000125,
     "kind": "o",
     "glyph": "",
-    "flags": [],
+    "flags": [
+      "u"
+    ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Mode III Tear Resistance of Bombyx mori Silk Cocoons",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11240411/",
+        "publisher": "ACS Materials Au (via PubMed Central, NIH)"
+      },
+      {
+        "title": "Silk reeling and testing manual, Chapter 3: Cocoon quality",
+        "url": "https://www.fao.org/4/x2099e/x2099e03.htm",
+        "publisher": "FAO"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "twip",
@@ -1876,20 +1913,36 @@
     "size": 0.00002,
     "kind": "o",
     "glyph": "🧶",
-    "flags": [],
+    "flags": [
+      "u"
+    ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Choosing The Proper Short Cut Fiber",
+        "url": "https://www.minifibers.com/files/literature/Choosing-the-Proper-Short-Cut-Fiber-23.pdf",
+        "publisher": "MiniFibers, Inc. (produttore)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "gocciolina-di-nebbia",
     "size": 0.000021,
     "kind": "o",
     "glyph": "",
-    "flags": [],
+    "flags": [
+      "u"
+    ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Glossary (voce Fog)",
+        "url": "https://fogquest.org/glossary/",
+        "publisher": "FogQuest: Sustainable Water Solutions (ente non profit canadese)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "thou",
@@ -1937,8 +1990,19 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "ISO 14688-1:2002, Geotechnical investigation and testing. Identification and classification of soil. Part 1 (anteprima, Table 1)",
+        "url": "https://cdn.standards.iteh.ai/samples/25260/d7c2a9901c924564878b6ef3ab2b4ca4/ISO-14688-1-2002.pdf",
+        "publisher": "International Organization for Standardization (ISO)"
+      },
+      {
+        "title": "Soil Texture and Structure (Soils Laboratory Manual, Moorberg and Crouse)",
+        "url": "https://geo.libretexts.org/Bookshelves/Soil_Science/Soils_Laboratory_Manual_(Moorberg_and_Crouse)/03%3A_Soil_Physics/03.1%3A_Soil_Texture_and_Structure",
+        "publisher": "Kansas State University, via LibreTexts"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "granulo-di-polline",
@@ -1970,8 +2034,14 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "iPhone 16 Technical Specifications",
+        "url": "https://www.apple.com/iphone-16/specs/",
+        "publisher": "Apple"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "spermatozoo",
@@ -1998,18 +2068,32 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Just How Small Is \"Nano\"?",
+        "url": "https://www.nano.gov/about-nanotechnology/just-how-small-is-nano",
+        "publisher": "U.S. National Nanotechnology Initiative (nano.gov)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "limite-dell-occhio-nudo",
     "size": 0.0001,
     "kind": "o",
     "glyph": "👁️",
-    "flags": [],
+    "flags": [
+      "u"
+    ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Resolution and Size Primer",
+        "url": "https://www.jmu.edu/microscopy/access-and-training/resolution.pdf",
+        "publisher": "James Madison University, Light Microscopy and Imaging Facility"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "foglio-di-carta-spessore",
@@ -2018,8 +2102,19 @@
     "glyph": "📄",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "REY Copy, scheda tecnica (80 g/m², A4)",
+        "url": "https://dgduupz79pcvd.cloudfront.net/documents/sylvamo/rey-techsheet-copy-en-sa-md-1.pdf",
+        "publisher": "Sylvamo (produttore, marchio REY)"
+      },
+      {
+        "title": "Just How Small Is \"Nano\"?",
+        "url": "https://www.nano.gov/about-nanotechnology/just-how-small-is-nano",
+        "publisher": "U.S. National Nanotechnology Initiative (nano.gov)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "ovulo-umano",
@@ -2090,8 +2185,19 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "CSS Values and Units Module Level 3",
+        "url": "https://www.w3.org/TR/css-values-3/",
+        "publisher": "World Wide Web Consortium (W3C)"
+      },
+      {
+        "title": "iPhone 16 Technical Specifications",
+        "url": "https://www.apple.com/iphone-16/specs/",
+        "publisher": "Apple"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "acaro-della-polvere",
@@ -2123,8 +2229,14 @@
     "glyph": "🧂",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Salt: The Only Rock We Eat (May 2025)",
+        "url": "https://ucanr.edu/program/uc-master-food-preserver-program/article/salt-only-rock-we-eat-may-2025",
+        "publisher": "University of California Agriculture and Natural Resources, UC Master Food Preserver Program"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "ameba",
@@ -2167,8 +2279,14 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Sabbia (Enciclopedia on line)",
+        "url": "https://www.treccani.it/enciclopedia/sabbia/",
+        "publisher": "Istituto della Enciclopedia Italiana Treccani"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "pelle-delle-palpebre",
@@ -2177,8 +2295,14 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Skin: The Layers of Skin (The Histology Guide)",
+        "url": "https://histology.leeds.ac.uk/home/skin/skin_layers/",
+        "publisher": "University of Leeds, Faculty of Biological Sciences"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "mina-di-matita",
@@ -2187,8 +2311,19 @@
     "glyph": "✏️",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Super-Polymer fineline lead, HB, 0.7 mm, set of 2",
+        "url": "https://www.faber-castell.com/products/FleadSuperPolymer07mmHB2x12BC/121999",
+        "publisher": "Faber-Castell (produttore)"
+      },
+      {
+        "title": "Mars 925 mechanical pencil 925 07BK",
+        "url": "https://www.staedtler.com/us/en/products/pencils-and-accessories/mechanical-pencils-and-lead-holders/mars-925-mechanical-pencil-925-07bk/",
+        "publisher": "STAEDTLER (produttore)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "carta-di-credito-spessore",
@@ -2197,8 +2332,14 @@
     "glyph": "💳",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "ISO/IEC 7810:2003 Identification cards - Physical characteristics (scope)",
+        "url": "https://www.evs.ee/en/iso-iec-7810-2003",
+        "publisher": "Estonian Centre for Standardisation and Accreditation (EVS), scheda della norma ISO/IEC"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "millimetro",
@@ -2217,6 +2358,34 @@
         "title": "NIST Guide to the SI, Appendix B.8: Factors for Units Listed Alphabetically",
         "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8",
         "publisher": "NIST"
+      }
+    ],
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "nevischio",
+    "size": 0.001,
+    "kind": "o",
+    "glyph": "",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [
+      {
+        "title": "Snow grains (International Cloud Atlas)",
+        "url": "https://cloudatlas.wmo.int/en/snow-grains.html",
+        "publisher": "Organizzazione Meteorologica Mondiale (WMO)"
+      },
+      {
+        "title": "Nevischio (Vocabolario on line)",
+        "url": "https://www.treccani.it/vocabolario/nevischio/",
+        "publisher": "Istituto della Enciclopedia Italiana Treccani"
+      },
+      {
+        "title": "Ice pellets (International Cloud Atlas)",
+        "url": "https://cloudatlas.wmo.int/en/ice-pellets.html",
+        "publisher": "Organizzazione Meteorologica Mondiale (WMO)"
       }
     ],
     "verified": "2026-11-12"
@@ -2258,8 +2427,19 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Raindrops are Different Shapes (Water Science School)",
+        "url": "https://www.usgs.gov/water-science-school/science/are-raindrops-shaped-teardrops",
+        "publisher": "U.S. Geological Survey (USGS)"
+      },
+      {
+        "title": "The Shape of a Raindrop",
+        "url": "https://gpm.nasa.gov/resources/students-and-educators/the-shape-of-a-raindrop",
+        "publisher": "NASA Global Precipitation Measurement (GPM)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "lenticchia-d-acqua",
@@ -2284,8 +2464,19 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Sesamum indicum, seed (Digital Plant Atlas)",
+        "url": "https://p-atlas.app.rug.nl/item/Photo/82370",
+        "publisher": "Plantatlas, Groningen Institute of Archaeology (Università di Groninga) e Deutsches Archäologisches Institut"
+      },
+      {
+        "title": "Sesame (Alternative Field Crops Manual)",
+        "url": "https://hort.purdue.edu/newcrop/afcm/sesame.html",
+        "publisher": "Purdue University, Center for New Crops and Plant Products"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "formica",
@@ -2315,28 +2506,37 @@
     "glyph": "🦶",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
-  },
-  {
-    "id": "nevischio",
-    "size": 0.0042,
-    "kind": "o",
-    "glyph": "",
-    "flags": [],
-    "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Skin: The Layers of Skin (The Histology Guide)",
+        "url": "https://histology.leeds.ac.uk/home/skin/skin_layers/",
+        "publisher": "University of Leeds, Faculty of Biological Sciences"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "microchip",
     "size": 0.005,
     "kind": "o",
     "glyph": "🔲",
-    "flags": [],
+    "flags": [
+      "u"
+    ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "NE555 Single Precision Timer (scheda prodotto, tabella dei contenitori)",
+        "url": "https://www.ti.com/product/NE555",
+        "publisher": "Texas Instruments (produttore)"
+      },
+      {
+        "title": "Chip (Vocabolario on line)",
+        "url": "https://www.treccani.it/vocabolario/chip/",
+        "publisher": "Istituto della Enciclopedia Italiana Treccani"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "chicco-di-riso",
@@ -2345,8 +2545,14 @@
     "glyph": "🍚",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Rice in human nutrition: Grain structure, composition and consumers' criteria for quality",
+        "url": "https://www.fao.org/4/t0567e/t0567e07.htm",
+        "publisher": "FAO (Organizzazione delle Nazioni Unite per l'alimentazione e l'agricoltura), con IRRI"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "fiocco-di-neve",
@@ -2580,8 +2786,14 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "iPhone 16 - Technical Specifications",
+        "url": "https://www.apple.com/iphone-16/specs/",
+        "publisher": "Apple"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "uovo-di-struzzo",
@@ -2590,8 +2802,14 @@
     "glyph": "🥚",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Ostrich",
+        "url": "https://animals.sandiegozoo.org/animals/ostrich",
+        "publisher": "San Diego Zoo Wildlife Alliance"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "lombrico-comune",
@@ -2618,8 +2836,14 @@
     "glyph": "🧊",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Record Setting Hail Event in Vivian, South Dakota on July 23, 2010",
+        "url": "https://www.weather.gov/abr/vivianhailstone",
+        "publisher": "NOAA National Weather Service, Aberdeen SD"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "pallone-da-calcio",
@@ -2630,8 +2854,14 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Laws of the Game - Law 2: The Ball",
+        "url": "https://www.theifab.com/laws/latest/the-ball/",
+        "publisher": "The International Football Association Board (IFAB)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "pallone-da-basket",
@@ -2640,8 +2870,14 @@
     "glyph": "🏀",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Official Basketball Rules 2026 - Basketball Equipment",
+        "url": "https://assets.fiba.basketball/image/upload/documents-corporate-fiba-official-rules-2026-equipment-v1-0.pdf",
+        "publisher": "FIBA (International Basketball Federation)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "teiera-di-russell",
@@ -2649,11 +2885,18 @@
     "kind": "o",
     "glyph": "🫖",
     "flags": [
-      "i"
+      "i",
+      "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Russell's Teapot",
+        "url": "https://heritage.humanists.uk/object/russells-teapot/",
+        "publisher": "Humanists UK, Humanist Heritage"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "righello-da-un-piede",
@@ -2662,8 +2905,14 @@
     "glyph": "📏",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "U.S. Survey Foot",
+        "url": "https://www.nist.gov/pml/us-surveyfoot",
+        "publisher": "National Institute of Standards and Technology (NIST)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "uno-schermo",
@@ -2672,8 +2921,14 @@
     "glyph": "💻",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "MacBook Air - Technical Specifications",
+        "url": "https://www.apple.com/macbook-air/specs/",
+        "publisher": "Apple"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "fiocco-di-neve-piu-grande",
@@ -2684,8 +2939,14 @@
       "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Largest snowflake",
+        "url": "https://www.guinnessworldrecords.com/world-records/73325-largest-snowflake",
+        "publisher": "Guinness World Records"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "gatto",
@@ -2717,8 +2978,14 @@
     "glyph": "🏐",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Glossy Panel Inflatable Beach Ball - 24\"",
+        "url": "https://intexcorp.com/products/floats-toys/pool-toys/24in-glossy-panel-ball",
+        "publisher": "Intex Recreation Corp."
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "metro",
@@ -2798,8 +3065,14 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Traffic-free routes and greenways design guide - 6. Space requirements",
+        "url": "https://www.walkwheelcycletrust.org.uk/for-professionals/infrastructure/walk-wheel-cycle-trust-traffic-free-routes-and-greenways-design-guide/walk-wheel-cycle-trust-traffic-free-routes-and-greenways-design-guide-contents/6-space-requirements/",
+        "publisher": "Walk Wheel Cycle Trust (già Sustrans)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "verme-gigante-del-gippsland",
