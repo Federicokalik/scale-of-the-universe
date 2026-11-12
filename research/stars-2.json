@@ -1,0 +1,236 @@
+[
+  {
+    "id": "alfa-centauri-a",
+    "size": 1700000000,
+    "basis": "diametro della fotosfera (due volte il raggio lineare misurato per interferometria)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Alfa Centauri A è la stella principale del sistema triplo più vicino al Sole, a circa 4 anni luce. Il suo raggio, misurato con l'interferometro VLTI, è 1,2234 volte quello del Sole, pari a un diametro di circa 1,7 milioni di km. Nel 2025 il telescopio Webb vi ha osservato un candidato pianeta gigante gassoso, non ancora confermato.",
+    "sources": [
+      {
+        "title": "The radii and limb darkenings of Alpha Centauri A and B - Interferometric measurements with VLTI/PIONIER",
+        "url": "https://arxiv.org/abs/1610.06185",
+        "publisher": "Kervella et al., A&A 597, A137 (2017), arXiv",
+        "evidence": "RA = 1.2234 +/- 0.0053 Rsun"
+      },
+      {
+        "title": "NASA's Webb Finds New Evidence for Planet Around Closest Solar Twin",
+        "url": "https://science.nasa.gov/missions/webb/nasas-webb-finds-new-evidence-for-planet-around-closest-solar-twin/",
+        "publisher": "NASA Science",
+        "evidence": "strong evidence of a giant planet orbiting a star"
+      }
+    ],
+    "note": "Calcolo: 2 × 1,2234 × 6,957e8 m = 1,702e9 m, entro lo 0,2% dal valore attuale. La pagina NASA (7 agosto 2025) parla di candidato pianeta e di \"if confirmed\": la descrizione lo presenta come non confermato.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "sirio-a",
+    "size": 2380000000,
+    "basis": "diametro della fotosfera (diametro lineare misurato per interferometria, in diametri solari)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Sirio A è la stella più brillante del cielo notturno, nella costellazione del Cane Maggiore. Il suo diametro, misurato con l'interferometro VLTI, è 1,711 volte quello del Sole, cioè circa 2,38 milioni di km. Le orbita attorno Sirio B, una nana bianca più piccola della Terra ma con il 98% della massa del Sole.",
+    "sources": [
+      {
+        "title": "The interferometric diameter and internal structure of Sirius A",
+        "url": "https://arxiv.org/abs/astro-ph/0306604",
+        "publisher": "Kervella et al., Astron. Astrophys. 408, 681 (2003), arXiv",
+        "evidence": "linear diameter of 1.711 +/- 0.013 Dsun"
+      },
+      {
+        "title": "Astronomers use Hubble to 'weigh' Dog Star's companion (heic0516)",
+        "url": "https://esahubble.org/news/heic0516/",
+        "publisher": "ESA/Hubble",
+        "evidence": "the brightest star in the nighttime sky"
+      }
+    ],
+    "note": "Calcolo: 1,711 × 2 × 6,957e8 m = 2,381e9 m, coincide con il valore attuale. La pagina ESA/Hubble sostiene sia il primato di luminosità sia i dati su Sirio B (più piccola della Terra, 98% della massa solare).",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "altair",
+    "size": 2500000000,
+    "basis": "diametro medio (media tra diametro polare ed equatoriale: la stella è schiacciata dalla rotazione)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Altair è la stella più luminosa dell'Aquila e ruota così in fretta da essere schiacciata ai poli. L'interferometro CHARA ne ha ripreso la superficie: il raggio vale 1,634 raggi solari ai poli e 2,029 all'equatore, cioè diametri di circa 2,27 e 2,82 milioni di km. Il valore mostrato, 2,5 milioni di km, è una via di mezzo tra i due.",
+    "sources": [
+      {
+        "title": "Imaging the Surface of Altair",
+        "url": "https://arxiv.org/pdf/0706.0867",
+        "publisher": "Monnier et al. (2007), arXiv",
+        "evidence": "Rpole (R⊙) 1.634 ± 0.011; Req (R⊙) 2.029 ± 0.007"
+      }
+    ],
+    "note": "Calcolo (modello con β libero): polare 2 × 1,634 × 6,957e8 = 2,274e9 m; equatoriale 2 × 2,029 × 6,957e8 = 2,823e9 m; media 2,548e9 m, cioè il valore attuale è più basso dell'1,9%. Confermato come diametro medio. Se invece si volesse l'estensione massima, il diametro equatoriale è 2,82e9 m (+13%). \"La più luminosa dell'Aquila\" deriva dalla designazione Alfa Aquilae e non è stata verificata su una fonte separata: si può togliere.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "procione",
+    "size": 2850000000,
+    "basis": "diametro della fotosfera di Procione A (diametro lineare misurato per interferometria, in diametri solari)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Procione A è una stella di tipo F5 nel Cane Minore, tra le più vicine al Sole. Il suo diametro, misurato con l'interferometro VLTI, è 2,048 volte quello del Sole, cioè circa 2,85 milioni di km. Secondo i modelli sta terminando la fase di sequenza principale, a un'età di circa 2,3 miliardi di anni.",
+    "sources": [
+      {
+        "title": "The diameter and evolutionary state of Procyon A",
+        "url": "https://arxiv.org/abs/astro-ph/0309148",
+        "publisher": "Kervella et al., Astron. Astrophys. 413, 251 (2004), arXiv",
+        "evidence": "linear diameter of 2.048 +/- 0.025 D_sun"
+      }
+    ],
+    "note": "Calcolo: 2,048 × 2 × 6,957e8 m = 2,850e9 m, coincide con il valore attuale. Età (2314 milioni di anni) e stato evolutivo dallo stesso riassunto; \"tra le più vicine al Sole\" poggia sull'espressione \"nearby star\" del riassunto.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "vega",
+    "size": 3600000000,
+    "basis": "diametro medio (media tra diametro polare ed equatoriale: la stella è schiacciata dalla rotazione)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Vega, nella Lira, è una stella di tipo A0 usata a lungo come riferimento per misurare la luminosità delle altre stelle. Ruota rapidamente e la vediamo quasi dal polo: il raggio vale 2,418 raggi solari ai poli e 2,726 all'equatore, per un diametro medio di circa 3,6 milioni di km. La sua età è stimata intorno a 700 milioni di anni.",
+    "sources": [
+      {
+        "title": "Resolving Vega and the inclination controversy with CHARA/MIRC",
+        "url": "https://arxiv.org/pdf/1211.6055",
+        "publisher": "Monnier et al. (2012), accettato da ApJ Letters, arXiv",
+        "evidence": "Rpol (R⊙) 2.418 ± 0.012; Req (R⊙) 2.726 ± 0.006"
+      }
+    ],
+    "note": "Calcolo (modello 3 della tabella): polare 2 × 2,418 × 6,957e8 = 3,364e9 m; equatoriale 2 × 2,726 × 6,957e8 = 3,793e9 m; media 3,579e9 m, entro lo 0,6% dal valore attuale. Il diametro equatoriale (estensione massima) sarebbe 3,79e9 m (+5%).",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "regolo",
+    "size": 5200000000,
+    "basis": "diametro medio di Regolo A (media tra diametro polare ed equatoriale: la stella è schiacciata dalla rotazione)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Regolo è la stella principale del Leone, di tipo B7. Ruota al 96% della velocità critica, tanto che il raggio equatoriale (4,21 raggi solari) supera di circa il 30% quello polare (3,22): il diametro va da 4,5 a 5,9 milioni di km, con una media di circa 5,2. I poli sono oltre 3000 K più caldi dell'equatore.",
+    "sources": [
+      {
+        "title": "Colder and Hotter: Interferometric imaging of β Cassiopeiae and α Leonis",
+        "url": "https://arxiv.org/pdf/1105.0740",
+        "publisher": "Che et al., ApJ 732, 68 (2011), arXiv",
+        "evidence": "Req (R⊙) 4.21; Rpol (R⊙) 3.22"
+      }
+    ],
+    "note": "Calcolo: polare 2 × 3,22 × 6,957e8 = 4,480e9 m; equatoriale 2 × 4,21 × 6,957e8 = 5,858e9 m; media 5,169e9 m, entro lo 0,6% dal valore attuale. Lo stesso articolo riporta la misura precedente di McAlister et al. 2005 (3,14 e 4,16 raggi solari), coerente. Il diametro equatoriale (estensione massima) sarebbe 5,86e9 m (+13%). \"Stella principale del Leone\" deriva dalla designazione Alfa Leonis.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "spica",
+    "size": 10400000000,
+    "basis": "diametro della componente primaria (due volte il raggio ricavato dall'analisi del sistema binario)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Spica, nella Vergine, è un sistema binario stretto di due stelle calde e massicce. La primaria ha un raggio di 7,47 ± 0,54 raggi solari, cioè un diametro di circa 10,4 milioni di km, e una massa di circa 11,4 masse solari. È una variabile pulsante di tipo Beta Cephei e il sistema ha un'età stimata di 12,5 milioni di anni.",
+    "sources": [
+      {
+        "title": "Stellar modelling of Spica, a high-mass spectroscopic binary with a beta Cep variable primary component",
+        "url": "https://arxiv.org/abs/1601.08069",
+        "publisher": "Tkachenko et al. (2016), arXiv",
+        "evidence": "7.47+/-0.54 R_sun and 3.74+/-0.53 R_sun for the primary and secondary"
+      }
+    ],
+    "note": "Calcolo: 2 × 7,47 × 6,957e8 m = 1,039e10 m, coincide con il valore attuale. L'incertezza sul raggio è del 7%. \"Stretto\" riassume \"double-lined spectroscopic binary\"; la costellazione deriva dalla designazione Alfa Virginis.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "pollux",
+    "size": 12600000000,
+    "basis": "diametro della fotosfera (due volte il raggio ricavato dal diametro angolare interferometrico)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Pollux, nei Gemelli, è una gigante arancione di tipo K attorno a cui orbita un pianeta. Il diametro angolare misurato per interferometria, 7,96 millesimi di secondo d'arco, corrisponde a un raggio di 8,8 ± 0,1 raggi solari, cioè a un diametro di circa 12 milioni di km. Dalle sue oscillazioni si ricava una massa di 1,91 masse solari.",
+    "sources": [
+      {
+        "title": "The Mass of the Planet-hosting Giant Star Beta Geminorum Determined from its p-mode Oscillation Spectrum",
+        "url": "https://arxiv.org/pdf/1205.5889",
+        "publisher": "Hatzes et al. (2012), arXiv",
+        "evidence": "corresponds to a radius of 8.8 ± 0.1 R⊙"
+      }
+    ],
+    "note": "Calcolo: 2 × 8,8 × 6,957e8 m = 1,224e10 m. Il valore attuale (1,26e10 m, circa 9,06 raggi solari) è più alto del 2,9%, quindi entro il 5%: confermato senza modifiche. Lo stesso articolo cita anche 8,29 ± 0,35 (modelli evolutivi) e 9,3 raggi solari (da relazioni di scala asterosismiche). \"Arancione\" è la resa divulgativa del tipo K e non è scritto nell'articolo.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "capella",
+    "size": 16700000000,
+    "basis": "diametro della componente primaria Capella Aa (due volte il raggio ricavato dall'analisi del sistema binario)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Capella, nell'Auriga, appare come una sola stella ma è un sistema binario di due giganti di massa quasi uguale, circa 2,5 volte quella del Sole. La primaria ha un raggio di 11,98 ± 0,57 raggi solari, cioè un diametro di circa 16,7 milioni di km, mentre la secondaria misura 8,83 raggi solari. La primaria è alla fine della fase in cui brucia elio nel nucleo.",
+    "sources": [
+      {
+        "title": "Capella (alpha Aurigae) revisited: New binary orbit, physical properties, and evolutionary state",
+        "url": "https://arxiv.org/abs/1505.07461",
+        "publisher": "Torres et al. (2015), arXiv",
+        "evidence": "radii of 11.98 +/- 0.57 and 8.83 +/- 0.33 solar radii"
+      }
+    ],
+    "note": "Calcolo: 2 × 11,98 × 6,957e8 m = 1,667e10 m, coincide con il valore attuale. L'incertezza sul raggio è del 5%. La dimensione si riferisce alla sola componente Aa, non al sistema.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "vv-cephei-b",
+    "size": 25000000000,
+    "basis": "diametro della stella compagna calda (due volte il raggio; stima, non misura diretta)",
+    "verdict": "uncertain",
+    "flags": ["u"],
+    "desc": "VV Cephei B è la compagna blu, di tipo B0-B2, della supergigante rossa VV Cephei A, che la eclissa ogni 20 anni circa. Il suo raggio è stimato tra 13 e 25 raggi solari, cioè un diametro tra circa 18 e 35 milioni di km: il valore mostrato, 25 milioni di km, sta dentro questo intervallo. La stella è avvolta da un disco di gas catturato dal vento della compagna, che ne rende difficile la misura.",
+    "sources": [
+      {
+        "title": "Variable Star of the Year: VV Cephei",
+        "url": "https://britastro.org/vss/vsoty2018.pdf",
+        "publisher": "British Astronomical Association, Variable Star Section",
+        "evidence": "much smaller at 13-25 solar radii with a temperature of 25000K"
+      }
+    ],
+    "note": "Calcolo: 13 × 2 × 6,957e8 = 1,81e10 m; 25 × 2 × 6,957e8 = 3,48e10 m. Il valore attuale (2,5e10 m) corrisponde a circa 18 raggi solari. Non ho potuto aprire le fonti primarie dei due estremi (Wright 1977 e Hack et al. 1992, citati in letteratura): la sola fonte aperta è la scheda della BAA, che è un'associazione astronomica e non l'articolo di misura. Che il disco renda difficile la misura è una mia deduzione dal testo (\"accretion disk around the blue star\"), non una frase della fonte: si può togliere.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "alnitak",
+    "size": 28000000000,
+    "basis": "diametro della componente primaria Alnitak Aa (due volte il raggio ricavato da diametro angolare e distanza)",
+    "verdict": "uncertain",
+    "flags": ["r", "u"],
+    "desc": "Alnitak (Zeta Orionis) è una delle tre stelle della Cintura di Orione ed è un sistema triplo. La componente principale è una supergigante blu di tipo O9,5 con un raggio di 20 ± 3 raggi solari, cioè un diametro di circa 28 milioni di km, con un intervallo tra 23 e 32. Il valore dipende dalla distanza adottata, 387 parsec, mentre l'orbita del sistema ne indicherebbe 294.",
+    "sources": [
+      {
+        "title": "Dynamical mass of the O-type supergiant in Zeta Orionis A",
+        "url": "https://arxiv.org/pdf/1306.0330",
+        "publisher": "Hummel et al. (2013), arXiv",
+        "evidence": "R⋆ [R⊙] 20.0 ± 3.2"
+      },
+      {
+        "title": "Constellation: Orion",
+        "url": "https://noirlab.edu/public/education/constellations/orion/",
+        "publisher": "NSF NOIRLab",
+        "evidence": "the three stars of Orion's Belt — Alnitak, Alnilam, and Mintaka"
+      }
+    ],
+    "note": "Calcolo: 2 × 20,0 × 6,957e8 m = 2,78e10 m, coincide con il valore attuale; con ± 3,2 raggi solari l'intervallo è 2,34e10-3,23e10 m. Dimensione invariata, ma verdetto incerto perché l'errore è del 16% e il raggio è calcolato con la parallasse 2,6 mas (distanza fotometrica 387 pc), mentre la parallasse orbitale dello stesso articolo dà 294 pc, che ridurrebbe il raggio in proporzione. Aggiunto il flag u, mantenuto r. Tolta la frase \"L'originale: 84 milioni di km\": non ho trovato una fonte che attesti il valore della lista del 2012. \"Blu\" è la resa divulgativa del tipo O.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "arturo",
+    "size": 35300000000,
+    "basis": "diametro della fotosfera (due volte il raggio ricavato da temperatura, luminosità e parallasse)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Arturo, nel Boote, è una gigante rossa con una massa di circa 1,08 masse solari, poco più del Sole. Il suo raggio è 25,4 ± 0,2 raggi solari, cioè un diametro di circa 35,3 milioni di km. Ha un'età stimata di 7,1 miliardi di anni e una composizione chimica tipica delle stelle del disco spesso della Galassia.",
+    "sources": [
+      {
+        "title": "Fundamental Parameters and Chemical Composition of Arcturus",
+        "url": "https://arxiv.org/abs/1109.4425",
+        "publisher": "Ramírez e Allende Prieto (2011), arXiv",
+        "evidence": "R = 25.4+/-0.2 Rsun"
+      }
+    ],
+    "note": "Calcolo: 2 × 25,4 × 6,957e8 m = 3,534e10 m, coincide con il valore attuale. La costellazione deriva dalla designazione Alfa Bootis.",
+    "verified": "2026-11-12"
+  }
+]

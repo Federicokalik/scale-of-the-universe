@@ -1310,27 +1310,27 @@
     },
     "alfa-centauri-a": {
       "name": "Alfa Centauri A",
-      "desc": "Nel 2025 il telescopio Webb vi ha visto un candidato pianeta gigante."
+      "desc": "Alfa Centauri A è la stella principale del sistema triplo più vicino al Sole, a circa 4 anni luce. Il suo raggio, misurato con l'interferometro VLTI, è 1,2234 volte quello del Sole, pari a un diametro di circa 1,7 milioni di km. Nel 2025 il telescopio Webb vi ha osservato un candidato pianeta gigante gassoso, non ancora confermato."
     },
     "sirio-a": {
       "name": "Sirio A",
-      "desc": "La stella più brillante del cielo notturno."
+      "desc": "Sirio A è la stella più brillante del cielo notturno, nella costellazione del Cane Maggiore. Il suo diametro, misurato con l'interferometro VLTI, è 1,711 volte quello del Sole, cioè circa 2,38 milioni di km. Le orbita attorno Sirio B, una nana bianca più piccola della Terra ma con il 98% della massa del Sole."
     },
     "altair": {
       "name": "Altair",
-      "desc": "Ruota così in fretta da essere schiacciata ai poli."
+      "desc": "Altair è la stella più luminosa dell'Aquila e ruota così in fretta da essere schiacciata ai poli. L'interferometro CHARA ne ha ripreso la superficie: il raggio vale 1,634 raggi solari ai poli e 2,029 all'equatore, cioè diametri di circa 2,27 e 2,82 milioni di km. Il valore mostrato, 2,5 milioni di km, è una via di mezzo tra i due."
     },
     "procione": {
       "name": "Procione",
-      "desc": ""
+      "desc": "Procione A è una stella di tipo F5 nel Cane Minore, tra le più vicine al Sole. Il suo diametro, misurato con l'interferometro VLTI, è 2,048 volte quello del Sole, cioè circa 2,85 milioni di km. Secondo i modelli sta terminando la fase di sequenza principale, a un'età di circa 2,3 miliardi di anni."
     },
     "vega": {
       "name": "Vega",
-      "desc": ""
+      "desc": "Vega, nella Lira, è una stella di tipo A0 usata a lungo come riferimento per misurare la luminosità delle altre stelle. Ruota rapidamente e la vediamo quasi dal polo: il raggio vale 2,418 raggi solari ai poli e 2,726 all'equatore, per un diametro medio di circa 3,6 milioni di km. La sua età è stimata intorno a 700 milioni di anni."
     },
     "regolo": {
       "name": "Regolo",
-      "desc": ""
+      "desc": "Regolo è la stella principale del Leone, di tipo B7. Ruota al 96% della velocità critica, tanto che il raggio equatoriale (4,21 raggi solari) supera di circa il 30% quello polare (3,22): il diametro va da 4,5 a 5,9 milioni di km, con una media di circa 5,2. I poli sono oltre 3000 K più caldi dell'equatore."
     },
     "perielio-della-parker-solar-probe": {
       "name": "Perielio della Parker Solar Probe",
@@ -1338,11 +1338,11 @@
     },
     "spica": {
       "name": "Spica",
-      "desc": ""
+      "desc": "Spica, nella Vergine, è un sistema binario stretto di due stelle calde e massicce. La primaria ha un raggio di 7,47 ± 0,54 raggi solari, cioè un diametro di circa 10,4 milioni di km, e una massa di circa 11,4 masse solari. È una variabile pulsante di tipo Beta Cephei e il sistema ha un'età stimata di 12,5 milioni di anni."
     },
     "pollux": {
       "name": "Pollux",
-      "desc": ""
+      "desc": "Pollux, nei Gemelli, è una gigante arancione di tipo K attorno a cui orbita un pianeta. Il diametro angolare misurato per interferometria, 7,96 millesimi di secondo d'arco, corrisponde a un raggio di 8,8 ± 0,1 raggi solari, cioè a un diametro di circa 12 milioni di km. Dalle sue oscillazioni si ricava una massa di 1,91 masse solari."
     },
     "altezza-totale-dell-umanita": {
       "name": "Altezza totale dell'umanità",
@@ -1350,7 +1350,7 @@
     },
     "capella": {
       "name": "Capella",
-      "desc": ""
+      "desc": "Capella, nell'Auriga, appare come una sola stella ma è un sistema binario di due giganti di massa quasi uguale, circa 2,5 volte quella del Sole. La primaria ha un raggio di 11,98 ± 0,57 raggi solari, cioè un diametro di circa 16,7 milioni di km, mentre la secondaria misura 8,83 raggi solari. La primaria è alla fine della fase in cui brucia elio nel nucleo."
     },
     "sistema-di-trappist-1": {
       "name": "Sistema di TRAPPIST-1",
@@ -1358,7 +1358,7 @@
     },
     "vv-cephei-b": {
       "name": "VV Cephei B",
-      "desc": ""
+      "desc": "VV Cephei B è la compagna blu, di tipo B0-B2, della supergigante rossa VV Cephei A, che la eclissa ogni 20 anni circa. Il suo raggio è stimato tra 13 e 25 raggi solari, cioè un diametro tra circa 18 e 35 milioni di km: il valore mostrato, 25 milioni di km, sta dentro questo intervallo. La stella è avvolta da un disco di gas catturato dal vento della compagna, che ne rende difficile la misura."
     },
     "sagittarius-a": {
       "name": "Sagittarius A*",
@@ -1366,11 +1366,11 @@
     },
     "alnitak": {
       "name": "Alnitak",
-      "desc": "Supergigante blu della Cintura di Orione. L'originale: 84 milioni di km."
+      "desc": "Alnitak (Zeta Orionis) è una delle tre stelle della Cintura di Orione ed è un sistema triplo. La componente principale è una supergigante blu di tipo O9,5 con un raggio di 20 ± 3 raggi solari, cioè un diametro di circa 28 milioni di km, con un intervallo tra 23 e 32. Il valore dipende dalla distanza adottata, 387 parsec, mentre l'orbita del sistema ne indicherebbe 294."
     },
     "arturo": {
       "name": "Arturo",
-      "desc": ""
+      "desc": "Arturo, nel Boote, è una gigante rossa con una massa di circa 1,08 masse solari, poco più del Sole. Il suo raggio è 25,4 ± 0,2 raggi solari, cioè un diametro di circa 35,3 milioni di km. Ha un'età stimata di 7,1 miliardi di anni e una composizione chimica tipica delle stelle del disco spesso della Galassia."
     },
     "distanza-mercurio-sole": {
       "name": "Distanza Mercurio–Sole",

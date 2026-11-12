@@ -6166,8 +6166,19 @@
     "glyph": "#ffeeb5",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "The radii and limb darkenings of Alpha Centauri A and B - Interferometric measurements with VLTI/PIONIER",
+        "url": "https://arxiv.org/abs/1610.06185",
+        "publisher": "Kervella et al., A&A 597, A137 (2017), arXiv"
+      },
+      {
+        "title": "NASA's Webb Finds New Evidence for Planet Around Closest Solar Twin",
+        "url": "https://science.nasa.gov/missions/webb/nasas-webb-finds-new-evidence-for-planet-around-closest-solar-twin/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "sirio-a",
@@ -6176,8 +6187,19 @@
     "glyph": "#dfe9ff",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "The interferometric diameter and internal structure of Sirius A",
+        "url": "https://arxiv.org/abs/astro-ph/0306604",
+        "publisher": "Kervella et al., Astron. Astrophys. 408, 681 (2003), arXiv"
+      },
+      {
+        "title": "Astronomers use Hubble to 'weigh' Dog Star's companion (heic0516)",
+        "url": "https://esahubble.org/news/heic0516/",
+        "publisher": "ESA/Hubble"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "altair",
@@ -6186,8 +6208,14 @@
     "glyph": "#f1f5ff",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Imaging the Surface of Altair",
+        "url": "https://arxiv.org/pdf/0706.0867",
+        "publisher": "Monnier et al. (2007), arXiv"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "procione",
@@ -6196,8 +6224,14 @@
     "glyph": "#fff4d6",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "The diameter and evolutionary state of Procyon A",
+        "url": "https://arxiv.org/abs/astro-ph/0309148",
+        "publisher": "Kervella et al., Astron. Astrophys. 413, 251 (2004), arXiv"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "vega",
@@ -6206,8 +6240,14 @@
     "glyph": "#dfe9ff",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Resolving Vega and the inclination controversy with CHARA/MIRC",
+        "url": "https://arxiv.org/pdf/1211.6055",
+        "publisher": "Monnier et al. (2012), accettato da ApJ Letters, arXiv"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "regolo",
@@ -6216,8 +6256,14 @@
     "glyph": "#bcd0ff",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Colder and Hotter: Interferometric imaging of β Cassiopeiae and α Leonis",
+        "url": "https://arxiv.org/pdf/1105.0740",
+        "publisher": "Che et al., ApJ 732, 68 (2011), arXiv"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "perielio-della-parker-solar-probe",
@@ -6238,8 +6284,14 @@
     "glyph": "#a9c4ff",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Stellar modelling of Spica, a high-mass spectroscopic binary with a beta Cep variable primary component",
+        "url": "https://arxiv.org/abs/1601.08069",
+        "publisher": "Tkachenko et al. (2016), arXiv"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "pollux",
@@ -6248,8 +6300,14 @@
     "glyph": "#ffc78a",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "The Mass of the Planet-hosting Giant Star Beta Geminorum Determined from its p-mode Oscillation Spectrum",
+        "url": "https://arxiv.org/pdf/1205.5889",
+        "publisher": "Hatzes et al. (2012), arXiv"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "altezza-totale-dell-umanita",
@@ -6270,8 +6328,14 @@
     "glyph": "#ffe3a3",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Capella (alpha Aurigae) revisited: New binary orbit, physical properties, and evolutionary state",
+        "url": "https://arxiv.org/abs/1505.07461",
+        "publisher": "Torres et al. (2015), arXiv"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "sistema-di-trappist-1",
@@ -6294,8 +6358,14 @@
       "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Variable Star of the Year: VV Cephei",
+        "url": "https://britastro.org/vss/vsoty2018.pdf",
+        "publisher": "British Astronomical Association, Variable Star Section"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "sagittarius-a",
@@ -6326,11 +6396,23 @@
     "kind": "s",
     "glyph": "#8fb0ff",
     "flags": [
-      "r"
+      "r",
+      "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Dynamical mass of the O-type supergiant in Zeta Orionis A",
+        "url": "https://arxiv.org/pdf/1306.0330",
+        "publisher": "Hummel et al. (2013), arXiv"
+      },
+      {
+        "title": "Constellation: Orion",
+        "url": "https://noirlab.edu/public/education/constellations/orion/",
+        "publisher": "NSF NOIRLab"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "arturo",
@@ -6339,8 +6421,14 @@
     "glyph": "#ffb27a",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Fundamental Parameters and Chemical Composition of Arcturus",
+        "url": "https://arxiv.org/abs/1109.4425",
+        "publisher": "Ramírez e Allende Prieto (2011), arXiv"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "distanza-mercurio-sole",
