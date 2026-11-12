@@ -7662,16 +7662,6 @@
     "verified": "2026-11-12"
   },
   {
-    "id": "nebulosa-testa-di-cavallo",
-    "size": 33000000000000000,
-    "kind": "n",
-    "glyph": "0",
-    "flags": [],
-    "image": null,
-    "sources": [],
-    "verified": null
-  },
-  {
     "id": "nebulosa-boomerang",
     "size": 36000000000000000,
     "kind": "n",
@@ -7721,6 +7711,29 @@
     "verified": "2026-11-12"
   },
   {
+    "id": "nebulosa-testa-di-cavallo",
+    "size": 47000000000000000,
+    "kind": "n",
+    "glyph": "0",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [
+      {
+        "title": "APOD: 2025 December 10 – The Horsehead Nebula",
+        "url": "https://science.nasa.gov/image-article/apod-2025-december-10-the-horsehead-nebula/",
+        "publisher": "NASA Science (Astronomy Picture of the Day)"
+      },
+      {
+        "title": "Webb Captures Top of Iconic Horsehead Nebula in Unprecedented Detail",
+        "url": "https://science.nasa.gov/missions/webb/webb-captures-top-of-iconic-horsehead-nebula-in-unprecedented-detail",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
+  },
+  {
     "id": "pilastri-della-creazione",
     "size": 47000000000000000,
     "kind": "n",
@@ -7729,8 +7742,24 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Hubble Goes High Def to Revisit the Iconic 'Pillars of Creation'",
+        "url": "https://science.nasa.gov/missions/hubble/hubble-goes-high-def-to-revisit-the-iconic-pillars-of-creation/",
+        "publisher": "NASA Science"
+      },
+      {
+        "title": "Messier 16 (The Eagle Nebula)",
+        "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-16/",
+        "publisher": "NASA Science"
+      },
+      {
+        "title": "NASA's Webb Takes Star-Filled Portrait of Pillars of Creation",
+        "url": "https://webbtelescope.org/contents/news-releases/2022/news-2022-052",
+        "publisher": "STScI (webbtelescope.org)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "nebulosa-elica",
@@ -7738,21 +7767,46 @@
     "kind": "n",
     "glyph": "1",
     "flags": [
-      "r"
+      "r",
+      "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Caldwell 63 (Helix Nebula)",
+        "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-caldwell-catalog/caldwell-63",
+        "publisher": "NASA Science"
+      },
+      {
+        "title": "APOD: 2014 January 10 – NGC 7293: The Helix Nebula",
+        "url": "https://science.nasa.gov/image-article/apod-2014-january-10-ngc-7293-the-helix-nebula/",
+        "publisher": "NASA Science (Astronomy Picture of the Day)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "nebulosa-bolla",
     "size": 66000000000000000,
     "kind": "n",
     "glyph": "2",
-    "flags": [],
+    "flags": [
+      "u"
+    ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Hubble Sees a Star 'Inflating' a Giant Bubble",
+        "url": "https://science.nasa.gov/missions/hubble/hubble-sees-a-star-inflating-a-giant-bubble/",
+        "publisher": "NASA Science"
+      },
+      {
+        "title": "The Bubble Nebula (heic1608)",
+        "url": "https://esahubble.org/news/heic1608/",
+        "publisher": "ESA/Hubble"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "nebulosa-cono",
@@ -7761,8 +7815,14 @@
     "glyph": "0",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Cone Nebula (NGC 2264): Star-Forming Pillar of Gas and Dust",
+        "url": "https://science.nasa.gov/asset/hubble/cone-nebula-ngc-2264-star-forming-pillar-of-gas-and-dust/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "the-spire",
@@ -7773,8 +7833,14 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Messier 16 (The Eagle Nebula)",
+        "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-16/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "nebulosa-granchio",
@@ -7783,8 +7849,19 @@
     "glyph": "4",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Crab Nebula (Hubble mosaic)",
+        "url": "https://science.nasa.gov/asset/hubble/crab-nebula-3/",
+        "publisher": "NASA Science"
+      },
+      {
+        "title": "Messier 1 (The Crab Nebula)",
+        "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-1/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "nebulosa-di-orione",
@@ -7793,8 +7870,24 @@
     "glyph": "0",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "M42/M43, NGC 1976, Orion Nebula",
+        "url": "https://noirlab.edu/public/images/noao-02677/",
+        "publisher": "NOIRLab"
+      },
+      {
+        "title": "The distance to the Orion Nebula",
+        "url": "https://arxiv.org/abs/0709.0485",
+        "publisher": "Menten et al., Astronomy & Astrophysics, arXiv"
+      },
+      {
+        "title": "Messier 42 (The Orion Nebula)",
+        "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-42/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "nube-interstellare-locale",
@@ -7803,18 +7896,42 @@
     "glyph": "1",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Voyager spacecraft solve 'fluffy' mystery",
+        "url": "https://physicstoday.aip.org/news/voyager-spacecraft-solve-fluffy-mystery",
+        "publisher": "Physics Today (American Institute of Physics)"
+      },
+      {
+        "title": "NASA's IBEX Spacecraft Reveals New Observations of Interstellar Matter",
+        "url": "https://svs.gsfc.nasa.gov/10906",
+        "publisher": "NASA Scientific Visualization Studio"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "nebulosa-grotta",
-    "size": 660000000000000000,
+    "size": 380000000000000000,
     "kind": "n",
     "glyph": "0",
-    "flags": [],
+    "flags": [
+      "r"
+    ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Caldwell 9 (Cave Nebula)",
+        "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-caldwell-catalog/caldwell-9",
+        "publisher": "NASA Science"
+      },
+      {
+        "title": "APOD: 2017 March 23 – Sh2-155: The Cave Nebula",
+        "url": "https://apod.nasa.gov/apod/ap170323.html",
+        "publisher": "NASA (Astronomy Picture of the Day)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "nebulosa-aquila",
@@ -7823,8 +7940,14 @@
     "glyph": "3",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Messier 16 (The Eagle Nebula)",
+        "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-16/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "messier-14",
@@ -7856,11 +7979,23 @@
     "kind": "n",
     "glyph": "0",
     "flags": [
-      "r"
+      "r",
+      "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Distance and Tangential Velocity of the Main Ionizing Star in the North America/Pelican Nebulae with Gaia EDR3",
+        "url": "https://arxiv.org/html/2012.05074",
+        "publisher": "Kuhn & Hillenbrand, Research Notes of the AAS, arXiv"
+      },
+      {
+        "title": "APOD: 2011 February 15 – The North America Nebula in Infrared",
+        "url": "https://science.nasa.gov/image-article/apod-2011-february-15-the-north-america-nebula-in-infrared/",
+        "publisher": "NASA Science (Astronomy Picture of the Day)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "nebulosa-laguna",

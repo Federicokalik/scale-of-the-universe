@@ -1594,7 +1594,7 @@
     },
     "nebulosa-testa-di-cavallo": {
       "name": "Nebulosa Testa di Cavallo",
-      "desc": ""
+      "desc": "La Testa di Cavallo, catalogata come Barnard 33, è una nube oscura di polvere e gas nella costellazione di Orione, visibile perché si staglia contro il bagliore rosso dell'idrogeno retrostante. Secondo la NASA è alta circa 5 anni luce. Le stime della sua distanza vanno da 1.300 a 1.600 anni luce a seconda della fonte."
     },
     "distanza-sole-proxima": {
       "name": "Distanza Sole–Proxima",
@@ -1602,47 +1602,47 @@
     },
     "pilastri-della-creazione": {
       "name": "Pilastri della Creazione",
-      "desc": "Da 4 a 5 anni luce. Ripresi dal telescopio Webb nel 2022. L'originale: 10 anni luce."
+      "desc": "I Pilastri della Creazione sono colonne di gas freddo e polvere nel cuore della Nebulosa Aquila, erose dalla radiazione ultravioletta di giovani stelle vicine. Sono alti da 4 a 5 anni luce. Resi celebri da un'immagine del telescopio Hubble del 1995, sono stati ripresi nell'infrarosso dal telescopio Webb nel 2022."
     },
     "nebulosa-elica": {
       "name": "Nebulosa Elica",
-      "desc": "Una delle nebulose planetarie più vicine."
+      "desc": "La Nebulosa Elica (NGC 7293) è una nebulosa planetaria, cioè il gas espulso da una stella simile al Sole giunta a fine vita. A circa 650 anni luce, nella costellazione dell'Acquario, è una delle nebulose planetarie più vicine alla Terra. La dimensione dipende da cosa si misura: l'anello brillante è largo quasi 3 anni luce, mentre l'alone esterno più debole supera i 6 anni luce."
     },
     "nebulosa-bolla": {
       "name": "Nebulosa Bolla",
-      "desc": ""
+      "desc": "La Nebulosa Bolla (NGC 7635) è un guscio di gas gonfiato dal vento di una stella 45 volte più massiccia del Sole, nella costellazione di Cassiopea. La NASA le attribuisce un diametro di 7 anni luce a 7.100 anni luce di distanza, mentre l'ESA indica circa 10 anni luce a 8.000 anni luce. Fu scoperta da William Herschel nel 1787."
     },
     "nebulosa-cono": {
       "name": "Nebulosa Cono",
-      "desc": ""
+      "desc": "La Nebulosa Cono è una colonna di gas freddo e polvere in una regione di formazione stellare (NGC 2264) nella costellazione dell'Unicorno, a circa 2.500 anni luce. È lunga in tutto 7 anni luce. La celebre immagine del telescopio Hubble ne mostra solo la parte superiore, per 2,5 anni luce."
     },
     "the-spire": {
       "name": "The Spire",
-      "desc": "Una colonna di gas nella Nebulosa Aquila, lunga 9,5 anni luce."
+      "desc": "The Spire è una torre di gas freddo e polvere nella Nebulosa Aquila (M16), ripresa dal telescopio Hubble in luce visibile e infrarossa. È lunga 9,5 anni luce, più del doppio della distanza tra il Sole e la stella più vicina. La radiazione delle giovani stelle calde vicine la illumina e la erode."
     },
     "nebulosa-granchio": {
       "name": "Nebulosa Granchio",
-      "desc": "Il resto della supernova vista nel 1054."
+      "desc": "La Nebulosa Granchio (M1) è ciò che resta della supernova osservata dagli astronomi cinesi nel 1054, a 6.500 anni luce nella costellazione del Toro. Da allora continua a espandersi e oggi è larga circa 11 anni luce. Al centro si trova una pulsar, una stella di neutroni in rapida rotazione che alimenta la nebulosa."
     },
     "nebulosa-di-orione": {
       "name": "Nebulosa di Orione",
-      "desc": "La culla di stelle più vicina: 1.344 anni luce."
+      "desc": "La Nebulosa di Orione (M42) è una nube di gas illuminata da giovani stelle calde, visibile a occhio nudo sotto la Cintura di Orione. Secondo la NASA è la grande regione di formazione stellare più vicina alla Terra: una misura di parallasse del 2007 la colloca a 414 parsec, circa 1.350 anni luce. In cielo copre circa un grado, che a quella distanza corrisponde a circa 24 anni luce."
     },
     "nube-interstellare-locale": {
       "name": "Nube Interstellare Locale",
-      "desc": "Il gas rarefatto che il Sole sta attraversando: l'originale lo chiamava vicinato solare."
+      "desc": "La Nube Interstellare Locale è la nube di gas rarefatto, soprattutto idrogeno ed elio, che il Sistema Solare sta attraversando. È larga circa 30 anni luce e ha una temperatura di circa 6.000 °C. Secondo la NASA il Sole ne uscirà presto, su scala astronomica."
     },
     "nebulosa-grotta": {
       "name": "Nebulosa Grotta",
-      "desc": ""
+      "desc": "La Nebulosa Grotta (Caldwell 9, Sh2-155) è una nebulosa a emissione nella costellazione di Cefeo, dove si stanno formando nuove stelle. Secondo la NASA si estende per circa 40 anni luce e dista circa 3.000 anni luce. È diffusa e poco contrastata, tanto che fu catalogata solo nel 1959 da Stewart Sharpless."
     },
     "nebulosa-aquila": {
       "name": "Nebulosa Aquila",
-      "desc": ""
+      "desc": "La Nebulosa Aquila (M16) è una nebulosa a emissione con un giovane ammasso di stelle, a circa 7.000 anni luce nella costellazione del Serpente. Misura circa 70 per 55 anni luce e contiene i celebri Pilastri della Creazione, che ne sono solo una piccola parte. Fu scoperta nel 1745 dall'astronomo svizzero Jean-Philippe Loys de Chéseaux."
     },
     "nebulosa-nord-america": {
       "name": "Nebulosa Nord America",
-      "desc": "Con la distanza di Gaia è larga circa 90 anni luce."
+      "desc": "La Nebulosa Nord America (NGC 7000) è una nebulosa a emissione nella costellazione del Cigno, la cui forma ricorda quella del continente. Le misure del satellite Gaia la collocano a circa 785 parsec, cioè 2.560 anni luce, e a questa distanza risulta larga tra 85 e 90 anni luce. Le pagine divulgative della NASA riportano ancora circa 50 anni luce, calcolati con la vecchia distanza di 1.500 anni luce."
     },
     "messier-14": {
       "name": "Messier 14",

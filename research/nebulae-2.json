@@ -1,0 +1,284 @@
+[
+  {
+    "id": "nebulosa-testa-di-cavallo",
+    "size": 4.7e16,
+    "basis": "altezza della nube oscura Barnard 33, dalla base alla sommità della \"testa\"",
+    "verdict": "corrected",
+    "flags": ["r"],
+    "desc": "La Testa di Cavallo, catalogata come Barnard 33, è una nube oscura di polvere e gas nella costellazione di Orione, visibile perché si staglia contro il bagliore rosso dell'idrogeno retrostante. Secondo la NASA è alta circa 5 anni luce. Le stime della sua distanza vanno da 1.300 a 1.600 anni luce a seconda della fonte.",
+    "sources": [
+      {
+        "title": "APOD: 2025 December 10 – The Horsehead Nebula",
+        "url": "https://science.nasa.gov/image-article/apod-2025-december-10-the-horsehead-nebula/",
+        "publisher": "NASA Science (Astronomy Picture of the Day)",
+        "evidence": "About five light-years “tall,” the dark cloud is cataloged as Barnard 33"
+      },
+      {
+        "title": "Webb Captures Top of Iconic Horsehead Nebula in Unprecedented Detail",
+        "url": "https://science.nasa.gov/missions/webb/webb-captures-top-of-iconic-horsehead-nebula-in-unprecedented-detail",
+        "publisher": "NASA Science",
+        "evidence": "Barnard 33, which resides roughly 1,300 light-years away"
+      }
+    ],
+    "note": "Corretto da 3,3e16 m (circa 3,5 anni luce) a 4,7e16 m: 5 anni luce × 9,461e15 m = 4,73e16 m. Per il valore precedente non ho trovato alcuna fonte istituzionale; l'unica cifra pubblicata dalla NASA è \"about five light-years tall\", riferita a una distanza di 1.500 anni luce. È un valore arrotondato: le distanze citate vanno da 1.300 (NASA/Webb, ESA) a 1.600 anni luce (NOIRLab), quindi l'altezza reale può essere un po' minore.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "pilastri-della-creazione",
+    "size": 4.7e16,
+    "basis": "altezza del pilastro più alto",
+    "verdict": "confirmed",
+    "flags": ["r"],
+    "desc": "I Pilastri della Creazione sono colonne di gas freddo e polvere nel cuore della Nebulosa Aquila, erose dalla radiazione ultravioletta di giovani stelle vicine. Sono alti da 4 a 5 anni luce. Resi celebri da un'immagine del telescopio Hubble del 1995, sono stati ripresi nell'infrarosso dal telescopio Webb nel 2022.",
+    "sources": [
+      {
+        "title": "Hubble Goes High Def to Revisit the Iconic 'Pillars of Creation'",
+        "url": "https://science.nasa.gov/missions/hubble/hubble-goes-high-def-to-revisit-the-iconic-pillars-of-creation/",
+        "publisher": "NASA Science",
+        "evidence": "The towering pillars are about 5 light-years tall"
+      },
+      {
+        "title": "Messier 16 (The Eagle Nebula)",
+        "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-16/",
+        "publisher": "NASA Science",
+        "evidence": "Stretching roughly 4 to 5 light-years tall"
+      },
+      {
+        "title": "NASA's Webb Takes Star-Filled Portrait of Pillars of Creation",
+        "url": "https://webbtelescope.org/contents/news-releases/2022/news-2022-052",
+        "publisher": "STScI (webbtelescope.org)",
+        "evidence": "first made famous when imaged by NASA’s Hubble Space Telescope in 1995"
+      }
+    ],
+    "note": "5 anni luce × 9,461e15 m = 4,73e16 m, in accordo con 4,7e16 m. Tolta la frase \"L'originale: 10 anni luce\": riguarda il sito del 2012 e non è un dato verificabile su una fonte. La data del comunicato Webb è 19 ottobre 2022.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "nebulosa-elica",
+    "size": 5.4e16,
+    "basis": "diametro della nebulosa compresi gli anelli esterni più deboli",
+    "verdict": "uncertain",
+    "flags": ["r", "u"],
+    "desc": "La Nebulosa Elica (NGC 7293) è una nebulosa planetaria, cioè il gas espulso da una stella simile al Sole giunta a fine vita. A circa 650 anni luce, nella costellazione dell'Acquario, è una delle nebulose planetarie più vicine alla Terra. La dimensione dipende da cosa si misura: l'anello brillante è largo quasi 3 anni luce, mentre l'alone esterno più debole supera i 6 anni luce.",
+    "sources": [
+      {
+        "title": "Caldwell 63 (Helix Nebula)",
+        "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-caldwell-catalog/caldwell-63",
+        "publisher": "NASA Science",
+        "evidence": "bright ring stretching across nearly three light-years and dimmer, outer features extending even farther"
+      },
+      {
+        "title": "APOD: 2014 January 10 – NGC 7293: The Helix Nebula",
+        "url": "https://science.nasa.gov/image-article/apod-2014-january-10-ngc-7293-the-helix-nebula/",
+        "publisher": "NASA Science (Astronomy Picture of the Day)",
+        "evidence": "outer halo features that give the nebula a span of well over six light-years"
+      }
+    ],
+    "note": "Il valore attuale, 5,4e16 m (circa 5,7 anni luce), sta fra le due misure pubblicate: quasi 3 anni luce (2,8e16 m) per l'anello brillante e oltre 6 anni luce (5,7e16 m) con l'alone. Lo lascio invariato come estensione complessiva, con il flag u. La pagina NASA conferma \"one of the nearest planetary nebulae to Earth\". L'ESO (eso0907) indica circa 700 anni luce di distanza e un anello principale di circa 2 anni luce.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "nebulosa-bolla",
+    "size": 6.6e16,
+    "basis": "diametro della bolla di gas",
+    "verdict": "uncertain",
+    "flags": ["u"],
+    "desc": "La Nebulosa Bolla (NGC 7635) è un guscio di gas gonfiato dal vento di una stella 45 volte più massiccia del Sole, nella costellazione di Cassiopea. La NASA le attribuisce un diametro di 7 anni luce a 7.100 anni luce di distanza, mentre l'ESA indica circa 10 anni luce a 8.000 anni luce. Fu scoperta da William Herschel nel 1787.",
+    "sources": [
+      {
+        "title": "Hubble Sees a Star 'Inflating' a Giant Bubble",
+        "url": "https://science.nasa.gov/missions/hubble/hubble-sees-a-star-inflating-a-giant-bubble/",
+        "publisher": "NASA Science",
+        "evidence": "The Bubble Nebula is seven light-years across"
+      },
+      {
+        "title": "The Bubble Nebula (heic1608)",
+        "url": "https://esahubble.org/news/heic1608/",
+        "publisher": "ESA/Hubble",
+        "evidence": "the sphere already measures around ten light-years in diameter"
+      }
+    ],
+    "note": "7 anni luce × 9,461e15 m = 6,62e16 m, pari al valore attuale, che resta invariato. Aggiunto il flag u perché NASA ed ESA, per la stessa immagine Hubble del 2016, danno 7 e circa 10 anni luce (6,6e16 e 9,5e16 m), con distanze di 7.100 e 8.000 anni luce.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "nebulosa-cono",
+    "size": 6.7e16,
+    "basis": "lunghezza dell'intera colonna di gas e polvere",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "La Nebulosa Cono è una colonna di gas freddo e polvere in una regione di formazione stellare (NGC 2264) nella costellazione dell'Unicorno, a circa 2.500 anni luce. È lunga in tutto 7 anni luce. La celebre immagine del telescopio Hubble ne mostra solo la parte superiore, per 2,5 anni luce.",
+    "sources": [
+      {
+        "title": "Cone Nebula (NGC 2264): Star-Forming Pillar of Gas and Dust",
+        "url": "https://science.nasa.gov/asset/hubble/cone-nebula-ngc-2264-star-forming-pillar-of-gas-and-dust/",
+        "publisher": "NASA Science",
+        "evidence": "The entire nebula is 7 light-years long"
+      }
+    ],
+    "note": "7 anni luce × 9,461e15 m = 6,62e16 m, entro il 2% del valore attuale.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "the-spire",
+    "size": 9e16,
+    "basis": "lunghezza della colonna di gas e polvere",
+    "verdict": "confirmed",
+    "flags": ["r"],
+    "desc": "The Spire è una torre di gas freddo e polvere nella Nebulosa Aquila (M16), ripresa dal telescopio Hubble in luce visibile e infrarossa. È lunga 9,5 anni luce, più del doppio della distanza tra il Sole e la stella più vicina. La radiazione delle giovani stelle calde vicine la illumina e la erode.",
+    "sources": [
+      {
+        "title": "Messier 16 (The Eagle Nebula)",
+        "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-16/",
+        "publisher": "NASA Science",
+        "evidence": "Stretching 9.5 light-years, this tower spans more than twice the distance"
+      }
+    ],
+    "note": "9,5 anni luce × 9,461e15 m = 8,99e16 m.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "nebulosa-granchio",
+    "size": 1.04e17,
+    "basis": "larghezza del resto di supernova",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "La Nebulosa Granchio (M1) è ciò che resta della supernova osservata dagli astronomi cinesi nel 1054, a 6.500 anni luce nella costellazione del Toro. Da allora continua a espandersi e oggi è larga circa 11 anni luce. Al centro si trova una pulsar, una stella di neutroni in rapida rotazione che alimenta la nebulosa.",
+    "sources": [
+      {
+        "title": "Crab Nebula (Hubble mosaic)",
+        "url": "https://science.nasa.gov/asset/hubble/crab-nebula-3/",
+        "publisher": "NASA Science",
+        "evidence": "it is now approximately 11 light-years in width"
+      },
+      {
+        "title": "Messier 1 (The Crab Nebula)",
+        "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-1/",
+        "publisher": "NASA Science",
+        "evidence": "In 1054, Chinese astronomers took notice of a “guest star”"
+      }
+    ],
+    "note": "11 anni luce × 9,461e15 m = 1,04e17 m. Attenzione: altre pagine NASA danno cifre diverse. La scheda Messier 1 parla di un resto \"six-light-year-wide\" e Chandra (2018) di un'immagine larga circa 5 primi d'arco, cioè 10 anni luce. Ho tenuto gli 11 anni luce della pagina del mosaico Hubble, che descrive l'intera nebulosa.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "nebulosa-di-orione",
+    "size": 2.3e17,
+    "basis": "diametro della nebulosa, ricavato da dimensione angolare (circa 66 × 60 primi d'arco) e distanza (414 parsec)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "La Nebulosa di Orione (M42) è una nube di gas illuminata da giovani stelle calde, visibile a occhio nudo sotto la Cintura di Orione. Secondo la NASA è la grande regione di formazione stellare più vicina alla Terra: una misura di parallasse del 2007 la colloca a 414 parsec, circa 1.350 anni luce. In cielo copre circa un grado, che a quella distanza corrisponde a circa 24 anni luce.",
+    "sources": [
+      {
+        "title": "M42/M43, NGC 1976, Orion Nebula",
+        "url": "https://noirlab.edu/public/images/noao-02677/",
+        "publisher": "NOIRLab",
+        "evidence": "Size: about 66 by 60 arc minutes"
+      },
+      {
+        "title": "The distance to the Orion Nebula",
+        "url": "https://arxiv.org/abs/0709.0485",
+        "publisher": "Menten et al., Astronomy & Astrophysics, arXiv",
+        "evidence": "distance to the cluster to be 414 +/- 7 pc"
+      },
+      {
+        "title": "Messier 42 (The Orion Nebula)",
+        "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-42/",
+        "publisher": "NASA Science",
+        "evidence": "making it the closest large star-forming region to Earth"
+      }
+    ],
+    "note": "Dimensione derivata: 66' = 0,0192 rad × 414 pc = 7,95 pc = 25,9 anni luce; 60' = 0,01745 rad × 414 pc = 7,23 pc = 23,6 anni luce. Il valore attuale, 2,3e17 m (24,3 anni luce), cade in questo intervallo. Non ho trovato una pagina istituzionale che scriva \"24 anni luce\"; una pagina APOD della NASA dice \"about 40 light years\", riferita a un'estensione più ampia. Distanza: 414 pc × 3,2616 = 1.350 anni luce; ho sostituito \"1.344\" con \"circa 1.350\" e \"la culla più vicina\" con la formulazione NASA (grande regione di formazione stellare più vicina).",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "nube-interstellare-locale",
+    "size": 2.8e17,
+    "basis": "larghezza della nube",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "La Nube Interstellare Locale è la nube di gas rarefatto, soprattutto idrogeno ed elio, che il Sistema Solare sta attraversando. È larga circa 30 anni luce e ha una temperatura di circa 6.000 °C. Secondo la NASA il Sole ne uscirà presto, su scala astronomica.",
+    "sources": [
+      {
+        "title": "Voyager spacecraft solve 'fluffy' mystery",
+        "url": "https://physicstoday.aip.org/news/voyager-spacecraft-solve-fluffy-mystery",
+        "publisher": "Physics Today (American Institute of Physics)",
+        "evidence": "The local fluff is about 30 light-years wide"
+      },
+      {
+        "title": "NASA's IBEX Spacecraft Reveals New Observations of Interstellar Matter",
+        "url": "https://svs.gsfc.nasa.gov/10906",
+        "publisher": "NASA Scientific Visualization Studio",
+        "evidence": "the Sun will soon emerge from the Local Cloud that now surrounds the Sun"
+      }
+    ],
+    "note": "30 anni luce × 9,461e15 m = 2,84e17 m. La cifra è tonda e i confini della nube sono ricostruiti da modelli, non osservati direttamente. Il comunicato NASA originale del 2009 (\"Voyager Makes an Interstellar Discovery\") non è più raggiungibile sui siti NASA (404, e jpl.nasa.gov risponde 403), quindi cito il resoconto di Physics Today che ne riporta il testo. Tolto il riferimento a come l'oggetto era chiamato nel sito originale: non verificabile su una fonte.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "nebulosa-grotta",
+    "size": 3.8e17,
+    "basis": "estensione massima della nebulosa a emissione",
+    "verdict": "corrected",
+    "flags": ["r"],
+    "desc": "La Nebulosa Grotta (Caldwell 9, Sh2-155) è una nebulosa a emissione nella costellazione di Cefeo, dove si stanno formando nuove stelle. Secondo la NASA si estende per circa 40 anni luce e dista circa 3.000 anni luce. È diffusa e poco contrastata, tanto che fu catalogata solo nel 1959 da Stewart Sharpless.",
+    "sources": [
+      {
+        "title": "Caldwell 9 (Cave Nebula)",
+        "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-caldwell-catalog/caldwell-9",
+        "publisher": "NASA Science",
+        "evidence": "a span of roughly 40 light-years"
+      },
+      {
+        "title": "APOD: 2017 March 23 – Sh2-155: The Cave Nebula",
+        "url": "https://apod.nasa.gov/apod/ap170323.html",
+        "publisher": "NASA (Astronomy Picture of the Day)",
+        "evidence": "the cosmic cave is over 10 light-years across"
+      }
+    ],
+    "note": "Corretto da 6,6e17 m (circa 70 anni luce) a 3,8e17 m: 40 anni luce × 9,461e15 m = 3,78e17 m. Per i 70 anni luce non ho trovato alcuna fonte istituzionale. La cifra resta approssimativa: la sola cavità centrale misura poco più di 10 anni luce (APOD), e APOD indica una distanza di 2.400 anni luce anziché 3.000.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "nebulosa-aquila",
+    "size": 6.7e17,
+    "basis": "estensione massima della nebulosa (asse maggiore)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "La Nebulosa Aquila (M16) è una nebulosa a emissione con un giovane ammasso di stelle, a circa 7.000 anni luce nella costellazione del Serpente. Misura circa 70 per 55 anni luce e contiene i celebri Pilastri della Creazione, che ne sono solo una piccola parte. Fu scoperta nel 1745 dall'astronomo svizzero Jean-Philippe Loys de Chéseaux.",
+    "sources": [
+      {
+        "title": "Messier 16 (The Eagle Nebula)",
+        "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-16/",
+        "publisher": "NASA Science",
+        "evidence": "the entire Eagle Nebula, which spans 70 by 55 light-years"
+      }
+    ],
+    "note": "70 anni luce × 9,461e15 m = 6,62e17 m, entro il 2% del valore attuale. Altre pagine NASA e STScI indicano 6.500 anni luce di distanza anziché 7.000.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "nebulosa-nord-america",
+    "size": 8.5e17,
+    "basis": "estensione massima della nebulosa, ricavata dalla dimensione angolare e dalla distanza misurata da Gaia",
+    "verdict": "uncertain",
+    "flags": ["r", "u"],
+    "desc": "La Nebulosa Nord America (NGC 7000) è una nebulosa a emissione nella costellazione del Cigno, la cui forma ricorda quella del continente. Le misure del satellite Gaia la collocano a circa 785 parsec, cioè 2.560 anni luce, e a questa distanza risulta larga tra 85 e 90 anni luce. Le pagine divulgative della NASA riportano ancora circa 50 anni luce, calcolati con la vecchia distanza di 1.500 anni luce.",
+    "sources": [
+      {
+        "title": "Distance and Tangential Velocity of the Main Ionizing Star in the North America/Pelican Nebulae with Gaia EDR3",
+        "url": "https://arxiv.org/html/2012.05074",
+        "publisher": "Kuhn & Hillenbrand, Research Notes of the AAS, arXiv",
+        "evidence": "the distance to the center of the NAP region is 785 ± 16 pc"
+      },
+      {
+        "title": "APOD: 2011 February 15 – The North America Nebula in Infrared",
+        "url": "https://science.nasa.gov/image-article/apod-2011-february-15-the-north-america-nebula-in-infrared/",
+        "publisher": "NASA Science (Astronomy Picture of the Day)",
+        "evidence": "spans about 50 light years and lies about 1,500 light years away"
+      }
+    ],
+    "note": "Nessuna fonte istituzionale dà direttamente 90 anni luce. Derivazione: la NASA indica 50 anni luce a 1.500 anni luce, cioè una dimensione angolare di 50/1.500 = 0,0333 rad (circa 1,9 gradi). Con la distanza Gaia di 785 pc × 3,2616 = 2.560 anni luce si ottiene 0,0333 × 2.560 = 85 anni luce = 8,1e17 m; con circa 800 pc (2.610 anni luce) 87 anni luce. Il valore attuale, 8,5e17 m (89,8 anni luce), è circa il 5% più alto: lo lascio invariato ma con il flag u, perché i bordi della nebulosa non sono netti.",
+    "verified": "2026-11-12"
+  }
+]

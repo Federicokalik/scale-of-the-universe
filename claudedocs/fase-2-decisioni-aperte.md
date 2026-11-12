@@ -31,6 +31,8 @@ Aggiornato dopo ogni ondata. Le correzioni sono già applicate ai dati; le decis
 | Nebulosa Laguna | 1,04 × 10¹⁸ m | 9,5 × 10¹⁷ m | ESO: 100 anni luce; incerta (ESA/Hubble: 55 anni luce) |
 | Nebulosa della Carena | 2,2 × 10¹⁸ m | 2,5 × 10¹⁸ m | ESO e ESA: circa 260 anni luce (NASA: circa 300) |
 | Nebulosa Tarantola | 6 × 10¹⁸ m | 9,5 × 10¹⁸ m | ESO: quasi 1.000 anni luce |
+| Nebulosa Testa di Cavallo | 3,3 × 10¹⁶ m | 4,7 × 10¹⁶ m | NASA Science (APOD): alta circa 5 anni luce |
+| Nebulosa Grotta | 6,6 × 10¹⁷ m | 3,8 × 10¹⁷ m | NASA Science (Caldwell 9): circa 40 anni luce |
 
 ## Decisioni aperte
 
@@ -98,6 +100,12 @@ Aggiornato dopo ogni ondata. Le correzioni sono già applicate ai dati; le decis
 61. **Omega Centauri**: ESO dà circa 150 anni luce (valore attuale), la NASA 450. Segnato incerto.
 62. **Messier 14 e Messier 54**: le cifre popolari (100 e 306 anni luce) non hanno una fonte apribile. M14 poggia su una sola didascalia NOIRLab; per M54 l'abstract citato dice solo "circa 75 pc" di raggio mareale. Segnati incerti.
 63. **Anello di Barnard**: una sola fonte, una didascalia NASA APOD (300 anni luce).
+64. **Nebulosa Elica**: anello brillante di quasi 3 anni luce, alone esterno oltre 6; il valore attuale (circa 5,7 anni luce) sta in mezzo. Segnata incerta.
+65. **Nebulosa Bolla**: NASA 7 anni luce (valore attuale), ESA circa 10. Segnata incerta.
+66. **Nebulosa Nord America**: 85–90 anni luce derivati dalla distanza Gaia (785 pc), non dichiarati da una fonte; una pagina NASA del 2011 dice circa 50. Segnata incerta.
+67. **Nebulosa del Granchio**: lasciata a 11 anni luce (NASA), ma altre pagine NASA dicono 6 e 10.
+68. **Nebulosa di Orione**: 24 anni luce derivati da dimensione angolare e distanza; una pagina NASA APOD dice 40.
+69. **Nube Interstellare Locale**: la cifra (circa 30 anni luce) è citata da Physics Today perché il comunicato NASA originale non è più raggiungibile.
 
 ## Da sistemare prima di chiudere la fase
 
@@ -113,8 +121,8 @@ Aggiornato dopo ogni ondata. Le correzioni sono già applicate ai dati; le decis
 
 ## Avanzamento
 
-Lotti applicati: black-holes, particles-1/2, atoms-1/2, waves-1/2, molecules-1/2, units-1/2/3, biology-1/2/3/4/5, objects-1/2/3/4/5, places-1/2/3/4, solar-system-1/2/3/4/5, stars-1/2/3/4, distances-1/2/3, nebulae-1/3 (394 oggetti su 447).
+Lotti applicati: black-holes, particles-1/2, atoms-1/2, waves-1/2, molecules-1/2, units-1/2/3, biology-1/2/3/4/5, objects-1/2/3/4/5, places-1/2/3/4, solar-system-1/2/3/4/5, stars-1/2/3/4, distances-1/2/3, nebulae-1/2/3 (406 oggetti su 447).
 
-Lotti da fare: nebulae-2, galaxies-1/2, cosmic-1/2.
+Lotti da fare: galaxies-1/2, cosmic-1/2.
 
 Per ogni lotto: `node scripts/apply-research.mjs --check`, `node scripts/check-links.mjs`, campione di fonti riletto in modo indipendente, poi `node scripts/apply-research.mjs`, `npm run validate`, `npm test`, commit.
