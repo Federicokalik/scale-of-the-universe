@@ -1,0 +1,266 @@
+[
+  {
+    "id": "encelado",
+    "size": 504000,
+    "basis": "diametro medio (doppio del raggio medio dell'ellissoide triassiale)",
+    "verdict": "confirmed",
+    "flags": [
+      "n"
+    ],
+    "desc": "Encelado è una luna ghiacciata di Saturno con un diametro medio di circa 504 km. Dal polo sud getti simili a geyser lanciano nello spazio vapore acqueo e granelli di ghiaccio provenienti da un oceano sotterraneo. Nei dati della sonda Cassini sono state trovate molecole organiche complesse e, nel 2023, fosfati.",
+    "sources": [
+      {
+        "title": "Saturnian Satellite Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturniansatfact.html",
+        "publisher": "NASA NSSDCA",
+        "evidence": "Enceladus (II) 1.08 257 x 251 x 248"
+      },
+      {
+        "title": "Enceladus",
+        "url": "https://science.nasa.gov/saturn/moons/enceladus/",
+        "publisher": "NASA Science",
+        "evidence": "geyser-like jets spewing water vapor and ice particles into space"
+      },
+      {
+        "title": "Phosphate, a key building block of life, found on Saturn's moon Enceladus",
+        "url": "https://www.washington.edu/news/2023/06/14/phosphate-a-key-building-block-of-life-found-on-saturns-moon-enceladus/",
+        "publisher": "University of Washington News",
+        "evidence": "detect phosphorus in the form of phosphates in ice particles"
+      },
+      {
+        "title": "Complex Organics Bubble up from Ocean-world Enceladus",
+        "url": "https://science.nasa.gov/missions/cassini/complex-organics-bubble-up-from-ocean-world-enceladus/",
+        "publisher": "NASA Science (Cassini)",
+        "evidence": "complex organic molecules originating from Saturn's icy moon Enceladus"
+      }
+    ],
+    "note": "NSSDCA dà i raggi 257 x 251 x 248 km: raggio medio geometrico 251,97 km, diametro 2 x 251,97 = 503,9 km, cioè 504 km. La pagina NASA arrotonda a circa 500 km. Fosfati e organici confermati: i fosfati sono stati rilevati nei granelli di ghiaccio (studio su Nature, 14 giugno 2023).",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "vesta",
+    "size": 525000,
+    "basis": "diametro medio (media dei tre assi 569 x 555 x 453 km)",
+    "verdict": "confirmed",
+    "flags": [
+      "n"
+    ],
+    "desc": "Vesta è il secondo corpo più massiccio della fascia principale degli asteroidi, dopo Cerere, con un diametro medio di circa 525 km. La sonda Dawn della NASA le ha orbitato attorno dal 16 luglio 2011 al 5 settembre 2012. Il cratere Rheasilvia, largo circa 500 km, è quasi grande quanto l'asteroide stesso.",
+    "sources": [
+      {
+        "title": "Asteroid Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/asteroidfact.html",
+        "publisher": "NASA NSSDCA",
+        "evidence": "4 Vesta 569 x 555 x 453"
+      },
+      {
+        "title": "Vesta",
+        "url": "https://science.nasa.gov/solar-system/asteroids/4-vesta/",
+        "publisher": "NASA Science",
+        "evidence": "Vesta is the second most massive body in the main asteroid belt"
+      }
+    ],
+    "note": "Assi NSSDCA 569 x 555 x 453 km: media aritmetica 525,7 km, media geometrica 523,0 km. La NASA indica che Rheasilvia (500 km) è circa il 95% del diametro medio, cioè circa 526 km. Valore attuale entro l'1%.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "dysnomia",
+    "size": 615000,
+    "basis": "diametro ricavato da un modello termico delle misure radio ALMA",
+    "verdict": "uncertain",
+    "flags": [
+      "r",
+      "u"
+    ],
+    "desc": "Dysnomia è l'unica luna nota del pianeta nano Eris. Il suo diametro non è misurato direttamente: un modello termico basato sui dati del radiotelescopio ALMA dà 615 km, con un intervallo da 565 a 675 km, mentre la stima precedente degli stessi autori era di 700 ± 115 km. La superficie è molto scura, con un'albedo di circa 0,05.",
+    "sources": [
+      {
+        "title": "Masses and densities of dwarf planet satellites measured with ALMA (Brown & Butler 2023)",
+        "url": "https://arxiv.org/pdf/2307.04848",
+        "publisher": "arXiv, Planetary Science Journal",
+        "evidence": "derive a new size for Dysnomia of 615+60−50 km"
+      }
+    ],
+    "note": "Valore 615 km confermato nel testo dell'articolo (615 +60/-50 km, albedo 0,05 ± 0,01), ma è una stima da modello termico su una rilevazione a 6,5 sigma, con errore di circa il 10%: aggiunto il flag u. La stima precedente (Brown & Butler 2018) citata nello stesso articolo è 700 ± 115 km. Tolto 'L'originale: 150 km': non ho trovato una fonte per quel valore. 'Unica luna nota' è l'uso corrente; l'articolo tratta Dysnomia come il satellite di Eris.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "cerere",
+    "size": 939000,
+    "basis": "diametro medio (media geometrica dei tre assi 965 x 961 x 891 km)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Cerere è il corpo più grande della fascia degli asteroidi tra Marte e Giove e l'unico pianeta nano del Sistema Solare interno, con un diametro medio di circa 939 km. Fu scoperta da Giuseppe Piazzi nel 1801. Nel 2015 la sonda Dawn della NASA l'ha raggiunta, facendone il primo pianeta nano visitato da un veicolo spaziale.",
+    "sources": [
+      {
+        "title": "Asteroid Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/asteroidfact.html",
+        "publisher": "NASA NSSDCA",
+        "evidence": "1 Ceres 965 x 961 x 891"
+      },
+      {
+        "title": "Ceres: Facts",
+        "url": "https://science.nasa.gov/dwarf-planets/ceres/facts/",
+        "publisher": "NASA Science",
+        "evidence": "With a radius of 296 miles (476 kilometers)"
+      }
+    ],
+    "note": "Assi NSSDCA 965 x 961 x 891 km: media geometrica 938,4 km. La pagina NASA dà un raggio di 476 km (diametro 952 km, +1,4%). Valore attuale confermato.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "sedna",
+    "size": 1020000,
+    "basis": "diametro ricavato da un modello termofisico delle misure infrarosse di Herschel",
+    "verdict": "uncertain",
+    "flags": [
+      "r",
+      "u"
+    ],
+    "desc": "Sedna è un oggetto transnettuniano dall'orbita molto allungata, che anche nel punto più vicino al Sole resta a circa 76 unità astronomiche. Non è mai stata risolta in immagine: le misure termiche del telescopio spaziale Herschel danno un diametro di 995 ± 80 km, quindi tra circa 915 e 1.075 km. Alla scoperta, nel 2003, era l'oggetto più lontano mai osservato nel Sistema Solare.",
+    "sources": [
+      {
+        "title": "\"TNOs are Cool\": A survey of the trans-Neptunian region VII. Size and surface characteristics of (90377) Sedna and 2010 EK139 (Pál et al. 2012)",
+        "url": "https://arxiv.org/abs/1204.0899",
+        "publisher": "arXiv, Astronomy & Astrophysics",
+        "evidence": "The derived diameter of Sedna and 2010 EK139 are 995 +/- 80 km"
+      },
+      {
+        "title": "Discovery of a candidate inner Oort cloud planetoid (Brown, Trujillo & Rabinowitz 2004)",
+        "url": "https://arxiv.org/abs/astro-ph/0404456",
+        "publisher": "arXiv, Astrophysical Journal Letters",
+        "evidence": "a semimajor axis of 480±40 AU and a perihelion of 76±4AU"
+      }
+    ],
+    "note": "Il valore attuale (1.020 km) è entro il 2,5% dei 995 ± 80 km di Herschel e resta invariato; la misura è indiretta (modello termofisico) con errore dell'8%, per questo verdetto uncertain e flag u. Tolto 'L'originale: 1.800 km': il valore non è riportato nelle fonti aperte (Pál et al. dicono solo che le dimensioni sono minori delle attese precedenti). L'anno 2003 viene dalla designazione 2003 VB12 e dall'articolo di scoperta.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "quaoar",
+    "size": 1090000,
+    "basis": "diametro medio (doppio del raggio stimato)",
+    "verdict": "confirmed",
+    "flags": [
+      "r"
+    ],
+    "desc": "Quaoar è un pianeta nano oltre l'orbita di Nettuno, a quasi 44 volte la distanza Terra-Sole, con un raggio stimato di 555 km, cioè un diametro di circa 1.110 km. Nel 2023 è stato annunciato un anello denso a quasi sette volte e mezzo il raggio di Quaoar, molto oltre il limite di Roche. Secondo la teoria classica a quella distanza il materiale avrebbe dovuto aggregarsi in una piccola luna.",
+    "sources": [
+      {
+        "title": "ESA's Cheops finds an unexpected ring around dwarf planet Quaoar",
+        "url": "https://www.esa.int/Science_Exploration/Space_Science/Cheops/ESA_s_Cheops_finds_an_unexpected_ring_around_dwarf_planet_Quaoar",
+        "publisher": "European Space Agency (ESA)",
+        "evidence": "With an estimated radius of 555 km"
+      }
+    ],
+    "note": "ESA: raggio 555 km, diametro 2 x 555 = 1.110 km; il valore attuale 1.090 km è entro il 2% e resta invariato. La pagina ESA (8 febbraio 2023) descrive un solo anello: 'anelli' al plurale è stato ridotto a 'un anello' perché non ho aperto una fonte sul secondo.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "caronte",
+    "size": 1212000,
+    "basis": "diametro (doppio del raggio equatoriale di 606 km)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Caronte è la più grande delle cinque lune di Plutone, con un diametro di circa 1.212 km. È grande circa la metà di Plutone: nessun altro satellite noto è così grande rispetto al proprio pianeta. I due corpi si mostrano sempre la stessa faccia e Caronte completa un'orbita in 6,4 giorni terrestri.",
+    "sources": [
+      {
+        "title": "Pluto Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/plutofact.html",
+        "publisher": "NASA NSSDCA",
+        "evidence": "Charon (P1) ... Equatorial radius (km) 606"
+      },
+      {
+        "title": "Charon",
+        "url": "https://science.nasa.gov/dwarf-planets/pluto/moons/charon/",
+        "publisher": "NASA Science",
+        "evidence": "Charon is 754 miles (1,214 kilometers) across"
+      }
+    ],
+    "note": "NSSDCA: raggio 606 km, diametro 2 x 606 = 1.212 km. La pagina NASA Science dà 1.214 km. Valore attuale confermato.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "gonggong",
+    "size": 1230000,
+    "basis": "diametro equivalente da analisi radiometrica, assumendo forma sferica",
+    "verdict": "confirmed",
+    "flags": [
+      "n"
+    ],
+    "desc": "Gonggong, già noto come 2007 OR10, è un grande oggetto transnettuniano scoperto a Palomar il 17 luglio 2007. Le misure termiche combinate con l'orbita della sua luna Xiangliu danno un diametro di 1.230 ± 50 km. Con una massa di 1,75 × 10²¹ kg risulta il quinto pianeta nano per massa dopo Eris, Plutone, Haumea e Makemake.",
+    "sources": [
+      {
+        "title": "The mass and density of the dwarf planet (225088) 2007 OR10 (Kiss et al. 2019)",
+        "url": "https://arxiv.org/abs/1903.05439",
+        "publisher": "arXiv, Icarus",
+        "evidence": "this approach provides a size of 1230±50 km"
+      },
+      {
+        "title": "(225088) Gonggong = 2007 OR10",
+        "url": "https://www.minorplanetcenter.net/db_search/show_object?object_id=225088",
+        "publisher": "IAU Minor Planet Center",
+        "evidence": "Discovered at Palomar on 2007-07-17"
+      }
+    ],
+    "note": "Valore confermato (1.230 ± 50 km, Kiss et al. 2019). Tolto 'battezzato nel 2020': la pagina MPC riporta il nome e il riferimento (Minor Planet Circ. 121135) ma non la data, e le pagine che la indicano (NAOC, Planetary Society) non erano raggiungibili da questa sessione. 'Pianeta nano candidato' sostituito con la formulazione dell'articolo, che lo chiama pianeta nano; non è nell'elenco ufficiale IAU.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "makemake",
+    "size": 1430000,
+    "basis": "diametro (asse minore dello sferoide misurato con un'occultazione stellare)",
+    "verdict": "confirmed",
+    "flags": [
+      "n"
+    ],
+    "desc": "Makemake è un pianeta nano della fascia di Kuiper con un diametro di circa 1.430 km. Un'occultazione stellare osservata nel 2011 ha mostrato una forma leggermente schiacciata, con assi di 1.430 ± 9 km e 1.502 ± 45 km, e nessuna atmosfera globale come quella di Plutone. Visto dalla Terra è il secondo oggetto più luminoso della fascia di Kuiper dopo Plutone.",
+    "sources": [
+      {
+        "title": "Dwarf Planet Makemake Lacks Atmosphere (eso1246)",
+        "url": "https://www.eso.org/public/news/eso1246/",
+        "publisher": "European Southern Observatory (ESO)",
+        "evidence": "axes of 1430 ± 9 kilometres and 1502 ± 45 kilometres"
+      },
+      {
+        "title": "Makemake",
+        "url": "https://science.nasa.gov/dwarf-planets/makemake/",
+        "publisher": "NASA Science",
+        "evidence": "With a diameter of approximately 888 miles (1,430 kilometers)"
+      }
+    ],
+    "note": "ESO (Ortiz et al. 2012, Nature): assi 1.430 ± 9 e 1.502 ± 45 km; NASA: circa 1.430 km. Valore confermato. L'anno 2011 dell'occultazione (23 aprile 2011) è nel comunicato ESO.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "haumea",
+    "size": 1560000,
+    "basis": "diametro medio (sfera di pari volume); il corpo è un ellissoide molto allungato",
+    "verdict": "confirmed",
+    "flags": [
+      "n"
+    ],
+    "desc": "Haumea è un pianeta nano della fascia di Kuiper dalla forma molto allungata: l'asse maggiore misura almeno 2.322 km, mentre la sfera di pari volume ha un diametro di circa 1.595 km. Ruota su se stessa in 3,9 ore, una delle rotazioni più rapide tra i grandi corpi del Sistema Solare. Nel 2017 un'occultazione stellare ha rivelato un anello largo 70 km con raggio di circa 2.287 km.",
+    "sources": [
+      {
+        "title": "The size, shape, density and ring of the dwarf planet Haumea from a stellar occultation (Ortiz et al. 2017)",
+        "url": "https://arxiv.org/abs/2006.03113",
+        "publisher": "arXiv, Nature",
+        "evidence": "Haumea's largest axis is at least 2,322 ± 60 km"
+      },
+      {
+        "title": "The size, shape, density and ring of the dwarf planet Haumea from a stellar occultation (full text)",
+        "url": "https://arxiv.org/pdf/2006.03113",
+        "publisher": "arXiv, Nature",
+        "evidence": "volume-equivalent diameter is 1,595 km ± 11 km"
+      },
+      {
+        "title": "Haumea",
+        "url": "https://science.nasa.gov/dwarf-planets/haumea/",
+        "publisher": "NASA Science",
+        "evidence": "one of the fastest rotating large objects in our solar system"
+      }
+    ],
+    "note": "Il valore attuale (1.560 km) è un diametro medio ed è entro il 2,2% del diametro di pari volume di Ortiz et al. (1.595 ± 11 km; semiassi 1.161 x 852 x 513 km, 2 x (1161 x 852 x 513)^(1/3) = 1.595 km), quindi resta invariato. Attenzione: l'asse maggiore è 2.322 km e la NASA indica un diametro equatoriale di circa 1.740 km; se per la scala si preferisce l'estensione massima, il valore sarebbe 2.322.000 m. Periodo di rotazione 3,915341 h dall'articolo.",
+    "verified": "2026-11-12"
+  }
+]

@@ -4525,11 +4525,23 @@
     "kind": "p",
     "glyph": "#8c8377",
     "flags": [
-      "r"
+      "r",
+      "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Shape Modeling of Asteroid (1036) Ganymed (EPSC-DPS2025-1154)",
+        "url": "https://meetingorganizer.copernicus.org/EPSC-DPS2025/EPSC-DPS2025-1154.html",
+        "publisher": "McGraw et al., EPSC-DPS Joint Meeting 2025 (Copernicus)"
+      },
+      {
+        "title": "Goldstone Radar Observations Planning: (1036) Ganymed",
+        "url": "https://echo.jpl.nasa.gov/asteroids/Ganymed/Ganymed_planning.html",
+        "publisher": "NASA JPL Asteroid Radar Research"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "arrokoth",
@@ -4540,8 +4552,19 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "New Horizons",
+        "url": "https://science.nasa.gov/mission/new-horizons/",
+        "publisher": "NASA Science"
+      },
+      {
+        "title": "Arrokoth (2014 MU69)",
+        "url": "https://science.nasa.gov/solar-system/kuiper-belt/arrokoth-2014-mu69/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "maratona",
@@ -4562,20 +4585,24 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
-  },
-  {
-    "id": "idra",
-    "size": 51000,
-    "kind": "p",
-    "glyph": "#d6d1c8",
-    "flags": [
-      "r"
+    "sources": [
+      {
+        "title": "The Small Satellites of Pluto as Observed by New Horizons (Weaver et al. 2016, Science 351, aae0030), full text",
+        "url": "https://arxiv.org/pdf/1604.05366",
+        "publisher": "Weaver et al., Science, arXiv"
+      },
+      {
+        "title": "Pluto Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/plutofact.html",
+        "publisher": "NASA NSSDCA (Goddard Space Flight Center)"
+      },
+      {
+        "title": "Nix",
+        "url": "https://science.nasa.gov/dwarf-planets/pluto/moons/nix/",
+        "publisher": "NASA Science"
+      }
     ],
-    "image": null,
-    "sources": [],
-    "verified": null
+    "verified": "2026-11-12"
   },
   {
     "id": "bianca",
@@ -4584,8 +4611,19 @@
     "glyph": "#8e9aa3",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Uranian Satellite Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uraniansatfact.html",
+        "publisher": "NASA NSSDCA (Goddard Space Flight Center)"
+      },
+      {
+        "title": "Bianca",
+        "url": "https://science.nasa.gov/uranus/moons/bianca/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "buco-nero-stellare",
@@ -4605,6 +4643,34 @@
       {
         "title": "Black Hole Types",
         "url": "https://science.nasa.gov/universe/black-holes/types/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "idra",
+    "size": 62000,
+    "kind": "p",
+    "glyph": "#d6d1c8",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [
+      {
+        "title": "Pluto Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/plutofact.html",
+        "publisher": "NASA NSSDCA (Goddard Space Flight Center)"
+      },
+      {
+        "title": "The Small Satellites of Pluto as Observed by New Horizons (Weaver et al. 2016, Science 351, aae0030), full text",
+        "url": "https://arxiv.org/pdf/1604.05366",
+        "publisher": "Weaver et al., Science, arXiv"
+      },
+      {
+        "title": "Hydra",
+        "url": "https://science.nasa.gov/dwarf-planets/pluto/moons/hydra/",
         "publisher": "NASA Science"
       }
     ],
@@ -4640,8 +4706,19 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Uranian Satellite Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uraniansatfact.html",
+        "publisher": "NASA NSSDCA (Goddard Space Flight Center)"
+      },
+      {
+        "title": "Belinda",
+        "url": "https://science.nasa.gov/uranus/moons/belinda/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "brunei",
@@ -4673,8 +4750,19 @@
     "glyph": "#7d8791",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Neptunian Satellite Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/neptuniansatfact.html",
+        "publisher": "NASA NSSDCA (Goddard Space Flight Center)"
+      },
+      {
+        "title": "Galatea",
+        "url": "https://science.nasa.gov/neptune/moons/galatea/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "gaia-bh3",
@@ -4708,8 +4796,19 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Asteroid 16 Psyche: Shape, Features, and Global Map (Shepard et al. 2021)",
+        "url": "https://arxiv.org/abs/2110.03635",
+        "publisher": "Shepard et al., Planetary Science Journal, arXiv"
+      },
+      {
+        "title": "Asteroid Psyche",
+        "url": "https://science.nasa.gov/solar-system/asteroids/16-psyche/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "ruanda",
@@ -4743,8 +4842,24 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Nereid from space: Rotation, size and shape analysis from Kepler/K2, Herschel and Spitzer observations (Kiss et al. 2016), full text",
+        "url": "https://arxiv.org/pdf/1601.02395",
+        "publisher": "Kiss et al., MNRAS, arXiv"
+      },
+      {
+        "title": "Neptunian Satellite Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/neptuniansatfact.html",
+        "publisher": "NASA NSSDCA (Goddard Space Flight Center)"
+      },
+      {
+        "title": "Nereid",
+        "url": "https://science.nasa.gov/neptune/moons/nereid/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "mimas",
@@ -4755,8 +4870,24 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Planetary Satellite Physical Parameters",
+        "url": "https://ssd.jpl.nasa.gov/sats/phys_par/",
+        "publisher": "NASA JPL Solar System Dynamics"
+      },
+      {
+        "title": "A recently formed ocean inside Saturn's moon Mimas (Lainey et al. 2024)",
+        "url": "https://www.nature.com/articles/s41586-023-06975-9",
+        "publisher": "Lainey et al., Nature 626, 280-282"
+      },
+      {
+        "title": "Mimas",
+        "url": "https://science.nasa.gov/saturn/moons/mimas/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "west-virginia",
@@ -4809,8 +4940,24 @@
     "glyph": "#b9bcc2",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Planetary Satellite Physical Parameters",
+        "url": "https://ssd.jpl.nasa.gov/sats/phys_par/",
+        "publisher": "NASA JPL Solar System Dynamics"
+      },
+      {
+        "title": "Verona Rupes: Tallest Known Cliff in the Solar System (APOD 2020 November 29)",
+        "url": "https://apod.nasa.gov/apod/ap201129.html",
+        "publisher": "NASA Astronomy Picture of the Day"
+      },
+      {
+        "title": "Miranda",
+        "url": "https://science.nasa.gov/uranus/moons/miranda/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "encelado",
@@ -4821,8 +4968,29 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Saturnian Satellite Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturniansatfact.html",
+        "publisher": "NASA NSSDCA"
+      },
+      {
+        "title": "Enceladus",
+        "url": "https://science.nasa.gov/saturn/moons/enceladus/",
+        "publisher": "NASA Science"
+      },
+      {
+        "title": "Phosphate, a key building block of life, found on Saturn's moon Enceladus",
+        "url": "https://www.washington.edu/news/2023/06/14/phosphate-a-key-building-block-of-life-found-on-saturns-moon-enceladus/",
+        "publisher": "University of Washington News"
+      },
+      {
+        "title": "Complex Organics Bubble up from Ocean-world Enceladus",
+        "url": "https://science.nasa.gov/missions/cassini/complex-organics-bubble-up-from-ocean-world-enceladus/",
+        "publisher": "NASA Science (Cassini)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "vesta",
@@ -4833,8 +5001,19 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Asteroid Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/asteroidfact.html",
+        "publisher": "NASA NSSDCA"
+      },
+      {
+        "title": "Vesta",
+        "url": "https://science.nasa.gov/solar-system/asteroids/4-vesta/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "dysnomia",
@@ -4842,11 +5021,18 @@
     "kind": "p",
     "glyph": "#7a7570",
     "flags": [
-      "r"
+      "r",
+      "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Masses and densities of dwarf planet satellites measured with ALMA (Brown & Butler 2023)",
+        "url": "https://arxiv.org/pdf/2307.04848",
+        "publisher": "arXiv, Planetary Science Journal"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "cerere",
@@ -4855,8 +5041,19 @@
     "glyph": "#8b8b8b",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Asteroid Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/asteroidfact.html",
+        "publisher": "NASA NSSDCA"
+      },
+      {
+        "title": "Ceres: Facts",
+        "url": "https://science.nasa.gov/dwarf-planets/ceres/facts/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "megametro",
@@ -4885,11 +5082,23 @@
     "kind": "p",
     "glyph": "#b4533c",
     "flags": [
-      "r"
+      "r",
+      "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "\"TNOs are Cool\": A survey of the trans-Neptunian region VII. Size and surface characteristics of (90377) Sedna and 2010 EK139 (Pál et al. 2012)",
+        "url": "https://arxiv.org/abs/1204.0899",
+        "publisher": "arXiv, Astronomy & Astrophysics"
+      },
+      {
+        "title": "Discovery of a candidate inner Oort cloud planetoid (Brown, Trujillo & Rabinowitz 2004)",
+        "url": "https://arxiv.org/abs/astro-ph/0404456",
+        "publisher": "arXiv, Astrophysical Journal Letters"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "quaoar",
@@ -4900,8 +5109,14 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "ESA's Cheops finds an unexpected ring around dwarf planet Quaoar",
+        "url": "https://www.esa.int/Science_Exploration/Space_Science/Cheops/ESA_s_Cheops_finds_an_unexpected_ring_around_dwarf_planet_Quaoar",
+        "publisher": "European Space Agency (ESA)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "italia",
@@ -4931,8 +5146,19 @@
     "glyph": "#a8a29e",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Pluto Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/plutofact.html",
+        "publisher": "NASA NSSDCA"
+      },
+      {
+        "title": "Charon",
+        "url": "https://science.nasa.gov/dwarf-planets/pluto/moons/charon/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "gonggong",
@@ -4943,8 +5169,19 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "The mass and density of the dwarf planet (225088) 2007 OR10 (Kiss et al. 2019)",
+        "url": "https://arxiv.org/abs/1903.05439",
+        "publisher": "arXiv, Icarus"
+      },
+      {
+        "title": "(225088) Gonggong = 2007 OR10",
+        "url": "https://www.minorplanetcenter.net/db_search/show_object?object_id=225088",
+        "publisher": "IAU Minor Planet Center"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "california",
@@ -4997,8 +5234,19 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Dwarf Planet Makemake Lacks Atmosphere (eso1246)",
+        "url": "https://www.eso.org/public/news/eso1246/",
+        "publisher": "European Southern Observatory (ESO)"
+      },
+      {
+        "title": "Makemake",
+        "url": "https://science.nasa.gov/dwarf-planets/makemake/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "haumea",
@@ -5009,8 +5257,24 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "The size, shape, density and ring of the dwarf planet Haumea from a stellar occultation (Ortiz et al. 2017)",
+        "url": "https://arxiv.org/abs/2006.03113",
+        "publisher": "arXiv, Nature"
+      },
+      {
+        "title": "The size, shape, density and ring of the dwarf planet Haumea from a stellar occultation (full text)",
+        "url": "https://arxiv.org/pdf/2006.03113",
+        "publisher": "arXiv, Nature"
+      },
+      {
+        "title": "Haumea",
+        "url": "https://science.nasa.gov/dwarf-planets/haumea/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "titania",

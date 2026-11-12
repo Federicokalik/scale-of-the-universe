@@ -15,6 +15,7 @@ Aggiornato dopo ogni ondata. Le correzioni sono già applicate ai dati; le decis
 | Uovo di quaglia | 35 mm | 32 mm | Teușan e colleghi, Scientific Papers: Animal Science and Biotechnologies |
 | Ruanda | 230 km | 248 km | Worldmark Encyclopedia of Nations (Gale, via Encyclopedia.com): estensione massima NE–SO |
 | West Virginia | 400 km | 426 km | Worldmark Encyclopedia of the States (Gale, via Encyclopedia.com): estensione est–ovest |
+| Idra (luna di Plutone) | 51 km | 62 km | NASA NSSDCA Pluto Fact Sheet (62,0 × 36,5 × 29,3 km, asse più lungo); Weaver e colleghi 2016 danno 65 × 45 × 25 km |
 
 ## Decisioni aperte
 
@@ -42,9 +43,13 @@ Aggiornato dopo ogni ondata. Le correzioni sono già applicate ai dati; le decis
 21. **Italia**: 1.200 km corrisponde alla penisola (1.185 km), non alla distanza Alpi–Lampedusa (circa 1.290 km). Descrizione riscritta di conseguenza.
 22. **Asia**: 8.500 km è derivato dalle latitudini di Treccani, non è una cifra dichiarata.
 23. **Half Dome**: NPS dice solo "quasi 5.000 piedi" sopra la valle; 1.440 m lasciato.
-24. **Deimos e Fobos**: confermati come diametri medi (12,4 e 22,2 km). La regola dell'asse più lungo darebbe circa 15,6 e 26 km: scegliere un criterio unico per i corpi irregolari.
+24. **Corpi irregolari, criterio unico**: Idra è stata corretta all'asse più lungo (62 km), mentre Deimos (12,4 km), Fobos (22,2 km), Galatea (176 km), Nix (50 km) e Haumea (1.560 km) restano al diametro medio; gli assi più lunghi sarebbero circa 15,6, 26, 204 e 2.322 km. Scegliere un criterio e applicarlo a tutti.
 25. **Dimorphos**: ESA dà 151 m, la pagina NASA su Didymos dice ancora circa 170 m. Lasciato 150 m.
 26. **3I/ATLAS**: 1.040 m da un preprint arXiv (820–1.050 m), entro i limiti di Hubble (0,44–5,6 km). Segnato incerto.
+27. **Ganymed (asteroide)**: fonti da circa 35 km (abstract EPSC-DPS 2025) a quasi 40 km (pagina radar JPL). Lasciato 35 km, segnato incerto.
+28. **Nereide**: 357 km (Kiss e colleghi 2016) contro 340 km (NSSDCA), al limite del 5%. Lasciato confermato.
+29. **Dysnomia e Sedna**: 615 (+60/−50) km e 995 ± 80 km sono stime da modelli termici, mai risolte direttamente. Segnate incerte; Sedna resta a 1.020 km.
+30. **Mercurio**: la descrizione dice che BepiColombo entrerà in orbita il 21 novembre 2026 (ESA). Va riscritta dopo quella data.
 
 ## Da sistemare prima di chiudere la fase
 
@@ -59,8 +64,8 @@ Aggiornato dopo ogni ondata. Le correzioni sono già applicate ai dati; le decis
 
 ## Avanzamento
 
-Lotti applicati: black-holes, particles-1/2, atoms-1/2, waves-1/2, molecules-1/2, units-1/2/3, biology-1/2/3/4/5, objects-1/2/3/4/5, places-1/2/3/4, solar-system-1 (251 oggetti su 447).
+Lotti applicati: black-holes, particles-1/2, atoms-1/2, waves-1/2, molecules-1/2, units-1/2/3, biology-1/2/3/4/5, objects-1/2/3/4/5, places-1/2/3/4, solar-system-1/2/3/4 (283 oggetti su 447).
 
-Lotti da fare: solar-system-2/3/4/5, stars-1/2/3/4, distances-1/2/3, nebulae-1/2/3, galaxies-1/2, cosmic-1/2.
+Lotti da fare: solar-system-5, stars-1/2/3/4, distances-1/2/3, nebulae-1/2/3, galaxies-1/2, cosmic-1/2.
 
 Per ogni lotto: `node scripts/apply-research.mjs --check`, `node scripts/check-links.mjs`, campione di fonti riletto in modo indipendente, poi `node scripts/apply-research.mjs`, `npm run validate`, `npm test`, commit.

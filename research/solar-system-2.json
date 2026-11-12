@@ -1,0 +1,313 @@
+[
+  {
+    "id": "ganymed",
+    "size": 35000,
+    "basis": "diametro effettivo (sfera equivalente) dell'asteroide",
+    "verdict": "uncertain",
+    "flags": [
+      "r",
+      "u"
+    ],
+    "desc": "(1036) Ganymed è un asteroide di tipo Amor scoperto nel 1924 da Walter Baade ed è considerato il più grande asteroide vicino alla Terra. Le stime del diametro vanno da circa 35 a circa 40 km secondo il metodo di misura. Non va confuso con Ganimede, la luna di Giove, e la sua orbita non incrocia quella terrestre: il perielio è a 1,24 unità astronomiche dal Sole.",
+    "sources": [
+      {
+        "title": "Shape Modeling of Asteroid (1036) Ganymed (EPSC-DPS2025-1154)",
+        "url": "https://meetingorganizer.copernicus.org/EPSC-DPS2025/EPSC-DPS2025-1154.html",
+        "publisher": "McGraw et al., EPSC-DPS Joint Meeting 2025 (Copernicus)",
+        "evidence": "with an effective diameter of ~35 kilometers"
+      },
+      {
+        "title": "Goldstone Radar Observations Planning: (1036) Ganymed",
+        "url": "https://echo.jpl.nasa.gov/asteroids/Ganymed/Ganymed_planning.html",
+        "publisher": "NASA JPL Asteroid Radar Research",
+        "evidence": "With a diameter of nearly 40 km, Ganymed is the largest near-Earth asteroid"
+      }
+    ],
+    "note": "Valore mantenuto a 35 km (diametro effettivo ~35 km nell'abstract EPSC-DPS 2025). La pagina radar del JPL indica circa 40 km; i dati del JPL Small-Body Database (consultati via interfaccia dati, non citati) riportano 37,675 ± 0,399 km da NEOWISE. Le fonti differiscono di oltre il 5%, quindi verdetto incerto e flag u aggiunto. Scoperta (23 ottobre 1924, Baade) e perielio 1,241 UA dalla pagina JPL; il primato di più grande NEA è confermato dalla stessa pagina.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "arrokoth",
+    "size": 36000,
+    "basis": "lunghezza massima del corpo a due lobi (asse maggiore)",
+    "verdict": "confirmed",
+    "flags": [
+      "n"
+    ],
+    "desc": "Arrokoth, già noto come 2014 MU69, è un piccolo oggetto della fascia di Kuiper formato da due lobi a contatto e lungo circa 35 km. La sonda New Horizons lo ha sorvolato il 1° gennaio 2019: è l'oggetto più lontano mai esplorato da vicino da una sonda. È stato scoperto nel 2014 con il telescopio spaziale Hubble ed è ancora più rosso di Plutone.",
+    "sources": [
+      {
+        "title": "New Horizons",
+        "url": "https://science.nasa.gov/mission/new-horizons/",
+        "publisher": "NASA Science",
+        "evidence": "overall shape of Arrokoth measures about 22 miles (35 kilometers) long"
+      },
+      {
+        "title": "Arrokoth (2014 MU69)",
+        "url": "https://science.nasa.gov/solar-system/kuiper-belt/arrokoth-2014-mu69/",
+        "publisher": "NASA Science",
+        "evidence": "Arrokoth is the most distant object explored by a spacecraft."
+      }
+    ],
+    "note": "La NASA indica circa 35 km di lunghezza (per circa 20 km di larghezza e 10 km di spessore); 36 km rientra nel 5% (differenza 2,9%), valore mantenuto.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "nix",
+    "size": 50000,
+    "basis": "asse maggiore (corpo irregolare, allungato)",
+    "verdict": "confirmed",
+    "flags": [
+      "r"
+    ],
+    "desc": "Nix è una piccola luna di Plutone, scoperta nel 2005 con il telescopio spaziale Hubble. Le immagini di New Horizons del 2015 mostrano un corpo allungato di circa 50 × 35 × 33 km. La sua superficie è molto riflettente, con un'albedo geometrica di circa 0,56, e ruota in circa 1,8 giorni senza mostrare sempre la stessa faccia a Plutone.",
+    "sources": [
+      {
+        "title": "The Small Satellites of Pluto as Observed by New Horizons (Weaver et al. 2016, Science 351, aae0030), full text",
+        "url": "https://arxiv.org/pdf/1604.05366",
+        "publisher": "Weaver et al., Science, arXiv",
+        "evidence": "Nix 50 x 35 x 33"
+      },
+      {
+        "title": "Pluto Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/plutofact.html",
+        "publisher": "NASA NSSDCA (Goddard Space Flight Center)",
+        "evidence": "Nix (P2) 48,690 24.85 1.83 48.4 x 33.8 x 31.4 0.56"
+      },
+      {
+        "title": "Nix",
+        "url": "https://science.nasa.gov/dwarf-planets/pluto/moons/nix/",
+        "publisher": "NASA Science",
+        "evidence": "Nix was discovered in June 2005"
+      }
+    ],
+    "note": "Asse maggiore: 50 km (Weaver et al. 2016, tabella 2 del testo completo) e 48,4 km (NSSDCA); differenza 3%. Rimossa la frase «L'originale: 80 km», che riguarda il vecchio sito del 2012 e non è verificabile su una fonte. Rotazione non sincrona: periodo di rotazione 1,83 giorni contro 24,85 giorni di periodo orbitale (NSSDCA).",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "idra",
+    "size": 62000,
+    "basis": "asse maggiore (corpo irregolare, allungato)",
+    "verdict": "corrected",
+    "flags": [
+      "r"
+    ],
+    "desc": "Idra è la più esterna delle due lune di Plutone scoperte nel 2005 con il telescopio spaziale Hubble. È un corpo allungato di circa 62 × 37 × 29 km, misurato grazie al sorvolo di New Horizons nel 2015. Ruota su se stessa in circa 10 ore, molto più in fretta dei 38 giorni che impiega a compiere un'orbita, e ha una superficie chiara con albedo di circa 0,83.",
+    "sources": [
+      {
+        "title": "Pluto Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/plutofact.html",
+        "publisher": "NASA NSSDCA (Goddard Space Flight Center)",
+        "evidence": "Hydra (P3) 64,721 38.20 0.43 62.0 x 36.5 x 29.3 0.83"
+      },
+      {
+        "title": "The Small Satellites of Pluto as Observed by New Horizons (Weaver et al. 2016, Science 351, aae0030), full text",
+        "url": "https://arxiv.org/pdf/1604.05366",
+        "publisher": "Weaver et al., Science, arXiv",
+        "evidence": "Hydra 65 x 45 x 25"
+      },
+      {
+        "title": "Hydra",
+        "url": "https://science.nasa.gov/dwarf-planets/pluto/moons/hydra/",
+        "publisher": "NASA Science",
+        "evidence": "the outer of the two moons discovered orbiting Pluto in 2005"
+      }
+    ],
+    "note": "Corretto da 51 km a 62 km: l'asse maggiore è 62,0 km per la scheda NSSDCA (aggiornata a gennaio 2024) e 65 km per Weaver et al. 2016 (tabella 2); entrambe le fonti aperte superano il valore precedente di oltre il 20%. Il valore 50,9 × 36,1 × 30,9 km riportato da Wikipedia proviene da uno studio che non sono riuscito ad aprire e non è quindi usato. Rotazione: 0,43 giorni (NSSDCA), «~10 hr for Hydra» in Weaver et al. Rimossa la frase «L'originale: 100 km», non verificabile.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "bianca",
+    "size": 51500,
+    "basis": "diametro medio (due volte il raggio)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Bianca è una delle piccole lune interne di Urano, con un diametro di circa 51-54 km. È stata scoperta il 23 gennaio 1986 nelle immagini della sonda Voyager 2, insieme ad altri nove satelliti del pianeta. È un corpo scuro, che riflette solo il 7% circa della luce che riceve.",
+    "sources": [
+      {
+        "title": "Uranian Satellite Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uraniansatfact.html",
+        "publisher": "NASA NSSDCA (Goddard Space Flight Center)",
+        "evidence": "Bianca (UVIII, S/1986 U9) 27 0.07"
+      },
+      {
+        "title": "Bianca",
+        "url": "https://science.nasa.gov/uranus/moons/bianca/",
+        "publisher": "NASA Science",
+        "evidence": "Bianca was discovered Jan. 23, 1986 in images taken by Voyager 2"
+      }
+    ],
+    "note": "NSSDCA: raggio 27 km, quindi diametro 2 × 27 = 54 km; il valore attuale di 51,5 km differisce del 4,6% ed è mantenuto. Albedo geometrica 0,07 dalla stessa scheda.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "belinda",
+    "size": 90000,
+    "basis": "diametro medio (due volte il raggio)",
+    "verdict": "confirmed",
+    "flags": [
+      "r"
+    ],
+    "desc": "Belinda è una piccola luna interna di Urano, con un diametro medio di circa 90 km. È stata scoperta il 13 gennaio 1986 nelle immagini della sonda Voyager 2 ed è uno dei dieci satelliti di Urano trovati dalla missione. La sua superficie è scura e riflette circa il 7% della luce.",
+    "sources": [
+      {
+        "title": "Uranian Satellite Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uraniansatfact.html",
+        "publisher": "NASA NSSDCA (Goddard Space Flight Center)",
+        "evidence": "Belinda (UXIV, S/1986 U5) 45 0.07"
+      },
+      {
+        "title": "Belinda",
+        "url": "https://science.nasa.gov/uranus/moons/belinda/",
+        "publisher": "NASA Science",
+        "evidence": "Belinda was discovered on Jan. 13, 1986, in images taken by Voyager 2"
+      }
+    ],
+    "note": "NSSDCA: raggio 45 km, quindi diametro 2 × 45 = 90 km.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "galatea",
+    "size": 176000,
+    "basis": "diametro medio (sfera di volume equivalente; corpo irregolare)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Galatea è una piccola luna interna di Nettuno dalla forma irregolare, con un diametro medio di circa 176 km. È stata scoperta nel luglio 1989 dal gruppo scientifico della sonda Voyager 2. Si ritiene che la sua gravità disturbi gli anelli di Nettuno.",
+    "sources": [
+      {
+        "title": "Neptunian Satellite Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/neptuniansatfact.html",
+        "publisher": "NASA NSSDCA (Goddard Space Flight Center)",
+        "evidence": "Galatea (NVI) 0.04 102 x 92 x 72 0.08"
+      },
+      {
+        "title": "Galatea",
+        "url": "https://science.nasa.gov/neptune/moons/galatea/",
+        "publisher": "NASA Science",
+        "evidence": "Galatea was discovered in July 1989 by the Voyager 2 science team"
+      }
+    ],
+    "note": "NSSDCA dà i semiassi 102 × 92 × 72 km: raggio medio = (102 × 92 × 72)^(1/3) = 87,7 km, diametro medio 175,5 km, in accordo con 176 km. L'asse maggiore sarebbe 2 × 102 = 204 km. La tabella JPL SSD riporta invece un raggio medio di 79 ± 12 km (diametro 158 km), compatibile entro l'incertezza.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "psyche",
+    "size": 220000,
+    "basis": "diametro effettivo (sfera di volume equivalente; corpo irregolare)",
+    "verdict": "confirmed",
+    "flags": [
+      "n"
+    ],
+    "desc": "(16) Psyche è un grande asteroide ricco di metallo della fascia principale, con una forma irregolare simile a una patata e un diametro equivalente di circa 222 km. Nel punto più largo misura circa 280 km. La sonda Psyche della NASA, lanciata il 13 ottobre 2023, dovrebbe iniziare la sua missione attorno all'asteroide nell'agosto 2029.",
+    "sources": [
+      {
+        "title": "Asteroid 16 Psyche: Shape, Features, and Global Map (Shepard et al. 2021)",
+        "url": "https://arxiv.org/abs/2110.03635",
+        "publisher": "Shepard et al., Planetary Science Journal, arXiv",
+        "evidence": "an effective spherical diameter Deff = 222 -1/+4 km"
+      },
+      {
+        "title": "Asteroid Psyche",
+        "url": "https://science.nasa.gov/solar-system/asteroids/16-psyche/",
+        "publisher": "NASA Science",
+        "evidence": "Psyche begins its prime mission at the asteroid in August 2029"
+      }
+    ],
+    "note": "220 km contro 222 km (differenza 0,9%), valore mantenuto. Modello di forma: 278 × 238 × 171 km; la NASA indica 280 km nel punto più largo. La NASA precisa che Psyche è probabilmente una miscela di roccia e metallo, non metallo puro: «ricco di metallo» resta corretto.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "nereide",
+    "size": 357000,
+    "basis": "diametro effettivo (sfera equivalente) da misure termiche",
+    "verdict": "confirmed",
+    "flags": [
+      "r"
+    ],
+    "desc": "Nereide è una delle lune più esterne di Nettuno, scoperta da Gerard Kuiper il 1° maggio 1949. Il suo diametro è stimato in circa 357 km dalle misure termiche dei telescopi Spitzer e Herschel, vicino ai 340 km ricavati dalla sonda Voyager 2. La sua orbita è tra le più eccentriche fra le lune del sistema solare, con eccentricità 0,75, e richiede 360 giorni per essere percorsa.",
+    "sources": [
+      {
+        "title": "Nereid from space: Rotation, size and shape analysis from Kepler/K2, Herschel and Spitzer observations (Kiss et al. 2016), full text",
+        "url": "https://arxiv.org/pdf/1601.02395",
+        "publisher": "Kiss et al., MNRAS, arXiv",
+        "evidence": "an effective size of D = 357±13 km"
+      },
+      {
+        "title": "Neptunian Satellite Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/neptuniansatfact.html",
+        "publisher": "NASA NSSDCA (Goddard Space Flight Center)",
+        "evidence": "Nereid (NII) 0.3 170 0.16"
+      },
+      {
+        "title": "Nereid",
+        "url": "https://science.nasa.gov/neptune/moons/nereid/",
+        "publisher": "NASA Science",
+        "evidence": "one of the most eccentric orbits of any moon in our solar system"
+      }
+    ],
+    "note": "357 km è il risultato del modello termofisico di Kiss et al. 2016. NSSDCA e JPL SSD indicano raggio 170 km (JPL: ± 25 km), cioè 2 × 170 = 340 km; la differenza è del 5% e rientra nell'incertezza. Eccentricità 0,7512 dalla scheda NSSDCA; periodo di 360 giorni dalla pagina NASA.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "mimas",
+    "size": 396000,
+    "basis": "diametro medio (due volte il raggio medio)",
+    "verdict": "confirmed",
+    "flags": [
+      "n"
+    ],
+    "desc": "Mimas è la più piccola e la più interna delle lune maggiori di Saturno, con un diametro medio di circa 396 km. Il cratere Herschel, largo 130 km, copre un terzo del suo diametro. Uno studio pubblicato su Nature nel 2024, basato sui dati della sonda Cassini, indica che sotto la crosta ghiacciata si nasconde un oceano globale formatosi da meno di 25 milioni di anni.",
+    "sources": [
+      {
+        "title": "Planetary Satellite Physical Parameters",
+        "url": "https://ssd.jpl.nasa.gov/sats/phys_par/",
+        "publisher": "NASA JPL Solar System Dynamics",
+        "evidence": "Mimas 601 2.50349 0.00014 SAT441 198.20 0.40"
+      },
+      {
+        "title": "A recently formed ocean inside Saturn's moon Mimas (Lainey et al. 2024)",
+        "url": "https://www.nature.com/articles/s41586-023-06975-9",
+        "publisher": "Lainey et al., Nature 626, 280-282",
+        "evidence": "the ocean is likely to be less than 25 million years old"
+      },
+      {
+        "title": "Mimas",
+        "url": "https://science.nasa.gov/saturn/moons/mimas/",
+        "publisher": "NASA Science",
+        "evidence": "The Herschel Crater is 80 miles (130 kilometers) across"
+      }
+    ],
+    "note": "JPL SSD: raggio medio 198,20 ± 0,40 km, quindi diametro 2 × 198,2 = 396,4 km. La pagina NASA Science indica circa 394 km. L'oceano è dedotto dal moto orbitale di Mimas, non osservato direttamente: la descrizione lo attribuisce allo studio.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "miranda",
+    "size": 472000,
+    "basis": "diametro medio (due volte il raggio medio)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Miranda è la più piccola delle cinque lune maggiori di Urano, con un diametro medio di circa 472 km, ed è stata scoperta da Gerard Kuiper nel 1948. La sonda Voyager 2 nel 1986 ne ha rivelato una superficie molto varia, segnata da grandi canyon di faglia. La scarpata Verona Rupes, la più alta conosciuta nel sistema solare, è stimata profonda circa 20 km.",
+    "sources": [
+      {
+        "title": "Planetary Satellite Physical Parameters",
+        "url": "https://ssd.jpl.nasa.gov/sats/phys_par/",
+        "publisher": "NASA JPL Solar System Dynamics",
+        "evidence": "Miranda 705 4.3 0.2 URA111 235.8 0.7"
+      },
+      {
+        "title": "Verona Rupes: Tallest Known Cliff in the Solar System (APOD 2020 November 29)",
+        "url": "https://apod.nasa.gov/apod/ap201129.html",
+        "publisher": "NASA Astronomy Picture of the Day",
+        "evidence": "Verona Rupes on Uranus' moon Miranda is estimated to be 20 kilometers deep"
+      },
+      {
+        "title": "Miranda",
+        "url": "https://science.nasa.gov/uranus/moons/miranda/",
+        "publisher": "NASA Science",
+        "evidence": "Miranda was discovered in telescopic photos of the Uranian system by Gerard P. Kuiper"
+      }
+    ],
+    "note": "JPL SSD: raggio medio 235,8 ± 0,7 km, quindi diametro 2 × 235,8 = 471,6 km. I 20 km di Verona Rupes sono una stima (APOD): altre stime sono più basse, perciò la descrizione dice «stimata». «La più piccola delle cinque lune maggiori» si ricava dai raggi della scheda NSSDCA di Urano.",
+    "verified": "2026-11-12"
+  }
+]

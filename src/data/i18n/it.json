@@ -1010,11 +1010,11 @@
     },
     "ganymed": {
       "name": "Ganymed",
-      "desc": "Il più grande asteroide vicino alla Terra. Da non confondere con la luna di Giove."
+      "desc": "(1036) Ganymed è un asteroide di tipo Amor scoperto nel 1924 da Walter Baade ed è considerato il più grande asteroide vicino alla Terra. Le stime del diametro vanno da circa 35 a circa 40 km secondo il metodo di misura. Non va confuso con Ganimede, la luna di Giove, e la sua orbita non incrocia quella terrestre: il perielio è a 1,24 unità astronomiche dal Sole."
     },
     "arrokoth": {
       "name": "Arrokoth",
-      "desc": "L'oggetto più lontano mai visitato da una sonda: New Horizons, 2019."
+      "desc": "Arrokoth, già noto come 2014 MU69, è un piccolo oggetto della fascia di Kuiper formato da due lobi a contatto e lungo circa 35 km. La sonda New Horizons lo ha sorvolato il 1° gennaio 2019: è l'oggetto più lontano mai esplorato da vicino da una sonda. È stato scoperto nel 2014 con il telescopio spaziale Hubble ed è ancora più rosso di Plutone."
     },
     "maratona": {
       "name": "Maratona",
@@ -1022,15 +1022,15 @@
     },
     "nix": {
       "name": "Nix",
-      "desc": "Luna di Plutone, misurata da New Horizons. L'originale: 80 km."
+      "desc": "Nix è una piccola luna di Plutone, scoperta nel 2005 con il telescopio spaziale Hubble. Le immagini di New Horizons del 2015 mostrano un corpo allungato di circa 50 × 35 × 33 km. La sua superficie è molto riflettente, con un'albedo geometrica di circa 0,56, e ruota in circa 1,8 giorni senza mostrare sempre la stessa faccia a Plutone."
     },
     "idra": {
       "name": "Idra",
-      "desc": "Luna di Plutone. L'originale: 100 km."
+      "desc": "Idra è la più esterna delle due lune di Plutone scoperte nel 2005 con il telescopio spaziale Hubble. È un corpo allungato di circa 62 × 37 × 29 km, misurato grazie al sorvolo di New Horizons nel 2015. Ruota su se stessa in circa 10 ore, molto più in fretta dei 38 giorni che impiega a compiere un'orbita, e ha una superficie chiara con albedo di circa 0,83."
     },
     "bianca": {
       "name": "Bianca",
-      "desc": "Luna di Urano."
+      "desc": "Bianca è una delle piccole lune interne di Urano, con un diametro di circa 51-54 km. È stata scoperta il 23 gennaio 1986 nelle immagini della sonda Voyager 2, insieme ad altri nove satelliti del pianeta. È un corpo scuro, che riflette solo il 7% circa della luce che riceve."
     },
     "buco-nero-stellare": {
       "name": "Buco nero stellare",
@@ -1042,7 +1042,7 @@
     },
     "belinda": {
       "name": "Belinda",
-      "desc": "Luna di Urano."
+      "desc": "Belinda è una piccola luna interna di Urano, con un diametro medio di circa 90 km. È stata scoperta il 13 gennaio 1986 nelle immagini della sonda Voyager 2 ed è uno dei dieci satelliti di Urano trovati dalla missione. La sua superficie è scura e riflette circa il 7% della luce."
     },
     "brunei": {
       "name": "Brunei",
@@ -1050,7 +1050,7 @@
     },
     "galatea": {
       "name": "Galatea",
-      "desc": "Luna di Nettuno."
+      "desc": "Galatea è una piccola luna interna di Nettuno dalla forma irregolare, con un diametro medio di circa 176 km. È stata scoperta nel luglio 1989 dal gruppo scientifico della sonda Voyager 2. Si ritiene che la sua gravità disturbi gli anelli di Nettuno."
     },
     "gaia-bh3": {
       "name": "Gaia BH3",
@@ -1058,7 +1058,7 @@
     },
     "psyche": {
       "name": "Psyche",
-      "desc": "Asteroide ricco di metallo. L'omonima sonda NASA lo raggiunge nel 2029."
+      "desc": "(16) Psyche è un grande asteroide ricco di metallo della fascia principale, con una forma irregolare simile a una patata e un diametro equivalente di circa 222 km. Nel punto più largo misura circa 280 km. La sonda Psyche della NASA, lanciata il 13 ottobre 2023, dovrebbe iniziare la sua missione attorno all'asteroide nell'agosto 2029."
     },
     "ruanda": {
       "name": "Ruanda",
@@ -1066,11 +1066,11 @@
     },
     "nereide": {
       "name": "Nereide",
-      "desc": "Luna di Nettuno dall'orbita molto eccentrica."
+      "desc": "Nereide è una delle lune più esterne di Nettuno, scoperta da Gerard Kuiper il 1° maggio 1949. Il suo diametro è stimato in circa 357 km dalle misure termiche dei telescopi Spitzer e Herschel, vicino ai 340 km ricavati dalla sonda Voyager 2. La sua orbita è tra le più eccentriche fra le lune del sistema solare, con eccentricità 0,75, e richiede 360 giorni per essere percorsa."
     },
     "mimas": {
       "name": "Mimas",
-      "desc": "Nel 2024 si è scoperto che nasconde un oceano giovane sotto il ghiaccio."
+      "desc": "Mimas è la più piccola e la più interna delle lune maggiori di Saturno, con un diametro medio di circa 396 km. Il cratere Herschel, largo 130 km, copre un terzo del suo diametro. Uno studio pubblicato su Nature nel 2024, basato sui dati della sonda Cassini, indica che sotto la crosta ghiacciata si nasconde un oceano globale formatosi da meno di 25 milioni di anni."
     },
     "west-virginia": {
       "name": "West Virginia",
@@ -1082,23 +1082,23 @@
     },
     "miranda": {
       "name": "Miranda",
-      "desc": "Luna di Urano dalle scarpate alte 20 km."
+      "desc": "Miranda è la più piccola delle cinque lune maggiori di Urano, con un diametro medio di circa 472 km, ed è stata scoperta da Gerard Kuiper nel 1948. La sonda Voyager 2 nel 1986 ne ha rivelato una superficie molto varia, segnata da grandi canyon di faglia. La scarpata Verona Rupes, la più alta conosciuta nel sistema solare, è stimata profonda circa 20 km."
     },
     "encelado": {
       "name": "Encelado",
-      "desc": "I suoi geyser lanciano nello spazio acqua con molecole organiche e fosfati."
+      "desc": "Encelado è una luna ghiacciata di Saturno con un diametro medio di circa 504 km. Dal polo sud getti simili a geyser lanciano nello spazio vapore acqueo e granelli di ghiaccio provenienti da un oceano sotterraneo. Nei dati della sonda Cassini sono state trovate molecole organiche complesse e, nel 2023, fosfati."
     },
     "vesta": {
       "name": "Vesta",
-      "desc": "Il secondo corpo più massiccio della fascia degli asteroidi."
+      "desc": "Vesta è il secondo corpo più massiccio della fascia principale degli asteroidi, dopo Cerere, con un diametro medio di circa 525 km. La sonda Dawn della NASA le ha orbitato attorno dal 16 luglio 2011 al 5 settembre 2012. Il cratere Rheasilvia, largo circa 500 km, è quasi grande quanto l'asteroide stesso."
     },
     "dysnomia": {
       "name": "Dysnomia",
-      "desc": "Luna di Eris: 615 km secondo ALMA (2023). L'originale: 150 km."
+      "desc": "Dysnomia è l'unica luna nota del pianeta nano Eris. Il suo diametro non è misurato direttamente: un modello termico basato sui dati del radiotelescopio ALMA dà 615 km, con un intervallo da 565 a 675 km, mentre la stima precedente degli stessi autori era di 700 ± 115 km. La superficie è molto scura, con un'albedo di circa 0,05."
     },
     "cerere": {
       "name": "Cerere",
-      "desc": "Pianeta nano della fascia principale."
+      "desc": "Cerere è il corpo più grande della fascia degli asteroidi tra Marte e Giove e l'unico pianeta nano del Sistema Solare interno, con un diametro medio di circa 939 km. Fu scoperta da Giuseppe Piazzi nel 1801. Nel 2015 la sonda Dawn della NASA l'ha raggiunta, facendone il primo pianeta nano visitato da un veicolo spaziale."
     },
     "megametro": {
       "name": "Megametro",
@@ -1106,11 +1106,11 @@
     },
     "sedna": {
       "name": "Sedna",
-      "desc": "Circa 1.000 km. L'originale: 1.800 km."
+      "desc": "Sedna è un oggetto transnettuniano dall'orbita molto allungata, che anche nel punto più vicino al Sole resta a circa 76 unità astronomiche. Non è mai stata risolta in immagine: le misure termiche del telescopio spaziale Herschel danno un diametro di 995 ± 80 km, quindi tra circa 915 e 1.075 km. Alla scoperta, nel 2003, era l'oggetto più lontano mai osservato nel Sistema Solare."
     },
     "quaoar": {
       "name": "Quaoar",
-      "desc": "Nel 2023 gli sono stati scoperti anelli più lontani di quanto la teoria permettesse."
+      "desc": "Quaoar è un pianeta nano oltre l'orbita di Nettuno, a quasi 44 volte la distanza Terra-Sole, con un raggio stimato di 555 km, cioè un diametro di circa 1.110 km. Nel 2023 è stato annunciato un anello denso a quasi sette volte e mezzo il raggio di Quaoar, molto oltre il limite di Roche. Secondo la teoria classica a quella distanza il materiale avrebbe dovuto aggregarsi in una piccola luna."
     },
     "italia": {
       "name": "Italia",
@@ -1118,11 +1118,11 @@
     },
     "caronte": {
       "name": "Caronte",
-      "desc": "La luna maggiore di Plutone."
+      "desc": "Caronte è la più grande delle cinque lune di Plutone, con un diametro di circa 1.212 km. È grande circa la metà di Plutone: nessun altro satellite noto è così grande rispetto al proprio pianeta. I due corpi si mostrano sempre la stessa faccia e Caronte completa un'orbita in 6,4 giorni terrestri."
     },
     "gonggong": {
       "name": "Gonggong",
-      "desc": "Pianeta nano candidato, battezzato nel 2020."
+      "desc": "Gonggong, già noto come 2007 OR10, è un grande oggetto transnettuniano scoperto a Palomar il 17 luglio 2007. Le misure termiche combinate con l'orbita della sua luna Xiangliu danno un diametro di 1.230 ± 50 km. Con una massa di 1,75 × 10²¹ kg risulta il quinto pianeta nano per massa dopo Eris, Plutone, Haumea e Makemake."
     },
     "california": {
       "name": "California",
@@ -1134,11 +1134,11 @@
     },
     "makemake": {
       "name": "Makemake",
-      "desc": "Pianeta nano della fascia di Kuiper."
+      "desc": "Makemake è un pianeta nano della fascia di Kuiper con un diametro di circa 1.430 km. Un'occultazione stellare osservata nel 2011 ha mostrato una forma leggermente schiacciata, con assi di 1.430 ± 9 km e 1.502 ± 45 km, e nessuna atmosfera globale come quella di Plutone. Visto dalla Terra è il secondo oggetto più luminoso della fascia di Kuiper dopo Plutone."
     },
     "haumea": {
       "name": "Haumea",
-      "desc": "Pianeta nano allungato, con un anello. Ruota in meno di quattro ore."
+      "desc": "Haumea è un pianeta nano della fascia di Kuiper dalla forma molto allungata: l'asse maggiore misura almeno 2.322 km, mentre la sfera di pari volume ha un diametro di circa 1.595 km. Ruota su se stessa in 3,9 ore, una delle rotazioni più rapide tra i grandi corpi del Sistema Solare. Nel 2017 un'occultazione stellare ha rivelato un anello largo 70 km con raggio di circa 2.287 km."
     },
     "titania": {
       "name": "Titania",
