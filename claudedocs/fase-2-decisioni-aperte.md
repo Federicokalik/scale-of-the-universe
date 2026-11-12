@@ -11,6 +11,8 @@ Aggiornato dopo ogni ondata. Le correzioni sono già applicate ai dati; le decis
 | Anticorpo IgG | 12 nm | 15 nm | Rayner e colleghi, J. Biol. Chem. (2015) |
 | Particella di argilla | 2,2 µm | 2,0 µm | ISO 14688-1 (limite di classe) |
 | Nevischio | 4,2 mm | 1 mm | WMO International Cloud Atlas, Treccani |
+| Uovo di colibrì | 10,6 mm | 10 mm | Guinness World Records ("meno di 10 mm", limite superiore) |
+| Uovo di quaglia | 35 mm | 32 mm | Teușan e colleghi, Scientific Papers: Animal Science and Biotechnologies |
 
 ## Decisioni aperte
 
@@ -23,6 +25,13 @@ Aggiornato dopo ogni ondata. Le correzioni sono già applicate ai dati; le decis
 7. **Valori lasciati invariati ma con alternative più centrali**: gatto (0,46 m contro medie di 0,50–0,55 m), quercia (20 m, minimo dell'intervallo 20–40 m), saguaro (12 m contro massimi ordinari di 13,7–15,2 m).
 8. **Pelle delle palpebre e della pianta del piede**: una sola fonte (Università di Leeds); altre non apribili suggeriscono 2,3–2,9 mm per il tallone.
 
+9. **Fiammifero**: proposto per la rimozione (nessuna fonte apribile con una lunghezza). Non rimosso: tenerlo, cercare ancora o toglierlo.
+10. **Seme di girasole**: l'unica fonte aperta dà 7,8 mm contro i 10,4 attuali, e il suo link va in timeout. Da ricontrollare.
+11. **Starship**: 123 m confermati, ma la versione V3 (volata il 22 maggio 2026) sarebbe 124 m secondo Scientific American; le pagine SpaceX e FAA non si aprivano.
+12. **Mondo di Minecraft**: nessuna pagina ufficiale Mojang aperta; unica fonte una segnalazione sul tracker dei bug. Segnato incerto.
+13. **Cubo di Rubik**: confermato sul dato del V&A (5,5 cm); i 5,7 cm attuali non sono stati verificati.
+14. **Oggetti generici** (smartphone, schermo, tazza, pallone da spiaggia, bicicletta, automobile): confermati su un solo esemplare ciascuno.
+
 ## Da sistemare prima di chiudere la fase
 
 - **Note "L'originale: …"**: i ricercatori le tolgono perché non possono verificare la versione del 2012. Aggiornare in `it.json` la chiave `dialog.diff.values`, che promette il valore di partenza nelle schede, e decidere se il flag "Aggiornato" ha ancora senso così com'è.
@@ -34,8 +43,8 @@ Aggiornato dopo ogni ondata. Le correzioni sono già applicate ai dati; le decis
 
 ## Avanzamento
 
-Lotti applicati: black-holes, particles-1/2, atoms-1/2, waves-1/2, molecules-1/2, units-1/2/3, biology-1/2/3/4/5, objects-1/2/4.
+Lotti applicati: black-holes, particles-1/2, atoms-1/2, waves-1/2, molecules-1/2, units-1/2/3, biology-1/2/3/4/5, objects-1/2/3/4/5 (201 oggetti su 447).
 
-Lotti da fare o da completare: objects-3, objects-5, places-1/2/3/4, solar-system-1/2/3/4/5, stars-1/2/3/4, distances-1/2/3, nebulae-1/2/3, galaxies-1/2, cosmic-1/2.
+Lotti da fare: places-1/2/3/4, solar-system-1/2/3/4/5, stars-1/2/3/4, distances-1/2/3, nebulae-1/2/3, galaxies-1/2, cosmic-1/2.
 
 Per ogni lotto: `node scripts/apply-research.mjs --check`, `node scripts/check-links.mjs`, campione di fonti riletto in modo indipendente, poi `node scripts/apply-research.mjs`, `npm run validate`, `npm test`, commit.

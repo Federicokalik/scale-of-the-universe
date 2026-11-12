@@ -1,0 +1,243 @@
+[
+  {
+    "id": "isetta",
+    "size": 2.3,
+    "basis": "lunghezza della carrozzeria (BMW Isetta 250 Standard)",
+    "verdict": "confirmed",
+    "flags": [
+      "r"
+    ],
+    "desc": "L'Isetta è una microvettura progettata dalla Iso di Milano e costruita su licenza da BMW a partire dal 1955. La BMW Isetta 250 Standard è lunga 2.285 mm, cioè circa 2,3 m, e monta un motore monocilindrico di 247 cm³. Della prima versione BMW furono venduti più di 26.000 esemplari.",
+    "sources": [
+      {
+        "title": "Allgemeine Daten zum BMW Isetta 250 Standard (03/55 - 01/57)",
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/isetta/1generation/264979/",
+        "publisher": "ADAC Autokatalog",
+        "evidence": "Länge 2285 mm"
+      },
+      {
+        "title": "BMW Isetta 250 Standard",
+        "url": "https://www.bmwgroup-classic.com/en/models/bmw-classics/product-description-page.ad-222-1.bmw-isetta-250-standard.html",
+        "publisher": "BMW Group Classic",
+        "evidence": "originally developed by Italian automotive company Iso based in Milan"
+      }
+    ],
+    "note": "2.285 mm = 2,285 m, entro l'1% da 2,3 m. La pagina BMW Group Classic non riporta le dimensioni: la lunghezza viene dal catalogo ADAC, che la attribuisce ai dati del costruttore. Rimossa la frase \"L'originale: 4 m\" della descrizione attuale: non ha trovato alcun riscontro. Altre schede non ufficiali riportano 2.355 mm per varianti successive.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "automobile",
+    "size": 4.5,
+    "basis": "lunghezza tipica di un'automobile media di oggi (valore indicativo)",
+    "verdict": "confirmed",
+    "flags": [
+      "n"
+    ],
+    "desc": "Un'automobile media di oggi è lunga circa 4,5 m: una Volkswagen Golf, per esempio, misura 4,28 m. Secondo Transport & Environment l'auto nuova media venduta in Europa era lunga 4,09 m nel 2000 e da allora si allunga di circa 1,2 cm all'anno. Se la tendenza continua, nel 2040 arriverà a 4,56 m.",
+    "sources": [
+      {
+        "title": "Ever-bigger? Car size at a crossroads",
+        "url": "https://www.transportenvironment.org/articles/ever-bigger-car-size-at-a-crossroads",
+        "publisher": "Transport & Environment",
+        "evidence": "up from 4.09 meters by 1.69 meters in 2000"
+      },
+      {
+        "title": "Golf dimensions",
+        "url": "https://www.volkswagen.co.uk/en/new/golf/golf-dimensions.html",
+        "publisher": "Volkswagen UK",
+        "evidence": "Length 4282"
+      }
+    ],
+    "note": "Oggetto generico: 4,5 m è un valore indicativo, non una misura. La pagina T&E (24 giugno 2026) non dà la media attuale ma solo il 2000 (4,09 m), la crescita (1,2 cm all'anno) e la proiezione al 2040 (4,56 m). Stima derivata per il 2026: 4,09 + 0,012 × 26 = 4,40 m, entro il 3% da 4,5 m. La Golf (4,282 m) è entro il 5%.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "modulo-lunare-apollo",
+    "size": 7,
+    "basis": "altezza complessiva con le gambe di atterraggio estese",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il modulo lunare Apollo era il veicolo a due stadi, costruito dalla Grumman, che portava due astronauti dall'orbita lunare alla superficie della Luna e ritorno. Con le gambe estese era alto circa 7 m e misurava 9,4 m in diagonale tra i piedi del carrello. Tra il 1969 e il 1972 sei moduli lunari hanno portato sulla Luna dodici astronauti.",
+    "sources": [
+      {
+        "title": "Apollo 204 Review Board: Description of the Apollo spacecraft",
+        "url": "https://www.nasa.gov/wp-content/uploads/static/history/Apollo204/spacecraft.html",
+        "publisher": "NASA History",
+        "evidence": "23 ft, 1 in."
+      },
+      {
+        "title": "Lunar Module #2, Apollo",
+        "url": "https://airandspace.si.edu/collection-objects/lunar-module-2-apollo/nasm_A19711598000",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "evidence": "landed 12 American astronauts on the Moon between 1969 and 1972"
+      }
+    ],
+    "note": "Altezza con gambe estese: 23 ft 1 in = 23 × 0,3048 + 0,0254 = 7,04 m. Diagonale del carrello: 31 ft = 9,45 m (stessa pagina NASA). Altri documenti NASA riportano 22 ft 11 in (6,99 m): la differenza è di circa 5 cm. La scheda NSSDCA non si è aperta e non è citata.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "autobus",
+    "size": 12.2,
+    "basis": "lunghezza di un autobus urbano standard a due assi (classe 12 m / 40 piedi)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Un autobus urbano standard a due assi è lungo circa 12 m. Il Mercedes-Benz Citaro, per esempio, misura 12,14 m di lunghezza, 2,55 m di larghezza e 3,12 m di altezza.",
+    "sources": [
+      {
+        "title": "Citaro: Facts",
+        "url": "https://www.mercedes-benz-bus.com/en_CY/models/citaro/facts/facts-citaro.html",
+        "publisher": "Mercedes-Benz Buses (Daimler Buses)",
+        "evidence": "12.14 m long, 2.55 m wide and 3.12 m high"
+      }
+    ],
+    "note": "Oggetto generico. 12,2 m corrisponde a 40 piedi (40 × 0,3048 = 12,19 m), la classe standard nordamericana; il Citaro europeo è lungo 12,14 m, entro lo 0,5%.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "schermo-solare-del-telescopio-webb",
+    "size": 21.2,
+    "basis": "lato lungo dello schermo solare dispiegato (21,197 m × 14,162 m)",
+    "verdict": "confirmed",
+    "flags": [
+      "n"
+    ],
+    "desc": "Lo schermo solare del telescopio spaziale James Webb misura 21,2 m per 14,2 m, più o meno quanto un campo da tennis. È formato da cinque strati di Kapton rivestiti di alluminio: il primo è spesso 0,05 mm, gli altri quattro 0,025 mm. Tiene il telescopio all'ombra del Sole perché possa osservare nell'infrarosso.",
+    "sources": [
+      {
+        "title": "Webb's Sunshield",
+        "url": "https://science.nasa.gov/mission/webb/webbs-sunshield/",
+        "publisher": "NASA Science",
+        "evidence": "Actual dimensions: 21.197 m x 14.162 m (69.5 ft x 46.5 ft)"
+      }
+    ],
+    "note": "Il paragone con il capello della descrizione attuale è stato sostituito dagli spessori indicati dalla NASA (0,05 mm e 0,025 mm). Confermati i cinque strati e il paragone con il campo da tennis.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "boeing-747-8",
+    "size": 76.3,
+    "basis": "lunghezza della fusoliera (250 ft 2 in)",
+    "verdict": "confirmed",
+    "flags": [
+      "r"
+    ],
+    "desc": "Il Boeing 747-8 è l'ultima versione del 747 ed è lungo 76,3 m, 5,6 m più del 747-400. L'ultimo esemplare, un cargo 747-8, è stato consegnato ad Atlas Air il 31 gennaio 2023. In oltre mezzo secolo di produzione la fabbrica di Everett ha costruito 1.574 Boeing 747.",
+    "sources": [
+      {
+        "title": "Boeing Joins Fuselage Sections for First 747-8 Intercontinental",
+        "url": "https://boeing.mediaroom.com/2010-10-15-Boeing-Joins-Fuselage-Sections-for-First-747-8-Intercontinental",
+        "publisher": "Boeing",
+        "evidence": "The 747-8 fuselage is 250 feet 2 inches (76.3 meters) long"
+      },
+      {
+        "title": "Boeing, Atlas Air Celebrate Delivery of Final 747, an Airplane that Transformed Aviation and Global Air Travel",
+        "url": "https://investors.boeing.com/investors/news/press-release-details/2023/Boeing-Atlas-Air-Celebrate-Delivery-of-Final-747-an-Airplane-that-Transformed-Aviation-and-Global-Air-Travel/default.aspx",
+        "publisher": "Boeing",
+        "evidence": "the delivery of the final 747 to Atlas"
+      }
+    ],
+    "note": "250 ft 2 in = 250 × 0,3048 + 2 × 0,0254 = 76,25 m, arrotondato da Boeing a 76,3 m. Confermata la consegna dell'ultimo 747 nel 2023 (comunicato del 31 gennaio 2023). Le schede tecniche PDF di Boeing e la pagina Lufthansa non si sono aperte e non sono citate.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "stazione-spaziale-internazionale",
+    "size": 109,
+    "basis": "lunghezza da un'estremità all'altra (apertura dei pannelli solari lungo il traliccio)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "La Stazione Spaziale Internazionale misura 109 m da un'estremità all'altra, quasi quanto un campo da football americano. È abitata senza interruzioni dal novembre 2000. La NASA si è impegnata a utilizzarla fino al 2030, dopodiché sarà fatta rientrare in modo controllato.",
+    "sources": [
+      {
+        "title": "International Space Station Facts and Figures",
+        "url": "https://www.nasa.gov/international-space-station/space-station-facts-and-figures/",
+        "publisher": "NASA",
+        "evidence": "356 feet (109 meters) end-to-end"
+      },
+      {
+        "title": "FAQs: The International Space Station Transition Plan",
+        "url": "https://www.nasa.gov/faqs-the-international-space-station-transition-plan/",
+        "publisher": "NASA",
+        "evidence": "safely operate the space station through 2030"
+      }
+    ],
+    "note": "La pagina NASA sul piano di transizione non indica una data precisa per il rientro: dice solo che avverrà in modo controllato alla fine del programma, con un veicolo di deorbitazione affidato a SpaceX. La descrizione attuale (\"attorno al 2030\") è stata riformulata di conseguenza.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "saturn-v",
+    "size": 110.6,
+    "basis": "altezza complessiva del razzo con il veicolo Apollo (363 piedi)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il Saturn V è il razzo che ha portato gli astronauti delle missioni Apollo sulla Luna. Era alto 363 piedi, cioè circa 110,6 m, quanto un edificio di 36 piani, e al decollo sviluppava una spinta di 34,5 milioni di newton. Ha volato dal 1967 al 1973, quando l'ultimo esemplare ha messo in orbita la stazione Skylab.",
+    "sources": [
+      {
+        "title": "What Was the Saturn V? (Grades 5-8)",
+        "url": "https://www.nasa.gov/learning-resources/for-kids-and-students/what-was-the-saturn-v-grades-5-8/",
+        "publisher": "NASA",
+        "evidence": "The Saturn V rocket was 111 meters (363 feet) tall"
+      }
+    ],
+    "note": "363 ft × 0,3048 = 110,64 m; la NASA arrotonda a 111 m. Il valore attuale di 110,6 m è confermato.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "starship",
+    "size": 123,
+    "basis": "altezza complessiva del veicolo completo (Starship sopra il booster Super Heavy)",
+    "verdict": "confirmed",
+    "flags": [
+      "n"
+    ],
+    "desc": "Starship è il razzo di SpaceX formato dal booster Super Heavy e dalla navicella omonima. La versione V3, che ha volato per la prima volta il 22 maggio 2026, è alta circa 124 m e sviluppa al decollo una spinta di circa 80 meganewton. È il razzo più alto e più potente mai costruito.",
+    "sources": [
+      {
+        "title": "SpaceX launches Starship V3, the world's most powerful and tallest rocket ever",
+        "url": "https://www.scientificamerican.com/article/spacex-launches-starship-v3-the-worlds-most-powerful-and-tallest-rocket-ever/",
+        "publisher": "Scientific American",
+        "evidence": "the rocket is 408 feet (124 meters) tall"
+      }
+    ],
+    "note": "408 ft × 0,3048 = 124,4 m per la V3; il valore attuale di 123 m corrisponde alle versioni precedenti e differisce di circa l'1%, quindi resta confermato. Se si preferisce allineare la scheda alla V3, il valore da usare è 124 m. Il superlativo è sostenuto dall'articolo (\"the tallest and most powerful rocket ever built\"). Il sito di SpaceX e la pagina FAA non si sono aperti: la fonte è giornalistica, non del costruttore.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "titanic",
+    "size": 269,
+    "basis": "lunghezza fuori tutto dello scafo (882,75 piedi)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il Titanic era un transatlantico lungo 269 m, con una stazza lorda di 46.329 tonnellate. Al varo era il più grande oggetto mobile mai messo in acqua. Affondò il 15 aprile 1912 dopo aver urtato un iceberg, e morirono circa 1.500 persone.",
+    "sources": [
+      {
+        "title": "RMS Titanic facts",
+        "url": "https://www.rmg.co.uk/stories/topics/rms-titanic-facts",
+        "publisher": "Royal Museums Greenwich",
+        "evidence": "Length overall: 882.75 feet"
+      }
+    ],
+    "note": "882,75 ft × 0,3048 = 269,06 m. La pagina Britannica dà lo stesso valore (882,5 ft, 269 m) nei risultati di ricerca, ma non si è aperta (errore 403) e non è citata.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "mondo-di-minecraft",
+    "size": 60000000,
+    "basis": "lato del mondo giocabile in Minecraft Java Edition (larghezza massima del bordo del mondo, con blocchi da 1 m)",
+    "verdict": "uncertain",
+    "flags": [
+      "r",
+      "u"
+    ],
+    "desc": "In Minecraft Java Edition il mondo giocabile è un quadrato delimitato dal bordo del mondo, largo al massimo 59.999.968 blocchi, cioè circa 60 milioni. Ogni blocco equivale a un metro, quindi il mondo misura circa 60.000 km per lato. Il limite è una scelta del software e vale solo per questa edizione del gioco.",
+    "sources": [
+      {
+        "title": "MC-233073 (segnalazione sul bug tracker di Minecraft: Java Edition)",
+        "url": "https://mojira.dev/MC-233073",
+        "publisher": "Mojira (bug tracker pubblico di Mojang, copia consultabile)",
+        "evidence": "The maximum size of the world border is 59,999,968m"
+      }
+    ],
+    "note": "Non ho trovato una pagina ufficiale di minecraft.net o dell'assistenza Mojang che riporti la cifra: l'articolo ufficiale sullo snapshot 21w17a è andato in timeout e il bug tracker originale non mostra il testo senza JavaScript. L'unica fonte aperta è una segnalazione di un utente sul tracker di Mojang (chiusa dal team Mojang come \"Won't Fix\" il 29 luglio 2025), letta su una copia del tracker: per questo il verdetto è incerto. Il valore di 60.000.000 è l'arrotondamento di 59.999.968 (bordo a ±29.999.984 blocchi dall'origine).",
+    "verified": "2026-11-12"
+  }
+]

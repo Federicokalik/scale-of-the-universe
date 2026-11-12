@@ -1,0 +1,236 @@
+[
+  {
+    "id": "fiocco-di-neve",
+    "size": 0.008,
+    "basis": "larghezza di un fiocco di neve grande (singolo cristallo o piccolo aggregato)",
+    "verdict": "uncertain",
+    "flags": ["u"],
+    "desc": "Un fiocco di neve può essere un singolo cristallo di ghiaccio oppure un aggregato di molti cristalli. Secondo il fisico Kenneth Libbrecht del Caltech un cristallo di buone dimensioni misura circa 2 mm e uno eccezionale arriva a 10 mm, mentre gli aggregati fotografati dalla meteorologa Sandra Yuter raggiungono i 35 mm. Il valore di 8 mm indica quindi un fiocco grande, non una misura standard.",
+    "sources": [
+      {
+        "title": "Just how big can a snowflake get? It depends on what you mean by 'snowflake'",
+        "url": "https://www.wgbh.org/news/2023-12-25/just-how-big-can-a-snowflake-get-it-depends-on-what-you-mean-by-snowflake",
+        "publisher": "NPR (ripubblicato da GBH News)",
+        "evidence": "a decent-sized snow crystal is around 2 millimeters across"
+      }
+    ],
+    "note": "La dimensione di un fiocco non è una grandezza definita: la stessa pagina dà 2 mm per un cristallo tipico, 10 mm per il cristallo più grande fotografato da Libbrecht (Ontario, 2003) e 35 mm per il fiocco aggregato più grande fotografato da Yuter. 8 mm rientra nell'intervallo ma è una convenzione, quindi verdetto incerto. La pagina originale su npr.org andava in timeout: è citata la ripubblicazione integrale di GBH, che si è aperta.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "chicco-di-caffe",
+    "size": 0.0102,
+    "basis": "lunghezza (asse maggiore) di un chicco di caffè tostato",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il chicco di caffè è il seme della pianta del caffè, che viene tostato prima di essere macinato. In uno studio del 2022 su campioni commerciali tostati la lunghezza media è risultata di 10,95 mm per la specie Arabica e di 10,46 mm per la Robusta, con una larghezza di poco superiore a 8 mm. La misura cambia con la varietà, quindi 1 cm circa è un valore tipico.",
+    "sources": [
+      {
+        "title": "The use of multispectral imaging for the discrimination of Arabica and Robusta coffee beans",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9108882/",
+        "publisher": "Mihailova et al., Food Chemistry: X 14 (2022), su PubMed Central",
+        "evidence": "Length (mm) 10.95 ... 10.46"
+      }
+    ],
+    "note": "Tabella 1 dell'articolo: Arabica lunghezza 10,95 mm e larghezza 8,25 mm; Robusta 10,46 mm e 8,42 mm (chicchi tostati, 21 campioni Arabica e 14 Robusta). Il valore attuale di 10,2 mm è il 2,5% sotto la media Robusta e il 7% sotto la media Arabica: rientra nella variabilità naturale, quindi confermato. Altri studi sui chicchi verdi visti solo nei risultati di ricerca danno 8-11 mm.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "seme-di-girasole",
+    "size": 0.0104,
+    "basis": "lunghezza (asse maggiore) del seme con il guscio (achenio)",
+    "verdict": "uncertain",
+    "flags": ["u"],
+    "desc": "Il seme di girasole è in realtà un frutto secco, l'achenio, che racchiude il seme vero e proprio. La lunghezza dipende molto dalla varietà: uno studio dell'Università di Uludağ ha misurato in media 7,79 mm di lunghezza, 7,12 mm di larghezza e 4,18 mm di spessore, mentre i semi da sgranocchiare sono sensibilmente più lunghi. Il valore di circa 1 cm è quindi indicativo.",
+    "sources": [
+      {
+        "title": "Physical properties of sunflower seeds (Helianthus annuus L.)",
+        "url": "https://acikerisim.uludag.edu.tr/entities/publication/6b47145a-8319-4a47-a8db-93cc6fb53291/full",
+        "publisher": "Işık e İzli, International Journal of Agricultural Research (2007), archivio dell'Università di Uludağ",
+        "evidence": "average length, width and thickness were 7.79, 7.12 and 4.18 mm"
+      }
+    ],
+    "note": "L'unica fonte che si è aperta dà 7,79 mm per una varietà turca (umidità 10,06% su base secca), cioè il 25% in meno del valore attuale. Altri studi comparsi solo nei risultati di ricerca (Gupta e Das 1997; Madras Agricultural Journal 2014; una rassegna MDPI con 7-25 mm) indicano 8-12 mm per le varietà da olio e oltre 15 mm per quelle da consumo diretto, ma le pagine non si sono aperte (403, verifica del browser o PDF non leggibile) e non sono citate. Per questo il valore di 10,4 mm resta, ma come incerto. L'affermazione sui semi da consumo più lunghi è qualitativa e non ha una cifra verificata.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "uovo-di-colibri",
+    "size": 0.01,
+    "basis": "lunghezza (asse maggiore) dell'uovo di Mellisuga minima, il più piccolo uovo d'uccello registrato",
+    "verdict": "corrected",
+    "flags": ["r"],
+    "desc": "L'uovo più piccolo deposto da un uccello è, secondo il Guinness World Records, quello di Mellisuga minima, un colibrì che vive in Giamaica. Due esemplari misuravano meno di 10 mm di lunghezza e pesavano 0,365 g e 0,375 g.",
+    "sources": [
+      {
+        "title": "Smallest bird egg",
+        "url": "https://www.guinnessworldrecords.com/world-records/smallest-bird-egg",
+        "publisher": "Guinness World Records",
+        "evidence": "less than 10 mm (0.39 in) in length"
+      }
+    ],
+    "note": "Da 0,0106 m a 0,010 m. La descrizione attuale parla dell'uovo d'uccello più piccolo: la fonte del primato dà una lunghezza inferiore a 10 mm, quindi 10,6 mm è oltre il limite indicato (differenza del 6%). 0,010 m è il limite superiore dichiarato, non una misura esatta. La stessa pagina cita anche un uovo anomalo di canarino di 7 mm (1998), che non è un uovo normale di specie e non è stato usato.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "biglia",
+    "size": 0.016,
+    "basis": "diametro di una biglia di vetro di misura standard da gioco (5/8 di pollice)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "La biglia è una piccola sfera, oggi quasi sempre di vetro, usata in molti giochi da bambini. La misura più comune è 5/8 di pollice, cioè circa 16 mm, che è anche quella fissata dai regolamenti dei tornei per le biglie bersaglio. Le biglie più antiche erano di pietra o di argilla.",
+    "sources": [
+      {
+        "title": "How To Size a Marble",
+        "url": "https://www.marblecollecting.com/marble-reference/how-to-size-marbles/",
+        "publisher": "Marble Collectors Society of America (Robert S. Block)",
+        "evidence": "the size of the target marbles to be 5/8\""
+      },
+      {
+        "title": "Marbles (National Toy Hall of Fame)",
+        "url": "https://www.museumofplay.org/toys/marbles/",
+        "publisher": "The Strong National Museum of Play",
+        "evidence": "Stone or clay formed the earliest marbles"
+      }
+    ],
+    "note": "Conversione: 5/8 in × 25,4 mm = 15,875 mm, entro l'1% da 16 mm. La fonte per la misura è un sito di riferimento per collezionisti, non un ente di normazione; il regolamento del National Marbles Tournament (PDF) conferma la stessa misura nei risultati di ricerca ma il file non era leggibile, quindi non è citato. La pagina del museo The Strong sostiene la frase sui materiali delle prime biglie.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "penny-statunitense",
+    "size": 0.01905,
+    "basis": "diametro della moneta da un centesimo di dollaro",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il penny è la moneta da un centesimo di dollaro degli Stati Uniti e per legge ha un diametro di 0,75 pollici, cioè 19,05 mm. L'ultimo esemplare destinato alla circolazione è stato coniato il 12 novembre 2025 nella zecca di Filadelfia. Le monete già emesse restano a corso legale.",
+    "sources": [
+      {
+        "title": "31 U.S. Code § 5112 - Denominations, specifications, and design of coins",
+        "url": "https://www.law.cornell.edu/uscode/text/31/5112",
+        "publisher": "Legal Information Institute, Cornell Law School (testo del Codice degli Stati Uniti)",
+        "evidence": "a one-cent coin that is 0.75 inch in diameter"
+      },
+      {
+        "title": "US Mint in Philadelphia to press its final circulating penny after 232 years",
+        "url": "https://www.adn.com/nation-world/2025/11/12/us-mint-in-philadelphia-to-press-its-final-circulating-penny-after-232-years/",
+        "publisher": "Associated Press (su Anchorage Daily News)",
+        "evidence": "will remain legal tender, but new ones will no longer be made"
+      }
+    ],
+    "note": "Conversione: 0,75 in × 25,4 mm = 19,05 mm. La fine del conio per la circolazione nel novembre 2025 è confermata dall'articolo AP del 12 novembre 2025. Le pagine della zecca (specifiche delle monete e comunicato stampa) rispondevano 403 e non sono citate.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "moneta-da-1-euro",
+    "size": 0.02325,
+    "basis": "diametro della moneta",
+    "verdict": "confirmed",
+    "flags": ["n"],
+    "desc": "La moneta da 1 euro ha un diametro di 23,25 mm, uno spessore di 2,33 mm e pesa 7,50 g. È bimetallica: la corona esterna è di nichel-ottone, mentre la parte interna è formata da tre strati di rame-nichel, nichel e rame-nichel. Il bordo alterna tratti lisci e tratti zigrinati.",
+    "sources": [
+      {
+        "title": "Common sides of euro coins",
+        "url": "https://www.ecb.europa.eu/euro/coins/common/html/index.en.html",
+        "publisher": "Banca centrale europea",
+        "evidence": "Diameter (mm): 23.25"
+      }
+    ],
+    "note": "",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "uovo-di-quaglia",
+    "size": 0.032,
+    "basis": "lunghezza (diametro longitudinale) dell'uovo di quaglia giapponese domestica",
+    "verdict": "corrected",
+    "flags": ["r"],
+    "desc": "L'uovo della quaglia giapponese domestica, quello che si trova in commercio, è lungo tipicamente circa 32 mm e largo circa 25 mm. In uno studio dell'Università di Iași il peso medio è risultato di 10,44 g. Il guscio è chiaro con macchie scure.",
+    "sources": [
+      {
+        "title": "Aspects regarding some morphological values of the domestic quail eggs (Coturnix coturnix japonica)",
+        "url": "https://www.spasb.ro/index.php/public_html/article/view/2111",
+        "publisher": "Teușan, Vacaru-Opriș e Teușan, Scientific Papers: Animal Science and Biotechnologies 41(2), 2008",
+        "evidence": "32.34 mm"
+      }
+    ],
+    "note": "Da 0,035 m a 0,032 m. Lo studio dà un diametro longitudinale medio di 32,34 mm e uno trasversale di 24,92-24,97 mm: il valore precedente di 35 mm è l'8% sopra la media. Secondo i risultati di ricerca lo stesso riassunto indica un intervallo di 29,30-34,65 mm e uno studio brasiliano del 2024 dà 31,10 mm, ma queste due cifre non sono state verificate sulla pagina. La frase sul guscio macchiato è conoscenza comune, non tratta dalla fonte.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "fiammifero",
+    "size": 0.045,
+    "basis": "lunghezza dello stelo di un fiammifero di sicurezza da scatola",
+    "verdict": "remove",
+    "flags": [],
+    "desc": "Il fiammifero è un piccolo stelo di legno o di altro materiale combustibile con una capocchia che si accende per sfregamento. Nei fiammiferi di sicurezza si usa il fosforo rosso, scoperto nel 1844 dallo svedese G.E. Pasch, che è privo di emanazioni nocive. La lunghezza dipende dal formato della scatola.",
+    "sources": [
+      {
+        "title": "Fiammifero",
+        "url": "https://www.treccani.it/enciclopedia/fiammifero/",
+        "publisher": "Treccani, Enciclopedia on line",
+        "evidence": "Piccolo stelo o asticella"
+      }
+    ],
+    "note": "Nessuna fonte affidabile per la lunghezza si è aperta. La voce Treccani descrive il fiammifero ma non dà misure. Il produttore Swedish Match Industries, secondo i risultati di ricerca, indica steli di 43 mm, 47 mm e 55 mm a seconda del formato (il valore attuale di 45 mm sarebbe quindi plausibile), ma il sito dà un errore SSL e non può essere citato. La norma EN 1783 è a pagamento. Decisione da prendere: tenere 45 mm come valore indicativo dopo una verifica manuale della pagina del produttore, oppure togliere l'oggetto.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "uovo-di-gallina",
+    "size": 0.055,
+    "basis": "lunghezza (asse maggiore) di un uovo di gallina ovaiola commerciale",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Un uovo di gallina ovaiola è lungo tipicamente tra 5,5 e 6 cm e largo poco più di 4 cm. In uno studio del 2024 su nove tipi genetici le uova delle ovaiole Lohmann Brown misuravano in media 56,12 mm di lunghezza e 43,32 mm di larghezza, con un peso di 59,59 g. Le razze più piccole depongono uova di circa 51 mm.",
+    "sources": [
+      {
+        "title": "The Comparison of Weight and Shape-related Traits in Eggs from Different Chicken Genotypes",
+        "url": "https://agris.fao.org/search/en/records/6798b5c6d6a63682f044e536",
+        "publisher": "Uçar e Kahya, Turkish Journal of Agriculture: Food Science and Technology 12(12), 2024 (scheda FAO AGRIS)",
+        "evidence": "56.12"
+      }
+    ],
+    "note": "Il riassunto dà per le linee ovaiole 56,00 mm (Lohmann Selected Leghorn) e 56,12 mm (Lohmann Brown), fino a 61,97 mm per le linee da carne e 51,30-51,47 mm per le razze Sultan e Ameraucana. Il valore attuale di 55 mm è entro il 2% dalle ovaiole commerciali.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "cubo-di-rubik",
+    "size": 0.057,
+    "basis": "lunghezza dello spigolo del cubo 3×3×3",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il cubo di Rubik è un rompicapo meccanico formato da 27 cubetti, inventato a Budapest dall'insegnante di design Ernő Rubik, che ne assemblò il primo esemplare nel 1974. Lo spigolo misura tra 5,5 e 5,7 cm circa: l'esemplare del Victoria and Albert Museum di Londra è alto 5,5 cm. Dal 2014 fa parte della National Toy Hall of Fame.",
+    "sources": [
+      {
+        "title": "Rubik's Cube (puzzle), MISC.524-1988",
+        "url": "https://collections.vam.ac.uk/item/O27366/rubiks-cube-puzzle-erno-rubik/",
+        "publisher": "Victoria and Albert Museum",
+        "evidence": "Height: 5.5cm"
+      },
+      {
+        "title": "Rubik's Cube (National Toy Hall of Fame)",
+        "url": "https://www.museumofplay.org/toys/rubiks-cube/",
+        "publisher": "The Strong National Museum of Play",
+        "evidence": "Inducted Year: 2014"
+      }
+    ],
+    "note": "Il valore attuale di 57 mm è entro il 4% dai 5,5 cm della scheda del V&A, quindi confermato. La misura di 5,7 × 5,7 × 5,7 cm compare nella scheda del MoMA (oggetto 234.1981) secondo i risultati di ricerca, ma la pagina rispondeva 403 e non è citata; non ho trovato una specifica ufficiale del produttore. La frase della descrizione precedente sul \"cubo ufficiale\" di 5,7 cm è stata quindi attenuata in un intervallo. Anno 1974 e ingresso nella Hall of Fame nel 2014 dalla pagina del museo The Strong.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "tazza",
+    "size": 0.102,
+    "basis": "altezza di una tazza da caffè di tipo mug",
+    "verdict": "uncertain",
+    "flags": ["u"],
+    "desc": "La tazza di tipo mug è un recipiente cilindrico con manico, usato per le bevande calde. Non esiste una misura standard: l'altezza va tipicamente da 8 a 11 cm secondo il modello, e per esempio la tazza in gres FÄRGRIK di IKEA è alta 11 cm e contiene 25 cl. Il valore di circa 10 cm è quindi indicativo.",
+    "sources": [
+      {
+        "title": "FÄRGRIK Mug, stoneware white, 25 cl",
+        "url": "https://www.ikea.com/fi/en/p/faergrik-mug-stoneware-white-s79172437/",
+        "publisher": "IKEA (scheda prodotto del produttore)",
+        "evidence": "Height: 11 cm"
+      }
+    ],
+    "note": "La dimensione di una tazza è una convenzione, non una misura: verdetto incerto. L'unica scheda di produttore che si è aperta dà 11 cm (8% sopra il valore attuale di 10,2 cm). L'estremo inferiore dell'intervallo (circa 8 cm) e i 95-98 mm della tazza standard da 11 once (325 ml) vengono da schede viste solo nei risultati di ricerca (Tuxton, Optimalprint, un'altra tazza IKEA), le cui pagine rispondevano 404 o 429: non sono citate e l'intervallo nella descrizione va letto come indicativo.",
+    "verified": "2026-11-12"
+  }
+]

@@ -606,7 +606,7 @@
     },
     "fiocco-di-neve": {
       "name": "Fiocco di neve",
-      "desc": ""
+      "desc": "Un fiocco di neve può essere un singolo cristallo di ghiaccio oppure un aggregato di molti cristalli. Secondo il fisico Kenneth Libbrecht del Caltech un cristallo di buone dimensioni misura circa 2 mm e uno eccezionale arriva a 10 mm, mentre gli aggregati fotografati dalla meteorologa Sandra Yuter raggiungono i 35 mm. Il valore di 8 mm indica quindi un fiocco grande, non una misura standard."
     },
     "batterio-piu-grande": {
       "name": "Batterio più grande",
@@ -614,27 +614,27 @@
     },
     "chicco-di-caffe": {
       "name": "Chicco di caffè",
-      "desc": ""
+      "desc": "Il chicco di caffè è il seme della pianta del caffè, che viene tostato prima di essere macinato. In uno studio del 2022 su campioni commerciali tostati la lunghezza media è risultata di 10,95 mm per la specie Arabica e di 10,46 mm per la Robusta, con una larghezza di poco superiore a 8 mm. La misura cambia con la varietà, quindi 1 cm circa è un valore tipico."
     },
     "seme-di-girasole": {
       "name": "Seme di girasole",
-      "desc": ""
+      "desc": "Il seme di girasole è in realtà un frutto secco, l'achenio, che racchiude il seme vero e proprio. La lunghezza dipende molto dalla varietà: uno studio dell'Università di Uludağ ha misurato in media 7,79 mm di lunghezza, 7,12 mm di larghezza e 4,18 mm di spessore, mentre i semi da sgranocchiare sono sensibilmente più lunghi. Il valore di circa 1 cm è quindi indicativo."
     },
     "uovo-di-colibri": {
       "name": "Uovo di colibrì",
-      "desc": "L'uovo d'uccello più piccolo."
+      "desc": "L'uovo più piccolo deposto da un uccello è, secondo il Guinness World Records, quello di Mellisuga minima, un colibrì che vive in Giamaica. Due esemplari misuravano meno di 10 mm di lunghezza e pesavano 0,365 g e 0,375 g."
     },
     "biglia": {
       "name": "Biglia",
-      "desc": ""
+      "desc": "La biglia è una piccola sfera, oggi quasi sempre di vetro, usata in molti giochi da bambini. La misura più comune è 5/8 di pollice, cioè circa 16 mm, che è anche quella fissata dai regolamenti dei tornei per le biglie bersaglio. Le biglie più antiche erano di pietra o di argilla."
     },
     "penny-statunitense": {
       "name": "Penny statunitense",
-      "desc": "La zecca USA ne ha interrotto il conio per la circolazione nel novembre 2025."
+      "desc": "Il penny è la moneta da un centesimo di dollaro degli Stati Uniti e per legge ha un diametro di 0,75 pollici, cioè 19,05 mm. L'ultimo esemplare destinato alla circolazione è stato coniato il 12 novembre 2025 nella zecca di Filadelfia. Le monete già emesse restano a corso legale."
     },
     "moneta-da-1-euro": {
       "name": "Moneta da 1 euro",
-      "desc": ""
+      "desc": "La moneta da 1 euro ha un diametro di 23,25 mm, uno spessore di 2,33 mm e pesa 7,50 g. È bimetallica: la corona esterna è di nichel-ottone, mentre la parte interna è formata da tre strati di rame-nichel, nichel e rame-nichel. Il bordo alterna tratti lisci e tratti zigrinati."
     },
     "pollice": {
       "name": "Pollice",
@@ -642,7 +642,7 @@
     },
     "uovo-di-quaglia": {
       "name": "Uovo di quaglia",
-      "desc": ""
+      "desc": "L'uovo della quaglia giapponese domestica, quello che si trova in commercio, è lungo tipicamente circa 32 mm e largo circa 25 mm. In uno studio dell'Università di Iași il peso medio è risultato di 10,44 g. Il guscio è chiaro con macchie scure."
     },
     "fiammifero": {
       "name": "Fiammifero",
@@ -650,11 +650,11 @@
     },
     "uovo-di-gallina": {
       "name": "Uovo di gallina",
-      "desc": ""
+      "desc": "Un uovo di gallina ovaiola è lungo tipicamente tra 5,5 e 6 cm e largo poco più di 4 cm. In uno studio del 2024 su nove tipi genetici le uova delle ovaiole Lohmann Brown misuravano in media 56,12 mm di lunghezza e 43,32 mm di larghezza, con un peso di 59,59 g. Le razze più piccole depongono uova di circa 51 mm."
     },
     "cubo-di-rubik": {
       "name": "Cubo di Rubik",
-      "desc": "Il cubo ufficiale ha lo spigolo di 5,7 cm."
+      "desc": "Il cubo di Rubik è un rompicapo meccanico formato da 27 cubetti, inventato a Budapest dall'insegnante di design Ernő Rubik, che ne assemblò il primo esemplare nel 1974. Lo spigolo misura tra 5,5 e 5,7 cm circa: l'esemplare del Victoria and Albert Museum di Londra è alto 5,5 cm. Dal 2014 fa parte della National Toy Hall of Fame."
     },
     "colibri": {
       "name": "Colibrì",
@@ -666,7 +666,7 @@
     },
     "tazza": {
       "name": "Tazza",
-      "desc": ""
+      "desc": "La tazza di tipo mug è un recipiente cilindrico con manico, usato per le bevande calde. Non esiste una misura standard: l'altezza va tipicamente da 8 a 11 cm secondo il modello, e per esempio la tazza in gres FÄRGRIK di IKEA è alta 11 cm e contiene 25 cl. Il valore di circa 10 cm è quindi indicativo."
     },
     "microonde-del-forno": {
       "name": "Microonde del forno",
@@ -746,7 +746,7 @@
     },
     "isetta": {
       "name": "Isetta",
-      "desc": "La bubble car per eccellenza è lunga 2,3 m. L'originale: 4 m."
+      "desc": "L'Isetta è una microvettura progettata dalla Iso di Milano e costruita su licenza da BMW a partire dal 1955. La BMW Isetta 250 Standard è lunga 2.285 mm, cioè circa 2,3 m, e monta un motore monocilindrico di 247 cm³. Della prima versione BMW furono venduti più di 26.000 esemplari."
     },
     "girasole": {
       "name": "Girasole",
@@ -770,7 +770,7 @@
     },
     "automobile": {
       "name": "Automobile",
-      "desc": ""
+      "desc": "Un'automobile media di oggi è lunga circa 4,5 m: una Volkswagen Golf, per esempio, misura 4,28 m. Secondo Transport & Environment l'auto nuova media venduta in Europa era lunga 4,09 m nel 2000 e da allora si allunga di circa 1,2 cm all'anno. Se la tendenza continua, nel 2040 arriverà a 4,56 m."
     },
     "giraffa": {
       "name": "Giraffa",
@@ -786,7 +786,7 @@
     },
     "modulo-lunare-apollo": {
       "name": "Modulo lunare Apollo",
-      "desc": ""
+      "desc": "Il modulo lunare Apollo era il veicolo a due stadi, costruito dalla Grumman, che portava due astronauti dall'orbita lunare alla superficie della Luna e ritorno. Con le gambe estese era alto circa 7 m e misurava 9,4 m in diagonale tra i piedi del carrello. Tra il 1969 e il 1972 sei moduli lunari hanno portato sulla Luna dodici astronauti."
     },
     "saguaro": {
       "name": "Saguaro",
@@ -794,7 +794,7 @@
     },
     "autobus": {
       "name": "Autobus",
-      "desc": ""
+      "desc": "Un autobus urbano standard a due assi è lungo circa 12 m. Il Mercedes-Benz Citaro, per esempio, misura 12,14 m di lunghezza, 2,55 m di larghezza e 3,12 m di altezza."
     },
     "tyrannosaurus-rex": {
       "name": "Tyrannosaurus rex",
@@ -810,7 +810,7 @@
     },
     "schermo-solare-del-telescopio-webb": {
       "name": "Schermo solare del telescopio Webb",
-      "desc": "Cinque strati sottili come un capello, grandi quanto un campo da tennis."
+      "desc": "Lo schermo solare del telescopio spaziale James Webb misura 21,2 m per 14,2 m, più o meno quanto un campo da tennis. È formato da cinque strati di Kapton rivestiti di alluminio: il primo è spesso 0,05 mm, gli altri quattro 0,025 mm. Tiene il telescopio all'ombra del Sole perché possa osservare nell'infrarosso."
     },
     "balenottera-azzurra": {
       "name": "Balenottera azzurra",
@@ -830,11 +830,11 @@
     },
     "boeing-747-8": {
       "name": "Boeing 747-8",
-      "desc": "L'ultimo 747 è stato consegnato nel 2023."
+      "desc": "Il Boeing 747-8 è l'ultima versione del 747 ed è lungo 76,3 m, 5,6 m più del 747-400. L'ultimo esemplare, un cargo 747-8, è stato consegnato ad Atlas Air il 31 gennaio 2023. In oltre mezzo secolo di produzione la fabbrica di Everett ha costruito 1.574 Boeing 747."
     },
     "stazione-spaziale-internazionale": {
       "name": "Stazione Spaziale Internazionale",
-      "desc": "Abitata senza interruzioni dal 2000. Il rientro controllato è previsto attorno al 2030."
+      "desc": "La Stazione Spaziale Internazionale misura 109 m da un'estremità all'altra, quasi quanto un campo da football americano. È abitata senza interruzioni dal novembre 2000. La NASA si è impegnata a utilizzarla fino al 2030, dopodiché sarà fatta rientrare in modo controllato."
     },
     "campo-da-football-americano": {
       "name": "Campo da football americano",
@@ -842,7 +842,7 @@
     },
     "saturn-v": {
       "name": "Saturn V",
-      "desc": "Il razzo delle missioni Apollo."
+      "desc": "Il Saturn V è il razzo che ha portato gli astronauti delle missioni Apollo sulla Luna. Era alto 363 piedi, cioè circa 110,6 m, quanto un edificio di 36 piani, e al decollo sviluppava una spinta di 34,5 milioni di newton. Ha volato dal 1967 al 1973, quando l'ultimo esemplare ha messo in orbita la stazione Skylab."
     },
     "sequoia-hyperion": {
       "name": "Sequoia Hyperion",
@@ -850,7 +850,7 @@
     },
     "starship": {
       "name": "Starship",
-      "desc": "Il razzo più alto e potente che abbia mai volato."
+      "desc": "Starship è il razzo di SpaceX formato dal booster Super Heavy e dalla navicella omonima. La versione V3, che ha volato per la prima volta il 22 maggio 2026, è alta circa 124 m e sviluppa al decollo una spinta di circa 80 meganewton. È il razzo più alto e più potente mai costruito."
     },
     "grande-piramide-di-giza": {
       "name": "Grande Piramide di Giza",
@@ -878,7 +878,7 @@
     },
     "titanic": {
       "name": "Titanic",
-      "desc": ""
+      "desc": "Il Titanic era un transatlantico lungo 269 m, con una stazza lorda di 46.329 tonnellate. Al varo era il più grande oggetto mobile mai messo in acqua. Affondò il 15 aprile 1912 dopo aver urtato un iceberg, e morirono circa 1.500 persone."
     },
     "onde-radio-am": {
       "name": "Onde radio AM",
@@ -1234,7 +1234,7 @@
     },
     "mondo-di-minecraft": {
       "name": "Mondo di Minecraft",
-      "desc": "60 milioni di blocchi da un metro per lato."
+      "desc": "In Minecraft Java Edition il mondo giocabile è un quadrato delimitato dal bordo del mondo, largo al massimo 59.999.968 blocchi, cioè circa 60 milioni. Ogni blocco equivale a un metro, quindi il mondo misura circa 60.000 km per lato. Il limite è una scelta del software e vale solo per questa edizione del gioco."
     },
     "orbita-geostazionaria": {
       "name": "Orbita geostazionaria",

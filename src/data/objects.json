@@ -2559,10 +2559,18 @@
     "size": 0.008,
     "kind": "o",
     "glyph": "❄️",
-    "flags": [],
+    "flags": [
+      "u"
+    ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Just how big can a snowflake get? It depends on what you mean by 'snowflake'",
+        "url": "https://www.wgbh.org/news/2023-12-25/just-how-big-can-a-snowflake-get-it-depends-on-what-you-mean-by-snowflake",
+        "publisher": "NPR (ripubblicato da GBH News)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "batterio-piu-grande",
@@ -2583,34 +2591,56 @@
     "verified": "2026-11-12"
   },
   {
+    "id": "uovo-di-colibri",
+    "size": 0.01,
+    "kind": "o",
+    "glyph": "🥚",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [
+      {
+        "title": "Smallest bird egg",
+        "url": "https://www.guinnessworldrecords.com/world-records/smallest-bird-egg",
+        "publisher": "Guinness World Records"
+      }
+    ],
+    "verified": "2026-11-12"
+  },
+  {
     "id": "chicco-di-caffe",
     "size": 0.0102,
     "kind": "o",
     "glyph": "🫘",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "The use of multispectral imaging for the discrimination of Arabica and Robusta coffee beans",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9108882/",
+        "publisher": "Mihailova et al., Food Chemistry: X 14 (2022), su PubMed Central"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "seme-di-girasole",
     "size": 0.0104,
     "kind": "o",
     "glyph": "",
-    "flags": [],
+    "flags": [
+      "u"
+    ],
     "image": null,
-    "sources": [],
-    "verified": null
-  },
-  {
-    "id": "uovo-di-colibri",
-    "size": 0.0106,
-    "kind": "o",
-    "glyph": "🥚",
-    "flags": [],
-    "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Physical properties of sunflower seeds (Helianthus annuus L.)",
+        "url": "https://acikerisim.uludag.edu.tr/entities/publication/6b47145a-8319-4a47-a8db-93cc6fb53291/full",
+        "publisher": "Işık e İzli, International Journal of Agricultural Research (2007), archivio dell'Università di Uludağ"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "biglia",
@@ -2619,8 +2649,19 @@
     "glyph": "🔮",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "How To Size a Marble",
+        "url": "https://www.marblecollecting.com/marble-reference/how-to-size-marbles/",
+        "publisher": "Marble Collectors Society of America (Robert S. Block)"
+      },
+      {
+        "title": "Marbles (National Toy Hall of Fame)",
+        "url": "https://www.museumofplay.org/toys/marbles/",
+        "publisher": "The Strong National Museum of Play"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "penny-statunitense",
@@ -2629,8 +2670,19 @@
     "glyph": "🪙",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "31 U.S. Code § 5112 - Denominations, specifications, and design of coins",
+        "url": "https://www.law.cornell.edu/uscode/text/31/5112",
+        "publisher": "Legal Information Institute, Cornell Law School (testo del Codice degli Stati Uniti)"
+      },
+      {
+        "title": "US Mint in Philadelphia to press its final circulating penny after 232 years",
+        "url": "https://www.adn.com/nation-world/2025/11/12/us-mint-in-philadelphia-to-press-its-final-circulating-penny-after-232-years/",
+        "publisher": "Associated Press (su Anchorage Daily News)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "moneta-da-1-euro",
@@ -2641,8 +2693,14 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Common sides of euro coins",
+        "url": "https://www.ecb.europa.eu/euro/coins/common/html/index.en.html",
+        "publisher": "Banca centrale europea"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "pollice",
@@ -2664,13 +2722,21 @@
   },
   {
     "id": "uovo-di-quaglia",
-    "size": 0.035,
+    "size": 0.032,
     "kind": "o",
     "glyph": "🥚",
-    "flags": [],
+    "flags": [
+      "r"
+    ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Aspects regarding some morphological values of the domestic quail eggs (Coturnix coturnix japonica)",
+        "url": "https://www.spasb.ro/index.php/public_html/article/view/2111",
+        "publisher": "Teușan, Vacaru-Opriș e Teușan, Scientific Papers: Animal Science and Biotechnologies 41(2), 2008"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "fiammifero",
@@ -2689,8 +2755,14 @@
     "glyph": "🥚",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "The Comparison of Weight and Shape-related Traits in Eggs from Different Chicken Genotypes",
+        "url": "https://agris.fao.org/search/en/records/6798b5c6d6a63682f044e536",
+        "publisher": "Uçar e Kahya, Turkish Journal of Agriculture: Food Science and Technology 12(12), 2024 (scheda FAO AGRIS)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "cubo-di-rubik",
@@ -2699,8 +2771,19 @@
     "glyph": "🟧",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Rubik's Cube (puzzle), MISC.524-1988",
+        "url": "https://collections.vam.ac.uk/item/O27366/rubiks-cube-puzzle-erno-rubik/",
+        "publisher": "Victoria and Albert Museum"
+      },
+      {
+        "title": "Rubik's Cube (National Toy Hall of Fame)",
+        "url": "https://www.museumofplay.org/toys/rubiks-cube/",
+        "publisher": "The Strong National Museum of Play"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "colibri",
@@ -2744,10 +2827,18 @@
     "size": 0.102,
     "kind": "o",
     "glyph": "☕",
-    "flags": [],
+    "flags": [
+      "u"
+    ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "FÄRGRIK Mug, stoneware white, 25 cl",
+        "url": "https://www.ikea.com/fi/en/p/faergrik-mug-stoneware-white-s79172437/",
+        "publisher": "IKEA (scheda prodotto del produttore)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "microonde-del-forno",
@@ -3106,8 +3197,19 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Allgemeine Daten zum BMW Isetta 250 Standard (03/55 - 01/57)",
+        "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/isetta/1generation/264979/",
+        "publisher": "ADAC Autokatalog"
+      },
+      {
+        "title": "BMW Isetta 250 Standard",
+        "url": "https://www.bmwgroup-classic.com/en/models/bmw-classics/product-description-page.ad-222-1.bmw-isetta-250-standard.html",
+        "publisher": "BMW Group Classic"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "girasole",
@@ -3198,8 +3300,19 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Ever-bigger? Car size at a crossroads",
+        "url": "https://www.transportenvironment.org/articles/ever-bigger-car-size-at-a-crossroads",
+        "publisher": "Transport & Environment"
+      },
+      {
+        "title": "Golf dimensions",
+        "url": "https://www.volkswagen.co.uk/en/new/golf/golf-dimensions.html",
+        "publisher": "Volkswagen UK"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "giraffa",
@@ -3268,8 +3381,19 @@
     "glyph": "🛰️",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Apollo 204 Review Board: Description of the Apollo spacecraft",
+        "url": "https://www.nasa.gov/wp-content/uploads/static/history/Apollo204/spacecraft.html",
+        "publisher": "NASA History"
+      },
+      {
+        "title": "Lunar Module #2, Apollo",
+        "url": "https://airandspace.si.edu/collection-objects/lunar-module-2-apollo/nasm_A19711598000",
+        "publisher": "Smithsonian National Air and Space Museum"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "saguaro",
@@ -3299,8 +3423,14 @@
     "glyph": "🚌",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Citaro: Facts",
+        "url": "https://www.mercedes-benz-bus.com/en_CY/models/citaro/facts/facts-citaro.html",
+        "publisher": "Mercedes-Benz Buses (Daimler Buses)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "tyrannosaurus-rex",
@@ -3360,8 +3490,14 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Webb's Sunshield",
+        "url": "https://science.nasa.gov/mission/webb/webbs-sunshield/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "balenottera-azzurra",
@@ -3437,8 +3573,19 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Boeing Joins Fuselage Sections for First 747-8 Intercontinental",
+        "url": "https://boeing.mediaroom.com/2010-10-15-Boeing-Joins-Fuselage-Sections-for-First-747-8-Intercontinental",
+        "publisher": "Boeing"
+      },
+      {
+        "title": "Boeing, Atlas Air Celebrate Delivery of Final 747, an Airplane that Transformed Aviation and Global Air Travel",
+        "url": "https://investors.boeing.com/investors/news/press-release-details/2023/Boeing-Atlas-Air-Celebrate-Delivery-of-Final-747-an-Airplane-that-Transformed-Aviation-and-Global-Air-Travel/default.aspx",
+        "publisher": "Boeing"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "stazione-spaziale-internazionale",
@@ -3447,8 +3594,19 @@
     "glyph": "🛰️",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "International Space Station Facts and Figures",
+        "url": "https://www.nasa.gov/international-space-station/space-station-facts-and-figures/",
+        "publisher": "NASA"
+      },
+      {
+        "title": "FAQs: The International Space Station Transition Plan",
+        "url": "https://www.nasa.gov/faqs-the-international-space-station-transition-plan/",
+        "publisher": "NASA"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "campo-da-football-americano",
@@ -3467,8 +3625,14 @@
     "glyph": "🚀",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "What Was the Saturn V? (Grades 5-8)",
+        "url": "https://www.nasa.gov/learning-resources/for-kids-and-students/what-was-the-saturn-v-grades-5-8/",
+        "publisher": "NASA"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "sequoia-hyperion",
@@ -3502,8 +3666,14 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "SpaceX launches Starship V3, the world's most powerful and tallest rocket ever",
+        "url": "https://www.scientificamerican.com/article/spacex-launches-starship-v3-the-worlds-most-powerful-and-tallest-rocket-ever/",
+        "publisher": "Scientific American"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "grande-piramide-di-giza",
@@ -3581,8 +3751,14 @@
     "glyph": "🚢",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "RMS Titanic facts",
+        "url": "https://www.rmg.co.uk/stories/topics/rms-titanic-facts",
+        "publisher": "Royal Museums Greenwich"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "onde-radio-am",
@@ -4612,11 +4788,18 @@
     "kind": "o",
     "glyph": "🟩",
     "flags": [
-      "r"
+      "r",
+      "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "MC-233073 (segnalazione sul bug tracker di Minecraft: Java Edition)",
+        "url": "https://mojira.dev/MC-233073",
+        "publisher": "Mojira (bug tracker pubblico di Mojang, copia consultabile)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "orbita-geostazionaria",
