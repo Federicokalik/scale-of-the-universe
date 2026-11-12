@@ -254,8 +254,19 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Gravitational Waves Detected 100 Years After Einstein's Prediction",
+        "url": "https://www.caltech.edu/about/news/gravitational-waves-detected-100-years-after-einstein-s-prediction-49777",
+        "publisher": "Caltech"
+      },
+      {
+        "title": "LIGO: Detecting gravitational waves",
+        "url": "https://www.nsf.gov/news/special_reports/ligoevent/",
+        "publisher": "U.S. National Science Foundation (NSF)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "quark-charm",
@@ -4584,8 +4595,14 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Marathon",
+        "url": "https://worldathletics.org/disciplines/road-running/marathon",
+        "publisher": "World Athletics"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "nix",
@@ -5823,8 +5840,14 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Catalog of Earth Satellite Orbits",
+        "url": "https://earthobservatory.nasa.gov/features/OrbitsCatalog/page2.php",
+        "publisher": "NASA Earth Observatory"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "saturno",
@@ -6019,8 +6042,19 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Saturnian Rings Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/satringfact.html",
+        "publisher": "NASA NSSDCA"
+      },
+      {
+        "title": "Saturn: Facts",
+        "url": "https://science.nasa.gov/saturn/facts/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "distanza-terra-luna",
@@ -6029,8 +6063,19 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Moon Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html",
+        "publisher": "NASA NSSDCA"
+      },
+      {
+        "title": "Laser Beams Reflected Between Earth and Moon Boost Science",
+        "url": "https://www.nasa.gov/missions/apollo/laser-beams-reflected-between-earth-and-moon-boost-science/",
+        "publisher": "NASA"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "stella-di-kapteyn",
@@ -6156,8 +6201,14 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Webb's Orbit",
+        "url": "https://science.nasa.gov/mission/webb/orbit/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "alfa-centauri-a",
@@ -6274,8 +6325,19 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "NASA's Parker Solar Probe Makes History With Closest Pass to Sun",
+        "url": "https://science.nasa.gov/science-research/heliophysics/nasas-parker-solar-probe-makes-history-with-closest-pass-to-sun/",
+        "publisher": "NASA Science"
+      },
+      {
+        "title": "Sun Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html",
+        "publisher": "NASA NSSDCA"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "spica",
@@ -6315,11 +6377,23 @@
     "kind": "d",
     "glyph": "",
     "flags": [
-      "r"
+      "r",
+      "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "World Population Prospects 2024: Summary of Results",
+        "url": "https://population.un.org/wpp/assets/Files/WPP2024_Summary-of-Results.pdf",
+        "publisher": "United Nations, Department of Economic and Social Affairs, Population Division"
+      },
+      {
+        "title": "Human Height",
+        "url": "https://ourworldindata.org/human-height",
+        "publisher": "Our World in Data (University of Oxford / Global Change Data Lab)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "capella",
@@ -6346,8 +6420,19 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "TRAPPIST-1 h",
+        "url": "https://science.nasa.gov/exoplanet-catalog/trappist-1-h/",
+        "publisher": "NASA Science, Exoplanet Catalog"
+      },
+      {
+        "title": "Mercury Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/mercuryfact.html",
+        "publisher": "NASA NSSDCA"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "vv-cephei-b",
@@ -6437,8 +6522,14 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Mercury Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/mercuryfact.html",
+        "publisher": "NASA NSSDCA"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "r136a1",
@@ -6556,8 +6647,14 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Astrodynamic Parameters",
+        "url": "https://ssd.jpl.nasa.gov/astro_par.html",
+        "publisher": "NASA/JPL Solar System Dynamics"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "enif",
@@ -6707,8 +6804,14 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Jupiter Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html",
+        "publisher": "NASA Space Science Data Coordinated Archive (NSSDCA)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "antares",
@@ -6858,8 +6961,14 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Neptune Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/neptunefact.html",
+        "publisher": "NASA Space Science Data Coordinated Archive (NSSDCA)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "distanza-plutone-sole",
@@ -6868,8 +6977,14 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Pluto Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/plutofact.html",
+        "publisher": "NASA Space Science Data Coordinated Archive (NSSDCA)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "fascia-di-kuiper",
@@ -6878,8 +6993,14 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Kuiper Belt: Facts",
+        "url": "https://science.nasa.gov/solar-system/kuiper-belt/facts/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "voyager-1",
@@ -6890,8 +7011,19 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Where Are Voyager 1 and Voyager 2 Now?",
+        "url": "https://science.nasa.gov/mission/voyager/where-are-voyager-1-and-voyager-2-now/",
+        "publisher": "NASA Science"
+      },
+      {
+        "title": "Voyager 1",
+        "url": "https://science.nasa.gov/mission/voyager/voyager-1/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "giorno-luce",
@@ -6923,8 +7055,14 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Voyager: Interstellar Mission",
+        "url": "https://science.nasa.gov/mission/voyager/interstellar-mission/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "m87",
@@ -6956,18 +7094,47 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Small-Body Database Lookup: C/1995 O1 (Hale-Bopp)",
+        "url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=C%2F1995%20O1",
+        "publisher": "NASA/JPL Solar System Dynamics"
+      },
+      {
+        "title": "C/1995 O1 (Hale-Bopp)",
+        "url": "https://science.nasa.gov/solar-system/comets/c-1995-o1-hale-bopp/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "afelio-di-sedna",
     "size": 140000000000000,
     "kind": "d",
     "glyph": "",
-    "flags": [],
+    "flags": [
+      "u"
+    ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Feasibility study of a mission to Sedna - Nuclear propulsion and advanced solar sailing concepts",
+        "url": "https://arxiv.org/abs/2506.17732",
+        "publisher": "Ancona, Kezerashvili, Longo, arXiv:2506.17732"
+      },
+      {
+        "title": "Feasibility study of a mission to Sedna (full text)",
+        "url": "https://arxiv.org/html/2506.17732",
+        "publisher": "Ancona, Kezerashvili, Longo, arXiv:2506.17732"
+      },
+      {
+        "title": "Small-Body Database Lookup: 90377 Sedna (2003 VB12)",
+        "url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=90377",
+        "publisher": "NASA/JPL Solar System Dynamics"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "buco-nero-del-cosmic-horseshoe",
@@ -7057,8 +7224,14 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Proxima's orbit around Alpha Centauri",
+        "url": "https://arxiv.org/abs/1611.03495",
+        "publisher": "Kervella, Thévenin, Lovis, Astronomy & Astrophysics (arXiv:1611.03495)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "nebulosa-occhio-di-gatto",
@@ -7199,8 +7372,14 @@
       "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Oort Cloud: Facts",
+        "url": "https://science.nasa.gov/solar-system/oort-cloud/facts/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "parsec",

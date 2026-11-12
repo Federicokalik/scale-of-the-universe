@@ -1,0 +1,218 @@
+[
+  {
+    "id": "sensibilita-di-ligo",
+    "size": 1e-19,
+    "basis": "minima variazione di lunghezza dei bracci dell'interferometro che LIGO riesce a rivelare (ordine di grandezza)",
+    "verdict": "confirmed",
+    "flags": ["n"],
+    "desc": "LIGO è una coppia di interferometri laser a forma di L, con bracci lunghi 4 km, costruiti per rivelare le onde gravitazionali. Riesce a misurare una variazione della lunghezza dei bracci inferiore a un decimillesimo del diametro di un protone, cioè circa 10⁻¹⁹ m. Con questa sensibilità ha registrato nel 2015 il primo segnale di onde gravitazionali, annunciato nel 2016.",
+    "sources": [
+      {
+        "title": "Gravitational Waves Detected 100 Years After Einstein's Prediction",
+        "url": "https://www.caltech.edu/about/news/gravitational-waves-detected-100-years-after-einstein-s-prediction-49777",
+        "publisher": "Caltech",
+        "evidence": "smaller than one-ten-thousandth the diameter of a proton (10-19 meter)"
+      },
+      {
+        "title": "LIGO: Detecting gravitational waves",
+        "url": "https://www.nsf.gov/news/special_reports/ligoevent/",
+        "publisher": "U.S. National Science Foundation (NSF)",
+        "evidence": "L-shaped vacuum tubes, each 4 kilometers long"
+      }
+    ],
+    "note": "Valore di ordine di grandezza, non una specifica precisa: la fonte dice 'inferiore a' 1/10.000 del diametro del protone (10^-19 m). Il sito ufficiale www.ligo.caltech.edu non era raggiungibile da questa sessione (host non risolto), quindi è citato il comunicato Caltech del febbraio 2016, che riporta anche la data della prima rivelazione (14 settembre 2015).",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "maratona",
+    "size": 42195,
+    "basis": "lunghezza ufficiale del percorso di gara",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "La maratona è la gara di corsa più lunga del programma olimpico: 42,195 km, pari a 26 miglia e 385 iarde. La distanza risale ai Giochi di Londra del 1908, quando il percorso fu allungato per farlo partire dal castello di Windsor. È stata fissata come standard nel 1921.",
+    "sources": [
+      {
+        "title": "Marathon",
+        "url": "https://worldathletics.org/disciplines/road-running/marathon",
+        "publisher": "World Athletics",
+        "evidence": "standardised at 26 miles 385 yards (42.195km) in 1921"
+      }
+    ],
+    "note": "La descrizione originale era vuota. Tutti i fatti (1908, Windsor, 1921) vengono dalla pagina World Athletics.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "orbita-geostazionaria",
+    "size": 84300000,
+    "basis": "diametro dell'orbita geostazionaria (due volte il raggio orbitale misurato dal centro della Terra)",
+    "verdict": "confirmed",
+    "flags": ["n"],
+    "desc": "Un satellite a 42.164 km dal centro della Terra, cioè a circa 36.000 km di quota, impiega 23 ore, 56 minuti e 4 secondi per un'orbita: esattamente una rotazione terrestre. Il diametro dell'orbita è quindi di circa 84.300 km. Visto da terra, un satellite geostazionario sopra l'equatore resta fermo nello stesso punto del cielo, cosa utile per meteorologia e telecomunicazioni.",
+    "sources": [
+      {
+        "title": "Catalog of Earth Satellite Orbits",
+        "url": "https://earthobservatory.nasa.gov/features/OrbitsCatalog/page2.php",
+        "publisher": "NASA Earth Observatory",
+        "evidence": "exactly 42,164 kilometers from the center of the Earth"
+      }
+    ],
+    "note": "Calcolo: 2 × 42.164 km = 84.328 km = 8,43e7 m. La quota di 35.786 km della descrizione originale è coerente (42.164 − 6.378 km), ma la fonte aperta dice 'about 36,000 kilometers', quindi la descrizione usa il valore arrotondato.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "anelli-di-saturno",
+    "size": 280000000,
+    "basis": "diametro del sistema degli anelli principali fino all'anello F (due volte il raggio dal centro di Saturno)",
+    "verdict": "confirmed",
+    "flags": ["n"],
+    "desc": "Gli anelli principali di Saturno (C, B e A) arrivano fino a 136.780 km dal centro del pianeta, per un diametro di circa 273.600 km. Contando anche il sottile anello F, a 139.826 km, si arriva a circa 280.000 km. Lo spessore tipico degli anelli principali è invece di appena 10 metri circa.",
+    "sources": [
+      {
+        "title": "Saturnian Rings Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/satringfact.html",
+        "publisher": "NASA NSSDCA",
+        "evidence": "A outer edge 136,780; F ring 139,826"
+      },
+      {
+        "title": "Saturn: Facts",
+        "url": "https://science.nasa.gov/saturn/facts/",
+        "publisher": "NASA Science",
+        "evidence": "vertical height is typically about 30 feet (10 meters) in the main rings"
+      }
+    ],
+    "note": "Calcolo: 2 × 136.780 km = 273.560 km (bordo esterno dell'anello A); 2 × 139.826 km = 279.652 km (anello F). Il valore attuale 2,8e8 m coincide con il diametro all'anello F ed è entro il 2,4% da quello dell'anello A. Il dato '282.000 km' della descrizione originale viene dalla pagina NASA Science, che però lo presenta come estensione 'dal pianeta' e non come diametro: l'ho sostituito con i raggi della scheda NSSDCA. Gli anelli G ed E, molto tenui, arrivano molto più lontano (E fino a 480.000 km di raggio).",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "distanza-terra-luna",
+    "size": 384400000,
+    "basis": "distanza media tra il centro della Terra e il centro della Luna (semiasse maggiore dell'orbita lunare)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "La Luna orbita a una distanza media di 384.400 km dalla Terra, misurata tra i centri dei due corpi. L'orbita è ellittica: la distanza varia da circa 363.300 km al perigeo a 405.500 km all'apogeo. Le misure laser sui riflettori lasciati dalle missioni Apollo mostrano che la Luna si allontana di 3,8 cm l'anno.",
+    "sources": [
+      {
+        "title": "Moon Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html",
+        "publisher": "NASA NSSDCA",
+        "evidence": "Semimajor axis (10^6 km) 0.3844"
+      },
+      {
+        "title": "Laser Beams Reflected Between Earth and Moon Boost Science",
+        "url": "https://www.nasa.gov/missions/apollo/laser-beams-reflected-between-earth-and-moon-boost-science/",
+        "publisher": "NASA",
+        "evidence": "1.5 inches (3.8 centimeters) per year"
+      }
+    ],
+    "note": "Perigeo 0,3633 e apogeo 0,4055 milioni di km dalla stessa scheda NSSDCA.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "distanza-del-telescopio-webb",
+    "size": 1500000000,
+    "basis": "distanza tra la Terra e il telescopio spaziale James Webb, in orbita attorno al punto lagrangiano L2 del sistema Sole-Terra",
+    "verdict": "confirmed",
+    "flags": ["n"],
+    "desc": "Il telescopio spaziale James Webb non orbita attorno alla Terra ma attorno al Sole, a 1,5 milioni di km dal nostro pianeta, presso il secondo punto di Lagrange (L2). Da lì resta allineato con la Terra mentre questa gira attorno al Sole, così il grande schermo solare può riparare il telescopio dalla luce e dal calore di Sole, Terra e Luna. Per raggiungere quella posizione ha impiegato circa 30 giorni.",
+    "sources": [
+      {
+        "title": "Webb's Orbit",
+        "url": "https://science.nasa.gov/mission/webb/orbit/",
+        "publisher": "NASA Science",
+        "evidence": "orbits the Sun, 1.5 million kilometers (1 million miles) away from the Earth"
+      }
+    ],
+    "note": "Valore arrotondato: Webb percorre un'orbita ampia attorno a L2, quindi la distanza reale dalla Terra varia nel tempo attorno a 1,5 milioni di km.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "perielio-della-parker-solar-probe",
+    "size": 6900000000,
+    "basis": "distanza minima tra la sonda e il centro del Sole al perielio del 24 dicembre 2024",
+    "verdict": "confirmed",
+    "flags": ["n"],
+    "desc": "Il 24 dicembre 2024 la sonda Parker Solar Probe della NASA è passata a 3,8 milioni di miglia, circa 6,1 milioni di km, dalla superficie del Sole: quasi 6,9 milioni di km dal suo centro. In quel momento viaggiava a circa 692.000 km/h, cioè 192 km/s. Secondo la NASA è la velocità più alta mai raggiunta da un oggetto costruito dall'uomo.",
+    "sources": [
+      {
+        "title": "NASA's Parker Solar Probe Makes History With Closest Pass to Sun",
+        "url": "https://science.nasa.gov/science-research/heliophysics/nasas-parker-solar-probe-makes-history-with-closest-pass-to-sun/",
+        "publisher": "NASA Science",
+        "evidence": "just 3.8 million miles above the surface of the Sun"
+      },
+      {
+        "title": "Sun Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html",
+        "publisher": "NASA NSSDCA",
+        "evidence": "Volumetric mean radius (km) 695,700"
+      }
+    ],
+    "note": "La pagina NASA dà solo miglia: 3,8 milioni di miglia × 1,609344 = 6,12 milioni di km dalla superficie; 430.000 mph × 1,609344 = 692.000 km/h = 192,2 km/s. Distanza dal centro: 6,12e9 m + 6,957e8 m (raggio solare) = 6,81e9 m, entro l'1,3% dal valore attuale 6,9e9 m (la differenza dipende dall'arrotondamento a 3,8 milioni di miglia), quindi confermato.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "altezza-totale-dell-umanita",
+    "size": 13000000000,
+    "basis": "somma delle stature di tutti gli esseri umani viventi (popolazione mondiale per statura media): una stima, non una misura",
+    "verdict": "uncertain",
+    "flags": ["r", "u"],
+    "desc": "Se tutti gli esseri umani salissero uno sulla testa dell'altro formerebbero una colonna di circa 13 milioni di km, più di 30 volte la distanza tra la Terra e la Luna. È una stima: l'ONU contava 8,2 miliardi di persone nel 2024 e gli adulti sono alti in media 171 cm (uomini) e 159 cm (donne), ma nel conto entrano anche i bambini. Con una statura media tra 1,5 e 1,65 m il totale va da circa 12 a 14 milioni di km.",
+    "sources": [
+      {
+        "title": "World Population Prospects 2024: Summary of Results",
+        "url": "https://population.un.org/wpp/assets/Files/WPP2024_Summary-of-Results.pdf",
+        "publisher": "United Nations, Department of Economic and Social Affairs, Population Division",
+        "evidence": "up from 8.2 billion in 2024"
+      },
+      {
+        "title": "Human Height",
+        "url": "https://ourworldindata.org/human-height",
+        "publisher": "Our World in Data (University of Oxford / Global Change Data Lab)",
+        "evidence": "global mean height of adult men born in 1996 is 171 centimeters"
+      }
+    ],
+    "note": "Il valore 1,3e10 m equivale a 8,3 miliardi di persone × 1,57 m. La popolazione 2026 di 8,3 miliardi è coerente con la crescita dopo gli 8,2 miliardi del 2024, ma non l'ho trovata scritta in una pagina ONU aperta: la descrizione cita quindi il dato 2024. Nessuna fonte dà la statura media dell'intera popolazione, bambini compresi: l'intervallo 1,5-1,65 m è un'ipotesi mia (8,2e9 × 1,5 = 1,23e10 m; 8,3e9 × 1,65 = 1,37e10 m), da qui il verdetto incerto e il flag u. Confronto: 1,3e10 / 3,844e8 = 33,8 distanze Terra-Luna. Tolta la frase 'L'originale ne contava 7': riguarda la lista del 2012 e non è verificabile su una fonte.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "sistema-di-trappist-1",
+    "size": 18500000000,
+    "basis": "diametro dell'orbita del pianeta più esterno, TRAPPIST-1 h (due volte il raggio orbitale)",
+    "verdict": "confirmed",
+    "flags": ["n"],
+    "desc": "TRAPPIST-1 è una stella di tipo M attorno a cui orbitano pianeti di tipo terrestre. Il più esterno, TRAPPIST-1 h, annunciato nel 2017, dista dalla stella 0,06189 unità astronomiche e completa un'orbita in 18,8 giorni: il diametro della sua orbita è di circa 18,5 milioni di km. L'intero sistema starebbe sei volte dentro l'orbita di Mercurio.",
+    "sources": [
+      {
+        "title": "TRAPPIST-1 h",
+        "url": "https://science.nasa.gov/exoplanet-catalog/trappist-1-h/",
+        "publisher": "NASA Science, Exoplanet Catalog",
+        "evidence": "Orbital Radius: 0.06189 AU"
+      },
+      {
+        "title": "Mercury Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/mercuryfact.html",
+        "publisher": "NASA NSSDCA",
+        "evidence": "Semimajor axis (AU) 0.38709893"
+      }
+    ],
+    "note": "Calcolo: 0,06189 au × 1,495978707e11 m = 9,259e9 m; × 2 = 1,852e10 m. Confronto con Mercurio: 0,3871 / 0,06189 = 6,25, quindi 'sei volte' è corretto come rapporto tra i raggi orbitali. Il numero totale dei pianeti (sette) non compare nella pagina aperta e non è scritto nella descrizione.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "distanza-mercurio-sole",
+    "size": 57900000000,
+    "basis": "distanza media tra Mercurio e il Sole (semiasse maggiore dell'orbita)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Mercurio è il pianeta più vicino al Sole: lo orbita a una distanza media di 57,9 milioni di km, cioè 0,387 volte quella della Terra. L'orbita è molto allungata, tanto che la distanza varia da 46,0 milioni di km al perielio a 69,8 milioni all'afelio. Un giro completo dura 88 giorni.",
+    "sources": [
+      {
+        "title": "Mercury Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/mercuryfact.html",
+        "publisher": "NASA NSSDCA",
+        "evidence": "Semimajor axis (10^6 km) 57.909"
+      }
+    ],
+    "note": "La descrizione originale era vuota. Perielio 46,000 e afelio 69,818 milioni di km, periodo siderale 87,969 giorni: stessa scheda NSSDCA.",
+    "verified": "2026-11-12"
+  }
+]

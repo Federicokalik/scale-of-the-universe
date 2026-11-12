@@ -1,0 +1,235 @@
+[
+  {
+    "id": "distanza-terra-sole",
+    "size": 149600000000,
+    "basis": "distanza media Terra-Sole, pari a un'unità astronomica (lunghezza fissata per definizione)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "La distanza media tra la Terra e il Sole corrisponde a un'unità astronomica, che dal 2012 l'Unione Astronomica Internazionale fissa per definizione a 149.597.870.700 metri esatti, cioè circa 149,6 milioni di km. La luce del Sole impiega circa 8 minuti e 19 secondi a percorrerla.",
+    "sources": [
+      {
+        "title": "Astrodynamic Parameters",
+        "url": "https://ssd.jpl.nasa.gov/astro_par.html",
+        "publisher": "NASA/JPL Solar System Dynamics",
+        "evidence": "astronomical unit au 149597870700 m IAU 2012 Resolution B1"
+      }
+    ],
+    "note": "149.597.870.700 m arrotondato a 1,496e11 m (differenza 0,001%). Tempo luce derivato: 149.597.870.700 m / 299.792.458 m/s = 499,0 s = 8 min 19 s (c dalla stessa pagina). La pagina JPL attribuisce la definizione alla 'IAU 2012 Resolution B1'; il PDF della risoluzione sul sito IAU non si è aperto (404) e non è citato.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "distanza-giove-sole",
+    "size": 778500000000,
+    "basis": "semiasse maggiore dell'orbita di Giove (distanza media dal Sole)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Giove orbita a una distanza media dal Sole di circa 778,5 milioni di km, pari a 5,2 unità astronomiche. La distanza varia da 740,6 milioni di km al perielio a 816,4 milioni di km all'afelio. Un'orbita completa dura 4.332,6 giorni, quasi 12 anni terrestri.",
+    "sources": [
+      {
+        "title": "Jupiter Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html",
+        "publisher": "NASA Space Science Data Coordinated Archive (NSSDCA)",
+        "evidence": "Semimajor axis (10^6 km) 778.479"
+      }
+    ],
+    "note": "778,479 milioni di km = 7,78479e11 m, contro 7,785e11 m (differenza 0,003%). 4.332,589 giorni / 365,25 = 11,86 anni.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "distanza-nettuno-sole",
+    "size": 4495000000000,
+    "basis": "semiasse maggiore dell'orbita di Nettuno (distanza media dal Sole)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Nettuno, il pianeta più esterno, orbita a una distanza media dal Sole di circa 4,5 miliardi di km, pari a circa 30,1 unità astronomiche. La sua orbita è quasi circolare: la distanza varia solo da 4,47 a 4,56 miliardi di km. Un giro completo richiede 60.189 giorni, quasi 165 anni terrestri.",
+    "sources": [
+      {
+        "title": "Neptune Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/neptunefact.html",
+        "publisher": "NASA Space Science Data Coordinated Archive (NSSDCA)",
+        "evidence": "Semimajor axis (10^6 km) 4,514.953"
+      }
+    ],
+    "note": "La scheda dà 4.514,953 milioni di km (30,178 UA) nella tabella e 30,06896348 UA negli elementi medi J2000 (= 4.498 milioni di km). Il valore attuale 4,495e12 m è entro lo 0,4% dal primo e lo 0,1% dal secondo. 60.189,018 giorni / 365,25 = 164,8 anni.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "distanza-plutone-sole",
+    "size": 5906000000000,
+    "basis": "semiasse maggiore dell'orbita di Plutone (distanza media dal Sole)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Plutone orbita a una distanza media dal Sole di circa 5,9 miliardi di km, cioè circa 39,5 unità astronomiche. La sua orbita è molto allungata: la distanza varia da 4,43 miliardi di km al perielio a 7,30 miliardi di km all'afelio. Un giro completo dura 90.560 giorni, circa 248 anni terrestri.",
+    "sources": [
+      {
+        "title": "Pluto Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/plutofact.html",
+        "publisher": "NASA Space Science Data Coordinated Archive (NSSDCA)",
+        "evidence": "Semimajor axis (AU) 39.48168677"
+      }
+    ],
+    "note": "39,48168677 UA × 1,495978707e11 m = 5,906e12 m (elementi medi J2000 della scheda). La tabella principale della stessa scheda dà 5.869,656 milioni di km (39,236 UA), lo 0,6% in meno: entrambi entro la tolleranza. 90.560 giorni / 365,25 = 247,9 anni.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "fascia-di-kuiper",
+    "size": 15000000000000,
+    "basis": "diametro della regione principale della fascia (bordo esterno a circa 50 UA dal Sole, quindi 100 UA da un lato all'altro)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "La fascia di Kuiper è una regione a forma di ciambella popolata da corpi ghiacciati oltre l'orbita di Nettuno. La parte principale va da circa 30 a circa 50 unità astronomiche dal Sole, quindi misura circa 100 UA (15 miliardi di km) da un lato all'altro. Oltre il suo bordo si sovrappone il disco diffuso, che secondo la NASA arriva a quasi 1.000 UA.",
+    "sources": [
+      {
+        "title": "Kuiper Belt: Facts",
+        "url": "https://science.nasa.gov/solar-system/kuiper-belt/facts/",
+        "publisher": "NASA Science",
+        "evidence": "main region of the Kuiper Belt ends around 50 AU from the Sun"
+      }
+    ],
+    "note": "2 × 50 UA = 100 UA × 1,495978707e11 m = 1,496e13 m, arrotondato a 1,5e13 m. I limiti sono approssimativi ('about 30 AU', 'around 50 AU'); il bordo interno a 30 UA è confermato dalla stessa pagina.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "voyager-1",
+    "size": 25850000000000,
+    "basis": "distanza della sonda dalla Terra a novembre 2026",
+    "verdict": "confirmed",
+    "flags": [
+      "r"
+    ],
+    "desc": "Voyager 1, lanciata il 5 settembre 1977, è l'oggetto costruito dall'uomo più lontano dalla Terra. Secondo la NASA il 18 novembre 2026 raggiunge un giorno-luce di distanza, cioè 25,902 miliardi di km: un segnale radio impiega allora 24 ore per arrivare alla sonda. Nell'agosto 2012 è stata la prima sonda a entrare nello spazio interstellare.",
+    "sources": [
+      {
+        "title": "Where Are Voyager 1 and Voyager 2 Now?",
+        "url": "https://science.nasa.gov/mission/voyager/where-are-voyager-1-and-voyager-2-now/",
+        "publisher": "NASA Science",
+        "evidence": "Nov. 18, 2026 ... 16.094 billion miles (25.902 billion kilometers) away from Earth"
+      },
+      {
+        "title": "Voyager 1",
+        "url": "https://science.nasa.gov/mission/voyager/voyager-1/",
+        "publisher": "NASA Science",
+        "evidence": "Voyager 1 The most distant human-made object"
+      }
+    ],
+    "note": "Un giorno-luce = 299.792.458 m/s × 86.400 s = 2,5902e13 m, raggiunto il 18 novembre 2026 (2:16 PST). Il valore attuale 2,585e13 m è lo 0,2% in meno, coerente con la data di verifica: la sonda si allontana e la distanza dalla Terra oscilla durante l'anno, quindi il dato invecchia in fretta. 'Metà novembre' è stato precisato in 18 novembre. Tolta la frase 'L'originale: 17 miliardi di km' (storia del dato, non verificata qui); il flag r resta.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "eliopausa",
+    "size": 36000000000000,
+    "basis": "diametro convenzionale dell'eliosfera: doppio della distanza dal Sole a cui Voyager 1 ha attraversato l'eliopausa (circa 120 UA)",
+    "verdict": "confirmed",
+    "flags": [
+      "n"
+    ],
+    "desc": "L'eliopausa è il confine esterno dell'eliosfera, la bolla di particelle e campi magnetici generata dal Sole. Voyager 1 l'ha attraversata il 25 agosto 2012 a circa 122 unità astronomiche dal Sole, cioè circa 18 miliardi di km, e Voyager 2 l'ha seguita il 5 novembre 2018. Il diametro qui indicato, circa 240 UA, è il doppio di quella distanza; le due Voyager restano gli unici oggetti costruiti dall'uomo ad aver raggiunto lo spazio interstellare.",
+    "sources": [
+      {
+        "title": "Voyager: Interstellar Mission",
+        "url": "https://science.nasa.gov/mission/voyager/interstellar-mission/",
+        "publisher": "NASA Science",
+        "evidence": "Voyager 1 entered interstellar space at about 122 AU"
+      }
+    ],
+    "note": "2 × 122 UA = 244 UA × 1,495978707e11 m = 3,65e13 m, contro 3,6e13 m (differenza 1,4%). La descrizione precedente diceva 121 UA; la NASA scrive 'about 122 AU', valore ora riportato. La dimensione è una convenzione: una sola traversata misurata, raddoppiata come se l'eliosfera fosse una sfera, cosa che la fonte non afferma.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "afelio-della-cometa-hale-bopp",
+    "size": 55000000000000,
+    "basis": "distanza dal Sole all'afelio dell'orbita attuale della cometa C/1995 O1 (Hale-Bopp)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "La cometa Hale-Bopp, scoperta il 23 luglio 1995 e passata al perielio il 1° aprile 1997, percorre un'orbita molto allungata. Gli elementi orbitali del JPL collocano il suo afelio a circa 354 unità astronomiche dal Sole, oltre dieci volte la distanza di Nettuno. Il nucleo ha un diametro di circa 60 km.",
+    "sources": [
+      {
+        "title": "Small-Body Database Lookup: C/1995 O1 (Hale-Bopp)",
+        "url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=C%2F1995%20O1",
+        "publisher": "NASA/JPL Solar System Dynamics",
+        "evidence": "ad 354 au"
+      },
+      {
+        "title": "C/1995 O1 (Hale-Bopp)",
+        "url": "https://science.nasa.gov/solar-system/comets/c-1995-o1-hale-bopp/",
+        "publisher": "NASA Science",
+        "evidence": "nucleus measuring approximately 37 miles (60 kilometers) in diameter"
+      }
+    ],
+    "note": "JPL SBDB (elementi osculanti eliocentrici, epoca JD 2459837.5): afelio 354 UA × 1,495978707e11 m = 5,30e13 m. Il valore attuale 5,5e13 m (circa 368 UA) è il 3,7% in più: entro la tolleranza del 5%, quindi la dimensione resta, ma la descrizione ora dice 354 UA invece di 'circa 370 UA', che non ho trovato in una fonte citabile. Se si vuole coerenza piena tra testo e dimensione, 5,3e13 m è il valore meglio sostenuto. La pagina SBDB è generata via JavaScript: i valori sono stati letti dalla stessa banca dati JPL che la alimenta. 354 UA / 30,1 UA = 11,8.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "afelio-di-sedna",
+    "size": 140000000000000,
+    "basis": "distanza dal Sole all'afelio dell'orbita di Sedna",
+    "verdict": "uncertain",
+    "flags": [
+      "u"
+    ],
+    "desc": "Sedna è un corpo transnettuniano con un'orbita molto allungata, che richiede circa 11.000 anni per essere percorsa. Il suo afelio è a circa 936 unità astronomiche secondo gli studi recenti, ma gli elementi orbitali eliocentrici del JPL danno circa 1.010 UA: il valore dipende dal sistema di riferimento e dall'epoca del calcolo. Sedna si sta avvicinando al perielio, a circa 76 UA, che raggiungerà nel 2075-2076.",
+    "sources": [
+      {
+        "title": "Feasibility study of a mission to Sedna - Nuclear propulsion and advanced solar sailing concepts",
+        "url": "https://arxiv.org/abs/2506.17732",
+        "publisher": "Ancona, Kezerashvili, Longo, arXiv:2506.17732",
+        "evidence": "perihelion of its orbit in 2075--2076"
+      },
+      {
+        "title": "Feasibility study of a mission to Sedna (full text)",
+        "url": "https://arxiv.org/html/2506.17732",
+        "publisher": "Ancona, Kezerashvili, Longo, arXiv:2506.17732",
+        "evidence": "its aphelion at nearly 936 AU"
+      },
+      {
+        "title": "Small-Body Database Lookup: 90377 Sedna (2003 VB12)",
+        "url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=90377",
+        "publisher": "NASA/JPL Solar System Dynamics",
+        "evidence": "ad 1010 au"
+      }
+    ],
+    "note": "936 UA × 1,495978707e11 m = 1,400e14 m: coincide con il valore attuale, che resta. Verdetto 'uncertain' perché le banche dati danno un afelio eliocentrico osculante più alto dell'8% (JPL SBDB 1.010 UA, epoca JD 2461200.5; il Minor Planet Center, consultato ma non citato, 1.022,8 UA). Controllo ulteriore con JPL Horizons (non citabile come pagina): elementi baricentrici al 12-11-2026 afelio 936,7 UA, minimo della distanza dal Sole tra luglio e agosto 2076. La descrizione precedente diceva 'perielio nel 2076': la fonte citata dice 2075-2076. La pagina SBDB è generata via JavaScript: i valori sono stati letti dalla stessa banca dati JPL. Periodo 'circa 11 mila anni' dal testo dell'articolo.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "distanza-proxima-alfa-centauri-a",
+    "size": 1900000000000000,
+    "basis": "distanza attuale tra Proxima Centauri e la coppia Alfa Centauri AB (Proxima è vicina all'apoastro)",
+    "verdict": "confirmed",
+    "flags": [
+      "r"
+    ],
+    "desc": "Proxima Centauri è legata gravitazionalmente alla coppia di stelle Alfa Centauri A e B, come hanno mostrato misure di velocità pubblicate nel 2017. Oggi si trova vicino al punto più lontano della sua orbita, a circa 13.000 unità astronomiche dalla coppia, e al periastro scende a circa 4.300 UA. Un'orbita completa dura circa 550.000 anni.",
+    "sources": [
+      {
+        "title": "Proxima's orbit around Alpha Centauri",
+        "url": "https://arxiv.org/abs/1611.03495",
+        "publisher": "Kervella, Thévenin, Lovis, Astronomy & Astrophysics (arXiv:1611.03495)",
+        "evidence": "currently close to apastron (13.0 +0.3 -0.1 kau)"
+      }
+    ],
+    "note": "13,0 kUA × 1,495978707e11 m = 1,945e15 m, contro 1,9e15 m (differenza 2,3%). L'articolo misura la distanza da Alfa Centauri (il sistema AB), non dalla sola componente A; la differenza è trascurabile su questa scala ma non è quantificata nell'abstract. Tolta la frase 'L'originale: 10.000 UA' (storia del dato, non verificata qui); il flag r resta.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "nube-di-oort",
+    "size": 30000000000000000,
+    "basis": "diametro della nube prendendo il bordo esterno più lontano ipotizzato (100.000 UA dal Sole, quindi 200.000 UA da un lato all'altro)",
+    "verdict": "uncertain",
+    "flags": [
+      "r",
+      "u"
+    ],
+    "desc": "La nube di Oort è un guscio sferico teorizzato di corpi ghiacciati che circonda il Sistema Solare ed è ritenuto la sorgente delle comete di lungo periodo. Secondo la NASA il bordo interno si trova tra 2.000 e 5.000 unità astronomiche dal Sole e quello esterno tra 10.000 e 100.000 UA; il diametro qui indicato usa il limite più lontano. Alla sua velocità attuale Voyager 1 impiegherà circa 300 anni per raggiungerla e forse 30.000 per uscirne.",
+    "sources": [
+      {
+        "title": "Oort Cloud: Facts",
+        "url": "https://science.nasa.gov/solar-system/oort-cloud/facts/",
+        "publisher": "NASA Science",
+        "evidence": "outer edge being located somewhere between 10,000 and 100,000 AU"
+      }
+    ],
+    "note": "2 × 100.000 UA = 200.000 UA × 1,495978707e11 m = 2,99e16 m, arrotondato a 3e16 m: valore attuale mantenuto. Resta incerto: il bordo esterno è stimato tra 10.000 e 100.000 UA (diametro tra 3e15 e 3e16 m) e la nube è 'theorized', non osservata. 'Mai osservata direttamente' è stato reso con 'teorizzato', che è il termine della pagina NASA.",
+    "verified": "2026-11-12"
+  }
+]

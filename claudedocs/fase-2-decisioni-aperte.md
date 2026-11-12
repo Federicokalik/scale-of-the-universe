@@ -67,6 +67,11 @@ Aggiornato dopo ogni ondata. Le correzioni sono già applicate ai dati; le decis
 41. **Deneb**: 203 ± 17 R☉ (Schiller e Przybilla, valore attuale) contro circa 117 R☉ (Baines e colleghi 2025, con parallasse incerta). Segnata incerta.
 42. **S Doradus**: il raggio varia tra 100 e 380 R☉; il valore attuale (circa 359 R☉) è vicino al massimo. Segnata incerta.
 43. **Pistol Star**: la fonte la classifica come variabile blu luminosa (LBV), non come ipergigante blu.
+44. **Altezza totale dell'umanità**: 1,3 × 10¹⁰ m poggia su un'ipotesi di altezza media di 1,5–1,65 m (nessuna fonte dà la media inclusi i bambini) e la pagina ONU aperta dà 8,2 miliardi nel 2024, non 8,3 nel 2026. Segnata incerta.
+45. **Afelio di Hale-Bopp**: JPL dà 354 UA (5,3 × 10¹³ m); il valore attuale (5,5 × 10¹³ m) è il 3,7% più alto ed è rimasto, ma la descrizione dice 354 UA. Proposta: allineare il valore a 5,3 × 10¹³ m.
+46. **Afelio di Sedna**: 936 UA (arXiv 2506.17732, coerente con il valore) contro 1.010 UA (elementi eliocentrici JPL). Segnato incerto.
+47. **Perielio della Parker Solar Probe**: dalla cifra NASA in miglia la distanza dal centro del Sole viene 6,81 × 10⁹ m contro i 6,9 × 10⁹ attuali (1,3%). Lasciato.
+48. **Voyager 1**: la descrizione cita la tappa di un giorno-luce prevista dalla NASA per il 18 novembre 2026. Va riletta dopo quella data.
 
 ## Da sistemare prima di chiudere la fase
 
@@ -81,8 +86,8 @@ Aggiornato dopo ogni ondata. Le correzioni sono già applicate ai dati; le decis
 
 ## Avanzamento
 
-Lotti applicati: black-holes, particles-1/2, atoms-1/2, waves-1/2, molecules-1/2, units-1/2/3, biology-1/2/3/4/5, objects-1/2/3/4/5, places-1/2/3/4, solar-system-1/2/3/4/5, stars-1/2/3 (329 oggetti su 447).
+Lotti applicati: black-holes, particles-1/2, atoms-1/2, waves-1/2, molecules-1/2, units-1/2/3, biology-1/2/3/4/5, objects-1/2/3/4/5, places-1/2/3/4, solar-system-1/2/3/4/5, stars-1/2/3, distances-1/2 (350 oggetti su 447).
 
-Lotti da fare: stars-4, distances-1/2/3, nebulae-1/2/3, galaxies-1/2, cosmic-1/2.
+Lotti da fare: stars-4, distances-3, nebulae-1/2/3, galaxies-1/2, cosmic-1/2.
 
 Per ogni lotto: `node scripts/apply-research.mjs --check`, `node scripts/check-links.mjs`, campione di fonti riletto in modo indipendente, poi `node scripts/apply-research.mjs`, `npm run validate`, `npm test`, commit.
