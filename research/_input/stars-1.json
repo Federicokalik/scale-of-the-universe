@@ -1,0 +1,102 @@
+[
+  {
+    "id": "stella-di-neutroni",
+    "name": "Stella di neutroni",
+    "size": 24000,
+    "flags": [
+      "r"
+    ],
+    "desc": "Le misure di NICER danno raggi tra 11 e 13 km."
+  },
+  {
+    "id": "sirio-b",
+    "name": "Sirio B",
+    "size": 11720000,
+    "flags": [
+      "r"
+    ],
+    "desc": "Nana bianca grande quanto la Terra ma con la massa del Sole. L'originale: 20.000 km."
+  },
+  {
+    "id": "eblm-j0555-57ab",
+    "name": "EBLM J0555-57Ab",
+    "size": 117000000,
+    "flags": [
+      "n"
+    ],
+    "desc": "Una delle stelle più piccole note: appena più grande di Saturno."
+  },
+  {
+    "id": "gliese-229-b",
+    "name": "Gliese 229 B",
+    "size": 130000000,
+    "flags": [
+      "r"
+    ],
+    "desc": "La prima nana bruna certa. Nel 2024 si è scoperto che sono due, strette in un'orbita di 12 giorni."
+  },
+  {
+    "id": "trappist-1",
+    "name": "TRAPPIST-1",
+    "size": 166000000,
+    "flags": [
+      "n"
+    ],
+    "desc": "Nana rossa ultrafredda con sette pianeti rocciosi."
+  },
+  {
+    "id": "wolf-359",
+    "name": "Wolf 359",
+    "size": 200000000,
+    "flags": [
+      "r"
+    ],
+    "desc": "Nana rossa a 7,9 anni luce."
+  },
+  {
+    "id": "proxima-centauri",
+    "name": "Proxima Centauri",
+    "size": 215000000,
+    "flags": [],
+    "desc": "La stella più vicina al Sole."
+  },
+  {
+    "id": "stella-di-kapteyn",
+    "name": "Stella di Kapteyn",
+    "size": 400000000,
+    "flags": [],
+    "desc": "Nana rossa dell'alone galattico."
+  },
+  {
+    "id": "stella-di-luyten",
+    "name": "Stella di Luyten",
+    "size": 490000000,
+    "flags": [
+      "r"
+    ],
+    "desc": "L'originale: 330.000 km."
+  },
+  {
+    "id": "gliese-229-a",
+    "name": "Gliese 229 A",
+    "size": 760000000,
+    "flags": [
+      "r"
+    ],
+    "desc": "Nana rossa. L'originale: 960.000 km."
+  },
+  {
+    "id": "alfa-centauri-b",
+    "name": "Alfa Centauri B",
+    "size": 1200000000,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "sole",
+    "name": "Sole",
+    "size": 1391400000,
+    "flags": [],
+    "desc": "Raggio nominale: 695.700 km."
+  }
+]

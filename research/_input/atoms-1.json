@@ -1,0 +1,59 @@
+[
+  {
+    "id": "protone",
+    "name": "Protone",
+    "size": 1.68e-15,
+    "flags": [
+      "r"
+    ],
+    "desc": "Raggio di carica 0,8408 fm (CODATA 2022). Il rompicapo del raggio del protone si è chiuso sul valore più piccolo."
+  },
+  {
+    "id": "neutrone",
+    "name": "Neutrone",
+    "size": 1.7e-15,
+    "flags": [],
+    "desc": "Tre quark tenuti insieme dai gluoni, come il protone. Libero, decade in circa 15 minuti."
+  },
+  {
+    "id": "nucleo-di-elio",
+    "name": "Nucleo di elio",
+    "size": 3.36e-15,
+    "flags": [
+      "r"
+    ],
+    "desc": "Particella alfa. Raggio di carica 1,678 fm, misurato nel 2021 con l'elio muonico."
+  },
+  {
+    "id": "deuterone",
+    "name": "Deuterone",
+    "size": 4.3e-15,
+    "flags": [
+      "n"
+    ],
+    "desc": "Un protone e un neutrone. Raggio di carica 2,128 fm."
+  },
+  {
+    "id": "nucleo-di-cloro",
+    "name": "Nucleo di cloro",
+    "size": 6.7e-15,
+    "flags": [],
+    "desc": "Cloro-35: raggio di carica quadratico medio di 3,37 fm."
+  },
+  {
+    "id": "nucleo-atomico-medio",
+    "name": "Nucleo atomico medio",
+    "size": 1e-14,
+    "flags": [],
+    "desc": "Centomila volte più piccolo dell'atomo, ma con oltre il 99,9% della massa."
+  },
+  {
+    "id": "nucleo-di-piombo-208",
+    "name": "Nucleo di piombo-208",
+    "size": 1.1e-14,
+    "flags": [
+      "n"
+    ],
+    "desc": "Il nucleo stabile più pesante. La sua pelle di neutroni è stata misurata dall'esperimento PREX-II."
+  }
+]

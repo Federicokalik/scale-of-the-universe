@@ -1,0 +1,95 @@
+[
+  {
+    "id": "ganymed",
+    "name": "Ganymed",
+    "size": 35000,
+    "flags": [
+      "r"
+    ],
+    "desc": "Il più grande asteroide vicino alla Terra. Da non confondere con la luna di Giove."
+  },
+  {
+    "id": "arrokoth",
+    "name": "Arrokoth",
+    "size": 36000,
+    "flags": [
+      "n"
+    ],
+    "desc": "L'oggetto più lontano mai visitato da una sonda: New Horizons, 2019."
+  },
+  {
+    "id": "nix",
+    "name": "Nix",
+    "size": 50000,
+    "flags": [
+      "r"
+    ],
+    "desc": "Luna di Plutone, misurata da New Horizons. L'originale: 80 km."
+  },
+  {
+    "id": "idra",
+    "name": "Idra",
+    "size": 51000,
+    "flags": [
+      "r"
+    ],
+    "desc": "Luna di Plutone. L'originale: 100 km."
+  },
+  {
+    "id": "bianca",
+    "name": "Bianca",
+    "size": 51500,
+    "flags": [],
+    "desc": "Luna di Urano."
+  },
+  {
+    "id": "belinda",
+    "name": "Belinda",
+    "size": 90000,
+    "flags": [
+      "r"
+    ],
+    "desc": "Luna di Urano."
+  },
+  {
+    "id": "galatea",
+    "name": "Galatea",
+    "size": 176000,
+    "flags": [],
+    "desc": "Luna di Nettuno."
+  },
+  {
+    "id": "psyche",
+    "name": "Psyche",
+    "size": 220000,
+    "flags": [
+      "n"
+    ],
+    "desc": "Asteroide ricco di metallo. L'omonima sonda NASA lo raggiunge nel 2029."
+  },
+  {
+    "id": "nereide",
+    "name": "Nereide",
+    "size": 357000,
+    "flags": [
+      "r"
+    ],
+    "desc": "Luna di Nettuno dall'orbita molto eccentrica."
+  },
+  {
+    "id": "mimas",
+    "name": "Mimas",
+    "size": 396000,
+    "flags": [
+      "n"
+    ],
+    "desc": "Nel 2024 si è scoperto che nasconde un oceano giovane sotto il ghiaccio."
+  },
+  {
+    "id": "miranda",
+    "name": "Miranda",
+    "size": 472000,
+    "flags": [],
+    "desc": "Luna di Urano dalle scarpate alte 20 km."
+  }
+]

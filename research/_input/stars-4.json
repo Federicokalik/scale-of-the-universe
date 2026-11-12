@@ -1,0 +1,110 @@
+[
+  {
+    "id": "v838-monocerotis",
+    "name": "V838 Monocerotis",
+    "size": 650000000000,
+    "flags": [
+      "r"
+    ],
+    "desc": "Dopo l'esplosione del 2002 si è contratta. L'originale: 1,1 miliardi di km."
+  },
+  {
+    "id": "v382-carinae",
+    "name": "V382 Carinae",
+    "size": 670000000000,
+    "flags": [
+      "r"
+    ],
+    "desc": "Ipergigante gialla."
+  },
+  {
+    "id": "antares",
+    "name": "Antares",
+    "size": 946000000000,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "v354-cephei",
+    "name": "V354 Cephei",
+    "size": 950000000000,
+    "flags": [
+      "r"
+    ],
+    "desc": "Ridimensionata: circa 685 raggi solari. L'originale: 2,1 miliardi di km."
+  },
+  {
+    "id": "betelgeuse",
+    "name": "Betelgeuse",
+    "size": 1060000000000,
+    "flags": [
+      "r"
+    ],
+    "desc": "Circa 764 raggi solari. Dopo il Grande Oscuramento del 2019–2020, nel 2025 è stata osservata la sua compagna."
+  },
+  {
+    "id": "uy-scuti",
+    "name": "UY Scuti",
+    "size": 1260000000000,
+    "flags": [
+      "n"
+    ],
+    "desc": "A lungo citata come stella più grande: con le distanze di Gaia scende a circa 900 raggi solari."
+  },
+  {
+    "id": "ky-cygni",
+    "name": "KY Cygni",
+    "size": 1440000000000,
+    "flags": [
+      "u"
+    ],
+    "desc": "Le stime vanno da 1.000 a oltre 2.000 raggi solari."
+  },
+  {
+    "id": "vv-cephei-a",
+    "name": "VV Cephei A",
+    "size": 1460000000000,
+    "flags": [
+      "u"
+    ],
+    "desc": ""
+  },
+  {
+    "id": "mu-cephei",
+    "name": "Mu Cephei",
+    "size": 1600000000000,
+    "flags": [
+      "u"
+    ],
+    "desc": "La Stella Granata di Herschel."
+  },
+  {
+    "id": "vy-canis-majoris",
+    "name": "VY Canis Majoris",
+    "size": 1980000000000,
+    "flags": [
+      "r"
+    ],
+    "desc": "Circa 1.420 raggi solari. L'originale: 3 miliardi di km."
+  },
+  {
+    "id": "woh-g64",
+    "name": "WOH G64",
+    "size": 2140000000000,
+    "flags": [
+      "r",
+      "u"
+    ],
+    "desc": "1.540 raggi solari nella misura del 2009. Dal 2014 è cambiata: uno studio del 2026 la riduce a circa 800 raggi solari, ma la sua natura è discussa."
+  },
+  {
+    "id": "stephenson-2-18",
+    "name": "Stephenson 2-18",
+    "size": 2990000000000,
+    "flags": [
+      "n",
+      "u"
+    ],
+    "desc": "Spesso indicata come la stella più grande con 2.150 raggi solari, ma distanza e misura sono molto dubbie."
+  }
+]

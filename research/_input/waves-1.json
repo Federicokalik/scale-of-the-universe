@@ -1,0 +1,55 @@
+[
+  {
+    "id": "raggi-gamma",
+    "name": "Raggi gamma",
+    "size": 1.3e-12,
+    "flags": [],
+    "desc": "Lunghezze d'onda sotto i 10 picometri circa."
+  },
+  {
+    "id": "lunghezza-d-onda-compton-dell-elettrone",
+    "name": "Lunghezza d'onda Compton dell'elettrone",
+    "size": 2.426e-12,
+    "flags": [],
+    "desc": "Sotto questa scala, localizzare un elettrone crea nuove coppie di particelle."
+  },
+  {
+    "id": "raggi-x",
+    "name": "Raggi X",
+    "size": 1.54e-10,
+    "flags": [],
+    "desc": "Riga Kα del rame, la più usata in cristallografia."
+  },
+  {
+    "id": "luce-euv-per-litografia",
+    "name": "Luce EUV per litografia",
+    "size": 1.35e-8,
+    "flags": [
+      "n"
+    ],
+    "desc": "13,5 nm: la luce con cui si stampano i chip più avanzati."
+  },
+  {
+    "id": "ultravioletto",
+    "name": "Ultravioletto",
+    "size": 1e-7,
+    "flags": [],
+    "desc": "Tra 10 e 400 nm."
+  },
+  {
+    "id": "luce-viola",
+    "name": "Luce viola",
+    "size": 4e-7,
+    "flags": [],
+    "desc": "Il limite corto dello spettro visibile."
+  },
+  {
+    "id": "luce-verde",
+    "name": "Luce verde",
+    "size": 5.5e-7,
+    "flags": [
+      "n"
+    ],
+    "desc": "Dove l'occhio umano è più sensibile."
+  }
+]

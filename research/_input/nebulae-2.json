@@ -1,0 +1,94 @@
+[
+  {
+    "id": "nebulosa-testa-di-cavallo",
+    "name": "Nebulosa Testa di Cavallo",
+    "size": 33000000000000000,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "pilastri-della-creazione",
+    "name": "Pilastri della Creazione",
+    "size": 47000000000000000,
+    "flags": [
+      "r"
+    ],
+    "desc": "Da 4 a 5 anni luce. Ripresi dal telescopio Webb nel 2022. L'originale: 10 anni luce."
+  },
+  {
+    "id": "nebulosa-elica",
+    "name": "Nebulosa Elica",
+    "size": 54000000000000000,
+    "flags": [
+      "r"
+    ],
+    "desc": "Una delle nebulose planetarie più vicine."
+  },
+  {
+    "id": "nebulosa-bolla",
+    "name": "Nebulosa Bolla",
+    "size": 66000000000000000,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "nebulosa-cono",
+    "name": "Nebulosa Cono",
+    "size": 67000000000000000,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "the-spire",
+    "name": "The Spire",
+    "size": 90000000000000000,
+    "flags": [
+      "r"
+    ],
+    "desc": "Una colonna di gas nella Nebulosa Aquila, lunga 9,5 anni luce."
+  },
+  {
+    "id": "nebulosa-granchio",
+    "name": "Nebulosa Granchio",
+    "size": 104000000000000000,
+    "flags": [],
+    "desc": "Il resto della supernova vista nel 1054."
+  },
+  {
+    "id": "nebulosa-di-orione",
+    "name": "Nebulosa di Orione",
+    "size": 230000000000000000,
+    "flags": [],
+    "desc": "La culla di stelle più vicina: 1.344 anni luce."
+  },
+  {
+    "id": "nube-interstellare-locale",
+    "name": "Nube Interstellare Locale",
+    "size": 280000000000000000,
+    "flags": [],
+    "desc": "Il gas rarefatto che il Sole sta attraversando: l'originale lo chiamava vicinato solare."
+  },
+  {
+    "id": "nebulosa-grotta",
+    "name": "Nebulosa Grotta",
+    "size": 660000000000000000,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "nebulosa-aquila",
+    "name": "Nebulosa Aquila",
+    "size": 670000000000000000,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "nebulosa-nord-america",
+    "name": "Nebulosa Nord America",
+    "size": 850000000000000000,
+    "flags": [
+      "r"
+    ],
+    "desc": "Con la distanza di Gaia è larga circa 90 anni luce."
+  }
+]

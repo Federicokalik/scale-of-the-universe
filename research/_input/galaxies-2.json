@@ -1,0 +1,92 @@
+[
+  {
+    "id": "galassia-sombrero",
+    "name": "Galassia Sombrero",
+    "size": 900000000000000000000,
+    "flags": [
+      "r"
+    ],
+    "desc": "Circa 95.000 anni luce. L'originale: 53.000."
+  },
+  {
+    "id": "virgo-a",
+    "name": "Virgo A",
+    "size": 1.25e+21,
+    "flags": [
+      "r"
+    ],
+    "desc": "Messier 87, la galassia ellittica del primo buco nero fotografato."
+  },
+  {
+    "id": "galassia-ruota-di-carro",
+    "name": "Galassia Ruota di Carro",
+    "size": 1.4e+21,
+    "flags": [],
+    "desc": "Un anello nato da uno scontro frontale."
+  },
+  {
+    "id": "andromeda",
+    "name": "Andromeda",
+    "size": 1.44e+21,
+    "flags": [],
+    "desc": "Circa 152.000 anni luce."
+  },
+  {
+    "id": "galassia-girandola",
+    "name": "Galassia Girandola",
+    "size": 1.6e+21,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "ngc-1232",
+    "name": "NGC 1232",
+    "size": 1.9e+21,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "ngc-4889",
+    "name": "NGC 4889",
+    "size": 2.3e+21,
+    "flags": [
+      "r"
+    ],
+    "desc": "Ellittica gigante nell'ammasso della Chioma."
+  },
+  {
+    "id": "galassia-girino",
+    "name": "Galassia Girino",
+    "size": 2.65e+21,
+    "flags": [],
+    "desc": "La coda di stelle è lunga 280.000 anni luce."
+  },
+  {
+    "id": "ic-1101",
+    "name": "IC 1101",
+    "size": 3.8e+22,
+    "flags": [
+      "r",
+      "u"
+    ],
+    "desc": "Tra le galassie più estese: l'alone diffuso arriva a milioni di anni luce, ma il bordo è mal definito."
+  },
+  {
+    "id": "alcioneo",
+    "name": "Alcioneo",
+    "size": 1.54e+23,
+    "flags": [
+      "n"
+    ],
+    "desc": "Radiogalassia gigante: i lobi coprono 16 milioni di anni luce (2022)."
+  },
+  {
+    "id": "porphyrion",
+    "name": "Porphyrion",
+    "size": 2.2e+23,
+    "flags": [
+      "n"
+    ],
+    "desc": "La coppia di getti da buco nero più lunga mai vista: 23 milioni di anni luce (2024)."
+  }
+]

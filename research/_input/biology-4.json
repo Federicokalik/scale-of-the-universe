@@ -1,0 +1,87 @@
+[
+  {
+    "id": "colibri",
+    "name": "Colibrì",
+    "size": 0.09,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "toporagno",
+    "name": "Toporagno",
+    "size": 0.1,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "lombrico-comune",
+    "name": "Lombrico comune",
+    "size": 0.155,
+    "flags": [
+      "r"
+    ],
+    "desc": "Lumbricus terrestris: da 10 a 25 cm. L'originale: 4 cm."
+  },
+  {
+    "id": "gatto",
+    "name": "Gatto",
+    "size": 0.46,
+    "flags": [
+      "n"
+    ],
+    "desc": "Dal naso all'attaccatura della coda."
+  },
+  {
+    "id": "dodo",
+    "name": "Dodo",
+    "size": 1.02,
+    "flags": [],
+    "desc": "Estinto nel Seicento a Mauritius."
+  },
+  {
+    "id": "rafflesia",
+    "name": "Rafflesia",
+    "size": 1.04,
+    "flags": [],
+    "desc": "Il fiore singolo più grande, e odora di carne marcia."
+  },
+  {
+    "id": "essere-umano",
+    "name": "Essere umano",
+    "size": 1.7,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "verme-gigante-del-gippsland",
+    "name": "Verme gigante del Gippsland",
+    "size": 2,
+    "flags": [],
+    "desc": "Australia: in media un metro, allungato fino a tre."
+  },
+  {
+    "id": "girasole",
+    "name": "Girasole",
+    "size": 2.5,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "albatro-urlatore",
+    "name": "Albatro urlatore",
+    "size": 3.1,
+    "flags": [
+      "r"
+    ],
+    "desc": "La maggiore apertura alare tra gli uccelli viventi: 3,1 m in media."
+  },
+  {
+    "id": "granchio-gigante-del-giappone",
+    "name": "Granchio gigante del Giappone",
+    "size": 3.7,
+    "flags": [
+      "r"
+    ],
+    "desc": "Da chela a chela."
+  }
+]

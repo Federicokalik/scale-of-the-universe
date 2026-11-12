@@ -1,0 +1,83 @@
+[
+  {
+    "id": "titania",
+    "name": "Titania",
+    "size": 1577000,
+    "flags": [],
+    "desc": "La luna più grande di Urano."
+  },
+  {
+    "id": "eris",
+    "name": "Eris",
+    "size": 2326000,
+    "flags": [
+      "r"
+    ],
+    "desc": "Più piccola di Plutone di una cinquantina di chilometri, ma più massiccia."
+  },
+  {
+    "id": "plutone",
+    "name": "Plutone",
+    "size": 2377000,
+    "flags": [
+      "r"
+    ],
+    "desc": "Misura di New Horizons (2015)."
+  },
+  {
+    "id": "tritone",
+    "name": "Tritone",
+    "size": 2707000,
+    "flags": [],
+    "desc": "Luna di Nettuno dall'orbita retrograda."
+  },
+  {
+    "id": "europa",
+    "name": "Europa",
+    "size": 3122000,
+    "flags": [],
+    "desc": "La sonda Europa Clipper è in viaggio e arriva nel 2030."
+  },
+  {
+    "id": "luna",
+    "name": "Luna",
+    "size": 3475000,
+    "flags": [],
+    "desc": "Nell'aprile 2026 Artemis II ha riportato un equipaggio attorno alla Luna, per la prima volta dal 1972."
+  },
+  {
+    "id": "io",
+    "name": "Io",
+    "size": 3643000,
+    "flags": [],
+    "desc": "Il corpo più vulcanico del Sistema Solare."
+  },
+  {
+    "id": "callisto",
+    "name": "Callisto",
+    "size": 4821000,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "mercurio",
+    "name": "Mercurio",
+    "size": 4879000,
+    "flags": [],
+    "desc": "La sonda BepiColombo entra in orbita nel novembre 2026."
+  },
+  {
+    "id": "titano",
+    "name": "Titano",
+    "size": 5150000,
+    "flags": [],
+    "desc": "La missione Dragonfly partirà non prima del 2028."
+  },
+  {
+    "id": "ganimede",
+    "name": "Ganimede",
+    "size": 5268000,
+    "flags": [],
+    "desc": "La luna più grande del Sistema Solare. La sonda JUICE la raggiunge nel 2031."
+  }
+]

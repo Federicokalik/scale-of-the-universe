@@ -1,0 +1,74 @@
+[
+  {
+    "id": "schiuma-quantistica",
+    "name": "Schiuma quantistica",
+    "size": 1e-35,
+    "flags": [
+      "i"
+    ],
+    "desc": "Fluttuazioni ipotetiche dello spaziotempo alla scala di Planck. Mai osservate."
+  },
+  {
+    "id": "stringa",
+    "name": "Stringa",
+    "size": 1.2e-35,
+    "flags": [
+      "i"
+    ],
+    "desc": "Oggetto fondamentale della teoria delle stringhe. Nessuna conferma sperimentale."
+  },
+  {
+    "id": "neutrino",
+    "name": "Neutrino",
+    "size": 1.3e-24,
+    "flags": [
+      "u"
+    ],
+    "desc": "Puntiforme nel Modello Standard: non ha una dimensione misurata. Posizione convenzionale ereditata dall'originale."
+  },
+  {
+    "id": "quark-top",
+    "name": "Quark top",
+    "size": 1e-22,
+    "flags": [
+      "u"
+    ],
+    "desc": "Puntiforme entro i limiti sperimentali. È la particella elementare più massiccia: circa 172,5 GeV."
+  },
+  {
+    "id": "preone",
+    "name": "Preone",
+    "size": 1.3e-21,
+    "flags": [
+      "i"
+    ],
+    "desc": "Ipotetico costituente di quark e leptoni. Nessuna evidenza."
+  },
+  {
+    "id": "neutrino-ad-alta-energia",
+    "name": "Neutrino ad alta energia",
+    "size": 1.5e-20,
+    "flags": [
+      "u"
+    ],
+    "desc": "Scala legata alla sezione d'urto, non a un raggio fisico. Il rivelatore KM3NeT ha registrato un neutrino da circa 220 PeV, il più energetico mai visto."
+  },
+  {
+    "id": "quark-bottom",
+    "name": "Quark bottom",
+    "size": 3e-20,
+    "flags": [
+      "u"
+    ],
+    "desc": "Puntiforme entro i limiti sperimentali. Valore convenzionale."
+  },
+  {
+    "id": "lunghezze-sondate-da-lhc",
+    "name": "Lunghezze sondate da LHC",
+    "size": 5e-20,
+    "flags": [
+      "r"
+    ],
+    "desc": "La scala più piccola esplorata direttamente, con collisioni a 13,6 TeV. L'originale fermava il confine a 10⁻¹⁶ m."
+  }
+]

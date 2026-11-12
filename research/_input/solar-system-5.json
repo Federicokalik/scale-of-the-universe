@@ -1,0 +1,76 @@
+[
+  {
+    "id": "marte",
+    "name": "Marte",
+    "size": 6779000,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "trappist-1-e",
+    "name": "TRAPPIST-1 e",
+    "size": 11700000,
+    "flags": [
+      "n"
+    ],
+    "desc": "Esopianeta roccioso nella zona abitabile, a 40 anni luce. Il telescopio Webb ne sta studiando l'atmosfera."
+  },
+  {
+    "id": "venere",
+    "name": "Venere",
+    "size": 12104000,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "terra",
+    "name": "Terra",
+    "size": 12742000,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "k2-18-b",
+    "name": "K2-18 b",
+    "size": 33000000,
+    "flags": [
+      "n"
+    ],
+    "desc": "Sub-nettuniano con metano e CO₂. Il segnale di possibili biofirme annunciato nel 2025 resta non confermato."
+  },
+  {
+    "id": "nettuno",
+    "name": "Nettuno",
+    "size": 49244000,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "urano",
+    "name": "Urano",
+    "size": 50724000,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "saturno",
+    "name": "Saturno",
+    "size": 116460000,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "giove",
+    "name": "Giove",
+    "size": 139820000,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "tres-4-b",
+    "name": "TrES-4 b",
+    "size": 250000000,
+    "flags": [],
+    "desc": "Gioviano caldo gonfio, tra gli esopianeti più grandi."
+  }
+]

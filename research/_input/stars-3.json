@@ -1,0 +1,100 @@
+[
+  {
+    "id": "r136a1",
+    "name": "R136a1",
+    "size": 59000000000,
+    "flags": [
+      "n"
+    ],
+    "desc": "La stella più massiccia nota: circa 200 masse solari."
+  },
+  {
+    "id": "aldebaran",
+    "name": "Aldebaran",
+    "size": 62700000000,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "polare",
+    "name": "Polare",
+    "size": 64000000000,
+    "flags": [
+      "r"
+    ],
+    "desc": "L'originale: 40 milioni di km."
+  },
+  {
+    "id": "albireo-a",
+    "name": "Albireo A",
+    "size": 82000000000,
+    "flags": [
+      "r"
+    ],
+    "desc": "L'originale: 22 milioni di km."
+  },
+  {
+    "id": "rigel",
+    "name": "Rigel",
+    "size": 108000000000,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "gacrux",
+    "name": "Gacrux",
+    "size": 167000000000,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "deneb",
+    "name": "Deneb",
+    "size": 280000000000,
+    "flags": [
+      "u"
+    ],
+    "desc": "La distanza è incerta, e con lei il raggio."
+  },
+  {
+    "id": "enif",
+    "name": "Enif",
+    "size": 290000000000,
+    "flags": [
+      "r"
+    ],
+    "desc": "L'originale: 160 milioni di km."
+  },
+  {
+    "id": "r-doradus",
+    "name": "R Doradus",
+    "size": 415000000000,
+    "flags": [
+      "r"
+    ],
+    "desc": "Nel 2024 ALMA ne ha filmato le bolle di gas in superficie, grandi 75 volte il Sole."
+  },
+  {
+    "id": "pistol-star",
+    "name": "Pistol Star",
+    "size": 430000000000,
+    "flags": [],
+    "desc": "Ipergigante blu vicino al centro galattico."
+  },
+  {
+    "id": "la-superba",
+    "name": "La Superba",
+    "size": 440000000000,
+    "flags": [],
+    "desc": "Stella al carbonio tra le più rosse del cielo."
+  },
+  {
+    "id": "s-doradus",
+    "name": "S Doradus",
+    "size": 500000000000,
+    "flags": [
+      "u"
+    ],
+    "desc": "Variabile blu luminosa: il raggio cambia di molto nel tempo."
+  }
+]

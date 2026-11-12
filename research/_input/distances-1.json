@@ -1,0 +1,86 @@
+[
+  {
+    "id": "sensibilita-di-ligo",
+    "name": "Sensibilità di LIGO",
+    "size": 1e-19,
+    "flags": [
+      "n"
+    ],
+    "desc": "La minima variazione di lunghezza misurabile sui bracci da 4 km: così si rivelano le onde gravitazionali."
+  },
+  {
+    "id": "maratona",
+    "name": "Maratona",
+    "size": 42195,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "orbita-geostazionaria",
+    "name": "Orbita geostazionaria",
+    "size": 84300000,
+    "flags": [
+      "n"
+    ],
+    "desc": "Diametro dell'orbita a 35.786 km di quota."
+  },
+  {
+    "id": "anelli-di-saturno",
+    "name": "Anelli di Saturno",
+    "size": 280000000,
+    "flags": [
+      "n"
+    ],
+    "desc": "Estensione degli anelli principali: 282.000 km."
+  },
+  {
+    "id": "distanza-terra-luna",
+    "name": "Distanza Terra–Luna",
+    "size": 384400000,
+    "flags": [],
+    "desc": "Media: 384.400 km. La Luna si allontana di 3,8 cm l'anno."
+  },
+  {
+    "id": "distanza-del-telescopio-webb",
+    "name": "Distanza del telescopio Webb",
+    "size": 1500000000,
+    "flags": [
+      "n"
+    ],
+    "desc": "Orbita attorno al punto L2, a 1,5 milioni di km dalla Terra."
+  },
+  {
+    "id": "perielio-della-parker-solar-probe",
+    "name": "Perielio della Parker Solar Probe",
+    "size": 6900000000,
+    "flags": [
+      "n"
+    ],
+    "desc": "Il 24 dicembre 2024 è passata a 6,1 milioni di km dalla superficie del Sole, a 192 km/s."
+  },
+  {
+    "id": "altezza-totale-dell-umanita",
+    "name": "Altezza totale dell'umanità",
+    "size": 13000000000,
+    "flags": [
+      "r"
+    ],
+    "desc": "Circa 8,3 miliardi di persone, una sull'altra. L'originale ne contava 7."
+  },
+  {
+    "id": "sistema-di-trappist-1",
+    "name": "Sistema di TRAPPIST-1",
+    "size": 18500000000,
+    "flags": [
+      "n"
+    ],
+    "desc": "L'orbita del pianeta più esterno: starebbe sei volte dentro quella di Mercurio."
+  },
+  {
+    "id": "distanza-mercurio-sole",
+    "name": "Distanza Mercurio–Sole",
+    "size": 57900000000,
+    "flags": [],
+    "desc": ""
+  }
+]

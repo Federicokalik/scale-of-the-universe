@@ -1,0 +1,83 @@
+[
+  {
+    "id": "monte-bianco",
+    "name": "Monte Bianco",
+    "size": 4806,
+    "flags": [
+      "n"
+    ],
+    "desc": "La quota cambia di qualche metro con lo spessore del ghiaccio."
+  },
+  {
+    "id": "palm-jebel-ali",
+    "name": "Palm Jebel Ali",
+    "size": 7000,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "large-hadron-collider",
+    "name": "Large Hadron Collider",
+    "size": 8500,
+    "flags": [],
+    "desc": "Diametro dell'anello da 26,7 km."
+  },
+  {
+    "id": "lep",
+    "name": "LEP",
+    "size": 8520,
+    "flags": [
+      "r"
+    ],
+    "desc": "Usava lo stesso tunnel di LHC, quindi ha lo stesso diametro. L'originale: 10 km."
+  },
+  {
+    "id": "monte-everest",
+    "name": "Monte Everest",
+    "size": 8849,
+    "flags": [],
+    "desc": "8.848,86 m, misura sino-nepalese del 2020."
+  },
+  {
+    "id": "fossa-delle-marianne-profondita",
+    "name": "Fossa delle Marianne (profondità)",
+    "size": 10935,
+    "flags": [
+      "r"
+    ],
+    "desc": "Abisso Challenger: circa 10.935 m."
+  },
+  {
+    "id": "olympus-mons-altezza",
+    "name": "Olympus Mons (altezza)",
+    "size": 21900,
+    "flags": [
+      "n"
+    ],
+    "desc": "Marte: il vulcano più alto del Sistema Solare."
+  },
+  {
+    "id": "future-circular-collider",
+    "name": "Future Circular Collider",
+    "size": 29000,
+    "flags": [
+      "n",
+      "i"
+    ],
+    "desc": "Il successore di LHC proposto dal CERN: un anello da 90,7 km. Non ancora approvato."
+  },
+  {
+    "id": "rhode-island",
+    "name": "Rhode Island",
+    "size": 77000,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "brunei",
+    "name": "Brunei",
+    "size": 120000,
+    "flags": [],
+    "desc": ""
+  }
+]

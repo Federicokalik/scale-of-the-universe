@@ -1,0 +1,83 @@
+[
+  {
+    "id": "cromosoma-y",
+    "name": "Cromosoma Y",
+    "size": 0.000002,
+    "flags": [],
+    "desc": "Sequenziato per intero solo nel 2023."
+  },
+  {
+    "id": "escherichia-coli",
+    "name": "Escherichia coli",
+    "size": 0.0000021,
+    "flags": [],
+    "desc": "Il batterio più studiato al mondo."
+  },
+  {
+    "id": "mitocondrio",
+    "name": "Mitocondrio",
+    "size": 0.0000025,
+    "flags": [],
+    "desc": "La centrale energetica della cellula."
+  },
+  {
+    "id": "cellula-di-lievito",
+    "name": "Cellula di lievito",
+    "size": 0.000005,
+    "flags": [
+      "n"
+    ],
+    "desc": "Saccharomyces cerevisiae: pane, birra e genetica."
+  },
+  {
+    "id": "nucleo-cellulare",
+    "name": "Nucleo cellulare",
+    "size": 0.000006,
+    "flags": [],
+    "desc": "Contiene circa due metri di DNA ripiegato."
+  },
+  {
+    "id": "cloroplasto",
+    "name": "Cloroplasto",
+    "size": 0.0000062,
+    "flags": [],
+    "desc": "Dove avviene la fotosintesi."
+  },
+  {
+    "id": "cromosoma-x",
+    "name": "Cromosoma X",
+    "size": 0.000007,
+    "flags": [
+      "r"
+    ],
+    "desc": "In metafase. L'originale: 4 µm."
+  },
+  {
+    "id": "globulo-rosso",
+    "name": "Globulo rosso",
+    "size": 0.0000075,
+    "flags": [],
+    "desc": "Un disco biconcavo senza nucleo."
+  },
+  {
+    "id": "globulo-bianco",
+    "name": "Globulo bianco",
+    "size": 0.000012,
+    "flags": [],
+    "desc": "Tra 10 e 15 µm secondo il tipo."
+  },
+  {
+    "id": "cellula-della-pelle",
+    "name": "Cellula della pelle",
+    "size": 0.00003,
+    "flags": [],
+    "desc": "Cheratinocita."
+  },
+  {
+    "id": "granulo-di-polline",
+    "name": "Granulo di polline",
+    "size": 0.00005,
+    "flags": [],
+    "desc": "Da 10 a 100 µm secondo la specie."
+  }
+]

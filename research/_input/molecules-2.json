@@ -1,0 +1,77 @@
+[
+  {
+    "id": "dna-spessore",
+    "name": "DNA (spessore)",
+    "size": 2e-9,
+    "flags": [
+      "r"
+    ],
+    "desc": "Doppia elica B: 2,0 nm di diametro e 3,4 nm per giro. L'originale: 3 nm."
+  },
+  {
+    "id": "fosfolipide",
+    "name": "Fosfolipide",
+    "size": 2.5e-9,
+    "flags": [],
+    "desc": "Il mattone delle membrane cellulari."
+  },
+  {
+    "id": "doppio-strato-fosfolipidico",
+    "name": "Doppio strato fosfolipidico",
+    "size": 5e-9,
+    "flags": [],
+    "desc": "Due file di fosfolipidi, code contro code."
+  },
+  {
+    "id": "emoglobina",
+    "name": "Emoglobina",
+    "size": 5.5e-9,
+    "flags": [
+      "n"
+    ],
+    "desc": "La proteina che trasporta l'ossigeno. La previsione della struttura delle proteine con AlphaFold è valsa il Nobel per la chimica 2024."
+  },
+  {
+    "id": "anticorpo-igg",
+    "name": "Anticorpo IgG",
+    "size": 1.2e-8,
+    "flags": [
+      "n"
+    ],
+    "desc": "La classica forma a Y del sistema immunitario."
+  },
+  {
+    "id": "gate-di-un-transistor-in-produzione",
+    "name": "Gate di un transistor in produzione",
+    "size": 1.25e-8,
+    "flags": [
+      "r"
+    ],
+    "desc": "Chip detti a 2 nm (2025–2026): il nome è commerciale, il gate misura circa 12 nm."
+  },
+  {
+    "id": "nanoparticella-lipidica",
+    "name": "Nanoparticella lipidica",
+    "size": 8e-8,
+    "flags": [
+      "n"
+    ],
+    "desc": "L'involucro che porta l'mRNA dei vaccini dentro le cellule."
+  },
+  {
+    "id": "limite-del-microscopio-ottico",
+    "name": "Limite del microscopio ottico",
+    "size": 2e-7,
+    "flags": [],
+    "desc": "Limite di diffrazione di Abbe. Le tecniche a super-risoluzione, come MINFLUX, scendono a pochi nanometri."
+  },
+  {
+    "id": "particella-piu-penetrante-per-un-filtro-ffp2",
+    "name": "Particella più penetrante per un filtro FFP2",
+    "size": 3.1e-7,
+    "flags": [
+      "r"
+    ],
+    "desc": "Intorno a 0,3 µm i filtri sono meno efficienti: è la taglia di prova. L'originale parlava di 1 µm per le mascherine chirurgiche."
+  }
+]

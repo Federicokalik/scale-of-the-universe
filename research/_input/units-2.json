@@ -1,0 +1,67 @@
+[
+  {
+    "id": "twip",
+    "name": "Twip",
+    "size": 0.00001764,
+    "flags": [],
+    "desc": "Un ventesimo di punto tipografico."
+  },
+  {
+    "id": "thou",
+    "name": "Thou",
+    "size": 0.0000254,
+    "flags": [],
+    "desc": "Un millesimo di pollice."
+  },
+  {
+    "id": "millimetro",
+    "name": "Millimetro",
+    "size": 0.001,
+    "flags": [],
+    "desc": "10⁻³ m."
+  },
+  {
+    "id": "pollice",
+    "name": "Pollice",
+    "size": 0.0254,
+    "flags": [
+      "r"
+    ],
+    "desc": "L'originale riportava il pollice quadrato, che è un'area."
+  },
+  {
+    "id": "metro",
+    "name": "Metro",
+    "size": 1,
+    "flags": [],
+    "desc": "Dal 1983: la distanza percorsa dalla luce in 1/299.792.458 di secondo."
+  },
+  {
+    "id": "chilometro",
+    "name": "Chilometro",
+    "size": 1000,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "miglio",
+    "name": "Miglio",
+    "size": 1609,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "megametro",
+    "name": "Megametro",
+    "size": 1000000,
+    "flags": [],
+    "desc": "Mille chilometri."
+  },
+  {
+    "id": "gigametro",
+    "name": "Gigametro",
+    "size": 1000000000,
+    "flags": [],
+    "desc": "Un milione di chilometri."
+  }
+]

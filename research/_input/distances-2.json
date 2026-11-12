@@ -1,0 +1,88 @@
+[
+  {
+    "id": "distanza-terra-sole",
+    "name": "Distanza Terra–Sole",
+    "size": 149600000000,
+    "flags": [],
+    "desc": "Un'unità astronomica: 149.597.870,7 km esatti per definizione."
+  },
+  {
+    "id": "distanza-giove-sole",
+    "name": "Distanza Giove–Sole",
+    "size": 778500000000,
+    "flags": [],
+    "desc": "5,2 UA."
+  },
+  {
+    "id": "distanza-nettuno-sole",
+    "name": "Distanza Nettuno–Sole",
+    "size": 4495000000000,
+    "flags": [],
+    "desc": "30,1 UA."
+  },
+  {
+    "id": "distanza-plutone-sole",
+    "name": "Distanza Plutone–Sole",
+    "size": 5906000000000,
+    "flags": [],
+    "desc": "Media: 39,5 UA."
+  },
+  {
+    "id": "fascia-di-kuiper",
+    "name": "Fascia di Kuiper",
+    "size": 15000000000000,
+    "flags": [],
+    "desc": "Da 30 a 50 UA dal Sole."
+  },
+  {
+    "id": "voyager-1",
+    "name": "Voyager 1",
+    "size": 25850000000000,
+    "flags": [
+      "r"
+    ],
+    "desc": "L'oggetto umano più lontano. A metà novembre 2026 raggiunge un giorno-luce dalla Terra. L'originale: 17 miliardi di km."
+  },
+  {
+    "id": "eliopausa",
+    "name": "Eliopausa",
+    "size": 36000000000000,
+    "flags": [
+      "n"
+    ],
+    "desc": "Il confine della bolla del vento solare. Voyager 1 l'ha attraversato nel 2012 a 121 UA."
+  },
+  {
+    "id": "afelio-della-cometa-hale-bopp",
+    "name": "Afelio della cometa Hale-Bopp",
+    "size": 55000000000000,
+    "flags": [],
+    "desc": "Circa 370 UA."
+  },
+  {
+    "id": "afelio-di-sedna",
+    "name": "Afelio di Sedna",
+    "size": 140000000000000,
+    "flags": [],
+    "desc": "Circa 940 UA. Sedna tocca il perielio nel 2076."
+  },
+  {
+    "id": "distanza-proxima-alfa-centauri-a",
+    "name": "Distanza Proxima–Alfa Centauri A",
+    "size": 1900000000000000,
+    "flags": [
+      "r"
+    ],
+    "desc": "Circa 13.000 UA. L'originale: 10.000 UA."
+  },
+  {
+    "id": "nube-di-oort",
+    "name": "Nube di Oort",
+    "size": 30000000000000000,
+    "flags": [
+      "r",
+      "u"
+    ],
+    "desc": "Il serbatoio delle comete, fino a 100.000 UA dal Sole. Mai osservata direttamente."
+  }
+]

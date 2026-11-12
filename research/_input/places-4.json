@@ -1,0 +1,76 @@
+[
+  {
+    "id": "ruanda",
+    "name": "Ruanda",
+    "size": 230000,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "west-virginia",
+    "name": "West Virginia",
+    "size": 400000,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "grand-canyon",
+    "name": "Grand Canyon",
+    "size": 446000,
+    "flags": [],
+    "desc": "Lunghezza."
+  },
+  {
+    "id": "italia",
+    "name": "Italia",
+    "size": 1200000,
+    "flags": [],
+    "desc": "Dalle Alpi a Lampedusa."
+  },
+  {
+    "id": "california",
+    "name": "California",
+    "size": 1240000,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "texas",
+    "name": "Texas",
+    "size": 1270000,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "grande-barriera-corallina",
+    "name": "Grande Barriera Corallina",
+    "size": 2300000,
+    "flags": [
+      "r"
+    ],
+    "desc": "Circa 2.300 km."
+  },
+  {
+    "id": "larghezza-degli-stati-uniti",
+    "name": "Larghezza degli Stati Uniti",
+    "size": 4500000,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "asia",
+    "name": "Asia",
+    "size": 8500000,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "grande-muraglia-cinese",
+    "name": "Grande Muraglia cinese",
+    "size": 21200000,
+    "flags": [
+      "r"
+    ],
+    "desc": "21.196 km secondo il rilevamento del 2012. L'originale: 8.800 km."
+  }
+]

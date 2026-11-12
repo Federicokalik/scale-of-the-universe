@@ -1,0 +1,91 @@
+[
+  {
+    "id": "isetta",
+    "name": "Isetta",
+    "size": 2.3,
+    "flags": [
+      "r"
+    ],
+    "desc": "La bubble car per eccellenza è lunga 2,3 m. L'originale: 4 m."
+  },
+  {
+    "id": "automobile",
+    "name": "Automobile",
+    "size": 4.5,
+    "flags": [
+      "n"
+    ],
+    "desc": ""
+  },
+  {
+    "id": "modulo-lunare-apollo",
+    "name": "Modulo lunare Apollo",
+    "size": 7,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "autobus",
+    "name": "Autobus",
+    "size": 12.2,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "schermo-solare-del-telescopio-webb",
+    "name": "Schermo solare del telescopio Webb",
+    "size": 21.2,
+    "flags": [
+      "n"
+    ],
+    "desc": "Cinque strati sottili come un capello, grandi quanto un campo da tennis."
+  },
+  {
+    "id": "boeing-747-8",
+    "name": "Boeing 747-8",
+    "size": 76.3,
+    "flags": [
+      "r"
+    ],
+    "desc": "L'ultimo 747 è stato consegnato nel 2023."
+  },
+  {
+    "id": "stazione-spaziale-internazionale",
+    "name": "Stazione Spaziale Internazionale",
+    "size": 109,
+    "flags": [],
+    "desc": "Abitata senza interruzioni dal 2000. Il rientro controllato è previsto attorno al 2030."
+  },
+  {
+    "id": "saturn-v",
+    "name": "Saturn V",
+    "size": 110.6,
+    "flags": [],
+    "desc": "Il razzo delle missioni Apollo."
+  },
+  {
+    "id": "starship",
+    "name": "Starship",
+    "size": 123,
+    "flags": [
+      "n"
+    ],
+    "desc": "Il razzo più alto e potente che abbia mai volato."
+  },
+  {
+    "id": "titanic",
+    "name": "Titanic",
+    "size": 269,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "mondo-di-minecraft",
+    "name": "Mondo di Minecraft",
+    "size": 60000000,
+    "flags": [
+      "r"
+    ],
+    "desc": "60 milioni di blocchi da un metro per lato."
+  }
+]

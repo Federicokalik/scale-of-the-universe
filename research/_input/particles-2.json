@@ -1,0 +1,72 @@
+[
+  {
+    "id": "quark-charm",
+    "name": "Quark charm",
+    "size": 1.3e-19,
+    "flags": [
+      "u"
+    ],
+    "desc": "Puntiforme entro i limiti sperimentali. Valore convenzionale."
+  },
+  {
+    "id": "quark-strange",
+    "name": "Quark strange",
+    "size": 4e-19,
+    "flags": [
+      "u"
+    ],
+    "desc": "Puntiforme entro i limiti sperimentali. Valore convenzionale."
+  },
+  {
+    "id": "limite-sul-raggio-dei-quark",
+    "name": "Limite sul raggio dei quark",
+    "size": 4.3e-19,
+    "flags": [
+      "r"
+    ],
+    "desc": "Esperimento HERA (2016): se i quark hanno una struttura, è più piccola di 0,43×10⁻¹⁸ m."
+  },
+  {
+    "id": "quark-up",
+    "name": "Quark up",
+    "size": 1.1e-18,
+    "flags": [
+      "u"
+    ],
+    "desc": "Costituente di protoni e neutroni. Puntiforme entro i limiti sperimentali."
+  },
+  {
+    "id": "quark-down",
+    "name": "Quark down",
+    "size": 1.2e-18,
+    "flags": [
+      "u"
+    ],
+    "desc": "Costituente di protoni e neutroni. Puntiforme entro i limiti sperimentali."
+  },
+  {
+    "id": "elettrone-limite-superiore",
+    "name": "Elettrone (limite superiore)",
+    "size": 1.4e-18,
+    "flags": [
+      "u"
+    ],
+    "desc": "Nessuna struttura osservata: è puntiforme almeno fino a questa scala."
+  },
+  {
+    "id": "raggio-d-azione-della-forza-debole",
+    "name": "Raggio d'azione della forza debole",
+    "size": 2.5e-18,
+    "flags": [
+      "r"
+    ],
+    "desc": "ħ/(m_W·c) ≈ 2,5×10⁻¹⁸ m. L'originale indicava 10⁻¹⁷ m."
+  },
+  {
+    "id": "elettrone-raggio-classico",
+    "name": "Elettrone (raggio classico)",
+    "size": 5.64e-15,
+    "flags": [],
+    "desc": "Due volte il raggio classico di 2,818 fm. È una convenzione, non una misura."
+  }
+]

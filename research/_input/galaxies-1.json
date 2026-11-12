@@ -1,0 +1,98 @@
+[
+  {
+    "id": "leo-ii",
+    "name": "Leo II",
+    "size": 20000000000000000000,
+    "flags": [],
+    "desc": "Galassia nana satellite della Via Lattea."
+  },
+  {
+    "id": "nana-del-cane-maggiore",
+    "name": "Nana del Cane Maggiore",
+    "size": 50000000000000000000,
+    "flags": [
+      "u"
+    ],
+    "desc": "La sua esistenza come galassia è contestata."
+  },
+  {
+    "id": "canes-venatici-i",
+    "name": "Canes Venatici I",
+    "size": 65000000000000000000,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "nana-ellittica-del-sagittario",
+    "name": "Nana ellittica del Sagittario",
+    "size": 95000000000000000000,
+    "flags": [],
+    "desc": "La Via Lattea la sta smembrando."
+  },
+  {
+    "id": "piccola-nube-di-magellano",
+    "name": "Piccola Nube di Magellano",
+    "size": 180000000000000000000,
+    "flags": [
+      "r"
+    ],
+    "desc": "Circa 19.000 anni luce."
+  },
+  {
+    "id": "ngc-3310",
+    "name": "NGC 3310",
+    "size": 220000000000000000000,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "grande-nube-di-magellano",
+    "name": "Grande Nube di Magellano",
+    "size": 305000000000000000000,
+    "flags": [
+      "r"
+    ],
+    "desc": "Circa 32.000 anni luce. L'originale: 15.000."
+  },
+  {
+    "id": "ngc-7714",
+    "name": "NGC 7714",
+    "size": 350000000000000000000,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "galassia-occhio-nero",
+    "name": "Galassia Occhio Nero",
+    "size": 510000000000000000000,
+    "flags": [
+      "r"
+    ],
+    "desc": ""
+  },
+  {
+    "id": "galassia-del-triangolo",
+    "name": "Galassia del Triangolo",
+    "size": 580000000000000000000,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "galassia-vortice",
+    "name": "Galassia Vortice",
+    "size": 730000000000000000000,
+    "flags": [
+      "r"
+    ],
+    "desc": "Circa 77.000 anni luce."
+  },
+  {
+    "id": "via-lattea",
+    "name": "Via Lattea",
+    "size": 830000000000000000000,
+    "flags": [
+      "r"
+    ],
+    "desc": "Il disco di stelle misura circa 87.400 anni luce. L'originale: 127.000."
+  }
+]

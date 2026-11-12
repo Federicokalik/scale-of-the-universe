@@ -1,0 +1,88 @@
+[
+  {
+    "id": "encelado",
+    "name": "Encelado",
+    "size": 504000,
+    "flags": [
+      "n"
+    ],
+    "desc": "I suoi geyser lanciano nello spazio acqua con molecole organiche e fosfati."
+  },
+  {
+    "id": "vesta",
+    "name": "Vesta",
+    "size": 525000,
+    "flags": [
+      "n"
+    ],
+    "desc": "Il secondo corpo più massiccio della fascia degli asteroidi."
+  },
+  {
+    "id": "dysnomia",
+    "name": "Dysnomia",
+    "size": 615000,
+    "flags": [
+      "r"
+    ],
+    "desc": "Luna di Eris: 615 km secondo ALMA (2023). L'originale: 150 km."
+  },
+  {
+    "id": "cerere",
+    "name": "Cerere",
+    "size": 939000,
+    "flags": [],
+    "desc": "Pianeta nano della fascia principale."
+  },
+  {
+    "id": "sedna",
+    "name": "Sedna",
+    "size": 1020000,
+    "flags": [
+      "r"
+    ],
+    "desc": "Circa 1.000 km. L'originale: 1.800 km."
+  },
+  {
+    "id": "quaoar",
+    "name": "Quaoar",
+    "size": 1090000,
+    "flags": [
+      "r"
+    ],
+    "desc": "Nel 2023 gli sono stati scoperti anelli più lontani di quanto la teoria permettesse."
+  },
+  {
+    "id": "caronte",
+    "name": "Caronte",
+    "size": 1212000,
+    "flags": [],
+    "desc": "La luna maggiore di Plutone."
+  },
+  {
+    "id": "gonggong",
+    "name": "Gonggong",
+    "size": 1230000,
+    "flags": [
+      "n"
+    ],
+    "desc": "Pianeta nano candidato, battezzato nel 2020."
+  },
+  {
+    "id": "makemake",
+    "name": "Makemake",
+    "size": 1430000,
+    "flags": [
+      "n"
+    ],
+    "desc": "Pianeta nano della fascia di Kuiper."
+  },
+  {
+    "id": "haumea",
+    "name": "Haumea",
+    "size": 1560000,
+    "flags": [
+      "n"
+    ],
+    "desc": "Pianeta nano allungato, con un anello. Ruota in meno di quattro ore."
+  }
+]

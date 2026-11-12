@@ -1,0 +1,84 @@
+[
+  {
+    "id": "risoluzione-record-di-un-microscopio-elettronico",
+    "name": "Risoluzione record di un microscopio elettronico",
+    "size": 2e-11,
+    "flags": [
+      "r"
+    ],
+    "desc": "Pticografia elettronica (2021): circa 0,2 Å, al limite fissato dalle vibrazioni termiche degli atomi. L'originale: 0,5 Å."
+  },
+  {
+    "id": "legame-carbonio-carbonio",
+    "name": "Legame carbonio–carbonio",
+    "size": 1.56e-10,
+    "flags": [
+      "n"
+    ],
+    "desc": "Legame singolo: 154 pm. È l'impalcatura della chimica organica."
+  },
+  {
+    "id": "molecola-di-co2",
+    "name": "Molecola di CO₂",
+    "size": 2.32e-10,
+    "flags": [
+      "n"
+    ],
+    "desc": "Distanza tra i due atomi di ossigeno. In atmosfera ha superato le 425 parti per milione."
+  },
+  {
+    "id": "molecola-d-acqua",
+    "name": "Molecola d'acqua",
+    "size": 2.75e-10,
+    "flags": [],
+    "desc": "Due idrogeni e un ossigeno a 104,5°."
+  },
+  {
+    "id": "gate-di-transistor-piu-corto",
+    "name": "Gate di transistor più corto",
+    "size": 3.4e-10,
+    "flags": [
+      "r"
+    ],
+    "desc": "Transistor al disolfuro di molibdeno con il gate sul bordo di un foglio di grafene (2022). L'originale indicava 2 nm."
+  },
+  {
+    "id": "molecola-di-caffeina",
+    "name": "Molecola di caffeina",
+    "size": 7.8e-10,
+    "flags": [
+      "n"
+    ],
+    "desc": "C₈H₁₀N₄O₂."
+  },
+  {
+    "id": "molecola-di-glucosio",
+    "name": "Molecola di glucosio",
+    "size": 9e-10,
+    "flags": [],
+    "desc": "C₆H₁₂O₆, il carburante delle cellule."
+  },
+  {
+    "id": "fullerene-c60",
+    "name": "Fullerene C₆₀",
+    "size": 1.05e-9,
+    "flags": [],
+    "desc": "Sessanta atomi di carbonio a forma di pallone da calcio."
+  },
+  {
+    "id": "nanotubo-di-carbonio",
+    "name": "Nanotubo di carbonio",
+    "size": 1.2e-9,
+    "flags": [],
+    "desc": "Diametro tipico di un nanotubo a parete singola."
+  },
+  {
+    "id": "alfa-elica-di-una-proteina",
+    "name": "Alfa elica di una proteina",
+    "size": 1.25e-9,
+    "flags": [
+      "r"
+    ],
+    "desc": "Circa 1,2 nm contando le catene laterali."
+  }
+]

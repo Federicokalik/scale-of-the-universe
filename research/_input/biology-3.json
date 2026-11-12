@@ -1,0 +1,78 @@
+[
+  {
+    "id": "spermatozoo",
+    "name": "Spermatozoo",
+    "size": 0.000056,
+    "flags": [
+      "n"
+    ],
+    "desc": "Lunghezza totale, quasi tutta coda."
+  },
+  {
+    "id": "ovulo-umano",
+    "name": "Ovulo umano",
+    "size": 0.00012,
+    "flags": [],
+    "desc": "La cellula umana più grande."
+  },
+  {
+    "id": "protista-ciliato",
+    "name": "Protista ciliato",
+    "size": 0.00018,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "paramecio",
+    "name": "Paramecio",
+    "size": 0.00025,
+    "flags": [],
+    "desc": "Nuota con migliaia di ciglia."
+  },
+  {
+    "id": "acaro-della-polvere",
+    "name": "Acaro della polvere",
+    "size": 0.0003,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "ameba",
+    "name": "Ameba",
+    "size": 0.0005,
+    "flags": [],
+    "desc": "Amoeba proteus."
+  },
+  {
+    "id": "tardigrado",
+    "name": "Tardigrado",
+    "size": 0.00051,
+    "flags": [
+      "n"
+    ],
+    "desc": "Sopravvive al vuoto, alle radiazioni e al congelamento."
+  },
+  {
+    "id": "lenticchia-d-acqua",
+    "name": "Lenticchia d'acqua",
+    "size": 0.003,
+    "flags": [],
+    "desc": "Tra le più piccole piante con fiore."
+  },
+  {
+    "id": "formica",
+    "name": "Formica",
+    "size": 0.004,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "batterio-piu-grande",
+    "name": "Batterio più grande",
+    "size": 0.01,
+    "flags": [
+      "r"
+    ],
+    "desc": "Thiomargarita magnifica (2022): circa un centimetro, visibile a occhio nudo. L'originale: 0,75 mm."
+  }
+]

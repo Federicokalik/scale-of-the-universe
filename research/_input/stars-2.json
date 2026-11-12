@@ -1,0 +1,90 @@
+[
+  {
+    "id": "alfa-centauri-a",
+    "name": "Alfa Centauri A",
+    "size": 1700000000,
+    "flags": [],
+    "desc": "Nel 2025 il telescopio Webb vi ha visto un candidato pianeta gigante."
+  },
+  {
+    "id": "sirio-a",
+    "name": "Sirio A",
+    "size": 2380000000,
+    "flags": [],
+    "desc": "La stella più brillante del cielo notturno."
+  },
+  {
+    "id": "altair",
+    "name": "Altair",
+    "size": 2500000000,
+    "flags": [],
+    "desc": "Ruota così in fretta da essere schiacciata ai poli."
+  },
+  {
+    "id": "procione",
+    "name": "Procione",
+    "size": 2850000000,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "vega",
+    "name": "Vega",
+    "size": 3600000000,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "regolo",
+    "name": "Regolo",
+    "size": 5200000000,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "spica",
+    "name": "Spica",
+    "size": 10400000000,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "pollux",
+    "name": "Pollux",
+    "size": 12600000000,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "capella",
+    "name": "Capella",
+    "size": 16700000000,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "vv-cephei-b",
+    "name": "VV Cephei B",
+    "size": 25000000000,
+    "flags": [
+      "u"
+    ],
+    "desc": ""
+  },
+  {
+    "id": "alnitak",
+    "name": "Alnitak",
+    "size": 28000000000,
+    "flags": [
+      "r"
+    ],
+    "desc": "Supergigante blu della Cintura di Orione. L'originale: 84 milioni di km."
+  },
+  {
+    "id": "arturo",
+    "name": "Arturo",
+    "size": 35300000000,
+    "flags": [],
+    "desc": ""
+  }
+]

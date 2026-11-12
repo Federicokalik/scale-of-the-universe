@@ -1,0 +1,82 @@
+[
+  {
+    "id": "membrana-cellulare",
+    "name": "Membrana cellulare",
+    "size": 8e-9,
+    "flags": [],
+    "desc": "Doppio strato lipidico più proteine: 7–10 nm."
+  },
+  {
+    "id": "circovirus-suino",
+    "name": "Circovirus suino",
+    "size": 1.7e-8,
+    "flags": [],
+    "desc": "Tra i virus più piccoli capaci di replicarsi da soli nelle cellule animali."
+  },
+  {
+    "id": "ribosoma",
+    "name": "Ribosoma",
+    "size": 2.5e-8,
+    "flags": [
+      "n"
+    ],
+    "desc": "La macchina molecolare che costruisce le proteine."
+  },
+  {
+    "id": "virus-dell-epatite-b",
+    "name": "Virus dell'epatite B",
+    "size": 4.2e-8,
+    "flags": [],
+    "desc": "Particella di Dane, 42 nm."
+  },
+  {
+    "id": "sars-cov-2",
+    "name": "SARS-CoV-2",
+    "size": 1.05e-7,
+    "flags": [
+      "n"
+    ],
+    "desc": "Il coronavirus della pandemia di COVID-19: circa 100 nm."
+  },
+  {
+    "id": "hiv",
+    "name": "HIV",
+    "size": 1.2e-7,
+    "flags": [
+      "r"
+    ],
+    "desc": "Circa 120 nm. L'originale: 90 nm."
+  },
+  {
+    "id": "batteriofago-t4",
+    "name": "Batteriofago T4",
+    "size": 2.1e-7,
+    "flags": [],
+    "desc": "Un virus che infetta i batteri, a forma di modulo lunare."
+  },
+  {
+    "id": "batterio-piu-piccolo",
+    "name": "Batterio più piccolo",
+    "size": 3e-7,
+    "flags": [
+      "n"
+    ],
+    "desc": "Mycoplasma genitalium, tra i più piccoli organismi capaci di vita autonoma."
+  },
+  {
+    "id": "mimivirus",
+    "name": "Mimivirus",
+    "size": 7.5e-7,
+    "flags": [],
+    "desc": "Virus gigante, scambiato per un batterio alla scoperta."
+  },
+  {
+    "id": "virus-piu-grande",
+    "name": "Virus più grande",
+    "size": 0.0000015,
+    "flags": [
+      "r"
+    ],
+    "desc": "Pithovirus sibericum: 1,5 µm, riattivato nel 2014 dal permafrost siberiano. L'originale: 440 nm."
+  }
+]

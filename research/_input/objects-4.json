@@ -1,0 +1,89 @@
+[
+  {
+    "id": "smartphone",
+    "name": "Smartphone",
+    "size": 0.15,
+    "flags": [
+      "n"
+    ],
+    "desc": ""
+  },
+  {
+    "id": "uovo-di-struzzo",
+    "name": "Uovo di struzzo",
+    "size": 0.152,
+    "flags": [],
+    "desc": "L'uovo più grande di un animale vivente."
+  },
+  {
+    "id": "chicco-di-grandine-piu-grande",
+    "name": "Chicco di grandine più grande",
+    "size": 0.2,
+    "flags": [],
+    "desc": "Vivian, South Dakota, 2010: 20 cm di diametro."
+  },
+  {
+    "id": "pallone-da-calcio",
+    "name": "Pallone da calcio",
+    "size": 0.22,
+    "flags": [
+      "n"
+    ],
+    "desc": ""
+  },
+  {
+    "id": "pallone-da-basket",
+    "name": "Pallone da basket",
+    "size": 0.24,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "teiera-di-russell",
+    "name": "Teiera di Russell",
+    "size": 0.25,
+    "flags": [
+      "i"
+    ],
+    "desc": "L'esperimento mentale di Bertrand Russell sull'onere della prova: una teiera in orbita tra la Terra e Marte."
+  },
+  {
+    "id": "righello-da-un-piede",
+    "name": "Righello da un piede",
+    "size": 0.3048,
+    "flags": [],
+    "desc": "Dodici pollici."
+  },
+  {
+    "id": "uno-schermo",
+    "name": "Uno schermo",
+    "size": 0.34,
+    "flags": [],
+    "desc": "Più o meno la finestra da cui stai guardando."
+  },
+  {
+    "id": "fiocco-di-neve-piu-grande",
+    "name": "Fiocco di neve più grande",
+    "size": 0.38,
+    "flags": [
+      "u"
+    ],
+    "desc": "Montana, 1887: una testimonianza mai verificata."
+  },
+  {
+    "id": "pallone-da-spiaggia",
+    "name": "Pallone da spiaggia",
+    "size": 0.6,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "bicicletta",
+    "name": "Bicicletta",
+    "size": 1.75,
+    "flags": [
+      "n"
+    ],
+    "desc": ""
+  }
+]

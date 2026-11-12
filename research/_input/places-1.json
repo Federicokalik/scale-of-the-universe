@@ -1,0 +1,80 @@
+[
+  {
+    "id": "dal-pavimento-al-soffitto",
+    "name": "Dal pavimento al soffitto",
+    "size": 2.7,
+    "flags": [],
+    "desc": "Altezza abitabile minima in Italia."
+  },
+  {
+    "id": "casa-media-negli-usa",
+    "name": "Casa media negli USA",
+    "size": 15,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "torre-di-pisa",
+    "name": "Torre di Pisa",
+    "size": 56,
+    "flags": [
+      "n"
+    ],
+    "desc": ""
+  },
+  {
+    "id": "campo-da-football-americano",
+    "name": "Campo da football americano",
+    "size": 109.7,
+    "flags": [],
+    "desc": "Zone di meta comprese."
+  },
+  {
+    "id": "grande-piramide-di-giza",
+    "name": "Grande Piramide di Giza",
+    "size": 138.5,
+    "flags": [
+      "r"
+    ],
+    "desc": "Altezza attuale. In origine arrivava a 146,6 m."
+  },
+  {
+    "id": "colosseo",
+    "name": "Colosseo",
+    "size": 189,
+    "flags": [
+      "n"
+    ],
+    "desc": "Asse maggiore dell'ellisse."
+  },
+  {
+    "id": "gateway-arch",
+    "name": "Gateway Arch",
+    "size": 192,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "diga-di-hoover",
+    "name": "Diga di Hoover",
+    "size": 221,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "torre-eiffel",
+    "name": "Torre Eiffel",
+    "size": 330,
+    "flags": [
+      "r"
+    ],
+    "desc": "Dal 2022, con la nuova antenna. L'originale: 320 m."
+  },
+  {
+    "id": "willis-tower",
+    "name": "Willis Tower",
+    "size": 442,
+    "flags": [],
+    "desc": "La ex Sears Tower."
+  }
+]

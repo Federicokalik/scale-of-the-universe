@@ -1,0 +1,87 @@
+[
+  {
+    "id": "nebulosa-stingray",
+    "name": "Nebulosa Stingray",
+    "size": 800000000000000,
+    "flags": [],
+    "desc": "La nebulosa planetaria più giovane nota. In vent'anni si è affievolita a vista d'occhio."
+  },
+  {
+    "id": "nebulosa-occhio-di-gatto",
+    "name": "Nebulosa Occhio di Gatto",
+    "size": 1950000000000000,
+    "flags": [],
+    "desc": "Il nucleo brillante."
+  },
+  {
+    "id": "hamburger-di-gomez",
+    "name": "Hamburger di Gomez",
+    "size": 2500000000000000,
+    "flags": [
+      "u"
+    ],
+    "desc": "Una giovane stella nascosta da un disco visto di taglio."
+  },
+  {
+    "id": "nebulosa-clessidra",
+    "name": "Nebulosa Clessidra",
+    "size": 3000000000000000,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "nebulosa-blinking",
+    "name": "Nebulosa Blinking",
+    "size": 4500000000000000,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "nebulosa-homunculus",
+    "name": "Nebulosa Homunculus",
+    "size": 6000000000000000,
+    "flags": [
+      "r"
+    ],
+    "desc": "I due lobi espulsi da Eta Carinae nell'Ottocento. L'originale la faceva trecento volte più piccola."
+  },
+  {
+    "id": "nebulosa-ngc-2392",
+    "name": "Nebulosa NGC 2392",
+    "size": 6400000000000000,
+    "flags": [
+      "r"
+    ],
+    "desc": "La ex Nebulosa Eschimese: la NASA ha ritirato quel soprannome nel 2020. L'originale: 2 anni luce."
+  },
+  {
+    "id": "nebulosa-uovo-marcio",
+    "name": "Nebulosa Uovo Marcio",
+    "size": 13000000000000000,
+    "flags": [],
+    "desc": "Ricca di composti dello zolfo."
+  },
+  {
+    "id": "nebulosa-formica",
+    "name": "Nebulosa Formica",
+    "size": 19000000000000000,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "nebulosa-boomerang",
+    "name": "Nebulosa Boomerang",
+    "size": 19200000000000000,
+    "flags": [],
+    "desc": "Il luogo naturale più freddo noto: 1 K, meno del fondo cosmico."
+  },
+  {
+    "id": "nebulosa-anello",
+    "name": "Nebulosa Anello",
+    "size": 25000000000000000,
+    "flags": [
+      "r"
+    ],
+    "desc": "Nel 2023 il telescopio Webb ne ha mostrato migliaia di globuli densi."
+  }
+]

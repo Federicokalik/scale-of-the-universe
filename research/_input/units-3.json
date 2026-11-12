@@ -1,0 +1,65 @@
+[
+  {
+    "id": "terametro",
+    "name": "Terametro",
+    "size": 1000000000000,
+    "flags": [],
+    "desc": "Un miliardo di chilometri."
+  },
+  {
+    "id": "giorno-luce",
+    "name": "Giorno-luce",
+    "size": 25900000000000,
+    "flags": [],
+    "desc": "La strada della luce in 24 ore: 25,9 miliardi di km."
+  },
+  {
+    "id": "petametro",
+    "name": "Petametro",
+    "size": 1000000000000000,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "anno-luce",
+    "name": "Anno luce",
+    "size": 9461000000000000,
+    "flags": [],
+    "desc": "9.460.730.472.580,8 km."
+  },
+  {
+    "id": "parsec",
+    "name": "Parsec",
+    "size": 30857000000000000,
+    "flags": [],
+    "desc": "3,26 anni luce."
+  },
+  {
+    "id": "esametro",
+    "name": "Esametro",
+    "size": 1000000000000000000,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "zettametro",
+    "name": "Zettametro",
+    "size": 1e+21,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "yottametro",
+    "name": "Yottametro",
+    "size": 1e+24,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "gigaparsec",
+    "name": "Gigaparsec",
+    "size": 3.0857e+25,
+    "flags": [],
+    "desc": "3,26 miliardi di anni luce."
+  }
+]

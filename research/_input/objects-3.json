@@ -1,0 +1,88 @@
+[
+  {
+    "id": "fiocco-di-neve",
+    "name": "Fiocco di neve",
+    "size": 0.008,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "chicco-di-caffe",
+    "name": "Chicco di caffè",
+    "size": 0.0102,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "seme-di-girasole",
+    "name": "Seme di girasole",
+    "size": 0.0104,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "uovo-di-colibri",
+    "name": "Uovo di colibrì",
+    "size": 0.0106,
+    "flags": [],
+    "desc": "L'uovo d'uccello più piccolo."
+  },
+  {
+    "id": "biglia",
+    "name": "Biglia",
+    "size": 0.016,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "penny-statunitense",
+    "name": "Penny statunitense",
+    "size": 0.01905,
+    "flags": [],
+    "desc": "La zecca USA ne ha interrotto il conio per la circolazione nel novembre 2025."
+  },
+  {
+    "id": "moneta-da-1-euro",
+    "name": "Moneta da 1 euro",
+    "size": 0.02325,
+    "flags": [
+      "n"
+    ],
+    "desc": ""
+  },
+  {
+    "id": "uovo-di-quaglia",
+    "name": "Uovo di quaglia",
+    "size": 0.035,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "fiammifero",
+    "name": "Fiammifero",
+    "size": 0.045,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "uovo-di-gallina",
+    "name": "Uovo di gallina",
+    "size": 0.055,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "cubo-di-rubik",
+    "name": "Cubo di Rubik",
+    "size": 0.057,
+    "flags": [],
+    "desc": "Il cubo ufficiale ha lo spigolo di 5,7 cm."
+  },
+  {
+    "id": "tazza",
+    "name": "Tazza",
+    "size": 0.102,
+    "flags": [],
+    "desc": ""
+  }
+]

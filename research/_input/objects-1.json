@@ -1,0 +1,83 @@
+[
+  {
+    "id": "fossetta-di-un-cd-profondita",
+    "name": "Fossetta di un CD (profondità)",
+    "size": 1.25e-7,
+    "flags": [],
+    "desc": "Un quarto della lunghezza d'onda del laser nel policarbonato."
+  },
+  {
+    "id": "particella-di-argilla",
+    "name": "Particella di argilla",
+    "size": 0.0000022,
+    "flags": [],
+    "desc": "Per definizione, sotto i 2 µm."
+  },
+  {
+    "id": "fibra-di-seta",
+    "name": "Fibra di seta",
+    "size": 0.0000125,
+    "flags": [],
+    "desc": "Il filo di un bozzolo di baco da seta."
+  },
+  {
+    "id": "fibra-acrilica",
+    "name": "Fibra acrilica",
+    "size": 0.00002,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "gocciolina-di-nebbia",
+    "name": "Gocciolina di nebbia",
+    "size": 0.000021,
+    "flags": [],
+    "desc": "Abbastanza leggera da restare sospesa."
+  },
+  {
+    "id": "particella-di-limo",
+    "name": "Particella di limo",
+    "size": 0.000032,
+    "flags": [],
+    "desc": "Tra argilla e sabbia: da 2 a 63 µm."
+  },
+  {
+    "id": "pixel-di-uno-smartphone",
+    "name": "Pixel di uno smartphone",
+    "size": 0.000055,
+    "flags": [
+      "n"
+    ],
+    "desc": "Uno schermo da circa 460 pixel per pollice."
+  },
+  {
+    "id": "capello-umano",
+    "name": "Capello umano",
+    "size": 0.00008,
+    "flags": [],
+    "desc": "Spessore medio: varia da 20 a 180 µm."
+  },
+  {
+    "id": "limite-dell-occhio-nudo",
+    "name": "Limite dell'occhio nudo",
+    "size": 0.0001,
+    "flags": [],
+    "desc": "Il più piccolo oggetto distinguibile senza strumenti."
+  },
+  {
+    "id": "foglio-di-carta-spessore",
+    "name": "Foglio di carta (spessore)",
+    "size": 0.000105,
+    "flags": [],
+    "desc": "Carta da stampante da 80 g/m²."
+  },
+  {
+    "id": "pixel-di-un-monitor",
+    "name": "Pixel di un monitor",
+    "size": 0.00026,
+    "flags": [
+      "r"
+    ],
+    "desc": "Monitor da 96 pixel per pollice. I telefoni di oggi sono cinque volte più fitti."
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "id": "luce-rossa",
+    "name": "Luce rossa",
+    "size": 7e-7,
+    "flags": [
+      "r"
+    ],
+    "desc": "Il limite lungo dello spettro visibile. L'originale la etichettava di nuovo come viola."
+  },
+  {
+    "id": "infrarosso-termico",
+    "name": "Infrarosso termico",
+    "size": 0.00001,
+    "flags": [],
+    "desc": "Attorno a 10 µm emette un corpo a temperatura ambiente."
+  },
+  {
+    "id": "picco-del-fondo-cosmico-a-microonde",
+    "name": "Picco del fondo cosmico a microonde",
+    "size": 0.00106,
+    "flags": [
+      "n"
+    ],
+    "desc": "La luce più antica dell'universo: un corpo nero a 2,7255 K."
+  },
+  {
+    "id": "microonde-del-forno",
+    "name": "Microonde del forno",
+    "size": 0.122,
+    "flags": [
+      "r"
+    ],
+    "desc": "2,45 GHz, cioè 12,2 cm: la stessa banda del Wi-Fi. L'originale: 1 cm."
+  },
+  {
+    "id": "onde-radio-fm",
+    "name": "Onde radio FM",
+    "size": 3,
+    "flags": [
+      "r"
+    ],
+    "desc": "Tra 88 e 108 MHz, cioè circa 3 m. L'originale: 1 m."
+  },
+  {
+    "id": "onde-radio-am",
+    "name": "Onde radio AM",
+    "size": 300,
+    "flags": [
+      "r"
+    ],
+    "desc": "Onde medie: da 180 a 570 m circa. L'originale: 1 km."
+  }
+]

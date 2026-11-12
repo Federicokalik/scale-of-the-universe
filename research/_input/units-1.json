@@ -1,0 +1,65 @@
+[
+  {
+    "id": "lunghezza-di-planck",
+    "name": "Lunghezza di Planck",
+    "size": 1.616e-35,
+    "flags": [],
+    "desc": "1,616255×10⁻³⁵ m (CODATA 2022). Sotto questa scala la fisica nota non basta più."
+  },
+  {
+    "id": "yoctometro",
+    "name": "Yoctometro",
+    "size": 1e-24,
+    "flags": [],
+    "desc": "Un quadrilionesimo di metro: 10⁻²⁴ m."
+  },
+  {
+    "id": "zeptometro",
+    "name": "Zeptometro",
+    "size": 1e-21,
+    "flags": [],
+    "desc": "10⁻²¹ m."
+  },
+  {
+    "id": "attometro",
+    "name": "Attometro",
+    "size": 1e-18,
+    "flags": [],
+    "desc": "10⁻¹⁸ m."
+  },
+  {
+    "id": "femtometro",
+    "name": "Femtometro",
+    "size": 1e-15,
+    "flags": [],
+    "desc": "10⁻¹⁵ m, detto anche fermi."
+  },
+  {
+    "id": "picometro",
+    "name": "Picometro",
+    "size": 1e-12,
+    "flags": [],
+    "desc": "10⁻¹² m."
+  },
+  {
+    "id": "angstrom",
+    "name": "Ångström",
+    "size": 1e-10,
+    "flags": [],
+    "desc": "10⁻¹⁰ m, l'unità classica per atomi e legami chimici."
+  },
+  {
+    "id": "nanometro",
+    "name": "Nanometro",
+    "size": 1e-9,
+    "flags": [],
+    "desc": "10⁻⁹ m."
+  },
+  {
+    "id": "micrometro",
+    "name": "Micrometro",
+    "size": 0.000001,
+    "flags": [],
+    "desc": "10⁻⁶ m, o micron."
+  }
+]

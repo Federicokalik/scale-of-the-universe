@@ -1,0 +1,77 @@
+[
+  {
+    "id": "grande-muraglia-sloan",
+    "name": "Grande Muraglia Sloan",
+    "size": 1.3e+25,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "supervuoto-di-eridano",
+    "name": "Supervuoto di Eridano",
+    "size": 1.7e+25,
+    "flags": [
+      "r",
+      "u"
+    ],
+    "desc": "Proposto per spiegare la Macchia Fredda del fondo cosmico. Dimensioni e ruolo sono discussi."
+  },
+  {
+    "id": "vuoto-kbc",
+    "name": "Vuoto KBC",
+    "size": 1.9e+25,
+    "flags": [
+      "n",
+      "u"
+    ],
+    "desc": "Un possibile grande vuoto attorno a noi, largo due miliardi di anni luce."
+  },
+  {
+    "id": "arco-gigante",
+    "name": "Arco Gigante",
+    "size": 3.1e+25,
+    "flags": [
+      "n",
+      "u"
+    ],
+    "desc": "Un arco di galassie lungo 3,3 miliardi di anni luce (2021). Potrebbe essere un allineamento casuale."
+  },
+  {
+    "id": "huge-lqg",
+    "name": "Huge-LQG",
+    "size": 3.8e+25,
+    "flags": [
+      "n",
+      "u"
+    ],
+    "desc": "Un gruppo di 73 quasar esteso 4 miliardi di anni luce. La sua realtà fisica è contestata."
+  },
+  {
+    "id": "grande-muraglia-ercole-corona-boreale",
+    "name": "Grande Muraglia Ercole–Corona Boreale",
+    "size": 9.5e+25,
+    "flags": [
+      "n",
+      "u"
+    ],
+    "desc": "Circa 10 miliardi di anni luce, dedotti dalla distribuzione dei lampi gamma. Non confermata come struttura unica."
+  },
+  {
+    "id": "universo-osservabile",
+    "name": "Universo osservabile",
+    "size": 8.8e+26,
+    "flags": [
+      "r"
+    ],
+    "desc": "93 miliardi di anni luce di diametro. Età: 13,8 miliardi di anni."
+  },
+  {
+    "id": "universo-intero",
+    "name": "Universo intero",
+    "size": 1.6e+27,
+    "flags": [
+      "i"
+    ],
+    "desc": "Nessuno ne conosce la dimensione: potrebbe essere infinito. L'originale chiudeva qui con una stima convenzionale."
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "nucleo-di-uranio",
+    "name": "Nucleo di uranio",
+    "size": 1.5e-14,
+    "flags": [],
+    "desc": "Uranio-238: 92 protoni e 146 neutroni."
+  },
+  {
+    "id": "atomo-di-elio",
+    "name": "Atomo di elio",
+    "size": 6.2e-11,
+    "flags": [
+      "r"
+    ],
+    "desc": "Raggio calcolato di 31 pm: è l'atomo più piccolo. L'originale lo confondeva con il raggio."
+  },
+  {
+    "id": "atomo-di-idrogeno",
+    "name": "Atomo di idrogeno",
+    "size": 1.06e-10,
+    "flags": [
+      "r"
+    ],
+    "desc": "Due raggi di Bohr (52,9 pm)."
+  },
+  {
+    "id": "atomo-di-carbonio",
+    "name": "Atomo di carbonio",
+    "size": 1.52e-10,
+    "flags": [],
+    "desc": "Raggio covalente di 76 pm."
+  },
+  {
+    "id": "atomo-di-zolfo",
+    "name": "Atomo di zolfo",
+    "size": 2.1e-10,
+    "flags": [
+      "r"
+    ],
+    "desc": "Raggio covalente di 105 pm."
+  },
+  {
+    "id": "atomo-di-cesio",
+    "name": "Atomo di cesio",
+    "size": 5.3e-10,
+    "flags": [],
+    "desc": "Tra gli atomi più grandi. Definisce il secondo negli orologi atomici."
+  }
+]

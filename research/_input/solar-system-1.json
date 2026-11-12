@@ -1,0 +1,90 @@
+[
+  {
+    "id": "dimorphos",
+    "name": "Dimorphos",
+    "size": 150,
+    "flags": [
+      "n"
+    ],
+    "desc": "La luna d'asteroide deviata dalla sonda DART nel 2022. La sonda europea Hera la raggiunge a fine 2026."
+  },
+  {
+    "id": "oumuamua",
+    "name": "ʻOumuamua",
+    "size": 200,
+    "flags": [
+      "n",
+      "u"
+    ],
+    "desc": "Il primo oggetto interstellare osservato (2017). Dimensioni stimate tra 100 e 400 m."
+  },
+  {
+    "id": "apophis",
+    "name": "Apophis",
+    "size": 340,
+    "flags": [
+      "n"
+    ],
+    "desc": "Il 13 aprile 2029 passerà a circa 32.000 km dalla Terra, sotto i satelliti geostazionari."
+  },
+  {
+    "id": "bennu",
+    "name": "Bennu",
+    "size": 490,
+    "flags": [
+      "n"
+    ],
+    "desc": "La sonda OSIRIS-REx ne ha riportato i campioni nel 2023."
+  },
+  {
+    "id": "3i-atlas",
+    "name": "3I/ATLAS",
+    "size": 1040,
+    "flags": [
+      "n",
+      "u"
+    ],
+    "desc": "Il terzo oggetto interstellare, una cometa scoperta nel luglio 2025. Nucleo stimato tra 0,4 e 5,6 km."
+  },
+  {
+    "id": "cruithne",
+    "name": "Cruithne",
+    "size": 2100,
+    "flags": [
+      "r"
+    ],
+    "desc": "Asteroide in risonanza orbitale con la Terra. L'originale: 5 km."
+  },
+  {
+    "id": "cometa-67p",
+    "name": "Cometa 67P",
+    "size": 4300,
+    "flags": [
+      "n"
+    ],
+    "desc": "Churyumov–Gerasimenko, visitata dalla sonda Rosetta."
+  },
+  {
+    "id": "deimos",
+    "name": "Deimos",
+    "size": 12400,
+    "flags": [],
+    "desc": "La luna più piccola di Marte."
+  },
+  {
+    "id": "cometa-di-halley",
+    "name": "Cometa di Halley",
+    "size": 15000,
+    "flags": [
+      "r"
+    ],
+    "desc": "Nucleo di 15 × 8 km. Ha toccato l'afelio nel dicembre 2023 e torna nel 2061."
+  },
+  {
+    "id": "fobos",
+    "name": "Fobos",
+    "size": 22200,
+    "flags": [],
+    "desc": "La missione giapponese MMX punta a riportarne campioni."
+  }
+]

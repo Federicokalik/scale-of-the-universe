@@ -1,0 +1,80 @@
+[
+  {
+    "id": "distanza-sole-proxima",
+    "name": "Distanza Sole–Proxima",
+    "size": 40180000000000000,
+    "flags": [],
+    "desc": "4,2465 anni luce."
+  },
+  {
+    "id": "getto-relativistico-di-m87",
+    "name": "Getto relativistico di M87",
+    "size": 47000000000000000000,
+    "flags": [],
+    "desc": "Circa 5.000 anni luce di plasma lanciato dal buco nero centrale."
+  },
+  {
+    "id": "strada-percorsa-dalla-terra-attorno-al-sole",
+    "name": "Strada percorsa dalla Terra attorno al Sole",
+    "size": 4.3e+21,
+    "flags": [],
+    "desc": "4,54 miliardi di orbite da 940 milioni di km."
+  },
+  {
+    "id": "distanza-di-andromeda",
+    "name": "Distanza di Andromeda",
+    "size": 2.4e+22,
+    "flags": [
+      "r"
+    ],
+    "desc": "2,5 milioni di anni luce."
+  },
+  {
+    "id": "distanza-del-grande-attrattore",
+    "name": "Distanza del Grande Attrattore",
+    "size": 2.2e+24,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "scala-acustica-barionica",
+    "name": "Scala acustica barionica",
+    "size": 4.6e+24,
+    "flags": [
+      "n"
+    ],
+    "desc": "Il righello standard della cosmologia: 490 milioni di anni luce. Le misure DESI del 2025 con questo righello suggeriscono un'energia oscura che cambia nel tempo, ma non è confermato."
+  },
+  {
+    "id": "distanza-del-superammasso-di-shapley",
+    "name": "Distanza del superammasso di Shapley",
+    "size": 6.15e+24,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "distanza-dell-hubble-deep-field",
+    "name": "Distanza dell'Hubble Deep Field",
+    "size": 1.2e+26,
+    "flags": [],
+    "desc": "La luce delle galassie più deboli ha viaggiato per circa 13 miliardi di anni."
+  },
+  {
+    "id": "raggio-di-hubble",
+    "name": "Raggio di Hubble",
+    "size": 1.36e+26,
+    "flags": [
+      "n"
+    ],
+    "desc": "Oltre 14,4 miliardi di anni luce lo spazio si allontana da noi più veloce della luce."
+  },
+  {
+    "id": "mom-z14",
+    "name": "MoM-z14",
+    "size": 3.2e+26,
+    "flags": [
+      "n"
+    ],
+    "desc": "La galassia più lontana confermata (gennaio 2026): redshift 14,44, vista 280 milioni di anni dopo il Big Bang. Oggi dista circa 34 miliardi di anni luce."
+  }
+]

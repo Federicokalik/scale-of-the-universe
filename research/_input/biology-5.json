@@ -1,0 +1,83 @@
+[
+  {
+    "id": "giraffa",
+    "name": "Giraffa",
+    "size": 5.5,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "anaconda-verde",
+    "name": "Anaconda verde",
+    "size": 6,
+    "flags": [
+      "u"
+    ],
+    "desc": "Gli esemplari oltre i 6–7 m non sono documentati in modo affidabile."
+  },
+  {
+    "id": "elefante-africano",
+    "name": "Elefante africano",
+    "size": 6.5,
+    "flags": [],
+    "desc": "Lunghezza con la proboscide."
+  },
+  {
+    "id": "saguaro",
+    "name": "Saguaro",
+    "size": 12,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "tyrannosaurus-rex",
+    "name": "Tyrannosaurus rex",
+    "size": 12.3,
+    "flags": [
+      "r"
+    ],
+    "desc": "Lunghezza degli esemplari più completi. L'originale: 7 m."
+  },
+  {
+    "id": "quercia",
+    "name": "Quercia",
+    "size": 20,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "balenottera-azzurra",
+    "name": "Balenottera azzurra",
+    "size": 30,
+    "flags": [],
+    "desc": "L'animale più massiccio mai esistito."
+  },
+  {
+    "id": "maraapunisaurus",
+    "name": "Maraapunisaurus",
+    "size": 32,
+    "flags": [
+      "r",
+      "u"
+    ],
+    "desc": "L'ex Amphicoelias fragillimus, riclassificato nel 2018. Nota da una sola vertebra andata perduta."
+  },
+  {
+    "id": "argentinosaurus",
+    "name": "Argentinosaurus",
+    "size": 35,
+    "flags": [
+      "n"
+    ],
+    "desc": "Tra i più grandi dinosauri conosciuti da resti solidi."
+  },
+  {
+    "id": "sequoia-hyperion",
+    "name": "Sequoia Hyperion",
+    "size": 116,
+    "flags": [
+      "r"
+    ],
+    "desc": "L'albero vivente più alto: 116 m. L'originale: 100 m."
+  }
+]

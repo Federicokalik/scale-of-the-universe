@@ -1,0 +1,81 @@
+[
+  {
+    "id": "granello-di-sale",
+    "name": "Granello di sale",
+    "size": 0.00031,
+    "flags": [],
+    "desc": "Un cubetto di cloruro di sodio."
+  },
+  {
+    "id": "granello-di-sabbia",
+    "name": "Granello di sabbia",
+    "size": 0.00052,
+    "flags": [],
+    "desc": "Per definizione tra 0,06 e 2 mm."
+  },
+  {
+    "id": "pelle-delle-palpebre",
+    "name": "Pelle delle palpebre",
+    "size": 0.00053,
+    "flags": [],
+    "desc": "La pelle più sottile del corpo."
+  },
+  {
+    "id": "mina-di-matita",
+    "name": "Mina di matita",
+    "size": 0.0007,
+    "flags": [],
+    "desc": "Portamine da 0,7 mm."
+  },
+  {
+    "id": "carta-di-credito-spessore",
+    "name": "Carta di credito (spessore)",
+    "size": 0.00076,
+    "flags": [],
+    "desc": "Standard ISO: 0,76 mm."
+  },
+  {
+    "id": "goccia-di-pioggia",
+    "name": "Goccia di pioggia",
+    "size": 0.002,
+    "flags": [
+      "n"
+    ],
+    "desc": "Non è a lacrima: cadendo si schiaccia come un panino."
+  },
+  {
+    "id": "seme-di-sesamo",
+    "name": "Seme di sesamo",
+    "size": 0.0031,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "pelle-della-pianta-del-piede",
+    "name": "Pelle della pianta del piede",
+    "size": 0.0041,
+    "flags": [],
+    "desc": "La pelle più spessa del corpo."
+  },
+  {
+    "id": "nevischio",
+    "name": "Nevischio",
+    "size": 0.0042,
+    "flags": [],
+    "desc": ""
+  },
+  {
+    "id": "microchip",
+    "name": "Microchip",
+    "size": 0.005,
+    "flags": [],
+    "desc": "Un piccolo circuito integrato."
+  },
+  {
+    "id": "chicco-di-riso",
+    "name": "Chicco di riso",
+    "size": 0.006,
+    "flags": [],
+    "desc": ""
+  }
+]
