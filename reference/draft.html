@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Scala dell'Universo 2026</title>
+<style>
+:root{
+  /* Layout: tela immersiva a tutto schermo; sopra, controlli flottanti a capsula in vetro liquido (rifrazione, bordo speculare, riflesso che segue il puntatore) */
+  color-scheme:dark;
+  --ink:#070a16;
+  --text:#ffffff;
+  --muted:rgba(232,236,255,.74);
+  --accent:#ffd08a;
+  --teal:#8ff0e2;
+  --violet:#c9b8ff;
+  --grey:#b4b9c9;
+  --line:rgba(255,255,255,.26);
+  --display:-apple-system,BlinkMacSystemFont,"SF Pro Display","Helvetica Neue","Segoe UI",system-ui,sans-serif;
+  --body:-apple-system,BlinkMacSystemFont,"SF Pro Text","Helvetica Neue","Segoe UI",system-ui,sans-serif;
+  --mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+  --glass-fill:linear-gradient(135deg,rgba(255,255,255,.22),rgba(255,255,255,.05) 42%,rgba(255,255,255,.13)),rgba(14,18,40,.26);
+  --glass-edge:inset 0 1.5px 0 rgba(255,255,255,.72),inset 0 -1px 0 rgba(255,255,255,.16),inset 1px 0 0 rgba(255,255,255,.2),inset -1px 0 0 rgba(255,255,255,.1),inset 0 0 26px rgba(255,255,255,.07),0 16px 48px rgba(0,0,12,.4),0 2px 6px rgba(0,0,12,.26);
+  --blur:blur(14px) saturate(190%) brightness(1.12);
+  --spring:cubic-bezier(.2,.9,.25,1.18);
+}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0}
+body{background:var(--ink);color:var(--text);font-family:var(--body);font-size:15px;line-height:1.45;overflow:hidden;-webkit-font-smoothing:antialiased}
+canvas{position:fixed;inset:0;width:100%;height:100%;display:block;touch-action:none;cursor:grab}
+button,input{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:2px solid #fff;outline-offset:3px}
+
+/* materiale */
+.glass,.btn,.chip,.step,.x,.brand,.search input,.nav button{
+  background:var(--glass-fill);
+  border:1px solid var(--line);
+  box-shadow:var(--glass-edge);
+  -webkit-backdrop-filter:var(--blur);backdrop-filter:var(--blur);
+  text-shadow:0 1px 2px rgba(0,0,20,.35);
+}
+.btn,.chip,.step,.brand,.bottom{isolation:isolate}
+.btn,.chip,.step,.brand{position:relative}
+.btn::before,.chip::before,.step::before,.brand::before,.bottom::before{
+  content:"";position:absolute;inset:0;border-radius:inherit;z-index:-1;pointer-events:none;
+  background:radial-gradient(160px circle at var(--mx,28%) var(--my,-10%),rgba(255,255,255,.34),rgba(255,255,255,0) 62%);
+  mix-blend-mode:screen;
+}
+.btn,.chip,.step,.x,.nav button{transition:transform .35s var(--spring),background .25s}
+.btn:hover,.chip:hover,.step:hover,.x:hover,.nav button:hover{transform:scale(1.045)}
+.btn:active,.chip:active,.step:active,.x:active,.nav button:active{transform:scale(.95)}
+
+.top{position:fixed;top:16px;left:16px;right:16px;display:flex;gap:12px;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;pointer-events:none}
+.top>*{pointer-events:auto}
+.brand{border-radius:28px;padding:14px 18px 14px}
+.brand h1{font-family:var(--display);font-weight:700;font-size:22px;line-height:1.1;margin:0;letter-spacing:-.02em}
+.brand p{margin:2px 0 10px;color:var(--muted);font-size:13px}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{border-radius:999px;padding:5px 12px;font-size:12px;font-weight:500;display:flex;align-items:center;gap:6px;min-height:30px}
+.chip[aria-pressed="true"]{background:linear-gradient(135deg,rgba(255,255,255,.5),rgba(255,255,255,.22));border-color:rgba(255,255,255,.7)}
+.dot{width:8px;height:8px;border-radius:50%;display:inline-block;flex:none;box-shadow:0 0 6px currentColor}
+.tools{display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+.search{position:relative}
+.search input{width:230px;max-width:46vw;height:44px;padding:0 18px;border-radius:999px;outline-offset:3px}
+.search input::placeholder{color:var(--muted)}
+.results{position:absolute;top:calc(100% + 8px);right:0;left:0;min-width:270px;max-height:320px;overflow:auto;padding:8px;display:none;z-index:5;border-radius:24px}
+.results.open{display:block}
+.results button{display:flex;justify-content:space-between;gap:10px;width:100%;text-align:left;background:none;border:0;padding:9px 12px;border-radius:16px;transition:background .2s}
+.results button:hover,.results button:focus-visible{background:rgba(255,255,255,.16)}
+.results span:last-child{color:var(--muted);font-family:var(--mono);font-size:12px;white-space:nowrap}
+.btn{border-radius:999px;height:44px;padding:0 18px;white-space:nowrap;font-weight:500}
+.btn.on{background:linear-gradient(135deg,rgba(255,220,160,.55),rgba(255,190,110,.22));border-color:rgba(255,225,170,.8)}
+.vol{width:76px}
+
+input[type=range]{-webkit-appearance:none;appearance:none;background:transparent;height:30px;margin:0}
+input[type=range]::-webkit-slider-runnable-track{height:6px;border-radius:3px;background:rgba(255,255,255,.26);box-shadow:inset 0 1px 1px rgba(0,0,20,.35)}
+input[type=range]::-moz-range-track{height:6px;border-radius:3px;background:rgba(255,255,255,.26)}
+input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:38px;height:24px;margin-top:-9px;border-radius:999px;background:linear-gradient(180deg,rgba(255,255,255,.98),rgba(255,255,255,.72));border:1px solid rgba(255,255,255,.9);box-shadow:0 4px 14px rgba(0,0,20,.45),inset 0 -2px 4px rgba(120,140,200,.35)}
+input[type=range]::-moz-range-thumb{width:38px;height:24px;border-radius:999px;background:linear-gradient(180deg,rgba(255,255,255,.98),rgba(255,255,255,.72));border:1px solid rgba(255,255,255,.9);box-shadow:0 4px 14px rgba(0,0,20,.45)}
+.vol::-webkit-slider-thumb{width:22px;height:22px;margin-top:-8px}
+.vol::-moz-range-thumb{width:22px;height:22px}
+
+.bottom{position:fixed;left:50%;transform:translateX(-50%);width:min(780px,calc(100% - 32px));bottom:16px;padding:14px 22px 14px;display:grid;gap:8px;border-radius:36px}
+.read{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
+.pow{font-family:var(--display);font-weight:700;font-size:32px;line-height:1;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.pretty{font-family:var(--mono);font-size:13px;color:var(--accent)}
+.regime{color:var(--muted);font-size:13px;margin-left:auto}
+.slide{display:flex;align-items:center;gap:12px}
+.slide input{flex:1}
+.step{width:40px;height:40px;border-radius:50%;font-size:20px;line-height:1;flex:none}
+.hint{color:var(--muted);font-size:12px;text-align:center}
+
+.card{position:fixed;top:132px;right:16px;width:350px;max-height:calc(100% - 310px);overflow:auto;padding:20px;border-radius:32px;
+  opacity:0;visibility:hidden;transform:translateY(14px) scale(.94);transform-origin:top right;transition:opacity .22s,transform .5s var(--spring),visibility 0s .22s}
+.card.open{opacity:1;visibility:visible;transform:none;transition:opacity .22s,transform .5s var(--spring),visibility 0s}
+.card h2{font-family:var(--display);font-size:24px;line-height:1.12;letter-spacing:-.02em;margin:0 34px 4px 0;text-wrap:balance}
+.card .kind{color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.08em}
+.card .size{font-family:var(--mono);font-size:18px;color:var(--accent);margin:10px 0 2px}
+.card .sci{font-family:var(--mono);font-size:12px;color:var(--muted)}
+.card p{margin:10px 0 0}
+.card .cmp{color:var(--muted);font-size:13px}
+.badges{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
+.badge{font-size:11px;font-weight:600;border-radius:999px;padding:3px 10px;border:1px solid currentColor;background:rgba(255,255,255,.08)}
+.x{position:absolute;top:14px;right:14px;width:34px;height:34px;border-radius:50%;font-size:18px;line-height:1}
+.nav{display:flex;gap:8px;margin-top:16px}
+.nav button{flex:1;border-radius:999px;padding:8px 12px;font-size:13px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
+
+dialog{max-width:640px;width:calc(100% - 32px);color:var(--text);padding:26px;max-height:84%;overflow:auto;border-radius:34px}
+dialog::backdrop{background:rgba(4,6,18,.45);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
+dialog h2{font-family:var(--display);margin:0 0 8px;font-size:26px;letter-spacing:-.02em}
+dialog h3{font-size:14px;margin:16px 0 4px;color:var(--accent)}
+dialog p,dialog li{font-size:14px;max-width:65ch}
+dialog ul{padding-left:18px;margin:6px 0}
+dialog a{color:var(--teal)}
+
+@media (max-width:720px){
+  .brand{padding:10px 14px;border-radius:22px}
+  .brand h1{font-size:17px}
+  .brand p{display:none}
+  .chips{margin-top:6px}
+  .search input{width:150px}
+  .card{top:auto;right:8px;left:8px;bottom:168px;width:auto;max-height:42%;transform-origin:bottom center}
+  .bottom{width:calc(100% - 16px);bottom:8px;border-radius:28px;padding:12px 14px}
+  .pow{font-size:24px}
+  .hint{display:none}
+  .regime{margin-left:0}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+@media (prefers-reduced-transparency:reduce){.glass,.btn,.chip,.step,.x,.brand,.search input,.nav button{background:rgba(20,24,46,.94);-webkit-backdrop-filter:none;backdrop-filter:none}}
+</style>
+</head>
+<body>
+<svg id="lgdefs" width="0" height="0" style="position:absolute" aria-hidden="true"></svg>
+<canvas id="stage" aria-label="Vista in scala degli oggetti dell'universo"></canvas>
+
+<div class="top">
+  <div class="brand">
+    <h1>Scala dell'Universo</h1>
+    <p>Edizione novembre 2026 · <span id="count"></span></p>
+    <div class="chips" id="chips"></div>
+  </div>
+  <div class="tools">
+    <div class="search">
+      <input id="q" type="search" placeholder="Cerca un oggetto…" autocomplete="off" aria-label="Cerca un oggetto">
+      <div class="results glass" id="results"></div>
+    </div>
+    <button class="btn" id="music" aria-pressed="false">♪ Attiva musica</button>
+    <input class="vol" id="vol" type="range" min="0" max="1" step="0.01" value="0.6" aria-label="Volume della musica">
+    <button class="btn" id="about">Metodo e fonti</button>
+  </div>
+</div>
+
+<aside class="card glass" id="card" aria-live="polite">
+  <button class="x" id="close" aria-label="Chiudi scheda">×</button>
+  <div class="kind" id="cKind"></div>
+  <h2 id="cName"></h2>
+  <div class="size" id="cSize"></div>
+  <div class="sci" id="cSci"></div>
+  <div class="badges" id="cBadges"></div>
+  <p id="cNote"></p>
+  <p class="cmp" id="cCmp"></p>
+  <div class="nav"><button id="prev"></button><button id="next"></button></div>
+</aside>
+
+<div class="bottom glass">
+  <div class="read">
+    <span class="pow" id="pow"></span>
+    <span class="pretty" id="pretty"></span>
+    <span class="regime" id="regime"></span>
+  </div>
+  <div class="slide">
+    <button class="step" id="minus" aria-label="Rimpicciolisci la scala">−</button>
+    <input id="zoom" type="range" min="-35.6" max="27.6" step="0.01" value="0.2" aria-label="Scala, in potenze di dieci di metri">
+    <button class="step" id="plus" aria-label="Ingrandisci la scala">+</button>
+  </div>
+  <div class="hint">Rotella, pizzico o trascinamento verticale per cambiare scala · clic su un oggetto per la scheda · frecce da tastiera</div>
+</div>
+
+<dialog class="glass" id="dlg">
+  <h2>Metodo e fonti</h2>
+  <p>Reinterpretazione indipendente dell'idea di <a href="https://scaleofuniverse.com/">Scale of the Universe</a> di Cary e Michael Huang. Grafica, testi, codice e musica sono originali; dell'opera di partenza resta solo l'elenco degli oggetti, che sono fatti.</p>
+  <h3>Cosa contiene</h3>
+  <p id="dlgCount"></p>
+  <ul>
+    <li><b style="color:var(--accent)">Aggiornato</b>: il valore dell'elenco del 2012 era superato o errato ed è stato corretto.</li>
+    <li><b style="color:var(--teal)">Nuovo</b>: oggetto assente nell'originale, spesso una scoperta 2015–2026.</li>
+    <li><b style="color:var(--violet)">Ipotetico</b>: previsto da una teoria o usato come esperimento mentale, mai osservato.</li>
+    <li><b style="color:var(--grey)">Incerto</b>: misura contestata o con margini d'errore ampi.</li>
+  </ul>
+  <h3>Come leggere le dimensioni</h3>
+  <p>Ogni oggetto è disegnato in scala con il suo diametro o la sua estensione maggiore. Le particelle elementari sono puntiformi per quanto ne sappiamo: le loro posizioni sono convenzioni ereditate dall'originale e sono segnate come incerte. Le distanze cosmologiche sono comoventi, salvo dove indicato. Le illustrazioni sono procedurali e indicative: la forma reale di nebulose e galassie non è riprodotta.</p>
+  <h3>Fonti principali</h3>
+  <ul>
+    <li>Costanti e raggi nucleari: CODATA 2022.</li>
+    <li>Pianeti, lune e sonde: schede NASA/JPL ed ESA.</li>
+    <li>Galassia più lontana: <a href="https://science.nasa.gov/missions/webb/nasa-webb-pushes-boundaries-of-observable-universe-closer-to-big-bang">NASA, MoM-z14 (gennaio 2026)</a>.</li>
+    <li>Quipu: <a href="https://www.space.com/the-universe/galaxies/astronomers-discover-quipu-the-single-largest-structure-in-the-known-universe">Böhringer e colleghi, 2025</a>.</li>
+    <li>Buco nero del Cosmic Horseshoe: <a href="https://www.sci.news/astronomy/cosmic-horseshoe-black-hole-14122.html">Melo-Carneiro e colleghi, 2025</a>.</li>
+    <li>WOH G64: <a href="https://arxiv.org/pdf/0903.2260">Levesque e colleghi, 2009</a>, più gli studi 2024–2026 sulla sua trasformazione.</li>
+  </ul>
+  <p>La musica è generata in tempo reale dal browser e cambia timbro con la scala.</p>
+  <p>La rifrazione dei pannelli segue il metodo descritto da <a href="https://kube.io/blog/liquid-glass-css-svg/">kube.io</a> ed è attiva solo sui browser basati su Chromium; altrove resta la sfocatura.</p>
+  <button class="btn" id="dlgClose">Chiudi</button>
+</dialog>
+
+<script>
+/* nome|dimensione in metri|tipo|colore o emoji|flag (r aggiornato, n nuovo, i ipotetico, u incerto)|nota */
+const RAW=`
+Schiuma quantistica|1e-35|q||i|Fluttuazioni ipotetiche dello spaziotempo alla scala di Planck. Mai osservate.
+Stringa|1.2e-35|q||i|Oggetto fondamentale della teoria delle stringhe. Nessuna conferma sperimentale.
+Lunghezza di Planck|1.616e-35|u|||1,616255×10⁻³⁵ m (CODATA 2022). Sotto questa scala la fisica nota non basta più.
+Yoctometro|1e-24|u|||Un quadrilionesimo di metro: 10⁻²⁴ m.
+Neutrino|1.3e-24|q||u|Puntiforme nel Modello Standard: non ha una dimensione misurata. Posizione convenzionale ereditata dall'originale.
+Quark top|1e-22|q||u|Puntiforme entro i limiti sperimentali. È la particella elementare più massiccia: circa 172,5 GeV.
+Zeptometro|1e-21|u|||10⁻²¹ m.
+Preone|1.3e-21|q||i|Ipotetico costituente di quark e leptoni. Nessuna evidenza.
+Neutrino ad alta energia|1.5e-20|q||u|Scala legata alla sezione d'urto, non a un raggio fisico. Il rivelatore KM3NeT ha registrato un neutrino da circa 220 PeV, il più energetico mai visto.
+Quark bottom|3e-20|q||u|Puntiforme entro i limiti sperimentali. Valore convenzionale.
+Lunghezze sondate da LHC|5e-20|q||r|La scala più piccola esplorata direttamente, con collisioni a 13,6 TeV. L'originale fermava il confine a 10⁻¹⁶ m.
+Sensibilità di LIGO|1e-19|d||n|La minima variazione di lunghezza misurabile sui bracci da 4 km: così si rivelano le onde gravitazionali.
+Quark charm|1.3e-19|q||u|Puntiforme entro i limiti sperimentali. Valore convenzionale.
+Quark strange|4e-19|q||u|Puntiforme entro i limiti sperimentali. Valore convenzionale.
+Limite sul raggio dei quark|4.3e-19|q||r|Esperimento HERA (2016): se i quark hanno una struttura, è più piccola di 0,43×10⁻¹⁸ m.
+Attometro|1e-18|u|||10⁻¹⁸ m.
+Quark up|1.1e-18|q||u|Costituente di protoni e neutroni. Puntiforme entro i limiti sperimentali.
+Quark down|1.2e-18|q||u|Costituente di protoni e neutroni. Puntiforme entro i limiti sperimentali.
+Elettrone (limite superiore)|1.4e-18|q||u|Nessuna struttura osservata: è puntiforme almeno fino a questa scala.
+Raggio d'azione della forza debole|2.5e-18|q||r|ħ/(m_W·c) ≈ 2,5×10⁻¹⁸ m. L'originale indicava 10⁻¹⁷ m.
+Femtometro|1e-15|u|||10⁻¹⁵ m, detto anche fermi.
+Protone|1.68e-15|a||r|Raggio di carica 0,8408 fm (CODATA 2022). Il rompicapo del raggio del protone si è chiuso sul valore più piccolo.
+Neutrone|1.7e-15|a|||Tre quark tenuti insieme dai gluoni, come il protone. Libero, decade in circa 15 minuti.
+Nucleo di elio|3.36e-15|a||r|Particella alfa. Raggio di carica 1,678 fm, misurato nel 2021 con l'elio muonico.
+Deuterone|4.3e-15|a||n|Un protone e un neutrone. Raggio di carica 2,128 fm.
+Elettrone (raggio classico)|5.64e-15|q|||Due volte il raggio classico di 2,818 fm. È una convenzione, non una misura.
+Nucleo di cloro|6.7e-15|a|||Cloro-35: raggio di carica quadratico medio di 3,37 fm.
+Nucleo atomico medio|1e-14|a|||Centomila volte più piccolo dell'atomo, ma con oltre il 99,9% della massa.
+Nucleo di piombo-208|1.1e-14|a||n|Il nucleo stabile più pesante. La sua pelle di neutroni è stata misurata dall'esperimento PREX-II.
+Nucleo di uranio|1.5e-14|a|||Uranio-238: 92 protoni e 146 neutroni.
+Picometro|1e-12|u|||10⁻¹² m.
+Raggi gamma|1.3e-12|w|#c9a2ff||Lunghezze d'onda sotto i 10 picometri circa.
+Lunghezza d'onda Compton dell'elettrone|2.426e-12|w|#9fd0ff||Sotto questa scala, localizzare un elettrone crea nuove coppie di particelle.
+Risoluzione record di un microscopio elettronico|2e-11|m||r|Pticografia elettronica (2021): circa 0,2 Å, al limite fissato dalle vibrazioni termiche degli atomi. L'originale: 0,5 Å.
+Atomo di elio|6.2e-11|a||r|Raggio calcolato di 31 pm: è l'atomo più piccolo. L'originale lo confondeva con il raggio.
+Ångström|1e-10|u|||10⁻¹⁰ m, l'unità classica per atomi e legami chimici.
+Atomo di idrogeno|1.06e-10|a||r|Due raggi di Bohr (52,9 pm).
+Atomo di carbonio|1.52e-10|a|||Raggio covalente di 76 pm.
+Raggi X|1.54e-10|w|#b8c8ff||Riga Kα del rame, la più usata in cristallografia.
+Legame carbonio–carbonio|1.56e-10|m||n|Legame singolo: 154 pm. È l'impalcatura della chimica organica.
+Atomo di zolfo|2.1e-10|a||r|Raggio covalente di 105 pm.
+Molecola di CO₂|2.32e-10|m||n|Distanza tra i due atomi di ossigeno. In atmosfera ha superato le 425 parti per milione.
+Molecola d'acqua|2.75e-10|m|||Due idrogeni e un ossigeno a 104,5°.
+Gate di transistor più corto|3.4e-10|m||r|Transistor al disolfuro di molibdeno con il gate sul bordo di un foglio di grafene (2022). L'originale indicava 2 nm.
+Atomo di cesio|5.3e-10|a|||Tra gli atomi più grandi. Definisce il secondo negli orologi atomici.
+Molecola di caffeina|7.8e-10|m||n|C₈H₁₀N₄O₂.
+Molecola di glucosio|9e-10|m|||C₆H₁₂O₆, il carburante delle cellule.
+Nanometro|1e-9|u|||10⁻⁹ m.
+Fullerene C₆₀|1.05e-9|m|||Sessanta atomi di carbonio a forma di pallone da calcio.
+Nanotubo di carbonio|1.2e-9|m|||Diametro tipico di un nanotubo a parete singola.
+Alfa elica di una proteina|1.25e-9|m||r|Circa 1,2 nm contando le catene laterali.
+DNA (spessore)|2e-9|m||r|Doppia elica B: 2,0 nm di diametro e 3,4 nm per giro. L'originale: 3 nm.
+Fosfolipide|2.5e-9|m|||Il mattone delle membrane cellulari.
+Doppio strato fosfolipidico|5e-9|m|||Due file di fosfolipidi, code contro code.
+Emoglobina|5.5e-9|m||n|La proteina che trasporta l'ossigeno. La previsione della struttura delle proteine con AlphaFold è valsa il Nobel per la chimica 2024.
+Membrana cellulare|8e-9|b|||Doppio strato lipidico più proteine: 7–10 nm.
+Anticorpo IgG|1.2e-8|m||n|La classica forma a Y del sistema immunitario.
+Gate di un transistor in produzione|1.25e-8|m||r|Chip detti a 2 nm (2025–2026): il nome è commerciale, il gate misura circa 12 nm.
+Luce EUV per litografia|1.35e-8|w|#a78bfa|n|13,5 nm: la luce con cui si stampano i chip più avanzati.
+Circovirus suino|1.7e-8|b|||Tra i virus più piccoli capaci di replicarsi da soli nelle cellule animali.
+Ribosoma|2.5e-8|b||n|La macchina molecolare che costruisce le proteine.
+Virus dell'epatite B|4.2e-8|b|🦠||Particella di Dane, 42 nm.
+Nanoparticella lipidica|8e-8|m||n|L'involucro che porta l'mRNA dei vaccini dentro le cellule.
+Ultravioletto|1e-7|w|#8f7bff||Tra 10 e 400 nm.
+SARS-CoV-2|1.05e-7|b|🦠|n|Il coronavirus della pandemia di COVID-19: circa 100 nm.
+HIV|1.2e-7|b|🦠|r|Circa 120 nm. L'originale: 90 nm.
+Fossetta di un CD (profondità)|1.25e-7|o|💿||Un quarto della lunghezza d'onda del laser nel policarbonato.
+Limite del microscopio ottico|2e-7|m|||Limite di diffrazione di Abbe. Le tecniche a super-risoluzione, come MINFLUX, scendono a pochi nanometri.
+Batteriofago T4|2.1e-7|b|||Un virus che infetta i batteri, a forma di modulo lunare.
+Batterio più piccolo|3e-7|b||n|Mycoplasma genitalium, tra i più piccoli organismi capaci di vita autonoma.
+Particella più penetrante per un filtro FFP2|3.1e-7|m||r|Intorno a 0,3 µm i filtri sono meno efficienti: è la taglia di prova. L'originale parlava di 1 µm per le mascherine chirurgiche.
+Luce viola|4e-7|w|#8b5cf6||Il limite corto dello spettro visibile.
+Luce verde|5.5e-7|w|#4ade80|n|Dove l'occhio umano è più sensibile.
+Luce rossa|7e-7|w|#ef4444|r|Il limite lungo dello spettro visibile. L'originale la etichettava di nuovo come viola.
+Mimivirus|7.5e-7|b|🦠||Virus gigante, scambiato per un batterio alla scoperta.
+Micrometro|1e-6|u|||10⁻⁶ m, o micron.
+Virus più grande|1.5e-6|b|🦠|r|Pithovirus sibericum: 1,5 µm, riattivato nel 2014 dal permafrost siberiano. L'originale: 440 nm.
+Cromosoma Y|2e-6|b|||Sequenziato per intero solo nel 2023.
+Escherichia coli|2.1e-6|b|🧫||Il batterio più studiato al mondo.
+Particella di argilla|2.2e-6|o|||Per definizione, sotto i 2 µm.
+Mitocondrio|2.5e-6|b|||La centrale energetica della cellula.
+Cellula di lievito|5e-6|b||n|Saccharomyces cerevisiae: pane, birra e genetica.
+Nucleo cellulare|6e-6|b|||Contiene circa due metri di DNA ripiegato.
+Cloroplasto|6.2e-6|b|||Dove avviene la fotosintesi.
+Cromosoma X|7e-6|b||r|In metafase. L'originale: 4 µm.
+Globulo rosso|7.5e-6|b|🩸||Un disco biconcavo senza nucleo.
+Infrarosso termico|1e-5|w|#f97316||Attorno a 10 µm emette un corpo a temperatura ambiente.
+Globulo bianco|1.2e-5|b|||Tra 10 e 15 µm secondo il tipo.
+Fibra di seta|1.25e-5|o|||Il filo di un bozzolo di baco da seta.
+Twip|1.764e-5|u|||Un ventesimo di punto tipografico.
+Fibra acrilica|2e-5|o|🧶||
+Gocciolina di nebbia|2.1e-5|o|||Abbastanza leggera da restare sospesa.
+Thou|2.54e-5|u|||Un millesimo di pollice.
+Cellula della pelle|3e-5|b|||Cheratinocita.
+Particella di limo|3.2e-5|o|||Tra argilla e sabbia: da 2 a 63 µm.
+Granulo di polline|5e-5|b|||Da 10 a 100 µm secondo la specie.
+Pixel di uno smartphone|5.5e-5|o|📱|n|Uno schermo da circa 460 pixel per pollice.
+Spermatozoo|5.6e-5|b||n|Lunghezza totale, quasi tutta coda.
+Capello umano|8e-5|o|||Spessore medio: varia da 20 a 180 µm.
+Limite dell'occhio nudo|1e-4|o|👁️||Il più piccolo oggetto distinguibile senza strumenti.
+Foglio di carta (spessore)|1.05e-4|o|📄||Carta da stampante da 80 g/m².
+Ovulo umano|1.2e-4|b|||La cellula umana più grande.
+Protista ciliato|1.8e-4|b|||
+Paramecio|2.5e-4|b|||Nuota con migliaia di ciglia.
+Pixel di un monitor|2.6e-4|o|🖥️|r|Monitor da 96 pixel per pollice. I telefoni di oggi sono cinque volte più fitti.
+Acaro della polvere|3e-4|b|🕷️||
+Granello di sale|3.1e-4|o|🧂||Un cubetto di cloruro di sodio.
+Ameba|5e-4|b|||Amoeba proteus.
+Tardigrado|5.1e-4|b||n|Sopravvive al vuoto, alle radiazioni e al congelamento.
+Granello di sabbia|5.2e-4|o|||Per definizione tra 0,06 e 2 mm.
+Pelle delle palpebre|5.3e-4|o|||La pelle più sottile del corpo.
+Mina di matita|7e-4|o|✏️||Portamine da 0,7 mm.
+Carta di credito (spessore)|7.6e-4|o|💳||Standard ISO: 0,76 mm.
+Millimetro|1e-3|u|||10⁻³ m.
+Picco del fondo cosmico a microonde|1.06e-3|w|#fb7185|n|La luce più antica dell'universo: un corpo nero a 2,7255 K.
+Goccia di pioggia|2e-3|o|💧|n|Non è a lacrima: cadendo si schiaccia come un panino.
+Lenticchia d'acqua|3e-3|b|🌿||Tra le più piccole piante con fiore.
+Seme di sesamo|3.1e-3|o|||
+Formica|4e-3|b|🐜||
+Pelle della pianta del piede|4.1e-3|o|🦶||La pelle più spessa del corpo.
+Nevischio|4.2e-3|o|||
+Microchip|5e-3|o|🔲||Un piccolo circuito integrato.
+Chicco di riso|6e-3|o|🍚||
+Fiocco di neve|8e-3|o|❄️||
+Batterio più grande|1e-2|b|🧫|r|Thiomargarita magnifica (2022): circa un centimetro, visibile a occhio nudo. L'originale: 0,75 mm.
+Chicco di caffè|1.02e-2|o|🫘||
+Seme di girasole|1.04e-2|o|||
+Uovo di colibrì|1.06e-2|o|🥚||L'uovo d'uccello più piccolo.
+Biglia|1.6e-2|o|🔮||
+Penny statunitense|1.905e-2|o|🪙||La zecca USA ne ha interrotto il conio per la circolazione nel novembre 2025.
+Moneta da 1 euro|2.325e-2|o|🪙|n|
+Pollice|2.54e-2|u||r|L'originale riportava il pollice quadrato, che è un'area.
+Uovo di quaglia|3.5e-2|o|🥚||
+Fiammifero|4.5e-2|o|||
+Uovo di gallina|5.5e-2|o|🥚||
+Cubo di Rubik|5.7e-2|o|🟧||Il cubo ufficiale ha lo spigolo di 5,7 cm.
+Colibrì|9e-2|b|🐦||
+Toporagno|1e-1|b|🐭||
+Tazza|1.02e-1|o|☕||
+Microonde del forno|1.22e-1|w|#fbbf24|r|2,45 GHz, cioè 12,2 cm: la stessa banda del Wi-Fi. L'originale: 1 cm.
+Smartphone|1.5e-1|o|📱|n|
+Uovo di struzzo|1.52e-1|o|🥚||L'uovo più grande di un animale vivente.
+Lombrico comune|1.55e-1|b|🪱|r|Lumbricus terrestris: da 10 a 25 cm. L'originale: 4 cm.
+Chicco di grandine più grande|2e-1|o|🧊||Vivian, South Dakota, 2010: 20 cm di diametro.
+Pallone da calcio|2.2e-1|o|⚽|n|
+Pallone da basket|2.4e-1|o|🏀||
+Teiera di Russell|2.5e-1|o|🫖|i|L'esperimento mentale di Bertrand Russell sull'onere della prova: una teiera in orbita tra la Terra e Marte.
+Righello da un piede|3.048e-1|o|📏||Dodici pollici.
+Uno schermo|3.4e-1|o|💻||Più o meno la finestra da cui stai guardando.
+Fiocco di neve più grande|3.8e-1|o|❄️|u|Montana, 1887: una testimonianza mai verificata.
+Gatto|4.6e-1|b|🐈|n|Dal naso all'attaccatura della coda.
+Pallone da spiaggia|6e-1|o|🏐||
+Metro|1|u|||Dal 1983: la distanza percorsa dalla luce in 1/299.792.458 di secondo.
+Dodo|1.02|b|🦤||Estinto nel Seicento a Mauritius.
+Rafflesia|1.04|b|🌺||Il fiore singolo più grande, e odora di carne marcia.
+Essere umano|1.7|b|🧍||
+Bicicletta|1.75|o|🚲|n|
+Verme gigante del Gippsland|2|b|🪱||Australia: in media un metro, allungato fino a tre.
+Isetta|2.3|o|🚗|r|La bubble car per eccellenza è lunga 2,3 m. L'originale: 4 m.
+Girasole|2.5|b|🌻||
+Dal pavimento al soffitto|2.7|g|🚪||Altezza abitabile minima in Italia.
+Onde radio FM|3|w|#38bdf8|r|Tra 88 e 108 MHz, cioè circa 3 m. L'originale: 1 m.
+Albatro urlatore|3.1|b|🕊️|r|La maggiore apertura alare tra gli uccelli viventi: 3,1 m in media.
+Granchio gigante del Giappone|3.7|b|🦀|r|Da chela a chela.
+Automobile|4.5|o|🚙|n|
+Giraffa|5.5|b|🦒||
+Anaconda verde|6|b|🐍|u|Gli esemplari oltre i 6–7 m non sono documentati in modo affidabile.
+Elefante africano|6.5|b|🐘||Lunghezza con la proboscide.
+Modulo lunare Apollo|7|o|🛰️||
+Saguaro|12|b|🌵||
+Autobus|12.2|o|🚌||
+Tyrannosaurus rex|12.3|b|🦖|r|Lunghezza degli esemplari più completi. L'originale: 7 m.
+Casa media negli USA|15|g|🏠||
+Quercia|20|b|🌳||
+Schermo solare del telescopio Webb|21.2|o|🛰️|n|Cinque strati sottili come un capello, grandi quanto un campo da tennis.
+Balenottera azzurra|30|b|🐋||L'animale più massiccio mai esistito.
+Maraapunisaurus|32|b|🦕|ru|L'ex Amphicoelias fragillimus, riclassificato nel 2018. Nota da una sola vertebra andata perduta.
+Argentinosaurus|35|b|🦕|n|Tra i più grandi dinosauri conosciuti da resti solidi.
+Torre di Pisa|56|g|🗼|n|
+Boeing 747-8|76.3|o|✈️|r|L'ultimo 747 è stato consegnato nel 2023.
+Stazione Spaziale Internazionale|109|o|🛰️||Abitata senza interruzioni dal 2000. Il rientro controllato è previsto attorno al 2030.
+Campo da football americano|109.7|g|🏈||Zone di meta comprese.
+Saturn V|110.6|o|🚀||Il razzo delle missioni Apollo.
+Sequoia Hyperion|116|b|🌲|r|L'albero vivente più alto: 116 m. L'originale: 100 m.
+Starship|123|o|🚀|n|Il razzo più alto e potente che abbia mai volato.
+Grande Piramide di Giza|138.5|g|🔺|r|Altezza attuale. In origine arrivava a 146,6 m.
+Dimorphos|150|p|#9b9488|n|La luna d'asteroide deviata dalla sonda DART nel 2022. La sonda europea Hera la raggiunge a fine 2026.
+Colosseo|189|g|🏛️|n|Asse maggiore dell'ellisse.
+Gateway Arch|192|g|🌉||
+ʻOumuamua|200|p|#8f6f5f|nu|Il primo oggetto interstellare osservato (2017). Dimensioni stimate tra 100 e 400 m.
+Diga di Hoover|221|g|🏞️||
+Titanic|269|o|🚢||
+Onde radio AM|300|w|#34d399|r|Onde medie: da 180 a 570 m circa. L'originale: 1 km.
+Torre Eiffel|330|g|🗼|r|Dal 2022, con la nuova antenna. L'originale: 320 m.
+Apophis|340|p|#a39b8f|n|Il 13 aprile 2029 passerà a circa 32.000 km dalla Terra, sotto i satelliti geostazionari.
+Willis Tower|442|g|🏢||La ex Sears Tower.
+International Commerce Centre|484|g|🏢||Hong Kong.
+Bennu|490|p|#5d5a57|n|La sonda OSIRIS-REx ne ha riportato i campioni nel 2023.
+Merdeka 118|679|g|🏙️|n|Kuala Lumpur: il secondo edificio più alto del mondo.
+Burj Khalifa|828|g|🏙️||Dal 2010 l'edificio più alto del mondo.
+Cascate dell'Angelo|979|g|🏞️||Le cascate più alte del mondo.
+Chilometro|1e3|u|||
+Fabbrica Boeing di Everett|1.02e3|g|🏭||L'edificio più voluminoso del mondo.
+3I/ATLAS|1.04e3|p|#9fb7c9|nu|Il terzo oggetto interstellare, una cometa scoperta nel luglio 2025. Nucleo stimato tra 0,4 e 5,6 km.
+Città del Vaticano|1.05e3|g|⛪|r|Lo Stato più piccolo: 0,49 km².
+Half Dome|1.44e3|g|⛰️|r|Altezza sopra il fondo della Yosemite Valley.
+Miglio|1.609e3|u|||
+Cruithne|2.1e3|p|#8a8178|r|Asteroide in risonanza orbitale con la Terra. L'originale: 5 km.
+Acceleratore lineare di Stanford|3.2e3|g|||
+Uluru|3.6e3|g|🪨||
+Central Park|4e3|g|🌳||
+Cometa 67P|4.3e3|p|#6b6661|n|Churyumov–Gerasimenko, visitata dalla sonda Rosetta.
+Monte Bianco|4.806e3|g|🏔️|n|La quota cambia di qualche metro con lo spessore del ghiaccio.
+Palm Jebel Ali|7e3|g|🏝️||
+Large Hadron Collider|8.5e3|g|⭕||Diametro dell'anello da 26,7 km.
+LEP|8.52e3|g|⭕|r|Usava lo stesso tunnel di LHC, quindi ha lo stesso diametro. L'originale: 10 km.
+Monte Everest|8.849e3|g|🏔️||8.848,86 m, misura sino-nepalese del 2020.
+Fossa delle Marianne (profondità)|1.0935e4|g|🌊|r|Abisso Challenger: circa 10.935 m.
+Deimos|1.24e4|p|#a89b8c||La luna più piccola di Marte.
+Cometa di Halley|1.5e4|p|#6f6a66|r|Nucleo di 15 × 8 km. Ha toccato l'afelio nel dicembre 2023 e torna nel 2061.
+Olympus Mons (altezza)|2.19e4|g|🌋|n|Marte: il vulcano più alto del Sistema Solare.
+Fobos|2.22e4|p|#8d8279||La missione giapponese MMX punta a riportarne campioni.
+Stella di neutroni|2.4e4|s|#cfe6ff|r|Le misure di NICER danno raggi tra 11 e 13 km.
+Future Circular Collider|2.9e4|g|⭕|ni|Il successore di LHC proposto dal CERN: un anello da 90,7 km. Non ancora approvato.
+Ganymed|3.5e4|p|#8c8377|r|Il più grande asteroide vicino alla Terra. Da non confondere con la luna di Giove.
+Arrokoth|3.6e4|p|#a0522d|n|L'oggetto più lontano mai visitato da una sonda: New Horizons, 2019.
+Maratona|4.2195e4|d|||
+Nix|5e4|p|#cfcac2|r|Luna di Plutone, misurata da New Horizons. L'originale: 80 km.
+Idra|5.1e4|p|#d6d1c8|r|Luna di Plutone. L'originale: 100 km.
+Bianca|5.15e4|p|#8e9aa3||Luna di Urano.
+Buco nero stellare|5.9e4|h||n|Orizzonte degli eventi di un buco nero da 10 masse solari.
+Rhode Island|7.7e4|g|||
+Belinda|9e4|p|#8e9aa3|r|Luna di Urano.
+Brunei|1.2e5|g|||
+Galatea|1.76e5|p|#7d8791||Luna di Nettuno.
+Gaia BH3|1.95e5|h||n|33 masse solari: il più massiccio buco nero stellare noto nella Via Lattea, scoperto nel 2024.
+Psyche|2.2e5|p|#9a9a9a|n|Asteroide ricco di metallo. L'omonima sonda NASA lo raggiunge nel 2029.
+Ruanda|2.3e5|g|||
+Nereide|3.57e5|p|#9aa3ab|r|Luna di Nettuno dall'orbita molto eccentrica.
+Mimas|3.96e5|p|#c9c9c9|n|Nel 2024 si è scoperto che nasconde un oceano giovane sotto il ghiaccio.
+West Virginia|4e5|g|||
+Grand Canyon|4.46e5|g|🏜️||Lunghezza.
+Miranda|4.72e5|p|#b9bcc2||Luna di Urano dalle scarpate alte 20 km.
+Encelado|5.04e5|p|#f1f5f9|n|I suoi geyser lanciano nello spazio acqua con molecole organiche e fosfati.
+Vesta|5.25e5|p|#a8a29e|n|Il secondo corpo più massiccio della fascia degli asteroidi.
+Dysnomia|6.15e5|p|#7a7570|r|Luna di Eris: 615 km secondo ALMA (2023). L'originale: 150 km.
+Cerere|9.39e5|p|#8b8b8b||Pianeta nano della fascia principale.
+Megametro|1e6|u|||Mille chilometri.
+Sedna|1.02e6|p|#b4533c|r|Circa 1.000 km. L'originale: 1.800 km.
+Quaoar|1.09e6|p|#a36a55|r|Nel 2023 gli sono stati scoperti anelli più lontani di quanto la teoria permettesse.
+Italia|1.2e6|g|🇮🇹||Dalle Alpi a Lampedusa.
+Caronte|1.212e6|p|#a8a29e||La luna maggiore di Plutone.
+Gonggong|1.23e6|p|#b4533c|n|Pianeta nano candidato, battezzato nel 2020.
+California|1.24e6|g|||
+Texas|1.27e6|g|||
+Makemake|1.43e6|p|#c08457|n|Pianeta nano della fascia di Kuiper.
+Haumea|1.56e6|p|#e5e7eb|n|Pianeta nano allungato, con un anello. Ruota in meno di quattro ore.
+Titania|1.577e6|p|#b9bcc2||La luna più grande di Urano.
+Grande Barriera Corallina|2.3e6|g|🪸|r|Circa 2.300 km.
+Eris|2.326e6|p|#e7e5e4|r|Più piccola di Plutone di una cinquantina di chilometri, ma più massiccia.
+Plutone|2.377e6|p|#d6b99a|r|Misura di New Horizons (2015).
+Tritone|2.707e6|p|#d8c7c0||Luna di Nettuno dall'orbita retrograda.
+Europa|3.122e6|p|#d9cdb8||La sonda Europa Clipper è in viaggio e arriva nel 2030.
+Luna|3.475e6|p|#c9c9c9||Nell'aprile 2026 Artemis II ha riportato un equipaggio attorno alla Luna, per la prima volta dal 1972.
+Io|3.643e6|p|#e8d44d||Il corpo più vulcanico del Sistema Solare.
+Larghezza degli Stati Uniti|4.5e6|g|||
+Callisto|4.821e6|p|#6b5d52||
+Mercurio|4.879e6|p|#9c9892||La sonda BepiColombo entra in orbita nel novembre 2026.
+Titano|5.15e6|p|#d9a441||La missione Dragonfly partirà non prima del 2028.
+Ganimede|5.268e6|p|#a39a8c||La luna più grande del Sistema Solare. La sonda JUICE la raggiunge nel 2031.
+Marte|6.779e6|p|#c1583b||
+Asia|8.5e6|g|🌏||
+TRAPPIST-1 e|1.17e7|p|#7aa2c9|n|Esopianeta roccioso nella zona abitabile, a 40 anni luce. Il telescopio Webb ne sta studiando l'atmosfera.
+Sirio B|1.172e7|s|#e8f0ff|r|Nana bianca grande quanto la Terra ma con la massa del Sole. L'originale: 20.000 km.
+Venere|1.2104e7|p|#e3c58a||
+Terra|1.2742e7|p|#3b82c4||
+Grande Muraglia cinese|2.12e7|g|🧱|r|21.196 km secondo il rilevamento del 2012. L'originale: 8.800 km.
+K2-18 b|3.3e7|p|#5b8fb9|n|Sub-nettuniano con metano e CO₂. Il segnale di possibili biofirme annunciato nel 2025 resta non confermato.
+Nettuno|4.9244e7|p|#3f66d9||
+Urano|5.0724e7|p|#9bd9e0||
+Mondo di Minecraft|6e7|o|🟩|r|60 milioni di blocchi da un metro per lato.
+Orbita geostazionaria|8.43e7|d||n|Diametro dell'orbita a 35.786 km di quota.
+Saturno|1.1646e8|p|#e3cf9c||
+EBLM J0555-57Ab|1.17e8|s|#ff8a5c|n|Una delle stelle più piccole note: appena più grande di Saturno.
+Gliese 229 B|1.3e8|s|#b0603a|r|La prima nana bruna certa. Nel 2024 si è scoperto che sono due, strette in un'orbita di 12 giorni.
+Giove|1.3982e8|p|#d9a066||
+TRAPPIST-1|1.66e8|s|#ff7a4d|n|Nana rossa ultrafredda con sette pianeti rocciosi.
+Wolf 359|2e8|s|#ff7a4d|r|Nana rossa a 7,9 anni luce.
+Proxima Centauri|2.15e8|s|#ff8a5c||La stella più vicina al Sole.
+TrES-4 b|2.5e8|p|#c9a27a||Gioviano caldo gonfio, tra gli esopianeti più grandi.
+Anelli di Saturno|2.8e8|d||n|Estensione degli anelli principali: 282.000 km.
+Distanza Terra–Luna|3.844e8|d|||Media: 384.400 km. La Luna si allontana di 3,8 cm l'anno.
+Stella di Kapteyn|4e8|s|#ff9d6c||Nana rossa dell'alone galattico.
+Stella di Luyten|4.9e8|s|#ff8a5c|r|L'originale: 330.000 km.
+Gliese 229 A|7.6e8|s|#ff9566|r|Nana rossa. L'originale: 960.000 km.
+Gigametro|1e9|u|||Un milione di chilometri.
+Alfa Centauri B|1.2e9|s|#ffc98a||
+Sole|1.3914e9|s|#ffe9a8||Raggio nominale: 695.700 km.
+Distanza del telescopio Webb|1.5e9|d||n|Orbita attorno al punto L2, a 1,5 milioni di km dalla Terra.
+Alfa Centauri A|1.7e9|s|#ffeeb5||Nel 2025 il telescopio Webb vi ha visto un candidato pianeta gigante.
+Sirio A|2.38e9|s|#dfe9ff||La stella più brillante del cielo notturno.
+Altair|2.5e9|s|#f1f5ff||Ruota così in fretta da essere schiacciata ai poli.
+Procione|2.85e9|s|#fff4d6||
+Vega|3.6e9|s|#dfe9ff||
+Regolo|5.2e9|s|#bcd0ff||
+Perielio della Parker Solar Probe|6.9e9|d||n|Il 24 dicembre 2024 è passata a 6,1 milioni di km dalla superficie del Sole, a 192 km/s.
+Spica|1.04e10|s|#a9c4ff||
+Pollux|1.26e10|s|#ffc78a||
+Altezza totale dell'umanità|1.3e10|d||r|Circa 8,3 miliardi di persone, una sull'altra. L'originale ne contava 7.
+Capella|1.67e10|s|#ffe3a3||
+Sistema di TRAPPIST-1|1.85e10|d||n|L'orbita del pianeta più esterno: starebbe sei volte dentro quella di Mercurio.
+VV Cephei B|2.5e10|s|#a9c4ff|u|
+Sagittarius A*|2.5e10|h||n|Il buco nero al centro della Via Lattea: 4,3 milioni di masse solari. Prima immagine nel 2022.
+Alnitak|2.8e10|s|#8fb0ff|r|Supergigante blu della Cintura di Orione. L'originale: 84 milioni di km.
+Arturo|3.53e10|s|#ffb27a||
+Distanza Mercurio–Sole|5.79e10|d|||
+R136a1|5.9e10|s|#8fb0ff|n|La stella più massiccia nota: circa 200 masse solari.
+Aldebaran|6.27e10|s|#ffa66b||
+Polare|6.4e10|s|#fff0c9|r|L'originale: 40 milioni di km.
+Albireo A|8.2e10|s|#ffc070|r|L'originale: 22 milioni di km.
+Rigel|1.08e11|s|#a9c4ff||
+Distanza Terra–Sole|1.496e11|d|||Un'unità astronomica: 149.597.870,7 km esatti per definizione.
+Gacrux|1.67e11|s|#ff8a5c||
+Deneb|2.8e11|s|#e6eeff|u|La distanza è incerta, e con lei il raggio.
+Enif|2.9e11|s|#ffb27a|r|L'originale: 160 milioni di km.
+R Doradus|4.15e11|s|#ff7a4d|r|Nel 2024 ALMA ne ha filmato le bolle di gas in superficie, grandi 75 volte il Sole.
+Pistol Star|4.3e11|s|#a9c4ff||Ipergigante blu vicino al centro galattico.
+La Superba|4.4e11|s|#ff5a3c||Stella al carbonio tra le più rosse del cielo.
+S Doradus|5e11|s|#bcd0ff|u|Variabile blu luminosa: il raggio cambia di molto nel tempo.
+V838 Monocerotis|6.5e11|s|#ff7a4d|r|Dopo l'esplosione del 2002 si è contratta. L'originale: 1,1 miliardi di km.
+V382 Carinae|6.7e11|s|#ffe28a|r|Ipergigante gialla.
+Distanza Giove–Sole|7.785e11|d|||5,2 UA.
+Antares|9.46e11|s|#ff6a45||
+V354 Cephei|9.5e11|s|#ff6a45|r|Ridimensionata: circa 685 raggi solari. L'originale: 2,1 miliardi di km.
+Terametro|1e12|u|||Un miliardo di chilometri.
+Betelgeuse|1.06e12|s|#ff6a45|r|Circa 764 raggi solari. Dopo il Grande Oscuramento del 2019–2020, nel 2025 è stata osservata la sua compagna.
+UY Scuti|1.26e12|s|#ff5f3d|n|A lungo citata come stella più grande: con le distanze di Gaia scende a circa 900 raggi solari.
+KY Cygni|1.44e12|s|#ff5f3d|u|Le stime vanno da 1.000 a oltre 2.000 raggi solari.
+VV Cephei A|1.46e12|s|#ff6a45|u|
+Mu Cephei|1.6e12|s|#ff4f33|u|La Stella Granata di Herschel.
+VY Canis Majoris|1.98e12|s|#ff5f3d|r|Circa 1.420 raggi solari. L'originale: 3 miliardi di km.
+WOH G64|2.14e12|s|#ff7a4d|ru|1.540 raggi solari nella misura del 2009. Dal 2014 è cambiata: uno studio del 2026 la riduce a circa 800 raggi solari, ma la sua natura è discussa.
+Stephenson 2-18|2.99e12|s|#ff4f33|nu|Spesso indicata come la stella più grande con 2.150 raggi solari, ma distanza e misura sono molto dubbie.
+Distanza Nettuno–Sole|4.495e12|d|||30,1 UA.
+Distanza Plutone–Sole|5.906e12|d|||Media: 39,5 UA.
+Fascia di Kuiper|1.5e13|d|||Da 30 a 50 UA dal Sole.
+Voyager 1|2.585e13|d||r|L'oggetto umano più lontano. A metà novembre 2026 raggiunge un giorno-luce dalla Terra. L'originale: 17 miliardi di km.
+Giorno-luce|2.59e13|u|||La strada della luce in 24 ore: 25,9 miliardi di km.
+Eliopausa|3.6e13|d||n|Il confine della bolla del vento solare. Voyager 1 l'ha attraversato nel 2012 a 121 UA.
+M87*|3.8e13|h||n|Il primo buco nero fotografato (2019): 6,5 miliardi di masse solari.
+Afelio della cometa Hale-Bopp|5.5e13|d|||Circa 370 UA.
+Afelio di Sedna|1.4e14|d|||Circa 940 UA. Sedna tocca il perielio nel 2076.
+Buco nero del Cosmic Horseshoe|2.1e14|h||n|36 miliardi di masse solari, misurate nel 2025 con lente gravitazionale e moto delle stelle: la misura diretta più alta.
+TON 618|3.9e14|h||nu|Stimato in 66 miliardi di masse solari, ma con un metodo indiretto: altre analisi dicono 40.
+Nebulosa Stingray|8e14|n|2||La nebulosa planetaria più giovane nota. In vent'anni si è affievolita a vista d'occhio.
+Petametro|1e15|u|||
+Distanza Proxima–Alfa Centauri A|1.9e15|d||r|Circa 13.000 UA. L'originale: 10.000 UA.
+Nebulosa Occhio di Gatto|1.95e15|n|1||Il nucleo brillante.
+Hamburger di Gomez|2.5e15|n|3|u|Una giovane stella nascosta da un disco visto di taglio.
+Nebulosa Clessidra|3e15|n|0||
+Nebulosa Blinking|4.5e15|n|1||
+Nebulosa Homunculus|6e15|n|3|r|I due lobi espulsi da Eta Carinae nell'Ottocento. L'originale la faceva trecento volte più piccola.
+Nebulosa NGC 2392|6.4e15|n|2|r|La ex Nebulosa Eschimese: la NASA ha ritirato quel soprannome nel 2020. L'originale: 2 anni luce.
+Anno luce|9.461e15|u|||9.460.730.472.580,8 km.
+Nebulosa Uovo Marcio|1.3e16|n|3||Ricca di composti dello zolfo.
+Nebulosa Formica|1.9e16|n|0||
+Nebulosa Boomerang|1.92e16|n|1||Il luogo naturale più freddo noto: 1 K, meno del fondo cosmico.
+Nebulosa Anello|2.5e16|n|2|r|Nel 2023 il telescopio Webb ne ha mostrato migliaia di globuli densi.
+Nube di Oort|3e16|d||ru|Il serbatoio delle comete, fino a 100.000 UA dal Sole. Mai osservata direttamente.
+Parsec|3.0857e16|u|||3,26 anni luce.
+Nebulosa Testa di Cavallo|3.3e16|n|0||
+Distanza Sole–Proxima|4.018e16|d|||4,2465 anni luce.
+Pilastri della Creazione|4.7e16|n|3|r|Da 4 a 5 anni luce. Ripresi dal telescopio Webb nel 2022. L'originale: 10 anni luce.
+Nebulosa Elica|5.4e16|n|1|r|Una delle nebulose planetarie più vicine.
+Nebulosa Bolla|6.6e16|n|2||
+Nebulosa Cono|6.7e16|n|0||
+The Spire|9e16|n|3|r|Una colonna di gas nella Nebulosa Aquila, lunga 9,5 anni luce.
+Nebulosa Granchio|1.04e17|n|4||Il resto della supernova vista nel 1054.
+Nebulosa di Orione|2.3e17|n|0||La culla di stelle più vicina: 1.344 anni luce.
+Nube Interstellare Locale|2.8e17|n|1||Il gas rarefatto che il Sole sta attraversando: l'originale lo chiamava vicinato solare.
+Nebulosa Grotta|6.6e17|n|0||
+Nebulosa Aquila|6.7e17|n|3||
+Nebulosa Nord America|8.5e17|n|0|r|Con la distanza di Gaia è larga circa 90 anni luce.
+Messier 14|9.5e17|n|4|r|Ammasso globulare.
+Esametro|1e18|u|||
+Nebulosa Laguna|1.04e18|n|0||
+Nebulosa Rosetta|1.2e18|n|0||
+Omega Centauri|1.4e18|n|4||Il più grande ammasso globulare della Via Lattea. Nel 2024 vi si sono trovati indizi di un buco nero di massa intermedia.
+Nebulosa della Carena|2.2e18|n|0|r|Circa 230 anni luce. L'originale: 60.
+Anello di Barnard|2.8e18|n|0||
+Messier 54|2.9e18|n|4||Ammasso globulare che appartiene alla nana del Sagittario.
+Nebulosa Tarantola|6e18|n|2||La regione di formazione stellare più attiva del Gruppo Locale.
+Bolla Locale|9.5e18|n|1|n|La cavità di mille anni luce scavata da antiche supernove, in cui si trova il Sole.
+Leo II|2e19|x|E||Galassia nana satellite della Via Lattea.
+Getto relativistico di M87|4.7e19|d|||Circa 5.000 anni luce di plasma lanciato dal buco nero centrale.
+Nana del Cane Maggiore|5e19|x|E|u|La sua esistenza come galassia è contestata.
+Canes Venatici I|6.5e19|x|E||
+Onda di Radcliffe|8.5e19|n|1|n|Una catena ondulata di nubi di gas lunga 9.000 anni luce, scoperta nel 2020.
+Nana ellittica del Sagittario|9.5e19|x|E||La Via Lattea la sta smembrando.
+Piccola Nube di Magellano|1.8e20|x|I|r|Circa 19.000 anni luce.
+NGC 3310|2.2e20|x|||
+Grande Nube di Magellano|3.05e20|x|I|r|Circa 32.000 anni luce. L'originale: 15.000.
+NGC 7714|3.5e20|x|||
+Bolle di Fermi|4.7e20|n|2|n|Due lobi di raggi gamma sopra e sotto il centro galattico, scoperti nel 2010.
+Galassia Occhio Nero|5.1e20|x||r|
+Galassia del Triangolo|5.8e20|x|||
+Galassia Vortice|7.3e20|x||r|Circa 77.000 anni luce.
+Via Lattea|8.3e20|x||r|Il disco di stelle misura circa 87.400 anni luce. L'originale: 127.000.
+Galassia Sombrero|9e20|x||r|Circa 95.000 anni luce. L'originale: 53.000.
+Zettametro|1e21|u|||
+Virgo A|1.25e21|x|E|r|Messier 87, la galassia ellittica del primo buco nero fotografato.
+Galassia Ruota di Carro|1.4e21|x|||Un anello nato da uno scontro frontale.
+Andromeda|1.44e21|x|||Circa 152.000 anni luce.
+Galassia Girandola|1.6e21|x|||
+NGC 1232|1.9e21|x|||
+NGC 4889|2.3e21|x|E|r|Ellittica gigante nell'ammasso della Chioma.
+Galassia Girino|2.65e21|x|||La coda di stelle è lunga 280.000 anni luce.
+Strada percorsa dalla Terra attorno al Sole|4.3e21|d|||4,54 miliardi di orbite da 940 milioni di km.
+Distanza di Andromeda|2.4e22|d||r|2,5 milioni di anni luce.
+IC 1101|3.8e22|x|E|ru|Tra le galassie più estese: l'alone diffuso arriva a milioni di anni luce, ma il bordo è mal definito.
+Ammasso della Fornace|4.5e22|c||r|
+Abell 2029|6e22|c|||
+Gruppo Locale|9.5e22|c|||Via Lattea, Andromeda e un centinaio di galassie minori.
+Ammasso della Vergine|1.4e23|c||r|Circa 15 milioni di anni luce.
+Alcioneo|1.54e23|x|E|n|Radiogalassia gigante: i lobi coprono 16 milioni di anni luce (2022).
+Porphyrion|2.2e23|x|E|n|La coppia di getti da buco nero più lunga mai vista: 23 milioni di anni luce (2024).
+Yottametro|1e24|u|||
+Superammasso della Vergine|1.04e24|c|||Oggi è considerato un lobo di Laniakea.
+Distanza del Grande Attrattore|2.2e24|d|||
+Vuoto del Boote|3.1e24|c||n|Una bolla quasi priva di galassie, larga 330 milioni di anni luce.
+Scala acustica barionica|4.6e24|d||n|Il righello standard della cosmologia: 490 milioni di anni luce. Le misure DESI del 2025 con questo righello suggeriscono un'energia oscura che cambia nel tempo, ma non è confermato.
+Laniakea|4.9e24|c||n|Il superammasso a cui appartiene la Via Lattea, definito nel 2014: 520 milioni di anni luce.
+Distanza del superammasso di Shapley|6.15e24|d|||
+Complesso Pesci–Balena|9.5e24|c|||
+Quipu|1.23e25|c||n|Scoperta nel 2025: con 1,3 miliardi di anni luce è la più grande struttura misurata in modo affidabile.
+Grande Muraglia Sloan|1.3e25|c|||
+Supervuoto di Eridano|1.7e25|c||ru|Proposto per spiegare la Macchia Fredda del fondo cosmico. Dimensioni e ruolo sono discussi.
+Vuoto KBC|1.9e25|c||nu|Un possibile grande vuoto attorno a noi, largo due miliardi di anni luce.
+Gigaparsec|3.0857e25|u|||3,26 miliardi di anni luce.
+Arco Gigante|3.1e25|c||nu|Un arco di galassie lungo 3,3 miliardi di anni luce (2021). Potrebbe essere un allineamento casuale.
+Huge-LQG|3.8e25|c||nu|Un gruppo di 73 quasar esteso 4 miliardi di anni luce. La sua realtà fisica è contestata.
+Grande Muraglia Ercole–Corona Boreale|9.5e25|c||nu|Circa 10 miliardi di anni luce, dedotti dalla distribuzione dei lampi gamma. Non confermata come struttura unica.
+Distanza dell'Hubble Deep Field|1.2e26|d|||La luce delle galassie più deboli ha viaggiato per circa 13 miliardi di anni.
+Raggio di Hubble|1.36e26|d||n|Oltre 14,4 miliardi di anni luce lo spazio si allontana da noi più veloce della luce.
+MoM-z14|3.2e26|d||n|La galassia più lontana confermata (gennaio 2026): redshift 14,44, vista 280 milioni di anni dopo il Big Bang. Oggi dista circa 34 miliardi di anni luce.
+Universo osservabile|8.8e26|c||r|93 miliardi di anni luce di diametro. Età: 13,8 miliardi di anni.
+Universo intero|1.6e27|c||i|Nessuno ne conosce la dimensione: potrebbe essere infinito. L'originale chiudeva qui con una stima convenzionale.
+`;
+const KIND={u:'Unità di misura',d:'Distanza o estensione',w:"Lunghezza d'onda",q:'Particella',a:'Atomo o nucleo',m:'Molecola e nanoscala',b:'Biologia',o:'Oggetto',g:'Luogo o costruzione',p:'Pianeta, luna o corpo minore',s:'Stella',h:'Buco nero',n:'Nebulosa o ammasso stellare',x:'Galassia',c:'Struttura cosmica'};
+const FLAG={r:['Aggiornato','#ffd08a'],n:['Nuovo','#8ff0e2'],i:['Ipotetico','#c9b8ff'],u:['Incerto','#b4b9c9']};
+const O=RAW.trim().split('\n').map(l=>{const p=l.split('|');return{n:p[0],s:+p[1],k:p[2],x:p[3]||'',f:p[4]||'',t:p[5]||''}}).sort((a,b)=>a.s-b.s);
+O.forEach((o,i)=>{o.i=i;o.l=Math.log10(o.s);o.a=i*2.39996323;o.d=1.02+0.5*((i*0.6180339887)%1);o.em=o.x&&o.x[0]!=='#'&&!/^[0-9EI]$/.test(o.x)?o.x:'';});
+
+const $=id=>document.getElementById(id);
+const cv=$('stage'),ctx=cv.getContext('2d');
+const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+const ZMIN=-35.6,ZMAX=27.6;
+let W=0,H=0,DPR=1,z=0.2,zT=0.2,sel=null,hl='',hits=[];
+
+function resize(){DPR=Math.min(2,devicePixelRatio||1);W=innerWidth;H=innerHeight;cv.width=W*DPR;cv.height=H*DPR;ctx.setTransform(DPR,0,0,DPR,0,0);}
+addEventListener('resize',resize);resize();
+
+/* ---------- formati ---------- */
+const SUP={'-':'⁻',0:'⁰',1:'¹',2:'²',3:'³',4:'⁴',5:'⁵',6:'⁶',7:'⁷',8:'⁸',9:'⁹'};
+const sup=n=>String(n).split('').map(c=>SUP[c]).join('');
+const nf=v=>v.toLocaleString('it-IT',{maximumFractionDigits:v>=100?0:v>=10?1:2});
+function sci(s){let e=Math.floor(Math.log10(s)),m=s/10**e;if(m>=9.995){m=1;e++;}const ms=m.toLocaleString('it-IT',{maximumFractionDigits:2});return(ms==='1'?'':ms+' × ')+'10'+sup(e)+' m';}
+function fmt(s){
+  const LY=9.4607e15,AU=1.495978707e11;
+  if(s>=LY*0.5){const ly=s/LY;if(ly>=1e9)return nf(ly/1e9)+' miliardi di anni luce';if(ly>=1e6)return nf(ly/1e6)+' milioni di anni luce';if(Math.abs(ly-1)<0.005)return '1 anno luce';return nf(ly)+' anni luce';}
+  if(s>=AU*0.5)return nf(s/AU)+' UA';
+  if(s>=1e9)return nf(s/1e9)+' milioni di km';
+  if(s>=1e3)return nf(s/1e3)+' km';
+  if(s>=1)return nf(s)+' m';
+  const U=[[1e-2,'cm'],[1e-3,'mm'],[1e-6,'µm'],[1e-9,'nm'],[1e-12,'pm'],[1e-15,'fm'],[1e-18,'am'],[1e-21,'zm'],[1e-24,'ym']];
+  for(const[u,name]of U)if(s>=u)return nf(s/u)+' '+name;
+  return sci(s);
+}
+const REG=[[-17,'Scala di Planck e particelle'],[-11,'Nuclei atomici'],[-8,'Atomi e molecole'],[-4,'Virus e cellule'],[-1,'Il mondo minuto'],[3,'Scala umana'],[7,'Geografia, lune e asteroidi'],[10,'Pianeti e stelle'],[14,'Stelle giganti e Sistema Solare'],[19,'Nebulose e ammassi'],[22.5,'Galassie'],[99,'Struttura a grande scala']];
+const ANCH=[['un protone',1.68e-15],['un atomo di idrogeno',1.06e-10],['un globulo rosso',7.5e-6],['un capello',8e-5],['una persona',1.7],["l'Everest",8849],['la Terra',1.2742e7],['il Sole',1.3914e9],['la distanza Terra–Sole',1.496e11],['un anno luce',9.461e15],['la Via Lattea',8.3e20],["l'universo osservabile",8.8e26]];
+function ratio(r){return r>=1e15?'10'+sup(Math.round(Math.log10(r))):r.toLocaleString('it-IT',{notation:'compact',maximumSignificantDigits:2});}
+function compare(s){
+  let a=null;for(const x of ANCH)if(x[1]<=s/2)a=x;
+  if(a)return 'Circa '+ratio(s/a[1])+' volte '+a[0]+'.';
+  const b=ANCH.find(x=>x[1]>=s*2);
+  return b?'Circa 1/'+ratio(b[1]/s)+' di '+b[0].replace(/^(un|una|il|la|l') ?/,m=>m)+'.':'';
+}
+
+/* ---------- sprite procedurali ---------- */
+function rng(seed){return()=>{seed|=0;seed=seed+0x6D2B79F5|0;let t=Math.imul(seed^seed>>>15,1|seed);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296;};}
+function sprite(fn,S=256){const c=document.createElement('canvas');c.width=c.height=S;const g=c.getContext('2d');fn(g,S);return c;}
+function blob(g,x,y,r,col,a){const gr=g.createRadialGradient(x,y,0,x,y,r);gr.addColorStop(0,col.replace('A',a));gr.addColorStop(1,col.replace('A',0));g.fillStyle=gr;g.beginPath();g.arc(x,y,r,0,7);g.fill();}
+const NEBCOL=[['rgba(255,110,130,A)','rgba(255,170,120,A)','rgba(140,160,255,A)'],['rgba(110,220,210,A)','rgba(120,160,255,A)','rgba(200,255,240,A)'],['rgba(170,140,255,A)','rgba(110,200,255,A)','rgba(255,150,220,A)'],['rgba(255,190,110,A)','rgba(200,120,90,A)','rgba(255,230,180,A)'],['rgba(255,240,210,A)','rgba(255,210,150,A)','rgba(220,230,255,A)']];
+const NEB=NEBCOL.map((cols,k)=>sprite((g,S)=>{const r=rng(11+k*7);g.globalCompositeOperation='lighter';
+  if(k===4){for(let i=0;i<900;i++){const a=r()*7,d=Math.pow(r(),2.2)*S*.46;g.fillStyle=cols[i%3].replace('A',.5+r()*.5);g.fillRect(S/2+Math.cos(a)*d,S/2+Math.sin(a)*d,1.4,1.4);}blob(g,S/2,S/2,S*.3,cols[0],.35);return;}
+  for(let i=0;i<22;i++){const a=r()*7,d=r()*S*.27;blob(g,S/2+Math.cos(a)*d,S/2+Math.sin(a)*d,S*(.1+r()*.16),cols[i%3],.16+r()*.14);}
+  for(let i=0;i<40;i++){const a=r()*7,d=r()*S*.4;g.fillStyle='rgba(255,255,255,'+(.3+r()*.6)+')';g.fillRect(S/2+Math.cos(a)*d,S/2+Math.sin(a)*d,1.2,1.2);}}));
+function galaxy(kind,seed,tint){return sprite((g,S)=>{const r=rng(seed);g.globalCompositeOperation='lighter';
+  blob(g,S/2,S/2,S*.46,tint,kind==='E'?.5:.16);blob(g,S/2,S/2,S*.13,'rgba(255,244,214,A)',.95);
+  if(kind==='E')return;
+  const arms=kind==='I'?0:2;
+  for(let i=0;i<1500;i++){let x,y;
+    if(arms){const t=r(),arm=i%arms,ang=t*5.2+arm*Math.PI+(r()-.5)*.55,d=t*S*.45+(r()-.5)*S*.05;x=Math.cos(ang)*d;y=Math.sin(ang)*d;}
+    else{const a=r()*7,d=Math.sqrt(r())*S*.4;x=Math.cos(a)*d*(1+.4*Math.sin(a*3));y=Math.sin(a)*d*.7;}
+    g.fillStyle=(i%5?tint:'rgba(255,200,210,A)').replace('A',.25+r()*.6);g.fillRect(S/2+x,S/2+y,1.5,1.5);}});}
+const GAL={S:[galaxy('S',3,'rgba(150,180,255,A)'),galaxy('S',9,'rgba(190,170,255,A)'),galaxy('S',21,'rgba(140,210,230,A)')],E:galaxy('E',5,'rgba(255,214,160,A)'),I:galaxy('I',8,'rgba(160,190,255,A)')};
+const WEB=sprite((g,S)=>{const r=rng(42),P=[];for(let i=0;i<90;i++){const a=r()*7,d=Math.sqrt(r())*S*.46;P.push([S/2+Math.cos(a)*d,S/2+Math.sin(a)*d]);}
+  g.strokeStyle='rgba(190,170,255,.35)';g.lineWidth=1;
+  P.forEach((p,i)=>{const near=P.map((q,j)=>[(q[0]-p[0])**2+(q[1]-p[1])**2,j]).sort((a,b)=>a[0]-b[0]).slice(1,3);near.forEach(n=>{g.beginPath();g.moveTo(p[0],p[1]);g.lineTo(P[n[1]][0],P[n[1]][1]);g.stroke();});});
+  g.globalCompositeOperation='lighter';P.forEach(p=>blob(g,p[0],p[1],5+r()*6,'rgba(255,225,190,A)',.8));},320);
+
+/* ---------- disegno ---------- */
+function glow(x,y,r,c0,c1){const g=ctx.createRadialGradient(x,y,0,x,y,r);g.addColorStop(0,c0);g.addColorStop(1,c1);ctx.fillStyle=g;ctx.beginPath();ctx.arc(x,y,r,0,7);ctx.fill();}
+function spr(img,o,x,y,r,tilt){ctx.save();ctx.translate(x,y);ctx.rotate(o.a);ctx.scale(1,tilt);ctx.drawImage(img,-r*1.12,-r*1.12,r*2.24,r*2.24);ctx.restore();}
+const KCOL={u:'#eef0f7',d:'#7fe0d4',w:'#ffb86b'};
+function drawObj(o,x,y,px,t){
+  const r=px/2,k=o.k,col=o.x[0]==='#'?o.x:null;
+  if(o.em){
+    ctx.strokeStyle='rgba(255,255,255,.13)';ctx.lineWidth=1;ctx.setLineDash([3,5]);ctx.beginPath();ctx.arc(x,y,r,0,7);ctx.stroke();ctx.setLineDash([]);
+    ctx.font=Math.min(px*.74,1400)+'px system-ui,"Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif';ctx.textAlign='center';ctx.textBaseline='middle';ctx.fillStyle='#fff';ctx.fillText(o.em,x,y+px*.04);return;
+  }
+  if(k==='u'||k==='d'||k==='w'){
+    const c=col||KCOL[k];ctx.strokeStyle=c;ctx.fillStyle=c;ctx.lineWidth=k==='u'?2:1.5;
+    if(k==='w'){ctx.beginPath();const n=Math.max(24,Math.min(160,px/3));for(let i=0;i<=n;i++){const u=i/n,xx=x-r+u*px,yy=y-Math.sin(u*Math.PI*2)*Math.min(px*.16,60);i?ctx.lineTo(xx,yy):ctx.moveTo(xx,yy);}ctx.stroke();
+      ctx.globalAlpha*=.4;ctx.beginPath();ctx.moveTo(x-r,y-10);ctx.lineTo(x-r,y+10);ctx.moveTo(x+r,y-10);ctx.lineTo(x+r,y+10);ctx.stroke();return;}
+    if(k==='d')ctx.setLineDash([6,6]);
+    ctx.beginPath();ctx.moveTo(x-r,y);ctx.lineTo(x+r,y);ctx.stroke();ctx.setLineDash([]);
+    if(k==='u'){ctx.beginPath();for(let i=0;i<=10;i++){const xx=x-r+px*i/10,h=i%5?4:9;ctx.moveTo(xx,y-h);ctx.lineTo(xx,y+h);}ctx.stroke();}
+    else{ctx.beginPath();ctx.arc(x-r,y,3.5,0,7);ctx.arc(x+r,y,3.5,0,7);ctx.fill();}
+    return;
+  }
+  if(k==='s'){const c=col||'#ffe9a8';glow(x,y,r*1.6,c+'50',c+'00');const g=ctx.createRadialGradient(x-r*.2,y-r*.2,0,x,y,r);g.addColorStop(0,'#ffffff');g.addColorStop(.55,c);g.addColorStop(1,c+'cc');ctx.fillStyle=g;ctx.beginPath();ctx.arc(x,y,r,0,7);ctx.fill();return;}
+  if(k==='p'){const c=col||'#9aa3bd';
+    if(o.n==='Saturno'){ctx.strokeStyle='rgba(227,207,156,.55)';ctx.lineWidth=Math.max(1,r*.16);ctx.beginPath();ctx.ellipse(x,y,r*1.9,r*.5,-.35,0,7);ctx.stroke();}
+    ctx.fillStyle=c;ctx.beginPath();ctx.arc(x,y,r,0,7);ctx.fill();
+    const g=ctx.createRadialGradient(x-r*.45,y-r*.45,r*.1,x,y,r);g.addColorStop(0,'rgba(255,255,255,.38)');g.addColorStop(.5,'rgba(255,255,255,0)');g.addColorStop(1,'rgba(0,0,10,.62)');ctx.fillStyle=g;ctx.beginPath();ctx.arc(x,y,r,0,7);ctx.fill();return;}
+  if(k==='h'){glow(x,y,r*2.3,'rgba(255,170,90,.42)','rgba(255,120,60,0)');ctx.fillStyle='#000';ctx.beginPath();ctx.arc(x,y,r,0,7);ctx.fill();ctx.strokeStyle='rgba(255,205,140,.95)';ctx.lineWidth=Math.max(1.2,r*.07);ctx.beginPath();ctx.arc(x,y,r*1.06,0,7);ctx.stroke();
+    ctx.strokeStyle='rgba(255,180,110,.5)';ctx.lineWidth=Math.max(1,r*.12);ctx.beginPath();ctx.ellipse(x,y,r*2,r*.42,-.25,0,7);ctx.stroke();return;}
+  if(k==='x'){const kind=o.x==='E'?'E':o.x==='I'?'I':'S';spr(kind==='S'?GAL.S[o.i%3]:GAL[kind],o,x,y,r,kind==='S'?.55+.4*((o.i*.37)%1):.8);return;}
+  if(k==='n'){spr(NEB[+o.x||0],o,x,y,r,.9);return;}
+  if(k==='c'){spr(WEB,o,x,y,r,1);if(o.n.startsWith('Universo')){ctx.strokeStyle=o.f==='i'?'rgba(185,162,255,.5)':'rgba(255,184,107,.6)';ctx.lineWidth=1.5;if(o.f==='i')ctx.setLineDash([4,7]);ctx.beginPath();ctx.arc(x,y,r,0,7);ctx.stroke();ctx.setLineDash([]);}return;}
+  if(k==='q'){const c=o.f.includes('i')?'185,162,255':'127,224,212';glow(x,y,r,'rgba('+c+',.55)','rgba('+c+',0)');ctx.fillStyle='#fff';ctx.beginPath();ctx.arc(x,y,Math.max(1.5,r*.07),0,7);ctx.fill();
+    ctx.strokeStyle='rgba('+c+',.5)';ctx.lineWidth=1;ctx.setLineDash([2,6]);ctx.beginPath();ctx.arc(x,y,r,0,7);ctx.stroke();ctx.setLineDash([]);ctx.beginPath();ctx.ellipse(x,y,r*.7,r*.28,t*.4+o.a,0,7);ctx.stroke();return;}
+  if(k==='a'){glow(x,y,r,'rgba(255,184,107,.5)','rgba(255,184,107,0)');ctx.strokeStyle='rgba(255,184,107,.45)';ctx.lineWidth=1;ctx.beginPath();ctx.arc(x,y,r,0,7);ctx.stroke();
+    const rr=rng(o.i+1),m=r>30?7:3;for(let i=0;i<m;i++){const a=rr()*7,d=rr()*r*.3;ctx.fillStyle=i%2?'#ff8a7a':'#9fc2ff';ctx.beginPath();ctx.arc(x+Math.cos(a)*d,y+Math.sin(a)*d,Math.max(1.5,r*.12),0,7);ctx.fill();}return;}
+  if(k==='m'){const P=[[-.5,.15,.42],[.12,-.2,.5],[.56,.25,.36]];ctx.strokeStyle='rgba(255,255,255,.4)';ctx.lineWidth=Math.max(1,r*.08);ctx.beginPath();ctx.moveTo(x+P[0][0]*r,y+P[0][1]*r);ctx.lineTo(x+P[1][0]*r,y+P[1][1]*r);ctx.lineTo(x+P[2][0]*r,y+P[2][1]*r);ctx.stroke();
+    P.forEach((p,i)=>{const cx=x+p[0]*r,cy=y+p[1]*r,cr=p[2]*r*.75,g=ctx.createRadialGradient(cx-cr*.3,cy-cr*.3,0,cx,cy,cr);g.addColorStop(0,'#fff');g.addColorStop(1,['#7fe0d4','#ffb86b','#b9a2ff'][(o.i+i)%3]);ctx.fillStyle=g;ctx.beginPath();ctx.arc(cx,cy,cr,0,7);ctx.fill();});return;}
+  if(k==='b'){ctx.beginPath();for(let i=0;i<=40;i++){const a=i/40*Math.PI*2,w=r*(.92+.07*Math.sin(a*3+o.a)+.04*Math.sin(a*7+t*.6));const xx=x+Math.cos(a)*w,yy=y+Math.sin(a)*w;i?ctx.lineTo(xx,yy):ctx.moveTo(xx,yy);}ctx.closePath();
+    ctx.fillStyle='rgba(127,224,212,.2)';ctx.fill();ctx.strokeStyle='rgba(127,224,212,.8)';ctx.lineWidth=1.5;ctx.stroke();glow(x+r*.15,y-r*.1,r*.38,'rgba(185,162,255,.7)','rgba(185,162,255,.05)');return;}
+  ctx.strokeStyle='rgba(255,255,255,.55)';ctx.lineWidth=1.5;ctx.beginPath();ctx.arc(x,y,r,0,7);ctx.stroke();ctx.fillStyle='rgba(255,255,255,.08)';ctx.fill();
+}
+
+const BG=[[-36,[30,16,52]],[-16,[18,26,62]],[-9,[12,44,54]],[-3,[20,46,48]],[0,[30,38,68]],[7,[14,26,60]],[13,[22,16,46]],[21,[10,11,30]],[28,[4,5,14]]];
+function bgAt(v){let i=0;while(i<BG.length-2&&v>BG[i+1][0])i++;const a=BG[i],b=BG[i+1],u=Math.max(0,Math.min(1,(v-a[0])/(b[0]-a[0])));return a[1].map((c,j)=>Math.round(c+(b[1][j]-c)*u));}
+const DUST=Array.from({length:150},(_,i)=>{const r=rng(i+99);return{a:r()*7,p:r(),s:.6+r()*1.6,tw:r()*7};});
+
+function frame(ms){
+  const t=ms/1000;
+  z=reduce?zT:z+(zT-z)*.12;if(Math.abs(zT-z)<1e-4)z=zT;
+  const M=Math.min(W,H),R=M*.3,cx=W/2,cy=H*.46;
+  const c=bgAt(z),g=ctx.createRadialGradient(cx,cy,0,cx,cy,Math.max(W,H)*.75);
+  g.addColorStop(0,'rgb('+c.map(v=>Math.min(255,v+16))+')');g.addColorStop(1,'rgb('+c.map(v=>Math.round(v*.42))+')');
+  ctx.globalAlpha=1;ctx.fillStyle=g;ctx.fillRect(0,0,W,H);
+  const far=Math.max(W,H)*.7;
+  for(const d of DUST){const u=(((d.p-z*.35)%1)+1)%1,rad=far*Math.pow(u,1.7),a=Math.sin(u*Math.PI)*(.35+.25*Math.sin(t*.7+d.tw));ctx.globalAlpha=Math.max(0,a);ctx.fillStyle='#fff';ctx.fillRect(cx+Math.cos(d.a)*rad,cy+Math.sin(d.a)*rad,d.s*(.5+u),d.s*(.5+u));}
+  hits=[];const lab=[];
+  for(let i=O.length-1;i>=0;i--){const o=O[i],px=Math.pow(10,o.l-z)*R;
+    if(px<5)break;if(px>M*2.3)continue;
+    let al=Math.min(1,(px-5)/14)*Math.max(0,Math.min(1,(M*2.3-px)/(M*1.2)));
+    if(hl&&!o.f.includes(hl))al*=.18;
+    if(al<=.01)continue;
+    const x=cx+Math.cos(o.a)*o.d*px,y=cy+Math.sin(o.a)*o.d*px*.86;
+    if(x<-px||x>W+px||y<-px||y>H+px)continue;
+    ctx.globalAlpha=al;ctx.save();drawObj(o,x,y,px,t);ctx.restore();
+    if(o===sel){ctx.globalAlpha=.55+.35*Math.sin(t*3);ctx.strokeStyle='#ffb86b';ctx.lineWidth=2;ctx.beginPath();ctx.arc(x,y,px/2+7,0,7);ctx.stroke();}
+    hits.push([o,x,y,Math.max(px/2,16)]);
+    if(px>40)lab.push([o,x,y,px,al]);
+  }
+  ctx.textAlign='center';ctx.textBaseline='alphabetic';
+  for(const[o,x,y,px,al]of lab){
+    const fs=Math.max(11,Math.min(15,px*.075)),flat='udw'.includes(o.k)&&!o.em;
+    let ly=y+(flat?Math.min(px*.16,60)+fs+8:px/2+fs+6);if(ly>H-150&&y<H-170)ly=Math.min(ly,H-150);
+    ctx.globalAlpha=al*Math.min(1,(px-40)/30);
+    ctx.font='500 '+fs+'px -apple-system,BlinkMacSystemFont,"Helvetica Neue","Segoe UI",system-ui,sans-serif';
+    const w=ctx.measureText(o.n).width,f=['i','u','n','r'].find(c=>o.f.includes(c));
+    ctx.lineWidth=3;ctx.strokeStyle='rgba(6,8,18,.7)';ctx.strokeText(o.n,x,ly);ctx.fillStyle='#eef0f7';ctx.fillText(o.n,x,ly);
+    if(f){ctx.fillStyle=FLAG[f][1];ctx.beginPath();ctx.arc(x-w/2-8,ly-fs*.33,3.2,0,7);ctx.fill();}
+    if(px>95){ctx.font='400 '+(fs-2)+'px ui-monospace,"SF Mono",Menlo,monospace';ctx.fillStyle='#9aa3bd';ctx.strokeText(fmt(o.s),x,ly+fs+2);ctx.fillText(fmt(o.s),x,ly+fs+2);}
+  }
+  ctx.globalAlpha=1;
+  hud();if(audioOn)tone();
+  requestAnimationFrame(frame);
+}
+let lastHud='';
+function hud(){
+  const key=z.toFixed(2);if(key===lastHud)return;lastHud=key;
+  $('pow').textContent='10'+sup(Math.round(z))+' m';
+  $('pretty').textContent=fmt(Math.pow(10,z));
+  $('regime').textContent=REG.find(r=>z<r[0])[1];
+  if(document.activeElement!==$('zoom'))$('zoom').value=zT;
+}
+const setZ=v=>{zT=Math.max(ZMIN,Math.min(ZMAX,v));};
+
+/* ---------- scheda ---------- */
+function select(o,fly){
+  sel=o;const card=$('card');
+  if(!o){card.classList.remove('open');return;}
+  $('cKind').textContent=KIND[o.k];$('cName').textContent=o.n;$('cSize').textContent=fmt(o.s);$('cSci').textContent=sci(o.s);
+  $('cNote').textContent=o.t;$('cNote').style.display=o.t?'':'none';$('cCmp').textContent=compare(o.s);
+  $('cBadges').innerHTML='';for(const c of o.f){const b=document.createElement('span');b.className='badge';b.textContent=FLAG[c][0];b.style.color=FLAG[c][1];$('cBadges').append(b);}
+  const p=O[o.i-1],n=O[o.i+1];
+  $('prev').textContent=p?'← '+p.n:'';$('prev').disabled=!p;$('next').textContent=n?n.n+' →':'';$('next').disabled=!n;
+  card.classList.add('open');card.scrollTop=0;
+  if(fly)setZ(o.l+.05);
+  if(audioOn)bell(true);
+}
+$('close').onclick=()=>select(null);
+$('prev').onclick=()=>sel&&O[sel.i-1]&&select(O[sel.i-1],true);
+$('next').onclick=()=>sel&&O[sel.i+1]&&select(O[sel.i+1],true);
+
+/* ---------- input ---------- */
+cv.addEventListener('wheel',e=>{e.preventDefault();setZ(zT+e.deltaY*(e.ctrlKey?.01:.0016));},{passive:false});
+const pts=new Map();let moved=0,pinch=0;
+cv.addEventListener('pointerdown',e=>{cv.setPointerCapture(e.pointerId);pts.set(e.pointerId,[e.clientX,e.clientY]);moved=0;if(pts.size===2){const[a,b]=[...pts.values()];pinch=Math.hypot(a[0]-b[0],a[1]-b[1]);}});
+cv.addEventListener('pointermove',e=>{const p=pts.get(e.pointerId);if(!p)return;
+  if(pts.size===2){pts.set(e.pointerId,[e.clientX,e.clientY]);const[a,b]=[...pts.values()],d=Math.hypot(a[0]-b[0],a[1]-b[1]);if(pinch&&d){setZ(zT-Math.log10(d/pinch));z=zT;}pinch=d;moved=99;return;}
+  const dy=e.clientY-p[1];moved+=Math.abs(dy)+Math.abs(e.clientX-p[0]);pts.set(e.pointerId,[e.clientX,e.clientY]);if(moved>6)setZ(zT+dy*.006);});
+const up=e=>{if(pts.has(e.pointerId)&&pts.size===1&&moved<=6&&e.type==='pointerup'){let best=null;for(const h of hits){if(Math.hypot(e.clientX-h[1],e.clientY-h[2])<=h[3]&&(!best||h[0].s<best.s))best=h[0];}select(best);}pts.delete(e.pointerId);pinch=0;};
+cv.addEventListener('pointerup',up);cv.addEventListener('pointercancel',up);
+$('zoom').addEventListener('input',e=>setZ(+e.target.value));
+$('minus').onclick=()=>setZ(zT-.5);$('plus').onclick=()=>setZ(zT+.5);
+addEventListener('keydown',e=>{if(e.target.tagName==='INPUT'&&e.target.type!=='range')return;
+  if(e.key==='ArrowRight'||e.key==='ArrowUp'||e.key==='+'){setZ(zT+.25);e.preventDefault();}
+  else if(e.key==='ArrowLeft'||e.key==='ArrowDown'||e.key==='-'){setZ(zT-.25);e.preventDefault();}
+  else if(e.key==='Escape'){select(null);$('results').classList.remove('open');}});
+
+/* ricerca */
+const norm=s=>s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'');
+$('q').addEventListener('input',e=>{const v=norm(e.target.value.trim()),box=$('results');box.innerHTML='';
+  if(!v){box.classList.remove('open');return;}
+  const found=O.filter(o=>norm(o.n).includes(v)).slice(0,10);
+  for(const o of found){const b=document.createElement('button');b.innerHTML='<span></span><span></span>';b.children[0].textContent=o.n;b.children[1].textContent=fmt(o.s);b.onclick=()=>{select(o,true);box.classList.remove('open');$('q').value='';};box.append(b);}
+  if(!found.length){const d=document.createElement('div');d.style.cssText='padding:8px;color:var(--muted)';d.textContent='Nessun oggetto con questo nome.';box.append(d);}
+  box.classList.add('open');});
+$('q').addEventListener('keydown',e=>{if(e.key==='Enter'){const b=$('results').querySelector('button');if(b)b.click();}});
+
+/* filtri */
+const total=O.length,cnt=c=>O.filter(o=>o.f.includes(c)).length;
+$('count').textContent=total+' oggetti da 10⁻³⁵ a 10²⁷ metri';
+$('dlgCount').textContent=total+' oggetti: tutto l\'elenco della versione del 2012, con '+cnt('r')+' valori corretti, più '+cnt('n')+' oggetti nuovi.';
+for(const c of'rniu'){const b=document.createElement('button');b.className='chip';b.setAttribute('aria-pressed','false');b.innerHTML='<span class="dot" style="background:'+FLAG[c][1]+'"></span>'+FLAG[c][0]+' · '+cnt(c);
+  b.onclick=()=>{hl=hl===c?'':c;document.querySelectorAll('.chip').forEach(x=>x.setAttribute('aria-pressed',x===b&&hl?'true':'false'));};$('chips').append(b);}
+$('about').onclick=()=>$('dlg').showModal();$('dlgClose').onclick=()=>$('dlg').close();
+
+/* ---------- musica generativa ---------- */
+let AC,master,bus,filt,audioOn=false,tChord,tBell,ci=0;
+const mtof=m=>440*Math.pow(2,(m-69)/12);
+const CH=[[50,57,62,66,69],[43,55,59,62,66],[47,54,59,62,66],[45,52,57,61,64]];
+const PENT=[74,76,78,81,83,86,88,90];
+function impulse(sec){const n=AC.sampleRate*sec,b=AC.createBuffer(2,n,AC.sampleRate);for(let c=0;c<2;c++){const d=b.getChannelData(c);for(let i=0;i<n;i++)d[i]=(Math.random()*2-1)*Math.pow(1-i/n,2.6);}return b;}
+function voice(f,type,peak,att,hold,rel,det){const o=AC.createOscillator(),g=AC.createGain(),t=AC.currentTime;o.type=type;o.frequency.value=f;o.detune.value=det||0;g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(peak,t+att);g.gain.setValueAtTime(peak,t+att+hold);g.gain.exponentialRampToValueAtTime(.0001,t+att+hold+rel);o.connect(g);g.connect(bus);o.start(t);o.stop(t+att+hold+rel+.1);}
+const shift=()=>z<-9?12:z>13?-12:0;
+function chord(){if(!audioOn)return;const c=CH[ci++%CH.length],s=shift();c.forEach((m,i)=>{const f=mtof(m+s);voice(f,'sine',.05,3.2+i*.3,3,6,-5);voice(f,'triangle',.022,3.6,2.6,6,7);});tChord=setTimeout(chord,7600);}
+function bell(now){if(!audioOn)return;const m=PENT[Math.floor(Math.random()*PENT.length)]+shift();voice(mtof(m),'sine',now?.05:.032,.02,.05,4.5,0);if(!now)tBell=setTimeout(bell,1800+Math.random()*4200);}
+function tone(){filt.frequency.setTargetAtTime(520+(27-z)/62*2300,AC.currentTime,.6);}
+function music(){
+  const btn=$('music');
+  try{
+    if(!audioOn){
+      AC=AC||new(window.AudioContext||window.webkitAudioContext)();AC.resume();
+      if(!master){master=AC.createGain();master.gain.value=0;bus=AC.createGain();filt=AC.createBiquadFilter();filt.type='lowpass';filt.Q.value=.4;
+        const conv=AC.createConvolver();conv.buffer=impulse(5);const wet=AC.createGain(),dry=AC.createGain(),comp=AC.createDynamicsCompressor();wet.gain.value=.6;dry.gain.value=.55;
+        bus.connect(filt);filt.connect(dry);filt.connect(conv);conv.connect(wet);dry.connect(master);wet.connect(master);master.connect(comp);comp.connect(AC.destination);}
+      audioOn=true;master.gain.cancelScheduledValues(AC.currentTime);master.gain.setTargetAtTime(+$('vol').value,AC.currentTime,1);chord();tBell=setTimeout(bell,2500);
+    }else{audioOn=false;clearTimeout(tChord);clearTimeout(tBell);master.gain.setTargetAtTime(0,AC.currentTime,.4);}
+    btn.textContent=audioOn?'♪ Musica attiva':'♪ Attiva musica';btn.classList.toggle('on',audioOn);btn.setAttribute('aria-pressed',audioOn);
+  }catch(err){audioOn=false;btn.textContent='♪ Audio non disponibile';}
+}
+$('music').onclick=music;
+$('vol').addEventListener('input',e=>{if(master&&audioOn)master.gain.setTargetAtTime(+e.target.value,AC.currentTime,.1);});
+
+/* Rifrazione del vetro secondo kube.io/blog/liquid-glass-css-svg:
+   profilo a squircle convesso -> normale -> legge di Snell (n = 1,5) -> spostamento lungo un raggio (127 campioni)
+   -> mappa di spostamento per ogni elemento (R = asse X, G = asse Y, 128 neutro) -> feImage + feDisplacementMap
+   -> riflesso speculare a -60 gradi sovrapposto con feBlend. Funziona come backdrop-filter solo su Chromium. */
+(function(){
+  if(!/Chrome\//.test(navigator.userAgent)||matchMedia('(prefers-reduced-transparency: reduce)').matches)return;
+  const N=127,IOR=1.5,surf=x=>Math.pow(1-Math.pow(1-x,4),.25),defs=$('lgdefs');
+  function profile(bezel,thick){const d=new Float32Array(N);let max=0;
+    for(let i=0;i<N;i++){const x=(i+.5)/N,a=Math.max(0,x-.001),b=Math.min(1,x+.001),slope=(surf(b)-surf(a))/(b-a)*thick/bezel,
+      t1=Math.atan(slope),t2=Math.asin(Math.sin(t1)/IOR);d[i]=surf(x)*thick*Math.tan(t1-t2);if(d[i]>max)max=d[i];}
+    for(let i=0;i<N;i++)d[i]/=max||1;return{d,max};}
+  let ver=0;
+  function build(el){
+    const w=el.offsetWidth,h=el.offsetHeight;if(w<8||h<8||w*h>900000)return;
+    let r=getComputedStyle(el).borderTopLeftRadius;r=r.endsWith('%')?Math.min(w,h)*parseFloat(r)/100:parseFloat(r)||0;r=Math.min(r,w/2,h/2);
+    const big=el.classList.contains('glass'),bezel=Math.max(6,Math.min(r,big?28:17)),thick=big?44:20,pr=profile(bezel,thick),d=pr.d;
+    const c=document.createElement('canvas');c.width=w;c.height=h;
+    const g=c.getContext('2d'),im=g.createImageData(w,h),sp=g.createImageData(w,h),D=im.data,S=sp.data,hw=w/2,hh=h/2,la=-60*Math.PI/180,lx=Math.cos(la),ly=Math.sin(la);
+    for(let y=0;y<h;y++)for(let x=0;x<w;x++){
+      const px=x+.5-hw,py=y+.5-hh,sx=px<0?-1:1,sy=py<0?-1:1,qx=Math.abs(px)-(hw-r),qy=Math.abs(py)-(hh-r);let de,nx,ny;
+      if(qx>0&&qy>0){const l=Math.hypot(qx,qy)||1;de=r-l;nx=-qx/l*sx;ny=-qy/l*sy;}
+      else{const ex=hw-Math.abs(px),ey=hh-Math.abs(py);if(ex<ey){de=ex;nx=-sx;ny=0;}else{de=ey;nx=0;ny=-sy;}}
+      const k=(y*w+x)*4,inb=de>=0&&de<bezel,m=inb?d[Math.min(N-1,Math.floor(de/bezel*N))]:0;
+      D[k]=128+127*nx*m;D[k+1]=128+127*ny*m;D[k+2]=128;D[k+3]=255;
+      if(inb){S[k]=S[k+1]=S[k+2]=255;S[k+3]=255*.8*Math.pow(Math.abs(nx*lx+ny*ly),2.2)*Math.exp(-de/1.7);}
+    }
+    g.putImageData(im,0,0);const map=c.toDataURL();g.clearRect(0,0,w,h);g.putImageData(sp,0,0);const spec=c.toDataURL();
+    const id='lg'+(++ver);
+    if(el._lg){const old=document.getElementById(el._lg);if(old)old.remove();}
+    defs.insertAdjacentHTML('beforeend','<filter id="'+id+'" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB">'
+      +'<feGaussianBlur in="SourceGraphic" stdDeviation="'+(big?3:1.1)+'" result="b"/>'
+      +'<feImage href="'+map+'" x="0" y="0" width="'+w+'" height="'+h+'" result="m"/>'
+      +'<feDisplacementMap in="b" in2="m" scale="'+(2*pr.max).toFixed(1)+'" xChannelSelector="R" yChannelSelector="G" result="r"/>'
+      +'<feColorMatrix in="r" type="saturate" values="1.7" result="s"/>'
+      +'<feImage href="'+spec+'" x="0" y="0" width="'+w+'" height="'+h+'" result="sp"/>'
+      +'<feBlend in="sp" in2="s" mode="screen"/></filter>');
+    el._lg=id;el.style.backdropFilter='url(#'+id+') brightness(1.1)';
+  }
+  const ro=new ResizeObserver(es=>{for(const e of es){const el=e.target;clearTimeout(el._lgT);el._lgT=setTimeout(()=>build(el),140);}});
+  document.querySelectorAll('.glass,.brand,.btn,.chip,.step,.x,.search input,.nav button').forEach(el=>ro.observe(el));
+})();
+addEventListener('pointermove',e=>{const g=e.target.closest&&e.target.closest('.btn,.chip,.step,.brand,.bottom');if(!g)return;const r=g.getBoundingClientRect();g.style.setProperty('--mx',(e.clientX-r.left)+'px');g.style.setProperty('--my',(e.clientY-r.top)+'px');},{passive:true});
+
+requestAnimationFrame(frame);
+</script>
+</body>
+</html>
