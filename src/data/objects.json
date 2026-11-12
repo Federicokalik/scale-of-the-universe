@@ -8214,10 +8214,42 @@
     "size": 20000000000000000000,
     "kind": "x",
     "glyph": "E",
-    "flags": [],
+    "flags": [
+      "u"
+    ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "A Wide-Field View of Leo II: A Structural Analysis Using the SDSS",
+        "url": "https://arxiv.org/abs/0708.1853",
+        "publisher": "Coleman et al., arXiv"
+      },
+      {
+        "title": "NED object page: Leo II (Leo B)",
+        "url": "https://ned.ipac.caltech.edu/cgi-bin/objsearch?objname=Leo+II&extend=no&hconst=73&omegam=0.27&omegav=0.73&corr_z=1&out_csys=Equatorial&out_equinox=J2000.0&obj_sort=RA+or+Longitude&of=pre_text&zv_breaker=30000.0&list_limit=5&img_stamp=YES",
+        "publisher": "NASA/IPAC Extragalactic Database (NED), Caltech"
+      }
+    ],
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "canes-venatici-i",
+    "size": 34000000000000000000,
+    "kind": "x",
+    "glyph": "E",
+    "flags": [
+      "r",
+      "u"
+    ],
+    "image": null,
+    "sources": [
+      {
+        "title": "A New Milky Way Dwarf Satellite in Canes Venatici",
+        "url": "https://arxiv.org/abs/astro-ph/0604354",
+        "publisher": "Zucker et al., arXiv"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "getto-relativistico-di-m87",
@@ -8249,18 +8281,24 @@
       "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
-  },
-  {
-    "id": "canes-venatici-i",
-    "size": 65000000000000000000,
-    "kind": "x",
-    "glyph": "E",
-    "flags": [],
-    "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "The Closest View of a Dwarf Galaxy: New Evidence on the Nature of the Canis Major over-density",
+        "url": "https://arxiv.org/abs/astro-ph/0410611",
+        "publisher": "Martinez-Delgado et al., arXiv"
+      },
+      {
+        "title": "A dwarf galaxy remnant in Canis Major: the fossil of an in-plane accretion onto the Milky Way",
+        "url": "https://arxiv.org/abs/astro-ph/0311010",
+        "publisher": "Martin et al., arXiv"
+      },
+      {
+        "title": "Outer structure of the Galactic warp and flare: explaining the Canis Major over-density",
+        "url": "https://arxiv.org/abs/astro-ph/0603385",
+        "publisher": "Momany et al., arXiv"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "onda-di-radcliffe",
@@ -8287,13 +8325,32 @@
   },
   {
     "id": "nana-ellittica-del-sagittario",
-    "size": 95000000000000000000,
+    "size": 106000000000000000000,
     "kind": "x",
     "glyph": "E",
-    "flags": [],
+    "flags": [
+      "r",
+      "u"
+    ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "NED object page: Sagittarius Dwarf Spheroidal",
+        "url": "https://ned.ipac.caltech.edu/cgi-bin/objsearch?objname=Sagittarius+Dwarf+Spheroidal&extend=no&hconst=73&omegam=0.27&omegav=0.73&corr_z=1&out_csys=Equatorial&out_equinox=J2000.0&obj_sort=RA+or+Longitude&of=pre_text&zv_breaker=30000.0&list_limit=5&img_stamp=YES",
+        "publisher": "NASA/IPAC Extragalactic Database (NED), Caltech"
+      },
+      {
+        "title": "The distance to the Sgr dwarf spheroidal galaxy from the Red Giant Branch Tip",
+        "url": "https://arxiv.org/abs/astro-ph/0406350",
+        "publisher": "Monaco et al., arXiv"
+      },
+      {
+        "title": "A 2MASS All-Sky View of the Sagittarius Dwarf Galaxy: I. Morphology of the Sagittarius Core and Tidal Arms",
+        "url": "https://arxiv.org/abs/astro-ph/0304198",
+        "publisher": "Majewski et al., arXiv"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "piccola-nube-di-magellano",
@@ -8304,40 +8361,71 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
-  },
-  {
-    "id": "ngc-3310",
-    "size": 220000000000000000000,
-    "kind": "x",
-    "glyph": "",
-    "flags": [],
-    "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "NED object page: Small Magellanic Cloud",
+        "url": "https://ned.ipac.caltech.edu/cgi-bin/objsearch?objname=SMC&extend=no&hconst=73&omegam=0.27&omegav=0.73&corr_z=1&out_csys=Equatorial&out_equinox=J2000.0&obj_sort=RA+or+Longitude&of=pre_text&zv_breaker=30000.0&list_limit=5&img_stamp=YES",
+        "publisher": "NASA/IPAC Extragalactic Database (NED), Caltech"
+      },
+      {
+        "title": "Galactic Building Blocks",
+        "url": "https://science.nasa.gov/missions/hubble/galactic-building-blocks/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "grande-nube-di-magellano",
-    "size": 305000000000000000000,
+    "size": 290000000000000000000,
     "kind": "x",
     "glyph": "I",
     "flags": [
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "NED object page: Large Magellanic Cloud",
+        "url": "https://ned.ipac.caltech.edu/cgi-bin/objsearch?objname=LMC&extend=no&hconst=73&omegam=0.27&omegav=0.73&corr_z=1&out_csys=Equatorial&out_equinox=J2000.0&obj_sort=RA+or+Longitude&of=pre_text&zv_breaker=30000.0&list_limit=5&img_stamp=YES",
+        "publisher": "NASA/IPAC Extragalactic Database (NED), Caltech"
+      },
+      {
+        "title": "Large Magellanic Cloud",
+        "url": "https://science.nasa.gov/universe/galaxies/large-magellanic-cloud/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
-    "id": "ngc-7714",
-    "size": 350000000000000000000,
+    "id": "ngc-3310",
+    "size": 360000000000000000000,
     "kind": "x",
     "glyph": "",
-    "flags": [],
+    "flags": [
+      "r",
+      "u"
+    ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "NED object page: NGC 3310",
+        "url": "https://ned.ipac.caltech.edu/cgi-bin/objsearch?objname=NGC+3310&extend=no&hconst=73&omegam=0.27&omegav=0.73&corr_z=1&out_csys=Equatorial&out_equinox=J2000.0&obj_sort=RA+or+Longitude&of=pre_text&zv_breaker=30000.0&list_limit=5&img_stamp=YES",
+        "publisher": "NASA/IPAC Extragalactic Database (NED), Caltech"
+      },
+      {
+        "title": "Starburst Galaxy NGC 3310 Blazes With Star Formation",
+        "url": "https://science.nasa.gov/asset/hubble/starburst-galaxy-ngc-3310-blazes-with-star-formation/",
+        "publisher": "NASA Science (Hubble)"
+      },
+      {
+        "title": "The Central Region of the Star-Burst Spiral Galaxy NGC 3310",
+        "url": "https://science.nasa.gov/asset/hubble/the-central-region-of-the-star-burst-spiral-galaxy-ngc-3310",
+        "publisher": "NASA Science (Hubble)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "bolle-di-fermi",
@@ -8358,6 +8446,35 @@
     "verified": "2026-11-12"
   },
   {
+    "id": "ngc-7714",
+    "size": 480000000000000000000,
+    "kind": "x",
+    "glyph": "",
+    "flags": [
+      "r",
+      "u"
+    ],
+    "image": null,
+    "sources": [
+      {
+        "title": "NED object page: NGC 7714",
+        "url": "https://ned.ipac.caltech.edu/cgi-bin/objsearch?objname=NGC+7714&extend=no&hconst=73&omegam=0.27&omegav=0.73&corr_z=1&out_csys=Equatorial&out_equinox=J2000.0&obj_sort=RA+or+Longitude&of=pre_text&zv_breaker=30000.0&list_limit=5&img_stamp=YES",
+        "publisher": "NASA/IPAC Extragalactic Database (NED), Caltech"
+      },
+      {
+        "title": "Hubble image of NGC 7714",
+        "url": "https://esahubble.org/images/heic1503a/",
+        "publisher": "ESA/Hubble"
+      },
+      {
+        "title": "NGC 7714 (Hubble lithograph)",
+        "url": "https://science.nasa.gov/wp-content/uploads/2024/05/hubble-litho-ngc7714.pdf",
+        "publisher": "NASA / STScI"
+      }
+    ],
+    "verified": "2026-11-12"
+  },
+  {
     "id": "galassia-occhio-nero",
     "size": 510000000000000000000,
     "kind": "x",
@@ -8366,8 +8483,19 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "M64, NGC 4826",
+        "url": "https://noirlab.edu/public/images/noao-m64/",
+        "publisher": "NSF NOIRLab"
+      },
+      {
+        "title": "NED object page: Messier 064",
+        "url": "https://ned.ipac.caltech.edu/cgi-bin/objsearch?objname=MESSIER+064&extend=no&hconst=73&omegam=0.27&omegav=0.73&corr_z=1&out_csys=Equatorial&out_equinox=J2000.0&obj_sort=RA+or+Longitude&of=pre_text&zv_breaker=30000.0&list_limit=5&img_stamp=YES",
+        "publisher": "NASA/IPAC Extragalactic Database (NED), Caltech"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "galassia-del-triangolo",
@@ -8376,8 +8504,19 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Hubble takes gigantic image of the Triangulum Galaxy (heic1901)",
+        "url": "https://esahubble.org/news/heic1901/",
+        "publisher": "ESA/Hubble"
+      },
+      {
+        "title": "NED object page: Messier 033",
+        "url": "https://ned.ipac.caltech.edu/cgi-bin/objsearch?objname=MESSIER+033&extend=no&hconst=73&omegam=0.27&omegav=0.73&corr_z=1&out_csys=Equatorial&out_equinox=J2000.0&obj_sort=RA+or+Longitude&of=pre_text&zv_breaker=30000.0&list_limit=5&img_stamp=YES",
+        "publisher": "NASA/IPAC Extragalactic Database (NED), Caltech"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "galassia-vortice",
@@ -8385,11 +8524,28 @@
     "kind": "x",
     "glyph": "",
     "flags": [
-      "r"
+      "r",
+      "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "NED object page: Messier 051a",
+        "url": "https://ned.ipac.caltech.edu/cgi-bin/objsearch?objname=MESSIER+051a&extend=no&hconst=73&omegam=0.27&omegav=0.73&corr_z=1&out_csys=Equatorial&out_equinox=J2000.0&obj_sort=RA+or+Longitude&of=pre_text&zv_breaker=30000.0&list_limit=5&img_stamp=YES",
+        "publisher": "NASA/IPAC Extragalactic Database (NED), Caltech"
+      },
+      {
+        "title": "The Whirlpool Galaxy",
+        "url": "https://science.nasa.gov/missions/hubble/the-whirlpool-galaxy/",
+        "publisher": "NASA Science (Hubble Mission Team)"
+      },
+      {
+        "title": "Messier 51",
+        "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-51/",
+        "publisher": "NASA Science (Hubble Messier Catalog)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "galassia-sombrero",
@@ -8434,8 +8590,19 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "The Milky Way is just an average spiral",
+        "url": "https://arxiv.org/pdf/astro-ph/9704216",
+        "publisher": "Goodwin, Gribbin, Hendry, arXiv"
+      },
+      {
+        "title": "The Milky Way",
+        "url": "https://imagine.gsfc.nasa.gov/features/cosmic/milkyway_info.html",
+        "publisher": "NASA Goddard, Imagine the Universe"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "zettametro",

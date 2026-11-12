@@ -1,0 +1,341 @@
+[
+  {
+    "id": "leo-ii",
+    "size": 2e+19,
+    "basis": "estensione del corpo stellare (valore intermedio tra il diametro del nucleo e il diametro mareale)",
+    "verdict": "uncertain",
+    "flags": [
+      "u"
+    ],
+    "desc": "Leo II è una galassia nana sferoidale satellite della Via Lattea, a circa 233 kpc (760.000 anni luce) da noi. La sua estensione dipende dalla definizione: il raggio del nucleo è di circa 178 pc e il raggio mareale di circa 632 pc, quindi il diametro va da circa 360 a circa 1.260 pc (da 1.200 a 4.100 anni luce). Le misure indicano che è dominata dalla materia oscura.",
+    "sources": [
+      {
+        "title": "A Wide-Field View of Leo II: A Structural Analysis Using the SDSS",
+        "url": "https://arxiv.org/abs/0708.1853",
+        "publisher": "Coleman et al., arXiv",
+        "evidence": "a tidal radius of r_t = 9.33 +/- 0.47 arcmin (632 +/- 32 pc)"
+      },
+      {
+        "title": "NED object page: Leo II (Leo B)",
+        "url": "https://ned.ipac.caltech.edu/cgi-bin/objsearch?objname=Leo+II&extend=no&hconst=73&omegam=0.27&omegav=0.73&corr_z=1&out_csys=Equatorial&out_equinox=J2000.0&obj_sort=RA+or+Longitude&of=pre_text&zv_breaker=30000.0&list_limit=5&img_stamp=YES",
+        "publisher": "NASA/IPAC Extragalactic Database (NED), Caltech",
+        "evidence": "Major Diameter (arcmin) : 12.0"
+      }
+    ],
+    "note": "Il valore attuale (2e19 m = 648 pc) coincide con il raggio mareale di Coleman et al. (632 pc), non con un diametro. Diametro del nucleo: 2 × 178 pc = 356 pc = 1,1e19 m; diametro mareale: 2 × 632 pc = 1.264 pc = 3,9e19 m; diametro apparente NED 12,0' × 217 kpc (mediana delle distanze NED, stessa pagina) = 757 pc = 2,3e19 m. Il valore attuale cade dentro questo intervallo, quindi lo tengo e segno 'u'. Se si preferisce l'estensione massima, usare 3,9e19 m.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "nana-del-cane-maggiore",
+    "size": 5e+19,
+    "basis": "diametro a metà luce lungo la linea di vista (due volte il raggio a metà luce)",
+    "verdict": "uncertain",
+    "flags": [
+      "u"
+    ],
+    "desc": "La sovradensità del Cane Maggiore è un gruppo di stelle vicino al piano galattico, segnalato nel 2003 tra le giganti rosse del catalogo 2MASS e proposto come resto di una galassia nana inglobata dalla Via Lattea. Una misura lungo la linea di vista dà un raggio a metà luce di circa 0,94 kpc, cioè un diametro di circa 6.000 anni luce, con ampie incertezze. La sua natura è contestata: secondo altri studi è soltanto la deformazione del disco esterno della Via Lattea.",
+    "sources": [
+      {
+        "title": "The Closest View of a Dwarf Galaxy: New Evidence on the Nature of the Canis Major over-density",
+        "url": "https://arxiv.org/abs/astro-ph/0410611",
+        "publisher": "Martinez-Delgado et al., arXiv",
+        "evidence": "0.94 +/- 0.18 (random) +/- 0.18 (systematic) kpc"
+      },
+      {
+        "title": "A dwarf galaxy remnant in Canis Major: the fossil of an in-plane accretion onto the Milky Way",
+        "url": "https://arxiv.org/abs/astro-ph/0311010",
+        "publisher": "Martin et al., arXiv",
+        "evidence": "strong elliptical-shaped stellar over-density, close to the Galactic plane"
+      },
+      {
+        "title": "Outer structure of the Galactic warp and flare: explaining the Canis Major over-density",
+        "url": "https://arxiv.org/abs/astro-ph/0603385",
+        "publisher": "Momany et al., arXiv",
+        "evidence": "consistent with it being a normal Milky Way outer-disk population"
+      }
+    ],
+    "note": "Calcolo: 2 × 0,94 kpc = 1,88 kpc = 5,8e19 m (6.100 anni luce); il valore attuale 5e19 m (1,62 kpc) rientra nell'errore dichiarato (±0,18 casuale ±0,18 sistematico sul raggio). La misura è lungo la linea di vista, non in cielo. L'anno 2003 è quello del preprint arXiv di Martin et al. (astro-ph/0311010).",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "canes-venatici-i",
+    "size": 3.4e+19,
+    "basis": "diametro a metà luce (due volte il raggio a metà luce)",
+    "verdict": "corrected",
+    "flags": [
+      "r",
+      "u"
+    ],
+    "desc": "Canes Venatici I è una galassia nana satellite della Via Lattea, scoperta nel 2006 nei dati della Sloan Digital Sky Survey a circa 220 kpc (720.000 anni luce) di distanza. Il raggio che racchiude metà della sua luce è di circa 550 pc, per un diametro di circa 1.100 pc (3.600 anni luce). Le regioni esterne appaiono più estese e distorte, quindi l'estensione complessiva è maggiore e non ben definita.",
+    "sources": [
+      {
+        "title": "A New Milky Way Dwarf Satellite in Canes Venatici",
+        "url": "https://arxiv.org/abs/astro-ph/0604354",
+        "publisher": "Zucker et al., arXiv",
+        "evidence": "half-light radius of ~ 8.5' (~ 550 pc at the measured distance)"
+      }
+    ],
+    "note": "Da 6,5e19 m a 3,4e19 m. Non ho trovato alcuna fonte per 6,5e19 m (2,1 kpc), che è circa il doppio del diametro a metà luce. Calcolo: 2 × 550 pc = 1.100 pc × 3,0857e16 m = 3,39e19 m. Aggiunto 'u' perché il diametro a metà luce sottostima l'estensione totale. La pagina NED dell'oggetto non riporta un diametro.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "nana-ellittica-del-sagittario",
+    "size": 1.06e+20,
+    "basis": "asse maggiore del corpo principale (diametro apparente × distanza)",
+    "verdict": "corrected",
+    "flags": [
+      "r",
+      "u"
+    ],
+    "desc": "La nana ellittica del Sagittario è una galassia satellite della Via Lattea, a circa 26 kpc (86.000 anni luce) dal Sole. Il suo corpo principale misura circa 450 primi d'arco lungo l'asse maggiore, cioè circa 3,4 kpc (11.000 anni luce), ma il bordo è mal definito perché la Via Lattea la sta smembrando. Le stelle strappate formano code mareali che si estendono per oltre 150 gradi in cielo.",
+    "sources": [
+      {
+        "title": "NED object page: Sagittarius Dwarf Spheroidal",
+        "url": "https://ned.ipac.caltech.edu/cgi-bin/objsearch?objname=Sagittarius+Dwarf+Spheroidal&extend=no&hconst=73&omegam=0.27&omegav=0.73&corr_z=1&out_csys=Equatorial&out_equinox=J2000.0&obj_sort=RA+or+Longitude&of=pre_text&zv_breaker=30000.0&list_limit=5&img_stamp=YES",
+        "publisher": "NASA/IPAC Extragalactic Database (NED), Caltech",
+        "evidence": "Major Diameter (arcmin) : 450.0"
+      },
+      {
+        "title": "The distance to the Sgr dwarf spheroidal galaxy from the Red Giant Branch Tip",
+        "url": "https://arxiv.org/abs/astro-ph/0406350",
+        "publisher": "Monaco et al., arXiv",
+        "evidence": "heliocentric distance D=26.30±1.8 Kpc"
+      },
+      {
+        "title": "A 2MASS All-Sky View of the Sagittarius Dwarf Galaxy: I. Morphology of the Sagittarius Core and Tidal Arms",
+        "url": "https://arxiv.org/abs/astro-ph/0304198",
+        "publisher": "Majewski et al., arXiv",
+        "evidence": "the 224' core radius; >150 deg trailing tidal tail"
+      }
+    ],
+    "note": "Da 9,5e19 m a 1,06e20 m. Calcolo: 450' = 0,1309 rad; 0,1309 × 26,3 kpc = 3,44 kpc = 1,06e20 m (11.200 anni luce). Coincide con due volte il raggio del nucleo di Majewski et al. (2 × 224' = 448'). Con la mediana delle distanze NED (28 kpc) si ottiene 1,13e20 m. 'u' perché il profilo di King si estende fino a 30 gradi e gran parte della struttura esterna non è più legata. Non ho trovato una fonte primaria per i 10.000 anni luce del valore precedente.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "piccola-nube-di-magellano",
+    "size": 1.8e+20,
+    "basis": "diametro maggiore (diametro apparente × distanza)",
+    "verdict": "confirmed",
+    "flags": [
+      "r"
+    ],
+    "desc": "La Piccola Nube di Magellano è una galassia nana satellite della Via Lattea, nella costellazione australe del Tucano. Il suo diametro maggiore apparente è di 320 primi d'arco, oltre 5 gradi, che alla distanza di circa 61 kpc (200.000 anni luce) corrispondono a circa 5,7 kpc, cioè circa 18.500 anni luce. La NASA indica una distanza leggermente maggiore, circa 210.000 anni luce.",
+    "sources": [
+      {
+        "title": "NED object page: Small Magellanic Cloud",
+        "url": "https://ned.ipac.caltech.edu/cgi-bin/objsearch?objname=SMC&extend=no&hconst=73&omegam=0.27&omegav=0.73&corr_z=1&out_csys=Equatorial&out_equinox=J2000.0&obj_sort=RA+or+Longitude&of=pre_text&zv_breaker=30000.0&list_limit=5&img_stamp=YES",
+        "publisher": "NASA/IPAC Extragalactic Database (NED), Caltech",
+        "evidence": "Major Diameter (arcmin) : 320"
+      },
+      {
+        "title": "Galactic Building Blocks",
+        "url": "https://science.nasa.gov/missions/hubble/galactic-building-blocks/",
+        "publisher": "NASA Science",
+        "evidence": "a mere 210,000 light-years distant in the constellation Tucana"
+      }
+    ],
+    "note": "Calcolo: 320' = 0,0931 rad; 0,0931 × 61 kpc (mediana di 294 distanze NED, stessa pagina: 0.061 Mpc) = 5,68 kpc = 1,75e20 m (18.500 anni luce), entro il 3% dal valore attuale. La NASA indica 210.000 anni luce di distanza; ho usato la mediana NED. Cifre minori che circolano (circa 7.000 anni luce) non sono state verificate: Britannica non era raggiungibile da questa sessione.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "ngc-3310",
+    "size": 3.6e+20,
+    "basis": "diametro maggiore (diametro apparente × distanza)",
+    "verdict": "corrected",
+    "flags": [
+      "r",
+      "u"
+    ],
+    "desc": "NGC 3310 è una galassia a spirale nell'Orsa Maggiore con un'intensa formazione di stelle. Il suo diametro apparente di 3,1 primi d'arco corrisponde a circa 12 kpc (38.000 anni luce) alla distanza media di circa 13 Mpc riportata da NED. Le stime di distanza vanno però da circa 11 a 19 Mpc, e la NASA, che adotta 18 Mpc, indica un diametro di circa 52.000 anni luce.",
+    "sources": [
+      {
+        "title": "NED object page: NGC 3310",
+        "url": "https://ned.ipac.caltech.edu/cgi-bin/objsearch?objname=NGC+3310&extend=no&hconst=73&omegam=0.27&omegav=0.73&corr_z=1&out_csys=Equatorial&out_equinox=J2000.0&obj_sort=RA+or+Longitude&of=pre_text&zv_breaker=30000.0&list_limit=5&img_stamp=YES",
+        "publisher": "NASA/IPAC Extragalactic Database (NED), Caltech",
+        "evidence": "Major Diameter (arcmin) : 3.1"
+      },
+      {
+        "title": "Starburst Galaxy NGC 3310 Blazes With Star Formation",
+        "url": "https://science.nasa.gov/asset/hubble/starburst-galaxy-ngc-3310-blazes-with-star-formation/",
+        "publisher": "NASA Science (Hubble)",
+        "evidence": "The entire galaxy has a diameter of roughly 16 kpc (52,000 light-years)"
+      },
+      {
+        "title": "The Central Region of the Star-Burst Spiral Galaxy NGC 3310",
+        "url": "https://science.nasa.gov/asset/hubble/the-central-region-of-the-star-burst-spiral-galaxy-ngc-3310",
+        "publisher": "NASA Science (Hubble)",
+        "evidence": "The galaxy is at least 6.8 kpc (22,000 light-years) across"
+      }
+    ],
+    "note": "Da 2,2e20 m a 3,6e20 m. Il valore precedente corrisponde al limite inferiore NASA ('at least 6.8 kpc') riferito all'immagine della regione centrale. Calcolo: 3,1' = 9,02e-4 rad; × 13,1 Mpc (media di 8 distanze NED, stessa pagina; min 10,8, max 18,7, mediana 11,35) = 11,8 kpc = 3,64e20 m (38.500 anni luce). Con 18 Mpc (NASA) si ottengono 16 kpc = 4,9e20 m. Sono incerto su quale distanza adottare: se si preferisce la cifra dichiarata dalla NASA, usare 4,9e20 m.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "grande-nube-di-magellano",
+    "size": 2.9e+20,
+    "basis": "diametro maggiore (diametro apparente × distanza)",
+    "verdict": "corrected",
+    "flags": [
+      "r"
+    ],
+    "desc": "La Grande Nube di Magellano è una galassia satellite della Via Lattea, classificata come spirale barrata di tipo magellanico, a circa 50 kpc (163.000 anni luce). Il suo diametro maggiore apparente è di 645 primi d'arco, quasi 11 gradi, che a quella distanza corrispondono a circa 9,4 kpc, cioè circa 30.600 anni luce.",
+    "sources": [
+      {
+        "title": "NED object page: Large Magellanic Cloud",
+        "url": "https://ned.ipac.caltech.edu/cgi-bin/objsearch?objname=LMC&extend=no&hconst=73&omegam=0.27&omegav=0.73&corr_z=1&out_csys=Equatorial&out_equinox=J2000.0&obj_sort=RA+or+Longitude&of=pre_text&zv_breaker=30000.0&list_limit=5&img_stamp=YES",
+        "publisher": "NASA/IPAC Extragalactic Database (NED), Caltech",
+        "evidence": "Major Diameter (arcmin) : 645"
+      },
+      {
+        "title": "Large Magellanic Cloud",
+        "url": "https://science.nasa.gov/universe/galaxies/large-magellanic-cloud/",
+        "publisher": "NASA Science",
+        "evidence": "the Large Magellanic Cloud, a satellite galaxy of the Milky Way"
+      }
+    ],
+    "note": "Da 3,05e20 m a 2,9e20 m (differenza di circa il 5-6%, al limite della soglia). Calcolo: 645' = 0,1876 rad; × 50 kpc (mediana di 824 distanze NED, stessa pagina: 0.050 Mpc) = 9,38 kpc = 2,895e20 m (30.600 anni luce). Classificazione SB(s)m dalla stessa pagina NED. Tolta la frase 'L'originale: 15.000', che è una nota sulla storia del sito e non un dato verificabile. La pagina NASA dice 'nearly 200,000 light-years' per la distanza: ho usato la mediana NED.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "ngc-7714",
+    "size": 4.8e+20,
+    "basis": "diametro maggiore (diametro apparente × distanza)",
+    "verdict": "corrected",
+    "flags": [
+      "r",
+      "u"
+    ],
+    "desc": "NGC 7714 è una galassia a spirale nella costellazione dei Pesci, a circa 100 milioni di anni luce, deformata dall'interazione con la compagna più piccola NGC 7715. Il suo diametro apparente di 1,9 primi d'arco corrisponde a circa 16 kpc, cioè tra 50.000 e 55.000 anni luce secondo la distanza adottata. Le due galassie si sono sfiorate tra 100 e 200 milioni di anni fa e sono unite da un ponte di stelle.",
+    "sources": [
+      {
+        "title": "NED object page: NGC 7714",
+        "url": "https://ned.ipac.caltech.edu/cgi-bin/objsearch?objname=NGC+7714&extend=no&hconst=73&omegam=0.27&omegav=0.73&corr_z=1&out_csys=Equatorial&out_equinox=J2000.0&obj_sort=RA+or+Longitude&of=pre_text&zv_breaker=30000.0&list_limit=5&img_stamp=YES",
+        "publisher": "NASA/IPAC Extragalactic Database (NED), Caltech",
+        "evidence": "Major Diameter (arcmin) : 1.9"
+      },
+      {
+        "title": "Hubble image of NGC 7714",
+        "url": "https://esahubble.org/images/heic1503a/",
+        "publisher": "ESA/Hubble",
+        "evidence": "NGC 7714 is a spiral galaxy 100 million light-years from Earth"
+      },
+      {
+        "title": "NGC 7714 (Hubble lithograph)",
+        "url": "https://science.nasa.gov/wp-content/uploads/2024/05/hubble-litho-ngc7714.pdf",
+        "publisher": "NASA / STScI",
+        "evidence": "swung closely past each other about 100 million to 200 million years ago"
+      }
+    ],
+    "note": "Da 3,5e20 m a 4,8e20 m. Calcolo: 1,9' = 5,53e-4 rad; × 28,3 Mpc (mediana di 5 distanze NED, stessa pagina; min 20,1, max 36,9) = 15,6 kpc = 4,83e20 m (51.000 anni luce). Con i 100 milioni di anni luce di ESA/Hubble (30,7 Mpc): 16,9 kpc = 5,2e20 m (55.000 anni luce). Il valore precedente (11,3 kpc) richiederebbe una distanza di circa 20 Mpc, il minimo in NED. 'u' per la dispersione delle distanze.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "galassia-occhio-nero",
+    "size": 5.1e+20,
+    "basis": "diametro maggiore del disco",
+    "verdict": "confirmed",
+    "flags": [
+      "r"
+    ],
+    "desc": "La Galassia Occhio Nero (M64) è una spirale nella Chioma di Berenice, nota per la fascia di polvere scura accanto al nucleo. Secondo NOIRLab misura circa 55.000 anni luce di diametro; dal diametro apparente di 10 primi d'arco e da una distanza di circa 5,5 Mpc (18 milioni di anni luce) si ottengono circa 53.000 anni luce. Contiene due sistemi di gas e stelle che ruotano in versi opposti.",
+    "sources": [
+      {
+        "title": "M64, NGC 4826",
+        "url": "https://noirlab.edu/public/images/noao-m64/",
+        "publisher": "NSF NOIRLab",
+        "evidence": "M64 is about 55000 light-years across"
+      },
+      {
+        "title": "NED object page: Messier 064",
+        "url": "https://ned.ipac.caltech.edu/cgi-bin/objsearch?objname=MESSIER+064&extend=no&hconst=73&omegam=0.27&omegav=0.73&corr_z=1&out_csys=Equatorial&out_equinox=J2000.0&obj_sort=RA+or+Longitude&of=pre_text&zv_breaker=30000.0&list_limit=5&img_stamp=YES",
+        "publisher": "NASA/IPAC Extragalactic Database (NED), Caltech",
+        "evidence": "Major Diameter (arcmin) : 10.0"
+      }
+    ],
+    "note": "Calcolo di controllo: 10,0' = 2,909e-3 rad; × 5,54 Mpc (mediana di 23 distanze NED, stessa pagina) = 16,1 kpc = 4,97e20 m (52.600 anni luce). NOIRLab: 55.000 anni luce = 5,2e20 m. Il valore attuale 5,1e20 m sta tra i due. NOIRLab usa una distanza di 20 milioni di anni luce, NASA ed ESA 17. Non ho inserito la data di scoperta: la pagina NASA su M64 riporta 'March of 1719' per Edward Pigott, che sembra un refuso.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "galassia-del-triangolo",
+    "size": 5.8e+20,
+    "basis": "diametro del disco",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "La Galassia del Triangolo (M33) è una spirale a circa 3 milioni di anni luce, terza per dimensioni nel Gruppo Locale dopo Andromeda e la Via Lattea. Secondo ESA/Hubble misura circa 60.000 anni luce di diametro e contiene circa 40 miliardi di stelle.",
+    "sources": [
+      {
+        "title": "Hubble takes gigantic image of the Triangulum Galaxy (heic1901)",
+        "url": "https://esahubble.org/news/heic1901/",
+        "publisher": "ESA/Hubble",
+        "evidence": "It measures only about 60 000 light-years across"
+      },
+      {
+        "title": "NED object page: Messier 033",
+        "url": "https://ned.ipac.caltech.edu/cgi-bin/objsearch?objname=MESSIER+033&extend=no&hconst=73&omegam=0.27&omegav=0.73&corr_z=1&out_csys=Equatorial&out_equinox=J2000.0&obj_sort=RA+or+Longitude&of=pre_text&zv_breaker=30000.0&list_limit=5&img_stamp=YES",
+        "publisher": "NASA/IPAC Extragalactic Database (NED), Caltech",
+        "evidence": "Major Diameter (arcmin) : 70.8"
+      }
+    ],
+    "note": "60.000 anni luce = 5,68e20 m, entro il 2% dal valore attuale (61.300 anni luce). Controllo: 70,8' = 0,02059 rad; × 859 kpc (mediana di 137 distanze NED, stessa pagina) = 17,7 kpc = 5,46e20 m (57.700 anni luce), circa il 6% in meno.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "galassia-vortice",
+    "size": 7.3e+20,
+    "basis": "diametro maggiore (diametro apparente × distanza)",
+    "verdict": "uncertain",
+    "flags": [
+      "r",
+      "u"
+    ],
+    "desc": "La Galassia Vortice (M51) è una spirale nei Cani da Caccia, in interazione con la piccola compagna NGC 5195. Il suo diametro apparente è di 11,2 primi d'arco, ma la distanza è incerta: tra circa 23 e 31 milioni di anni luce secondo le fonti. Ne risulta un diametro di circa 77.000 anni luce con la distanza media riportata da NED, mentre la NASA indica circa 60.000 anni luce.",
+    "sources": [
+      {
+        "title": "NED object page: Messier 051a",
+        "url": "https://ned.ipac.caltech.edu/cgi-bin/objsearch?objname=MESSIER+051a&extend=no&hconst=73&omegam=0.27&omegav=0.73&corr_z=1&out_csys=Equatorial&out_equinox=J2000.0&obj_sort=RA+or+Longitude&of=pre_text&zv_breaker=30000.0&list_limit=5&img_stamp=YES",
+        "publisher": "NASA/IPAC Extragalactic Database (NED), Caltech",
+        "evidence": "Major Diameter (arcmin) : 11.2"
+      },
+      {
+        "title": "The Whirlpool Galaxy",
+        "url": "https://science.nasa.gov/missions/hubble/the-whirlpool-galaxy/",
+        "publisher": "NASA Science (Hubble Mission Team)",
+        "evidence": "only 30 million light years distant and fully 60 thousand light years across"
+      },
+      {
+        "title": "Messier 51",
+        "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-51/",
+        "publisher": "NASA Science (Hubble Messier Catalog)",
+        "evidence": "Distance 31 million light-years"
+      }
+    ],
+    "note": "Calcolo: 11,2' = 3,258e-3 rad; × 7,225 Mpc (media di 53 distanze NED, stessa pagina; 23,6 milioni di anni luce) = 23,5 kpc = 7,26e20 m (76.800 anni luce), che conferma l'origine del valore attuale. Con la mediana NED (7,8 Mpc) si ottengono 7,84e20 m (83.000 anni luce); la NASA scrive 60.000 anni luce, cifra peraltro incoerente con la sua stessa distanza di 30 milioni (11,2' a 30 milioni di anni luce darebbero circa 98.000). Aggiunto 'u'.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "via-lattea",
+    "size": 8.3e+20,
+    "basis": "diametro isofotale D25 del disco stellare (isofota di 25 mag per secondo d'arco quadrato in banda B)",
+    "verdict": "confirmed",
+    "flags": [
+      "r"
+    ],
+    "desc": "La Via Lattea è la galassia a spirale in cui si trova il Sole, che dista circa 8 kpc (26.000 anni luce) dal centro. Il diametro del disco stellare fino all'isofota di 25 magnitudini per secondo d'arco quadrato è stimato in 26,8 ± 1,1 kpc, cioè circa 87.400 anni luce. Il valore arrotondato più citato, anche dalla NASA, è di circa 100.000 anni luce.",
+    "sources": [
+      {
+        "title": "The Milky Way is just an average spiral",
+        "url": "https://arxiv.org/pdf/astro-ph/9704216",
+        "publisher": "Goodwin, Gribbin, Hendry, arXiv",
+        "evidence": "D25(true) = 26.8 ± 1.1kpc"
+      },
+      {
+        "title": "The Milky Way",
+        "url": "https://imagine.gsfc.nasa.gov/features/cosmic/milkyway_info.html",
+        "publisher": "NASA Goddard, Imagine the Universe",
+        "evidence": "about 100,000 light years or about 30 kpc) across"
+      }
+    ],
+    "note": "Calcolo: 26,8 kpc × 3,0857e19 m = 8,27e20 m (87.400 anni luce), che coincide con il valore attuale. La cifra è nel testo dell'articolo (PDF), non nell'abstract. Tolta la frase 'L'originale: 127.000', nota sulla storia del sito non verificabile. La distanza del Sole dal centro (8 kpc) è dalla pagina NASA.",
+    "verified": "2026-11-12"
+  }
+]

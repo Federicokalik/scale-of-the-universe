@@ -1686,7 +1686,7 @@
     },
     "leo-ii": {
       "name": "Leo II",
-      "desc": "Galassia nana satellite della Via Lattea."
+      "desc": "Leo II è una galassia nana sferoidale satellite della Via Lattea, a circa 233 kpc (760.000 anni luce) da noi. La sua estensione dipende dalla definizione: il raggio del nucleo è di circa 178 pc e il raggio mareale di circa 632 pc, quindi il diametro va da circa 360 a circa 1.260 pc (da 1.200 a 4.100 anni luce). Le misure indicano che è dominata dalla materia oscura."
     },
     "getto-relativistico-di-m87": {
       "name": "Getto relativistico di M87",
@@ -1694,11 +1694,11 @@
     },
     "nana-del-cane-maggiore": {
       "name": "Nana del Cane Maggiore",
-      "desc": "La sua esistenza come galassia è contestata."
+      "desc": "La sovradensità del Cane Maggiore è un gruppo di stelle vicino al piano galattico, segnalato nel 2003 tra le giganti rosse del catalogo 2MASS e proposto come resto di una galassia nana inglobata dalla Via Lattea. Una misura lungo la linea di vista dà un raggio a metà luce di circa 0,94 kpc, cioè un diametro di circa 6.000 anni luce, con ampie incertezze. La sua natura è contestata: secondo altri studi è soltanto la deformazione del disco esterno della Via Lattea."
     },
     "canes-venatici-i": {
       "name": "Canes Venatici I",
-      "desc": ""
+      "desc": "Canes Venatici I è una galassia nana satellite della Via Lattea, scoperta nel 2006 nei dati della Sloan Digital Sky Survey a circa 220 kpc (720.000 anni luce) di distanza. Il raggio che racchiude metà della sua luce è di circa 550 pc, per un diametro di circa 1.100 pc (3.600 anni luce). Le regioni esterne appaiono più estese e distorte, quindi l'estensione complessiva è maggiore e non ben definita."
     },
     "onda-di-radcliffe": {
       "name": "Onda di Radcliffe",
@@ -1706,23 +1706,23 @@
     },
     "nana-ellittica-del-sagittario": {
       "name": "Nana ellittica del Sagittario",
-      "desc": "La Via Lattea la sta smembrando."
+      "desc": "La nana ellittica del Sagittario è una galassia satellite della Via Lattea, a circa 26 kpc (86.000 anni luce) dal Sole. Il suo corpo principale misura circa 450 primi d'arco lungo l'asse maggiore, cioè circa 3,4 kpc (11.000 anni luce), ma il bordo è mal definito perché la Via Lattea la sta smembrando. Le stelle strappate formano code mareali che si estendono per oltre 150 gradi in cielo."
     },
     "piccola-nube-di-magellano": {
       "name": "Piccola Nube di Magellano",
-      "desc": "Circa 19.000 anni luce."
+      "desc": "La Piccola Nube di Magellano è una galassia nana satellite della Via Lattea, nella costellazione australe del Tucano. Il suo diametro maggiore apparente è di 320 primi d'arco, oltre 5 gradi, che alla distanza di circa 61 kpc (200.000 anni luce) corrispondono a circa 5,7 kpc, cioè circa 18.500 anni luce. La NASA indica una distanza leggermente maggiore, circa 210.000 anni luce."
     },
     "ngc-3310": {
       "name": "NGC 3310",
-      "desc": ""
+      "desc": "NGC 3310 è una galassia a spirale nell'Orsa Maggiore con un'intensa formazione di stelle. Il suo diametro apparente di 3,1 primi d'arco corrisponde a circa 12 kpc (38.000 anni luce) alla distanza media di circa 13 Mpc riportata da NED. Le stime di distanza vanno però da circa 11 a 19 Mpc, e la NASA, che adotta 18 Mpc, indica un diametro di circa 52.000 anni luce."
     },
     "grande-nube-di-magellano": {
       "name": "Grande Nube di Magellano",
-      "desc": "Circa 32.000 anni luce. L'originale: 15.000."
+      "desc": "La Grande Nube di Magellano è una galassia satellite della Via Lattea, classificata come spirale barrata di tipo magellanico, a circa 50 kpc (163.000 anni luce). Il suo diametro maggiore apparente è di 645 primi d'arco, quasi 11 gradi, che a quella distanza corrispondono a circa 9,4 kpc, cioè circa 30.600 anni luce."
     },
     "ngc-7714": {
       "name": "NGC 7714",
-      "desc": ""
+      "desc": "NGC 7714 è una galassia a spirale nella costellazione dei Pesci, a circa 100 milioni di anni luce, deformata dall'interazione con la compagna più piccola NGC 7715. Il suo diametro apparente di 1,9 primi d'arco corrisponde a circa 16 kpc, cioè tra 50.000 e 55.000 anni luce secondo la distanza adottata. Le due galassie si sono sfiorate tra 100 e 200 milioni di anni fa e sono unite da un ponte di stelle."
     },
     "bolle-di-fermi": {
       "name": "Bolle di Fermi",
@@ -1730,19 +1730,19 @@
     },
     "galassia-occhio-nero": {
       "name": "Galassia Occhio Nero",
-      "desc": ""
+      "desc": "La Galassia Occhio Nero (M64) è una spirale nella Chioma di Berenice, nota per la fascia di polvere scura accanto al nucleo. Secondo NOIRLab misura circa 55.000 anni luce di diametro; dal diametro apparente di 10 primi d'arco e da una distanza di circa 5,5 Mpc (18 milioni di anni luce) si ottengono circa 53.000 anni luce. Contiene due sistemi di gas e stelle che ruotano in versi opposti."
     },
     "galassia-del-triangolo": {
       "name": "Galassia del Triangolo",
-      "desc": ""
+      "desc": "La Galassia del Triangolo (M33) è una spirale a circa 3 milioni di anni luce, terza per dimensioni nel Gruppo Locale dopo Andromeda e la Via Lattea. Secondo ESA/Hubble misura circa 60.000 anni luce di diametro e contiene circa 40 miliardi di stelle."
     },
     "galassia-vortice": {
       "name": "Galassia Vortice",
-      "desc": "Circa 77.000 anni luce."
+      "desc": "La Galassia Vortice (M51) è una spirale nei Cani da Caccia, in interazione con la piccola compagna NGC 5195. Il suo diametro apparente è di 11,2 primi d'arco, ma la distanza è incerta: tra circa 23 e 31 milioni di anni luce secondo le fonti. Ne risulta un diametro di circa 77.000 anni luce con la distanza media riportata da NED, mentre la NASA indica circa 60.000 anni luce."
     },
     "via-lattea": {
       "name": "Via Lattea",
-      "desc": "Il disco di stelle misura circa 87.400 anni luce. L'originale: 127.000."
+      "desc": "La Via Lattea è la galassia a spirale in cui si trova il Sole, che dista circa 8 kpc (26.000 anni luce) dal centro. Il diametro del disco stellare fino all'isofota di 25 magnitudini per secondo d'arco quadrato è stimato in 26,8 ± 1,1 kpc, cioè circa 87.400 anni luce. Il valore arrotondato più citato, anche dalla NASA, è di circa 100.000 anni luce."
     },
     "galassia-sombrero": {
       "name": "Galassia Sombrero",

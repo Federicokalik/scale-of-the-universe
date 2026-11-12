@@ -38,6 +38,11 @@ Aggiornato dopo ogni ondata. Le correzioni sono già applicate ai dati; le decis
 | Galassia Sombrero | 9,0 × 10²⁰ m | 7,5 × 10²⁰ m | NED (8,7′) per la distanza di McQuinn e colleghi (9,55 Mpc); ESA/Hubble dice 50.000 anni luce; incerta |
 | NGC 1232 | 1,9 × 10²¹ m | 1,2 × 10²¹ m | Chandra X-ray Center: circa 120.000 anni luce; NED |
 | IC 1101 | 3,8 × 10²² m | 1,6 × 10²² m | Marrero-de la Rosa e colleghi 2026 (preprint arXiv 2607.15340): diametro circa 520 kpc; incerta |
+| Canes Venatici I | 6,5 × 10¹⁹ m | 3,4 × 10¹⁹ m | Zucker e colleghi 2006: raggio di metà luce circa 550 pc, raddoppiato; incerta |
+| Nana Ellittica del Sagittario | 9,5 × 10¹⁹ m | 1,06 × 10²⁰ m | NED (450′) per la distanza di Monaco e colleghi (26,3 kpc); incerta |
+| NGC 3310 | 2,2 × 10²⁰ m | 3,6 × 10²⁰ m | NED (3,1′) per la distanza media; il vecchio valore era il limite inferiore NASA; incerta |
+| Grande Nube di Magellano | 3,05 × 10²⁰ m | 2,9 × 10²⁰ m | NED (645′) |
+| NGC 7714 | 3,5 × 10²⁰ m | 4,8 × 10²⁰ m | NED (1,9′) per la distanza ESA/Hubble; incerta |
 
 ## Decisioni aperte
 
@@ -122,6 +127,12 @@ Aggiornato dopo ogni ondata. Le correzioni sono già applicate ai dati; le decis
 78. **Universo intero**: nessuna fonte per 1,6 × 10²⁷ m: è una convenzione. Tenuto come ipotetico e incerto; il ricercatore lo segnala come candidato alla rimozione. Decide Federico.
 79. **Grande Muraglia Ercole-Corona Boreale**: l'articolo dà 2.000–3.000 Mpc; i "10 miliardi di anni luce" erano la distanza, non la dimensione. Valore lasciato (2,6% sopra l'estremo superiore), descrizione corretta, esistenza dibattuta.
 80. **Supervuoto di Eridano, Vuoto KBC, Arco Gigante, Huge-LQG**: strutture dalla realtà o dall'estensione discussa, segnate incerte. Per il supervuoto l'intervallo 1,6–2,5 miliardi di anni luce assume h = 0,7.
+81. **NGC 3310**: la NASA dichiara circa 16 kpc (4,9 × 10²⁰ m) a 18 Mpc; il valore applicato usa la distanza media di NED. Scegliere quale dei due.
+82. **Leo II**: 2 × 10¹⁹ m corrisponde al raggio mareale (632 pc), non al diametro (3,9 × 10¹⁹ m). Lasciato, segnato incerto: raddoppiare o tenere.
+83. **Grande Nube di Magellano**: correzione marginale (5–6%). In alternativa lasciare il valore di partenza.
+84. **Nana del Cane Maggiore**: la sua natura di galassia è contestata (potrebbe essere una normale popolazione del disco esterno). Segnata incerta.
+85. **Galassia Vortice**: NED per la distanza dà circa 100.000 anni luce, la NASA dice 60.000; il valore attuale (circa 77.000) sta in mezzo. Segnata incerta.
+86. **Via Lattea**: confermata su D25 = 26,8 kpc (circa 87.400 anni luce); la cifra divulgativa della NASA è "circa 100.000 anni luce".
 
 ## Da sistemare prima di chiudere la fase
 
@@ -138,8 +149,8 @@ Aggiornato dopo ogni ondata. Le correzioni sono già applicate ai dati; le decis
 
 ## Avanzamento
 
-Lotti applicati: black-holes, particles-1/2, atoms-1/2, waves-1/2, molecules-1/2, units-1/2/3, biology-1/2/3/4/5, objects-1/2/3/4/5, places-1/2/3/4, solar-system-1/2/3/4/5, stars-1/2/3/4, distances-1/2/3, nebulae-1/2/3, galaxies-2, cosmic-1/2 (434 oggetti su 447).
+Lotti applicati: tutti e 44 (446 oggetti su 447). L'unico oggetto non verificato è il fiammifero, proposto per la rimozione (decisione 9).
 
-Lotti da fare: galaxies-1.
+Lotti da fare: nessuno.
 
 Per ogni lotto: `node scripts/apply-research.mjs --check`, `node scripts/check-links.mjs`, campione di fonti riletto in modo indipendente, poi `node scripts/apply-research.mjs`, `npm run validate`, `npm test`, commit.
