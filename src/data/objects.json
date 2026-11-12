@@ -8571,18 +8571,19 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
-  },
-  {
-    "id": "abell-2029",
-    "size": 6e+22,
-    "kind": "c",
-    "glyph": "",
-    "flags": [],
-    "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "The Fornax Deep Survey with VST. VII. Evolution and Structure of Late Type Galaxies inside the Virial Radius of the Fornax Cluster",
+        "url": "https://arxiv.org/abs/1906.08704",
+        "publisher": "Raj et al., Astronomy & Astrophysics, arXiv"
+      },
+      {
+        "title": "Inside the Fiery Furnace: VLT Survey Telescope Captures the Fornax Cluster (eso1612)",
+        "url": "https://www.eso.org/public/news/eso1612/",
+        "publisher": "European Southern Observatory (ESO)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "gruppo-locale",
@@ -8591,20 +8592,65 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "The Local Group (Imagine the Universe)",
+        "url": "https://imagine.gsfc.nasa.gov/features/cosmic/local_group_info.html",
+        "publisher": "NASA Goddard Space Flight Center"
+      },
+      {
+        "title": "The observed properties of dwarf galaxies in and around the Local Group",
+        "url": "https://arxiv.org/abs/1204.1562",
+        "publisher": "McConnachie, The Astronomical Journal, arXiv"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "ammasso-della-vergine",
-    "size": 1.4e+23,
+    "size": 1.06e+23,
     "kind": "c",
     "glyph": "",
     "flags": [
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "The Extended Virgo Cluster Catalog",
+        "url": "https://ar5iv.labs.arxiv.org/html/1409.3283",
+        "publisher": "Kim et al., The Astrophysical Journal Supplement Series (testo completo arXiv 1409.3283)"
+      },
+      {
+        "title": "The ACS Virgo Cluster Survey. XIII. SBF Distance Catalog and the Three-Dimensional Structure of the Virgo Cluster",
+        "url": "https://arxiv.org/abs/astro-ph/0702510",
+        "publisher": "Mei et al., The Astrophysical Journal, arXiv"
+      }
+    ],
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "abell-2029",
+    "size": 1.18e+23,
+    "kind": "c",
+    "glyph": "",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [
+      {
+        "title": "X-ray observations of the galaxy cluster Abell 2029 to the virial radius",
+        "url": "https://ar5iv.labs.arxiv.org/html/1203.0486",
+        "publisher": "Walker et al., MNRAS (testo completo arXiv 1203.0486)"
+      },
+      {
+        "title": "Abell 2029: Hot News for Cold Dark Matter",
+        "url": "https://chandra.harvard.edu/photo/2003/abell2029/",
+        "publisher": "Chandra X-ray Center (NASA/SAO)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "alcioneo",
@@ -8656,10 +8702,23 @@
     "size": 1.04e+24,
     "kind": "c",
     "glyph": "",
-    "flags": [],
+    "flags": [
+      "u"
+    ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "The Local Supercluster (Imagine the Universe)",
+        "url": "https://imagine.gsfc.nasa.gov/features/cosmic/local_supercluster_info.html",
+        "publisher": "NASA Goddard Space Flight Center"
+      },
+      {
+        "title": "The Laniakea supercluster of galaxies",
+        "url": "https://www.nature.com/articles/nature13674",
+        "publisher": "Tully et al., Nature 513, 71–73 (2014)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "distanza-del-grande-attrattore",
@@ -8685,11 +8744,23 @@
     "kind": "c",
     "glyph": "",
     "flags": [
-      "n"
+      "n",
+      "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "A Survey of the Bootes Void",
+        "url": "https://articles.adsabs.harvard.edu/pdf/1987ApJ...314..493K",
+        "publisher": "Kirshner, Oemler, Schechter & Shectman, The Astrophysical Journal 314, 493 (1987), scansione ADS"
+      },
+      {
+        "title": "Survey of the Bootes Void",
+        "url": "https://www.cambridge.org/core/journals/symposium-international-astronomical-union/article/survey-of-the-bootes-void/6F39377E63896D57AC817C29885A21D1",
+        "publisher": "Kirshner et al., IAU Symposium 104, Cambridge University Press"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "scala-acustica-barionica",
@@ -8723,8 +8794,14 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "The Laniakea supercluster of galaxies",
+        "url": "https://www.nature.com/articles/nature13674",
+        "publisher": "Tully, Courtois, Hoffman & Pomarède, Nature 513, 71–73 (2014)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "distanza-del-superammasso-di-shapley",
@@ -8747,10 +8824,18 @@
     "size": 9.5e+24,
     "kind": "c",
     "glyph": "",
-    "flags": [],
+    "flags": [
+      "u"
+    ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "The Pisces-Cetus Supercluster Complex",
+        "url": "https://www.cambridge.org/core/journals/symposium-international-astronomical-union/article/piscescetus-supercluster-complex/F9924105D7B56C842AD938D163F9669C",
+        "publisher": "R. Brent Tully, IAU Symposium 130, Cambridge University Press"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "quipu",
@@ -8761,8 +8846,14 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Unveiling the largest structures in the nearby Universe: Discovery of the Quipu superstructure",
+        "url": "https://arxiv.org/abs/2501.19236",
+        "publisher": "Böhringer, Chon, Trümper, Kraan-Korteweg & Schartel, Astronomy & Astrophysics, arXiv"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "grande-muraglia-sloan",

@@ -1,0 +1,200 @@
+[
+  {
+    "id": "ammasso-della-fornace",
+    "size": 4.5e22,
+    "basis": "diametro dell'ammasso, pari a due raggi viriali",
+    "verdict": "confirmed",
+    "flags": ["r"],
+    "desc": "L'ammasso della Fornace è un ammasso di galassie nella costellazione australe omonima, il cui centro dista circa 65 milioni di anni luce dalla Terra. Il suo raggio viriale è di circa 0,7 megaparsec, quindi il diametro è di circa 1,4 megaparsec, cioè tra 4,5 e 5 milioni di anni luce. Contiene quasi sessanta galassie grandi e un numero simile di galassie nane, con al centro la galassia gigante NGC 1399.",
+    "sources": [
+      {
+        "title": "The Fornax Deep Survey with VST. VII. Evolution and Structure of Late Type Galaxies inside the Virial Radius of the Fornax Cluster",
+        "url": "https://arxiv.org/abs/1906.08704",
+        "publisher": "Raj et al., Astronomy & Astrophysics, arXiv",
+        "evidence": "inside the virial radius, Rvir 0.7 Mpc, of the Fornax cluster"
+      },
+      {
+        "title": "Inside the Fiery Furnace: VLT Survey Telescope Captures the Fornax Cluster (eso1612)",
+        "url": "https://www.eso.org/public/news/eso1612/",
+        "publisher": "European Southern Observatory (ESO)",
+        "evidence": "in the region of 65 million light-years from Earth"
+      }
+    ],
+    "note": "Calcolo: 2 × 0,7 Mpc = 1,4 Mpc × 3,0857e22 m = 4,32e22 m (4,6 milioni di anni luce), entro il 5% dal valore attuale di 4,5e22 m, che resta invariato. Gli ammassi non hanno un bordo netto: il raggio viriale è una convenzione. Numero di galassie e NGC 1399 dalla pagina ESO.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "abell-2029",
+    "size": 1.18e23,
+    "basis": "diametro dell'ammasso, pari a due raggi r200 (approssimazione del raggio viriale) misurati nei raggi X",
+    "verdict": "corrected",
+    "flags": ["r"],
+    "desc": "Abell 2029 è un ammasso di galassie molto massiccio a circa 1 miliardo di anni luce dalla Terra, con redshift 0,0767. Le osservazioni in raggi X del satellite Suzaku ne hanno misurato il raggio r200, usato come stima del raggio viriale, in 1,92 megaparsec: il diametro è quindi di circa 3,8 megaparsec, pari a circa 12,5 milioni di anni luce. Comprende migliaia di galassie immerse in una gigantesca nube di gas caldo.",
+    "sources": [
+      {
+        "title": "X-ray observations of the galaxy cluster Abell 2029 to the virial radius",
+        "url": "https://ar5iv.labs.arxiv.org/html/1203.0486",
+        "publisher": "Walker et al., MNRAS (testo completo arXiv 1203.0486)",
+        "evidence": "22′ ... which is 1.9Mpc, and is equal to our measurement of r200"
+      },
+      {
+        "title": "Abell 2029: Hot News for Cold Dark Matter",
+        "url": "https://chandra.harvard.edu/photo/2003/abell2029/",
+        "publisher": "Chandra X-ray Center (NASA/SAO)",
+        "evidence": "About 1 billion light years (z = 0.0767)"
+      }
+    ],
+    "note": "Corretto da 6e22 m a 1,18e23 m. Il valore precedente (6e22 m = 1,94 Mpc) coincide con il raggio r200 e non con il diametro. Calcolo: r200 = 1,92 (+0,11, −0,13) Mpc, pari a 22,0 primi d'arco; 2 × 1,92 Mpc = 3,84 Mpc × 3,0857e22 m = 1,18e23 m = 12,5 milioni di anni luce. La frase su migliaia di galassie e gas caldo viene dalla pagina Chandra.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "gruppo-locale",
+    "size": 9.5e22,
+    "basis": "diametro del gruppo di galassie",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il Gruppo Locale è il gruppo di galassie a cui appartiene la Via Lattea e si estende per quasi 10 milioni di anni luce. I membri più massicci sono Andromeda (M31) e la Via Lattea, seguiti dalla galassia del Triangolo (M33). Un censimento del 2012 elenca più di 100 galassie entro 3 megaparsec dal Sole, quasi tutte nane, dentro e attorno al gruppo.",
+    "sources": [
+      {
+        "title": "The Local Group (Imagine the Universe)",
+        "url": "https://imagine.gsfc.nasa.gov/features/cosmic/local_group_info.html",
+        "publisher": "NASA Goddard Space Flight Center",
+        "evidence": "spread over a diameter of nearly 10 million light years"
+      },
+      {
+        "title": "The observed properties of dwarf galaxies in and around the Local Group",
+        "url": "https://arxiv.org/abs/1204.1562",
+        "publisher": "McConnachie, The Astronomical Journal, arXiv",
+        "evidence": "Over 100 nearby galaxies ... within 3Mpc of the Sun"
+      }
+    ],
+    "note": "10 milioni di anni luce = 9,46e22 m, coerente con 9,5e22 m. Il \"centinaio di galassie minori\" della descrizione precedente è stato riformulato: la pagina NASA (datata) parla di oltre 30 membri, mentre McConnachie 2012 conta oltre 100 galassie entro 3 Mpc dal Sole, cioè dentro e attorno al gruppo, non tutte membri certi.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "ammasso-della-vergine",
+    "size": 1.06e23,
+    "basis": "diametro dell'ammasso, pari a due raggi viriali (12° in cielo alla distanza di 16,5 Mpc)",
+    "verdict": "corrected",
+    "flags": ["r"],
+    "desc": "L'ammasso della Vergine è il grande ammasso di galassie più vicino, a 16,5 megaparsec, cioè circa 54 milioni di anni luce. Il suo raggio viriale è di 6 gradi in cielo, pari a 1,72 megaparsec: il diametro è quindi di circa 3,4 megaparsec, ossia circa 11 milioni di anni luce, anche se l'ammasso non ha un bordo netto. Il catalogo classico dell'ammasso elenca 2.096 galassie.",
+    "sources": [
+      {
+        "title": "The Extended Virgo Cluster Catalog",
+        "url": "https://ar5iv.labs.arxiv.org/html/1409.3283",
+        "publisher": "Kim et al., The Astrophysical Journal Supplement Series (testo completo arXiv 1409.3283)",
+        "evidence": "R vir = 6 deg or 1.72 Mpc"
+      },
+      {
+        "title": "The ACS Virgo Cluster Survey. XIII. SBF Distance Catalog and the Three-Dimensional Structure of the Virgo Cluster",
+        "url": "https://arxiv.org/abs/astro-ph/0702510",
+        "publisher": "Mei et al., The Astrophysical Journal, arXiv",
+        "evidence": "adopted mean distance of 16.5+/-0.1 (random mean error) +/-1.1 Mpc"
+      }
+    ],
+    "note": "Corretto da 1,4e23 m a 1,06e23 m. Il valore precedente (circa 15 milioni di anni luce) non è stato trovato in nessuna fonte primaria aperta. Calcolo: 2 × 1,72 Mpc = 3,44 Mpc × 3,0857e22 m = 1,06e23 m = 11,2 milioni di anni luce; distanza 16,5 Mpc × 3,2616 = 53,8 milioni di anni luce. Stesso criterio (due raggi viriali) usato per Fornace e Abell 2029. Altre misure danno valori diversi: Mei et al. trovano una profondità lungo la linea di vista di 2,4 ± 0,4 Mpc, mentre l'area del catalogo VCC arriva a circa 10° dal centro. Il numero 2.096 (catalogo VCC di Binggeli et al. 1985) è citato nel testo di Kim et al.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "superammasso-della-vergine",
+    "size": 1.04e24,
+    "basis": "diametro del superammasso (struttura appiattita senza confini netti)",
+    "verdict": "uncertain",
+    "flags": ["u"],
+    "desc": "Il Superammasso della Vergine, o Superammasso Locale, è l'insieme appiattito di circa 50 gruppi di galassie, tra cui il Gruppo Locale, centrato sull'ammasso della Vergine. Non ha confini netti e il suo diametro è stimato in modo approssimativo in circa 100 milioni di anni luce, con una massa di circa 10¹⁵ masse solari. Nel 2014 è stato definito Laniakea, un superammasso molto più esteso che comprende anche l'ammasso della Vergine.",
+    "sources": [
+      {
+        "title": "The Local Supercluster (Imagine the Universe)",
+        "url": "https://imagine.gsfc.nasa.gov/features/cosmic/local_supercluster_info.html",
+        "publisher": "NASA Goddard Space Flight Center",
+        "evidence": "a diameter measuring roughly 100 million light years or so"
+      },
+      {
+        "title": "The Laniakea supercluster of galaxies",
+        "url": "https://www.nature.com/articles/nature13674",
+        "publisher": "Tully et al., Nature 513, 71–73 (2014)",
+        "evidence": "It includes the Virgo cluster, the Norma, Hydra and Centaurus clusters"
+      }
+    ],
+    "note": "La NASA dà circa 100 milioni di anni luce (9,46e23 m) con formula volutamente vaga; il valore attuale 1,04e24 m (110 milioni di anni luce, 33 Mpc) è più alto del 10% e non è stato trovato in una fonte istituzionale aperta. La dimensione è una convenzione, quindi resta invariata con flag u. La frase precedente \"oggi è considerato un lobo di Laniakea\" è stata attenuata: la pagina di Nature conferma solo che Laniakea include l'ammasso della Vergine, non usa il termine lobo.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "vuoto-del-boote",
+    "size": 3.1e24,
+    "basis": "diametro del vuoto, approssimativamente sferico (due raggi)",
+    "verdict": "uncertain",
+    "flags": ["n", "u"],
+    "desc": "Il Vuoto del Boote è una regione quasi sferica e quasi priva di galassie nella direzione della costellazione del Boote. Lo studio del 1987 che ne ha confermato l'esistenza gli assegna un raggio di 62 megaparsec, calcolato però con una costante di Hubble di 50 km/s per megaparsec. Con i valori odierni della costante il diametro scende da circa 400 a circa 280 o 300 milioni di anni luce, per cui la cifra di 330 milioni è solo indicativa.",
+    "sources": [
+      {
+        "title": "A Survey of the Bootes Void",
+        "url": "https://articles.adsabs.harvard.edu/pdf/1987ApJ...314..493K",
+        "publisher": "Kirshner, Oemler, Schechter & Shectman, The Astrophysical Journal 314, 493 (1987), scansione ADS",
+        "evidence": "a large, roughly spherical void, of radius 62 Mpc"
+      },
+      {
+        "title": "Survey of the Bootes Void",
+        "url": "https://www.cambridge.org/core/journals/symposium-international-astronomical-union/article/survey-of-the-bootes-void/6F39377E63896D57AC817C29885A21D1",
+        "publisher": "Kirshner et al., IAU Symposium 104, Cambridge University Press",
+        "evidence": "a spherical volume 6000 km/s in diameter in which no objects are found"
+      }
+    ],
+    "note": "Il testo del 1987 precisa \"assuming H0 = 50 km/s/Mpc\" e centra il vuoto a cz = 15.500 km/s. Calcolo: diametro 124 Mpc con H0 = 50, cioè 6.200 km/s; 124 × 3,2616 = 404 milioni di anni luce. Riscalato: H0 = 70 dà 88,6 Mpc = 289 milioni di anni luce (2,73e24 m); H0 = 67,4 dà 92 Mpc = 300 milioni; H0 = 73 dà 85 Mpc = 277 milioni. Il valore attuale di 3,1e24 m (330 milioni di anni luce) cade dentro l'intervallo 277-404 ma non corrisponde a nessuna fonte primaria: lasciato invariato con flag u. Se si preferisce un valore coerente con H0 = 70 usare 2,7e24 m. L'articolo del 1987 è consultabile solo come PDF scansionato: la pagina di abstract ADS richiede JavaScript e non è stata citata. I valori di H0 usati per il riscalamento sono quelli correnti in letteratura e non provengono dalle due fonti.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "laniakea",
+    "size": 4.9e24,
+    "basis": "diametro del superammasso, definito dal bacino di attrazione dei flussi di galassie",
+    "verdict": "confirmed",
+    "flags": ["n"],
+    "desc": "Laniakea è il superammasso a cui appartiene la Via Lattea, definito nel 2014 da Brent Tully e colleghi come il volume entro cui i moti delle galassie convergono verso l'interno. Ha un diametro di 160 megaparsec, circa 520 milioni di anni luce, e contiene una massa di 10¹⁷ masse solari in circa 100.000 grandi galassie. Il nome viene dall'hawaiano e unisce le parole per cielo e spazioso.",
+    "sources": [
+      {
+        "title": "The Laniakea supercluster of galaxies",
+        "url": "https://www.nature.com/articles/nature13674",
+        "publisher": "Tully, Courtois, Hoffman & Pomarède, Nature 513, 71–73 (2014)",
+        "evidence": "a supercluster 160 megaparsecs across and containing 10^17 solar masses"
+      }
+    ],
+    "note": "160 Mpc × 3,0857e22 m = 4,94e24 m = 522 milioni di anni luce, coerente con 4,9e24 m. Massa, numero di galassie ed etimologia dalla stessa pagina di Nature.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "complesso-pesci-balena",
+    "size": 9.5e24,
+    "basis": "estensione maggiore del complesso di superammassi",
+    "verdict": "uncertain",
+    "flags": ["u"],
+    "desc": "Il Complesso di superammassi Pesci-Balena è una struttura proposta da Brent Tully nel 1986 e 1987, in cui gli ammassi ricchi di galassie si raggruppano in complessi di circa 50 ammassi. Tully ne stima l'estensione in circa 300 megaparsec, cioè circa 1 miliardo di anni luce, un valore che dipende dalla costante di Hubble adottata. Secondo l'autore ne fa parte anche la nostra regione di universo, con gli ammassi concentrati sul piano tracciato dalle galassie vicine.",
+    "sources": [
+      {
+        "title": "The Pisces-Cetus Supercluster Complex",
+        "url": "https://www.cambridge.org/core/journals/symposium-international-astronomical-union/article/piscescetus-supercluster-complex/F9924105D7B56C842AD938D163F9669C",
+        "publisher": "R. Brent Tully, IAU Symposium 130, Cambridge University Press",
+        "evidence": "of order 50 clusters over regions roughly 300 h75−1 Mpc across"
+      }
+    ],
+    "note": "300 Mpc (con H0 = 75) × 3,0857e22 m = 9,26e24 m = 978 milioni di anni luce, entro il 3% dal valore attuale di 9,5e24 m, che resta invariato. Verdetto uncertain perché la cifra è una stima arrotondata che scala con la costante di Hubble (321 Mpc con H0 = 70) e perché si tratta di una struttura proposta da un solo autore, non di un oggetto con confini misurati. Gli articoli originali del 1986 e 1987 su ApJ non sono stati aperti (pagine ADS non leggibili senza JavaScript).",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "quipu",
+    "size": 1.23e25,
+    "basis": "lunghezza della superstruttura (limite inferiore)",
+    "verdict": "confirmed",
+    "flags": ["n"],
+    "desc": "Quipu è una superstruttura di ammassi di galassie individuata con una mappa degli ammassi osservati nei raggi X a distanze tra 130 e 250 megaparsec e presentata nel 2025 da Hans Böhringer e colleghi. È lunga più di 400 megaparsec, cioè oltre 1,3 miliardi di anni luce, con una massa stimata di circa 2 × 10¹⁷ masse solari. Gli autori la descrivono come la più grande struttura cosmica scoperta finora.",
+    "sources": [
+      {
+        "title": "Unveiling the largest structures in the nearby Universe: Discovery of the Quipu superstructure",
+        "url": "https://arxiv.org/abs/2501.19236",
+        "publisher": "Böhringer, Chon, Trümper, Kraan-Korteweg & Schartel, Astronomy & Astrophysics, arXiv",
+        "evidence": "the largest has a length longer than 400 Mpc"
+      }
+    ],
+    "note": "400 Mpc × 3,0857e22 m = 1,234e25 m = 1,30 miliardi di anni luce: il valore attuale corrisponde al limite inferiore dato nell'abstract. Il superlativo della descrizione precedente (\"la più grande struttura misurata in modo affidabile\") è stato attribuito agli autori, che scrivono \"the largest cosmic structure discovered to date\"; non è stato verificato in modo indipendente rispetto ad altre strutture candidate più estese. L'anno 2025 è quello di deposito su arXiv (31 gennaio 2025) e di accettazione su A&A.",
+    "verified": "2026-11-12"
+  }
+]

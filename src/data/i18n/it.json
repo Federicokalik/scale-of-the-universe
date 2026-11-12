@@ -1794,19 +1794,19 @@
     },
     "ammasso-della-fornace": {
       "name": "Ammasso della Fornace",
-      "desc": ""
+      "desc": "L'ammasso della Fornace è un ammasso di galassie nella costellazione australe omonima, il cui centro dista circa 65 milioni di anni luce dalla Terra. Il suo raggio viriale è di circa 0,7 megaparsec, quindi il diametro è di circa 1,4 megaparsec, cioè tra 4,5 e 5 milioni di anni luce. Contiene quasi sessanta galassie grandi e un numero simile di galassie nane, con al centro la galassia gigante NGC 1399."
     },
     "abell-2029": {
       "name": "Abell 2029",
-      "desc": ""
+      "desc": "Abell 2029 è un ammasso di galassie molto massiccio a circa 1 miliardo di anni luce dalla Terra, con redshift 0,0767. Le osservazioni in raggi X del satellite Suzaku ne hanno misurato il raggio r200, usato come stima del raggio viriale, in 1,92 megaparsec: il diametro è quindi di circa 3,8 megaparsec, pari a circa 12,5 milioni di anni luce. Comprende migliaia di galassie immerse in una gigantesca nube di gas caldo."
     },
     "gruppo-locale": {
       "name": "Gruppo Locale",
-      "desc": "Via Lattea, Andromeda e un centinaio di galassie minori."
+      "desc": "Il Gruppo Locale è il gruppo di galassie a cui appartiene la Via Lattea e si estende per quasi 10 milioni di anni luce. I membri più massicci sono Andromeda (M31) e la Via Lattea, seguiti dalla galassia del Triangolo (M33). Un censimento del 2012 elenca più di 100 galassie entro 3 megaparsec dal Sole, quasi tutte nane, dentro e attorno al gruppo."
     },
     "ammasso-della-vergine": {
       "name": "Ammasso della Vergine",
-      "desc": "Circa 15 milioni di anni luce."
+      "desc": "L'ammasso della Vergine è il grande ammasso di galassie più vicino, a 16,5 megaparsec, cioè circa 54 milioni di anni luce. Il suo raggio viriale è di 6 gradi in cielo, pari a 1,72 megaparsec: il diametro è quindi di circa 3,4 megaparsec, ossia circa 11 milioni di anni luce, anche se l'ammasso non ha un bordo netto. Il catalogo classico dell'ammasso elenca 2.096 galassie."
     },
     "alcioneo": {
       "name": "Alcioneo",
@@ -1822,7 +1822,7 @@
     },
     "superammasso-della-vergine": {
       "name": "Superammasso della Vergine",
-      "desc": "Oggi è considerato un lobo di Laniakea."
+      "desc": "Il Superammasso della Vergine, o Superammasso Locale, è l'insieme appiattito di circa 50 gruppi di galassie, tra cui il Gruppo Locale, centrato sull'ammasso della Vergine. Non ha confini netti e il suo diametro è stimato in modo approssimativo in circa 100 milioni di anni luce, con una massa di circa 10¹⁵ masse solari. Nel 2014 è stato definito Laniakea, un superammasso molto più esteso che comprende anche l'ammasso della Vergine."
     },
     "distanza-del-grande-attrattore": {
       "name": "Distanza del Grande Attrattore",
@@ -1830,7 +1830,7 @@
     },
     "vuoto-del-boote": {
       "name": "Vuoto del Boote",
-      "desc": "Una bolla quasi priva di galassie, larga 330 milioni di anni luce."
+      "desc": "Il Vuoto del Boote è una regione quasi sferica e quasi priva di galassie nella direzione della costellazione del Boote. Lo studio del 1987 che ne ha confermato l'esistenza gli assegna un raggio di 62 megaparsec, calcolato però con una costante di Hubble di 50 km/s per megaparsec. Con i valori odierni della costante il diametro scende da circa 400 a circa 280 o 300 milioni di anni luce, per cui la cifra di 330 milioni è solo indicativa."
     },
     "scala-acustica-barionica": {
       "name": "Scala acustica barionica",
@@ -1838,7 +1838,7 @@
     },
     "laniakea": {
       "name": "Laniakea",
-      "desc": "Il superammasso a cui appartiene la Via Lattea, definito nel 2014: 520 milioni di anni luce."
+      "desc": "Laniakea è il superammasso a cui appartiene la Via Lattea, definito nel 2014 da Brent Tully e colleghi come il volume entro cui i moti delle galassie convergono verso l'interno. Ha un diametro di 160 megaparsec, circa 520 milioni di anni luce, e contiene una massa di 10¹⁷ masse solari in circa 100.000 grandi galassie. Il nome viene dall'hawaiano e unisce le parole per cielo e spazioso."
     },
     "distanza-del-superammasso-di-shapley": {
       "name": "Distanza del superammasso di Shapley",
@@ -1846,11 +1846,11 @@
     },
     "complesso-pesci-balena": {
       "name": "Complesso Pesci–Balena",
-      "desc": ""
+      "desc": "Il Complesso di superammassi Pesci-Balena è una struttura proposta da Brent Tully nel 1986 e 1987, in cui gli ammassi ricchi di galassie si raggruppano in complessi di circa 50 ammassi. Tully ne stima l'estensione in circa 300 megaparsec, cioè circa 1 miliardo di anni luce, un valore che dipende dalla costante di Hubble adottata. Secondo l'autore ne fa parte anche la nostra regione di universo, con gli ammassi concentrati sul piano tracciato dalle galassie vicine."
     },
     "quipu": {
       "name": "Quipu",
-      "desc": "Scoperta nel 2025: con 1,3 miliardi di anni luce è la più grande struttura misurata in modo affidabile."
+      "desc": "Quipu è una superstruttura di ammassi di galassie individuata con una mappa degli ammassi osservati nei raggi X a distanze tra 130 e 250 megaparsec e presentata nel 2025 da Hans Böhringer e colleghi. È lunga più di 400 megaparsec, cioè oltre 1,3 miliardi di anni luce, con una massa stimata di circa 2 × 10¹⁷ masse solari. Gli autori la descrivono come la più grande struttura cosmica scoperta finora."
     },
     "grande-muraglia-sloan": {
       "name": "Grande Muraglia Sloan",

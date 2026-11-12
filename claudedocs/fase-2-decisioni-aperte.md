@@ -33,6 +33,8 @@ Aggiornato dopo ogni ondata. Le correzioni sono già applicate ai dati; le decis
 | Nebulosa Tarantola | 6 × 10¹⁸ m | 9,5 × 10¹⁸ m | ESO: quasi 1.000 anni luce |
 | Nebulosa Testa di Cavallo | 3,3 × 10¹⁶ m | 4,7 × 10¹⁶ m | NASA Science (APOD): alta circa 5 anni luce |
 | Nebulosa Grotta | 6,6 × 10¹⁷ m | 3,8 × 10¹⁷ m | NASA Science (Caldwell 9): circa 40 anni luce |
+| Abell 2029 | 6 × 10²² m | 1,18 × 10²³ m | Walker e colleghi 2012 (MNRAS): r200 = 1,92 Mpc; il vecchio valore era il raggio, non il diametro |
+| Ammasso della Vergine | 1,4 × 10²³ m | 1,06 × 10²³ m | Kim e colleghi 2014 (ApJS): raggio viriale 1,72 Mpc, raddoppiato |
 
 ## Decisioni aperte
 
@@ -106,6 +108,11 @@ Aggiornato dopo ogni ondata. Le correzioni sono già applicate ai dati; le decis
 67. **Nebulosa del Granchio**: lasciata a 11 anni luce (NASA), ma altre pagine NASA dicono 6 e 10.
 68. **Nebulosa di Orione**: 24 anni luce derivati da dimensione angolare e distanza; una pagina NASA APOD dice 40.
 69. **Nube Interstellare Locale**: la cifra (circa 30 anni luce) è citata da Physics Today perché il comunicato NASA originale non è più raggiungibile.
+70. **Ammasso della Vergine**: nessuna fonte primaria aperta dà i 15 milioni di anni luce di partenza; la correzione usa il doppio del raggio viriale. In alternativa: tenere il vecchio valore segnato incerto.
+71. **Vuoto del Boote**: l'articolo del 1987 dà un raggio di 62 Mpc con H0 = 50, cioè 280–400 milioni di anni luce a seconda della costante usata. Lasciato 3,1 × 10²⁴ m, segnato incerto; con H0 = 70 sarebbe 2,7 × 10²⁴ m. La fonte è un PDF scansionato.
+72. **Superammasso della Vergine**: la NASA dice "circa 100 milioni di anni luce"; lasciati 110, segnato incerto.
+73. **Complesso Pesci-Balena**: unica fonte un atto di simposio ("circa 300 Mpc"). Segnato incerto.
+74. **Quipu**: "la più grande" è attribuito agli autori dello studio (2025), non è un primato accertato.
 
 ## Da sistemare prima di chiudere la fase
 
@@ -121,8 +128,8 @@ Aggiornato dopo ogni ondata. Le correzioni sono già applicate ai dati; le decis
 
 ## Avanzamento
 
-Lotti applicati: black-holes, particles-1/2, atoms-1/2, waves-1/2, molecules-1/2, units-1/2/3, biology-1/2/3/4/5, objects-1/2/3/4/5, places-1/2/3/4, solar-system-1/2/3/4/5, stars-1/2/3/4, distances-1/2/3, nebulae-1/2/3 (406 oggetti su 447).
+Lotti applicati: black-holes, particles-1/2, atoms-1/2, waves-1/2, molecules-1/2, units-1/2/3, biology-1/2/3/4/5, objects-1/2/3/4/5, places-1/2/3/4, solar-system-1/2/3/4/5, stars-1/2/3/4, distances-1/2/3, nebulae-1/2/3, cosmic-1 (415 oggetti su 447).
 
-Lotti da fare: galaxies-1/2, cosmic-1/2.
+Lotti da fare: galaxies-1/2, cosmic-2.
 
 Per ogni lotto: `node scripts/apply-research.mjs --check`, `node scripts/check-links.mjs`, campione di fonti riletto in modo indipendente, poi `node scripts/apply-research.mjs`, `npm run validate`, `npm test`, commit.
