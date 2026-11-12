@@ -1,0 +1,282 @@
+[
+  {
+    "id": "titania",
+    "size": 1577000,
+    "basis": "diametro medio (due volte il raggio medio)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Titania è la luna più grande di Urano, con un diametro medio di circa 1.578 km. La sonda Voyager 2 vi ha fotografato un sistema di valli di faglia lunghe fino a circa 1.600 km, segno di un'antica attività geologica.",
+    "sources": [
+      {
+        "title": "Planetary Satellite Physical Parameters",
+        "url": "https://ssd.jpl.nasa.gov/sats/phys_par/",
+        "publisher": "NASA JPL Solar System Dynamics",
+        "evidence": "Titania: Mean Radius (km) 788.9"
+      },
+      {
+        "title": "Titania",
+        "url": "https://science.nasa.gov/uranus/moons/titania/",
+        "publisher": "NASA Science",
+        "evidence": "Titania is Uranus' largest moon"
+      }
+    ],
+    "note": "Raggio medio JPL 788,9 ± 1,8 km × 2 = 1.577,8 km; il valore attuale 1.577.000 m è entro lo 0,1%.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "eris",
+    "size": 2326000,
+    "basis": "diametro (da occultazione stellare, corpo assunto sferico)",
+    "verdict": "confirmed",
+    "flags": [
+      "r"
+    ],
+    "desc": "Eris è un pianeta nano oltre l'orbita di Nettuno. L'occultazione di una stella osservata nel 2010 ha dato un diametro di 2.326 km, con un'incertezza di 12 km: circa 50 km meno di Plutone. La sua massa è però superiore a quella di Plutone del 27%.",
+    "sources": [
+      {
+        "title": "Faraway Eris is Pluto's Twin (eso1142)",
+        "url": "https://www.eso.org/public/news/eso1142/",
+        "publisher": "ESO",
+        "evidence": "diameter stands at 2326 kilometres, with an accuracy of 12 kilometres"
+      },
+      {
+        "title": "Astronomers Use Hubble to 'Weigh' Dwarf Planet Eris",
+        "url": "https://hubblesite.org/contents/news-releases/2007/news-2007-24.html",
+        "publisher": "STScI / HubbleSite",
+        "evidence": "Eris is 1.27 times the mass of Pluto"
+      }
+    ],
+    "note": "Diametro 2.326 ± 12 km (Sicardy et al., Nature 2011, riportato da ESO). Differenza con Plutone: 2.377 − 2.326 = 51 km. La pagina ESO conferma anche ' 27% heavier than Pluto'. Flag r già presente e mantenuto.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "plutone",
+    "size": 2377000,
+    "basis": "diametro medio (due volte il raggio medio)",
+    "verdict": "confirmed",
+    "flags": [
+      "r"
+    ],
+    "desc": "Plutone è un pianeta nano della fascia di Kuiper, con un diametro di circa 2.377 km, pari a circa due terzi di quello della Luna. L'unica sonda che lo ha visitato da vicino è New Horizons della NASA, che lo ha sorvolato il 14 luglio 2015.",
+    "sources": [
+      {
+        "title": "Pluto Facts",
+        "url": "https://science.nasa.gov/dwarf-planets/pluto/facts/",
+        "publisher": "NASA Science",
+        "evidence": "equatorial diameter of about 1,477 miles (2,377 kilometers)"
+      },
+      {
+        "title": "Pluto Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/plutofact.html",
+        "publisher": "NASA NSSDCA",
+        "evidence": "Volumetric mean radius (km) 1188"
+      }
+    ],
+    "note": "NASA Science dà 2.377 km; la scheda NSSDCA dà raggio medio 1.188 km × 2 = 2.376 km. Differenza 0,04%, valore mantenuto. La pagina NASA conferma il sorvolo di New Horizons del 2015 ma non dice esplicitamente che il diametro è una misura di New Horizons: la frase è stata riformulata. Flag r già presente e mantenuto.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "tritone",
+    "size": 2707000,
+    "basis": "diametro medio (due volte il raggio medio)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Tritone è la luna più grande di Nettuno, con un diametro medio di circa 2.705 km. È l'unica grande luna del Sistema Solare con orbita retrograda, cioè percorsa in senso opposto alla rotazione del pianeta. La sua crosta è fatta di azoto ghiacciato.",
+    "sources": [
+      {
+        "title": "Planetary Satellite Physical Parameters",
+        "url": "https://ssd.jpl.nasa.gov/sats/phys_par/",
+        "publisher": "NASA JPL Solar System Dynamics",
+        "evidence": "Triton: Mean Radius (km) 1352.60"
+      },
+      {
+        "title": "Triton",
+        "url": "https://science.nasa.gov/neptune/moons/triton/",
+        "publisher": "NASA Science",
+        "evidence": "the only large moon in our solar system that orbits in the opposite direction"
+      }
+    ],
+    "note": "Raggio medio JPL 1.352,60 ± 2,40 km × 2 = 2.705,2 km; il valore attuale 2.707.000 m differisce dello 0,07%, quindi è mantenuto.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "europa",
+    "size": 3122000,
+    "basis": "diametro medio (due volte il raggio medio)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Europa è una delle quattro lune galileiane di Giove, con un diametro medio di circa 3.122 km, poco meno di quello della Luna. La sonda Europa Clipper della NASA, partita il 14 ottobre 2024, raggiungerà Giove nell'aprile 2030 e compirà 49 sorvoli ravvicinati di Europa.",
+    "sources": [
+      {
+        "title": "Planetary Satellite Physical Parameters",
+        "url": "https://ssd.jpl.nasa.gov/sats/phys_par/",
+        "publisher": "NASA JPL Solar System Dynamics",
+        "evidence": "Europa: Mean Radius (km) 1560.80"
+      },
+      {
+        "title": "Europa Clipper",
+        "url": "https://science.nasa.gov/mission/europa-clipper/",
+        "publisher": "NASA Science",
+        "evidence": "to reach Jupiter in April 2030"
+      }
+    ],
+    "note": "Raggio medio JPL 1.560,80 ± 0,30 km × 2 = 3.121,6 km. Data di arrivo confermata: aprile 2030 (arrivo a Giove, non in orbita attorno a Europa).",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "luna",
+    "size": 3475000,
+    "basis": "diametro medio (due volte il raggio medio)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "La Luna è l'unico satellite naturale della Terra, con un diametro medio di circa 3.475 km. La missione Artemis II, partita il 1° aprile 2026 e rientrata il 10 aprile, ha portato quattro astronauti attorno alla Luna: per la NASA è il primo sorvolo lunare con equipaggio da 50 anni.",
+    "sources": [
+      {
+        "title": "Planetary Satellite Physical Parameters",
+        "url": "https://ssd.jpl.nasa.gov/sats/phys_par/",
+        "publisher": "NASA JPL Solar System Dynamics",
+        "evidence": "Moon: Mean Radius (km) 1737.4"
+      },
+      {
+        "title": "Artemis II: NASA's First Crewed Lunar Flyby in 50 Years",
+        "url": "https://www.nasa.gov/mission/artemis-ii/",
+        "publisher": "NASA",
+        "evidence": "Launched April 1, 2026; splashdown April 10, 2026"
+      }
+    ],
+    "note": "Raggio medio JPL 1.737,4 ± 0,1 km × 2 = 3.474,8 km (stesso valore nella scheda NSSDCA della Luna). Artemis II confermata: lancio 1 aprile 2026, ammaraggio 10 aprile 2026. La pagina NASA dice 'in 50 Years' e non cita il 1972: l'anno è stato tolto dalla descrizione.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "io",
+    "size": 3643000,
+    "basis": "diametro medio (due volte il raggio medio)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Io è la più interna delle quattro lune galileiane di Giove, con un diametro medio di circa 3.643 km, poco più della Luna. È il corpo con la maggiore attività vulcanica del Sistema Solare: ha centinaia di vulcani, alimentati dalle maree provocate da Giove e dalle lune vicine.",
+    "sources": [
+      {
+        "title": "Planetary Satellite Physical Parameters",
+        "url": "https://ssd.jpl.nasa.gov/sats/phys_par/",
+        "publisher": "NASA JPL Solar System Dynamics",
+        "evidence": "Io: Mean Radius (km) 1821.49"
+      },
+      {
+        "title": "Io",
+        "url": "https://science.nasa.gov/jupiter/jupiter-moons/io/",
+        "publisher": "NASA Science",
+        "evidence": "the most volcanically active world in the solar system"
+      }
+    ],
+    "note": "Raggio medio JPL 1.821,49 ± 0,50 km × 2 = 3.642,98 km.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "callisto",
+    "size": 4821000,
+    "basis": "diametro medio (due volte il raggio medio)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Callisto è la seconda luna di Giove per dimensioni e la terza del Sistema Solare, con un diametro medio di circa 4.821 km. Secondo la NASA è l'oggetto più craterizzato del Sistema Solare. I dati della sonda Galileo indicano che potrebbe nascondere un oceano salato sotto la superficie.",
+    "sources": [
+      {
+        "title": "Planetary Satellite Physical Parameters",
+        "url": "https://ssd.jpl.nasa.gov/sats/phys_par/",
+        "publisher": "NASA JPL Solar System Dynamics",
+        "evidence": "Callisto: Mean Radius (km) 2410.30"
+      },
+      {
+        "title": "Callisto",
+        "url": "https://science.nasa.gov/jupiter/jupiter-moons/callisto/",
+        "publisher": "NASA Science",
+        "evidence": "the most heavily cratered object in our solar system"
+      }
+    ],
+    "note": "Raggio medio JPL 2.410,30 ± 1,50 km × 2 = 4.820,6 km. La descrizione era vuota: scritta da zero.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "mercurio",
+    "size": 4879000,
+    "basis": "diametro medio (due volte il raggio medio volumetrico)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Mercurio è il pianeta più vicino al Sole, con un diametro medio di circa 4.879 km. La sonda BepiColombo di ESA e JAXA, partita il 20 ottobre 2018, ha in programma l'ingresso in orbita attorno al pianeta il 21 novembre 2026. L'inizio delle osservazioni scientifiche è previsto per aprile 2027.",
+    "sources": [
+      {
+        "title": "Mercury Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/mercuryfact.html",
+        "publisher": "NASA NSSDCA",
+        "evidence": "Volumetric mean radius (km) 2439.7"
+      },
+      {
+        "title": "BepiColombo factsheet",
+        "url": "https://www.esa.int/Science_Exploration/Space_Science/BepiColombo/BepiColombo_factsheet",
+        "publisher": "ESA",
+        "evidence": "MPO+Mio enter Mercury orbit: 21 November 2026"
+      }
+    ],
+    "note": "Raggio medio 2.439,7 km × 2 = 4.879,4 km. Alla data di verifica (12 novembre 2026) l'inserzione in orbita di BepiColombo è ancora futura: la pagina ESA degli aggiornamenti (6 ottobre 2026) conferma il 21 novembre 2026. La frase andrà aggiornata dopo quella data.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "titano",
+    "size": 5150000,
+    "basis": "diametro medio del corpo solido (due volte il raggio medio, atmosfera esclusa)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Titano è la luna più grande di Saturno, con un diametro medio di circa 5.150 km. È l'unica luna del Sistema Solare con un'atmosfera densa e l'unico luogo oltre la Terra con liquidi stabili in superficie, sotto forma di laghi e mari di idrocarburi. Il lancio del drone Dragonfly della NASA è previsto non prima di luglio 2028, con arrivo alla fine del 2034.",
+    "sources": [
+      {
+        "title": "Planetary Satellite Physical Parameters",
+        "url": "https://ssd.jpl.nasa.gov/sats/phys_par/",
+        "publisher": "NASA JPL Solar System Dynamics",
+        "evidence": "Titan: Mean Radius (km) 2574.76"
+      },
+      {
+        "title": "Titan",
+        "url": "https://science.nasa.gov/saturn/moons/titan/",
+        "publisher": "NASA Science",
+        "evidence": "the only moon in our solar system known to have a substantial atmosphere"
+      },
+      {
+        "title": "Dragonfly",
+        "url": "https://science.nasa.gov/mission/dragonfly/",
+        "publisher": "NASA Science",
+        "evidence": "Launch NET July 2028; Arrival Late 2034"
+      }
+    ],
+    "note": "Raggio medio JPL 2.574,76 ± 0,02 km × 2 = 5.149,52 km. Dragonfly: 'NET July 2028' conferma 'non prima del 2028'.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "ganimede",
+    "size": 5268000,
+    "basis": "diametro medio (due volte il raggio medio)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Ganimede, luna di Giove, è la più grande del Sistema Solare: con un diametro medio di circa 5.262 km supera anche il pianeta Mercurio. È l'unica luna con un campo magnetico proprio. La sonda Juice dell'ESA, partita il 14 aprile 2023, arriverà a Giove nel luglio 2031 e concluderà la missione in orbita attorno a Ganimede.",
+    "sources": [
+      {
+        "title": "Planetary Satellite Physical Parameters",
+        "url": "https://ssd.jpl.nasa.gov/sats/phys_par/",
+        "publisher": "NASA JPL Solar System Dynamics",
+        "evidence": "Ganymede: Mean Radius (km) 2631.20"
+      },
+      {
+        "title": "Ganymede",
+        "url": "https://science.nasa.gov/jupiter/jupiter-moons/ganymede/",
+        "publisher": "NASA Science",
+        "evidence": "the only moon to have its own magnetic field"
+      },
+      {
+        "title": "Juice factsheet",
+        "url": "https://www.esa.int/Science_Exploration/Space_Science/Juice/Juice_factsheet",
+        "publisher": "ESA",
+        "evidence": "It will reach Jupiter in July 2031"
+      }
+    ],
+    "note": "Raggio medio JPL 2.631,20 ± 1,70 km × 2 = 5.262,4 km; il valore attuale 5.268.000 m differisce dello 0,1% ed è mantenuto. Precisazione: nel 2031 Juice arriva nel sistema di Giove, non direttamente a Ganimede; l'orbita attorno a Ganimede viene dopo i sorvoli delle lune (la scheda ESA non ne dà la data).",
+    "verified": "2026-11-12"
+  }
+]

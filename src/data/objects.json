@@ -5019,8 +5019,19 @@
     "glyph": "#b9bcc2",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Planetary Satellite Physical Parameters",
+        "url": "https://ssd.jpl.nasa.gov/sats/phys_par/",
+        "publisher": "NASA JPL Solar System Dynamics"
+      },
+      {
+        "title": "Titania",
+        "url": "https://science.nasa.gov/uranus/moons/titania/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "grande-barriera-corallina",
@@ -5049,8 +5060,19 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Faraway Eris is Pluto's Twin (eso1142)",
+        "url": "https://www.eso.org/public/news/eso1142/",
+        "publisher": "ESO"
+      },
+      {
+        "title": "Astronomers Use Hubble to 'Weigh' Dwarf Planet Eris",
+        "url": "https://hubblesite.org/contents/news-releases/2007/news-2007-24.html",
+        "publisher": "STScI / HubbleSite"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "plutone",
@@ -5061,8 +5083,19 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Pluto Facts",
+        "url": "https://science.nasa.gov/dwarf-planets/pluto/facts/",
+        "publisher": "NASA Science"
+      },
+      {
+        "title": "Pluto Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/plutofact.html",
+        "publisher": "NASA NSSDCA"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "tritone",
@@ -5071,8 +5104,19 @@
     "glyph": "#d8c7c0",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Planetary Satellite Physical Parameters",
+        "url": "https://ssd.jpl.nasa.gov/sats/phys_par/",
+        "publisher": "NASA JPL Solar System Dynamics"
+      },
+      {
+        "title": "Triton",
+        "url": "https://science.nasa.gov/neptune/moons/triton/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "europa",
@@ -5081,8 +5125,19 @@
     "glyph": "#d9cdb8",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Planetary Satellite Physical Parameters",
+        "url": "https://ssd.jpl.nasa.gov/sats/phys_par/",
+        "publisher": "NASA JPL Solar System Dynamics"
+      },
+      {
+        "title": "Europa Clipper",
+        "url": "https://science.nasa.gov/mission/europa-clipper/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "luna",
@@ -5091,8 +5146,19 @@
     "glyph": "#c9c9c9",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Planetary Satellite Physical Parameters",
+        "url": "https://ssd.jpl.nasa.gov/sats/phys_par/",
+        "publisher": "NASA JPL Solar System Dynamics"
+      },
+      {
+        "title": "Artemis II: NASA's First Crewed Lunar Flyby in 50 Years",
+        "url": "https://www.nasa.gov/mission/artemis-ii/",
+        "publisher": "NASA"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "io",
@@ -5101,8 +5167,19 @@
     "glyph": "#e8d44d",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Planetary Satellite Physical Parameters",
+        "url": "https://ssd.jpl.nasa.gov/sats/phys_par/",
+        "publisher": "NASA JPL Solar System Dynamics"
+      },
+      {
+        "title": "Io",
+        "url": "https://science.nasa.gov/jupiter/jupiter-moons/io/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "larghezza-degli-stati-uniti",
@@ -5127,8 +5204,19 @@
     "glyph": "#6b5d52",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Planetary Satellite Physical Parameters",
+        "url": "https://ssd.jpl.nasa.gov/sats/phys_par/",
+        "publisher": "NASA JPL Solar System Dynamics"
+      },
+      {
+        "title": "Callisto",
+        "url": "https://science.nasa.gov/jupiter/jupiter-moons/callisto/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "mercurio",
@@ -5137,8 +5225,19 @@
     "glyph": "#9c9892",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Mercury Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/mercuryfact.html",
+        "publisher": "NASA NSSDCA"
+      },
+      {
+        "title": "BepiColombo factsheet",
+        "url": "https://www.esa.int/Science_Exploration/Space_Science/BepiColombo/BepiColombo_factsheet",
+        "publisher": "ESA"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "titano",
@@ -5147,8 +5246,24 @@
     "glyph": "#d9a441",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Planetary Satellite Physical Parameters",
+        "url": "https://ssd.jpl.nasa.gov/sats/phys_par/",
+        "publisher": "NASA JPL Solar System Dynamics"
+      },
+      {
+        "title": "Titan",
+        "url": "https://science.nasa.gov/saturn/moons/titan/",
+        "publisher": "NASA Science"
+      },
+      {
+        "title": "Dragonfly",
+        "url": "https://science.nasa.gov/mission/dragonfly/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "ganimede",
@@ -5157,8 +5272,24 @@
     "glyph": "#a39a8c",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Planetary Satellite Physical Parameters",
+        "url": "https://ssd.jpl.nasa.gov/sats/phys_par/",
+        "publisher": "NASA JPL Solar System Dynamics"
+      },
+      {
+        "title": "Ganymede",
+        "url": "https://science.nasa.gov/jupiter/jupiter-moons/ganymede/",
+        "publisher": "NASA Science"
+      },
+      {
+        "title": "Juice factsheet",
+        "url": "https://www.esa.int/Science_Exploration/Space_Science/Juice/Juice_factsheet",
+        "publisher": "ESA"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "marte",

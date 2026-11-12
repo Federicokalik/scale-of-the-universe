@@ -1142,7 +1142,7 @@
     },
     "titania": {
       "name": "Titania",
-      "desc": "La luna più grande di Urano."
+      "desc": "Titania è la luna più grande di Urano, con un diametro medio di circa 1.578 km. La sonda Voyager 2 vi ha fotografato un sistema di valli di faglia lunghe fino a circa 1.600 km, segno di un'antica attività geologica."
     },
     "grande-barriera-corallina": {
       "name": "Grande Barriera Corallina",
@@ -1150,27 +1150,27 @@
     },
     "eris": {
       "name": "Eris",
-      "desc": "Più piccola di Plutone di una cinquantina di chilometri, ma più massiccia."
+      "desc": "Eris è un pianeta nano oltre l'orbita di Nettuno. L'occultazione di una stella osservata nel 2010 ha dato un diametro di 2.326 km, con un'incertezza di 12 km: circa 50 km meno di Plutone. La sua massa è però superiore a quella di Plutone del 27%."
     },
     "plutone": {
       "name": "Plutone",
-      "desc": "Misura di New Horizons (2015)."
+      "desc": "Plutone è un pianeta nano della fascia di Kuiper, con un diametro di circa 2.377 km, pari a circa due terzi di quello della Luna. L'unica sonda che lo ha visitato da vicino è New Horizons della NASA, che lo ha sorvolato il 14 luglio 2015."
     },
     "tritone": {
       "name": "Tritone",
-      "desc": "Luna di Nettuno dall'orbita retrograda."
+      "desc": "Tritone è la luna più grande di Nettuno, con un diametro medio di circa 2.705 km. È l'unica grande luna del Sistema Solare con orbita retrograda, cioè percorsa in senso opposto alla rotazione del pianeta. La sua crosta è fatta di azoto ghiacciato."
     },
     "europa": {
       "name": "Europa",
-      "desc": "La sonda Europa Clipper è in viaggio e arriva nel 2030."
+      "desc": "Europa è una delle quattro lune galileiane di Giove, con un diametro medio di circa 3.122 km, poco meno di quello della Luna. La sonda Europa Clipper della NASA, partita il 14 ottobre 2024, raggiungerà Giove nell'aprile 2030 e compirà 49 sorvoli ravvicinati di Europa."
     },
     "luna": {
       "name": "Luna",
-      "desc": "Nell'aprile 2026 Artemis II ha riportato un equipaggio attorno alla Luna, per la prima volta dal 1972."
+      "desc": "La Luna è l'unico satellite naturale della Terra, con un diametro medio di circa 3.475 km. La missione Artemis II, partita il 1° aprile 2026 e rientrata il 10 aprile, ha portato quattro astronauti attorno alla Luna: per la NASA è il primo sorvolo lunare con equipaggio da 50 anni."
     },
     "io": {
       "name": "Io",
-      "desc": "Il corpo più vulcanico del Sistema Solare."
+      "desc": "Io è la più interna delle quattro lune galileiane di Giove, con un diametro medio di circa 3.643 km, poco più della Luna. È il corpo con la maggiore attività vulcanica del Sistema Solare: ha centinaia di vulcani, alimentati dalle maree provocate da Giove e dalle lune vicine."
     },
     "larghezza-degli-stati-uniti": {
       "name": "Larghezza degli Stati Uniti",
@@ -1178,19 +1178,19 @@
     },
     "callisto": {
       "name": "Callisto",
-      "desc": ""
+      "desc": "Callisto è la seconda luna di Giove per dimensioni e la terza del Sistema Solare, con un diametro medio di circa 4.821 km. Secondo la NASA è l'oggetto più craterizzato del Sistema Solare. I dati della sonda Galileo indicano che potrebbe nascondere un oceano salato sotto la superficie."
     },
     "mercurio": {
       "name": "Mercurio",
-      "desc": "La sonda BepiColombo entra in orbita nel novembre 2026."
+      "desc": "Mercurio è il pianeta più vicino al Sole, con un diametro medio di circa 4.879 km. La sonda BepiColombo di ESA e JAXA, partita il 20 ottobre 2018, ha in programma l'ingresso in orbita attorno al pianeta il 21 novembre 2026. L'inizio delle osservazioni scientifiche è previsto per aprile 2027."
     },
     "titano": {
       "name": "Titano",
-      "desc": "La missione Dragonfly partirà non prima del 2028."
+      "desc": "Titano è la luna più grande di Saturno, con un diametro medio di circa 5.150 km. È l'unica luna del Sistema Solare con un'atmosfera densa e l'unico luogo oltre la Terra con liquidi stabili in superficie, sotto forma di laghi e mari di idrocarburi. Il lancio del drone Dragonfly della NASA è previsto non prima di luglio 2028, con arrivo alla fine del 2034."
     },
     "ganimede": {
       "name": "Ganimede",
-      "desc": "La luna più grande del Sistema Solare. La sonda JUICE la raggiunge nel 2031."
+      "desc": "Ganimede, luna di Giove, è la più grande del Sistema Solare: con un diametro medio di circa 5.262 km supera anche il pianeta Mercurio. È l'unica luna con un campo magnetico proprio. La sonda Juice dell'ESA, partita il 14 aprile 2023, arriverà a Giove nel luglio 2031 e concluderà la missione in orbita attorno a Ganimede."
     },
     "marte": {
       "name": "Marte",
