@@ -144,8 +144,8 @@
     "sources": [
       {
         "title": "Bacteriophage T4 Head: Structure, Assembly, and Genome Packaging",
-        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9958956/fullTextXML",
-        "publisher": "Rao, Fokine, Fang e Shao, Viruses 2023 (testo integrale via Europe PMC)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9958956/",
+        "publisher": "Rao, Fokine, Fang e Shao, Viruses 2023 (testo integrale su PubMed Central)",
         "evidence": "T4 has a 140 nm long contractile tail"
       },
       {
@@ -177,8 +177,8 @@
       },
       {
         "title": "The minimal gene complement of Mycoplasma genitalium",
-        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE:%22The%20minimal%20gene%20complement%20of%20Mycoplasma%20genitalium%22&resultType=core&format=json",
-        "publisher": "Fraser et al., Science 1995 (record Europe PMC, PMID 7569993)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/7569993/",
+        "publisher": "Fraser et al., Science 1995 (record PubMed, PMID 7569993)",
         "evidence": "the smallest known genome of any free-living organism"
       }
     ],
@@ -215,8 +215,8 @@
     "sources": [
       {
         "title": "Thirty-thousand-year-old distant relative of giant icosahedral DNA viruses with a pandoravirus morphology",
-        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:24591590%20AND%20SRC:MED&resultType=core&format=json",
-        "publisher": "Legendre et al., PNAS 2014 (record Europe PMC, PMID 24591590)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24591590/",
+        "publisher": "Legendre et al., PNAS 2014 (record PubMed, PMID 24591590)",
         "evidence": "an even larger pandoravirus-like particle 1.5 μm in length"
       }
     ],

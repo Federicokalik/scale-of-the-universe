@@ -931,9 +931,9 @@
     "image": null,
     "sources": [
       {
-        "title": "Vertical MoS2 transistors with sub-1-nm gate lengths (Wu et al., Nature 603, 259-264, 2022), record Europe PMC",
-        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038/s41586-021-04323-3&resultType=core&format=json",
-        "publisher": "Europe PMC (abstract dell'articolo su Nature, PMID 35264756)"
+        "title": "Vertical MoS2 transistors with sub-1-nm gate lengths (Wu et al., Nature 603, 259-264, 2022)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35264756/",
+        "publisher": "PubMed, National Library of Medicine (abstract dell'articolo su Nature, PMID 35264756)"
       },
       {
         "title": "These Transistor Gates Are Just One Carbon Atom Thick",
@@ -982,12 +982,12 @@
     "sources": [
       {
         "title": "Caffeine (CID 2519), 3D conformer record",
-        "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/2519/record/JSON?record_type=3d",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/2519#section=3D-Conformer",
         "publisher": "PubChem, National Library of Medicine (NIH)"
       },
       {
         "title": "Caffeine (CID 2519), computed properties",
-        "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/2519/property/MolecularFormula,MolecularWeight,IUPACName,Title/JSON",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/2519#section=Computed-Properties",
         "publisher": "PubChem, National Library of Medicine (NIH)"
       }
     ],
@@ -1008,7 +1008,7 @@
       },
       {
         "title": "D-Glucose (CID 5793), computed properties",
-        "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/5793/property/MolecularFormula,MolecularWeight,Title/JSON",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5793#section=Computed-Properties",
         "publisher": "PubChem, National Library of Medicine (NIH)"
       }
     ],
@@ -1468,8 +1468,8 @@
     "sources": [
       {
         "title": "Bacteriophage T4 Head: Structure, Assembly, and Genome Packaging",
-        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9958956/fullTextXML",
-        "publisher": "Rao, Fokine, Fang e Shao, Viruses 2023 (testo integrale via Europe PMC)"
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9958956/",
+        "publisher": "Rao, Fokine, Fang e Shao, Viruses 2023 (testo integrale su PubMed Central)"
       },
       {
         "title": "Tequatrovirus",
@@ -1497,8 +1497,8 @@
       },
       {
         "title": "The minimal gene complement of Mycoplasma genitalium",
-        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE:%22The%20minimal%20gene%20complement%20of%20Mycoplasma%20genitalium%22&resultType=core&format=json",
-        "publisher": "Fraser et al., Science 1995 (record Europe PMC, PMID 7569993)"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/7569993/",
+        "publisher": "Fraser et al., Science 1995 (record PubMed, PMID 7569993)"
       }
     ],
     "verified": "2026-11-12"
@@ -1633,8 +1633,8 @@
     "sources": [
       {
         "title": "Thirty-thousand-year-old distant relative of giant icosahedral DNA viruses with a pandoravirus morphology",
-        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:24591590%20AND%20SRC:MED&resultType=core&format=json",
-        "publisher": "Legendre et al., PNAS 2014 (record Europe PMC, PMID 24591590)"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24591590/",
+        "publisher": "Legendre et al., PNAS 2014 (record PubMed, PMID 24591590)"
       }
     ],
     "verified": "2026-11-12"

@@ -91,7 +91,7 @@
     "dialog.sources.woh": "WOH G64: <a href=\"https://arxiv.org/pdf/0903.2260\">Levesque e colleghi, 2009</a>, più gli studi 2024–2026 sulla sua trasformazione.",
     "dialog.diff.title": "In cosa differisce dall'originale",
     "dialog.diff.intro": "L'originale è Scale of the Universe 2 di Cary e Michael Huang (2012). Questa edizione ne riprende l'idea e l'elenco degli oggetti, e cambia il resto:",
-    "dialog.diff.values": "{r} valori dell'elenco del 2012 sono stati corretti o aggiornati; dove serve, la scheda riporta il valore di partenza.",
+    "dialog.diff.values": "{r} valori dell'elenco del 2012 sono stati corretti o aggiornati; ogni scheda indica la fonte del valore attuale.",
     "dialog.diff.new": "{new} oggetti sono nuovi, in gran parte scoperte o misure degli anni 2015–2026.",
     "dialog.diff.flags": "Ogni oggetto ipotetico ({i}) o dalla misura incerta ({u}) è segnalato come tale, invece di essere mostrato come un fatto.",
     "dialog.diff.art": "Grafica, testi, codice e musica sono stati rifatti da zero: niente dell'opera originale è stato copiato.",

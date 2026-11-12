@@ -92,9 +92,9 @@
     "desc": "È un transistor con canale di disolfuro di molibdeno in cui il gate è il bordo di un foglio di grafene, spesso un solo atomo: 0,34 nm. Lo ha presentato su Nature nel marzo 2022 un gruppo della Tsinghua University di Pechino; il primato precedente, del 2021, era di 0,65 nm. Secondo le simulazioni degli autori il canale efficace è lungo 0,34 nm a transistor acceso e 4,54 nm a transistor spento.",
     "sources": [
       {
-        "title": "Vertical MoS2 transistors with sub-1-nm gate lengths (Wu et al., Nature 603, 259-264, 2022), record Europe PMC",
-        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038/s41586-021-04323-3&resultType=core&format=json",
-        "publisher": "Europe PMC (abstract dell'articolo su Nature, PMID 35264756)",
+        "title": "Vertical MoS2 transistors with sub-1-nm gate lengths (Wu et al., Nature 603, 259-264, 2022)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35264756/",
+        "publisher": "PubMed, National Library of Medicine (abstract dell'articolo su Nature, PMID 35264756)",
         "evidence": "effective channel length approaches 0.34 nm in the On state"
       },
       {
@@ -117,13 +117,13 @@
     "sources": [
       {
         "title": "Caffeine (CID 2519), 3D conformer record",
-        "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/2519/record/JSON?record_type=3d",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/2519#section=3D-Conformer",
         "publisher": "PubChem, National Library of Medicine (NIH)",
         "evidence": "atoms 17 (-2.5186, -2.7596, 0.0011) and 19 (4.1992, 0.7801, 0.0002)"
       },
       {
         "title": "Caffeine (CID 2519), computed properties",
-        "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/2519/property/MolecularFormula,MolecularWeight,IUPACName,Title/JSON",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/2519#section=Computed-Properties",
         "publisher": "PubChem, National Library of Medicine (NIH)",
         "evidence": "C8H10N4O2; 1,3,7-trimethylpurine-2,6-dione"
       }
@@ -147,7 +147,7 @@
       },
       {
         "title": "D-Glucose (CID 5793), computed properties",
-        "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/5793/property/MolecularFormula,MolecularWeight,Title/JSON",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5793#section=Computed-Properties",
         "publisher": "PubChem, National Library of Medicine (NIH)",
         "evidence": "C6H12O6"
       }
