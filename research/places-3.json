@@ -1,0 +1,212 @@
+[
+  {
+    "id": "monte-bianco",
+    "size": 4806,
+    "basis": "quota della vetta sul livello del mare, calotta di ghiaccio e neve compresa",
+    "verdict": "confirmed",
+    "flags": ["n"],
+    "desc": "Il Monte Bianco è la vetta più alta delle Alpi e dell'Europa occidentale, al confine tra Italia e Francia. La misura dei geometri dell'Alta Savoia dell'ottobre 2026 dà 4.807,47 m, quasi due metri in più rispetto al 2023. La quota cambia da un rilievo all'altro perché vento e precipitazioni spostano la neve che ricopre la cima.",
+    "sources": [
+      {
+        "title": "Il Monte Bianco guadagna quasi due metri: ora arriva a 4.807,47 metri",
+        "url": "https://it.euronews.com/2026/10/14/il-monte-bianco-guadagna-quasi-due-metri-ora-arriva-a-480747-metri",
+        "publisher": "Euronews (da AP), misura dei geometri esperti dell'Alta Savoia",
+        "evidence": "raggiunge ora i 4.807,47 metri, quasi due metri in più rispetto al 2023"
+      },
+      {
+        "title": "Bianco, Monte",
+        "url": "https://www.treccani.it/enciclopedia/monte-bianco/",
+        "publisher": "Treccani, Enciclopedia on line",
+        "evidence": "Il massiccio più elevato (4810 m) delle Alpi"
+      }
+    ],
+    "note": "4.806 m sta tra le misure recenti (4.807,47 m nel 2026) e resta entro lo 0,1% anche dal valore storico di 4.810 m: dimensione invariata. La frase attuale sulla variazione di qualche metro è confermata nella sostanza, ma la fonte la attribuisce a neve, vento e precipitazioni, non a una misura dello spessore del ghiaccio: riformulata. Il comunicato originale dei geometri non era raggiungibile (rete limitata), quindi la misura è citata tramite Euronews.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "palm-jebel-ali",
+    "size": 7000,
+    "basis": "estensione massima indicativa del complesso (larghezza)",
+    "verdict": "uncertain",
+    "flags": ["u"],
+    "desc": "Palm Jebel Ali è un grande progetto costiero di Dubai, nella zona di Jebel Ali, sviluppato dalla società Nakheel. Il piano approvato nel maggio 2023 indica una superficie di 13,4 km², il doppio di Palm Jumeirah, e circa 110 km di nuova costa. La larghezza di circa 7 km qui usata è una stima indicativa: le fonti ufficiali non riportano una lunghezza.",
+    "sources": [
+      {
+        "title": "Mohammed bin Rashid approves new futuristic masterplan for Palm Jebel Ali",
+        "url": "https://www.mediaoffice.ae/en/news/2023/May/31-05/Mohammed-bin-Rashid-approves-new-futuristic-masterplan-for-Palm-Jebel-Ali",
+        "publisher": "Government of Dubai Media Office",
+        "evidence": "Spanning an area of 13.4 square kilometres and occupying an area twice the size of Palm Jumeirah"
+      }
+    ],
+    "note": "Nessuna fonte ufficiale aperta riporta la larghezza o la lunghezza dell'isola: il comunicato del governo di Dubai dà solo superficie (13,4 km²) e costa aggiunta (circa 110 km). I 7 km restano quindi una stima non verificata, compatibile come ordine di grandezza con la superficie; aggiunto il flag u. Da verificare su una mappa o su un documento tecnico di Nakheel se si vuole un valore misurato.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "large-hadron-collider",
+    "size": 8500,
+    "basis": "diametro equivalente dell'anello (circonferenza divisa per pi greco)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il Large Hadron Collider del CERN, vicino a Ginevra, è il più grande e potente acceleratore di particelle del mondo. Il suo anello sotterraneo ha una circonferenza di 26.659 m, che corrisponde a un diametro di circa 8,5 km, e contiene 9.593 magneti. È entrato in funzione il 10 settembre 2008 nel tunnel costruito in origine per il LEP.",
+    "sources": [
+      {
+        "title": "The Large Hadron Collider",
+        "url": "https://home.cern/science/accelerators/large-hadron-collider",
+        "publisher": "CERN",
+        "evidence": "Circumference 26 659 m"
+      }
+    ],
+    "note": "Calcolo: 26.659 m / 3,1416 = 8.486 m, entro lo 0,2% da 8.500 m. La descrizione attuale indicava 26,7 km: sostituita con il valore esatto del CERN. La stessa pagina riporta la data di avvio, il numero di magneti e il primato.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "lep",
+    "size": 8520,
+    "basis": "diametro equivalente dell'anello (circonferenza divisa per pi greco)",
+    "verdict": "confirmed",
+    "flags": ["r"],
+    "desc": "Il LEP (Large Electron-Positron Collider) del CERN è stato il più grande acceleratore di elettroni e positroni mai costruito, con una circonferenza di 27 km e quindi un diametro di circa 8,5 km. Entrò in servizio nel luglio 1989 e fu spento il 2 novembre 2000. Il suo tunnel ospita oggi il Large Hadron Collider.",
+    "sources": [
+      {
+        "title": "The Large Electron-Positron Collider",
+        "url": "https://home.cern/science/accelerators/large-electron-positron-collider",
+        "publisher": "CERN",
+        "evidence": "With its 27-kilometre circumference"
+      },
+      {
+        "title": "The Large Hadron Collider",
+        "url": "https://home.cern/science/accelerators/large-hadron-collider",
+        "publisher": "CERN",
+        "evidence": "The LHC occupies the same tunnel originally built for its predecessor"
+      }
+    ],
+    "note": "Calcolo: 27 km / 3,1416 = 8,59 km; con la circonferenza esatta del tunnel riportata per LHC, 26.659 m / 3,1416 = 8.486 m. Il valore attuale di 8.520 m sta tra i due, entro l'1%. Rimossa la frase \"L'originale: 10 km\": riguarda la vecchia lista, non l'oggetto.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "monte-everest",
+    "size": 8849,
+    "basis": "quota della vetta sul livello del mare",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "L'Everest, sul confine tra il Nepal e la Regione Autonoma del Tibet in Cina, è la montagna più alta della Terra sul livello del mare. La sua vetta è a 8.848,86 m, secondo la misura annunciata nel 2020 dai topografi cinesi e nepalesi. La prima salita documentata è quella di Edmund Hillary e Tenzing Norgay, il 29 maggio 1953.",
+    "sources": [
+      {
+        "title": "Highest mountain",
+        "url": "https://www.guinnessworldrecords.com/world-records/highest-mountain",
+        "publisher": "Guinness World Records",
+        "evidence": "With its summit at 8,848.86 m (29,031 ft 8 in) above sea level"
+      }
+    ],
+    "note": "8.848,86 m arrotondato a 8.849 m. La stessa pagina conferma l'iniziativa congiunta sino-nepalese del 2020, la posizione e la prima salita.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "fossa-delle-marianne-profondita",
+    "size": 10935,
+    "basis": "profondità massima sotto il livello del mare (Abisso Challenger)",
+    "verdict": "confirmed",
+    "flags": ["r"],
+    "desc": "L'Abisso Challenger, nella Fossa delle Marianne, è il punto più profondo dei mari: si trova nell'Oceano Pacifico, circa 300 km a sud-ovest di Guam. Le immersioni con equipaggio del giugno 2020 hanno misurato 10.935 m, con un'incertezza di 6 m. Le misure fatte dalla superficie danno valori diversi, da 10.900 a 11.034 m.",
+    "sources": [
+      {
+        "title": "Deepest point in the sea",
+        "url": "https://www.guinnessworldrecords.com/world-records/deepest-point-in-the-sea",
+        "publisher": "Guinness World Records",
+        "evidence": "10,935 m (35,876 ft), give or take 6 m (95% probability)"
+      }
+    ],
+    "note": "Valore confermato: è la misura delle immersioni di Victor Vescovo con il DSV Limiting Factor (giugno 2020), verificata da idrografi indipendenti. La pagina riporta anche 10.994 m misurati nel 2010 dalla nave USNS Sumner e l'intervallo storico delle misure da superficie.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "olympus-mons-altezza",
+    "size": 21900,
+    "basis": "altezza della vetta rispetto al livello di riferimento di Marte; l'altezza dalla base è maggiore",
+    "verdict": "uncertain",
+    "flags": ["n", "u"],
+    "desc": "Olympus Mons è un vulcano a scudo di Marte, il più grande vulcano e la montagna più alta del Sistema Solare. Il Guinness World Records indica 25 km dalla base alla vetta, quasi tre volte l'Everest, ma il valore cambia secondo il riferimento scelto per misurarlo. Nonostante l'altezza ha pendii molto dolci, perché è oltre 20 volte più largo che alto.",
+    "sources": [
+      {
+        "title": "Tallest mountain in the Solar System",
+        "url": "https://www.guinnessworldrecords.com/world-records/highest-mountain-in-the-solar-system",
+        "publisher": "Guinness World Records",
+        "evidence": "Its peak is 25 km (15 miles) above its base"
+      },
+      {
+        "title": "Mars: Facts",
+        "url": "https://science.nasa.gov/mars/facts/",
+        "publisher": "NASA Science",
+        "evidence": "Mars is home to the largest volcano in the solar system, Olympus Mons"
+      }
+    ],
+    "note": "ATTENZIONE: il valore di 21,9 km (quota sopra il livello di riferimento, dall'altimetro MOLA di Mars Global Surveyor) non è stato verificato su una pagina aperta, perché i siti NASA/USGS che lo riportano erano bloccati dalla rete della sessione. Le fonti aperte danno altezze dalla base: 25 km (Guinness) e \"more than 25 miles ... 40 kilometers\" (pagina NASA Mars Facts, valore anomalo rispetto al resto della letteratura). Per questo il verdetto è uncertain con flag u e la dimensione resta invariata; la descrizione cita solo il valore verificato (25 km dalla base). Prima della pubblicazione conviene confermare i 21,9 km su una fonte MOLA, oppure portare la dimensione a 25.000 m (dalla base).",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "future-circular-collider",
+    "size": 29000,
+    "basis": "diametro equivalente dell'anello proposto (circonferenza divisa per pi greco)",
+    "verdict": "confirmed",
+    "flags": ["n", "i"],
+    "desc": "Il Future Circular Collider è l'acceleratore proposto dal CERN come successore di LHC: un anello di 90,7 km di circonferenza, cioè circa 29 km di diametro, in un tunnel a una profondità media di 200 m sotto Francia e Svizzera. Lo studio di fattibilità è stato pubblicato nel 2025. Non è ancora approvato: la decisione sulla costruzione è attesa intorno al 2028.",
+    "sources": [
+      {
+        "title": "Future Circular Collider",
+        "url": "https://home.cern/science/accelerators/future-circular-collider",
+        "publisher": "CERN",
+        "evidence": "90.7 kilometres The circumference of the accelerator ring"
+      }
+    ],
+    "note": "Calcolo: 90,7 km / 3,1416 = 28,87 km, entro lo 0,5% da 29.000 m. La pagina conferma anche: \"A decision on whether the FCC will be built is expected around 2028\", profondità media di 200 m e risultati dello studio pubblicati nella primavera 2025. Progetto non realizzato: resta il flag i.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "rhode-island",
+    "size": 77000,
+    "basis": "lunghezza massima dello Stato, da nord a sud",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il Rhode Island è il più piccolo degli Stati Uniti: è lungo circa 48 miglia, cioè 77 km, e largo 37 miglia, circa 60 km. Si trova nel nord-est del paese, tra Massachusetts, Connecticut e Oceano Atlantico, con capitale Providence. È uno dei 13 Stati originari.",
+    "sources": [
+      {
+        "title": "Rhode Island",
+        "url": "https://kids.nationalgeographic.com/explore/states/rhode-island/",
+        "publisher": "National Geographic Kids",
+        "evidence": "Rhode Island is only about 48 miles long and 37 miles wide"
+      },
+      {
+        "title": "Rhode Island",
+        "url": "https://www.treccani.it/enciclopedia/rhode-island/",
+        "publisher": "Treccani, Enciclopedia on line",
+        "evidence": "uno dei 13 originari, compreso tra il Massachusetts, il Connecticut e l'Atlantico"
+      }
+    ],
+    "note": "Calcolo: 48 miglia × 1,609344 km = 77,2 km; 37 miglia × 1,609344 km = 59,5 km. Valore confermato. Britannica riporta le stesse cifre secondo i risultati di ricerca, ma la pagina non si è aperta (blocco anti-bot) e quindi non è citata.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "brunei",
+    "size": 120000,
+    "basis": "estensione massima indicativa del territorio, da ovest a est",
+    "verdict": "uncertain",
+    "flags": ["u"],
+    "desc": "Il Brunei è un piccolo sultanato sulla costa nord-occidentale dell'isola del Borneo, con capitale Bandar Seri Begawan e una superficie di 5.765 km². È circondato dallo Stato malese di Sarawak, che con una striscia di territorio lo divide in due parti. L'estensione di circa 120 km qui usata è una stima indicativa, non una misura ufficiale.",
+    "sources": [
+      {
+        "title": "Brunei (Enciclopedia Italiana, V Appendice)",
+        "url": "https://www.treccani.it/enciclopedia/brunei_(Enciclopedia-Italiana)/",
+        "publisher": "Treccani, Enciclopedia Italiana",
+        "evidence": "Il sultanato ha una superficie di 5765 km 2"
+      },
+      {
+        "title": "Brunei",
+        "url": "https://www.treccani.it/enciclopedia/brunei/",
+        "publisher": "Treccani, Enciclopedia on line",
+        "evidence": "circondato dallo Stato malese di Sarawak, che vi protende una striscia di territorio"
+      }
+    ],
+    "note": "Nessuna fonte aperta riporta l'estensione lineare del paese: le fonti danno solo la superficie (5.765 km²). I 120 km restano una stima non verificata, da controllare su una carta; aggiunto il flag u. Il CIA World Factbook non è più disponibile (dismesso nel febbraio 2026, la pagina del paese reindirizza a un avviso) e Britannica non si è aperta.",
+    "verified": "2026-11-12"
+  }
+]

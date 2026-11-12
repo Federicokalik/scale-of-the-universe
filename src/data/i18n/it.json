@@ -962,27 +962,27 @@
     },
     "monte-bianco": {
       "name": "Monte Bianco",
-      "desc": "La quota cambia di qualche metro con lo spessore del ghiaccio."
+      "desc": "Il Monte Bianco è la vetta più alta delle Alpi e dell'Europa occidentale, al confine tra Italia e Francia. La misura dei geometri dell'Alta Savoia dell'ottobre 2026 dà 4.807,47 m, quasi due metri in più rispetto al 2023. La quota cambia da un rilievo all'altro perché vento e precipitazioni spostano la neve che ricopre la cima."
     },
     "palm-jebel-ali": {
       "name": "Palm Jebel Ali",
-      "desc": ""
+      "desc": "Palm Jebel Ali è un grande progetto costiero di Dubai, nella zona di Jebel Ali, sviluppato dalla società Nakheel. Il piano approvato nel maggio 2023 indica una superficie di 13,4 km², il doppio di Palm Jumeirah, e circa 110 km di nuova costa. La larghezza di circa 7 km qui usata è una stima indicativa: le fonti ufficiali non riportano una lunghezza."
     },
     "large-hadron-collider": {
       "name": "Large Hadron Collider",
-      "desc": "Diametro dell'anello da 26,7 km."
+      "desc": "Il Large Hadron Collider del CERN, vicino a Ginevra, è il più grande e potente acceleratore di particelle del mondo. Il suo anello sotterraneo ha una circonferenza di 26.659 m, che corrisponde a un diametro di circa 8,5 km, e contiene 9.593 magneti. È entrato in funzione il 10 settembre 2008 nel tunnel costruito in origine per il LEP."
     },
     "lep": {
       "name": "LEP",
-      "desc": "Usava lo stesso tunnel di LHC, quindi ha lo stesso diametro. L'originale: 10 km."
+      "desc": "Il LEP (Large Electron-Positron Collider) del CERN è stato il più grande acceleratore di elettroni e positroni mai costruito, con una circonferenza di 27 km e quindi un diametro di circa 8,5 km. Entrò in servizio nel luglio 1989 e fu spento il 2 novembre 2000. Il suo tunnel ospita oggi il Large Hadron Collider."
     },
     "monte-everest": {
       "name": "Monte Everest",
-      "desc": "8.848,86 m, misura sino-nepalese del 2020."
+      "desc": "L'Everest, sul confine tra il Nepal e la Regione Autonoma del Tibet in Cina, è la montagna più alta della Terra sul livello del mare. La sua vetta è a 8.848,86 m, secondo la misura annunciata nel 2020 dai topografi cinesi e nepalesi. La prima salita documentata è quella di Edmund Hillary e Tenzing Norgay, il 29 maggio 1953."
     },
     "fossa-delle-marianne-profondita": {
       "name": "Fossa delle Marianne (profondità)",
-      "desc": "Abisso Challenger: circa 10.935 m."
+      "desc": "L'Abisso Challenger, nella Fossa delle Marianne, è il punto più profondo dei mari: si trova nell'Oceano Pacifico, circa 300 km a sud-ovest di Guam. Le immersioni con equipaggio del giugno 2020 hanno misurato 10.935 m, con un'incertezza di 6 m. Le misure fatte dalla superficie danno valori diversi, da 10.900 a 11.034 m."
     },
     "deimos": {
       "name": "Deimos",
@@ -994,7 +994,7 @@
     },
     "olympus-mons-altezza": {
       "name": "Olympus Mons (altezza)",
-      "desc": "Marte: il vulcano più alto del Sistema Solare."
+      "desc": "Olympus Mons è un vulcano a scudo di Marte, il più grande vulcano e la montagna più alta del Sistema Solare. Il Guinness World Records indica 25 km dalla base alla vetta, quasi tre volte l'Everest, ma il valore cambia secondo il riferimento scelto per misurarlo. Nonostante l'altezza ha pendii molto dolci, perché è oltre 20 volte più largo che alto."
     },
     "fobos": {
       "name": "Fobos",
@@ -1006,7 +1006,7 @@
     },
     "future-circular-collider": {
       "name": "Future Circular Collider",
-      "desc": "Il successore di LHC proposto dal CERN: un anello da 90,7 km. Non ancora approvato."
+      "desc": "Il Future Circular Collider è l'acceleratore proposto dal CERN come successore di LHC: un anello di 90,7 km di circonferenza, cioè circa 29 km di diametro, in un tunnel a una profondità media di 200 m sotto Francia e Svizzera. Lo studio di fattibilità è stato pubblicato nel 2025. Non è ancora approvato: la decisione sulla costruzione è attesa intorno al 2028."
     },
     "ganymed": {
       "name": "Ganymed",
@@ -1038,7 +1038,7 @@
     },
     "rhode-island": {
       "name": "Rhode Island",
-      "desc": ""
+      "desc": "Il Rhode Island è il più piccolo degli Stati Uniti: è lungo circa 48 miglia, cioè 77 km, e largo 37 miglia, circa 60 km. Si trova nel nord-est del paese, tra Massachusetts, Connecticut e Oceano Atlantico, con capitale Providence. È uno dei 13 Stati originari."
     },
     "belinda": {
       "name": "Belinda",
@@ -1046,7 +1046,7 @@
     },
     "brunei": {
       "name": "Brunei",
-      "desc": ""
+      "desc": "Il Brunei è un piccolo sultanato sulla costa nord-occidentale dell'isola del Borneo, con capitale Bandar Seri Begawan e una superficie di 5.765 km². È circondato dallo Stato malese di Sarawak, che con una striscia di territorio lo divide in due parti. L'estensione di circa 120 km qui usata è una stima indicativa, non una misura ufficiale."
     },
     "galatea": {
       "name": "Galatea",

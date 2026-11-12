@@ -4110,18 +4110,37 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Il Monte Bianco guadagna quasi due metri: ora arriva a 4.807,47 metri",
+        "url": "https://it.euronews.com/2026/10/14/il-monte-bianco-guadagna-quasi-due-metri-ora-arriva-a-480747-metri",
+        "publisher": "Euronews (da AP), misura dei geometri esperti dell'Alta Savoia"
+      },
+      {
+        "title": "Bianco, Monte",
+        "url": "https://www.treccani.it/enciclopedia/monte-bianco/",
+        "publisher": "Treccani, Enciclopedia on line"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "palm-jebel-ali",
     "size": 7000,
     "kind": "g",
     "glyph": "🏝️",
-    "flags": [],
+    "flags": [
+      "u"
+    ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Mohammed bin Rashid approves new futuristic masterplan for Palm Jebel Ali",
+        "url": "https://www.mediaoffice.ae/en/news/2023/May/31-05/Mohammed-bin-Rashid-approves-new-futuristic-masterplan-for-Palm-Jebel-Ali",
+        "publisher": "Government of Dubai Media Office"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "large-hadron-collider",
@@ -4130,8 +4149,14 @@
     "glyph": "⭕",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "The Large Hadron Collider",
+        "url": "https://home.cern/science/accelerators/large-hadron-collider",
+        "publisher": "CERN"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "lep",
@@ -4142,8 +4167,19 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "The Large Electron-Positron Collider",
+        "url": "https://home.cern/science/accelerators/large-electron-positron-collider",
+        "publisher": "CERN"
+      },
+      {
+        "title": "The Large Hadron Collider",
+        "url": "https://home.cern/science/accelerators/large-hadron-collider",
+        "publisher": "CERN"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "monte-everest",
@@ -4152,8 +4188,14 @@
     "glyph": "🏔️",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Highest mountain",
+        "url": "https://www.guinnessworldrecords.com/world-records/highest-mountain",
+        "publisher": "Guinness World Records"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "fossa-delle-marianne-profondita",
@@ -4164,8 +4206,14 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Deepest point in the sea",
+        "url": "https://www.guinnessworldrecords.com/world-records/deepest-point-in-the-sea",
+        "publisher": "Guinness World Records"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "deimos",
@@ -4195,11 +4243,23 @@
     "kind": "g",
     "glyph": "🌋",
     "flags": [
-      "n"
+      "n",
+      "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Tallest mountain in the Solar System",
+        "url": "https://www.guinnessworldrecords.com/world-records/highest-mountain-in-the-solar-system",
+        "publisher": "Guinness World Records"
+      },
+      {
+        "title": "Mars: Facts",
+        "url": "https://science.nasa.gov/mars/facts/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "fobos",
@@ -4233,8 +4293,14 @@
       "i"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Future Circular Collider",
+        "url": "https://home.cern/science/accelerators/future-circular-collider",
+        "publisher": "CERN"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "ganymed",
@@ -4334,8 +4400,19 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Rhode Island",
+        "url": "https://kids.nationalgeographic.com/explore/states/rhode-island/",
+        "publisher": "National Geographic Kids"
+      },
+      {
+        "title": "Rhode Island",
+        "url": "https://www.treccani.it/enciclopedia/rhode-island/",
+        "publisher": "Treccani, Enciclopedia on line"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "belinda",
@@ -4354,10 +4431,23 @@
     "size": 120000,
     "kind": "g",
     "glyph": "",
-    "flags": [],
+    "flags": [
+      "u"
+    ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Brunei (Enciclopedia Italiana, V Appendice)",
+        "url": "https://www.treccani.it/enciclopedia/brunei_(Enciclopedia-Italiana)/",
+        "publisher": "Treccani, Enciclopedia Italiana"
+      },
+      {
+        "title": "Brunei",
+        "url": "https://www.treccani.it/enciclopedia/brunei/",
+        "publisher": "Treccani, Enciclopedia on line"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "galatea",
