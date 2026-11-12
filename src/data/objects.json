@@ -1857,8 +1857,19 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "VBE Glossary (voci \"twip\" e \"point\")",
+        "url": "https://learn.microsoft.com/en-us/office/vba/language/glossary/vbe-glossary",
+        "publisher": "Microsoft Learn"
+      },
+      {
+        "title": "NIST Guide to the SI, Appendix B.8: Factors for Units Listed Alphabetically",
+        "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8",
+        "publisher": "NIST"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "fibra-acrilica",
@@ -1887,8 +1898,14 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "NIST Guide to the SI, Appendix B.8: Factors for Units Listed Alphabetically",
+        "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8",
+        "publisher": "NIST"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "cellula-della-pelle",
@@ -2190,8 +2207,19 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "SI prefixes",
+        "url": "https://www.bipm.org/en/measurement-units/si-prefixes",
+        "publisher": "BIPM"
+      },
+      {
+        "title": "NIST Guide to the SI, Appendix B.8: Factors for Units Listed Alphabetically",
+        "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8",
+        "publisher": "NIST"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "picco-del-fondo-cosmico-a-microonde",
@@ -2419,8 +2447,14 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "NIST Guide to the SI, Appendix B.8: Factors for Units Listed Alphabetically",
+        "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8",
+        "publisher": "NIST"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "uovo-di-quaglia",
@@ -2469,8 +2503,14 @@
     "glyph": "🐦",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Archilochus colubris (ruby-throated hummingbird)",
+        "url": "https://animaldiversity.org/accounts/Archilochus_colubris/",
+        "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "toporagno",
@@ -2479,8 +2519,19 @@
     "glyph": "🐭",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Common Shrew (Sorex araneus)",
+        "url": "https://www.brainmuseum.org/Specimens/soricomorpha/commonshrew/index.html",
+        "publisher": "Comparative Mammalian Brain Collections (brainmuseum.org)"
+      },
+      {
+        "title": "Sorex araneus (Eurasian shrew)",
+        "url": "https://animaldiversity.org/accounts/Sorex_araneus/",
+        "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "tazza",
@@ -2551,8 +2602,14 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Lumbricus terrestris",
+        "url": "https://www.iucngisd.org/gisd/species.php?sc=1555",
+        "publisher": "Global Invasive Species Database, IUCN Invasive Species Specialist Group"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "chicco-di-grandine-piu-grande",
@@ -2639,8 +2696,19 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Body Size and Bite Force of Stray and Feral Cats: Are Bigger or Older Cats Taking the Largest or More Difficult-to-Handle Prey?",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7222765/",
+        "publisher": "Fleming, Crawford, Auckland, Calver, Animals (Basel) 10(4):707, 2020, su PubMed Central"
+      },
+      {
+        "title": "Felis catus (domestic cat)",
+        "url": "https://animaldiversity.org/accounts/Felis_catus/",
+        "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "pallone-da-spiaggia",
@@ -2659,8 +2727,19 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "SI base unit: metre (m)",
+        "url": "https://www.bipm.org/en/si-base-units/metre",
+        "publisher": "BIPM"
+      },
+      {
+        "title": "Meter (SI redefinition)",
+        "url": "https://www.nist.gov/si-redefinition/meter",
+        "publisher": "NIST"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "dodo",
@@ -2669,8 +2748,14 @@
     "glyph": "🦤",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "The Oxford Dodo",
+        "url": "https://oumnh.web.ox.ac.uk/node/315156",
+        "publisher": "Oxford University Museum of Natural History"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "rafflesia",
@@ -2679,8 +2764,14 @@
     "glyph": "🌺",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Largest single flower",
+        "url": "https://www.guinnessworldrecords.com/world-records/66511-largest-single-flower",
+        "publisher": "Guinness World Records"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "essere-umano",
@@ -2689,8 +2780,14 @@
     "glyph": "🧍",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Human Height",
+        "url": "https://ourworldindata.org/human-height",
+        "publisher": "Our World in Data (dati NCD Risk Factor Collaboration)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "bicicletta",
@@ -2709,10 +2806,23 @@
     "size": 2,
     "kind": "b",
     "glyph": "🪱",
-    "flags": [],
+    "flags": [
+      "u"
+    ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Giant Gippsland earthworm",
+        "url": "https://www.discoverwildlife.com/animal-facts/insects-invertebrates/giant-gippsland-earthworm",
+        "publisher": "BBC Wildlife Magazine (Discover Wildlife)"
+      },
+      {
+        "title": "Earthworm diversity",
+        "url": "https://www.earthwormsoc.org.uk/earthworm-diversity",
+        "publisher": "Earthworm Society of Britain"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "isetta",
@@ -2733,8 +2843,14 @@
     "glyph": "🌻",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Helianthus annuus",
+        "url": "https://plants.ces.ncsu.edu/plants/helianthus-annuus/",
+        "publisher": "North Carolina State University Extension, Gardener Plant Toolbox"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "dal-pavimento-al-soffitto",
@@ -2773,8 +2889,14 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Diomedea exulans (wandering albatross)",
+        "url": "https://animaldiversity.org/accounts/Diomedea_exulans/",
+        "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "granchio-gigante-del-giappone",
@@ -2785,8 +2907,14 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Macrocheira kaempferi (Japanese spider crab)",
+        "url": "https://animaldiversity.org/accounts/Macrocheira_kaempferi/",
+        "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "automobile",
@@ -2807,8 +2935,14 @@
     "glyph": "🦒",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Giraffa camelopardalis (giraffe)",
+        "url": "https://animaldiversity.org/accounts/Giraffa_camelopardalis/",
+        "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "anaconda-verde",
@@ -2819,8 +2953,19 @@
       "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Eunectes murinus (anaconda, green anaconda)",
+        "url": "https://animaldiversity.org/accounts/Eunectes_murinus/",
+        "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology"
+      },
+      {
+        "title": "Green anaconda",
+        "url": "https://nationalzoo.si.edu/animals/green-anaconda",
+        "publisher": "Smithsonian's National Zoo and Conservation Biology Institute"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "elefante-africano",
@@ -2829,8 +2974,19 @@
     "glyph": "🐘",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "African Elephants (Loxodonta africana and L. cyclotis) Fact Sheet: Physical Characteristics",
+        "url": "https://ielc.libguides.com/sdzg/factsheets/african_elephant/characteristics",
+        "publisher": "San Diego Zoo Wildlife Alliance Library"
+      },
+      {
+        "title": "Loxodonta africana (African bush elephant)",
+        "url": "https://animaldiversity.org/accounts/Loxodonta_africana/",
+        "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "modulo-lunare-apollo",
@@ -2849,8 +3005,19 @@
     "glyph": "🌵",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Saguaro Cactus",
+        "url": "https://www.nps.gov/sagu/learn/nature/saguaro.htm",
+        "publisher": "U.S. National Park Service, Saguaro National Park"
+      },
+      {
+        "title": "Saguaro Cactus",
+        "url": "https://www.nps.gov/orpi/learn/nature/saguaro-cactus.htm",
+        "publisher": "U.S. National Park Service, Organ Pipe Cactus National Monument"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "autobus",
@@ -2871,8 +3038,19 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "How well do you know SUE?",
+        "url": "https://www.fieldmuseum.org/blog/how-well-do-you-know-sue",
+        "publisher": "Field Museum, Chicago"
+      },
+      {
+        "title": "Tyrannosaurus (Dino Directory)",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/tyrannosaurus.html",
+        "publisher": "Natural History Museum, London"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "casa-media-negli-usa",
@@ -2891,8 +3069,14 @@
     "glyph": "🌳",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Oak, English (Quercus robur)",
+        "url": "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/english-oak/",
+        "publisher": "Woodland Trust"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "schermo-solare-del-telescopio-webb",
@@ -2913,8 +3097,14 @@
     "glyph": "🐋",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Blue Whale",
+        "url": "https://www.fisheries.noaa.gov/species/blue-whale",
+        "publisher": "NOAA Fisheries"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "maraapunisaurus",
@@ -2926,8 +3116,14 @@
       "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Maraapunisaurus fragillimus, n.g. (formerly Amphicoelias fragillimus), a basal rebbachisaurid from the Morrison Formation (Upper Jurassic) of Colorado",
+        "url": "https://giw.utahgeology.org/index.php/GIW/article/view/32",
+        "publisher": "K. Carpenter, Geology of the Intermountain West, vol. 5 (2018)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "argentinosaurus",
@@ -2938,8 +3134,14 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Argentinosaurus (Dino Directory)",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/argentinosaurus.html",
+        "publisher": "Natural History Museum, London"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "torre-di-pisa",
@@ -3004,8 +3206,19 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Tallest tree living",
+        "url": "https://www.guinnessworldrecords.com/world-records/tallest-tree-living",
+        "publisher": "Guinness World Records"
+      },
+      {
+        "title": "Hyperion",
+        "url": "https://www.nps.gov/redw/planyourvisit/hyperion.htm",
+        "publisher": "U.S. National Park Service, Redwood National and State Parks"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "starship",
@@ -3211,8 +3424,19 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "SI prefixes",
+        "url": "https://www.bipm.org/en/measurement-units/si-prefixes",
+        "publisher": "BIPM"
+      },
+      {
+        "title": "NIST Guide to the SI, Appendix B.8: Factors for Units Listed Alphabetically",
+        "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8",
+        "publisher": "NIST"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "fabbrica-boeing-di-everett",
@@ -3268,8 +3492,14 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "NIST Guide to the SI, Appendix B.8: Factors for Units Listed Alphabetically",
+        "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8",
+        "publisher": "NIST"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "cruithne",
@@ -3745,8 +3975,19 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "SI prefixes",
+        "url": "https://www.bipm.org/en/measurement-units/si-prefixes",
+        "publisher": "BIPM"
+      },
+      {
+        "title": "Earth: Facts",
+        "url": "https://science.nasa.gov/earth/facts/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "sedna",
@@ -4267,8 +4508,24 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "SI prefixes",
+        "url": "https://www.bipm.org/en/measurement-units/si-prefixes",
+        "publisher": "BIPM"
+      },
+      {
+        "title": "Sun: Facts",
+        "url": "https://science.nasa.gov/sun/facts/",
+        "publisher": "NASA Science"
+      },
+      {
+        "title": "Earth: Facts",
+        "url": "https://science.nasa.gov/earth/facts/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "alfa-centauri-b",

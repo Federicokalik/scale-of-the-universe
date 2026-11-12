@@ -470,7 +470,7 @@
     },
     "twip": {
       "name": "Twip",
-      "desc": "Un ventesimo di punto tipografico."
+      "desc": "Il twip è un'unità di misura usata nel software per posizionare gli elementi sullo schermo in modo indipendente dal monitor. Vale un ventesimo di punto tipografico, cioè 1/1440 di pollice, pari a circa 17,64 micrometri. In un centimetro ce ne stanno circa 567."
     },
     "fibra-acrilica": {
       "name": "Fibra acrilica",
@@ -482,7 +482,7 @@
     },
     "thou": {
       "name": "Thou",
-      "desc": "Un millesimo di pollice."
+      "desc": "Il thou, chiamato anche mil, è un millesimo di pollice. Corrisponde esattamente a 25,4 micrometri, cioè 0,0254 millimetri. In un millimetro ci stanno quindi circa 39 thou."
     },
     "cellula-della-pelle": {
       "name": "Cellula della pelle",
@@ -566,7 +566,7 @@
     },
     "millimetro": {
       "name": "Millimetro",
-      "desc": "10⁻³ m."
+      "desc": "Il millimetro è la millesima parte del metro: il prefisso SI milli indica il fattore 10⁻³. Un pollice corrisponde esattamente a 25,4 millimetri."
     },
     "picco-del-fondo-cosmico-a-microonde": {
       "name": "Picco del fondo cosmico a microonde",
@@ -638,7 +638,7 @@
     },
     "pollice": {
       "name": "Pollice",
-      "desc": "L'originale riportava il pollice quadrato, che è un'area."
+      "desc": "Il pollice è un'unità di lunghezza anglosassone che vale esattamente 2,54 centimetri. Dodici pollici formano un piede, pari a 0,3048 metri."
     },
     "uovo-di-quaglia": {
       "name": "Uovo di quaglia",
@@ -658,11 +658,11 @@
     },
     "colibri": {
       "name": "Colibrì",
-      "desc": ""
+      "desc": "I colibrì sono piccoli uccelli americani capaci di restare fermi in volo davanti ai fiori. Il colibrì golarubino, il più diffuso nel Nord America orientale, è lungo tipicamente da 7,5 a 9 cm e pesa meno di 4 grammi. Le sue ali battono circa 53 volte al secondo."
     },
     "toporagno": {
       "name": "Toporagno",
-      "desc": ""
+      "desc": "Il toporagno comune è un piccolo mammifero insettivoro diffuso in gran parte d'Europa fino alla Siberia. Testa e corpo misurano tipicamente da 5 a 8 cm e la coda da 2,5 a 4,5 cm, per un totale intorno ai 10 cm e un peso di 5-14 grammi. Vive in media circa due anni."
     },
     "tazza": {
       "name": "Tazza",
@@ -682,7 +682,7 @@
     },
     "lombrico-comune": {
       "name": "Lombrico comune",
-      "desc": "Lumbricus terrestris: da 10 a 25 cm. L'originale: 4 cm."
+      "desc": "Il lombrico comune (Lumbricus terrestris) è un verme anellide originario dell'Europa, di colore dal rosato al bruno rossastro. Da adulto è lungo tipicamente da 10 a 25 cm. Scava gallerie verticali permanenti che scendono in profondità nel suolo."
     },
     "chicco-di-grandine-piu-grande": {
       "name": "Chicco di grandine più grande",
@@ -714,7 +714,7 @@
     },
     "gatto": {
       "name": "Gatto",
-      "desc": "Dal naso all'attaccatura della coda."
+      "desc": "Il gatto domestico (Felis catus) è un piccolo felino che pesa in media da 4 a 5,5 kg. Dal naso all'attaccatura della coda un adulto misura tipicamente tra 45 e 55 cm: in uno studio su 546 gatti randagi e inselvatichiti in Australia la media era di 50 cm per le femmine e 55 cm per i maschi. Discende probabilmente dal gatto selvatico africano."
     },
     "pallone-da-spiaggia": {
       "name": "Pallone da spiaggia",
@@ -722,19 +722,19 @@
     },
     "metro": {
       "name": "Metro",
-      "desc": "Dal 1983: la distanza percorsa dalla luce in 1/299.792.458 di secondo."
+      "desc": "Il metro è l'unità di lunghezza del Sistema Internazionale. Dal 1983 è definito come la distanza percorsa dalla luce nel vuoto in 1/299.792.458 di secondo. In questo modo la velocità della luce vale esattamente 299.792.458 metri al secondo."
     },
     "dodo": {
       "name": "Dodo",
-      "desc": "Estinto nel Seicento a Mauritius."
+      "desc": "Il dodo era un uccello incapace di volare che viveva sull'isola di Mauritius, dove gli europei lo incontrarono alla fine del Cinquecento. Era alto circa un metro e pesava intorno ai 20 kg secondo il Museo di storia naturale dell'Università di Oxford. L'ultimo avvistamento confermato risale al 1662."
     },
     "rafflesia": {
       "name": "Rafflesia",
-      "desc": "Il fiore singolo più grande, e odora di carne marcia."
+      "desc": "Rafflesia arnoldii è una pianta parassita senza foglie, fusto né radici, che cresce dentro le liane della foresta a Sumatra. Il suo fiore è il più grande fiore singolo conosciuto: supera il metro di diametro, con un primato di 111 cm misurato nel 2020, e può pesare fino a 11 kg. Emana un odore sgradevole che attira le mosche impollinatrici."
     },
     "essere-umano": {
       "name": "Essere umano",
-      "desc": ""
+      "desc": "La statura di un essere umano adulto varia molto tra popolazioni e individui. Tra i nati nel 1996 la media mondiale è di 171 cm per gli uomini e 159 cm per le donne."
     },
     "bicicletta": {
       "name": "Bicicletta",
@@ -742,7 +742,7 @@
     },
     "verme-gigante-del-gippsland": {
       "name": "Verme gigante del Gippsland",
-      "desc": "Australia: in media un metro, allungato fino a tre."
+      "desc": "Il verme gigante del Gippsland (Megascolides australis) vive nel sottosuolo lungo le rive dei corsi d'acqua nel Gippsland, nello stato australiano di Victoria. È lungo in media circa un metro e, disteso, può superare i due metri; le segnalazioni di tre metri non sono confermate. Il corpo ha da 300 a 400 segmenti e l'animale può vivere dieci anni o più."
     },
     "isetta": {
       "name": "Isetta",
@@ -750,7 +750,7 @@
     },
     "girasole": {
       "name": "Girasole",
-      "desc": ""
+      "desc": "Il girasole comune (Helianthus annuus) è una pianta annuale originaria degli Stati Uniti occidentali e del Messico. Il fusto è alto tipicamente da mezzo metro a 3 metri e porta capolini larghi da 8 a 15 cm nelle forme spontanee."
     },
     "dal-pavimento-al-soffitto": {
       "name": "Dal pavimento al soffitto",
@@ -762,11 +762,11 @@
     },
     "albatro-urlatore": {
       "name": "Albatro urlatore",
-      "desc": "La maggiore apertura alare tra gli uccelli viventi: 3,1 m in media."
+      "desc": "L'albatro urlatore (Diomedea exulans) è un grande uccello marino degli oceani meridionali. La sua apertura alare va da 2,5 a 3,5 m, con una media di 3,1 m, ed è considerata la maggiore tra gli uccelli viventi. Il corpo è lungo da 1,1 a 1,35 m e pesa in media circa 8 kg."
     },
     "granchio-gigante-del-giappone": {
       "name": "Granchio gigante del Giappone",
-      "desc": "Da chela a chela."
+      "desc": "Il granchio gigante del Giappone (Macrocheira kaempferi) è il più grande artropode vivente conosciuto, anche se non il più pesante. Con le zampe distese un adulto può sfiorare i 4 metri da chela a chela, mentre il carapace è lungo solo circa 37 cm. Vive sui fondali al largo del Giappone, in media tra 150 e 300 metri di profondità."
     },
     "automobile": {
       "name": "Automobile",
@@ -774,15 +774,15 @@
     },
     "giraffa": {
       "name": "Giraffa",
-      "desc": ""
+      "desc": "La giraffa (Giraffa camelopardalis) è il mammifero più alto del mondo e vive nelle savane africane. I maschi arrivano a circa 5,7 m dal suolo alla sommità delle corna, mentre le femmine sono più basse di 0,7-1 m."
     },
     "anaconda-verde": {
       "name": "Anaconda verde",
-      "desc": "Gli esemplari oltre i 6–7 m non sono documentati in modo affidabile."
+      "desc": "L'anaconda verde (Eunectes murinus) è un grande serpente costrittore semiacquatico del Sud America. Le femmine misurano in media circa 6 m e i maschi circa 3 m. Vengono riportati esemplari di 9 m e oltre, con masse fino a 250 kg, ma la taglia massima reale è molto discussa."
     },
     "elefante-africano": {
       "name": "Elefante africano",
-      "desc": "Lunghezza con la proboscide."
+      "desc": "L'elefante africano di savana (Loxodonta africana) è il più grande animale terrestre vivente. La lunghezza di testa e corpo, proboscide compresa, va da 6 a 7,5 m; i maschi sono alti al garrese da 2,9 a 3,7 m e pesano in media circa 6.000 kg."
     },
     "modulo-lunare-apollo": {
       "name": "Modulo lunare Apollo",
@@ -790,7 +790,7 @@
     },
     "saguaro": {
       "name": "Saguaro",
-      "desc": ""
+      "desc": "Il saguaro (Carnegiea gigantea) è il grande cactus colonnare del deserto di Sonora. Un esemplare adulto supera spesso i 12 m e può arrivare a circa 15 m (50 piedi), con un peso di 2 tonnellate o più. Cresce molto lentamente: i primi rami compaiono di norma tra i 60 e i 75 anni e la vita media è stimata in 150-175 anni."
     },
     "autobus": {
       "name": "Autobus",
@@ -798,7 +798,7 @@
     },
     "tyrannosaurus-rex": {
       "name": "Tyrannosaurus rex",
-      "desc": "Lunghezza degli esemplari più completi. L'originale: 7 m."
+      "desc": "Tyrannosaurus rex è un grande dinosauro carnivoro vissuto in Nord America alla fine del Cretaceo, tra 68 e 66 milioni di anni fa. SUE, lo scheletro del Field Museum di Chicago, misura 40,5 piedi (circa 12,3 m) di lunghezza ed è alto 4 m all'anca. È lo scheletro di T. rex più completo per volume osseo, circa il 90%, ed è stato scoperto nel 1990 nel South Dakota."
     },
     "casa-media-negli-usa": {
       "name": "Casa media negli USA",
@@ -806,7 +806,7 @@
     },
     "quercia": {
       "name": "Quercia",
-      "desc": ""
+      "desc": "La quercia qui mostrata è la farnia (Quercus robur), grande albero deciduo diffuso in Europa. Da adulta è alta tipicamente tra 20 e 40 m. Secondo il Woodland Trust le querce del Regno Unito possono ospitare più di 2.300 specie diverse."
     },
     "schermo-solare-del-telescopio-webb": {
       "name": "Schermo solare del telescopio Webb",
@@ -814,15 +814,15 @@
     },
     "balenottera-azzurra": {
       "name": "Balenottera azzurra",
-      "desc": "L'animale più massiccio mai esistito."
+      "desc": "La balenottera azzurra (Balaenoptera musculus) è il più grande animale mai vissuto sulla Terra, secondo la NOAA. Nel Nord Atlantico e nel Nord Pacifico arriva a circa 27 m, mentre in Antartide può raggiungere circa 33 m e superare le 150 tonnellate."
     },
     "maraapunisaurus": {
       "name": "Maraapunisaurus",
-      "desc": "L'ex Amphicoelias fragillimus, riclassificato nel 2018. Nota da una sola vertebra andata perduta."
+      "desc": "Maraapunisaurus fragillimus è un sauropode del Giurassico descritto da Edward Cope nel 1878 come Amphicoelias fragillimus e riclassificato nel 2018 come rebbachisauride basale. È noto da una sola vertebra, andata perduta e documentata soltanto nella pubblicazione originale. La revisione del 2018 stima una vertebra alta 2,4 m e una lunghezza totale tra 30,3 e 32 m, molto meno delle stime precedenti."
     },
     "argentinosaurus": {
       "name": "Argentinosaurus",
-      "desc": "Tra i più grandi dinosauri conosciuti da resti solidi."
+      "desc": "Argentinosaurus è un sauropode titanosauro vissuto in Argentina nel Cretaceo superiore, circa 90 milioni di anni fa, e descritto da Bonaparte e Coria nel 1993. Il Natural History Museum di Londra gli attribuisce una lunghezza di 35 m e una massa di 70.000 kg. È tra i più grandi dinosauri conosciuti."
     },
     "torre-di-pisa": {
       "name": "Torre di Pisa",
@@ -846,7 +846,7 @@
     },
     "sequoia-hyperion": {
       "name": "Sequoia Hyperion",
-      "desc": "L'albero vivente più alto: 116 m. L'originale: 100 m."
+      "desc": "Hyperion è una sequoia sempreverde (Sequoia sempervirens) del Redwood National Park, in California, ed è l'albero vivente più alto conosciuto. Scoperto il 25 agosto 2006 da Chris Atkins e Michael Taylor, nel 2019 misurava 116,07 m. La posizione esatta è tenuta riservata e l'area intorno all'albero è chiusa al pubblico."
     },
     "starship": {
       "name": "Starship",
@@ -918,7 +918,7 @@
     },
     "chilometro": {
       "name": "Chilometro",
-      "desc": ""
+      "desc": "Il chilometro vale mille metri: il prefisso SI kilo indica il fattore 10³. Un miglio terrestre corrisponde a 1,609344 chilometri."
     },
     "fabbrica-boeing-di-everett": {
       "name": "Fabbrica Boeing di Everett",
@@ -938,7 +938,7 @@
     },
     "miglio": {
       "name": "Miglio",
-      "desc": ""
+      "desc": "Il miglio terrestre è un'unità di lunghezza anglosassone pari a 1.609,344 metri, cioè 5.280 piedi. Negli Stati Uniti esiste anche un miglio basato sul piede topografico, più lungo di circa 3 millimetri."
     },
     "cruithne": {
       "name": "Cruithne",
@@ -1102,7 +1102,7 @@
     },
     "megametro": {
       "name": "Megametro",
-      "desc": "Mille chilometri."
+      "desc": "Il megametro vale un milione di metri, cioè mille chilometri: il prefisso SI mega indica il fattore 10⁶. Il diametro equatoriale della Terra, 12.756 chilometri, corrisponde a circa 12,8 megametri."
     },
     "sedna": {
       "name": "Sedna",
@@ -1294,7 +1294,7 @@
     },
     "gigametro": {
       "name": "Gigametro",
-      "desc": "Un milione di chilometri."
+      "desc": "Il gigametro vale un miliardo di metri, cioè un milione di chilometri: il prefisso SI giga indica il fattore 10⁹. Il diametro del Sole è di circa 1,4 gigametri. La distanza media tra la Terra e il Sole è di circa 150 gigametri."
     },
     "alfa-centauri-b": {
       "name": "Alfa Centauri B",

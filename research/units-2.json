@@ -1,0 +1,206 @@
+[
+  {
+    "id": "twip",
+    "size": 0.00001764,
+    "basis": "lunghezza dell'unità: un ventesimo di punto tipografico da 1/72 di pollice, cioè 1/1440 di pollice",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il twip è un'unità di misura usata nel software per posizionare gli elementi sullo schermo in modo indipendente dal monitor. Vale un ventesimo di punto tipografico, cioè 1/1440 di pollice, pari a circa 17,64 micrometri. In un centimetro ce ne stanno circa 567.",
+    "sources": [
+      {
+        "title": "VBE Glossary (voci \"twip\" e \"point\")",
+        "url": "https://learn.microsoft.com/en-us/office/vba/language/glossary/vbe-glossary",
+        "publisher": "Microsoft Learn",
+        "evidence": "A unit of screen measurement equal to 1/20 point"
+      },
+      {
+        "title": "NIST Guide to the SI, Appendix B.8: Factors for Units Listed Alphabetically",
+        "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8",
+        "publisher": "NIST",
+        "evidence": "inch (in) | meter (m) | 2.54 E-02"
+      }
+    ],
+    "note": "Calcolo: il glossario Microsoft definisce il punto come 1/72 di pollice e il twip come 1/20 di punto, quindi 0,0254 m / (72 × 20) = 0,0254 / 1440 = 1,7639e-5 m, che arrotondato dà il valore attuale 1,764e-5 m. Lo stesso glossario riporta \"approximately 1440 twips to a logical inch or 567 twips to a logical centimeter\". Il twip non è un'unità definita da un ente di normazione: la fonte è il produttore del software che lo usa. Il punto tipografico tradizionale della tabella NIST (3,514598e-4 m) è leggermente diverso da 1/72 di pollice e non è quello usato qui.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "thou",
+    "size": 0.0000254,
+    "basis": "lunghezza dell'unità: un millesimo di pollice",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il thou, chiamato anche mil, è un millesimo di pollice. Corrisponde esattamente a 25,4 micrometri, cioè 0,0254 millimetri. In un millimetro ci stanno quindi circa 39 thou.",
+    "sources": [
+      {
+        "title": "NIST Guide to the SI, Appendix B.8: Factors for Units Listed Alphabetically",
+        "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8",
+        "publisher": "NIST",
+        "evidence": "mil (0.001 in) | meter (m) | 2.54 E-05"
+      }
+    ],
+    "note": "La tabella NIST elenca l'unità con il nome \"mil (0.001 in)\"; \"thou\" è il nome usato nel Regno Unito per la stessa unità, ma questo sinonimo non compare nella pagina citata. Calcolo del confronto: 1 mm / 0,0254 mm = 39,37.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "millimetro",
+    "size": 0.001,
+    "basis": "lunghezza dell'unità: un millesimo di metro (prefisso SI milli, 10⁻³)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il millimetro è la millesima parte del metro: il prefisso SI milli indica il fattore 10⁻³. Un pollice corrisponde esattamente a 25,4 millimetri.",
+    "sources": [
+      {
+        "title": "SI prefixes",
+        "url": "https://www.bipm.org/en/measurement-units/si-prefixes",
+        "publisher": "BIPM",
+        "evidence": "milli | m | 10⁻³"
+      },
+      {
+        "title": "NIST Guide to the SI, Appendix B.8: Factors for Units Listed Alphabetically",
+        "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8",
+        "publisher": "NIST",
+        "evidence": "inch (in) | centimeter (cm) | 2.54 E+00"
+      }
+    ],
+    "note": "Confronto: 2,54 cm = 25,4 mm.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "pollice",
+    "size": 0.0254,
+    "basis": "lunghezza dell'unità: pollice internazionale",
+    "verdict": "confirmed",
+    "flags": ["r"],
+    "desc": "Il pollice è un'unità di lunghezza anglosassone che vale esattamente 2,54 centimetri. Dodici pollici formano un piede, pari a 0,3048 metri.",
+    "sources": [
+      {
+        "title": "NIST Guide to the SI, Appendix B.8: Factors for Units Listed Alphabetically",
+        "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8",
+        "publisher": "NIST",
+        "evidence": "inch (in) | meter (m) | 2.54 E-02"
+      }
+    ],
+    "note": "Il valore attuale 0,0254 m è confermato; il flag r era già presente e viene mantenuto. La frase della descrizione precedente (\"l'originale riportava il pollice quadrato\") riguarda la lista del 2012 e non è verificabile su una fonte esterna, quindi è stata tolta dalla descrizione. Il rapporto di 12 pollici per piede è ricavato dalla stessa tabella (foot = 3.048 E-01 m; 0,3048 / 0,0254 = 12), che non lo enuncia a parole.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "metro",
+    "size": 1,
+    "basis": "lunghezza dell'unità: unità di base SI della lunghezza",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il metro è l'unità di lunghezza del Sistema Internazionale. Dal 1983 è definito come la distanza percorsa dalla luce nel vuoto in 1/299.792.458 di secondo. In questo modo la velocità della luce vale esattamente 299.792.458 metri al secondo.",
+    "sources": [
+      {
+        "title": "SI base unit: metre (m)",
+        "url": "https://www.bipm.org/en/si-base-units/metre",
+        "publisher": "BIPM",
+        "evidence": "speed of light in vacuum c to be 299 792 458"
+      },
+      {
+        "title": "Meter (SI redefinition)",
+        "url": "https://www.nist.gov/si-redefinition/meter",
+        "publisher": "NIST",
+        "evidence": "the meter was redefined by international agreement in 1983"
+      }
+    ],
+    "note": "La data 1983 viene dalla pagina NIST; la pagina BIPM riporta la formulazione attuale (revisione del SI del 2018), che fissa il valore numerico di c ed è equivalente a quella del 1983.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "chilometro",
+    "size": 1000,
+    "basis": "lunghezza dell'unità: mille metri (prefisso SI kilo, 10³)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il chilometro vale mille metri: il prefisso SI kilo indica il fattore 10³. Un miglio terrestre corrisponde a 1,609344 chilometri.",
+    "sources": [
+      {
+        "title": "SI prefixes",
+        "url": "https://www.bipm.org/en/measurement-units/si-prefixes",
+        "publisher": "BIPM",
+        "evidence": "kilo | k | 10³"
+      },
+      {
+        "title": "NIST Guide to the SI, Appendix B.8: Factors for Units Listed Alphabetically",
+        "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8",
+        "publisher": "NIST",
+        "evidence": "mile (mi) | kilometer (km) | 1.609 344 E+00"
+      }
+    ],
+    "note": "La descrizione precedente era vuota.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "miglio",
+    "size": 1609,
+    "basis": "lunghezza dell'unità: miglio terrestre internazionale (statute mile)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il miglio terrestre è un'unità di lunghezza anglosassone pari a 1.609,344 metri, cioè 5.280 piedi. Negli Stati Uniti esiste anche un miglio basato sul piede topografico, più lungo di circa 3 millimetri.",
+    "sources": [
+      {
+        "title": "NIST Guide to the SI, Appendix B.8: Factors for Units Listed Alphabetically",
+        "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8",
+        "publisher": "NIST",
+        "evidence": "mile (mi) | meter (m) | 1.609 344 E+03"
+      }
+    ],
+    "note": "Il valore attuale 1609 m è l'arrotondamento di 1609,344 m (differenza 0,02%), quindi resta invariato. 5.280 piedi è ricavato dalla stessa tabella (1609,344 / 0,3048 = 5280), che non lo enuncia a parole. Miglio su piede topografico: la tabella dà 1.609 347 E+03 m, cioè una differenza di circa 3 mm sulle cifre riportate. Il nome italiano \"miglio\" qui indica il miglio terrestre, non quello nautico, che non è stato verificato in questa scheda. La descrizione precedente era vuota.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "megametro",
+    "size": 1000000,
+    "basis": "lunghezza dell'unità: un milione di metri (prefisso SI mega, 10⁶)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il megametro vale un milione di metri, cioè mille chilometri: il prefisso SI mega indica il fattore 10⁶. Il diametro equatoriale della Terra, 12.756 chilometri, corrisponde a circa 12,8 megametri.",
+    "sources": [
+      {
+        "title": "SI prefixes",
+        "url": "https://www.bipm.org/en/measurement-units/si-prefixes",
+        "publisher": "BIPM",
+        "evidence": "mega | M | 10⁶"
+      },
+      {
+        "title": "Earth: Facts",
+        "url": "https://science.nasa.gov/earth/facts/",
+        "publisher": "NASA Science",
+        "evidence": "equatorial diameter of 7,926 miles (12,756 kilometers)"
+      }
+    ],
+    "note": "Confronto: 12.756 km / 1000 = 12,756 Mm.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "gigametro",
+    "size": 1000000000,
+    "basis": "lunghezza dell'unità: un miliardo di metri (prefisso SI giga, 10⁹)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il gigametro vale un miliardo di metri, cioè un milione di chilometri: il prefisso SI giga indica il fattore 10⁹. Il diametro del Sole è di circa 1,4 gigametri. La distanza media tra la Terra e il Sole è di circa 150 gigametri.",
+    "sources": [
+      {
+        "title": "SI prefixes",
+        "url": "https://www.bipm.org/en/measurement-units/si-prefixes",
+        "publisher": "BIPM",
+        "evidence": "giga | G | 10⁹"
+      },
+      {
+        "title": "Sun: Facts",
+        "url": "https://science.nasa.gov/sun/facts/",
+        "publisher": "NASA Science",
+        "evidence": "Its diameter is about 865,000 miles (1.4 million kilometers)"
+      },
+      {
+        "title": "Earth: Facts",
+        "url": "https://science.nasa.gov/earth/facts/",
+        "publisher": "NASA Science",
+        "evidence": "average distance of 93 million miles (150 million kilometers)"
+      }
+    ],
+    "note": "Confronti: 1,4 milioni di km = 1,4 Gm; 150 milioni di km = 150 Gm.",
+    "verified": "2026-11-12"
+  }
+]

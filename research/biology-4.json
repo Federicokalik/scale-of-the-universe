@@ -1,0 +1,218 @@
+[
+  {
+    "id": "colibri",
+    "size": 0.09,
+    "basis": "lunghezza del corpo dal becco alla coda (colibrì golarubino, estremo superiore dell'intervallo)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "I colibrì sono piccoli uccelli americani capaci di restare fermi in volo davanti ai fiori. Il colibrì golarubino, il più diffuso nel Nord America orientale, è lungo tipicamente da 7,5 a 9 cm e pesa meno di 4 grammi. Le sue ali battono circa 53 volte al secondo.",
+    "sources": [
+      {
+        "title": "Archilochus colubris (ruby-throated hummingbird)",
+        "url": "https://animaldiversity.org/accounts/Archilochus_colubris/",
+        "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+        "evidence": "They are 7.5 to 9.0 cm long and weigh approximately 3.4 g"
+      }
+    ],
+    "note": "Voce generica: come specie di riferimento è stato usato il colibrì golarubino (Archilochus colubris). Il valore attuale di 9 cm coincide con l'estremo superiore dell'intervallo della fonte. La stessa pagina cita anche 90 battiti al secondo in un altro passaggio: la descrizione usa la cifra della sezione sul volo (53).",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "toporagno",
+    "size": 0.1,
+    "basis": "lunghezza totale, testa e corpo più coda (toporagno comune, Sorex araneus)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il toporagno comune è un piccolo mammifero insettivoro diffuso in gran parte d'Europa fino alla Siberia. Testa e corpo misurano tipicamente da 5 a 8 cm e la coda da 2,5 a 4,5 cm, per un totale intorno ai 10 cm e un peso di 5-14 grammi. Vive in media circa due anni.",
+    "sources": [
+      {
+        "title": "Common Shrew (Sorex araneus)",
+        "url": "https://www.brainmuseum.org/Specimens/soricomorpha/commonshrew/index.html",
+        "publisher": "Comparative Mammalian Brain Collections (brainmuseum.org)",
+        "evidence": "Head and body length of S. araneus is 5-8cm with tail lengths of 2.5-4.5cm"
+      },
+      {
+        "title": "Sorex araneus (Eurasian shrew)",
+        "url": "https://animaldiversity.org/accounts/Sorex_araneus/",
+        "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+        "evidence": "Range length 48 to 80 mm"
+      }
+    ],
+    "note": "Voce generica: come specie di riferimento è stato usato Sorex araneus. Somma degli intervalli: 5 + 2,5 = 7,5 cm e 8 + 4,5 = 12,5 cm; il valore attuale di 10 cm è al centro. La durata della vita (circa 2 anni) viene dalla pagina ADW. L'editore non è indicato sulla pagina di brainmuseum.org, che rimanda a risorse della Michigan State University. La pagina della Mammal Society (48-80 mm, coda 24-44 mm) non si è aperta e non è citata.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "lombrico-comune",
+    "size": 0.155,
+    "basis": "lunghezza del corpo di un adulto (Lumbricus terrestris), valore intermedio dell'intervallo tipico",
+    "verdict": "confirmed",
+    "flags": ["r"],
+    "desc": "Il lombrico comune (Lumbricus terrestris) è un verme anellide originario dell'Europa, di colore dal rosato al bruno rossastro. Da adulto è lungo tipicamente da 10 a 25 cm. Scava gallerie verticali permanenti che scendono in profondità nel suolo.",
+    "sources": [
+      {
+        "title": "Lumbricus terrestris",
+        "url": "https://www.iucngisd.org/gisd/species.php?sc=1555",
+        "publisher": "Global Invasive Species Database, IUCN Invasive Species Specialist Group",
+        "evidence": "typically reaches 10-25 cm in length"
+      }
+    ],
+    "note": "Il valore di 15,5 cm cade dentro l'intervallo 10-25 cm della fonte (il punto medio aritmetico sarebbe 17,5 cm; la differenza rientra nella variabilità naturale). Tolta dalla descrizione la frase \"L'originale: 4 cm\", che riguarda la lista del 2012 e non è verificabile su una fonte. La pagina di Animal Diversity Web su questa specie rispondeva con errore 503 e non è citata.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "gatto",
+    "size": 0.46,
+    "basis": "lunghezza di testa e corpo, dal naso all'attaccatura della coda (gatto domestico adulto)",
+    "verdict": "confirmed",
+    "flags": ["n"],
+    "desc": "Il gatto domestico (Felis catus) è un piccolo felino che pesa in media da 4 a 5,5 kg. Dal naso all'attaccatura della coda un adulto misura tipicamente tra 45 e 55 cm: in uno studio su 546 gatti randagi e inselvatichiti in Australia la media era di 50 cm per le femmine e 55 cm per i maschi. Discende probabilmente dal gatto selvatico africano.",
+    "sources": [
+      {
+        "title": "Body Size and Bite Force of Stray and Feral Cats: Are Bigger or Older Cats Taking the Largest or More Difficult-to-Handle Prey?",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7222765/",
+        "publisher": "Fleming, Crawford, Auckland, Calver, Animals (Basel) 10(4):707, 2020, su PubMed Central",
+        "evidence": "504 ± 74 mm, n = 247"
+      },
+      {
+        "title": "Felis catus (domestic cat)",
+        "url": "https://animaldiversity.org/accounts/Felis_catus/",
+        "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+        "evidence": "Adult mass ranges from 4.1 to 5.4 kg"
+      }
+    ],
+    "note": "Caso al limite. Il valore attuale di 46 cm è più basso delle medie misurate nello studio (femmine 504 ± 74 mm, maschi 551 ± 84 mm, n = 299), ma rientra entro una deviazione standard dalla media delle femmine (504 - 74 = 430 mm), quindi è stato confermato come gatto di taglia medio-piccola. Il campione è di gatti randagi e inselvatichiti australiani, non di gatti di casa. Se si preferisce un valore centrale, 0,50 m sarebbe più aderente alla fonte. La cifra di 46 cm circola soprattutto tramite Wikipedia; la pagina Britannica che la riporterebbe (46-51 cm) dava errore 403 e non è citata. ADW indica una lunghezza media di 76,2 cm senza dire se include la coda.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "dodo",
+    "size": 1.02,
+    "basis": "altezza dell'animale in piedi",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il dodo era un uccello incapace di volare che viveva sull'isola di Mauritius, dove gli europei lo incontrarono alla fine del Cinquecento. Era alto circa un metro e pesava intorno ai 20 kg secondo il Museo di storia naturale dell'Università di Oxford. L'ultimo avvistamento confermato risale al 1662.",
+    "sources": [
+      {
+        "title": "The Oxford Dodo",
+        "url": "https://oumnh.web.ox.ac.uk/node/315156",
+        "publisher": "Oxford University Museum of Natural History",
+        "evidence": "These birds were about a metre tall and weighed about 20kg"
+      }
+    ],
+    "note": "\"Circa un metro\" sostiene 1,02 m entro il 5%. \"Estinto nel Seicento\" è stato precisato: la fonte dice \"The last confirmed sighting of a dodo was in 1662; by the 1700s, it was considered extinct\". La massa è discussa: stime più recenti (studio PeerJ 2017, pagina non apribile, non citato) indicano valori più bassi, quindi i 20 kg sono attribuiti al museo.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "rafflesia",
+    "size": 1.04,
+    "basis": "diametro del fiore aperto (Rafflesia arnoldii, esemplari grandi)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Rafflesia arnoldii è una pianta parassita senza foglie, fusto né radici, che cresce dentro le liane della foresta a Sumatra. Il suo fiore è il più grande fiore singolo conosciuto: supera il metro di diametro, con un primato di 111 cm misurato nel 2020, e può pesare fino a 11 kg. Emana un odore sgradevole che attira le mosche impollinatrici.",
+    "sources": [
+      {
+        "title": "Largest single flower",
+        "url": "https://www.guinnessworldrecords.com/world-records/66511-largest-single-flower",
+        "publisher": "Guinness World Records",
+        "evidence": "measured 111 cm (3 ft 7.7 in) across"
+      }
+    ],
+    "note": "Il valore attuale di 1,04 m è un fiore grande, sotto il primato di 1,11 m (differenza del 6%) e sopra il metro circa dei fiori tipici: confermato come dimensione di un esemplare grande. Il superlativo è sostenuto dalla fonte (\"has the largest of all flowers\"). \"Odora di carne marcia\" è stato attenuato in \"odore sgradevole\" perché la pagina dice solo \"emits a foul odour\". La pagina di Kew su questa specie dava errore 403 e non è citata.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "essere-umano",
+    "size": 1.7,
+    "basis": "statura media di un adulto",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "La statura di un essere umano adulto varia molto tra popolazioni e individui. Tra i nati nel 1996 la media mondiale è di 171 cm per gli uomini e 159 cm per le donne.",
+    "sources": [
+      {
+        "title": "Human Height",
+        "url": "https://ourworldindata.org/human-height",
+        "publisher": "Our World in Data (dati NCD Risk Factor Collaboration)",
+        "evidence": "global mean height of adult men born in 1996 is 171 centimeters"
+      }
+    ],
+    "note": "Il valore attuale di 1,70 m corrisponde alla media maschile (171 cm) e supera del 3% la media dei due sessi ((171 + 159) / 2 = 165 cm), quindi resta entro la tolleranza.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "verme-gigante-del-gippsland",
+    "size": 2,
+    "basis": "lunghezza del corpo disteso (esemplari grandi; la media è circa 1 m)",
+    "verdict": "uncertain",
+    "flags": ["u"],
+    "desc": "Il verme gigante del Gippsland (Megascolides australis) vive nel sottosuolo lungo le rive dei corsi d'acqua nel Gippsland, nello stato australiano di Victoria. È lungo in media circa un metro e, disteso, può superare i due metri; le segnalazioni di tre metri non sono confermate. Il corpo ha da 300 a 400 segmenti e l'animale può vivere dieci anni o più.",
+    "sources": [
+      {
+        "title": "Giant Gippsland earthworm",
+        "url": "https://www.discoverwildlife.com/animal-facts/insects-invertebrates/giant-gippsland-earthworm",
+        "publisher": "BBC Wildlife Magazine (Discover Wildlife)",
+        "evidence": "It averages a metre in length"
+      },
+      {
+        "title": "Earthworm diversity",
+        "url": "https://www.earthwormsoc.org.uk/earthworm-diversity",
+        "publisher": "Earthworm Society of Britain",
+        "evidence": "has been recorded at over 2 metres in length"
+      }
+    ],
+    "note": "Incerto perché la lunghezza dipende da quanto il verme è disteso o contratto e le fonti danno valori diversi: media di 1 m, oltre 2 m per gli esemplari più lunghi, 3 m solo come segnalazione (la stessa pagina della Earthworm Society cita entrambe le cifre). Mantenuto 2 m come lunghezza di un esemplare grande disteso; aggiunto il flag u. Le due pagine di Museums Victoria, che sarebbero la fonte migliore (media 80-100 cm secondo i risultati di ricerca), davano errore 403 e non sono citate. \"Fino a tre\" della descrizione attuale è stato ridimensionato.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "girasole",
+    "size": 2.5,
+    "basis": "altezza della pianta (Helianthus annuus)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il girasole comune (Helianthus annuus) è una pianta annuale originaria degli Stati Uniti occidentali e del Messico. Il fusto è alto tipicamente da mezzo metro a 3 metri e porta capolini larghi da 8 a 15 cm nelle forme spontanee.",
+    "sources": [
+      {
+        "title": "Helianthus annuus",
+        "url": "https://plants.ces.ncsu.edu/plants/helianthus-annuus/",
+        "publisher": "North Carolina State University Extension, Gardener Plant Toolbox",
+        "evidence": "grows from 1.5 to 10 feet tall"
+      }
+    ],
+    "note": "Conversione: 1,5 ft × 0,3048 = 0,46 m; 10 ft × 0,3048 = 3,05 m; il valore attuale di 2,5 m è dentro l'intervallo. Capolini \"3- to 6-inch-wide\": 3 × 2,54 = 7,6 cm, 6 × 2,54 = 15,2 cm. Non è stato scritto che il fiore segue il sole: la fonte lo chiama mito. La pagina Britannica dava errore 403.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "albatro-urlatore",
+    "size": 3.1,
+    "basis": "apertura alare media (Diomedea exulans)",
+    "verdict": "confirmed",
+    "flags": ["r"],
+    "desc": "L'albatro urlatore (Diomedea exulans) è un grande uccello marino degli oceani meridionali. La sua apertura alare va da 2,5 a 3,5 m, con una media di 3,1 m, ed è considerata la maggiore tra gli uccelli viventi. Il corpo è lungo da 1,1 a 1,35 m e pesa in media circa 8 kg.",
+    "sources": [
+      {
+        "title": "Diomedea exulans (wandering albatross)",
+        "url": "https://animaldiversity.org/accounts/Diomedea_exulans/",
+        "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+        "evidence": "extremely long wingspans (averaging just over 3 meters)"
+      }
+    ],
+    "note": "Il superlativo è stato attenuato (\"è considerata\"): la fonte scrive \"perhaps the longest wingspan of any bird\". I campi dati della scheda indicano apertura alare da 2,5 a 3,5 m con media 3,1 m, lunghezza da 1,1 a 1,35 m e massa media 8130 g.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "granchio-gigante-del-giappone",
+    "size": 3.7,
+    "basis": "apertura delle zampe distese, dalla punta di una chela all'altra (Macrocheira kaempferi)",
+    "verdict": "confirmed",
+    "flags": ["r"],
+    "desc": "Il granchio gigante del Giappone (Macrocheira kaempferi) è il più grande artropode vivente conosciuto, anche se non il più pesante. Con le zampe distese un adulto può sfiorare i 4 metri da chela a chela, mentre il carapace è lungo solo circa 37 cm. Vive sui fondali al largo del Giappone, in media tra 150 e 300 metri di profondità.",
+    "sources": [
+      {
+        "title": "Macrocheira kaempferi (Japanese spider crab)",
+        "url": "https://animaldiversity.org/accounts/Macrocheira_kaempferi/",
+        "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+        "evidence": "adult specimens can be nearly 4 meters long"
+      }
+    ],
+    "note": "\"Nearly 4 meters\" è il massimo per esemplari adulti grandi; il valore attuale di 3,7 m è l'8% sotto 4 m ed è compatibile con \"quasi 4\", quindi confermato come apertura di un adulto grande e non come media. Il superlativo è sostenuto dalla fonte (\"the largest known living arthropod\"). La longevità di 100 anni non è stata inserita perché la stessa pagina la definisce una possibile congettura.",
+    "verified": "2026-11-12"
+  }
+]

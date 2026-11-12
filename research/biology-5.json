@@ -1,0 +1,212 @@
+[
+  {
+    "id": "giraffa",
+    "size": 5.5,
+    "basis": "altezza di un maschio adulto dal suolo alla sommità degli ossiconi",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "La giraffa (Giraffa camelopardalis) è il mammifero più alto del mondo e vive nelle savane africane. I maschi arrivano a circa 5,7 m dal suolo alla sommità delle corna, mentre le femmine sono più basse di 0,7-1 m.",
+    "sources": [
+      {
+        "title": "Giraffa camelopardalis (giraffe)",
+        "url": "https://animaldiversity.org/accounts/Giraffa_camelopardalis/",
+        "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+        "evidence": "Male giraffes (bulls) stand a total of 5.7 m from the ground to their horns"
+      }
+    ],
+    "note": "5,5 m è entro il 4% dal valore di 5,7 m dato per i maschi e sopra l'altezza delle femmine (4,7-5,0 m, ricavata dalla differenza di 0,7-1 m): confermato come altezza tipica di un maschio adulto.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "anaconda-verde",
+    "size": 6,
+    "basis": "lunghezza totale tipica di una femmina adulta",
+    "verdict": "uncertain",
+    "flags": ["u"],
+    "desc": "L'anaconda verde (Eunectes murinus) è un grande serpente costrittore semiacquatico del Sud America. Le femmine misurano in media circa 6 m e i maschi circa 3 m. Vengono riportati esemplari di 9 m e oltre, con masse fino a 250 kg, ma la taglia massima reale è molto discussa.",
+    "sources": [
+      {
+        "title": "Eunectes murinus (anaconda, green anaconda)",
+        "url": "https://animaldiversity.org/accounts/Eunectes_murinus/",
+        "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+        "evidence": "males reaching an average of 3 meters in length and females 6 meters"
+      },
+      {
+        "title": "Green anaconda",
+        "url": "https://nationalzoo.si.edu/animals/green-anaconda",
+        "publisher": "Smithsonian's National Zoo and Conservation Biology Institute",
+        "evidence": "can reach lengths of 30 feet (9 meters)"
+      }
+    ],
+    "note": "Il valore di 6 m coincide con la media delle femmine secondo ADW. Le fonti divergono sul massimo (9 m per lo Smithsonian, 10-12 m riportati da ADW, che però definisce la taglia massima \"subject of much dispute\"): resta il flag u. La frase attuale \"oltre i 6-7 m non documentati in modo affidabile\" non è sostenuta alla lettera dalle fonti aperte ed è stata sostituita con la formulazione più prudente.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "elefante-africano",
+    "size": 6.5,
+    "basis": "lunghezza testa-corpo, proboscide compresa, dell'elefante africano di savana",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "L'elefante africano di savana (Loxodonta africana) è il più grande animale terrestre vivente. La lunghezza di testa e corpo, proboscide compresa, va da 6 a 7,5 m; i maschi sono alti al garrese da 2,9 a 3,7 m e pesano in media circa 6.000 kg.",
+    "sources": [
+      {
+        "title": "African Elephants (Loxodonta africana and L. cyclotis) Fact Sheet: Physical Characteristics",
+        "url": "https://ielc.libguides.com/sdzg/factsheets/african_elephant/characteristics",
+        "publisher": "San Diego Zoo Wildlife Alliance Library",
+        "evidence": "600–750 cm (20–25 ft)"
+      },
+      {
+        "title": "Loxodonta africana (African bush elephant)",
+        "url": "https://animaldiversity.org/accounts/Loxodonta_africana/",
+        "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+        "evidence": "African elephants are the largest terrestrial organism"
+      }
+    ],
+    "note": "6,5 m cade dentro l'intervallo 6,0-7,5 m (testa-corpo con proboscide) della scheda del San Diego Zoo. Il superlativo viene da ADW. Le pagine Britannica hanno risposto 403 e non sono citate.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "saguaro",
+    "size": 12,
+    "basis": "altezza di un esemplare adulto grande",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il saguaro (Carnegiea gigantea) è il grande cactus colonnare del deserto di Sonora. Un esemplare adulto supera spesso i 12 m e può arrivare a circa 15 m (50 piedi), con un peso di 2 tonnellate o più. Cresce molto lentamente: i primi rami compaiono di norma tra i 60 e i 75 anni e la vita media è stimata in 150-175 anni.",
+    "sources": [
+      {
+        "title": "Saguaro Cactus",
+        "url": "https://www.nps.gov/sagu/learn/nature/saguaro.htm",
+        "publisher": "U.S. National Park Service, Saguaro National Park",
+        "evidence": "It may weigh 2 or more tons and be as tall as 50 feet"
+      },
+      {
+        "title": "Saguaro Cactus",
+        "url": "https://www.nps.gov/orpi/learn/nature/saguaro-cactus.htm",
+        "publisher": "U.S. National Park Service, Organ Pipe Cactus National Monument",
+        "evidence": "Saguaro Cactus can grow to heights of 45 feet"
+      }
+    ],
+    "note": "Le due pagine NPS danno altezze massime ordinarie di 45 piedi (13,7 m) e 50 piedi (15,2 m). 12 m (circa 40 piedi) è sotto questi massimi del 12-21% ma rientra nella variabilità di un adulto grande: confermato come altezza tipica e non come massimo. Se si vuole mostrare il massimo ordinario il valore sarebbe 15 m. Il record di 78 piedi citato dalla pagina di Organ Pipe non è stato usato perché non verificato altrove.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "tyrannosaurus-rex",
+    "size": 12.3,
+    "basis": "lunghezza dello scheletro SUE (FMNH PR 2081), dal muso alla punta della coda",
+    "verdict": "confirmed",
+    "flags": ["r"],
+    "desc": "Tyrannosaurus rex è un grande dinosauro carnivoro vissuto in Nord America alla fine del Cretaceo, tra 68 e 66 milioni di anni fa. SUE, lo scheletro del Field Museum di Chicago, misura 40,5 piedi (circa 12,3 m) di lunghezza ed è alto 4 m all'anca. È lo scheletro di T. rex più completo per volume osseo, circa il 90%, ed è stato scoperto nel 1990 nel South Dakota.",
+    "sources": [
+      {
+        "title": "How well do you know SUE?",
+        "url": "https://www.fieldmuseum.org/blog/how-well-do-you-know-sue",
+        "publisher": "Field Museum, Chicago",
+        "evidence": "At 40.5 feet long and 13 feet tall at the hip"
+      },
+      {
+        "title": "Tyrannosaurus (Dino Directory)",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/tyrannosaurus.html",
+        "publisher": "Natural History Museum, London",
+        "evidence": "Late Cretaceous, 68–66 million years ago"
+      }
+    ],
+    "note": "40,5 ft × 0,3048 = 12,34 m, quindi 12,3 m è confermato. 13 ft × 0,3048 = 3,96 m all'anca. Il Natural History Museum indica 12,0 m come lunghezza tipica. Anno e luogo della scoperta dalla pagina del Field Museum \"SUE the T. rex\" (https://www.fieldmuseum.org/blog/sue-t-rex), aperta. La frase \"L'originale: 7 m\" riguarda la lista del 2012 e non è verificabile su una fonte: tolta dalla descrizione, il flag r resta.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "quercia",
+    "size": 20,
+    "basis": "altezza di una farnia (Quercus robur) adulta, estremo inferiore dell'intervallo tipico",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "La quercia qui mostrata è la farnia (Quercus robur), grande albero deciduo diffuso in Europa. Da adulta è alta tipicamente tra 20 e 40 m. Secondo il Woodland Trust le querce del Regno Unito possono ospitare più di 2.300 specie diverse.",
+    "sources": [
+      {
+        "title": "Oak, English (Quercus robur)",
+        "url": "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/english-oak/",
+        "publisher": "Woodland Trust",
+        "evidence": "A large, deciduous tree growing up to 20–40m tall"
+      }
+    ],
+    "note": "\"Quercia\" è generico; ho preso la farnia come specie di riferimento. 20 m è l'estremo inferiore dell'intervallo 20-40 m della fonte: confermato come altezza tipica, ma un valore centrale sarebbe 30 m. La pagina Britannica ha risposto 403 e non è citata.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "balenottera-azzurra",
+    "size": 30,
+    "basis": "lunghezza totale di un adulto grande",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "La balenottera azzurra (Balaenoptera musculus) è il più grande animale mai vissuto sulla Terra, secondo la NOAA. Nel Nord Atlantico e nel Nord Pacifico arriva a circa 27 m, mentre in Antartide può raggiungere circa 33 m e superare le 150 tonnellate.",
+    "sources": [
+      {
+        "title": "Blue Whale",
+        "url": "https://www.fisheries.noaa.gov/species/blue-whale",
+        "publisher": "NOAA Fisheries",
+        "evidence": "in the Antarctic, they can reach up to about 110 feet"
+      }
+    ],
+    "note": "90 ft × 0,3048 = 27,4 m; 110 ft × 0,3048 = 33,5 m; 30 m sta tra i due valori. 330.000 lb × 0,4536 = 149.700 kg, e la pagina dice \"more than 330,000 pounds\". Il superlativo è riportato come sulla pagina NOAA (\"largest animals ever to live on our planet\").",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "maraapunisaurus",
+    "size": 32,
+    "basis": "lunghezza totale stimata dalla testa alla coda (estremo superiore della stima di Carpenter 2018)",
+    "verdict": "uncertain",
+    "flags": ["r", "u"],
+    "desc": "Maraapunisaurus fragillimus è un sauropode del Giurassico descritto da Edward Cope nel 1878 come Amphicoelias fragillimus e riclassificato nel 2018 come rebbachisauride basale. È noto da una sola vertebra, andata perduta e documentata soltanto nella pubblicazione originale. La revisione del 2018 stima una vertebra alta 2,4 m e una lunghezza totale tra 30,3 e 32 m, molto meno delle stime precedenti.",
+    "sources": [
+      {
+        "title": "Maraapunisaurus fragillimus, n.g. (formerly Amphicoelias fragillimus), a basal rebbachisaurid from the Morrison Formation (Upper Jurassic) of Colorado",
+        "url": "https://giw.utahgeology.org/index.php/GIW/article/view/32",
+        "publisher": "K. Carpenter, Geology of the Intermountain West, vol. 5 (2018)",
+        "evidence": "head-to-tail length for the animal of 30.3 to 32m"
+      }
+    ],
+    "note": "32 m è l'estremo superiore dell'intervallo 30,3-32 m dell'abstract. Resta incerto perché la stima dipende da un esemplare perduto e dalla ricostruzione scelta. L'attribuzione al Giurassico viene dal titolo dell'articolo (Morrison Formation, Upper Jurassic).",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "argentinosaurus",
+    "size": 35,
+    "basis": "lunghezza totale stimata",
+    "verdict": "confirmed",
+    "flags": ["n"],
+    "desc": "Argentinosaurus è un sauropode titanosauro vissuto in Argentina nel Cretaceo superiore, circa 90 milioni di anni fa, e descritto da Bonaparte e Coria nel 1993. Il Natural History Museum di Londra gli attribuisce una lunghezza di 35 m e una massa di 70.000 kg. È tra i più grandi dinosauri conosciuti.",
+    "sources": [
+      {
+        "title": "Argentinosaurus (Dino Directory)",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/argentinosaurus.html",
+        "publisher": "Natural History Museum, London",
+        "evidence": "Length: 35.0m"
+      }
+    ],
+    "note": "Valore confermato dalla scheda del museo. L'espressione \"da resti solidi\" della descrizione attuale non è sostenuta dalla fonte aperta ed è stata tolta; \"tra i più grandi\" è una formulazione prudente basata su lunghezza e massa indicate, non su una frase della fonte. La lunghezza è una stima: non ho aperto l'articolo originale del 1993.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "sequoia-hyperion",
+    "size": 116,
+    "basis": "altezza dell'albero dalla base alla cima (misura del 2019)",
+    "verdict": "confirmed",
+    "flags": ["r"],
+    "desc": "Hyperion è una sequoia sempreverde (Sequoia sempervirens) del Redwood National Park, in California, ed è l'albero vivente più alto conosciuto. Scoperto il 25 agosto 2006 da Chris Atkins e Michael Taylor, nel 2019 misurava 116,07 m. La posizione esatta è tenuta riservata e l'area intorno all'albero è chiusa al pubblico.",
+    "sources": [
+      {
+        "title": "Tallest tree living",
+        "url": "https://www.guinnessworldrecords.com/world-records/tallest-tree-living",
+        "publisher": "Guinness World Records",
+        "evidence": "By 2019, the height had grown to 116.07 m (380 ft 9.7 in)"
+      },
+      {
+        "title": "Hyperion",
+        "url": "https://www.nps.gov/redw/planyourvisit/hyperion.htm",
+        "publisher": "U.S. National Park Service, Redwood National and State Parks",
+        "evidence": "The following area is closed to public access to protect park resources"
+      }
+    ],
+    "note": "116 m confermato (116,07 m nel 2019). La frase \"L'originale: 100 m\" riguarda la lista del 2012 e non è verificabile su una fonte: tolta dalla descrizione, il flag r resta. La pagina NPS non riporta l'altezza ma conferma il titolo di albero più alto e la chiusura dell'area.",
+    "verified": "2026-11-12"
+  }
+]
