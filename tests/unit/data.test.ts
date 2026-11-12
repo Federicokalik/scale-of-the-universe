@@ -28,6 +28,7 @@ test('italian file has exactly one entry per object', () => {
 test('fields are carried over from the draft', () => {
   expect(objects.find((o) => o.id === 'terra')).toMatchObject({ size: 1.2742e7, kind: 'p', glyph: '#3b82c4', flags: [] });
   expect(objects.find((o) => o.id === 'woh-g64')!.flags).toEqual(['r', 'u']);
-  expect(it.objects['lunghezza-di-planck'].desc).toContain('CODATA 2022');
+  // Descriptions are rewritten by the research phase, so only the name is pinned here.
+  expect(it.objects['lunghezza-di-planck'].name).toBe('Lunghezza di Planck');
   expect(it.objects['terra'].name).toBe('Terra');
 });
