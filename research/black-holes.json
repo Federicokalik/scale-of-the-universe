@@ -1,0 +1,146 @@
+[
+  {
+    "id": "buco-nero-stellare",
+    "size": 5.9e4,
+    "basis": "diametro dell'orizzonte degli eventi (due raggi di Schwarzschild, buco nero non rotante)",
+    "verdict": "confirmed",
+    "flags": ["n"],
+    "desc": "Un buco nero di massa stellare nasce dal collasso del nucleo di una stella molto massiccia. L'esempio qui mostrato ha 10 masse solari: il raggio di Schwarzschild vale circa 2,95 km per massa solare, quindi l'orizzonte degli eventi ha un diametro di circa 59 km. Secondo la NASA le masse di questi oggetti vanno da poche a centinaia di volte quella del Sole.",
+    "sources": [
+      {
+        "title": "What is the Critical Mass at Which a Star Becomes a Black Hole? (Ask an Astronomer)",
+        "url": "https://public.nrao.edu/ask/what-is-the-critical-mass-at-which-a-star-becomes-a-black-hole/",
+        "publisher": "National Radio Astronomy Observatory (NRAO)",
+        "evidence": "Rs = 2.95*M(solar masses) km"
+      },
+      {
+        "title": "Black Hole Types",
+        "url": "https://science.nasa.gov/universe/black-holes/types/",
+        "publisher": "NASA Science",
+        "evidence": "can range from a few to hundreds of times"
+      }
+    ],
+    "note": "Oggetto generico. Calcolo: 2 × 2,953 km × 10 = 59,06 km = 5,9e4 m. La pagina NASA conferma che 10 masse solari rientra nell'intervallo delle masse stellari (da poche a centinaia), ma non dice che 10 sia il valore tipico: la descrizione lo presenta come esempio.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "gaia-bh3",
+    "size": 1.95e5,
+    "basis": "diametro dell'orizzonte degli eventi (due raggi di Schwarzschild, buco nero non rotante)",
+    "verdict": "confirmed",
+    "flags": ["n"],
+    "desc": "Gaia BH3 è un buco nero dormiente in un sistema binario a circa 1900 anni luce dalla Terra, individuato nei dati astrometrici del satellite Gaia e annunciato nel 2024. La sua massa, ricavata dall'orbita della stella compagna, è di 32,7 masse solari. Al momento della scoperta era il più massiccio buco nero di origine stellare noto nella Via Lattea.",
+    "sources": [
+      {
+        "title": "Discovery of a dormant 33 solar-mass black hole in pre-release Gaia astrometry",
+        "url": "https://arxiv.org/abs/2404.10486",
+        "publisher": "Gaia Collaboration (Panuzzo et al.), Astronomy & Astrophysics Letters, arXiv",
+        "evidence": "32.70 ± 0.82 M⊙"
+      },
+      {
+        "title": "Sleeping giant surprises Gaia scientists",
+        "url": "https://www.esa.int/Science_Exploration/Space_Science/Gaia/Sleeping_giant_surprises_Gaia_scientists",
+        "publisher": "ESA",
+        "evidence": "a mass of nearly 33 times the mass of the Sun"
+      }
+    ],
+    "note": "Calcolo con la massa dell'articolo: 2 × 2,953 km × 32,70 = 193,1 km (1,93e5 m), entro l'1% dal valore attuale di 1,95e5 m (che corrisponde a 33 masse solari), quindi confermato. Il superlativo è sostenuto dall'abstract (\"more massive than any other Galactic stellar-origin BH known thus far\") ma è datato al 2024: la descrizione lo riferisce al momento della scoperta. Nell'abstract su arXiv la cifra è scritta in notazione TeX.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "sagittarius-a",
+    "size": 2.5e10,
+    "basis": "diametro dell'orizzonte degli eventi (due raggi di Schwarzschild, buco nero non rotante)",
+    "verdict": "confirmed",
+    "flags": ["n"],
+    "desc": "Sagittarius A* è il buco nero supermassiccio al centro della Via Lattea. La sua massa, misurata nel 2021 dalla collaborazione GRAVITY seguendo le orbite delle stelle vicine, è di 4,3 milioni di masse solari. La prima immagine è stata pubblicata nel 2022 dall'Event Horizon Telescope.",
+    "sources": [
+      {
+        "title": "The mass distribution in the Galactic Centre from interferometric astrometry of multiple stellar orbits",
+        "url": "https://arxiv.org/abs/2112.07478",
+        "publisher": "GRAVITY Collaboration, Astronomy & Astrophysics, arXiv",
+        "evidence": "M = 4.30 x 10^6 M_sun"
+      },
+      {
+        "title": "Astronomers reveal first image of the black hole at the heart of our galaxy (eso2208-eht-mw)",
+        "url": "https://www.eso.org/public/news/eso2208-eht-mw/",
+        "publisher": "ESO / Event Horizon Telescope Collaboration",
+        "evidence": "first image of the supermassive black hole at the centre of our own Milky Way"
+      }
+    ],
+    "note": "Calcolo: 2 × 2,953 km × 4,30e6 = 2,54e7 km = 2,54e10 m, entro il 2% dal valore attuale di 2,5e10 m, quindi confermato. Il comunicato ESO è datato 12 maggio 2022 e conferma la prima immagine; indica la massa in forma arrotondata (quattro milioni di masse solari).",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "m87",
+    "size": 3.8e13,
+    "basis": "diametro dell'orizzonte degli eventi (due raggi di Schwarzschild, buco nero non rotante)",
+    "verdict": "confirmed",
+    "flags": ["n"],
+    "desc": "M87* è il buco nero supermassiccio al centro della galassia Messier 87, a 55 milioni di anni luce dalla Terra. La collaborazione Event Horizon Telescope ne ha stimato la massa in 6,5 miliardi di masse solari, con un'incertezza di 0,7 miliardi. Nel 2019 è stato il primo buco nero di cui sia stata ottenuta un'immagine.",
+    "sources": [
+      {
+        "title": "First M87 Event Horizon Telescope Results. I. The Shadow of the Supermassive Black Hole",
+        "url": "https://arxiv.org/abs/1906.11238",
+        "publisher": "Event Horizon Telescope Collaboration, ApJL 875, L1 (2019), arXiv",
+        "evidence": "M = (6.5+/-0.7) x 10^9 Msun"
+      },
+      {
+        "title": "Astronomers Capture First Image of a Black Hole (eso1907)",
+        "url": "https://www.eso.org/public/news/eso1907/",
+        "publisher": "ESO / Event Horizon Telescope Collaboration",
+        "evidence": "We have taken the first picture of a black hole"
+      }
+    ],
+    "note": "Calcolo: 2 × 2,953 km × 6,5e9 = 3,84e10 km = 3,84e13 m, entro l'1% dal valore attuale di 3,8e13 m. Il comunicato ESO è datato 10 aprile 2019 e indica anche la distanza di 55 milioni di anni luce.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "buco-nero-del-cosmic-horseshoe",
+    "size": 2.1e14,
+    "basis": "diametro dell'orizzonte degli eventi (due raggi di Schwarzschild, buco nero non rotante)",
+    "verdict": "uncertain",
+    "flags": ["n", "u"],
+    "desc": "Buco nero ultramassiccio al centro della galassia che fa da lente nel sistema Cosmic Horseshoe, a circa 5 miliardi di anni luce. Uno studio del 2025 ne stima la massa in circa 36 miliardi di masse solari combinando lente gravitazionale e moto delle stelle, con un intervallo tra circa 30 e 43 miliardi più un'ulteriore incertezza sistematica. Gli autori lo indicano tra i dieci buchi neri più massicci conosciuti.",
+    "sources": [
+      {
+        "title": "Unveiling a 36 Billion Solar Mass Black Hole at the Centre of the Cosmic Horseshoe Gravitational Lens",
+        "url": "https://arxiv.org/abs/2502.13788",
+        "publisher": "Melo-Carneiro et al., MNRAS 541, 2853-2871 (2025), arXiv",
+        "evidence": "Unveiling a 36 Billion Solar Mass Black Hole"
+      },
+      {
+        "title": "'Most massive black hole ever discovered' is detected",
+        "url": "https://ras.ac.uk/news-and-press/research-highlights/most-massive-black-hole-ever-discovered-detected",
+        "publisher": "Royal Astronomical Society",
+        "evidence": "potentially the most massive black hole ever detected"
+      }
+    ],
+    "note": "Valore centrale confermato: l'abstract dà log10(M/Msun) = 10,56 (+0,07, -0,08 statistico, ±0,12 sistematico), cioè 3,63e10 masse solari; 2 × 2,953 km × 3,63e10 = 2,14e11 km = 2,14e14 m, entro il 2% dal valore attuale di 2,1e14 m, che resta invariato. Verdetto 'uncertain' perché le barre d'errore sono larghe: il solo errore statistico dà 3,0e10-4,3e10 masse solari (diametro 1,8e14-2,5e14 m) e l'errore sistematico di 0,12 dex allarga ancora l'intervallo. Il superlativo della vecchia descrizione (\"la misura diretta più alta\") non è sostenuto in forma netta: il comunicato RAS dice \"potentially the most massive\" e \"amongst the top 10\", quindi è stato attenuato.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "ton-618",
+    "size": 3.9e14,
+    "basis": "diametro dell'orizzonte degli eventi (due raggi di Schwarzschild, buco nero non rotante)",
+    "verdict": "uncertain",
+    "flags": ["n", "u"],
+    "desc": "TON 618 è un quasar molto luminoso alimentato da un buco nero ultramassiccio. La massa non è misurata direttamente ma stimata dalla larghezza della riga Hβ nello spettro: 66 miliardi di masse solari secondo uno studio del 2004, circa 41 miliardi secondo una ricalibrazione del 2019. Il diametro indicato corrisponde alla stima più alta.",
+    "sources": [
+      {
+        "title": "Near Infrared Spectroscopy of High Redshift Active Galactic Nuclei. I. A Metallicity-Accretion Rate Relationship",
+        "url": "https://arxiv.org/pdf/astro-ph/0406559",
+        "publisher": "Shemmer et al., ApJ 614, 547 (2004), arXiv",
+        "evidence": "TON 618 47.31 10527 14905 10.82"
+      },
+      {
+        "title": "The Blueshift of the C IV Broad Emission Line in QSOs",
+        "url": "https://arxiv.org/pdf/1903.08830",
+        "publisher": "Ge et al., AJ 157, 148 (2019), arXiv",
+        "evidence": "TON618 2.219 2761 423 47.310 10.610"
+      }
+    ],
+    "note": "Le cifre sono nelle tabelle del testo completo (PDF), non negli abstract: Shemmer et al. 2004, Table 2, Log MBH = 10,82 cioè 6,6e10 masse solari; Ge et al. 2019, Table 2, log MBH = 10,610 cioè 4,07e10. Calcolo: 2 × 2,953 km × 6,6e10 = 3,90e11 km = 3,9e14 m (valore attuale, invariato); con 4,07e10 il diametro sarebbe 2,4e14 m. Entrambe le stime sono masse a singola epoca basate sulla riga Hβ con calibrazioni diverse: la cifra del 2019 non deriva dalla riga C IV. Gli autori del 2004 avvertono che le masse oltre 1e10 masse solari sono estrapolazioni incerte.",
+    "verified": "2026-11-12"
+  }
+]

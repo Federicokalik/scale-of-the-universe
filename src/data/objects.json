@@ -2514,8 +2514,19 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "What is the Critical Mass at Which a Star Becomes a Black Hole? (Ask an Astronomer)",
+        "url": "https://public.nrao.edu/ask/what-is-the-critical-mass-at-which-a-star-becomes-a-black-hole/",
+        "publisher": "National Radio Astronomy Observatory (NRAO)"
+      },
+      {
+        "title": "Black Hole Types",
+        "url": "https://science.nasa.gov/universe/black-holes/types/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "rhode-island",
@@ -2568,8 +2579,19 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Discovery of a dormant 33 solar-mass black hole in pre-release Gaia astrometry",
+        "url": "https://arxiv.org/abs/2404.10486",
+        "publisher": "Gaia Collaboration (Panuzzo et al.), Astronomy & Astrophysics Letters, arXiv"
+      },
+      {
+        "title": "Sleeping giant surprises Gaia scientists",
+        "url": "https://www.esa.int/Science_Exploration/Space_Science/Gaia/Sleeping_giant_surprises_Gaia_scientists",
+        "publisher": "ESA"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "psyche",
@@ -3404,8 +3426,19 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "The mass distribution in the Galactic Centre from interferometric astrometry of multiple stellar orbits",
+        "url": "https://arxiv.org/abs/2112.07478",
+        "publisher": "GRAVITY Collaboration, Astronomy & Astrophysics, arXiv"
+      },
+      {
+        "title": "Astronomers reveal first image of the black hole at the heart of our galaxy (eso2208-eht-mw)",
+        "url": "https://www.eso.org/public/news/eso2208-eht-mw/",
+        "publisher": "ESO / Event Horizon Telescope Collaboration"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "alnitak",
@@ -3820,8 +3853,19 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "First M87 Event Horizon Telescope Results. I. The Shadow of the Supermassive Black Hole",
+        "url": "https://arxiv.org/abs/1906.11238",
+        "publisher": "Event Horizon Telescope Collaboration, ApJL 875, L1 (2019), arXiv"
+      },
+      {
+        "title": "Astronomers Capture First Image of a Black Hole (eso1907)",
+        "url": "https://www.eso.org/public/news/eso1907/",
+        "publisher": "ESO / Event Horizon Telescope Collaboration"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "afelio-della-cometa-hale-bopp",
@@ -3849,11 +3893,23 @@
     "kind": "h",
     "glyph": "",
     "flags": [
-      "n"
+      "n",
+      "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Unveiling a 36 Billion Solar Mass Black Hole at the Centre of the Cosmic Horseshoe Gravitational Lens",
+        "url": "https://arxiv.org/abs/2502.13788",
+        "publisher": "Melo-Carneiro et al., MNRAS 541, 2853-2871 (2025), arXiv"
+      },
+      {
+        "title": "'Most massive black hole ever discovered' is detected",
+        "url": "https://ras.ac.uk/news-and-press/research-highlights/most-massive-black-hole-ever-discovered-detected",
+        "publisher": "Royal Astronomical Society"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "ton-618",
@@ -3865,8 +3921,19 @@
       "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Near Infrared Spectroscopy of High Redshift Active Galactic Nuclei. I. A Metallicity-Accretion Rate Relationship",
+        "url": "https://arxiv.org/pdf/astro-ph/0406559",
+        "publisher": "Shemmer et al., ApJ 614, 547 (2004), arXiv"
+      },
+      {
+        "title": "The Blueshift of the C IV Broad Emission Line in QSOs",
+        "url": "https://arxiv.org/pdf/1903.08830",
+        "publisher": "Ge et al., AJ 157, 148 (2019), arXiv"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "nebulosa-stingray",

@@ -123,3 +123,20 @@ test('panels are flat: no refraction filter and no pointer-following sheen', asy
   const sheen = await page.evaluate(() => getComputedStyle(document.getElementById('about')!, '::before').content);
   expect(sheen).toBe('none');
 });
+
+test('a verified object shows its sources and the date it was checked', async ({ page }) => {
+  await page.goto('/it/#m87');
+  await expect(page.locator('#cName')).toHaveText('M87*');
+  const sources = page.locator('#cSources');
+  await expect(sources).toBeVisible();
+  const link = sources.locator('a').first();
+  await expect(link).toHaveAttribute('href', /^https:\/\//);
+  await expect(link).toHaveAttribute('rel', /noopener/);
+  await expect(sources).toContainText(/Verificato il \d{1,2} \p{L}+ \d{4}/u);
+});
+
+test('an object not verified yet shows no sources block', async ({ page }) => {
+  await page.goto('/it/#formica');
+  await expect(page.locator('#cName')).toHaveText('Formica');
+  await expect(page.locator('#cSources')).toBeHidden();
+});

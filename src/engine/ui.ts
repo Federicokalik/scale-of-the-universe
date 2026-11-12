@@ -1,4 +1,4 @@
-import { formatCompare, formatSci, formatSize } from '../lib/format';
+import { fill, formatCompare, formatSci, formatSize } from '../lib/format';
 import type { Flag, SceneData } from '../lib/types';
 import type { Music } from './audio';
 import { FLAG_COLOUR, REGIME_LIMITS } from './constants';
@@ -21,6 +21,39 @@ export function bindUi(root: HTMLElement, scene: Scene, data: SceneData, music: 
   const badges = el('cBadges');
   const prev = el<HTMLButtonElement>('prev');
   const next = el<HTMLButtonElement>('next');
+
+  const sources = el('cSources');
+  const longDate = new Intl.DateTimeFormat(locale, { dateStyle: 'long', timeZone: 'UTC' });
+
+  /** Where the value comes from and when it was last checked. Hidden until an object has been verified. */
+  function showSources(o: Placed): void {
+    sources.replaceChildren();
+    sources.hidden = !o.sources.length;
+    if (!o.sources.length) return;
+    const heading = document.createElement('div');
+    heading.className = 'sources-title';
+    heading.textContent = ui['card.sources'];
+    const list = document.createElement('ul');
+    for (const source of o.sources) {
+      const item = document.createElement('li');
+      const link = document.createElement('a');
+      link.href = source.url;
+      link.target = '_blank';
+      link.rel = 'noopener noreferrer';
+      link.textContent = source.title;
+      link.setAttribute('aria-label', `${source.title} (${ui['card.newtab']})`);
+      item.append(link);
+      if (source.publisher) item.append(` · ${source.publisher}`);
+      list.append(item);
+    }
+    sources.append(heading, list);
+    if (o.verified) {
+      const checked = document.createElement('div');
+      checked.className = 'sources-date';
+      checked.textContent = fill(ui['card.verified'], { date: longDate.format(new Date(o.verified)) });
+      sources.append(checked);
+    }
+  }
 
   function showCard(o: Placed | null): void {
     // Keep the address shareable: #id while a card is open, nothing otherwise.
@@ -45,6 +78,7 @@ export function bindUi(root: HTMLElement, scene: Scene, data: SceneData, music: 
         return badge;
       }),
     );
+    showSources(o);
     const before = scene.objects[o.index - 1];
     const after = scene.objects[o.index + 1];
     prev.textContent = before ? `← ${before.name}` : '';

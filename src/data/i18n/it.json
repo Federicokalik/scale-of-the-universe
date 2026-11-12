@@ -106,7 +106,10 @@
     "dialog.ui.stack": "Sito costruito con <a href=\"https://astro.build/\">Astro</a> e <a href=\"https://unocss.dev/\">UnoCSS</a>, pubblicato su GitHub Pages.",
     "dialog.privacy.title": "Privacy",
     "dialog.privacy.body": "Questo sito non usa cookie e non traccia nulla: nessuna statistica, nessun servizio di terze parti, nessun dato inviato a qualcuno. L'unica cosa che viene ricordata è la lingua che scegli, e resta nel tuo browser. Il sito è ospitato su GitHub Pages, che come ogni server riceve l'indirizzo IP di chi lo visita secondo la propria informativa.",
-    "dialog.author": "Un progetto di <a href=\"https://calicchia.design/\">Federico Calicchia</a>."
+    "dialog.author": "Un progetto di <a href=\"https://calicchia.design/\">Federico Calicchia</a>.",
+    "card.sources": "Fonti",
+    "card.verified": "Verificato il {date}",
+    "card.newtab": "si apre in una nuova scheda"
   },
   "objects": {
     "schiuma-quantistica": {
@@ -1031,7 +1034,7 @@
     },
     "buco-nero-stellare": {
       "name": "Buco nero stellare",
-      "desc": "Orizzonte degli eventi di un buco nero da 10 masse solari."
+      "desc": "Un buco nero di massa stellare nasce dal collasso del nucleo di una stella molto massiccia. L'esempio qui mostrato ha 10 masse solari: il raggio di Schwarzschild vale circa 2,95 km per massa solare, quindi l'orizzonte degli eventi ha un diametro di circa 59 km. Secondo la NASA le masse di questi oggetti vanno da poche a centinaia di volte quella del Sole."
     },
     "rhode-island": {
       "name": "Rhode Island",
@@ -1051,7 +1054,7 @@
     },
     "gaia-bh3": {
       "name": "Gaia BH3",
-      "desc": "33 masse solari: il più massiccio buco nero stellare noto nella Via Lattea, scoperto nel 2024."
+      "desc": "Gaia BH3 è un buco nero dormiente in un sistema binario a circa 1900 anni luce dalla Terra, individuato nei dati astrometrici del satellite Gaia e annunciato nel 2024. La sua massa, ricavata dall'orbita della stella compagna, è di 32,7 masse solari. Al momento della scoperta era il più massiccio buco nero di origine stellare noto nella Via Lattea."
     },
     "psyche": {
       "name": "Psyche",
@@ -1359,7 +1362,7 @@
     },
     "sagittarius-a": {
       "name": "Sagittarius A*",
-      "desc": "Il buco nero al centro della Via Lattea: 4,3 milioni di masse solari. Prima immagine nel 2022."
+      "desc": "Sagittarius A* è il buco nero supermassiccio al centro della Via Lattea. La sua massa, misurata nel 2021 dalla collaborazione GRAVITY seguendo le orbite delle stelle vicine, è di 4,3 milioni di masse solari. La prima immagine è stata pubblicata nel 2022 dall'Event Horizon Telescope."
     },
     "alnitak": {
       "name": "Alnitak",
@@ -1507,7 +1510,7 @@
     },
     "m87": {
       "name": "M87*",
-      "desc": "Il primo buco nero fotografato (2019): 6,5 miliardi di masse solari."
+      "desc": "M87* è il buco nero supermassiccio al centro della galassia Messier 87, a 55 milioni di anni luce dalla Terra. La collaborazione Event Horizon Telescope ne ha stimato la massa in 6,5 miliardi di masse solari, con un'incertezza di 0,7 miliardi. Nel 2019 è stato il primo buco nero di cui sia stata ottenuta un'immagine."
     },
     "afelio-della-cometa-hale-bopp": {
       "name": "Afelio della cometa Hale-Bopp",
@@ -1519,11 +1522,11 @@
     },
     "buco-nero-del-cosmic-horseshoe": {
       "name": "Buco nero del Cosmic Horseshoe",
-      "desc": "36 miliardi di masse solari, misurate nel 2025 con lente gravitazionale e moto delle stelle: la misura diretta più alta."
+      "desc": "Buco nero ultramassiccio al centro della galassia che fa da lente nel sistema Cosmic Horseshoe, a circa 5 miliardi di anni luce. Uno studio del 2025 ne stima la massa in circa 36 miliardi di masse solari combinando lente gravitazionale e moto delle stelle, con un intervallo tra circa 30 e 43 miliardi più un'ulteriore incertezza sistematica. Gli autori lo indicano tra i dieci buchi neri più massicci conosciuti."
     },
     "ton-618": {
       "name": "TON 618",
-      "desc": "Stimato in 66 miliardi di masse solari, ma con un metodo indiretto: altre analisi dicono 40."
+      "desc": "TON 618 è un quasar molto luminoso alimentato da un buco nero ultramassiccio. La massa non è misurata direttamente ma stimata dalla larghezza della riga Hβ nello spettro: 66 miliardi di masse solari secondo uno studio del 2004, circa 41 miliardi secondo una ricalibrazione del 2019. Il diametro indicato corrisponde alla stima più alta."
     },
     "nebulosa-stingray": {
       "name": "Nebulosa Stingray",
