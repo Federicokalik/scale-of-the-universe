@@ -7,6 +7,8 @@ export const FLAGS: readonly Flag[] = ['r', 'n', 'i', 'u'];
 export interface Source {
   title: string;
   url: string;
+  /** Who published it, e.g. NASA/JPL. Shown next to the link. */
+  publisher?: string;
 }
 
 export interface ObjectRecord {
