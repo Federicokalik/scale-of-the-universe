@@ -1,0 +1,1793 @@
+{
+  "ui": {},
+  "objects": {
+    "schiuma-quantistica": {
+      "name": "Schiuma quantistica",
+      "desc": "Fluttuazioni ipotetiche dello spaziotempo alla scala di Planck. Mai osservate."
+    },
+    "stringa": {
+      "name": "Stringa",
+      "desc": "Oggetto fondamentale della teoria delle stringhe. Nessuna conferma sperimentale."
+    },
+    "lunghezza-di-planck": {
+      "name": "Lunghezza di Planck",
+      "desc": "1,616255×10⁻³⁵ m (CODATA 2022). Sotto questa scala la fisica nota non basta più."
+    },
+    "yoctometro": {
+      "name": "Yoctometro",
+      "desc": "Un quadrilionesimo di metro: 10⁻²⁴ m."
+    },
+    "neutrino": {
+      "name": "Neutrino",
+      "desc": "Puntiforme nel Modello Standard: non ha una dimensione misurata. Posizione convenzionale ereditata dall'originale."
+    },
+    "quark-top": {
+      "name": "Quark top",
+      "desc": "Puntiforme entro i limiti sperimentali. È la particella elementare più massiccia: circa 172,5 GeV."
+    },
+    "zeptometro": {
+      "name": "Zeptometro",
+      "desc": "10⁻²¹ m."
+    },
+    "preone": {
+      "name": "Preone",
+      "desc": "Ipotetico costituente di quark e leptoni. Nessuna evidenza."
+    },
+    "neutrino-ad-alta-energia": {
+      "name": "Neutrino ad alta energia",
+      "desc": "Scala legata alla sezione d'urto, non a un raggio fisico. Il rivelatore KM3NeT ha registrato un neutrino da circa 220 PeV, il più energetico mai visto."
+    },
+    "quark-bottom": {
+      "name": "Quark bottom",
+      "desc": "Puntiforme entro i limiti sperimentali. Valore convenzionale."
+    },
+    "lunghezze-sondate-da-lhc": {
+      "name": "Lunghezze sondate da LHC",
+      "desc": "La scala più piccola esplorata direttamente, con collisioni a 13,6 TeV. L'originale fermava il confine a 10⁻¹⁶ m."
+    },
+    "sensibilita-di-ligo": {
+      "name": "Sensibilità di LIGO",
+      "desc": "La minima variazione di lunghezza misurabile sui bracci da 4 km: così si rivelano le onde gravitazionali."
+    },
+    "quark-charm": {
+      "name": "Quark charm",
+      "desc": "Puntiforme entro i limiti sperimentali. Valore convenzionale."
+    },
+    "quark-strange": {
+      "name": "Quark strange",
+      "desc": "Puntiforme entro i limiti sperimentali. Valore convenzionale."
+    },
+    "limite-sul-raggio-dei-quark": {
+      "name": "Limite sul raggio dei quark",
+      "desc": "Esperimento HERA (2016): se i quark hanno una struttura, è più piccola di 0,43×10⁻¹⁸ m."
+    },
+    "attometro": {
+      "name": "Attometro",
+      "desc": "10⁻¹⁸ m."
+    },
+    "quark-up": {
+      "name": "Quark up",
+      "desc": "Costituente di protoni e neutroni. Puntiforme entro i limiti sperimentali."
+    },
+    "quark-down": {
+      "name": "Quark down",
+      "desc": "Costituente di protoni e neutroni. Puntiforme entro i limiti sperimentali."
+    },
+    "elettrone-limite-superiore": {
+      "name": "Elettrone (limite superiore)",
+      "desc": "Nessuna struttura osservata: è puntiforme almeno fino a questa scala."
+    },
+    "raggio-d-azione-della-forza-debole": {
+      "name": "Raggio d'azione della forza debole",
+      "desc": "ħ/(m_W·c) ≈ 2,5×10⁻¹⁸ m. L'originale indicava 10⁻¹⁷ m."
+    },
+    "femtometro": {
+      "name": "Femtometro",
+      "desc": "10⁻¹⁵ m, detto anche fermi."
+    },
+    "protone": {
+      "name": "Protone",
+      "desc": "Raggio di carica 0,8408 fm (CODATA 2022). Il rompicapo del raggio del protone si è chiuso sul valore più piccolo."
+    },
+    "neutrone": {
+      "name": "Neutrone",
+      "desc": "Tre quark tenuti insieme dai gluoni, come il protone. Libero, decade in circa 15 minuti."
+    },
+    "nucleo-di-elio": {
+      "name": "Nucleo di elio",
+      "desc": "Particella alfa. Raggio di carica 1,678 fm, misurato nel 2021 con l'elio muonico."
+    },
+    "deuterone": {
+      "name": "Deuterone",
+      "desc": "Un protone e un neutrone. Raggio di carica 2,128 fm."
+    },
+    "elettrone-raggio-classico": {
+      "name": "Elettrone (raggio classico)",
+      "desc": "Due volte il raggio classico di 2,818 fm. È una convenzione, non una misura."
+    },
+    "nucleo-di-cloro": {
+      "name": "Nucleo di cloro",
+      "desc": "Cloro-35: raggio di carica quadratico medio di 3,37 fm."
+    },
+    "nucleo-atomico-medio": {
+      "name": "Nucleo atomico medio",
+      "desc": "Centomila volte più piccolo dell'atomo, ma con oltre il 99,9% della massa."
+    },
+    "nucleo-di-piombo-208": {
+      "name": "Nucleo di piombo-208",
+      "desc": "Il nucleo stabile più pesante. La sua pelle di neutroni è stata misurata dall'esperimento PREX-II."
+    },
+    "nucleo-di-uranio": {
+      "name": "Nucleo di uranio",
+      "desc": "Uranio-238: 92 protoni e 146 neutroni."
+    },
+    "picometro": {
+      "name": "Picometro",
+      "desc": "10⁻¹² m."
+    },
+    "raggi-gamma": {
+      "name": "Raggi gamma",
+      "desc": "Lunghezze d'onda sotto i 10 picometri circa."
+    },
+    "lunghezza-d-onda-compton-dell-elettrone": {
+      "name": "Lunghezza d'onda Compton dell'elettrone",
+      "desc": "Sotto questa scala, localizzare un elettrone crea nuove coppie di particelle."
+    },
+    "risoluzione-record-di-un-microscopio-elettronico": {
+      "name": "Risoluzione record di un microscopio elettronico",
+      "desc": "Pticografia elettronica (2021): circa 0,2 Å, al limite fissato dalle vibrazioni termiche degli atomi. L'originale: 0,5 Å."
+    },
+    "atomo-di-elio": {
+      "name": "Atomo di elio",
+      "desc": "Raggio calcolato di 31 pm: è l'atomo più piccolo. L'originale lo confondeva con il raggio."
+    },
+    "angstrom": {
+      "name": "Ångström",
+      "desc": "10⁻¹⁰ m, l'unità classica per atomi e legami chimici."
+    },
+    "atomo-di-idrogeno": {
+      "name": "Atomo di idrogeno",
+      "desc": "Due raggi di Bohr (52,9 pm)."
+    },
+    "atomo-di-carbonio": {
+      "name": "Atomo di carbonio",
+      "desc": "Raggio covalente di 76 pm."
+    },
+    "raggi-x": {
+      "name": "Raggi X",
+      "desc": "Riga Kα del rame, la più usata in cristallografia."
+    },
+    "legame-carbonio-carbonio": {
+      "name": "Legame carbonio–carbonio",
+      "desc": "Legame singolo: 154 pm. È l'impalcatura della chimica organica."
+    },
+    "atomo-di-zolfo": {
+      "name": "Atomo di zolfo",
+      "desc": "Raggio covalente di 105 pm."
+    },
+    "molecola-di-co2": {
+      "name": "Molecola di CO₂",
+      "desc": "Distanza tra i due atomi di ossigeno. In atmosfera ha superato le 425 parti per milione."
+    },
+    "molecola-d-acqua": {
+      "name": "Molecola d'acqua",
+      "desc": "Due idrogeni e un ossigeno a 104,5°."
+    },
+    "gate-di-transistor-piu-corto": {
+      "name": "Gate di transistor più corto",
+      "desc": "Transistor al disolfuro di molibdeno con il gate sul bordo di un foglio di grafene (2022). L'originale indicava 2 nm."
+    },
+    "atomo-di-cesio": {
+      "name": "Atomo di cesio",
+      "desc": "Tra gli atomi più grandi. Definisce il secondo negli orologi atomici."
+    },
+    "molecola-di-caffeina": {
+      "name": "Molecola di caffeina",
+      "desc": "C₈H₁₀N₄O₂."
+    },
+    "molecola-di-glucosio": {
+      "name": "Molecola di glucosio",
+      "desc": "C₆H₁₂O₆, il carburante delle cellule."
+    },
+    "nanometro": {
+      "name": "Nanometro",
+      "desc": "10⁻⁹ m."
+    },
+    "fullerene-c60": {
+      "name": "Fullerene C₆₀",
+      "desc": "Sessanta atomi di carbonio a forma di pallone da calcio."
+    },
+    "nanotubo-di-carbonio": {
+      "name": "Nanotubo di carbonio",
+      "desc": "Diametro tipico di un nanotubo a parete singola."
+    },
+    "alfa-elica-di-una-proteina": {
+      "name": "Alfa elica di una proteina",
+      "desc": "Circa 1,2 nm contando le catene laterali."
+    },
+    "dna-spessore": {
+      "name": "DNA (spessore)",
+      "desc": "Doppia elica B: 2,0 nm di diametro e 3,4 nm per giro. L'originale: 3 nm."
+    },
+    "fosfolipide": {
+      "name": "Fosfolipide",
+      "desc": "Il mattone delle membrane cellulari."
+    },
+    "doppio-strato-fosfolipidico": {
+      "name": "Doppio strato fosfolipidico",
+      "desc": "Due file di fosfolipidi, code contro code."
+    },
+    "emoglobina": {
+      "name": "Emoglobina",
+      "desc": "La proteina che trasporta l'ossigeno. La previsione della struttura delle proteine con AlphaFold è valsa il Nobel per la chimica 2024."
+    },
+    "membrana-cellulare": {
+      "name": "Membrana cellulare",
+      "desc": "Doppio strato lipidico più proteine: 7–10 nm."
+    },
+    "anticorpo-igg": {
+      "name": "Anticorpo IgG",
+      "desc": "La classica forma a Y del sistema immunitario."
+    },
+    "gate-di-un-transistor-in-produzione": {
+      "name": "Gate di un transistor in produzione",
+      "desc": "Chip detti a 2 nm (2025–2026): il nome è commerciale, il gate misura circa 12 nm."
+    },
+    "luce-euv-per-litografia": {
+      "name": "Luce EUV per litografia",
+      "desc": "13,5 nm: la luce con cui si stampano i chip più avanzati."
+    },
+    "circovirus-suino": {
+      "name": "Circovirus suino",
+      "desc": "Tra i virus più piccoli capaci di replicarsi da soli nelle cellule animali."
+    },
+    "ribosoma": {
+      "name": "Ribosoma",
+      "desc": "La macchina molecolare che costruisce le proteine."
+    },
+    "virus-dell-epatite-b": {
+      "name": "Virus dell'epatite B",
+      "desc": "Particella di Dane, 42 nm."
+    },
+    "nanoparticella-lipidica": {
+      "name": "Nanoparticella lipidica",
+      "desc": "L'involucro che porta l'mRNA dei vaccini dentro le cellule."
+    },
+    "ultravioletto": {
+      "name": "Ultravioletto",
+      "desc": "Tra 10 e 400 nm."
+    },
+    "sars-cov-2": {
+      "name": "SARS-CoV-2",
+      "desc": "Il coronavirus della pandemia di COVID-19: circa 100 nm."
+    },
+    "hiv": {
+      "name": "HIV",
+      "desc": "Circa 120 nm. L'originale: 90 nm."
+    },
+    "fossetta-di-un-cd-profondita": {
+      "name": "Fossetta di un CD (profondità)",
+      "desc": "Un quarto della lunghezza d'onda del laser nel policarbonato."
+    },
+    "limite-del-microscopio-ottico": {
+      "name": "Limite del microscopio ottico",
+      "desc": "Limite di diffrazione di Abbe. Le tecniche a super-risoluzione, come MINFLUX, scendono a pochi nanometri."
+    },
+    "batteriofago-t4": {
+      "name": "Batteriofago T4",
+      "desc": "Un virus che infetta i batteri, a forma di modulo lunare."
+    },
+    "batterio-piu-piccolo": {
+      "name": "Batterio più piccolo",
+      "desc": "Mycoplasma genitalium, tra i più piccoli organismi capaci di vita autonoma."
+    },
+    "particella-piu-penetrante-per-un-filtro-ffp2": {
+      "name": "Particella più penetrante per un filtro FFP2",
+      "desc": "Intorno a 0,3 µm i filtri sono meno efficienti: è la taglia di prova. L'originale parlava di 1 µm per le mascherine chirurgiche."
+    },
+    "luce-viola": {
+      "name": "Luce viola",
+      "desc": "Il limite corto dello spettro visibile."
+    },
+    "luce-verde": {
+      "name": "Luce verde",
+      "desc": "Dove l'occhio umano è più sensibile."
+    },
+    "luce-rossa": {
+      "name": "Luce rossa",
+      "desc": "Il limite lungo dello spettro visibile. L'originale la etichettava di nuovo come viola."
+    },
+    "mimivirus": {
+      "name": "Mimivirus",
+      "desc": "Virus gigante, scambiato per un batterio alla scoperta."
+    },
+    "micrometro": {
+      "name": "Micrometro",
+      "desc": "10⁻⁶ m, o micron."
+    },
+    "virus-piu-grande": {
+      "name": "Virus più grande",
+      "desc": "Pithovirus sibericum: 1,5 µm, riattivato nel 2014 dal permafrost siberiano. L'originale: 440 nm."
+    },
+    "cromosoma-y": {
+      "name": "Cromosoma Y",
+      "desc": "Sequenziato per intero solo nel 2023."
+    },
+    "escherichia-coli": {
+      "name": "Escherichia coli",
+      "desc": "Il batterio più studiato al mondo."
+    },
+    "particella-di-argilla": {
+      "name": "Particella di argilla",
+      "desc": "Per definizione, sotto i 2 µm."
+    },
+    "mitocondrio": {
+      "name": "Mitocondrio",
+      "desc": "La centrale energetica della cellula."
+    },
+    "cellula-di-lievito": {
+      "name": "Cellula di lievito",
+      "desc": "Saccharomyces cerevisiae: pane, birra e genetica."
+    },
+    "nucleo-cellulare": {
+      "name": "Nucleo cellulare",
+      "desc": "Contiene circa due metri di DNA ripiegato."
+    },
+    "cloroplasto": {
+      "name": "Cloroplasto",
+      "desc": "Dove avviene la fotosintesi."
+    },
+    "cromosoma-x": {
+      "name": "Cromosoma X",
+      "desc": "In metafase. L'originale: 4 µm."
+    },
+    "globulo-rosso": {
+      "name": "Globulo rosso",
+      "desc": "Un disco biconcavo senza nucleo."
+    },
+    "infrarosso-termico": {
+      "name": "Infrarosso termico",
+      "desc": "Attorno a 10 µm emette un corpo a temperatura ambiente."
+    },
+    "globulo-bianco": {
+      "name": "Globulo bianco",
+      "desc": "Tra 10 e 15 µm secondo il tipo."
+    },
+    "fibra-di-seta": {
+      "name": "Fibra di seta",
+      "desc": "Il filo di un bozzolo di baco da seta."
+    },
+    "twip": {
+      "name": "Twip",
+      "desc": "Un ventesimo di punto tipografico."
+    },
+    "fibra-acrilica": {
+      "name": "Fibra acrilica",
+      "desc": ""
+    },
+    "gocciolina-di-nebbia": {
+      "name": "Gocciolina di nebbia",
+      "desc": "Abbastanza leggera da restare sospesa."
+    },
+    "thou": {
+      "name": "Thou",
+      "desc": "Un millesimo di pollice."
+    },
+    "cellula-della-pelle": {
+      "name": "Cellula della pelle",
+      "desc": "Cheratinocita."
+    },
+    "particella-di-limo": {
+      "name": "Particella di limo",
+      "desc": "Tra argilla e sabbia: da 2 a 63 µm."
+    },
+    "granulo-di-polline": {
+      "name": "Granulo di polline",
+      "desc": "Da 10 a 100 µm secondo la specie."
+    },
+    "pixel-di-uno-smartphone": {
+      "name": "Pixel di uno smartphone",
+      "desc": "Uno schermo da circa 460 pixel per pollice."
+    },
+    "spermatozoo": {
+      "name": "Spermatozoo",
+      "desc": "Lunghezza totale, quasi tutta coda."
+    },
+    "capello-umano": {
+      "name": "Capello umano",
+      "desc": "Spessore medio: varia da 20 a 180 µm."
+    },
+    "limite-dell-occhio-nudo": {
+      "name": "Limite dell'occhio nudo",
+      "desc": "Il più piccolo oggetto distinguibile senza strumenti."
+    },
+    "foglio-di-carta-spessore": {
+      "name": "Foglio di carta (spessore)",
+      "desc": "Carta da stampante da 80 g/m²."
+    },
+    "ovulo-umano": {
+      "name": "Ovulo umano",
+      "desc": "La cellula umana più grande."
+    },
+    "protista-ciliato": {
+      "name": "Protista ciliato",
+      "desc": ""
+    },
+    "paramecio": {
+      "name": "Paramecio",
+      "desc": "Nuota con migliaia di ciglia."
+    },
+    "pixel-di-un-monitor": {
+      "name": "Pixel di un monitor",
+      "desc": "Monitor da 96 pixel per pollice. I telefoni di oggi sono cinque volte più fitti."
+    },
+    "acaro-della-polvere": {
+      "name": "Acaro della polvere",
+      "desc": ""
+    },
+    "granello-di-sale": {
+      "name": "Granello di sale",
+      "desc": "Un cubetto di cloruro di sodio."
+    },
+    "ameba": {
+      "name": "Ameba",
+      "desc": "Amoeba proteus."
+    },
+    "tardigrado": {
+      "name": "Tardigrado",
+      "desc": "Sopravvive al vuoto, alle radiazioni e al congelamento."
+    },
+    "granello-di-sabbia": {
+      "name": "Granello di sabbia",
+      "desc": "Per definizione tra 0,06 e 2 mm."
+    },
+    "pelle-delle-palpebre": {
+      "name": "Pelle delle palpebre",
+      "desc": "La pelle più sottile del corpo."
+    },
+    "mina-di-matita": {
+      "name": "Mina di matita",
+      "desc": "Portamine da 0,7 mm."
+    },
+    "carta-di-credito-spessore": {
+      "name": "Carta di credito (spessore)",
+      "desc": "Standard ISO: 0,76 mm."
+    },
+    "millimetro": {
+      "name": "Millimetro",
+      "desc": "10⁻³ m."
+    },
+    "picco-del-fondo-cosmico-a-microonde": {
+      "name": "Picco del fondo cosmico a microonde",
+      "desc": "La luce più antica dell'universo: un corpo nero a 2,7255 K."
+    },
+    "goccia-di-pioggia": {
+      "name": "Goccia di pioggia",
+      "desc": "Non è a lacrima: cadendo si schiaccia come un panino."
+    },
+    "lenticchia-d-acqua": {
+      "name": "Lenticchia d'acqua",
+      "desc": "Tra le più piccole piante con fiore."
+    },
+    "seme-di-sesamo": {
+      "name": "Seme di sesamo",
+      "desc": ""
+    },
+    "formica": {
+      "name": "Formica",
+      "desc": ""
+    },
+    "pelle-della-pianta-del-piede": {
+      "name": "Pelle della pianta del piede",
+      "desc": "La pelle più spessa del corpo."
+    },
+    "nevischio": {
+      "name": "Nevischio",
+      "desc": ""
+    },
+    "microchip": {
+      "name": "Microchip",
+      "desc": "Un piccolo circuito integrato."
+    },
+    "chicco-di-riso": {
+      "name": "Chicco di riso",
+      "desc": ""
+    },
+    "fiocco-di-neve": {
+      "name": "Fiocco di neve",
+      "desc": ""
+    },
+    "batterio-piu-grande": {
+      "name": "Batterio più grande",
+      "desc": "Thiomargarita magnifica (2022): circa un centimetro, visibile a occhio nudo. L'originale: 0,75 mm."
+    },
+    "chicco-di-caffe": {
+      "name": "Chicco di caffè",
+      "desc": ""
+    },
+    "seme-di-girasole": {
+      "name": "Seme di girasole",
+      "desc": ""
+    },
+    "uovo-di-colibri": {
+      "name": "Uovo di colibrì",
+      "desc": "L'uovo d'uccello più piccolo."
+    },
+    "biglia": {
+      "name": "Biglia",
+      "desc": ""
+    },
+    "penny-statunitense": {
+      "name": "Penny statunitense",
+      "desc": "La zecca USA ne ha interrotto il conio per la circolazione nel novembre 2025."
+    },
+    "moneta-da-1-euro": {
+      "name": "Moneta da 1 euro",
+      "desc": ""
+    },
+    "pollice": {
+      "name": "Pollice",
+      "desc": "L'originale riportava il pollice quadrato, che è un'area."
+    },
+    "uovo-di-quaglia": {
+      "name": "Uovo di quaglia",
+      "desc": ""
+    },
+    "fiammifero": {
+      "name": "Fiammifero",
+      "desc": ""
+    },
+    "uovo-di-gallina": {
+      "name": "Uovo di gallina",
+      "desc": ""
+    },
+    "cubo-di-rubik": {
+      "name": "Cubo di Rubik",
+      "desc": "Il cubo ufficiale ha lo spigolo di 5,7 cm."
+    },
+    "colibri": {
+      "name": "Colibrì",
+      "desc": ""
+    },
+    "toporagno": {
+      "name": "Toporagno",
+      "desc": ""
+    },
+    "tazza": {
+      "name": "Tazza",
+      "desc": ""
+    },
+    "microonde-del-forno": {
+      "name": "Microonde del forno",
+      "desc": "2,45 GHz, cioè 12,2 cm: la stessa banda del Wi-Fi. L'originale: 1 cm."
+    },
+    "smartphone": {
+      "name": "Smartphone",
+      "desc": ""
+    },
+    "uovo-di-struzzo": {
+      "name": "Uovo di struzzo",
+      "desc": "L'uovo più grande di un animale vivente."
+    },
+    "lombrico-comune": {
+      "name": "Lombrico comune",
+      "desc": "Lumbricus terrestris: da 10 a 25 cm. L'originale: 4 cm."
+    },
+    "chicco-di-grandine-piu-grande": {
+      "name": "Chicco di grandine più grande",
+      "desc": "Vivian, South Dakota, 2010: 20 cm di diametro."
+    },
+    "pallone-da-calcio": {
+      "name": "Pallone da calcio",
+      "desc": ""
+    },
+    "pallone-da-basket": {
+      "name": "Pallone da basket",
+      "desc": ""
+    },
+    "teiera-di-russell": {
+      "name": "Teiera di Russell",
+      "desc": "L'esperimento mentale di Bertrand Russell sull'onere della prova: una teiera in orbita tra la Terra e Marte."
+    },
+    "righello-da-un-piede": {
+      "name": "Righello da un piede",
+      "desc": "Dodici pollici."
+    },
+    "uno-schermo": {
+      "name": "Uno schermo",
+      "desc": "Più o meno la finestra da cui stai guardando."
+    },
+    "fiocco-di-neve-piu-grande": {
+      "name": "Fiocco di neve più grande",
+      "desc": "Montana, 1887: una testimonianza mai verificata."
+    },
+    "gatto": {
+      "name": "Gatto",
+      "desc": "Dal naso all'attaccatura della coda."
+    },
+    "pallone-da-spiaggia": {
+      "name": "Pallone da spiaggia",
+      "desc": ""
+    },
+    "metro": {
+      "name": "Metro",
+      "desc": "Dal 1983: la distanza percorsa dalla luce in 1/299.792.458 di secondo."
+    },
+    "dodo": {
+      "name": "Dodo",
+      "desc": "Estinto nel Seicento a Mauritius."
+    },
+    "rafflesia": {
+      "name": "Rafflesia",
+      "desc": "Il fiore singolo più grande, e odora di carne marcia."
+    },
+    "essere-umano": {
+      "name": "Essere umano",
+      "desc": ""
+    },
+    "bicicletta": {
+      "name": "Bicicletta",
+      "desc": ""
+    },
+    "verme-gigante-del-gippsland": {
+      "name": "Verme gigante del Gippsland",
+      "desc": "Australia: in media un metro, allungato fino a tre."
+    },
+    "isetta": {
+      "name": "Isetta",
+      "desc": "La bubble car per eccellenza è lunga 2,3 m. L'originale: 4 m."
+    },
+    "girasole": {
+      "name": "Girasole",
+      "desc": ""
+    },
+    "dal-pavimento-al-soffitto": {
+      "name": "Dal pavimento al soffitto",
+      "desc": "Altezza abitabile minima in Italia."
+    },
+    "onde-radio-fm": {
+      "name": "Onde radio FM",
+      "desc": "Tra 88 e 108 MHz, cioè circa 3 m. L'originale: 1 m."
+    },
+    "albatro-urlatore": {
+      "name": "Albatro urlatore",
+      "desc": "La maggiore apertura alare tra gli uccelli viventi: 3,1 m in media."
+    },
+    "granchio-gigante-del-giappone": {
+      "name": "Granchio gigante del Giappone",
+      "desc": "Da chela a chela."
+    },
+    "automobile": {
+      "name": "Automobile",
+      "desc": ""
+    },
+    "giraffa": {
+      "name": "Giraffa",
+      "desc": ""
+    },
+    "anaconda-verde": {
+      "name": "Anaconda verde",
+      "desc": "Gli esemplari oltre i 6–7 m non sono documentati in modo affidabile."
+    },
+    "elefante-africano": {
+      "name": "Elefante africano",
+      "desc": "Lunghezza con la proboscide."
+    },
+    "modulo-lunare-apollo": {
+      "name": "Modulo lunare Apollo",
+      "desc": ""
+    },
+    "saguaro": {
+      "name": "Saguaro",
+      "desc": ""
+    },
+    "autobus": {
+      "name": "Autobus",
+      "desc": ""
+    },
+    "tyrannosaurus-rex": {
+      "name": "Tyrannosaurus rex",
+      "desc": "Lunghezza degli esemplari più completi. L'originale: 7 m."
+    },
+    "casa-media-negli-usa": {
+      "name": "Casa media negli USA",
+      "desc": ""
+    },
+    "quercia": {
+      "name": "Quercia",
+      "desc": ""
+    },
+    "schermo-solare-del-telescopio-webb": {
+      "name": "Schermo solare del telescopio Webb",
+      "desc": "Cinque strati sottili come un capello, grandi quanto un campo da tennis."
+    },
+    "balenottera-azzurra": {
+      "name": "Balenottera azzurra",
+      "desc": "L'animale più massiccio mai esistito."
+    },
+    "maraapunisaurus": {
+      "name": "Maraapunisaurus",
+      "desc": "L'ex Amphicoelias fragillimus, riclassificato nel 2018. Nota da una sola vertebra andata perduta."
+    },
+    "argentinosaurus": {
+      "name": "Argentinosaurus",
+      "desc": "Tra i più grandi dinosauri conosciuti da resti solidi."
+    },
+    "torre-di-pisa": {
+      "name": "Torre di Pisa",
+      "desc": ""
+    },
+    "boeing-747-8": {
+      "name": "Boeing 747-8",
+      "desc": "L'ultimo 747 è stato consegnato nel 2023."
+    },
+    "stazione-spaziale-internazionale": {
+      "name": "Stazione Spaziale Internazionale",
+      "desc": "Abitata senza interruzioni dal 2000. Il rientro controllato è previsto attorno al 2030."
+    },
+    "campo-da-football-americano": {
+      "name": "Campo da football americano",
+      "desc": "Zone di meta comprese."
+    },
+    "saturn-v": {
+      "name": "Saturn V",
+      "desc": "Il razzo delle missioni Apollo."
+    },
+    "sequoia-hyperion": {
+      "name": "Sequoia Hyperion",
+      "desc": "L'albero vivente più alto: 116 m. L'originale: 100 m."
+    },
+    "starship": {
+      "name": "Starship",
+      "desc": "Il razzo più alto e potente che abbia mai volato."
+    },
+    "grande-piramide-di-giza": {
+      "name": "Grande Piramide di Giza",
+      "desc": "Altezza attuale. In origine arrivava a 146,6 m."
+    },
+    "dimorphos": {
+      "name": "Dimorphos",
+      "desc": "La luna d'asteroide deviata dalla sonda DART nel 2022. La sonda europea Hera la raggiunge a fine 2026."
+    },
+    "colosseo": {
+      "name": "Colosseo",
+      "desc": "Asse maggiore dell'ellisse."
+    },
+    "gateway-arch": {
+      "name": "Gateway Arch",
+      "desc": ""
+    },
+    "oumuamua": {
+      "name": "ʻOumuamua",
+      "desc": "Il primo oggetto interstellare osservato (2017). Dimensioni stimate tra 100 e 400 m."
+    },
+    "diga-di-hoover": {
+      "name": "Diga di Hoover",
+      "desc": ""
+    },
+    "titanic": {
+      "name": "Titanic",
+      "desc": ""
+    },
+    "onde-radio-am": {
+      "name": "Onde radio AM",
+      "desc": "Onde medie: da 180 a 570 m circa. L'originale: 1 km."
+    },
+    "torre-eiffel": {
+      "name": "Torre Eiffel",
+      "desc": "Dal 2022, con la nuova antenna. L'originale: 320 m."
+    },
+    "apophis": {
+      "name": "Apophis",
+      "desc": "Il 13 aprile 2029 passerà a circa 32.000 km dalla Terra, sotto i satelliti geostazionari."
+    },
+    "willis-tower": {
+      "name": "Willis Tower",
+      "desc": "La ex Sears Tower."
+    },
+    "international-commerce-centre": {
+      "name": "International Commerce Centre",
+      "desc": "Hong Kong."
+    },
+    "bennu": {
+      "name": "Bennu",
+      "desc": "La sonda OSIRIS-REx ne ha riportato i campioni nel 2023."
+    },
+    "merdeka-118": {
+      "name": "Merdeka 118",
+      "desc": "Kuala Lumpur: il secondo edificio più alto del mondo."
+    },
+    "burj-khalifa": {
+      "name": "Burj Khalifa",
+      "desc": "Dal 2010 l'edificio più alto del mondo."
+    },
+    "cascate-dell-angelo": {
+      "name": "Cascate dell'Angelo",
+      "desc": "Le cascate più alte del mondo."
+    },
+    "chilometro": {
+      "name": "Chilometro",
+      "desc": ""
+    },
+    "fabbrica-boeing-di-everett": {
+      "name": "Fabbrica Boeing di Everett",
+      "desc": "L'edificio più voluminoso del mondo."
+    },
+    "3i-atlas": {
+      "name": "3I/ATLAS",
+      "desc": "Il terzo oggetto interstellare, una cometa scoperta nel luglio 2025. Nucleo stimato tra 0,4 e 5,6 km."
+    },
+    "citta-del-vaticano": {
+      "name": "Città del Vaticano",
+      "desc": "Lo Stato più piccolo: 0,49 km²."
+    },
+    "half-dome": {
+      "name": "Half Dome",
+      "desc": "Altezza sopra il fondo della Yosemite Valley."
+    },
+    "miglio": {
+      "name": "Miglio",
+      "desc": ""
+    },
+    "cruithne": {
+      "name": "Cruithne",
+      "desc": "Asteroide in risonanza orbitale con la Terra. L'originale: 5 km."
+    },
+    "acceleratore-lineare-di-stanford": {
+      "name": "Acceleratore lineare di Stanford",
+      "desc": ""
+    },
+    "uluru": {
+      "name": "Uluru",
+      "desc": ""
+    },
+    "central-park": {
+      "name": "Central Park",
+      "desc": ""
+    },
+    "cometa-67p": {
+      "name": "Cometa 67P",
+      "desc": "Churyumov–Gerasimenko, visitata dalla sonda Rosetta."
+    },
+    "monte-bianco": {
+      "name": "Monte Bianco",
+      "desc": "La quota cambia di qualche metro con lo spessore del ghiaccio."
+    },
+    "palm-jebel-ali": {
+      "name": "Palm Jebel Ali",
+      "desc": ""
+    },
+    "large-hadron-collider": {
+      "name": "Large Hadron Collider",
+      "desc": "Diametro dell'anello da 26,7 km."
+    },
+    "lep": {
+      "name": "LEP",
+      "desc": "Usava lo stesso tunnel di LHC, quindi ha lo stesso diametro. L'originale: 10 km."
+    },
+    "monte-everest": {
+      "name": "Monte Everest",
+      "desc": "8.848,86 m, misura sino-nepalese del 2020."
+    },
+    "fossa-delle-marianne-profondita": {
+      "name": "Fossa delle Marianne (profondità)",
+      "desc": "Abisso Challenger: circa 10.935 m."
+    },
+    "deimos": {
+      "name": "Deimos",
+      "desc": "La luna più piccola di Marte."
+    },
+    "cometa-di-halley": {
+      "name": "Cometa di Halley",
+      "desc": "Nucleo di 15 × 8 km. Ha toccato l'afelio nel dicembre 2023 e torna nel 2061."
+    },
+    "olympus-mons-altezza": {
+      "name": "Olympus Mons (altezza)",
+      "desc": "Marte: il vulcano più alto del Sistema Solare."
+    },
+    "fobos": {
+      "name": "Fobos",
+      "desc": "La missione giapponese MMX punta a riportarne campioni."
+    },
+    "stella-di-neutroni": {
+      "name": "Stella di neutroni",
+      "desc": "Le misure di NICER danno raggi tra 11 e 13 km."
+    },
+    "future-circular-collider": {
+      "name": "Future Circular Collider",
+      "desc": "Il successore di LHC proposto dal CERN: un anello da 90,7 km. Non ancora approvato."
+    },
+    "ganymed": {
+      "name": "Ganymed",
+      "desc": "Il più grande asteroide vicino alla Terra. Da non confondere con la luna di Giove."
+    },
+    "arrokoth": {
+      "name": "Arrokoth",
+      "desc": "L'oggetto più lontano mai visitato da una sonda: New Horizons, 2019."
+    },
+    "maratona": {
+      "name": "Maratona",
+      "desc": ""
+    },
+    "nix": {
+      "name": "Nix",
+      "desc": "Luna di Plutone, misurata da New Horizons. L'originale: 80 km."
+    },
+    "idra": {
+      "name": "Idra",
+      "desc": "Luna di Plutone. L'originale: 100 km."
+    },
+    "bianca": {
+      "name": "Bianca",
+      "desc": "Luna di Urano."
+    },
+    "buco-nero-stellare": {
+      "name": "Buco nero stellare",
+      "desc": "Orizzonte degli eventi di un buco nero da 10 masse solari."
+    },
+    "rhode-island": {
+      "name": "Rhode Island",
+      "desc": ""
+    },
+    "belinda": {
+      "name": "Belinda",
+      "desc": "Luna di Urano."
+    },
+    "brunei": {
+      "name": "Brunei",
+      "desc": ""
+    },
+    "galatea": {
+      "name": "Galatea",
+      "desc": "Luna di Nettuno."
+    },
+    "gaia-bh3": {
+      "name": "Gaia BH3",
+      "desc": "33 masse solari: il più massiccio buco nero stellare noto nella Via Lattea, scoperto nel 2024."
+    },
+    "psyche": {
+      "name": "Psyche",
+      "desc": "Asteroide ricco di metallo. L'omonima sonda NASA lo raggiunge nel 2029."
+    },
+    "ruanda": {
+      "name": "Ruanda",
+      "desc": ""
+    },
+    "nereide": {
+      "name": "Nereide",
+      "desc": "Luna di Nettuno dall'orbita molto eccentrica."
+    },
+    "mimas": {
+      "name": "Mimas",
+      "desc": "Nel 2024 si è scoperto che nasconde un oceano giovane sotto il ghiaccio."
+    },
+    "west-virginia": {
+      "name": "West Virginia",
+      "desc": ""
+    },
+    "grand-canyon": {
+      "name": "Grand Canyon",
+      "desc": "Lunghezza."
+    },
+    "miranda": {
+      "name": "Miranda",
+      "desc": "Luna di Urano dalle scarpate alte 20 km."
+    },
+    "encelado": {
+      "name": "Encelado",
+      "desc": "I suoi geyser lanciano nello spazio acqua con molecole organiche e fosfati."
+    },
+    "vesta": {
+      "name": "Vesta",
+      "desc": "Il secondo corpo più massiccio della fascia degli asteroidi."
+    },
+    "dysnomia": {
+      "name": "Dysnomia",
+      "desc": "Luna di Eris: 615 km secondo ALMA (2023). L'originale: 150 km."
+    },
+    "cerere": {
+      "name": "Cerere",
+      "desc": "Pianeta nano della fascia principale."
+    },
+    "megametro": {
+      "name": "Megametro",
+      "desc": "Mille chilometri."
+    },
+    "sedna": {
+      "name": "Sedna",
+      "desc": "Circa 1.000 km. L'originale: 1.800 km."
+    },
+    "quaoar": {
+      "name": "Quaoar",
+      "desc": "Nel 2023 gli sono stati scoperti anelli più lontani di quanto la teoria permettesse."
+    },
+    "italia": {
+      "name": "Italia",
+      "desc": "Dalle Alpi a Lampedusa."
+    },
+    "caronte": {
+      "name": "Caronte",
+      "desc": "La luna maggiore di Plutone."
+    },
+    "gonggong": {
+      "name": "Gonggong",
+      "desc": "Pianeta nano candidato, battezzato nel 2020."
+    },
+    "california": {
+      "name": "California",
+      "desc": ""
+    },
+    "texas": {
+      "name": "Texas",
+      "desc": ""
+    },
+    "makemake": {
+      "name": "Makemake",
+      "desc": "Pianeta nano della fascia di Kuiper."
+    },
+    "haumea": {
+      "name": "Haumea",
+      "desc": "Pianeta nano allungato, con un anello. Ruota in meno di quattro ore."
+    },
+    "titania": {
+      "name": "Titania",
+      "desc": "La luna più grande di Urano."
+    },
+    "grande-barriera-corallina": {
+      "name": "Grande Barriera Corallina",
+      "desc": "Circa 2.300 km."
+    },
+    "eris": {
+      "name": "Eris",
+      "desc": "Più piccola di Plutone di una cinquantina di chilometri, ma più massiccia."
+    },
+    "plutone": {
+      "name": "Plutone",
+      "desc": "Misura di New Horizons (2015)."
+    },
+    "tritone": {
+      "name": "Tritone",
+      "desc": "Luna di Nettuno dall'orbita retrograda."
+    },
+    "europa": {
+      "name": "Europa",
+      "desc": "La sonda Europa Clipper è in viaggio e arriva nel 2030."
+    },
+    "luna": {
+      "name": "Luna",
+      "desc": "Nell'aprile 2026 Artemis II ha riportato un equipaggio attorno alla Luna, per la prima volta dal 1972."
+    },
+    "io": {
+      "name": "Io",
+      "desc": "Il corpo più vulcanico del Sistema Solare."
+    },
+    "larghezza-degli-stati-uniti": {
+      "name": "Larghezza degli Stati Uniti",
+      "desc": ""
+    },
+    "callisto": {
+      "name": "Callisto",
+      "desc": ""
+    },
+    "mercurio": {
+      "name": "Mercurio",
+      "desc": "La sonda BepiColombo entra in orbita nel novembre 2026."
+    },
+    "titano": {
+      "name": "Titano",
+      "desc": "La missione Dragonfly partirà non prima del 2028."
+    },
+    "ganimede": {
+      "name": "Ganimede",
+      "desc": "La luna più grande del Sistema Solare. La sonda JUICE la raggiunge nel 2031."
+    },
+    "marte": {
+      "name": "Marte",
+      "desc": ""
+    },
+    "asia": {
+      "name": "Asia",
+      "desc": ""
+    },
+    "trappist-1-e": {
+      "name": "TRAPPIST-1 e",
+      "desc": "Esopianeta roccioso nella zona abitabile, a 40 anni luce. Il telescopio Webb ne sta studiando l'atmosfera."
+    },
+    "sirio-b": {
+      "name": "Sirio B",
+      "desc": "Nana bianca grande quanto la Terra ma con la massa del Sole. L'originale: 20.000 km."
+    },
+    "venere": {
+      "name": "Venere",
+      "desc": ""
+    },
+    "terra": {
+      "name": "Terra",
+      "desc": ""
+    },
+    "grande-muraglia-cinese": {
+      "name": "Grande Muraglia cinese",
+      "desc": "21.196 km secondo il rilevamento del 2012. L'originale: 8.800 km."
+    },
+    "k2-18-b": {
+      "name": "K2-18 b",
+      "desc": "Sub-nettuniano con metano e CO₂. Il segnale di possibili biofirme annunciato nel 2025 resta non confermato."
+    },
+    "nettuno": {
+      "name": "Nettuno",
+      "desc": ""
+    },
+    "urano": {
+      "name": "Urano",
+      "desc": ""
+    },
+    "mondo-di-minecraft": {
+      "name": "Mondo di Minecraft",
+      "desc": "60 milioni di blocchi da un metro per lato."
+    },
+    "orbita-geostazionaria": {
+      "name": "Orbita geostazionaria",
+      "desc": "Diametro dell'orbita a 35.786 km di quota."
+    },
+    "saturno": {
+      "name": "Saturno",
+      "desc": ""
+    },
+    "eblm-j0555-57ab": {
+      "name": "EBLM J0555-57Ab",
+      "desc": "Una delle stelle più piccole note: appena più grande di Saturno."
+    },
+    "gliese-229-b": {
+      "name": "Gliese 229 B",
+      "desc": "La prima nana bruna certa. Nel 2024 si è scoperto che sono due, strette in un'orbita di 12 giorni."
+    },
+    "giove": {
+      "name": "Giove",
+      "desc": ""
+    },
+    "trappist-1": {
+      "name": "TRAPPIST-1",
+      "desc": "Nana rossa ultrafredda con sette pianeti rocciosi."
+    },
+    "wolf-359": {
+      "name": "Wolf 359",
+      "desc": "Nana rossa a 7,9 anni luce."
+    },
+    "proxima-centauri": {
+      "name": "Proxima Centauri",
+      "desc": "La stella più vicina al Sole."
+    },
+    "tres-4-b": {
+      "name": "TrES-4 b",
+      "desc": "Gioviano caldo gonfio, tra gli esopianeti più grandi."
+    },
+    "anelli-di-saturno": {
+      "name": "Anelli di Saturno",
+      "desc": "Estensione degli anelli principali: 282.000 km."
+    },
+    "distanza-terra-luna": {
+      "name": "Distanza Terra–Luna",
+      "desc": "Media: 384.400 km. La Luna si allontana di 3,8 cm l'anno."
+    },
+    "stella-di-kapteyn": {
+      "name": "Stella di Kapteyn",
+      "desc": "Nana rossa dell'alone galattico."
+    },
+    "stella-di-luyten": {
+      "name": "Stella di Luyten",
+      "desc": "L'originale: 330.000 km."
+    },
+    "gliese-229-a": {
+      "name": "Gliese 229 A",
+      "desc": "Nana rossa. L'originale: 960.000 km."
+    },
+    "gigametro": {
+      "name": "Gigametro",
+      "desc": "Un milione di chilometri."
+    },
+    "alfa-centauri-b": {
+      "name": "Alfa Centauri B",
+      "desc": ""
+    },
+    "sole": {
+      "name": "Sole",
+      "desc": "Raggio nominale: 695.700 km."
+    },
+    "distanza-del-telescopio-webb": {
+      "name": "Distanza del telescopio Webb",
+      "desc": "Orbita attorno al punto L2, a 1,5 milioni di km dalla Terra."
+    },
+    "alfa-centauri-a": {
+      "name": "Alfa Centauri A",
+      "desc": "Nel 2025 il telescopio Webb vi ha visto un candidato pianeta gigante."
+    },
+    "sirio-a": {
+      "name": "Sirio A",
+      "desc": "La stella più brillante del cielo notturno."
+    },
+    "altair": {
+      "name": "Altair",
+      "desc": "Ruota così in fretta da essere schiacciata ai poli."
+    },
+    "procione": {
+      "name": "Procione",
+      "desc": ""
+    },
+    "vega": {
+      "name": "Vega",
+      "desc": ""
+    },
+    "regolo": {
+      "name": "Regolo",
+      "desc": ""
+    },
+    "perielio-della-parker-solar-probe": {
+      "name": "Perielio della Parker Solar Probe",
+      "desc": "Il 24 dicembre 2024 è passata a 6,1 milioni di km dalla superficie del Sole, a 192 km/s."
+    },
+    "spica": {
+      "name": "Spica",
+      "desc": ""
+    },
+    "pollux": {
+      "name": "Pollux",
+      "desc": ""
+    },
+    "altezza-totale-dell-umanita": {
+      "name": "Altezza totale dell'umanità",
+      "desc": "Circa 8,3 miliardi di persone, una sull'altra. L'originale ne contava 7."
+    },
+    "capella": {
+      "name": "Capella",
+      "desc": ""
+    },
+    "sistema-di-trappist-1": {
+      "name": "Sistema di TRAPPIST-1",
+      "desc": "L'orbita del pianeta più esterno: starebbe sei volte dentro quella di Mercurio."
+    },
+    "vv-cephei-b": {
+      "name": "VV Cephei B",
+      "desc": ""
+    },
+    "sagittarius-a": {
+      "name": "Sagittarius A*",
+      "desc": "Il buco nero al centro della Via Lattea: 4,3 milioni di masse solari. Prima immagine nel 2022."
+    },
+    "alnitak": {
+      "name": "Alnitak",
+      "desc": "Supergigante blu della Cintura di Orione. L'originale: 84 milioni di km."
+    },
+    "arturo": {
+      "name": "Arturo",
+      "desc": ""
+    },
+    "distanza-mercurio-sole": {
+      "name": "Distanza Mercurio–Sole",
+      "desc": ""
+    },
+    "r136a1": {
+      "name": "R136a1",
+      "desc": "La stella più massiccia nota: circa 200 masse solari."
+    },
+    "aldebaran": {
+      "name": "Aldebaran",
+      "desc": ""
+    },
+    "polare": {
+      "name": "Polare",
+      "desc": "L'originale: 40 milioni di km."
+    },
+    "albireo-a": {
+      "name": "Albireo A",
+      "desc": "L'originale: 22 milioni di km."
+    },
+    "rigel": {
+      "name": "Rigel",
+      "desc": ""
+    },
+    "distanza-terra-sole": {
+      "name": "Distanza Terra–Sole",
+      "desc": "Un'unità astronomica: 149.597.870,7 km esatti per definizione."
+    },
+    "gacrux": {
+      "name": "Gacrux",
+      "desc": ""
+    },
+    "deneb": {
+      "name": "Deneb",
+      "desc": "La distanza è incerta, e con lei il raggio."
+    },
+    "enif": {
+      "name": "Enif",
+      "desc": "L'originale: 160 milioni di km."
+    },
+    "r-doradus": {
+      "name": "R Doradus",
+      "desc": "Nel 2024 ALMA ne ha filmato le bolle di gas in superficie, grandi 75 volte il Sole."
+    },
+    "pistol-star": {
+      "name": "Pistol Star",
+      "desc": "Ipergigante blu vicino al centro galattico."
+    },
+    "la-superba": {
+      "name": "La Superba",
+      "desc": "Stella al carbonio tra le più rosse del cielo."
+    },
+    "s-doradus": {
+      "name": "S Doradus",
+      "desc": "Variabile blu luminosa: il raggio cambia di molto nel tempo."
+    },
+    "v838-monocerotis": {
+      "name": "V838 Monocerotis",
+      "desc": "Dopo l'esplosione del 2002 si è contratta. L'originale: 1,1 miliardi di km."
+    },
+    "v382-carinae": {
+      "name": "V382 Carinae",
+      "desc": "Ipergigante gialla."
+    },
+    "distanza-giove-sole": {
+      "name": "Distanza Giove–Sole",
+      "desc": "5,2 UA."
+    },
+    "antares": {
+      "name": "Antares",
+      "desc": ""
+    },
+    "v354-cephei": {
+      "name": "V354 Cephei",
+      "desc": "Ridimensionata: circa 685 raggi solari. L'originale: 2,1 miliardi di km."
+    },
+    "terametro": {
+      "name": "Terametro",
+      "desc": "Un miliardo di chilometri."
+    },
+    "betelgeuse": {
+      "name": "Betelgeuse",
+      "desc": "Circa 764 raggi solari. Dopo il Grande Oscuramento del 2019–2020, nel 2025 è stata osservata la sua compagna."
+    },
+    "uy-scuti": {
+      "name": "UY Scuti",
+      "desc": "A lungo citata come stella più grande: con le distanze di Gaia scende a circa 900 raggi solari."
+    },
+    "ky-cygni": {
+      "name": "KY Cygni",
+      "desc": "Le stime vanno da 1.000 a oltre 2.000 raggi solari."
+    },
+    "vv-cephei-a": {
+      "name": "VV Cephei A",
+      "desc": ""
+    },
+    "mu-cephei": {
+      "name": "Mu Cephei",
+      "desc": "La Stella Granata di Herschel."
+    },
+    "vy-canis-majoris": {
+      "name": "VY Canis Majoris",
+      "desc": "Circa 1.420 raggi solari. L'originale: 3 miliardi di km."
+    },
+    "woh-g64": {
+      "name": "WOH G64",
+      "desc": "1.540 raggi solari nella misura del 2009. Dal 2014 è cambiata: uno studio del 2026 la riduce a circa 800 raggi solari, ma la sua natura è discussa."
+    },
+    "stephenson-2-18": {
+      "name": "Stephenson 2-18",
+      "desc": "Spesso indicata come la stella più grande con 2.150 raggi solari, ma distanza e misura sono molto dubbie."
+    },
+    "distanza-nettuno-sole": {
+      "name": "Distanza Nettuno–Sole",
+      "desc": "30,1 UA."
+    },
+    "distanza-plutone-sole": {
+      "name": "Distanza Plutone–Sole",
+      "desc": "Media: 39,5 UA."
+    },
+    "fascia-di-kuiper": {
+      "name": "Fascia di Kuiper",
+      "desc": "Da 30 a 50 UA dal Sole."
+    },
+    "voyager-1": {
+      "name": "Voyager 1",
+      "desc": "L'oggetto umano più lontano. A metà novembre 2026 raggiunge un giorno-luce dalla Terra. L'originale: 17 miliardi di km."
+    },
+    "giorno-luce": {
+      "name": "Giorno-luce",
+      "desc": "La strada della luce in 24 ore: 25,9 miliardi di km."
+    },
+    "eliopausa": {
+      "name": "Eliopausa",
+      "desc": "Il confine della bolla del vento solare. Voyager 1 l'ha attraversato nel 2012 a 121 UA."
+    },
+    "m87": {
+      "name": "M87*",
+      "desc": "Il primo buco nero fotografato (2019): 6,5 miliardi di masse solari."
+    },
+    "afelio-della-cometa-hale-bopp": {
+      "name": "Afelio della cometa Hale-Bopp",
+      "desc": "Circa 370 UA."
+    },
+    "afelio-di-sedna": {
+      "name": "Afelio di Sedna",
+      "desc": "Circa 940 UA. Sedna tocca il perielio nel 2076."
+    },
+    "buco-nero-del-cosmic-horseshoe": {
+      "name": "Buco nero del Cosmic Horseshoe",
+      "desc": "36 miliardi di masse solari, misurate nel 2025 con lente gravitazionale e moto delle stelle: la misura diretta più alta."
+    },
+    "ton-618": {
+      "name": "TON 618",
+      "desc": "Stimato in 66 miliardi di masse solari, ma con un metodo indiretto: altre analisi dicono 40."
+    },
+    "nebulosa-stingray": {
+      "name": "Nebulosa Stingray",
+      "desc": "La nebulosa planetaria più giovane nota. In vent'anni si è affievolita a vista d'occhio."
+    },
+    "petametro": {
+      "name": "Petametro",
+      "desc": ""
+    },
+    "distanza-proxima-alfa-centauri-a": {
+      "name": "Distanza Proxima–Alfa Centauri A",
+      "desc": "Circa 13.000 UA. L'originale: 10.000 UA."
+    },
+    "nebulosa-occhio-di-gatto": {
+      "name": "Nebulosa Occhio di Gatto",
+      "desc": "Il nucleo brillante."
+    },
+    "hamburger-di-gomez": {
+      "name": "Hamburger di Gomez",
+      "desc": "Una giovane stella nascosta da un disco visto di taglio."
+    },
+    "nebulosa-clessidra": {
+      "name": "Nebulosa Clessidra",
+      "desc": ""
+    },
+    "nebulosa-blinking": {
+      "name": "Nebulosa Blinking",
+      "desc": ""
+    },
+    "nebulosa-homunculus": {
+      "name": "Nebulosa Homunculus",
+      "desc": "I due lobi espulsi da Eta Carinae nell'Ottocento. L'originale la faceva trecento volte più piccola."
+    },
+    "nebulosa-ngc-2392": {
+      "name": "Nebulosa NGC 2392",
+      "desc": "La ex Nebulosa Eschimese: la NASA ha ritirato quel soprannome nel 2020. L'originale: 2 anni luce."
+    },
+    "anno-luce": {
+      "name": "Anno luce",
+      "desc": "9.460.730.472.580,8 km."
+    },
+    "nebulosa-uovo-marcio": {
+      "name": "Nebulosa Uovo Marcio",
+      "desc": "Ricca di composti dello zolfo."
+    },
+    "nebulosa-formica": {
+      "name": "Nebulosa Formica",
+      "desc": ""
+    },
+    "nebulosa-boomerang": {
+      "name": "Nebulosa Boomerang",
+      "desc": "Il luogo naturale più freddo noto: 1 K, meno del fondo cosmico."
+    },
+    "nebulosa-anello": {
+      "name": "Nebulosa Anello",
+      "desc": "Nel 2023 il telescopio Webb ne ha mostrato migliaia di globuli densi."
+    },
+    "nube-di-oort": {
+      "name": "Nube di Oort",
+      "desc": "Il serbatoio delle comete, fino a 100.000 UA dal Sole. Mai osservata direttamente."
+    },
+    "parsec": {
+      "name": "Parsec",
+      "desc": "3,26 anni luce."
+    },
+    "nebulosa-testa-di-cavallo": {
+      "name": "Nebulosa Testa di Cavallo",
+      "desc": ""
+    },
+    "distanza-sole-proxima": {
+      "name": "Distanza Sole–Proxima",
+      "desc": "4,2465 anni luce."
+    },
+    "pilastri-della-creazione": {
+      "name": "Pilastri della Creazione",
+      "desc": "Da 4 a 5 anni luce. Ripresi dal telescopio Webb nel 2022. L'originale: 10 anni luce."
+    },
+    "nebulosa-elica": {
+      "name": "Nebulosa Elica",
+      "desc": "Una delle nebulose planetarie più vicine."
+    },
+    "nebulosa-bolla": {
+      "name": "Nebulosa Bolla",
+      "desc": ""
+    },
+    "nebulosa-cono": {
+      "name": "Nebulosa Cono",
+      "desc": ""
+    },
+    "the-spire": {
+      "name": "The Spire",
+      "desc": "Una colonna di gas nella Nebulosa Aquila, lunga 9,5 anni luce."
+    },
+    "nebulosa-granchio": {
+      "name": "Nebulosa Granchio",
+      "desc": "Il resto della supernova vista nel 1054."
+    },
+    "nebulosa-di-orione": {
+      "name": "Nebulosa di Orione",
+      "desc": "La culla di stelle più vicina: 1.344 anni luce."
+    },
+    "nube-interstellare-locale": {
+      "name": "Nube Interstellare Locale",
+      "desc": "Il gas rarefatto che il Sole sta attraversando: l'originale lo chiamava vicinato solare."
+    },
+    "nebulosa-grotta": {
+      "name": "Nebulosa Grotta",
+      "desc": ""
+    },
+    "nebulosa-aquila": {
+      "name": "Nebulosa Aquila",
+      "desc": ""
+    },
+    "nebulosa-nord-america": {
+      "name": "Nebulosa Nord America",
+      "desc": "Con la distanza di Gaia è larga circa 90 anni luce."
+    },
+    "messier-14": {
+      "name": "Messier 14",
+      "desc": "Ammasso globulare."
+    },
+    "esametro": {
+      "name": "Esametro",
+      "desc": ""
+    },
+    "nebulosa-laguna": {
+      "name": "Nebulosa Laguna",
+      "desc": ""
+    },
+    "nebulosa-rosetta": {
+      "name": "Nebulosa Rosetta",
+      "desc": ""
+    },
+    "omega-centauri": {
+      "name": "Omega Centauri",
+      "desc": "Il più grande ammasso globulare della Via Lattea. Nel 2024 vi si sono trovati indizi di un buco nero di massa intermedia."
+    },
+    "nebulosa-della-carena": {
+      "name": "Nebulosa della Carena",
+      "desc": "Circa 230 anni luce. L'originale: 60."
+    },
+    "anello-di-barnard": {
+      "name": "Anello di Barnard",
+      "desc": ""
+    },
+    "messier-54": {
+      "name": "Messier 54",
+      "desc": "Ammasso globulare che appartiene alla nana del Sagittario."
+    },
+    "nebulosa-tarantola": {
+      "name": "Nebulosa Tarantola",
+      "desc": "La regione di formazione stellare più attiva del Gruppo Locale."
+    },
+    "bolla-locale": {
+      "name": "Bolla Locale",
+      "desc": "La cavità di mille anni luce scavata da antiche supernove, in cui si trova il Sole."
+    },
+    "leo-ii": {
+      "name": "Leo II",
+      "desc": "Galassia nana satellite della Via Lattea."
+    },
+    "getto-relativistico-di-m87": {
+      "name": "Getto relativistico di M87",
+      "desc": "Circa 5.000 anni luce di plasma lanciato dal buco nero centrale."
+    },
+    "nana-del-cane-maggiore": {
+      "name": "Nana del Cane Maggiore",
+      "desc": "La sua esistenza come galassia è contestata."
+    },
+    "canes-venatici-i": {
+      "name": "Canes Venatici I",
+      "desc": ""
+    },
+    "onda-di-radcliffe": {
+      "name": "Onda di Radcliffe",
+      "desc": "Una catena ondulata di nubi di gas lunga 9.000 anni luce, scoperta nel 2020."
+    },
+    "nana-ellittica-del-sagittario": {
+      "name": "Nana ellittica del Sagittario",
+      "desc": "La Via Lattea la sta smembrando."
+    },
+    "piccola-nube-di-magellano": {
+      "name": "Piccola Nube di Magellano",
+      "desc": "Circa 19.000 anni luce."
+    },
+    "ngc-3310": {
+      "name": "NGC 3310",
+      "desc": ""
+    },
+    "grande-nube-di-magellano": {
+      "name": "Grande Nube di Magellano",
+      "desc": "Circa 32.000 anni luce. L'originale: 15.000."
+    },
+    "ngc-7714": {
+      "name": "NGC 7714",
+      "desc": ""
+    },
+    "bolle-di-fermi": {
+      "name": "Bolle di Fermi",
+      "desc": "Due lobi di raggi gamma sopra e sotto il centro galattico, scoperti nel 2010."
+    },
+    "galassia-occhio-nero": {
+      "name": "Galassia Occhio Nero",
+      "desc": ""
+    },
+    "galassia-del-triangolo": {
+      "name": "Galassia del Triangolo",
+      "desc": ""
+    },
+    "galassia-vortice": {
+      "name": "Galassia Vortice",
+      "desc": "Circa 77.000 anni luce."
+    },
+    "via-lattea": {
+      "name": "Via Lattea",
+      "desc": "Il disco di stelle misura circa 87.400 anni luce. L'originale: 127.000."
+    },
+    "galassia-sombrero": {
+      "name": "Galassia Sombrero",
+      "desc": "Circa 95.000 anni luce. L'originale: 53.000."
+    },
+    "zettametro": {
+      "name": "Zettametro",
+      "desc": ""
+    },
+    "virgo-a": {
+      "name": "Virgo A",
+      "desc": "Messier 87, la galassia ellittica del primo buco nero fotografato."
+    },
+    "galassia-ruota-di-carro": {
+      "name": "Galassia Ruota di Carro",
+      "desc": "Un anello nato da uno scontro frontale."
+    },
+    "andromeda": {
+      "name": "Andromeda",
+      "desc": "Circa 152.000 anni luce."
+    },
+    "galassia-girandola": {
+      "name": "Galassia Girandola",
+      "desc": ""
+    },
+    "ngc-1232": {
+      "name": "NGC 1232",
+      "desc": ""
+    },
+    "ngc-4889": {
+      "name": "NGC 4889",
+      "desc": "Ellittica gigante nell'ammasso della Chioma."
+    },
+    "galassia-girino": {
+      "name": "Galassia Girino",
+      "desc": "La coda di stelle è lunga 280.000 anni luce."
+    },
+    "strada-percorsa-dalla-terra-attorno-al-sole": {
+      "name": "Strada percorsa dalla Terra attorno al Sole",
+      "desc": "4,54 miliardi di orbite da 940 milioni di km."
+    },
+    "distanza-di-andromeda": {
+      "name": "Distanza di Andromeda",
+      "desc": "2,5 milioni di anni luce."
+    },
+    "ic-1101": {
+      "name": "IC 1101",
+      "desc": "Tra le galassie più estese: l'alone diffuso arriva a milioni di anni luce, ma il bordo è mal definito."
+    },
+    "ammasso-della-fornace": {
+      "name": "Ammasso della Fornace",
+      "desc": ""
+    },
+    "abell-2029": {
+      "name": "Abell 2029",
+      "desc": ""
+    },
+    "gruppo-locale": {
+      "name": "Gruppo Locale",
+      "desc": "Via Lattea, Andromeda e un centinaio di galassie minori."
+    },
+    "ammasso-della-vergine": {
+      "name": "Ammasso della Vergine",
+      "desc": "Circa 15 milioni di anni luce."
+    },
+    "alcioneo": {
+      "name": "Alcioneo",
+      "desc": "Radiogalassia gigante: i lobi coprono 16 milioni di anni luce (2022)."
+    },
+    "porphyrion": {
+      "name": "Porphyrion",
+      "desc": "La coppia di getti da buco nero più lunga mai vista: 23 milioni di anni luce (2024)."
+    },
+    "yottametro": {
+      "name": "Yottametro",
+      "desc": ""
+    },
+    "superammasso-della-vergine": {
+      "name": "Superammasso della Vergine",
+      "desc": "Oggi è considerato un lobo di Laniakea."
+    },
+    "distanza-del-grande-attrattore": {
+      "name": "Distanza del Grande Attrattore",
+      "desc": ""
+    },
+    "vuoto-del-boote": {
+      "name": "Vuoto del Boote",
+      "desc": "Una bolla quasi priva di galassie, larga 330 milioni di anni luce."
+    },
+    "scala-acustica-barionica": {
+      "name": "Scala acustica barionica",
+      "desc": "Il righello standard della cosmologia: 490 milioni di anni luce. Le misure DESI del 2025 con questo righello suggeriscono un'energia oscura che cambia nel tempo, ma non è confermato."
+    },
+    "laniakea": {
+      "name": "Laniakea",
+      "desc": "Il superammasso a cui appartiene la Via Lattea, definito nel 2014: 520 milioni di anni luce."
+    },
+    "distanza-del-superammasso-di-shapley": {
+      "name": "Distanza del superammasso di Shapley",
+      "desc": ""
+    },
+    "complesso-pesci-balena": {
+      "name": "Complesso Pesci–Balena",
+      "desc": ""
+    },
+    "quipu": {
+      "name": "Quipu",
+      "desc": "Scoperta nel 2025: con 1,3 miliardi di anni luce è la più grande struttura misurata in modo affidabile."
+    },
+    "grande-muraglia-sloan": {
+      "name": "Grande Muraglia Sloan",
+      "desc": ""
+    },
+    "supervuoto-di-eridano": {
+      "name": "Supervuoto di Eridano",
+      "desc": "Proposto per spiegare la Macchia Fredda del fondo cosmico. Dimensioni e ruolo sono discussi."
+    },
+    "vuoto-kbc": {
+      "name": "Vuoto KBC",
+      "desc": "Un possibile grande vuoto attorno a noi, largo due miliardi di anni luce."
+    },
+    "gigaparsec": {
+      "name": "Gigaparsec",
+      "desc": "3,26 miliardi di anni luce."
+    },
+    "arco-gigante": {
+      "name": "Arco Gigante",
+      "desc": "Un arco di galassie lungo 3,3 miliardi di anni luce (2021). Potrebbe essere un allineamento casuale."
+    },
+    "huge-lqg": {
+      "name": "Huge-LQG",
+      "desc": "Un gruppo di 73 quasar esteso 4 miliardi di anni luce. La sua realtà fisica è contestata."
+    },
+    "grande-muraglia-ercole-corona-boreale": {
+      "name": "Grande Muraglia Ercole–Corona Boreale",
+      "desc": "Circa 10 miliardi di anni luce, dedotti dalla distribuzione dei lampi gamma. Non confermata come struttura unica."
+    },
+    "distanza-dell-hubble-deep-field": {
+      "name": "Distanza dell'Hubble Deep Field",
+      "desc": "La luce delle galassie più deboli ha viaggiato per circa 13 miliardi di anni."
+    },
+    "raggio-di-hubble": {
+      "name": "Raggio di Hubble",
+      "desc": "Oltre 14,4 miliardi di anni luce lo spazio si allontana da noi più veloce della luce."
+    },
+    "mom-z14": {
+      "name": "MoM-z14",
+      "desc": "La galassia più lontana confermata (gennaio 2026): redshift 14,44, vista 280 milioni di anni dopo il Big Bang. Oggi dista circa 34 miliardi di anni luce."
+    },
+    "universo-osservabile": {
+      "name": "Universo osservabile",
+      "desc": "93 miliardi di anni luce di diametro. Età: 13,8 miliardi di anni."
+    },
+    "universo-intero": {
+      "name": "Universo intero",
+      "desc": "Nessuno ne conosce la dimensione: potrebbe essere infinito. L'originale chiudeva qui con una stima convenzionale."
+    }
+  }
+}

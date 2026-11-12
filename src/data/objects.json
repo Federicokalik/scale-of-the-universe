@@ -1,0 +1,4894 @@
+[
+  {
+    "id": "schiuma-quantistica",
+    "size": 1e-35,
+    "kind": "q",
+    "glyph": "",
+    "flags": [
+      "i"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "stringa",
+    "size": 1.2e-35,
+    "kind": "q",
+    "glyph": "",
+    "flags": [
+      "i"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "lunghezza-di-planck",
+    "size": 1.616e-35,
+    "kind": "u",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "yoctometro",
+    "size": 1e-24,
+    "kind": "u",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "neutrino",
+    "size": 1.3e-24,
+    "kind": "q",
+    "glyph": "",
+    "flags": [
+      "u"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "quark-top",
+    "size": 1e-22,
+    "kind": "q",
+    "glyph": "",
+    "flags": [
+      "u"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "zeptometro",
+    "size": 1e-21,
+    "kind": "u",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "preone",
+    "size": 1.3e-21,
+    "kind": "q",
+    "glyph": "",
+    "flags": [
+      "i"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "neutrino-ad-alta-energia",
+    "size": 1.5e-20,
+    "kind": "q",
+    "glyph": "",
+    "flags": [
+      "u"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "quark-bottom",
+    "size": 3e-20,
+    "kind": "q",
+    "glyph": "",
+    "flags": [
+      "u"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "lunghezze-sondate-da-lhc",
+    "size": 5e-20,
+    "kind": "q",
+    "glyph": "",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "sensibilita-di-ligo",
+    "size": 1e-19,
+    "kind": "d",
+    "glyph": "",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "quark-charm",
+    "size": 1.3e-19,
+    "kind": "q",
+    "glyph": "",
+    "flags": [
+      "u"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "quark-strange",
+    "size": 4e-19,
+    "kind": "q",
+    "glyph": "",
+    "flags": [
+      "u"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "limite-sul-raggio-dei-quark",
+    "size": 4.3e-19,
+    "kind": "q",
+    "glyph": "",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "attometro",
+    "size": 1e-18,
+    "kind": "u",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "quark-up",
+    "size": 1.1e-18,
+    "kind": "q",
+    "glyph": "",
+    "flags": [
+      "u"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "quark-down",
+    "size": 1.2e-18,
+    "kind": "q",
+    "glyph": "",
+    "flags": [
+      "u"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "elettrone-limite-superiore",
+    "size": 1.4e-18,
+    "kind": "q",
+    "glyph": "",
+    "flags": [
+      "u"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "raggio-d-azione-della-forza-debole",
+    "size": 2.5e-18,
+    "kind": "q",
+    "glyph": "",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "femtometro",
+    "size": 1e-15,
+    "kind": "u",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "protone",
+    "size": 1.68e-15,
+    "kind": "a",
+    "glyph": "",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "neutrone",
+    "size": 1.7e-15,
+    "kind": "a",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "nucleo-di-elio",
+    "size": 3.36e-15,
+    "kind": "a",
+    "glyph": "",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "deuterone",
+    "size": 4.3e-15,
+    "kind": "a",
+    "glyph": "",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "elettrone-raggio-classico",
+    "size": 5.64e-15,
+    "kind": "q",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "nucleo-di-cloro",
+    "size": 6.7e-15,
+    "kind": "a",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "nucleo-atomico-medio",
+    "size": 1e-14,
+    "kind": "a",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "nucleo-di-piombo-208",
+    "size": 1.1e-14,
+    "kind": "a",
+    "glyph": "",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "nucleo-di-uranio",
+    "size": 1.5e-14,
+    "kind": "a",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "picometro",
+    "size": 1e-12,
+    "kind": "u",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "raggi-gamma",
+    "size": 1.3e-12,
+    "kind": "w",
+    "glyph": "#c9a2ff",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "lunghezza-d-onda-compton-dell-elettrone",
+    "size": 2.426e-12,
+    "kind": "w",
+    "glyph": "#9fd0ff",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "risoluzione-record-di-un-microscopio-elettronico",
+    "size": 2e-11,
+    "kind": "m",
+    "glyph": "",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "atomo-di-elio",
+    "size": 6.2e-11,
+    "kind": "a",
+    "glyph": "",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "angstrom",
+    "size": 1e-10,
+    "kind": "u",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "atomo-di-idrogeno",
+    "size": 1.06e-10,
+    "kind": "a",
+    "glyph": "",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "atomo-di-carbonio",
+    "size": 1.52e-10,
+    "kind": "a",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "raggi-x",
+    "size": 1.54e-10,
+    "kind": "w",
+    "glyph": "#b8c8ff",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "legame-carbonio-carbonio",
+    "size": 1.56e-10,
+    "kind": "m",
+    "glyph": "",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "atomo-di-zolfo",
+    "size": 2.1e-10,
+    "kind": "a",
+    "glyph": "",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "molecola-di-co2",
+    "size": 2.32e-10,
+    "kind": "m",
+    "glyph": "",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "molecola-d-acqua",
+    "size": 2.75e-10,
+    "kind": "m",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "gate-di-transistor-piu-corto",
+    "size": 3.4e-10,
+    "kind": "m",
+    "glyph": "",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "atomo-di-cesio",
+    "size": 5.3e-10,
+    "kind": "a",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "molecola-di-caffeina",
+    "size": 7.8e-10,
+    "kind": "m",
+    "glyph": "",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "molecola-di-glucosio",
+    "size": 9e-10,
+    "kind": "m",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "nanometro",
+    "size": 1e-9,
+    "kind": "u",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "fullerene-c60",
+    "size": 1.05e-9,
+    "kind": "m",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "nanotubo-di-carbonio",
+    "size": 1.2e-9,
+    "kind": "m",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "alfa-elica-di-una-proteina",
+    "size": 1.25e-9,
+    "kind": "m",
+    "glyph": "",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "dna-spessore",
+    "size": 2e-9,
+    "kind": "m",
+    "glyph": "",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "fosfolipide",
+    "size": 2.5e-9,
+    "kind": "m",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "doppio-strato-fosfolipidico",
+    "size": 5e-9,
+    "kind": "m",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "emoglobina",
+    "size": 5.5e-9,
+    "kind": "m",
+    "glyph": "",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "membrana-cellulare",
+    "size": 8e-9,
+    "kind": "b",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "anticorpo-igg",
+    "size": 1.2e-8,
+    "kind": "m",
+    "glyph": "",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "gate-di-un-transistor-in-produzione",
+    "size": 1.25e-8,
+    "kind": "m",
+    "glyph": "",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "luce-euv-per-litografia",
+    "size": 1.35e-8,
+    "kind": "w",
+    "glyph": "#a78bfa",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "circovirus-suino",
+    "size": 1.7e-8,
+    "kind": "b",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "ribosoma",
+    "size": 2.5e-8,
+    "kind": "b",
+    "glyph": "",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "virus-dell-epatite-b",
+    "size": 4.2e-8,
+    "kind": "b",
+    "glyph": "🦠",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "nanoparticella-lipidica",
+    "size": 8e-8,
+    "kind": "m",
+    "glyph": "",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "ultravioletto",
+    "size": 1e-7,
+    "kind": "w",
+    "glyph": "#8f7bff",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "sars-cov-2",
+    "size": 1.05e-7,
+    "kind": "b",
+    "glyph": "🦠",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "hiv",
+    "size": 1.2e-7,
+    "kind": "b",
+    "glyph": "🦠",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "fossetta-di-un-cd-profondita",
+    "size": 1.25e-7,
+    "kind": "o",
+    "glyph": "💿",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "limite-del-microscopio-ottico",
+    "size": 2e-7,
+    "kind": "m",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "batteriofago-t4",
+    "size": 2.1e-7,
+    "kind": "b",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "batterio-piu-piccolo",
+    "size": 3e-7,
+    "kind": "b",
+    "glyph": "",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "particella-piu-penetrante-per-un-filtro-ffp2",
+    "size": 3.1e-7,
+    "kind": "m",
+    "glyph": "",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "luce-viola",
+    "size": 4e-7,
+    "kind": "w",
+    "glyph": "#8b5cf6",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "luce-verde",
+    "size": 5.5e-7,
+    "kind": "w",
+    "glyph": "#4ade80",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "luce-rossa",
+    "size": 7e-7,
+    "kind": "w",
+    "glyph": "#ef4444",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "mimivirus",
+    "size": 7.5e-7,
+    "kind": "b",
+    "glyph": "🦠",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "micrometro",
+    "size": 0.000001,
+    "kind": "u",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "virus-piu-grande",
+    "size": 0.0000015,
+    "kind": "b",
+    "glyph": "🦠",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "cromosoma-y",
+    "size": 0.000002,
+    "kind": "b",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "escherichia-coli",
+    "size": 0.0000021,
+    "kind": "b",
+    "glyph": "🧫",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "particella-di-argilla",
+    "size": 0.0000022,
+    "kind": "o",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "mitocondrio",
+    "size": 0.0000025,
+    "kind": "b",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "cellula-di-lievito",
+    "size": 0.000005,
+    "kind": "b",
+    "glyph": "",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "nucleo-cellulare",
+    "size": 0.000006,
+    "kind": "b",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "cloroplasto",
+    "size": 0.0000062,
+    "kind": "b",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "cromosoma-x",
+    "size": 0.000007,
+    "kind": "b",
+    "glyph": "",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "globulo-rosso",
+    "size": 0.0000075,
+    "kind": "b",
+    "glyph": "🩸",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "infrarosso-termico",
+    "size": 0.00001,
+    "kind": "w",
+    "glyph": "#f97316",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "globulo-bianco",
+    "size": 0.000012,
+    "kind": "b",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "fibra-di-seta",
+    "size": 0.0000125,
+    "kind": "o",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "twip",
+    "size": 0.00001764,
+    "kind": "u",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "fibra-acrilica",
+    "size": 0.00002,
+    "kind": "o",
+    "glyph": "🧶",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "gocciolina-di-nebbia",
+    "size": 0.000021,
+    "kind": "o",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "thou",
+    "size": 0.0000254,
+    "kind": "u",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "cellula-della-pelle",
+    "size": 0.00003,
+    "kind": "b",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "particella-di-limo",
+    "size": 0.000032,
+    "kind": "o",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "granulo-di-polline",
+    "size": 0.00005,
+    "kind": "b",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "pixel-di-uno-smartphone",
+    "size": 0.000055,
+    "kind": "o",
+    "glyph": "📱",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "spermatozoo",
+    "size": 0.000056,
+    "kind": "b",
+    "glyph": "",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "capello-umano",
+    "size": 0.00008,
+    "kind": "o",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "limite-dell-occhio-nudo",
+    "size": 0.0001,
+    "kind": "o",
+    "glyph": "👁️",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "foglio-di-carta-spessore",
+    "size": 0.000105,
+    "kind": "o",
+    "glyph": "📄",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "ovulo-umano",
+    "size": 0.00012,
+    "kind": "b",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "protista-ciliato",
+    "size": 0.00018,
+    "kind": "b",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "paramecio",
+    "size": 0.00025,
+    "kind": "b",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "pixel-di-un-monitor",
+    "size": 0.00026,
+    "kind": "o",
+    "glyph": "🖥️",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "acaro-della-polvere",
+    "size": 0.0003,
+    "kind": "b",
+    "glyph": "🕷️",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "granello-di-sale",
+    "size": 0.00031,
+    "kind": "o",
+    "glyph": "🧂",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "ameba",
+    "size": 0.0005,
+    "kind": "b",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "tardigrado",
+    "size": 0.00051,
+    "kind": "b",
+    "glyph": "",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "granello-di-sabbia",
+    "size": 0.00052,
+    "kind": "o",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "pelle-delle-palpebre",
+    "size": 0.00053,
+    "kind": "o",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "mina-di-matita",
+    "size": 0.0007,
+    "kind": "o",
+    "glyph": "✏️",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "carta-di-credito-spessore",
+    "size": 0.00076,
+    "kind": "o",
+    "glyph": "💳",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "millimetro",
+    "size": 0.001,
+    "kind": "u",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "picco-del-fondo-cosmico-a-microonde",
+    "size": 0.00106,
+    "kind": "w",
+    "glyph": "#fb7185",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "goccia-di-pioggia",
+    "size": 0.002,
+    "kind": "o",
+    "glyph": "💧",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "lenticchia-d-acqua",
+    "size": 0.003,
+    "kind": "b",
+    "glyph": "🌿",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "seme-di-sesamo",
+    "size": 0.0031,
+    "kind": "o",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "formica",
+    "size": 0.004,
+    "kind": "b",
+    "glyph": "🐜",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "pelle-della-pianta-del-piede",
+    "size": 0.0041,
+    "kind": "o",
+    "glyph": "🦶",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "nevischio",
+    "size": 0.0042,
+    "kind": "o",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "microchip",
+    "size": 0.005,
+    "kind": "o",
+    "glyph": "🔲",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "chicco-di-riso",
+    "size": 0.006,
+    "kind": "o",
+    "glyph": "🍚",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "fiocco-di-neve",
+    "size": 0.008,
+    "kind": "o",
+    "glyph": "❄️",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "batterio-piu-grande",
+    "size": 0.01,
+    "kind": "b",
+    "glyph": "🧫",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "chicco-di-caffe",
+    "size": 0.0102,
+    "kind": "o",
+    "glyph": "🫘",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "seme-di-girasole",
+    "size": 0.0104,
+    "kind": "o",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "uovo-di-colibri",
+    "size": 0.0106,
+    "kind": "o",
+    "glyph": "🥚",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "biglia",
+    "size": 0.016,
+    "kind": "o",
+    "glyph": "🔮",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "penny-statunitense",
+    "size": 0.01905,
+    "kind": "o",
+    "glyph": "🪙",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "moneta-da-1-euro",
+    "size": 0.02325,
+    "kind": "o",
+    "glyph": "🪙",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "pollice",
+    "size": 0.0254,
+    "kind": "u",
+    "glyph": "",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "uovo-di-quaglia",
+    "size": 0.035,
+    "kind": "o",
+    "glyph": "🥚",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "fiammifero",
+    "size": 0.045,
+    "kind": "o",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "uovo-di-gallina",
+    "size": 0.055,
+    "kind": "o",
+    "glyph": "🥚",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "cubo-di-rubik",
+    "size": 0.057,
+    "kind": "o",
+    "glyph": "🟧",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "colibri",
+    "size": 0.09,
+    "kind": "b",
+    "glyph": "🐦",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "toporagno",
+    "size": 0.1,
+    "kind": "b",
+    "glyph": "🐭",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "tazza",
+    "size": 0.102,
+    "kind": "o",
+    "glyph": "☕",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "microonde-del-forno",
+    "size": 0.122,
+    "kind": "w",
+    "glyph": "#fbbf24",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "smartphone",
+    "size": 0.15,
+    "kind": "o",
+    "glyph": "📱",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "uovo-di-struzzo",
+    "size": 0.152,
+    "kind": "o",
+    "glyph": "🥚",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "lombrico-comune",
+    "size": 0.155,
+    "kind": "b",
+    "glyph": "🪱",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "chicco-di-grandine-piu-grande",
+    "size": 0.2,
+    "kind": "o",
+    "glyph": "🧊",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "pallone-da-calcio",
+    "size": 0.22,
+    "kind": "o",
+    "glyph": "⚽",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "pallone-da-basket",
+    "size": 0.24,
+    "kind": "o",
+    "glyph": "🏀",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "teiera-di-russell",
+    "size": 0.25,
+    "kind": "o",
+    "glyph": "🫖",
+    "flags": [
+      "i"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "righello-da-un-piede",
+    "size": 0.3048,
+    "kind": "o",
+    "glyph": "📏",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "uno-schermo",
+    "size": 0.34,
+    "kind": "o",
+    "glyph": "💻",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "fiocco-di-neve-piu-grande",
+    "size": 0.38,
+    "kind": "o",
+    "glyph": "❄️",
+    "flags": [
+      "u"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "gatto",
+    "size": 0.46,
+    "kind": "b",
+    "glyph": "🐈",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "pallone-da-spiaggia",
+    "size": 0.6,
+    "kind": "o",
+    "glyph": "🏐",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "metro",
+    "size": 1,
+    "kind": "u",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "dodo",
+    "size": 1.02,
+    "kind": "b",
+    "glyph": "🦤",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "rafflesia",
+    "size": 1.04,
+    "kind": "b",
+    "glyph": "🌺",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "essere-umano",
+    "size": 1.7,
+    "kind": "b",
+    "glyph": "🧍",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "bicicletta",
+    "size": 1.75,
+    "kind": "o",
+    "glyph": "🚲",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "verme-gigante-del-gippsland",
+    "size": 2,
+    "kind": "b",
+    "glyph": "🪱",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "isetta",
+    "size": 2.3,
+    "kind": "o",
+    "glyph": "🚗",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "girasole",
+    "size": 2.5,
+    "kind": "b",
+    "glyph": "🌻",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "dal-pavimento-al-soffitto",
+    "size": 2.7,
+    "kind": "g",
+    "glyph": "🚪",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "onde-radio-fm",
+    "size": 3,
+    "kind": "w",
+    "glyph": "#38bdf8",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "albatro-urlatore",
+    "size": 3.1,
+    "kind": "b",
+    "glyph": "🕊️",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "granchio-gigante-del-giappone",
+    "size": 3.7,
+    "kind": "b",
+    "glyph": "🦀",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "automobile",
+    "size": 4.5,
+    "kind": "o",
+    "glyph": "🚙",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "giraffa",
+    "size": 5.5,
+    "kind": "b",
+    "glyph": "🦒",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "anaconda-verde",
+    "size": 6,
+    "kind": "b",
+    "glyph": "🐍",
+    "flags": [
+      "u"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "elefante-africano",
+    "size": 6.5,
+    "kind": "b",
+    "glyph": "🐘",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "modulo-lunare-apollo",
+    "size": 7,
+    "kind": "o",
+    "glyph": "🛰️",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "saguaro",
+    "size": 12,
+    "kind": "b",
+    "glyph": "🌵",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "autobus",
+    "size": 12.2,
+    "kind": "o",
+    "glyph": "🚌",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "tyrannosaurus-rex",
+    "size": 12.3,
+    "kind": "b",
+    "glyph": "🦖",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "casa-media-negli-usa",
+    "size": 15,
+    "kind": "g",
+    "glyph": "🏠",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "quercia",
+    "size": 20,
+    "kind": "b",
+    "glyph": "🌳",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "schermo-solare-del-telescopio-webb",
+    "size": 21.2,
+    "kind": "o",
+    "glyph": "🛰️",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "balenottera-azzurra",
+    "size": 30,
+    "kind": "b",
+    "glyph": "🐋",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "maraapunisaurus",
+    "size": 32,
+    "kind": "b",
+    "glyph": "🦕",
+    "flags": [
+      "r",
+      "u"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "argentinosaurus",
+    "size": 35,
+    "kind": "b",
+    "glyph": "🦕",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "torre-di-pisa",
+    "size": 56,
+    "kind": "g",
+    "glyph": "🗼",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "boeing-747-8",
+    "size": 76.3,
+    "kind": "o",
+    "glyph": "✈️",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "stazione-spaziale-internazionale",
+    "size": 109,
+    "kind": "o",
+    "glyph": "🛰️",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "campo-da-football-americano",
+    "size": 109.7,
+    "kind": "g",
+    "glyph": "🏈",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "saturn-v",
+    "size": 110.6,
+    "kind": "o",
+    "glyph": "🚀",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "sequoia-hyperion",
+    "size": 116,
+    "kind": "b",
+    "glyph": "🌲",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "starship",
+    "size": 123,
+    "kind": "o",
+    "glyph": "🚀",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "grande-piramide-di-giza",
+    "size": 138.5,
+    "kind": "g",
+    "glyph": "🔺",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "dimorphos",
+    "size": 150,
+    "kind": "p",
+    "glyph": "#9b9488",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "colosseo",
+    "size": 189,
+    "kind": "g",
+    "glyph": "🏛️",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "gateway-arch",
+    "size": 192,
+    "kind": "g",
+    "glyph": "🌉",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "oumuamua",
+    "size": 200,
+    "kind": "p",
+    "glyph": "#8f6f5f",
+    "flags": [
+      "n",
+      "u"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "diga-di-hoover",
+    "size": 221,
+    "kind": "g",
+    "glyph": "🏞️",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "titanic",
+    "size": 269,
+    "kind": "o",
+    "glyph": "🚢",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "onde-radio-am",
+    "size": 300,
+    "kind": "w",
+    "glyph": "#34d399",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "torre-eiffel",
+    "size": 330,
+    "kind": "g",
+    "glyph": "🗼",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "apophis",
+    "size": 340,
+    "kind": "p",
+    "glyph": "#a39b8f",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "willis-tower",
+    "size": 442,
+    "kind": "g",
+    "glyph": "🏢",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "international-commerce-centre",
+    "size": 484,
+    "kind": "g",
+    "glyph": "🏢",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "bennu",
+    "size": 490,
+    "kind": "p",
+    "glyph": "#5d5a57",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "merdeka-118",
+    "size": 679,
+    "kind": "g",
+    "glyph": "🏙️",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "burj-khalifa",
+    "size": 828,
+    "kind": "g",
+    "glyph": "🏙️",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "cascate-dell-angelo",
+    "size": 979,
+    "kind": "g",
+    "glyph": "🏞️",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "chilometro",
+    "size": 1000,
+    "kind": "u",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "fabbrica-boeing-di-everett",
+    "size": 1020,
+    "kind": "g",
+    "glyph": "🏭",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "3i-atlas",
+    "size": 1040,
+    "kind": "p",
+    "glyph": "#9fb7c9",
+    "flags": [
+      "n",
+      "u"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "citta-del-vaticano",
+    "size": 1050,
+    "kind": "g",
+    "glyph": "⛪",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "half-dome",
+    "size": 1440,
+    "kind": "g",
+    "glyph": "⛰️",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "miglio",
+    "size": 1609,
+    "kind": "u",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "cruithne",
+    "size": 2100,
+    "kind": "p",
+    "glyph": "#8a8178",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "acceleratore-lineare-di-stanford",
+    "size": 3200,
+    "kind": "g",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "uluru",
+    "size": 3600,
+    "kind": "g",
+    "glyph": "🪨",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "central-park",
+    "size": 4000,
+    "kind": "g",
+    "glyph": "🌳",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "cometa-67p",
+    "size": 4300,
+    "kind": "p",
+    "glyph": "#6b6661",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "monte-bianco",
+    "size": 4806,
+    "kind": "g",
+    "glyph": "🏔️",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "palm-jebel-ali",
+    "size": 7000,
+    "kind": "g",
+    "glyph": "🏝️",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "large-hadron-collider",
+    "size": 8500,
+    "kind": "g",
+    "glyph": "⭕",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "lep",
+    "size": 8520,
+    "kind": "g",
+    "glyph": "⭕",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "monte-everest",
+    "size": 8849,
+    "kind": "g",
+    "glyph": "🏔️",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "fossa-delle-marianne-profondita",
+    "size": 10935,
+    "kind": "g",
+    "glyph": "🌊",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "deimos",
+    "size": 12400,
+    "kind": "p",
+    "glyph": "#a89b8c",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "cometa-di-halley",
+    "size": 15000,
+    "kind": "p",
+    "glyph": "#6f6a66",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "olympus-mons-altezza",
+    "size": 21900,
+    "kind": "g",
+    "glyph": "🌋",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "fobos",
+    "size": 22200,
+    "kind": "p",
+    "glyph": "#8d8279",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "stella-di-neutroni",
+    "size": 24000,
+    "kind": "s",
+    "glyph": "#cfe6ff",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "future-circular-collider",
+    "size": 29000,
+    "kind": "g",
+    "glyph": "⭕",
+    "flags": [
+      "n",
+      "i"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "ganymed",
+    "size": 35000,
+    "kind": "p",
+    "glyph": "#8c8377",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "arrokoth",
+    "size": 36000,
+    "kind": "p",
+    "glyph": "#a0522d",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "maratona",
+    "size": 42195,
+    "kind": "d",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "nix",
+    "size": 50000,
+    "kind": "p",
+    "glyph": "#cfcac2",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "idra",
+    "size": 51000,
+    "kind": "p",
+    "glyph": "#d6d1c8",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "bianca",
+    "size": 51500,
+    "kind": "p",
+    "glyph": "#8e9aa3",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "buco-nero-stellare",
+    "size": 59000,
+    "kind": "h",
+    "glyph": "",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "rhode-island",
+    "size": 77000,
+    "kind": "g",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "belinda",
+    "size": 90000,
+    "kind": "p",
+    "glyph": "#8e9aa3",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "brunei",
+    "size": 120000,
+    "kind": "g",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "galatea",
+    "size": 176000,
+    "kind": "p",
+    "glyph": "#7d8791",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "gaia-bh3",
+    "size": 195000,
+    "kind": "h",
+    "glyph": "",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "psyche",
+    "size": 220000,
+    "kind": "p",
+    "glyph": "#9a9a9a",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "ruanda",
+    "size": 230000,
+    "kind": "g",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "nereide",
+    "size": 357000,
+    "kind": "p",
+    "glyph": "#9aa3ab",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "mimas",
+    "size": 396000,
+    "kind": "p",
+    "glyph": "#c9c9c9",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "west-virginia",
+    "size": 400000,
+    "kind": "g",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "grand-canyon",
+    "size": 446000,
+    "kind": "g",
+    "glyph": "🏜️",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "miranda",
+    "size": 472000,
+    "kind": "p",
+    "glyph": "#b9bcc2",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "encelado",
+    "size": 504000,
+    "kind": "p",
+    "glyph": "#f1f5f9",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "vesta",
+    "size": 525000,
+    "kind": "p",
+    "glyph": "#a8a29e",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "dysnomia",
+    "size": 615000,
+    "kind": "p",
+    "glyph": "#7a7570",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "cerere",
+    "size": 939000,
+    "kind": "p",
+    "glyph": "#8b8b8b",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "megametro",
+    "size": 1000000,
+    "kind": "u",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "sedna",
+    "size": 1020000,
+    "kind": "p",
+    "glyph": "#b4533c",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "quaoar",
+    "size": 1090000,
+    "kind": "p",
+    "glyph": "#a36a55",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "italia",
+    "size": 1200000,
+    "kind": "g",
+    "glyph": "🇮🇹",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "caronte",
+    "size": 1212000,
+    "kind": "p",
+    "glyph": "#a8a29e",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "gonggong",
+    "size": 1230000,
+    "kind": "p",
+    "glyph": "#b4533c",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "california",
+    "size": 1240000,
+    "kind": "g",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "texas",
+    "size": 1270000,
+    "kind": "g",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "makemake",
+    "size": 1430000,
+    "kind": "p",
+    "glyph": "#c08457",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "haumea",
+    "size": 1560000,
+    "kind": "p",
+    "glyph": "#e5e7eb",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "titania",
+    "size": 1577000,
+    "kind": "p",
+    "glyph": "#b9bcc2",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "grande-barriera-corallina",
+    "size": 2300000,
+    "kind": "g",
+    "glyph": "🪸",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "eris",
+    "size": 2326000,
+    "kind": "p",
+    "glyph": "#e7e5e4",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "plutone",
+    "size": 2377000,
+    "kind": "p",
+    "glyph": "#d6b99a",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "tritone",
+    "size": 2707000,
+    "kind": "p",
+    "glyph": "#d8c7c0",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "europa",
+    "size": 3122000,
+    "kind": "p",
+    "glyph": "#d9cdb8",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "luna",
+    "size": 3475000,
+    "kind": "p",
+    "glyph": "#c9c9c9",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "io",
+    "size": 3643000,
+    "kind": "p",
+    "glyph": "#e8d44d",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "larghezza-degli-stati-uniti",
+    "size": 4500000,
+    "kind": "g",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "callisto",
+    "size": 4821000,
+    "kind": "p",
+    "glyph": "#6b5d52",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "mercurio",
+    "size": 4879000,
+    "kind": "p",
+    "glyph": "#9c9892",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "titano",
+    "size": 5150000,
+    "kind": "p",
+    "glyph": "#d9a441",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "ganimede",
+    "size": 5268000,
+    "kind": "p",
+    "glyph": "#a39a8c",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "marte",
+    "size": 6779000,
+    "kind": "p",
+    "glyph": "#c1583b",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "asia",
+    "size": 8500000,
+    "kind": "g",
+    "glyph": "🌏",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "trappist-1-e",
+    "size": 11700000,
+    "kind": "p",
+    "glyph": "#7aa2c9",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "sirio-b",
+    "size": 11720000,
+    "kind": "s",
+    "glyph": "#e8f0ff",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "venere",
+    "size": 12104000,
+    "kind": "p",
+    "glyph": "#e3c58a",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "terra",
+    "size": 12742000,
+    "kind": "p",
+    "glyph": "#3b82c4",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "grande-muraglia-cinese",
+    "size": 21200000,
+    "kind": "g",
+    "glyph": "🧱",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "k2-18-b",
+    "size": 33000000,
+    "kind": "p",
+    "glyph": "#5b8fb9",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "nettuno",
+    "size": 49244000,
+    "kind": "p",
+    "glyph": "#3f66d9",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "urano",
+    "size": 50724000,
+    "kind": "p",
+    "glyph": "#9bd9e0",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "mondo-di-minecraft",
+    "size": 60000000,
+    "kind": "o",
+    "glyph": "🟩",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "orbita-geostazionaria",
+    "size": 84300000,
+    "kind": "d",
+    "glyph": "",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "saturno",
+    "size": 116460000,
+    "kind": "p",
+    "glyph": "#e3cf9c",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "eblm-j0555-57ab",
+    "size": 117000000,
+    "kind": "s",
+    "glyph": "#ff8a5c",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "gliese-229-b",
+    "size": 130000000,
+    "kind": "s",
+    "glyph": "#b0603a",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "giove",
+    "size": 139820000,
+    "kind": "p",
+    "glyph": "#d9a066",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "trappist-1",
+    "size": 166000000,
+    "kind": "s",
+    "glyph": "#ff7a4d",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "wolf-359",
+    "size": 200000000,
+    "kind": "s",
+    "glyph": "#ff7a4d",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "proxima-centauri",
+    "size": 215000000,
+    "kind": "s",
+    "glyph": "#ff8a5c",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "tres-4-b",
+    "size": 250000000,
+    "kind": "p",
+    "glyph": "#c9a27a",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "anelli-di-saturno",
+    "size": 280000000,
+    "kind": "d",
+    "glyph": "",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "distanza-terra-luna",
+    "size": 384400000,
+    "kind": "d",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "stella-di-kapteyn",
+    "size": 400000000,
+    "kind": "s",
+    "glyph": "#ff9d6c",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "stella-di-luyten",
+    "size": 490000000,
+    "kind": "s",
+    "glyph": "#ff8a5c",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "gliese-229-a",
+    "size": 760000000,
+    "kind": "s",
+    "glyph": "#ff9566",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "gigametro",
+    "size": 1000000000,
+    "kind": "u",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "alfa-centauri-b",
+    "size": 1200000000,
+    "kind": "s",
+    "glyph": "#ffc98a",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "sole",
+    "size": 1391400000,
+    "kind": "s",
+    "glyph": "#ffe9a8",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "distanza-del-telescopio-webb",
+    "size": 1500000000,
+    "kind": "d",
+    "glyph": "",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "alfa-centauri-a",
+    "size": 1700000000,
+    "kind": "s",
+    "glyph": "#ffeeb5",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "sirio-a",
+    "size": 2380000000,
+    "kind": "s",
+    "glyph": "#dfe9ff",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "altair",
+    "size": 2500000000,
+    "kind": "s",
+    "glyph": "#f1f5ff",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "procione",
+    "size": 2850000000,
+    "kind": "s",
+    "glyph": "#fff4d6",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "vega",
+    "size": 3600000000,
+    "kind": "s",
+    "glyph": "#dfe9ff",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "regolo",
+    "size": 5200000000,
+    "kind": "s",
+    "glyph": "#bcd0ff",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "perielio-della-parker-solar-probe",
+    "size": 6900000000,
+    "kind": "d",
+    "glyph": "",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "spica",
+    "size": 10400000000,
+    "kind": "s",
+    "glyph": "#a9c4ff",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "pollux",
+    "size": 12600000000,
+    "kind": "s",
+    "glyph": "#ffc78a",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "altezza-totale-dell-umanita",
+    "size": 13000000000,
+    "kind": "d",
+    "glyph": "",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "capella",
+    "size": 16700000000,
+    "kind": "s",
+    "glyph": "#ffe3a3",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "sistema-di-trappist-1",
+    "size": 18500000000,
+    "kind": "d",
+    "glyph": "",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "vv-cephei-b",
+    "size": 25000000000,
+    "kind": "s",
+    "glyph": "#a9c4ff",
+    "flags": [
+      "u"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "sagittarius-a",
+    "size": 25000000000,
+    "kind": "h",
+    "glyph": "",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "alnitak",
+    "size": 28000000000,
+    "kind": "s",
+    "glyph": "#8fb0ff",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "arturo",
+    "size": 35300000000,
+    "kind": "s",
+    "glyph": "#ffb27a",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "distanza-mercurio-sole",
+    "size": 57900000000,
+    "kind": "d",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "r136a1",
+    "size": 59000000000,
+    "kind": "s",
+    "glyph": "#8fb0ff",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "aldebaran",
+    "size": 62700000000,
+    "kind": "s",
+    "glyph": "#ffa66b",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "polare",
+    "size": 64000000000,
+    "kind": "s",
+    "glyph": "#fff0c9",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "albireo-a",
+    "size": 82000000000,
+    "kind": "s",
+    "glyph": "#ffc070",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "rigel",
+    "size": 108000000000,
+    "kind": "s",
+    "glyph": "#a9c4ff",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "distanza-terra-sole",
+    "size": 149600000000,
+    "kind": "d",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "gacrux",
+    "size": 167000000000,
+    "kind": "s",
+    "glyph": "#ff8a5c",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "deneb",
+    "size": 280000000000,
+    "kind": "s",
+    "glyph": "#e6eeff",
+    "flags": [
+      "u"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "enif",
+    "size": 290000000000,
+    "kind": "s",
+    "glyph": "#ffb27a",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "r-doradus",
+    "size": 415000000000,
+    "kind": "s",
+    "glyph": "#ff7a4d",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "pistol-star",
+    "size": 430000000000,
+    "kind": "s",
+    "glyph": "#a9c4ff",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "la-superba",
+    "size": 440000000000,
+    "kind": "s",
+    "glyph": "#ff5a3c",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "s-doradus",
+    "size": 500000000000,
+    "kind": "s",
+    "glyph": "#bcd0ff",
+    "flags": [
+      "u"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "v838-monocerotis",
+    "size": 650000000000,
+    "kind": "s",
+    "glyph": "#ff7a4d",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "v382-carinae",
+    "size": 670000000000,
+    "kind": "s",
+    "glyph": "#ffe28a",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "distanza-giove-sole",
+    "size": 778500000000,
+    "kind": "d",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "antares",
+    "size": 946000000000,
+    "kind": "s",
+    "glyph": "#ff6a45",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "v354-cephei",
+    "size": 950000000000,
+    "kind": "s",
+    "glyph": "#ff6a45",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "terametro",
+    "size": 1000000000000,
+    "kind": "u",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "betelgeuse",
+    "size": 1060000000000,
+    "kind": "s",
+    "glyph": "#ff6a45",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "uy-scuti",
+    "size": 1260000000000,
+    "kind": "s",
+    "glyph": "#ff5f3d",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "ky-cygni",
+    "size": 1440000000000,
+    "kind": "s",
+    "glyph": "#ff5f3d",
+    "flags": [
+      "u"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "vv-cephei-a",
+    "size": 1460000000000,
+    "kind": "s",
+    "glyph": "#ff6a45",
+    "flags": [
+      "u"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "mu-cephei",
+    "size": 1600000000000,
+    "kind": "s",
+    "glyph": "#ff4f33",
+    "flags": [
+      "u"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "vy-canis-majoris",
+    "size": 1980000000000,
+    "kind": "s",
+    "glyph": "#ff5f3d",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "woh-g64",
+    "size": 2140000000000,
+    "kind": "s",
+    "glyph": "#ff7a4d",
+    "flags": [
+      "r",
+      "u"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "stephenson-2-18",
+    "size": 2990000000000,
+    "kind": "s",
+    "glyph": "#ff4f33",
+    "flags": [
+      "n",
+      "u"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "distanza-nettuno-sole",
+    "size": 4495000000000,
+    "kind": "d",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "distanza-plutone-sole",
+    "size": 5906000000000,
+    "kind": "d",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "fascia-di-kuiper",
+    "size": 15000000000000,
+    "kind": "d",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "voyager-1",
+    "size": 25850000000000,
+    "kind": "d",
+    "glyph": "",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "giorno-luce",
+    "size": 25900000000000,
+    "kind": "u",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "eliopausa",
+    "size": 36000000000000,
+    "kind": "d",
+    "glyph": "",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "m87",
+    "size": 38000000000000,
+    "kind": "h",
+    "glyph": "",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "afelio-della-cometa-hale-bopp",
+    "size": 55000000000000,
+    "kind": "d",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "afelio-di-sedna",
+    "size": 140000000000000,
+    "kind": "d",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "buco-nero-del-cosmic-horseshoe",
+    "size": 210000000000000,
+    "kind": "h",
+    "glyph": "",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "ton-618",
+    "size": 390000000000000,
+    "kind": "h",
+    "glyph": "",
+    "flags": [
+      "n",
+      "u"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "nebulosa-stingray",
+    "size": 800000000000000,
+    "kind": "n",
+    "glyph": "2",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "petametro",
+    "size": 1000000000000000,
+    "kind": "u",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "distanza-proxima-alfa-centauri-a",
+    "size": 1900000000000000,
+    "kind": "d",
+    "glyph": "",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "nebulosa-occhio-di-gatto",
+    "size": 1950000000000000,
+    "kind": "n",
+    "glyph": "1",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "hamburger-di-gomez",
+    "size": 2500000000000000,
+    "kind": "n",
+    "glyph": "3",
+    "flags": [
+      "u"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "nebulosa-clessidra",
+    "size": 3000000000000000,
+    "kind": "n",
+    "glyph": "0",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "nebulosa-blinking",
+    "size": 4500000000000000,
+    "kind": "n",
+    "glyph": "1",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "nebulosa-homunculus",
+    "size": 6000000000000000,
+    "kind": "n",
+    "glyph": "3",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "nebulosa-ngc-2392",
+    "size": 6400000000000000,
+    "kind": "n",
+    "glyph": "2",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "anno-luce",
+    "size": 9461000000000000,
+    "kind": "u",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "nebulosa-uovo-marcio",
+    "size": 13000000000000000,
+    "kind": "n",
+    "glyph": "3",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "nebulosa-formica",
+    "size": 19000000000000000,
+    "kind": "n",
+    "glyph": "0",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "nebulosa-boomerang",
+    "size": 19200000000000000,
+    "kind": "n",
+    "glyph": "1",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "nebulosa-anello",
+    "size": 25000000000000000,
+    "kind": "n",
+    "glyph": "2",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "nube-di-oort",
+    "size": 30000000000000000,
+    "kind": "d",
+    "glyph": "",
+    "flags": [
+      "r",
+      "u"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "parsec",
+    "size": 30857000000000000,
+    "kind": "u",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "nebulosa-testa-di-cavallo",
+    "size": 33000000000000000,
+    "kind": "n",
+    "glyph": "0",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "distanza-sole-proxima",
+    "size": 40180000000000000,
+    "kind": "d",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "pilastri-della-creazione",
+    "size": 47000000000000000,
+    "kind": "n",
+    "glyph": "3",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "nebulosa-elica",
+    "size": 54000000000000000,
+    "kind": "n",
+    "glyph": "1",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "nebulosa-bolla",
+    "size": 66000000000000000,
+    "kind": "n",
+    "glyph": "2",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "nebulosa-cono",
+    "size": 67000000000000000,
+    "kind": "n",
+    "glyph": "0",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "the-spire",
+    "size": 90000000000000000,
+    "kind": "n",
+    "glyph": "3",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "nebulosa-granchio",
+    "size": 104000000000000000,
+    "kind": "n",
+    "glyph": "4",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "nebulosa-di-orione",
+    "size": 230000000000000000,
+    "kind": "n",
+    "glyph": "0",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "nube-interstellare-locale",
+    "size": 280000000000000000,
+    "kind": "n",
+    "glyph": "1",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "nebulosa-grotta",
+    "size": 660000000000000000,
+    "kind": "n",
+    "glyph": "0",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "nebulosa-aquila",
+    "size": 670000000000000000,
+    "kind": "n",
+    "glyph": "3",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "nebulosa-nord-america",
+    "size": 850000000000000000,
+    "kind": "n",
+    "glyph": "0",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "messier-14",
+    "size": 950000000000000000,
+    "kind": "n",
+    "glyph": "4",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "esametro",
+    "size": 1000000000000000000,
+    "kind": "u",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "nebulosa-laguna",
+    "size": 1040000000000000000,
+    "kind": "n",
+    "glyph": "0",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "nebulosa-rosetta",
+    "size": 1200000000000000000,
+    "kind": "n",
+    "glyph": "0",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "omega-centauri",
+    "size": 1400000000000000000,
+    "kind": "n",
+    "glyph": "4",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "nebulosa-della-carena",
+    "size": 2200000000000000000,
+    "kind": "n",
+    "glyph": "0",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "anello-di-barnard",
+    "size": 2800000000000000000,
+    "kind": "n",
+    "glyph": "0",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "messier-54",
+    "size": 2900000000000000000,
+    "kind": "n",
+    "glyph": "4",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "nebulosa-tarantola",
+    "size": 6000000000000000000,
+    "kind": "n",
+    "glyph": "2",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "bolla-locale",
+    "size": 9500000000000000000,
+    "kind": "n",
+    "glyph": "1",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "leo-ii",
+    "size": 20000000000000000000,
+    "kind": "x",
+    "glyph": "E",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "getto-relativistico-di-m87",
+    "size": 47000000000000000000,
+    "kind": "d",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "nana-del-cane-maggiore",
+    "size": 50000000000000000000,
+    "kind": "x",
+    "glyph": "E",
+    "flags": [
+      "u"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "canes-venatici-i",
+    "size": 65000000000000000000,
+    "kind": "x",
+    "glyph": "E",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "onda-di-radcliffe",
+    "size": 85000000000000000000,
+    "kind": "n",
+    "glyph": "1",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "nana-ellittica-del-sagittario",
+    "size": 95000000000000000000,
+    "kind": "x",
+    "glyph": "E",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "piccola-nube-di-magellano",
+    "size": 180000000000000000000,
+    "kind": "x",
+    "glyph": "I",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "ngc-3310",
+    "size": 220000000000000000000,
+    "kind": "x",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "grande-nube-di-magellano",
+    "size": 305000000000000000000,
+    "kind": "x",
+    "glyph": "I",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "ngc-7714",
+    "size": 350000000000000000000,
+    "kind": "x",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "bolle-di-fermi",
+    "size": 470000000000000000000,
+    "kind": "n",
+    "glyph": "2",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "galassia-occhio-nero",
+    "size": 510000000000000000000,
+    "kind": "x",
+    "glyph": "",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "galassia-del-triangolo",
+    "size": 580000000000000000000,
+    "kind": "x",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "galassia-vortice",
+    "size": 730000000000000000000,
+    "kind": "x",
+    "glyph": "",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "via-lattea",
+    "size": 830000000000000000000,
+    "kind": "x",
+    "glyph": "",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "galassia-sombrero",
+    "size": 900000000000000000000,
+    "kind": "x",
+    "glyph": "",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "zettametro",
+    "size": 1e+21,
+    "kind": "u",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "virgo-a",
+    "size": 1.25e+21,
+    "kind": "x",
+    "glyph": "E",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "galassia-ruota-di-carro",
+    "size": 1.4e+21,
+    "kind": "x",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "andromeda",
+    "size": 1.44e+21,
+    "kind": "x",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "galassia-girandola",
+    "size": 1.6e+21,
+    "kind": "x",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "ngc-1232",
+    "size": 1.9e+21,
+    "kind": "x",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "ngc-4889",
+    "size": 2.3e+21,
+    "kind": "x",
+    "glyph": "E",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "galassia-girino",
+    "size": 2.65e+21,
+    "kind": "x",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "strada-percorsa-dalla-terra-attorno-al-sole",
+    "size": 4.3e+21,
+    "kind": "d",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "distanza-di-andromeda",
+    "size": 2.4e+22,
+    "kind": "d",
+    "glyph": "",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "ic-1101",
+    "size": 3.8e+22,
+    "kind": "x",
+    "glyph": "E",
+    "flags": [
+      "r",
+      "u"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "ammasso-della-fornace",
+    "size": 4.5e+22,
+    "kind": "c",
+    "glyph": "",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "abell-2029",
+    "size": 6e+22,
+    "kind": "c",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "gruppo-locale",
+    "size": 9.5e+22,
+    "kind": "c",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "ammasso-della-vergine",
+    "size": 1.4e+23,
+    "kind": "c",
+    "glyph": "",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "alcioneo",
+    "size": 1.54e+23,
+    "kind": "x",
+    "glyph": "E",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "porphyrion",
+    "size": 2.2e+23,
+    "kind": "x",
+    "glyph": "E",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "yottametro",
+    "size": 1e+24,
+    "kind": "u",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "superammasso-della-vergine",
+    "size": 1.04e+24,
+    "kind": "c",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "distanza-del-grande-attrattore",
+    "size": 2.2e+24,
+    "kind": "d",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "vuoto-del-boote",
+    "size": 3.1e+24,
+    "kind": "c",
+    "glyph": "",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "scala-acustica-barionica",
+    "size": 4.6e+24,
+    "kind": "d",
+    "glyph": "",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "laniakea",
+    "size": 4.9e+24,
+    "kind": "c",
+    "glyph": "",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "distanza-del-superammasso-di-shapley",
+    "size": 6.15e+24,
+    "kind": "d",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "complesso-pesci-balena",
+    "size": 9.5e+24,
+    "kind": "c",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "quipu",
+    "size": 1.23e+25,
+    "kind": "c",
+    "glyph": "",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "grande-muraglia-sloan",
+    "size": 1.3e+25,
+    "kind": "c",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "supervuoto-di-eridano",
+    "size": 1.7e+25,
+    "kind": "c",
+    "glyph": "",
+    "flags": [
+      "r",
+      "u"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "vuoto-kbc",
+    "size": 1.9e+25,
+    "kind": "c",
+    "glyph": "",
+    "flags": [
+      "n",
+      "u"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "gigaparsec",
+    "size": 3.0857e+25,
+    "kind": "u",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "arco-gigante",
+    "size": 3.1e+25,
+    "kind": "c",
+    "glyph": "",
+    "flags": [
+      "n",
+      "u"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "huge-lqg",
+    "size": 3.8e+25,
+    "kind": "c",
+    "glyph": "",
+    "flags": [
+      "n",
+      "u"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "grande-muraglia-ercole-corona-boreale",
+    "size": 9.5e+25,
+    "kind": "c",
+    "glyph": "",
+    "flags": [
+      "n",
+      "u"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "distanza-dell-hubble-deep-field",
+    "size": 1.2e+26,
+    "kind": "d",
+    "glyph": "",
+    "flags": [],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "raggio-di-hubble",
+    "size": 1.36e+26,
+    "kind": "d",
+    "glyph": "",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "mom-z14",
+    "size": 3.2e+26,
+    "kind": "d",
+    "glyph": "",
+    "flags": [
+      "n"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "universo-osservabile",
+    "size": 8.8e+26,
+    "kind": "c",
+    "glyph": "",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  },
+  {
+    "id": "universo-intero",
+    "size": 1.6e+27,
+    "kind": "c",
+    "glyph": "",
+    "flags": [
+      "i"
+    ],
+    "image": null,
+    "sources": [],
+    "verified": null
+  }
+]
