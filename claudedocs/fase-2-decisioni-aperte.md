@@ -50,6 +50,8 @@ Aggiornato dopo ogni ondata. Le correzioni sono già applicate ai dati; le decis
 28. **Nereide**: 357 km (Kiss e colleghi 2016) contro 340 km (NSSDCA), al limite del 5%. Lasciato confermato.
 29. **Dysnomia e Sedna**: 615 (+60/−50) km e 995 ± 80 km sono stime da modelli termici, mai risolte direttamente. Segnate incerte; Sedna resta a 1.020 km.
 30. **Mercurio**: la descrizione dice che BepiColombo entrerà in orbita il 21 novembre 2026 (ESA). Va riscritta dopo quella data.
+31. **K2-18 b**: il comunicato Webb della NASA dà 2,6 raggi terrestri (coerente con il valore attuale), il catalogo esopianeti NASA 2,37 (circa il 9% in meno). Segnato incerto; in alternativa confermato sul 2,6.
+32. **TrES-4 b**: raggi pubblicati da 1,61 a 1,78 raggi gioviani (230.000–255.000 km). Segnato incerto; "tra gli esopianeti più grandi" sostituito con "il più grande pianeta in transito noto alla scoperta".
 
 ## Da sistemare prima di chiudere la fase
 
@@ -64,8 +66,8 @@ Aggiornato dopo ogni ondata. Le correzioni sono già applicate ai dati; le decis
 
 ## Avanzamento
 
-Lotti applicati: black-holes, particles-1/2, atoms-1/2, waves-1/2, molecules-1/2, units-1/2/3, biology-1/2/3/4/5, objects-1/2/3/4/5, places-1/2/3/4, solar-system-1/2/3/4 (283 oggetti su 447).
+Lotti applicati: black-holes, particles-1/2, atoms-1/2, waves-1/2, molecules-1/2, units-1/2/3, biology-1/2/3/4/5, objects-1/2/3/4/5, places-1/2/3/4, solar-system-1/2/3/4/5 (293 oggetti su 447).
 
-Lotti da fare: solar-system-5, stars-1/2/3/4, distances-1/2/3, nebulae-1/2/3, galaxies-1/2, cosmic-1/2.
+Lotti da fare: stars-1/2/3/4, distances-1/2/3, nebulae-1/2/3, galaxies-1/2, cosmic-1/2.
 
 Per ogni lotto: `node scripts/apply-research.mjs --check`, `node scripts/check-links.mjs`, campione di fonti riletto in modo indipendente, poi `node scripts/apply-research.mjs`, `npm run validate`, `npm test`, commit.

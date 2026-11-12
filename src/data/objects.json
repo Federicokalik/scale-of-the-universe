@@ -5562,8 +5562,19 @@
     "glyph": "#c1583b",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Mars Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html",
+        "publisher": "NASA NSSDCA (Goddard Space Flight Center)"
+      },
+      {
+        "title": "Mars Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html",
+        "publisher": "NASA NSSDCA (Goddard Space Flight Center)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "asia",
@@ -5590,8 +5601,24 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "TRAPPIST-1 e (Exoplanet Catalog)",
+        "url": "https://science.nasa.gov/exoplanet-catalog/trappist-1-e/",
+        "publisher": "NASA Science"
+      },
+      {
+        "title": "NASA Webb Looks at Earth-Sized, Habitable-Zone Exoplanet TRAPPIST-1 e",
+        "url": "https://science.nasa.gov/missions/webb/nasa-webb-looks-at-earth-sized-habitable-zone-exoplanet-trappist-1-e/",
+        "publisher": "NASA Science (Webb Mission Team)"
+      },
+      {
+        "title": "Earth Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html",
+        "publisher": "NASA NSSDCA (Goddard Space Flight Center)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "sirio-b",
@@ -5612,8 +5639,19 @@
     "glyph": "#e3c58a",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Venus Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/venusfact.html",
+        "publisher": "NASA NSSDCA (Goddard Space Flight Center)"
+      },
+      {
+        "title": "Venus Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/venusfact.html",
+        "publisher": "NASA NSSDCA (Goddard Space Flight Center)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "terra",
@@ -5622,8 +5660,19 @@
     "glyph": "#3b82c4",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Earth Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html",
+        "publisher": "NASA NSSDCA (Goddard Space Flight Center)"
+      },
+      {
+        "title": "Earth Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html",
+        "publisher": "NASA NSSDCA (Goddard Space Flight Center)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "grande-muraglia-cinese",
@@ -5654,11 +5703,33 @@
     "kind": "p",
     "glyph": "#5b8fb9",
     "flags": [
-      "n"
+      "n",
+      "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Webb Discovers Methane, Carbon Dioxide in Atmosphere of K2-18 b",
+        "url": "https://science.nasa.gov/missions/webb/webb-discovers-methane-carbon-dioxide-in-atmosphere-of-k2-18-b/",
+        "publisher": "NASA Science (Webb Mission Team)"
+      },
+      {
+        "title": "K2-18 b (Exoplanet Catalog)",
+        "url": "https://science.nasa.gov/exoplanet-catalog/k2-18-b/",
+        "publisher": "NASA Science"
+      },
+      {
+        "title": "Insufficient evidence for DMS and DMDS in the atmosphere of K2-18 b",
+        "url": "https://arxiv.org/abs/2505.13407",
+        "publisher": "Luque et al., arXiv"
+      },
+      {
+        "title": "New Constraints on DMS and DMDS in the Atmosphere of K2-18 b from JWST MIRI",
+        "url": "https://arxiv.org/abs/2504.12267",
+        "publisher": "Madhusudhan et al., arXiv"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "nettuno",
@@ -5667,8 +5738,19 @@
     "glyph": "#3f66d9",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Neptune Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/neptunefact.html",
+        "publisher": "NASA NSSDCA (Goddard Space Flight Center)"
+      },
+      {
+        "title": "Neptune Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/neptunefact.html",
+        "publisher": "NASA NSSDCA (Goddard Space Flight Center)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "urano",
@@ -5677,8 +5759,19 @@
     "glyph": "#9bd9e0",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Uranus Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uranusfact.html",
+        "publisher": "NASA NSSDCA (Goddard Space Flight Center)"
+      },
+      {
+        "title": "Uranus Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uranusfact.html",
+        "publisher": "NASA NSSDCA (Goddard Space Flight Center)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "mondo-di-minecraft",
@@ -5718,8 +5811,19 @@
     "glyph": "#e3cf9c",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Saturn Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturnfact.html",
+        "publisher": "NASA NSSDCA (Goddard Space Flight Center)"
+      },
+      {
+        "title": "Saturn Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturnfact.html",
+        "publisher": "NASA NSSDCA (Goddard Space Flight Center)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "eblm-j0555-57ab",
@@ -5752,8 +5856,19 @@
     "glyph": "#d9a066",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Jupiter Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html",
+        "publisher": "NASA NSSDCA (Goddard Space Flight Center)"
+      },
+      {
+        "title": "Jupiter Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html",
+        "publisher": "NASA NSSDCA (Goddard Space Flight Center)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "trappist-1",
@@ -5794,10 +5909,33 @@
     "size": 250000000,
     "kind": "p",
     "glyph": "#c9a27a",
-    "flags": [],
+    "flags": [
+      "u"
+    ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "TrES-4: A Transiting Hot Jupiter of Very Low Density",
+        "url": "https://arxiv.org/abs/0708.0834",
+        "publisher": "Mandushev et al., arXiv (ApJ Letters)"
+      },
+      {
+        "title": "A New Spectroscopic and Photometric Analysis of the Transiting Planet Systems TrES-3 and TrES-4",
+        "url": "https://arxiv.org/abs/0809.4589",
+        "publisher": "Sozzetti et al., arXiv (ApJ)"
+      },
+      {
+        "title": "TrES-4 b (Exoplanet Catalog)",
+        "url": "https://science.nasa.gov/exoplanet-catalog/tres-4-b/",
+        "publisher": "NASA Science"
+      },
+      {
+        "title": "Jupiter Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html",
+        "publisher": "NASA NSSDCA (Goddard Space Flight Center)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "anelli-di-saturno",

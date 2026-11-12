@@ -1194,7 +1194,7 @@
     },
     "marte": {
       "name": "Marte",
-      "desc": ""
+      "desc": "Marte è il quarto pianeta dal Sole, un mondo roccioso con un diametro medio di circa 6.779 km, poco più della metà di quello terrestre, e due piccole lune, Phobos e Deimos. Il suo giorno dura 24,66 ore, quasi quanto il nostro, e la pressione al suolo è di appena 6,36 millibar."
     },
     "asia": {
       "name": "Asia",
@@ -1202,7 +1202,7 @@
     },
     "trappist-1-e": {
       "name": "TRAPPIST-1 e",
-      "desc": "Esopianeta roccioso nella zona abitabile, a 40 anni luce. Il telescopio Webb ne sta studiando l'atmosfera."
+      "desc": "TRAPPIST-1 e è un esopianeta roccioso a circa 40 anni luce dalla Terra, con un raggio pari a 0,92 volte quello terrestre, cioè un diametro di circa 11.700 km. Orbita in 6,1 giorni attorno a una nana rossa, a una distanza alla quale l'acqua liquida in superficie è teoricamente possibile se il pianeta ha un'atmosfera. Il telescopio Webb lo sta osservando: i primi quattro transiti indicano che non conserva l'atmosfera primaria di idrogeno ed elio, mentre resta aperta la possibilità di un'atmosfera secondaria."
     },
     "sirio-b": {
       "name": "Sirio B",
@@ -1210,11 +1210,11 @@
     },
     "venere": {
       "name": "Venere",
-      "desc": ""
+      "desc": "Venere è il secondo pianeta dal Sole e ha un diametro medio di circa 12.104 km, il 95% di quello terrestre. La sua atmosfera densa produce al suolo una pressione di 92 bar e una temperatura media di 464 °C. Ruota in senso retrogrado e molto lentamente: un giorno solare dura circa 117 giorni terrestri."
     },
     "terra": {
       "name": "Terra",
-      "desc": ""
+      "desc": "La Terra è il terzo pianeta dal Sole e il più grande dei quattro pianeti rocciosi, con un diametro medio di circa 12.742 km. Non è una sfera perfetta: il raggio equatoriale misura 6.378,1 km e quello polare 6.356,8 km, una differenza di circa 21 km. Ha una temperatura media di 15 °C e un solo satellite naturale, la Luna."
     },
     "grande-muraglia-cinese": {
       "name": "Grande Muraglia cinese",
@@ -1222,15 +1222,15 @@
     },
     "k2-18-b": {
       "name": "K2-18 b",
-      "desc": "Sub-nettuniano con metano e CO₂. Il segnale di possibili biofirme annunciato nel 2025 resta non confermato."
+      "desc": "K2-18 b è un pianeta sub-nettuniano a 120 anni luce dalla Terra, con una massa 8,6 volte quella terrestre e un raggio stimato tra 2,37 e 2,6 raggi terrestri, cioè un diametro tra circa 30.000 e 33.000 km. Nel 2023 il telescopio Webb ha rilevato metano e anidride carbonica nella sua atmosfera. Il possibile segnale di dimetilsolfuro, proposto come biofirma nel 2025, non è confermato: un'analisi congiunta di tutti i dati Webb non ha trovato prove statistiche sufficienti."
     },
     "nettuno": {
       "name": "Nettuno",
-      "desc": ""
+      "desc": "Nettuno è l'ottavo pianeta del Sistema Solare e il più lontano dal Sole, un gigante con un diametro medio di circa 49.244 km al livello di pressione di 1 bar, quasi quattro volte quello terrestre. Impiega circa 165 anni a completare un'orbita e ha 16 lune conosciute. Nella sua atmosfera sono stati misurati venti fino a 580 m/s, oltre 2.000 km/h."
     },
     "urano": {
       "name": "Urano",
-      "desc": ""
+      "desc": "Urano è il settimo pianeta dal Sole, un gigante con un diametro medio di circa 50.724 km al livello di pressione di 1 bar, quattro volte quello terrestre. Il suo asse di rotazione è inclinato di 97,77° rispetto all'orbita, quindi il pianeta ruota quasi coricato su un fianco. Impiega 84 anni a completare un'orbita e ha 28 lune conosciute."
     },
     "mondo-di-minecraft": {
       "name": "Mondo di Minecraft",
@@ -1242,7 +1242,7 @@
     },
     "saturno": {
       "name": "Saturno",
-      "desc": ""
+      "desc": "Saturno è il sesto pianeta dal Sole e il secondo per dimensioni, con un diametro medio di circa 116.460 km al livello di pressione di 1 bar, anelli esclusi. È molto schiacciato ai poli: il diametro equatoriale è di 120.536 km, quello polare di 108.728 km. La sua densità media, 687 kg/m³, è inferiore a quella dell'acqua, e la scheda della NASA gli attribuisce 274 lune."
     },
     "eblm-j0555-57ab": {
       "name": "EBLM J0555-57Ab",
@@ -1254,7 +1254,7 @@
     },
     "giove": {
       "name": "Giove",
-      "desc": ""
+      "desc": "Giove è il quinto pianeta dal Sole e il più grande del Sistema Solare, con un diametro medio di circa 139.820 km al livello di pressione di 1 bar, quasi undici volte quello terrestre. La sua massa è 318 volte quella della Terra. Ruota molto in fretta, con un giorno di appena 9,93 ore, e ha 95 lune conosciute."
     },
     "trappist-1": {
       "name": "TRAPPIST-1",
@@ -1270,7 +1270,7 @@
     },
     "tres-4-b": {
       "name": "TrES-4 b",
-      "desc": "Gioviano caldo gonfio, tra gli esopianeti più grandi."
+      "desc": "TrES-4 b è un gioviano caldo scoperto nel 2007, che orbita attorno alla sua stella in 3,55 giorni. Ha una massa inferiore a quella di Giove ma un raggio stimato tra 1,61 e 1,78 raggi gioviani secondo le diverse analisi, cioè un diametro tra circa 230.000 e 255.000 km. Al momento della scoperta era il pianeta in transito con il raggio più grande e la densità più bassa conosciuti."
     },
     "anelli-di-saturno": {
       "name": "Anelli di Saturno",
