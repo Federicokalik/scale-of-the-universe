@@ -169,24 +169,16 @@ body {
   padding: 10px 22px;
   border-radius: 999px;
 }
-/* Flatten the read-out so power, value, slider and regime share one row. */
+/* Flatten the read-out so value, slider and regime share one row. The power of ten is the giant numeral in the backdrop. */
 .read {
   display: contents;
-}
-.pow {
-  order: 1;
-  flex: none;
-  min-width: 5.4ch;
-  font-family: var(--display);
-  font-weight: 600;
-  font-size: 26px;
-  font-variant-numeric: tabular-nums;
 }
 .pretty {
   order: 2;
   flex: none;
-  min-width: 13ch;
-  font-size: 14px;
+  min-width: 12ch;
+  font-size: 16px;
+  font-weight: 500;
   font-variant-numeric: tabular-nums;
 }
 .slide {
@@ -253,9 +245,6 @@ dialog h3 {
     gap: 6px 12px;
     padding: 10px 16px;
     border-radius: 26px;
-  }
-  .pow {
-    font-size: 22px;
   }
   .pretty {
     min-width: 0;

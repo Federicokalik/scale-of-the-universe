@@ -1,4 +1,4 @@
-import { formatCompare, formatSci, formatSize, superscript } from '../lib/format';
+import { formatCompare, formatSci, formatSize } from '../lib/format';
 import type { Flag, SceneData } from '../lib/types';
 import type { Music } from './audio';
 import { FLAG_COLOUR, REGIME_LIMITS } from './constants';
@@ -117,7 +117,6 @@ export function bindUi(root: HTMLElement, scene: Scene, data: SceneData, music: 
   }
 
   /* ---- scale read-out ---- */
-  const power = el('pow');
   const pretty = el('pretty');
   const regime = el('regime');
   const slider = el<HTMLInputElement>('zoom');
@@ -127,7 +126,6 @@ export function bindUi(root: HTMLElement, scene: Scene, data: SceneData, music: 
     const key = z.toFixed(2);
     if (key === lastKey) return;
     lastKey = key;
-    power.textContent = `10${superscript(Math.round(z))} m`;
     pretty.textContent = size(Math.pow(10, z));
     regime.textContent = ui[`regime.${REGIME_LIMITS.findIndex((limit) => z < limit)}`];
     root.style.setProperty('--accent', `rgb(${paletteAt(z).accent.join(',')})`);
