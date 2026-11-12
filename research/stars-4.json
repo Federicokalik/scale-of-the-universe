@@ -1,0 +1,284 @@
+[
+  {
+    "id": "v838-monocerotis",
+    "size": 6.5e11,
+    "basis": "diametro della stella (due volte il raggio fotosferico ricavato dal modello del 2021)",
+    "verdict": "uncertain",
+    "flags": ["r", "u"],
+    "desc": "V838 Monocerotis è la stella che nel 2002 produsse un'eruzione di tipo nova rossa, attribuita alla fusione di due stelle. Alla fine del 2004 il suo raggio era stimato in 1.570 ± 400 raggi solari, poi la stella si è contratta: 750 ± 200 raggi solari nel 2014 e circa 464 in un modello del 2021. Il valore mostrato, circa 650 milioni di km di diametro, corrisponde a quest'ultima stima.",
+    "sources": [
+      {
+        "title": "V838 Monocerotis as seen by ALMA: a remnant of a binary merger in a triple system",
+        "url": "https://arxiv.org/pdf/2106.07427",
+        "publisher": "Kamiński et al., Astronomy & Astrophysics 655, A32 (2021), arXiv",
+        "evidence": "3.25·10^13 cm (464 R⊙) for the radius"
+      },
+      {
+        "title": "V838 Monocerotis: the central star and its environment a decade after outburst",
+        "url": "https://arxiv.org/abs/1407.5966",
+        "publisher": "Chesneau et al., Astronomy & Astrophysics 569, L3 (2014), arXiv",
+        "evidence": "reaching a radius R* = 750 ± 200 R⊙ (3.5 ± 1.0 AU)"
+      },
+      {
+        "title": "Interferometric Observations of V838 Monocerotis",
+        "url": "https://arxiv.org/abs/astro-ph/0502293",
+        "publisher": "Lane et al., The Astrophysical Journal Letters (2005), arXiv",
+        "evidence": "this implies a linear radius of 1570 ± 400 R⊙"
+      }
+    ],
+    "note": "Il valore attuale coincide con il raggio del modello SED di Kamiński et al. 2021: 3,25e13 cm = 3,25e11 m, diametro 6,5e11 m (464 raggi solari). La misura interferometrica del 2014 dà invece 750 ± 200 raggi solari (diametro circa 1,04e12 m): le due stime non sono compatibili, quindi verdetto incerto con flag u. Il raggio di 1.570 raggi solari del 2004 assume una distanza di 8 ± 2 kpc. Tolta la frase 'L'originale: 1,1 miliardi di km', che si riferiva al valore della lista 2012 e non a una misura.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "v382-carinae",
+    "size": 8.57e11,
+    "basis": "diametro della stella (due volte il raggio ricavato da diametro angolare e distanza)",
+    "verdict": "corrected",
+    "flags": ["r"],
+    "desc": "V382 Carinae (HD 96918) è un'ipergigante gialla nella costellazione della Carena. Uno studio del 2026, che ne ricalcola la distanza con i dati di Gaia, ricava da un diametro angolare di 2,18 millesimi di secondo d'arco un raggio di 616 ± 69 raggi solari, cioè un diametro di circa 857 milioni di km. Le stime precedenti andavano da 485 a 700 raggi solari.",
+    "sources": [
+      {
+        "title": "Painting a Family Portrait of the Yellow Super- and Hypergiants in the Milky Way I. Constraining the Distances and Luminosities",
+        "url": "https://arxiv.org/html/2602.02449",
+        "publisher": "Kasikov, Mehner, Kolka, Aret, Astronomy & Astrophysics (2026), arXiv",
+        "evidence": "HD 96918 2.18 ± 0.23 ... 485 (a) 700 ± 250 ... 616 ± 69"
+      }
+    ],
+    "note": "Corretto da 6,7e11 m (circa 481 raggi solari, la stima di letteratura di 485) a 8,57e11 m: Kasikov et al. 2026, Tabella 2, danno per HD 96918 (= V382 Car) raggio 616 ± 69 raggi solari; 2 × 616 × 6,957e8 m = 8,571e11 m. L'errore è dell'11% e la stessa tabella riporta valori di letteratura di 485 e 700 ± 250 raggi solari, citati nella descrizione. L'articolo elenca HD 96918 tra le ipergiganti gialle note della Via Lattea.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "antares",
+    "size": 9.46e11,
+    "basis": "diametro della stella (due volte il raggio ricavato da diametro angolare e parallasse)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Antares è una supergigante rossa nella costellazione dello Scorpione. L'interferometro VLTI ne ha misurato il diametro angolare, 37,4 millesimi di secondo d'arco, che con la parallasse dà un raggio di 680 raggi solari, pari a 3,2 unità astronomiche. Il diametro è quindi di circa 946 milioni di km: al posto del Sole, la stella arriverebbe oltre l'orbita di Marte.",
+    "sources": [
+      {
+        "title": "High spectral resolution imaging of the dynamical atmosphere of the red supergiant Antares in the CO first overtone lines with VLTI/AMBER",
+        "url": "https://arxiv.org/pdf/1304.4800",
+        "publisher": "Ohnaka et al., Astronomy & Astrophysics 555, A24 (2013), arXiv",
+        "evidence": "the linear radius of 680 R⊙"
+      }
+    ],
+    "note": "2 × 680 × 6,957e8 m = 9,46e11 m: confermato. Il diametro angolare a lembo oscurato è 37,38 ± 0,06 mas (2009) e 37,31 ± 0,09 mas (2010), dal riassunto dello stesso articolo. Il confronto con l'orbita di Marte (raggio 1,52 UA contro 3,2 UA della stella) è un calcolo, non una frase della fonte.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "v354-cephei",
+    "size": 9.5e11,
+    "basis": "diametro della stella (due volte il raggio ricavato da luminosità e temperatura)",
+    "verdict": "uncertain",
+    "flags": ["r", "u"],
+    "desc": "V354 Cephei è una supergigante rossa nella costellazione di Cefeo. Le stime del suo raggio sono molto discordi: circa 690 raggi solari con la luminosità più bassa pubblicata, 76.000 volte quella del Sole, e 1.520 raggi solari secondo uno studio del 2005 che le attribuiva una luminosità quasi cinque volte maggiore. Il valore mostrato, circa 950 milioni di km di diametro, corrisponde alla stima più bassa.",
+    "sources": [
+      {
+        "title": "The Effective Temperature Scale of Galactic Red Supergiants: Cool, But Not As Cool As We Thought",
+        "url": "https://arxiv.org/pdf/astro-ph/0504337",
+        "publisher": "Levesque et al., The Astrophysical Journal 628, 973 (2005), arXiv",
+        "evidence": "Case 75 M2.5 I 3650 6.05 -0.5 -0.5 1520"
+      },
+      {
+        "title": "The mass-loss rates of red supergiants and the de Jager prescription",
+        "url": "https://arxiv.org/pdf/1010.5369",
+        "publisher": "Mauron & Josselin, Astronomy & Astrophysics 526, A156 (2011), arXiv",
+        "evidence": "V354 Cep ... 369 000 76 000"
+      }
+    ],
+    "note": "Nessuna misura diretta del raggio. Levesque et al. 2005 (Tabella 4, Case 75 = V354 Cep) danno 1.520 raggi solari a 3.650 K. Mauron & Josselin 2011 (Tabella 1) trovano dalla fotometria L = 76.000 Lsun contro 369.000 di Levesque: con Stefan-Boltzmann, R = sqrt(76.000) × (5772/3650)^2 = 275,7 × 2,50 = 689 raggi solari, cioè diametro 9,6e11 m, entro l'1% dal valore attuale (9,5e11 m, circa 683 raggi solari), che viene mantenuto. Il catalogo di Healy et al. 2024 (file dati degli autori, consultato) riporta invece 1.245 raggi solari con la distanza Gaia DR3 di circa 4,0 kpc. Tolta la frase 'L'originale: 2,1 miliardi di km' (valore della lista 2012).",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "betelgeuse",
+    "size": 1.06e12,
+    "basis": "diametro della stella (due volte il raggio ricavato da modelli evolutivi e sismici)",
+    "verdict": "confirmed",
+    "flags": ["r"],
+    "desc": "Betelgeuse è una supergigante rossa nella costellazione di Orione. Uno studio del 2020 ne stima il raggio in 764 raggi solari, con un margine da circa 700 a 880, e la distanza in 168 parsec: il diametro è di circa 1,06 miliardi di km. Dopo il Grande Oscuramento del 2019-2020, nel 2025 il telescopio Gemini Nord ha rivelato una probabile stella compagna in orbita molto stretta.",
+    "sources": [
+      {
+        "title": "Standing on the shoulders of giants: New mass and distance estimates for Betelgeuse through combined evolutionary, asteroseismic, and hydrodynamical simulations with MESA",
+        "url": "https://arxiv.org/abs/2006.09837",
+        "publisher": "Joyce et al., The Astrophysical Journal 902, 63 (2020), arXiv",
+        "evidence": "a precise prediction for the star's radius: 764 +116 −62 R⊙"
+      },
+      {
+        "title": "Gemini North Discovers Long-Predicted Stellar Companion of Betelgeuse",
+        "url": "https://noirlab.edu/public/news/noirlab2523/",
+        "publisher": "NSF NOIRLab",
+        "evidence": "Astronomers have discovered a companion star in an incredibly tight orbit around Betelgeuse"
+      }
+    ],
+    "note": "2 × 764 × 6,957e8 m = 1,063e12 m: confermato. L'intervallo 764 +116/−62 corrisponde a 702-880 raggi solari. Il comunicato NOIRLab è del 21 luglio 2025 e l'articolo scientifico parla di scoperta 'probabile': la descrizione dice 'probabile stella compagna'. Lo stesso comunicato colloca il Grande Oscuramento nel 2019 e 2020.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "uy-scuti",
+    "size": 1.26e12,
+    "basis": "diametro della stella (due volte il raggio; stima del 2024 con la distanza di Gaia)",
+    "verdict": "uncertain",
+    "flags": ["n", "u"],
+    "desc": "UY Scuti è una supergigante rossa nella costellazione dello Scudo. Nel 2013 l'interferometria con il VLTI le attribuì un raggio di 1.708 ± 192 raggi solari, adottando una distanza di 2.900 parsec. Con la distanza più vicina ricavata dai dati di Gaia, circa 1.870 parsec, un catalogo del 2024 la riduce a circa 909 raggi solari, cioè 1,26 miliardi di km di diametro.",
+    "sources": [
+      {
+        "title": "The atmospheric structure and fundamental parameters of the red supergiants AH Sco, UY Sct and KW Sgr",
+        "url": "https://arxiv.org/pdf/1305.6179",
+        "publisher": "Arroyo-Torres et al., Astronomy & Astrophysics 554, A76 (2013), arXiv",
+        "evidence": "1708±192 R⊙ for UY Sct"
+      },
+      {
+        "title": "RSG_and_close_stars_catalog_4_11_24.csv (catalogo dati di Healy et al. 2024, Red Supergiant Candidates for Multimessenger Monitoring of the Next Galactic Supernova)",
+        "url": "https://raw.githubusercontent.com/SNEWS2/candidate_list/main/RSG_and_close_stars_catalog_4_11_24.csv",
+        "publisher": "Healy et al., MNRAS 529, 3630 (2024); archivio dati SNEWS",
+        "evidence": "V* UY Sct ... r_med_geo 1867.2772 ... R* 909.4810340646304"
+      }
+    ],
+    "note": "Le due stime differiscono quasi di un fattore due perché dipendono dalla distanza: 1.708 ± 192 raggi solari a 2.900 ± 317 pc (diametro angolare 5,48 mas) contro 909 raggi solari a 1.867 pc nel catalogo di Healy et al. 2024, dove il raggio viene da fotometria 2MASS e temperatura, non dall'interferometria. Il valore attuale (1,26e12 m, circa 905 raggi solari) coincide con la stima del 2024: 2 × 909 × 6,957e8 m = 1,265e12 m. Verdetto incerto, aggiunto il flag u. La seconda fonte è il file CSV pubblicato dagli autori e indicato nell'articolo (arXiv:2307.08785, sezione Data Availability, repository github.com/SNEWS2/candidate_list): il valore non compare nel testo dell'articolo. La frase 'a lungo citata come stella più grande' è stata tolta perché non ho trovato una fonte istituzionale che la sostenga.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "ky-cygni",
+    "size": 1.44e12,
+    "basis": "diametro della stella (due volte il raggio ricavato da luminosità e temperatura)",
+    "verdict": "uncertain",
+    "flags": ["u"],
+    "desc": "KY Cygni è una supergigante rossa nella costellazione del Cigno. Il suo raggio non è misurato direttamente e le stime vanno da circa 1.000 a 2.850 raggi solari, a seconda della luminosità adottata. Il valore mostrato, circa 1.035 raggi solari ossia 1,44 miliardi di km di diametro, sta all'estremo inferiore di questo intervallo.",
+    "sources": [
+      {
+        "title": "The Effective Temperature Scale of Galactic Red Supergiants: Cool, But Not As Cool As We Thought",
+        "url": "https://arxiv.org/pdf/astro-ph/0504337",
+        "publisher": "Levesque et al., The Astrophysical Journal 628, 973 (2005), arXiv",
+        "evidence": "KY Cyg M3-4 I 3500 7.75 -1.0 -0.9/-0.5 2850/1420"
+      },
+      {
+        "title": "The mass-loss rates of red supergiants and the de Jager prescription",
+        "url": "https://arxiv.org/pdf/1010.5369",
+        "publisher": "Mauron & Josselin, Astronomy & Astrophysics 526, A156 (2011), arXiv",
+        "evidence": "KY Cyg ... 272 000 138 000"
+      }
+    ],
+    "note": "Levesque et al. 2005 (Tabella 4) danno 2.850 raggi solari dalla banda V e 1.420 dalla banda K, a 3.500 K. Mauron & Josselin 2011 trovano dalla fotometria L = 138.000 Lsun (contro 272.000): R = sqrt(138.000) × (5772/3500)^2 = 371,5 × 2,72 = 1.010 raggi solari. Il valore attuale (1,44e12 m = 1.035 raggi solari) è vicino a questa stima bassa e viene mantenuto. Il catalogo di Healy et al. 2024 (file dati degli autori, consultato) scende a 883 raggi solari. La descrizione precedente ('da 1.000 a oltre 2.000') è confermata e precisata.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "vv-cephei-a",
+    "size": 1.46e12,
+    "basis": "diametro della supergigante rossa primaria (due volte il raggio)",
+    "verdict": "uncertain",
+    "flags": ["u"],
+    "desc": "VV Cephei A è la supergigante rossa di un sistema binario a eclisse con un periodo di circa 20,3 anni. Il suo raggio è stato stimato tra 600 e 1.800 raggi solari, perché l'atmosfera esterna semitrasparente fa iniziare e finire le eclissi in modo graduale. Il valore mostrato corrisponde a circa 1.050 raggi solari, ossia 1,46 miliardi di km di diametro.",
+    "sources": [
+      {
+        "title": "Observing the 2017–'19 primary eclipse of VV Cephei with a low-resolution spectroscope",
+        "url": "https://britastro.org/?p=310350",
+        "publisher": "Journal of the British Astronomical Association (H. Allen, 2021)",
+        "evidence": "variously estimated between 600 and 1,800R☉"
+      },
+      {
+        "title": "The Effective Temperature Scale of Galactic Red Supergiants: Cool, But Not As Cool As We Thought",
+        "url": "https://arxiv.org/pdf/astro-ph/0504337",
+        "publisher": "Levesque et al., The Astrophysical Journal 628, 973 (2005), arXiv",
+        "evidence": "variously estimated as 1200R⊙ (Hutchings & Wright 1971) to 1600R⊙ (Wright 1977)"
+      }
+    ],
+    "note": "Il valore attuale (1,46e12 m = 1.050 raggi solari) è quello attribuito a Bauer, Gull e Bennett 2008 (AJ 136, 1312), ma la pagina dell'articolo su iopscience.iop.org non si è aperta (blocco anti-bot), quindi non è citata. Le fonti aperte danno solo l'intervallo: 600-1.800 raggi solari (BAA), 1.200-1.600 con limite superiore di 1.900 (Levesque et al. 2005, che citano la letteratura precedente). Il catalogo di Healy et al. 2024 (file dati, consultato) riporta 660 raggi solari. Il valore attuale sta dentro l'intervallo e viene mantenuto come incerto. Periodo di 7.430 giorni (20,3 anni) dalla pagina BAA.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "mu-cephei",
+    "size": 1.6e12,
+    "basis": "diametro della stella (due volte il raggio)",
+    "verdict": "uncertain",
+    "flags": ["u"],
+    "desc": "Mu Cephei, la Stella Granata di Herschel, è una supergigante rossa nella costellazione di Cefeo. Le stime del raggio dipendono dalla distanza, ancora mal nota: 972 ± 228 raggi solari in uno studio del 2019 che adotta 641 parsec, 1.420 in uno studio del 2005. Il valore mostrato, circa 1.150 raggi solari ossia 1,6 miliardi di km di diametro, sta tra le due stime.",
+    "sources": [
+      {
+        "title": "NOEMA maps the CO J = 2 − 1 environment of the red supergiant μ Cep",
+        "url": "https://arxiv.org/pdf/1903.07129",
+        "publisher": "Montargès et al., MNRAS 485, 2417 (2019), arXiv",
+        "evidence": "R* 972 ± 228 R⊙"
+      },
+      {
+        "title": "The Effective Temperature Scale of Galactic Red Supergiants: Cool, But Not As Cool As We Thought",
+        "url": "https://arxiv.org/pdf/astro-ph/0504337",
+        "publisher": "Levesque et al., The Astrophysical Journal 628, 973 (2005), arXiv",
+        "evidence": "HD 206936 M1 I 3700 2.01 -0.5 -0.5 1420"
+      }
+    ],
+    "note": "Montargès et al. 2019 (Tabella 2): d = 641 +148/−144 pc, R = 972 ± 228 raggi solari, cioè diametro 1,35e12 m. Levesque et al. 2005 (Tabella 4, HD 206936 = mu Cep): 1.420 raggi solari, diametro 1,98e12 m. Il valore attuale (1,6e12 m = 1.150 raggi solari) sta nell'intervallo e viene mantenuto come incerto. Entrambi gli articoli usano il nome 'Herschel's Garnet Star'. Un articolo del 2026 (Wiesemeyer et al., A&A 711, A305) darebbe 762 raggi solari, ma aanda.org non si è aperto e quindi il dato non è usato.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "vy-canis-majoris",
+    "size": 1.98e12,
+    "basis": "diametro della stella (due volte il raggio di Rosseland ricavato da diametro angolare e distanza)",
+    "verdict": "confirmed",
+    "flags": ["r"],
+    "desc": "VY Canis Majoris è una supergigante rossa nella costellazione del Cane Maggiore, avvolta da un esteso involucro di polveri. L'interferometro VLTI ne ha misurato il diametro angolare della fotosfera, 11,3 ± 0,3 millesimi di secondo d'arco, che corrisponde a un raggio di 1.420 ± 120 raggi solari. Il diametro è quindi di circa 1,98 miliardi di km.",
+    "sources": [
+      {
+        "title": "Fundamental properties and atmospheric structure of the red supergiant VY CMa based on VLTI/AMBER spectro-interferometry",
+        "url": "https://arxiv.org/abs/1203.5194",
+        "publisher": "Wittkowski et al., Astronomy & Astrophysics 540, L12 (2012), arXiv",
+        "evidence": "a radius of 1420 +/- 120 Rsun and an effective temperature of 3490 +/- 90 K"
+      }
+    ],
+    "note": "2 × 1.420 × 6,957e8 m = 1,976e12 m: confermato. Tolta la frase 'L'originale: 3 miliardi di km', che si riferiva al valore della lista 2012.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "woh-g64",
+    "size": 2.14e12,
+    "basis": "diametro della stella (due volte il raggio ricavato da luminosità e temperatura nel 2009)",
+    "verdict": "uncertain",
+    "flags": ["r", "u"],
+    "desc": "WOH G64 è una supergigante rossa della Grande Nube di Magellano, circondata da uno spesso toro di polveri. Nel 2009 il suo raggio fu calcolato in 1.540 raggi solari, ma intorno al 2014 la stella è cambiata e uno studio pubblicato nel 2026 indica un raggio attuale di circa 800 raggi solari. Spettri del 2024-2025 mostrano però che è ancora una supergigante rossa, quindi la sua natura e le sue dimensioni restano discusse.",
+    "sources": [
+      {
+        "title": "The Physical Properties of the Red Supergiant WOH G64: The Largest Star Known?",
+        "url": "https://arxiv.org/abs/0903.2260",
+        "publisher": "Levesque et al., The Astronomical Journal 137, 4744 (2009), arXiv",
+        "evidence": "We determine a radius of R/R_sun = 1540"
+      },
+      {
+        "title": "The dramatic transition of the extreme Red Supergiant WOH G64 to a Yellow Hypergiant",
+        "url": "https://arxiv.org/html/2411.19329",
+        "publisher": "Muñoz-Sanchez et al., Nature Astronomy 10, 702 (2026), arXiv",
+        "evidence": "The inferred current radius is approximately 800 R⊙"
+      },
+      {
+        "title": "A phoenix rises from the ashes: WOH G64 is still a red supergiant, for now",
+        "url": "https://arxiv.org/abs/2601.02057",
+        "publisher": "van Loon & Ohnaka, MNRAS (2026), arXiv",
+        "evidence": "This implies that WOH G64 is currently a red supergiant"
+      }
+    ],
+    "note": "2 × 1.540 × 6,957e8 m = 2,143e12 m: il valore attuale corrisponde alla stima del 2009 e viene mantenuto, con flag u. Muñoz-Sanchez et al. collocano la transizione fotometrica tra il 2013,5 e il 2014,5 e avvertono che gli 800 raggi solari sono 'indicative rather than definitive'; l'articolo è uscito su Nature Astronomy il 23 febbraio 2026 (pagina nature.com aperta per la data). Con 800 raggi solari il diametro sarebbe 1,11e12 m.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "stephenson-2-18",
+    "size": 2.99e12,
+    "basis": "diametro della stella (due volte il raggio calcolato da luminosità e temperatura, non misurato)",
+    "verdict": "uncertain",
+    "flags": ["n", "u"],
+    "desc": "Stephenson 2-18, detta anche DFK 1, è una supergigante rossa associata all'ammasso Stephenson 2 (RSGC2). Il raggio di circa 2.150 raggi solari non è una misura: si calcola da una luminosità di circa 437.000 volte quella del Sole e da una temperatura di 3.200 K stimate nel 2012. Uno studio del 2026 abbassa la luminosità a 321.000 ± 115.000 Soli, che corrisponde a circa 1.840 raggi solari, e nota che la stella potrebbe non appartenere all'ammasso.",
+    "sources": [
+      {
+        "title": "Maser Observations of Westerlund 1 and Comprehensive Considerations on Maser Properties of Red Supergiants Associated with Massive Clusters",
+        "url": "https://arxiv.org/pdf/1209.6427",
+        "publisher": "Fok et al., The Astrophysical Journal 760, 65 (2012), arXiv",
+        "evidence": "St2-18 3200 500 0.003 −4.87 5.64"
+      },
+      {
+        "title": "The Molecular Circumstellar Environments of Red Supergiants in Galactic Open Clusters",
+        "url": "https://arxiv.org/html/2609.31362",
+        "publisher": "Siebert et al. (2026), arXiv",
+        "evidence": "RSGC2 1 3200 3.21 ± 1.15"
+      }
+    ],
+    "note": "Nessuna misura diretta del raggio. Fok et al. 2012 danno Teff = 3.200 K e log(L/Lsun) = 5,64, cioè L = 436.500 Lsun; con Stefan-Boltzmann R = sqrt(436.500) × (5772/3200)^2 = 660,7 × 3,254 = 2.150 raggi solari, diametro 2 × 2.150 × 6,957e8 m = 2,99e12 m: il valore attuale è confermato come calcolo ma resta incerto. Siebert et al. 2026 (Tabella A.1, DFK 1): L = (3,21 ± 1,15) × 10^5 Lsun a 3.200 K, cioè R = 566,6 × 3,254 = 1.843 raggi solari, diametro 2,56e12 m; lo stesso articolo la definisce 'one of the largest purported stars' e 'possibly a foreground giant'. Il superlativo 'spesso indicata come la stella più grande' è stato tolto dalla descrizione.",
+    "verified": "2026-11-12"
+  }
+]

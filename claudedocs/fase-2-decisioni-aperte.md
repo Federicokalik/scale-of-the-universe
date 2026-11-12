@@ -20,6 +20,7 @@ Aggiornato dopo ogni ondata. Le correzioni sono già applicate ai dati; le decis
 | Gacrux | 1,67 × 10¹¹ m | 1,0 × 10¹¹ m | Nielsen e colleghi 2023 (ApJ): raggio 73 R☉ |
 | Enif | 2,9 × 10¹¹ m | 2,54 × 10¹¹ m | Baines e colleghi 2025 (arXiv 2506.02912): raggio 182,6 R☉ |
 | La Superba | 4,4 × 10¹¹ m | 4,8 × 10¹¹ m | derivato con la legge di Stefan-Boltzmann da luminosità e temperatura (arXiv 0706.4211); segnato incerto |
+| V382 Carinae | 6,7 × 10¹¹ m | 8,57 × 10¹¹ m | Kasikov e colleghi 2026 (A&A, arXiv 2602.02449): raggio 616 ± 69 R☉ |
 
 ## Decisioni aperte
 
@@ -72,11 +73,15 @@ Aggiornato dopo ogni ondata. Le correzioni sono già applicate ai dati; le decis
 46. **Afelio di Sedna**: 936 UA (arXiv 2506.17732, coerente con il valore) contro 1.010 UA (elementi eliocentrici JPL). Segnato incerto.
 47. **Perielio della Parker Solar Probe**: dalla cifra NASA in miglia la distanza dal centro del Sole viene 6,81 × 10⁹ m contro i 6,9 × 10⁹ attuali (1,3%). Lasciato.
 48. **Voyager 1**: la descrizione cita la tappa di un giorno-luce prevista dalla NASA per il 18 novembre 2026. Va riletta dopo quella data.
+49. **Supergiganti rosse**: otto su dodici dell'ultimo lotto sono segnate incerte perché i raggi pubblicati divergono molto. UY Scuti: 1.708 ± 192 R☉ (2013) contro circa 909 R☉ (Healy e colleghi 2024); il valore attuale corrisponde a circa 905 R☉. WOH G64: 1.540 R☉ (2009, valore attuale) contro circa 800 R☉ (2024). V838 Monocerotis, V354 Cephei e KY Cygni sono al minimo degli intervalli pubblicati. Mu Cephei: 972 ± 228 R☉ o 1.420 R☉; una stima 2026 di 762 R☉ non è stata aperta. Decidere se tenere i valori attuali o passare alle misure più recenti.
+50. **VV Cephei A**: l'articolo dietro i 1.050 R☉ attuali (Bauer 2008) non si apriva; è sostenuto solo l'intervallo 600–1.800 R☉.
+51. **UY Scuti e Stephenson 2-18**: tolti i superlativi "stella più grande", non sostenuti dalle fonti.
 
 ## Da sistemare prima di chiudere la fase
 
 - **Flag "Aggiornato"**: le note "L'originale: …" vengono tolte dalle descrizioni (la versione del 2012 non è verificabile) e la chiave `dialog.diff.values` in `it.json` è stata aggiornata di conseguenza. Resta da decidere se il flag ha ancora senso così com'è.
 - **Fonti tecniche**: gli indirizzi REST di Europe PMC e PubChem sono stati sostituiti con le pagine PubMed, PubMed Central e PubChem (identificativi ricontrollati). Per Apophis, Bennu e Cruithne è citata la pagina del JPL Small-Body Database, ma le cifre sono state lette tramite l'API perché la pagina si carica in modo dinamico.
+- **Fonte non leggibile**: per UY Scuti la cifra di circa 909 R☉ è citata da un file CSV grezzo su GitHub (dati degli autori di Healy e colleghi 2024), non da una pagina. Da sostituire o accompagnare con l'articolo.
 - **Fonti secondarie da migliorare**: Monte Bianco 2026 (Euronews invece del comunicato dei geometri), Grande Muraglia (Chinaculture.org invece dell'amministrazione statale), Uluru (EBSCO per la lunghezza), Halley (tolta la frase sull'afelio del dicembre 2023, sostenuta solo da siti di notizie).
 - **Vaticano**: la superficie nella descrizione è passata da 0,49 a 0,44 km² (dato della Santa Sede).
 - **Link che rifiutano le richieste automatiche** (da aprire a mano): TSMC (gate dei transistor in produzione), Karger (cellula della pelle), Humanists UK (teiera di Russell).
@@ -86,8 +91,8 @@ Aggiornato dopo ogni ondata. Le correzioni sono già applicate ai dati; le decis
 
 ## Avanzamento
 
-Lotti applicati: black-holes, particles-1/2, atoms-1/2, waves-1/2, molecules-1/2, units-1/2/3, biology-1/2/3/4/5, objects-1/2/3/4/5, places-1/2/3/4, solar-system-1/2/3/4/5, stars-1/2/3, distances-1/2 (350 oggetti su 447).
+Lotti applicati: black-holes, particles-1/2, atoms-1/2, waves-1/2, molecules-1/2, units-1/2/3, biology-1/2/3/4/5, objects-1/2/3/4/5, places-1/2/3/4, solar-system-1/2/3/4/5, stars-1/2/3/4, distances-1/2 (362 oggetti su 447).
 
-Lotti da fare: stars-4, distances-3, nebulae-1/2/3, galaxies-1/2, cosmic-1/2.
+Lotti da fare: distances-3, nebulae-1/2/3, galaxies-1/2, cosmic-1/2.
 
 Per ogni lotto: `node scripts/apply-research.mjs --check`, `node scripts/check-links.mjs`, campione di fonti riletto in modo indipendente, poi `node scripts/apply-research.mjs`, `npm run validate`, `npm test`, commit.

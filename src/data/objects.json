@@ -6779,23 +6779,28 @@
     "kind": "s",
     "glyph": "#ff7a4d",
     "flags": [
-      "r"
+      "r",
+      "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
-  },
-  {
-    "id": "v382-carinae",
-    "size": 670000000000,
-    "kind": "s",
-    "glyph": "#ffe28a",
-    "flags": [
-      "r"
+    "sources": [
+      {
+        "title": "V838 Monocerotis as seen by ALMA: a remnant of a binary merger in a triple system",
+        "url": "https://arxiv.org/pdf/2106.07427",
+        "publisher": "Kamiński et al., Astronomy & Astrophysics 655, A32 (2021), arXiv"
+      },
+      {
+        "title": "V838 Monocerotis: the central star and its environment a decade after outburst",
+        "url": "https://arxiv.org/abs/1407.5966",
+        "publisher": "Chesneau et al., Astronomy & Astrophysics 569, L3 (2014), arXiv"
+      },
+      {
+        "title": "Interferometric Observations of V838 Monocerotis",
+        "url": "https://arxiv.org/abs/astro-ph/0502293",
+        "publisher": "Lane et al., The Astrophysical Journal Letters (2005), arXiv"
+      }
     ],
-    "image": null,
-    "sources": [],
-    "verified": null
+    "verified": "2026-11-12"
   },
   {
     "id": "distanza-giove-sole",
@@ -6814,14 +6819,38 @@
     "verified": "2026-11-12"
   },
   {
+    "id": "v382-carinae",
+    "size": 857000000000,
+    "kind": "s",
+    "glyph": "#ffe28a",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [
+      {
+        "title": "Painting a Family Portrait of the Yellow Super- and Hypergiants in the Milky Way I. Constraining the Distances and Luminosities",
+        "url": "https://arxiv.org/html/2602.02449",
+        "publisher": "Kasikov, Mehner, Kolka, Aret, Astronomy & Astrophysics (2026), arXiv"
+      }
+    ],
+    "verified": "2026-11-12"
+  },
+  {
     "id": "antares",
     "size": 946000000000,
     "kind": "s",
     "glyph": "#ff6a45",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "High spectral resolution imaging of the dynamical atmosphere of the red supergiant Antares in the CO first overtone lines with VLTI/AMBER",
+        "url": "https://arxiv.org/pdf/1304.4800",
+        "publisher": "Ohnaka et al., Astronomy & Astrophysics 555, A24 (2013), arXiv"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "v354-cephei",
@@ -6829,11 +6858,23 @@
     "kind": "s",
     "glyph": "#ff6a45",
     "flags": [
-      "r"
+      "r",
+      "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "The Effective Temperature Scale of Galactic Red Supergiants: Cool, But Not As Cool As We Thought",
+        "url": "https://arxiv.org/pdf/astro-ph/0504337",
+        "publisher": "Levesque et al., The Astrophysical Journal 628, 973 (2005), arXiv"
+      },
+      {
+        "title": "The mass-loss rates of red supergiants and the de Jager prescription",
+        "url": "https://arxiv.org/pdf/1010.5369",
+        "publisher": "Mauron & Josselin, Astronomy & Astrophysics 526, A156 (2011), arXiv"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "terametro",
@@ -6865,8 +6906,19 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Standing on the shoulders of giants: New mass and distance estimates for Betelgeuse through combined evolutionary, asteroseismic, and hydrodynamical simulations with MESA",
+        "url": "https://arxiv.org/abs/2006.09837",
+        "publisher": "Joyce et al., The Astrophysical Journal 902, 63 (2020), arXiv"
+      },
+      {
+        "title": "Gemini North Discovers Long-Predicted Stellar Companion of Betelgeuse",
+        "url": "https://noirlab.edu/public/news/noirlab2523/",
+        "publisher": "NSF NOIRLab"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "uy-scuti",
@@ -6874,11 +6926,23 @@
     "kind": "s",
     "glyph": "#ff5f3d",
     "flags": [
-      "n"
+      "n",
+      "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "The atmospheric structure and fundamental parameters of the red supergiants AH Sco, UY Sct and KW Sgr",
+        "url": "https://arxiv.org/pdf/1305.6179",
+        "publisher": "Arroyo-Torres et al., Astronomy & Astrophysics 554, A76 (2013), arXiv"
+      },
+      {
+        "title": "RSG_and_close_stars_catalog_4_11_24.csv (catalogo dati di Healy et al. 2024, Red Supergiant Candidates for Multimessenger Monitoring of the Next Galactic Supernova)",
+        "url": "https://raw.githubusercontent.com/SNEWS2/candidate_list/main/RSG_and_close_stars_catalog_4_11_24.csv",
+        "publisher": "Healy et al., MNRAS 529, 3630 (2024); archivio dati SNEWS"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "ky-cygni",
@@ -6889,8 +6953,19 @@
       "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "The Effective Temperature Scale of Galactic Red Supergiants: Cool, But Not As Cool As We Thought",
+        "url": "https://arxiv.org/pdf/astro-ph/0504337",
+        "publisher": "Levesque et al., The Astrophysical Journal 628, 973 (2005), arXiv"
+      },
+      {
+        "title": "The mass-loss rates of red supergiants and the de Jager prescription",
+        "url": "https://arxiv.org/pdf/1010.5369",
+        "publisher": "Mauron & Josselin, Astronomy & Astrophysics 526, A156 (2011), arXiv"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "vv-cephei-a",
@@ -6901,8 +6976,19 @@
       "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Observing the 2017–'19 primary eclipse of VV Cephei with a low-resolution spectroscope",
+        "url": "https://britastro.org/?p=310350",
+        "publisher": "Journal of the British Astronomical Association (H. Allen, 2021)"
+      },
+      {
+        "title": "The Effective Temperature Scale of Galactic Red Supergiants: Cool, But Not As Cool As We Thought",
+        "url": "https://arxiv.org/pdf/astro-ph/0504337",
+        "publisher": "Levesque et al., The Astrophysical Journal 628, 973 (2005), arXiv"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "mu-cephei",
@@ -6913,8 +6999,19 @@
       "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "NOEMA maps the CO J = 2 − 1 environment of the red supergiant μ Cep",
+        "url": "https://arxiv.org/pdf/1903.07129",
+        "publisher": "Montargès et al., MNRAS 485, 2417 (2019), arXiv"
+      },
+      {
+        "title": "The Effective Temperature Scale of Galactic Red Supergiants: Cool, But Not As Cool As We Thought",
+        "url": "https://arxiv.org/pdf/astro-ph/0504337",
+        "publisher": "Levesque et al., The Astrophysical Journal 628, 973 (2005), arXiv"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "vy-canis-majoris",
@@ -6925,8 +7022,14 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Fundamental properties and atmospheric structure of the red supergiant VY CMa based on VLTI/AMBER spectro-interferometry",
+        "url": "https://arxiv.org/abs/1203.5194",
+        "publisher": "Wittkowski et al., Astronomy & Astrophysics 540, L12 (2012), arXiv"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "woh-g64",
@@ -6938,8 +7041,24 @@
       "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "The Physical Properties of the Red Supergiant WOH G64: The Largest Star Known?",
+        "url": "https://arxiv.org/abs/0903.2260",
+        "publisher": "Levesque et al., The Astronomical Journal 137, 4744 (2009), arXiv"
+      },
+      {
+        "title": "The dramatic transition of the extreme Red Supergiant WOH G64 to a Yellow Hypergiant",
+        "url": "https://arxiv.org/html/2411.19329",
+        "publisher": "Muñoz-Sanchez et al., Nature Astronomy 10, 702 (2026), arXiv"
+      },
+      {
+        "title": "A phoenix rises from the ashes: WOH G64 is still a red supergiant, for now",
+        "url": "https://arxiv.org/abs/2601.02057",
+        "publisher": "van Loon & Ohnaka, MNRAS (2026), arXiv"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "stephenson-2-18",
@@ -6951,8 +7070,19 @@
       "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Maser Observations of Westerlund 1 and Comprehensive Considerations on Maser Properties of Red Supergiants Associated with Massive Clusters",
+        "url": "https://arxiv.org/pdf/1209.6427",
+        "publisher": "Fok et al., The Astrophysical Journal 760, 65 (2012), arXiv"
+      },
+      {
+        "title": "The Molecular Circumstellar Environments of Red Supergiants in Galactic Open Clusters",
+        "url": "https://arxiv.org/html/2609.31362",
+        "publisher": "Siebert et al. (2026), arXiv"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "distanza-nettuno-sole",

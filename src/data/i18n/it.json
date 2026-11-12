@@ -1430,11 +1430,11 @@
     },
     "v838-monocerotis": {
       "name": "V838 Monocerotis",
-      "desc": "Dopo l'esplosione del 2002 si è contratta. L'originale: 1,1 miliardi di km."
+      "desc": "V838 Monocerotis è la stella che nel 2002 produsse un'eruzione di tipo nova rossa, attribuita alla fusione di due stelle. Alla fine del 2004 il suo raggio era stimato in 1.570 ± 400 raggi solari, poi la stella si è contratta: 750 ± 200 raggi solari nel 2014 e circa 464 in un modello del 2021. Il valore mostrato, circa 650 milioni di km di diametro, corrisponde a quest'ultima stima."
     },
     "v382-carinae": {
       "name": "V382 Carinae",
-      "desc": "Ipergigante gialla."
+      "desc": "V382 Carinae (HD 96918) è un'ipergigante gialla nella costellazione della Carena. Uno studio del 2026, che ne ricalcola la distanza con i dati di Gaia, ricava da un diametro angolare di 2,18 millesimi di secondo d'arco un raggio di 616 ± 69 raggi solari, cioè un diametro di circa 857 milioni di km. Le stime precedenti andavano da 485 a 700 raggi solari."
     },
     "distanza-giove-sole": {
       "name": "Distanza Giove–Sole",
@@ -1442,11 +1442,11 @@
     },
     "antares": {
       "name": "Antares",
-      "desc": ""
+      "desc": "Antares è una supergigante rossa nella costellazione dello Scorpione. L'interferometro VLTI ne ha misurato il diametro angolare, 37,4 millesimi di secondo d'arco, che con la parallasse dà un raggio di 680 raggi solari, pari a 3,2 unità astronomiche. Il diametro è quindi di circa 946 milioni di km: al posto del Sole, la stella arriverebbe oltre l'orbita di Marte."
     },
     "v354-cephei": {
       "name": "V354 Cephei",
-      "desc": "Ridimensionata: circa 685 raggi solari. L'originale: 2,1 miliardi di km."
+      "desc": "V354 Cephei è una supergigante rossa nella costellazione di Cefeo. Le stime del suo raggio sono molto discordi: circa 690 raggi solari con la luminosità più bassa pubblicata, 76.000 volte quella del Sole, e 1.520 raggi solari secondo uno studio del 2005 che le attribuiva una luminosità quasi cinque volte maggiore. Il valore mostrato, circa 950 milioni di km di diametro, corrisponde alla stima più bassa."
     },
     "terametro": {
       "name": "Terametro",
@@ -1454,35 +1454,35 @@
     },
     "betelgeuse": {
       "name": "Betelgeuse",
-      "desc": "Circa 764 raggi solari. Dopo il Grande Oscuramento del 2019–2020, nel 2025 è stata osservata la sua compagna."
+      "desc": "Betelgeuse è una supergigante rossa nella costellazione di Orione. Uno studio del 2020 ne stima il raggio in 764 raggi solari, con un margine da circa 700 a 880, e la distanza in 168 parsec: il diametro è di circa 1,06 miliardi di km. Dopo il Grande Oscuramento del 2019-2020, nel 2025 il telescopio Gemini Nord ha rivelato una probabile stella compagna in orbita molto stretta."
     },
     "uy-scuti": {
       "name": "UY Scuti",
-      "desc": "A lungo citata come stella più grande: con le distanze di Gaia scende a circa 900 raggi solari."
+      "desc": "UY Scuti è una supergigante rossa nella costellazione dello Scudo. Nel 2013 l'interferometria con il VLTI le attribuì un raggio di 1.708 ± 192 raggi solari, adottando una distanza di 2.900 parsec. Con la distanza più vicina ricavata dai dati di Gaia, circa 1.870 parsec, un catalogo del 2024 la riduce a circa 909 raggi solari, cioè 1,26 miliardi di km di diametro."
     },
     "ky-cygni": {
       "name": "KY Cygni",
-      "desc": "Le stime vanno da 1.000 a oltre 2.000 raggi solari."
+      "desc": "KY Cygni è una supergigante rossa nella costellazione del Cigno. Il suo raggio non è misurato direttamente e le stime vanno da circa 1.000 a 2.850 raggi solari, a seconda della luminosità adottata. Il valore mostrato, circa 1.035 raggi solari ossia 1,44 miliardi di km di diametro, sta all'estremo inferiore di questo intervallo."
     },
     "vv-cephei-a": {
       "name": "VV Cephei A",
-      "desc": ""
+      "desc": "VV Cephei A è la supergigante rossa di un sistema binario a eclisse con un periodo di circa 20,3 anni. Il suo raggio è stato stimato tra 600 e 1.800 raggi solari, perché l'atmosfera esterna semitrasparente fa iniziare e finire le eclissi in modo graduale. Il valore mostrato corrisponde a circa 1.050 raggi solari, ossia 1,46 miliardi di km di diametro."
     },
     "mu-cephei": {
       "name": "Mu Cephei",
-      "desc": "La Stella Granata di Herschel."
+      "desc": "Mu Cephei, la Stella Granata di Herschel, è una supergigante rossa nella costellazione di Cefeo. Le stime del raggio dipendono dalla distanza, ancora mal nota: 972 ± 228 raggi solari in uno studio del 2019 che adotta 641 parsec, 1.420 in uno studio del 2005. Il valore mostrato, circa 1.150 raggi solari ossia 1,6 miliardi di km di diametro, sta tra le due stime."
     },
     "vy-canis-majoris": {
       "name": "VY Canis Majoris",
-      "desc": "Circa 1.420 raggi solari. L'originale: 3 miliardi di km."
+      "desc": "VY Canis Majoris è una supergigante rossa nella costellazione del Cane Maggiore, avvolta da un esteso involucro di polveri. L'interferometro VLTI ne ha misurato il diametro angolare della fotosfera, 11,3 ± 0,3 millesimi di secondo d'arco, che corrisponde a un raggio di 1.420 ± 120 raggi solari. Il diametro è quindi di circa 1,98 miliardi di km."
     },
     "woh-g64": {
       "name": "WOH G64",
-      "desc": "1.540 raggi solari nella misura del 2009. Dal 2014 è cambiata: uno studio del 2026 la riduce a circa 800 raggi solari, ma la sua natura è discussa."
+      "desc": "WOH G64 è una supergigante rossa della Grande Nube di Magellano, circondata da uno spesso toro di polveri. Nel 2009 il suo raggio fu calcolato in 1.540 raggi solari, ma intorno al 2014 la stella è cambiata e uno studio pubblicato nel 2026 indica un raggio attuale di circa 800 raggi solari. Spettri del 2024-2025 mostrano però che è ancora una supergigante rossa, quindi la sua natura e le sue dimensioni restano discusse."
     },
     "stephenson-2-18": {
       "name": "Stephenson 2-18",
-      "desc": "Spesso indicata come la stella più grande con 2.150 raggi solari, ma distanza e misura sono molto dubbie."
+      "desc": "Stephenson 2-18, detta anche DFK 1, è una supergigante rossa associata all'ammasso Stephenson 2 (RSGC2). Il raggio di circa 2.150 raggi solari non è una misura: si calcola da una luminosità di circa 437.000 volte quella del Sole e da una temperatura di 3.200 K stimate nel 2012. Uno studio del 2026 abbassa la luminosità a 321.000 ± 115.000 Soli, che corrisponde a circa 1.840 raggi solari, e nota che la stella potrebbe non appartenere all'ammasso."
     },
     "distanza-nettuno-sole": {
       "name": "Distanza Nettuno–Sole",
