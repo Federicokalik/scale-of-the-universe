@@ -1,34 +1,29 @@
 /*
- * Typography and legibility, layered over the draft's glass.css.
- * The refraction stays; what changes is the typeface, the text sizes and how
- * much the panels darken what is behind them.
+ * The look layered over the draft's glass.css ("Atlante a colori"):
+ * serif display type, dark legible panels with a hairline border, a title that
+ * sits directly on the scene, and a slim one-line scale bar.
+ * Panels are flat: no refraction and no moving highlight.
  */
 :root {
-  --display: 'Inter Variable', system-ui, sans-serif;
-  --body: 'Inter Variable', system-ui, sans-serif;
-  --mono: 'JetBrains Mono Variable', ui-monospace, monospace;
-  --muted: rgba(236, 239, 255, 0.88);
-  /* How opaque the dark tint under the glass is. Higher reads better, shows less. */
-  --tint: 0.52;
-  --glass-fill:
-    linear-gradient(135deg, rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.03) 42%, rgba(255, 255, 255, 0.08)),
-    rgba(10, 13, 30, var(--tint));
-}
-
-/* Preview variants, chosen with ?glass=a|b|c while the look is being decided. */
-html[data-glass='a'] {
-  --tint: 0.3;
-}
-html[data-glass='b'] {
-  --tint: 0.52;
-}
-html[data-glass='c'] {
-  --tint: 0.76;
+  --text: #f3efe6;
+  --muted: rgba(243, 239, 230, 0.82);
+  /* Overridden at runtime: the accent follows the scale (engine/palette.ts). */
+  --accent: #e8b76a;
+  --line: rgba(243, 239, 230, 0.2);
+  --display: 'Fraunces Variable', Georgia, serif;
+  --body: 'Public Sans Variable', system-ui, sans-serif;
+  /* Numbers use the body face with fixed-width digits rather than a monospace. */
+  --mono: 'Public Sans Variable', system-ui, sans-serif;
+  /* Flat dark panels: the names are the draft's, the material is no longer glass. */
+  --glass-fill: rgba(9, 10, 15, 0.72);
+  --glass-edge: 0 12px 40px rgba(0, 0, 0, 0.5);
+  --blur: blur(12px);
 }
 
 body {
   font-size: 16px;
   line-height: 1.5;
+  background: #07080c;
 }
 
 .glass,
@@ -36,55 +31,119 @@ body {
 .chip,
 .step,
 .x,
-.brand,
 .search input,
 .nav button {
-  text-shadow: 0 1px 3px rgba(0, 0, 16, 0.6);
+  text-shadow: none;
 }
 
+/* No highlight following the pointer, and a calmer press than the draft's spring. */
+.btn::before,
+.chip::before,
+.step::before,
+.bottom::before {
+  content: none;
+}
+.btn:hover,
+.chip:hover,
+.step:hover,
+.x:hover,
+.nav button:hover {
+  transform: none;
+  background: rgba(30, 32, 42, 0.86);
+}
+.btn:active,
+.chip:active,
+.step:active,
+.x:active,
+.nav button:active {
+  transform: scale(0.97);
+}
+.btn,
+.chip,
+.step,
+.x,
+.nav button {
+  transition:
+    transform 0.15s ease-out,
+    background 0.15s ease-out;
+}
+
+/* ---- title: on the scene itself, no panel ---- */
+.brand {
+  background: none;
+  border: 0;
+  box-shadow: none;
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  padding: 4px 6px;
+  text-shadow: 0 1px 12px rgba(0, 0, 0, 0.8);
+}
+.brand::before {
+  content: none;
+}
 .brand h1 {
-  font-weight: 700;
-  letter-spacing: -0.025em;
+  font-weight: 600;
+  font-size: 26px;
+  letter-spacing: -0.01em;
 }
 .brand p {
   font-size: 14px;
+  margin: 4px 0 12px;
 }
+
+/* ---- capsules ---- */
 .chip {
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 500;
   min-height: 32px;
 }
+.chip[aria-pressed='true'] {
+  background: rgba(243, 239, 230, 0.94);
+  border-color: rgba(243, 239, 230, 0.94);
+  color: #0a0b10;
+}
 .btn {
-  font-weight: 600;
+  font-weight: 500;
+  font-size: 15px;
+}
+.btn.on {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #0a0b10;
 }
 .search input::placeholder {
-  color: rgba(236, 239, 255, 0.8);
+  color: var(--muted);
 }
 .results span:last-child {
   font-size: 13px;
-}
-
-.pow,
-.pretty,
-.card .size,
-.card .sci {
   font-variant-numeric: tabular-nums;
 }
-.pretty,
-.regime {
-  font-size: 14px;
-}
-.hint {
-  font-size: 13px;
-}
 
+/* ---- detail card ---- */
+.card {
+  border-radius: 22px;
+  padding: 22px;
+}
 .card .kind {
+  color: var(--accent);
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.1em;
 }
+.card h2 {
+  font-weight: 600;
+  font-size: 28px;
+  letter-spacing: -0.01em;
+  margin-top: 2px;
+}
+.card .size {
+  font-size: 20px;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+}
 .card .sci {
   font-size: 13px;
+  font-variant-numeric: tabular-nums;
 }
 .card p {
   font-size: 16px;
@@ -101,6 +160,68 @@ body {
   font-weight: 500;
 }
 
+/* ---- scale bar: one slim line ---- */
+.bottom {
+  width: min(860px, calc(100% - 32px));
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 10px 22px;
+  border-radius: 999px;
+}
+/* Flatten the read-out so power, value, slider and regime share one row. */
+.read {
+  display: contents;
+}
+.pow {
+  order: 1;
+  flex: none;
+  min-width: 5.4ch;
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 26px;
+  font-variant-numeric: tabular-nums;
+}
+.pretty {
+  order: 2;
+  flex: none;
+  min-width: 13ch;
+  font-size: 14px;
+  font-variant-numeric: tabular-nums;
+}
+.slide {
+  order: 3;
+  flex: 1;
+  min-width: 0;
+}
+.regime {
+  order: 4;
+  flex: none;
+  margin-left: 0;
+  font-size: 14px;
+  text-align: right;
+}
+.step {
+  width: 36px;
+  height: 36px;
+}
+/* The hint stays available to screen readers but no longer takes a row. */
+.hint {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* ---- method dialog ---- */
+dialog {
+  border-radius: 26px;
+}
+dialog h2 {
+  font-weight: 600;
+}
 dialog p,
 dialog li {
   font-size: 15px;
@@ -111,18 +232,57 @@ dialog h3 {
   margin-top: 20px;
 }
 
+/* On mid-width screens the tools wrap onto a second row: start the card below it. */
+@media (min-width: 721px) and (max-width: 1100px) {
+  .card {
+    top: 178px;
+    max-height: calc(100% - 280px);
+  }
+}
+@media (max-width: 900px) {
+  .regime {
+    display: none;
+  }
+}
 @media (max-width: 720px) {
   .brand h1 {
-    font-size: 18px;
+    font-size: 20px;
+  }
+  .bottom {
+    flex-wrap: wrap;
+    gap: 6px 12px;
+    padding: 10px 16px;
+    border-radius: 26px;
+  }
+  .pow {
+    font-size: 22px;
+  }
+  .pretty {
+    min-width: 0;
+  }
+  .slide {
+    order: 5;
+    flex-basis: 100%;
   }
   .card p {
     font-size: 15px;
   }
 }
 
-/* People who ask for less transparency get solid panels, as in the draft. */
+/* People who ask for less transparency get solid panels. */
 @media (prefers-reduced-transparency: reduce) {
   :root {
-    --tint: 0.94;
+    --glass-fill: rgb(12, 13, 19);
   }
+}
+
+/* A soft dark fade behind the top row, so the title stays readable over bright objects. */
+.top::before {
+  content: '';
+  position: absolute;
+  inset: -16px -16px auto;
+  height: 210px;
+  z-index: -1;
+  pointer-events: none;
+  background: linear-gradient(rgba(7, 8, 12, 0.82), rgba(7, 8, 12, 0.5) 55%, rgba(7, 8, 12, 0));
 }

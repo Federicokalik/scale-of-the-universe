@@ -2,6 +2,7 @@ import { formatCompare, formatSci, formatSize, superscript } from '../lib/format
 import type { Flag, SceneData } from '../lib/types';
 import type { Music } from './audio';
 import { FLAG_COLOUR, REGIME_LIMITS } from './constants';
+import { paletteAt } from './palette';
 import type { Placed } from './placed';
 import type { Scene } from './scene';
 
@@ -129,6 +130,7 @@ export function bindUi(root: HTMLElement, scene: Scene, data: SceneData, music: 
     power.textContent = `10${superscript(Math.round(z))} m`;
     pretty.textContent = size(Math.pow(10, z));
     regime.textContent = ui[`regime.${REGIME_LIMITS.findIndex((limit) => z < limit)}`];
+    root.style.setProperty('--accent', `rgb(${paletteAt(z).accent.join(',')})`);
     if (document.activeElement !== slider) slider.value = String(scene.target());
   });
 

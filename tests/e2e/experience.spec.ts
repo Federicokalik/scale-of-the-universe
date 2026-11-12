@@ -80,6 +80,7 @@ test('method dialog: credit, experiment, differences, interface sources, privacy
   await expect(dialog).toContainText('Fable 5.2');
   await expect(dialog).toContainText("In cosa differisce dall'originale");
   await expect(dialog).toContainText("Fonti dell'interfaccia");
+  await expect(dialog).not.toContainText('kube.io');
   await expect(dialog).toContainText('non usa cookie e non traccia nulla');
   await expect(dialog).toContainText('Federico Calicchia');
 });
@@ -104,10 +105,21 @@ test('a malformed id in the link raises no error', async ({ page }) => {
   expect(errors).toEqual([]);
 });
 
-test('interface text is set in Inter, served by the site itself', async ({ page }) => {
+test('interface text is set in Public Sans, served by the site itself', async ({ page }) => {
   await page.goto('/it/');
   const family = await page.evaluate(() => getComputedStyle(document.body).fontFamily);
-  expect(family).toMatch(/^"?Inter Variable"?/);
+  expect(family).toMatch(/^"?Public Sans Variable"?/);
   await page.evaluate(() => document.fonts.ready);
-  expect(await page.evaluate(() => document.fonts.check('16px "Inter Variable"'))).toBe(true);
+  expect(await page.evaluate(() => document.fonts.check('16px "Public Sans Variable"'))).toBe(true);
+});
+
+test('panels are flat: no refraction filter and no pointer-following sheen', async ({ page }) => {
+  await page.goto('/it/#terra');
+  await expect(page.locator('#card')).toHaveClass(/open/);
+  await page.waitForTimeout(600);
+  expect(await page.locator('svg filter').count()).toBe(0);
+  const backdrop = await page.evaluate(() => getComputedStyle(document.getElementById('card')!).backdropFilter);
+  expect(backdrop).not.toContain('url(');
+  const sheen = await page.evaluate(() => getComputedStyle(document.getElementById('about')!, '::before').content);
+  expect(sheen).toBe('none');
 });

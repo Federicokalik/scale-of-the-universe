@@ -1,6 +1,5 @@
 import type { SceneData } from '../lib/types';
 import { createMusic } from './audio';
-import { initGlass } from './glass';
 import { bindInput } from './input';
 import { createScene, type Scene } from './scene';
 import { bindUi } from './ui';
@@ -22,7 +21,6 @@ export function mountScene(root: HTMLElement, data: SceneData): Scene {
     plus: find<HTMLElement>('#plus'),
     onEscape: ui.closeResults,
   });
-  initGlass(root, find<SVGSVGElement>('#lgdefs'));
 
   // Ids are ASCII slugs, so the hash is used as written (no decoding that could
   // throw on a malformed address). An unknown id is ignored: the page just opens.

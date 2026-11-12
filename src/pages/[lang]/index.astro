@@ -28,7 +28,6 @@ const payload = JSON.stringify(data).replace(/</g, '\\u003c');
 ---
 
 <Base lang={locale.code} dir={locale.dir} title={ui['title.full']} description={fill(ui['description'], totals)}>
-  <svg id="lgdefs" width="0" height="0" style="position:absolute" aria-hidden="true"></svg>
   <canvas id="stage" aria-label={ui['canvas.label']}></canvas>
 
   <div class="top">
@@ -117,7 +116,7 @@ const payload = JSON.stringify(data).replace(/</g, '\\u003c');
 
     <h3>{ui['dialog.ui.title']}</h3>
     <ul>
-      {['concept', 'glass', 'type', 'emoji', 'art', 'music', 'stack'].map((key) => <li set:html={ui[`dialog.ui.${key}`]} />)}
+      {['concept', 'type', 'emoji', 'art', 'music', 'stack'].map((key) => <li set:html={ui[`dialog.ui.${key}`]} />)}
     </ul>
 
     <h3>{ui['dialog.privacy.title']}</h3>

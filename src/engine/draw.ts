@@ -7,21 +7,6 @@ type Ctx = CanvasRenderingContext2D;
 /** Line colours for units, distances and wavelengths without a colour of their own. */
 const LINE_COLOUR: Record<string, string> = { u: '#eef0f7', d: '#7fe0d4', w: '#ffb86b' };
 
-/** Background tint by scale: [log10 metres, rgb]. Interpolated between stops. */
-const BACKGROUND: readonly (readonly [number, readonly [number, number, number]])[] = [
-  [-36, [30, 16, 52]], [-16, [18, 26, 62]], [-9, [12, 44, 54]], [-3, [20, 46, 48]], [0, [30, 38, 68]],
-  [7, [14, 26, 60]], [13, [22, 16, 46]], [21, [10, 11, 30]], [28, [4, 5, 14]],
-];
-
-function backgroundAt(z: number): number[] {
-  let i = 0;
-  while (i < BACKGROUND.length - 2 && z > BACKGROUND[i + 1][0]) i++;
-  const [z0, c0] = BACKGROUND[i];
-  const [z1, c1] = BACKGROUND[i + 1];
-  const u = Math.max(0, Math.min(1, (z - z0) / (z1 - z0)));
-  return c0.map((c, j) => Math.round(c + (c1[j] - c) * u));
-}
-
 const DUST = Array.from({ length: 150 }, (_, i) => {
   const r = rng(i + 99);
   return { angle: r() * 7, phase: r(), size: 0.6 + r() * 1.6, twinkle: r() * 7 };
@@ -56,15 +41,7 @@ export function createRenderer(ctx: Ctx, sprites: Sprites, still = false): Rende
   }
 
   function background(z: number, t: number, w: number, h: number, cx: number, cy: number): void {
-    const c = backgroundAt(z);
-    const g = ctx.createRadialGradient(cx, cy, 0, cx, cy, Math.max(w, h) * 0.75);
-    g.addColorStop(0, `rgb(${c.map((v) => Math.min(255, v + 16))})`);
-    g.addColorStop(1, `rgb(${c.map((v) => Math.round(v * 0.42))})`);
-    ctx.globalAlpha = 1;
-    ctx.fillStyle = g;
-    ctx.fillRect(0, 0, w, h);
-
-    backdrop.draw(z, still ? 0 : t, w, h);
+    backdrop.draw(z, still ? 0 : t, w, h, cx, cy);
 
     // Dust drifts outward as the scale changes, which gives zooming a sense of motion.
     const far = Math.max(w, h) * 0.7;

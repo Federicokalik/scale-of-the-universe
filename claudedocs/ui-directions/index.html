@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Direzioni per l'interfaccia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Public+Sans:wght@400;500;600&family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;500;700&family=Instrument+Sans:wght@400;500;600;700&family=Sora:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:#0c0d10;color:#e9eaee;font:16px/1.5 "Public Sans",system-ui,sans-serif;padding:28px 16px 60px}
+.page{max-width:1280px;margin:0 auto}
+.page>h1{font:600 28px/1.15 "Public Sans",sans-serif;letter-spacing:-.02em;margin:0 0 6px}
+.page>p{margin:0 0 28px;color:#a9adb8;max-width:70ch}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,560px),1fr));gap:28px}
+.dir h2{font:600 19px/1.2 "Public Sans",sans-serif;margin:14px 0 4px;letter-spacing:-.01em}
+.dir h2 span{color:#8b90a0;font-weight:400}
+.dir p{margin:0;color:#b4b8c4;font-size:15px;max-width:62ch}
+.dir ul{margin:8px 0 0;padding-left:18px;color:#9da2b0;font-size:14px}
+
+/* ---- the frame: one shared mock of the real screen ---- */
+.frame{position:relative;aspect-ratio:16/10;border-radius:14px;overflow:hidden;border:1px solid #23252d;container-type:inline-size;isolation:isolate}
+.bg{position:absolute;inset:0;z-index:-1}
+.obj{position:absolute;border-radius:50%}
+.o1{left:8%;top:44%;width:26%;aspect-ratio:1}
+.o2{left:40%;top:30%;width:11%;aspect-ratio:1}
+.o3{left:50%;top:58%;width:7%;aspect-ratio:1}
+.lab{position:absolute;transform:translateX(-50%);text-align:center;white-space:nowrap;font-size:clamp(9px,1.9cqw,13px);line-height:1.25}
+.lab small{display:block;opacity:.75;font-size:.85em}
+.l1{left:21%;top:35%}.l2{left:45.5%;top:50%}.l3{left:53.5%;top:71%}
+.glass{position:absolute;-webkit-backdrop-filter:blur(14px) saturate(160%);backdrop-filter:blur(14px) saturate(160%)}
+.brand{left:2.2%;top:3.5%;padding:1.6cqw 2.2cqw}
+.brand b{display:block;font-size:clamp(11px,2.6cqw,19px);line-height:1.1}
+.brand i{font-style:normal;display:block;font-size:clamp(8px,1.5cqw,11px);opacity:.8;margin-top:.3cqw}
+.card{right:2.2%;top:14%;width:34%;padding:2.2cqw}
+.card .k{font-size:clamp(7px,1.3cqw,10px);letter-spacing:.1em;text-transform:uppercase;opacity:.75}
+.card .n{font-size:clamp(13px,3.2cqw,24px);line-height:1.1;margin:.4cqw 0 .8cqw}
+.card .s{font-size:clamp(10px,2.1cqw,16px)}
+.card .d{font-size:clamp(9px,1.75cqw,13px);line-height:1.45;margin-top:1cqw;opacity:.92}
+.bar{left:50%;transform:translateX(-50%);bottom:4%;width:62%;padding:1.6cqw 2.4cqw;display:flex;align-items:center;gap:2cqw}
+.bar .p{font-size:clamp(14px,3.8cqw,30px);line-height:1;white-space:nowrap}
+.bar .t{flex:1;height:.5cqw;min-height:3px;border-radius:9px;position:relative}
+.bar .t::after{content:"";position:absolute;left:82%;top:50%;width:3.4cqw;height:2cqw;min-height:10px;transform:translate(-50%,-50%);border-radius:99px;background:#fff}
+.bar .r{font-size:clamp(8px,1.5cqw,11px);opacity:.8;white-space:nowrap}
+
+/* ===== A — Atlante: museum plate, editorial serif, quiet chart-like sky ===== */
+.atlas{color:#f3efe6}
+.atlas .bg{background:
+  radial-gradient(1px 1px at 14% 22%,#fff8,transparent 60%),radial-gradient(1px 1px at 71% 15%,#fff7,transparent 60%),
+  radial-gradient(1px 1px at 88% 62%,#fff6,transparent 60%),radial-gradient(1px 1px at 33% 78%,#fff6,transparent 60%),
+  repeating-radial-gradient(circle at 50% 46%,transparent 0 11.8%,rgba(243,239,230,.07) 11.8% 12%),
+  radial-gradient(120% 100% at 50% 46%,#161a24,#07090d 75%)}
+.atlas .obj{background:radial-gradient(circle at 40% 38%,#f6e7c8,#b9905a 38%,#3a2f2a 70%,transparent 72%)}
+.atlas .lab{font-family:"Fraunces",serif;font-weight:400;font-style:italic}
+.atlas .lab small{font-family:"Public Sans",sans-serif;font-style:normal;font-variant-numeric:tabular-nums}
+.atlas .glass{background:rgba(12,14,20,.62);border:1px solid rgba(243,239,230,.22);border-radius:1.4cqw;box-shadow:inset 0 1px 0 rgba(255,255,255,.18),0 12px 40px #0008}
+.atlas .brand b,.atlas .card .n,.atlas .bar .p{font-family:"Fraunces",serif;font-weight:600;letter-spacing:-.01em}
+.atlas .card .s{color:#e8b76a;font-variant-numeric:tabular-nums}
+.atlas .card .k{color:#e8b76a}
+.atlas .bar .t{background:rgba(243,239,230,.25)}
+
+/* ===== B — Strumento: precision instrument, mono + grotesk, grid and reticle ===== */
+.hud{color:#dff6ff}
+.hud .bg{background:
+  linear-gradient(#7fe3ff14 1px,transparent 1px) 0 0/100% 8.33%,linear-gradient(90deg,#7fe3ff14 1px,transparent 1px) 0 0/5.2% 100%,
+  linear-gradient(#7fe3ff40,#7fe3ff40) 50% 46%/100% 1px no-repeat,linear-gradient(#7fe3ff40,#7fe3ff40) 50% 0/1px 100% no-repeat,
+  radial-gradient(circle at 50% 46%,transparent 0 21.8%,#7fe3ff55 21.8% 22%,transparent 22%),
+  #04070b}
+.hud .obj{background:radial-gradient(circle,#0b1a22 0 60%,transparent 61%);border:1px solid #7fe3ff;box-shadow:0 0 18px #7fe3ff40}
+.hud .lab{font-family:"JetBrains Mono",monospace;font-weight:500;text-transform:uppercase;letter-spacing:.04em;text-align:left;transform:none;padding-left:.8cqw;border-left:1px solid #7fe3ff}
+.hud .l1{left:36%;top:52%}.hud .l2{left:52%;top:32%}.hud .l3{left:58%;top:60%}
+.hud .lab small{color:#7fe3ff;opacity:1}
+.hud .glass{background:rgba(4,10,15,.72);border:1px solid #7fe3ff66;border-radius:.5cqw;box-shadow:inset 0 1px 0 #7fe3ff40}
+.hud .brand b,.hud .card .n{font-family:"Space Grotesk",sans-serif;font-weight:700;text-transform:uppercase;letter-spacing:.02em}
+.hud .brand i,.hud .card .k,.hud .card .s,.hud .bar .p,.hud .bar .r{font-family:"JetBrains Mono",monospace}
+.hud .card .d{font-family:"Space Grotesk",sans-serif}
+.hud .card .s,.hud .card .k{color:#7fe3ff}
+.hud .bar .p{font-weight:700}
+.hud .bar .t{background:repeating-linear-gradient(90deg,#7fe3ff 0 1px,transparent 1px 2.2%);height:1.4cqw;border-radius:0}
+.hud .bar .t::after{width:2px;height:2.6cqw;border-radius:0;background:#fff}
+
+/* ===== C — Notte: almost no chrome, the number is the interface ===== */
+.night{color:#fff}
+.night .bg{background:radial-gradient(1px 1px at 20% 30%,#fff9,transparent 60%),radial-gradient(1px 1px at 64% 22%,#fff7,transparent 60%),radial-gradient(1px 1px at 82% 70%,#fff6,transparent 60%),radial-gradient(1px 1px at 42% 84%,#fff5,transparent 60%),#000}
+.night .bg::after{content:"10²¹";position:absolute;left:3%;bottom:-6%;font:800 34cqw/1 "Instrument Sans",sans-serif;letter-spacing:-.06em;color:#fff;opacity:.07}
+.night .obj{background:radial-gradient(circle at 45% 42%,#fff,#9aa6ff 22%,#2a2f6a 55%,transparent 70%)}
+.night .lab{font-family:"Instrument Sans",sans-serif;font-weight:600}
+.night .lab small{font-weight:400}
+.night .glass{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.2);border-radius:2.4cqw;box-shadow:inset 0 1px 0 rgba(255,255,255,.35)}
+.night .brand{background:none;border:0;box-shadow:none;-webkit-backdrop-filter:none;backdrop-filter:none;padding:0;left:3%;top:5%}
+.night .brand b,.night .card .n{font-family:"Instrument Sans",sans-serif;font-weight:700;letter-spacing:-.03em}
+.night .card{background:rgba(10,10,12,.7)}
+.night .card .s{font-weight:600}
+.night .card .k{opacity:.6}
+.night .bar{width:44%;border-radius:99px;padding:1.1cqw 2.2cqw}
+.night .bar .p{font:700 clamp(11px,2.4cqw,18px)/1 "Instrument Sans",sans-serif}
+.night .bar .r{display:none}
+.night .bar .t{background:rgba(255,255,255,.3)}
+
+/* ===== D — Aurora: colour carries the scale, bold rounded sans ===== */
+.aurora{color:#fff}
+.aurora .bg{background:
+  radial-gradient(60% 70% at 18% 20%,#ff4fa3cc,transparent 70%),radial-gradient(55% 65% at 85% 25%,#4f6bffcc,transparent 70%),
+  radial-gradient(60% 60% at 70% 90%,#22d3c5aa,transparent 70%),radial-gradient(50% 60% at 20% 95%,#8b4dffcc,transparent 70%),#120a2e;
+  animation:hue 18s linear infinite}
+@keyframes hue{to{filter:hue-rotate(360deg)}}
+.aurora .obj{background:radial-gradient(circle at 40% 35%,#fff,#ffe9a8 30%,#ff9d5c 62%,transparent 70%);box-shadow:0 0 40px #ffd58a66}
+.aurora .lab{font-family:"Sora",sans-serif;font-weight:700;text-shadow:0 2px 10px #0009}
+.aurora .lab small{font-weight:400}
+.aurora .glass{background:linear-gradient(135deg,rgba(255,255,255,.3),rgba(255,255,255,.1));border:1px solid rgba(255,255,255,.55);border-radius:3cqw;box-shadow:inset 0 1.5px 0 rgba(255,255,255,.8),0 14px 44px #1a0b4a66}
+.aurora .glass *{text-shadow:0 1px 6px #1a0b4a99}
+.aurora .brand b,.aurora .card .n,.aurora .bar .p{font-family:"Sora",sans-serif;font-weight:800;letter-spacing:-.03em}
+.aurora .card{background:linear-gradient(135deg,rgba(30,16,70,.6),rgba(30,16,70,.42))}
+.aurora .card .s{font-weight:700;color:#ffe9a8}
+.aurora .bar .t{background:rgba(255,255,255,.45)}
+@media (prefers-reduced-motion:reduce){.aurora .bg{animation:none}}
+
+/* ===== E — Atlante a colori: A's type and panels, C's restraint and giant numeral, D's colour-by-scale ===== */
+.e{color:#f3efe6;--c1:59,63,214;--c2:106,90,214;--c3:214,59,143}
+.e .bg{background:
+  repeating-radial-gradient(circle at 50% 46%,transparent 0 11.8%,rgba(243,239,230,.06) 11.8% 12%),
+  radial-gradient(70% 80% at 12% 10%,rgba(var(--c1),.55),transparent 70%),
+  radial-gradient(65% 75% at 92% 22%,rgba(var(--c2),.5),transparent 70%),
+  radial-gradient(75% 70% at 60% 105%,rgba(var(--c3),.5),transparent 70%),
+  #07080c}
+.e .num{position:absolute;left:2%;bottom:-7%;z-index:-1;font:600 30cqw/1 "Fraunces",serif;letter-spacing:-.04em;color:#f3efe6;opacity:.1;white-space:nowrap;font-variant-numeric:tabular-nums}
+.e .obj{background:radial-gradient(circle at 40% 36%,#fff,rgba(var(--c2),1) 34%,rgba(var(--c1),.9) 62%,transparent 71%);box-shadow:0 0 5cqw rgba(var(--c2),.35)}
+.e .lab{font-family:"Fraunces",serif;font-style:italic;text-shadow:0 1px 8px #000c}
+.e .lab small{font-family:"Public Sans",sans-serif;font-style:normal;font-variant-numeric:tabular-nums}
+.e .glass{background:rgba(9,10,15,.66);border:1px solid rgba(243,239,230,.2);border-radius:1.6cqw;box-shadow:inset 0 1px 0 rgba(255,255,255,.2),0 12px 40px #0008}
+.e .brand{background:none;border:0;box-shadow:none;-webkit-backdrop-filter:none;backdrop-filter:none;padding:0;left:3%;top:5%}
+.e .brand b,.e .card .n{font-family:"Fraunces",serif;font-weight:600;letter-spacing:-.01em}
+.e .card .k,.e .card .s{color:rgb(var(--c4,232,183,106))}
+.e .card .s{font-variant-numeric:tabular-nums}
+.e .tools{position:absolute;right:2.2%;top:4%;display:flex;gap:.8cqw}
+.e .tools span{position:static;padding:.7cqw 1.5cqw;border-radius:99px;font-size:clamp(8px,1.45cqw,12px);font-weight:500}
+.e .bar{width:56%;border-radius:99px;padding:1.2cqw 2.4cqw}
+.e .bar .p{font:600 clamp(12px,2.8cqw,22px)/1 "Fraunces",serif;min-width:9cqw}
+.e .bar .t{background:rgba(243,239,230,.28)}
+.e .bar .t::after{left:var(--pos,82%)}
+.e .bar .r{min-width:14cqw;text-align:right}
+.try{display:flex;align-items:center;gap:14px;margin:14px 0 4px;flex-wrap:wrap;max-width:980px}
+.try label{font-weight:600}
+.try input{flex:1;min-width:220px;accent-color:#e8b76a}
+.featured{margin-bottom:40px}
+.featured .frame{max-width:980px}
+.featured h2{font:600 22px/1.2 "Public Sans",sans-serif;margin:0 0 4px}
+.featured>p{margin:0 0 14px;color:#b4b8c4;max-width:70ch}
+hr{border:0;border-top:1px solid #23252d;margin:0 0 28px}
+</style>
+</head>
+<body>
+<div class="page">
+  <h1>Direzioni per l'interfaccia</h1>
+  <p>In alto la nuova proposta E, interattiva. Sotto, le quattro di partenza. Sono bozzetti: nel sito i pannelli avrebbero la rifrazione vera e lo sfondo sarebbe animato.</p>
+  
+  <section class="featured dir">
+    <h2>E · Atlante a colori <span style="color:#8b90a0;font-weight:400">— A + il meglio di C e D</span></h2>
+    <p>Carattere e pannelli scuri di A. Da C: niente pannello attorno al titolo, barra sottile e la potenza di dieci gigante sullo sfondo. Da D: il colore dello sfondo cambia con lo zoom, ma più profondo, così il testo resta leggibile. Muovi il cursore qui sotto per provarlo.</p>
+    <div class="frame e" id="e">
+      <div class="bg"></div>
+      <div class="num" id="eNum">10²¹</div>
+      <div class="obj o1"></div><div class="obj o2"></div><div class="obj o3"></div>
+      <div class="lab l1" id="eLab"></div>
+      <div class="glass brand"><b>Scala dell'Universo</b><i>447 oggetti da 10⁻³⁵ a 10²⁷ metri</i></div>
+      <div class="tools"><span class="glass">Cerca</span><span class="glass">♪ Musica</span><span class="glass">Metodo e fonti</span></div>
+      <div class="glass card"><div class="k" id="eKind"></div><div class="n" id="eName"></div><div class="s" id="eSize"></div><div class="d" id="eDesc"></div></div>
+      <div class="glass bar"><span class="p" id="ePow"></span><span class="t"></span><span class="r" id="eReg"></span></div>
+    </div>
+    <div class="try"><label for="eZoom">Scala</label><input id="eZoom" type="range" min="-35" max="27" step="0.1" value="21"><span id="eHint" style="color:#8b90a0;font-size:14px"></span></div>
+  </section>
+  <hr>
+  <p style="margin:0 0 20px;color:#8b90a0">Le quattro direzioni di partenza, per confronto:</p>
+  <div class="grid" id="grid"></div>
+</div>
+<script>
+const DIRS=[
+ ['atlas','A · Atlante','tavola da museo','Titoli in serif (Fraunces), testo in Public Sans, un solo accento ambra. Pannelli scuri e pieni, bordo sottile. Sfondo quieto: cielo quasi nero con cerchi di scala, come una carta celeste.',
+  ['Massima leggibilità: testo chiaro su pannello scuro','Tono colto, da atlante scientifico','Lo sfondo cambia per trama (cerchi, reticoli, grana), non per colore']],
+ ['hud','B · Strumento','strumento di misura','Space Grotesk e JetBrains Mono, tutto maiuscolo nelle etichette. Linee sottili ciano, mirino al centro, righello graduato al posto dello slider, etichette con linea guida.',
+  ['Sembra uno strumento: ogni cosa è una misura','Pannelli squadrati, vetro scuro','Lo sfondo è una griglia che si infittisce e si dirada con lo zoom']],
+ ['night','C · Notte','quasi senza interfaccia','Nero pieno, un solo carattere (Instrument Sans). La potenza di dieci diventa un numero gigante sullo sfondo; i controlli si riducono a una barra sottile e alla scheda.',
+  ['Il contenuto è tutto: massimo spazio alla tela','Pochissimo vetro, quindi poca rifrazione in vista','Lo sfondo cambia solo per profondità e densità di punti']],
+ ['aurora','D · Aurora','il colore è la scala','Sora in grassetto, pannelli di vetro chiaro su uno sfondo a campiture di colore che cambia tinta a ogni regime: viola quantistico, verde biologico, ambra umano, blu planetario, magenta nebulare.',
+  ['La più viva e la più vicina allo spirito giocoso dell\'originale','Il vetro risalta molto: la rifrazione è protagonista','Serve più cura per il contrasto del testo sui colori chiari']],
+];
+document.getElementById('grid').innerHTML=DIRS.map(([c,name,tag,text,points])=>`
+ <section class="dir">
+  <div class="frame ${c}">
+    <div class="bg"></div>
+    <div class="obj o1"></div><div class="obj o2"></div><div class="obj o3"></div>
+    <div class="lab l1">Andromeda<small>152.209 anni luce</small></div>
+    <div class="lab l2">Galassia Girandola<small>169.121 anni luce</small></div>
+    <div class="lab l3">Via Lattea<small>87.731 anni luce</small></div>
+    <div class="glass brand"><b>Scala dell'Universo</b><i>447 oggetti da 10⁻³⁵ a 10²⁷ metri</i></div>
+    <div class="glass card"><div class="k">Galassia</div><div class="n">Andromeda</div><div class="s">152.209 anni luce</div><div class="d">La grande galassia a spirale più vicina alla Via Lattea, a 2,5 milioni di anni luce.</div></div>
+    <div class="glass bar"><span class="p">10²¹ m</span><span class="t"></span><span class="r">Galassie</span></div>
+  </div>
+  <h2>${name} <span>— ${tag}</span></h2>
+  <p>${text}</p>
+  <ul>${points.map(p=>`<li>${p}</li>`).join('')}</ul>
+ </section>`).join('');
+
+/* ---- E: colour and content follow the scale ---- */
+const REG=[
+ {to:-15,name:"Scala di Planck e particelle",c:[[109,59,214],[176,75,217],[43,26,107]],acc:[201,184,255],o:["Particella","Quark up","1,1 am","Costituente di protoni e neutroni. Puntiforme entro i limiti sperimentali."]},
+ {to:-8,name:"Atomi e molecole",c:[[15,163,163],[42,111,219],[11,58,74]],acc:[143,240,226],o:["Atomo o nucleo","Atomo di carbonio","152 pm","Raggio covalente di 76 pm: è l'impalcatura della chimica organica."]},
+ {to:-3,name:"Virus e cellule",c:[[47,174,106],[143,209,79],[12,59,42]],acc:[170,232,150],o:["Biologia","Globulo rosso","7,5 µm","Un disco biconcavo senza nucleo che trasporta l'ossigeno."]},
+ {to:4,name:"Scala umana",c:[[227,154,59],[217,96,59],[74,42,18]],acc:[255,208,138],o:["Biologia","Essere umano","1,7 m","Il punto da cui guardiamo tutto il resto."]},
+ {to:12,name:"Pianeti e stelle",c:[[47,111,224],[53,192,214],[12,31,74]],acc:[150,205,255],o:["Pianeta","Terra","12.742 km","Diametro medio. L'unico mondo noto con oceani in superficie."]},
+ {to:19,name:"Nebulose e ammassi",c:[[214,59,143],[122,59,224],[58,15,58]],acc:[255,170,215],o:["Nebulosa","Nebulosa di Orione","24,3 anni luce","La culla di stelle più vicina: 1.344 anni luce."]},
+ {to:99,name:"Galassie e struttura a grande scala",c:[[59,63,214],[106,90,214],[10,10,46]],acc:[232,183,106],o:["Galassia","Andromeda","152.209 anni luce","La grande galassia a spirale più vicina alla Via Lattea, a 2,5 milioni di anni luce."]},
+];
+const SUPS={"-":"⁻",0:"⁰",1:"¹",2:"²",3:"³",4:"⁴",5:"⁵",6:"⁶",7:"⁷",8:"⁸",9:"⁹"};
+const sup=n=>String(n).split("").map(c=>SUPS[c]).join("");
+const mix=(a,b,u)=>a.map((v,i)=>Math.round(v+(b[i]-v)*u));
+const $e=id=>document.getElementById(id);
+function paint(z){
+  const i=REG.findIndex(r=>z<r.to),here=REG[i],next=REG[i+1];
+  // Blend into the next regime over the last two decades, so colour never jumps.
+  const u=next?Math.max(0,Math.min(1,(z-(here.to-2))/2)):0;
+  const f=$e("e");
+  for(let k=0;k<3;k++)f.style.setProperty("--c"+(k+1),mix(here.c[k],next?next.c[k]:here.c[k],u).join(","));
+  f.style.setProperty("--c4",mix(here.acc,next?next.acc:here.acc,u).join(","));
+  f.style.setProperty("--pos",((z+35)/62*100)+"%");
+  const shown=u>.5&&next?next:here,p="10"+sup(Math.round(z));
+  $e("eNum").textContent=p;$e("ePow").textContent=p+" m";$e("eReg").textContent=shown.name;
+  $e("eKind").textContent=shown.o[0];$e("eName").textContent=shown.o[1];$e("eSize").textContent=shown.o[2];$e("eDesc").textContent=shown.o[3];
+  const lab=$e("eLab");lab.textContent=shown.o[1];const small=document.createElement("small");small.textContent=shown.o[2];lab.append(small);
+  $e("eHint").textContent=shown.name;
+}
+$e("eZoom").addEventListener("input",e=>paint(+e.target.value));paint(21);
+</script>
+</body>
+</html>

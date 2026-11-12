@@ -5,8 +5,8 @@ import { createRenderer } from './draw';
 import { place, type Placed } from './placed';
 import { createSprites } from './sprites';
 
-const LABEL_FONT = '"Inter Variable",system-ui,sans-serif';
-const NUMBER_FONT = '"JetBrains Mono Variable",ui-monospace,monospace';
+const LABEL_FONT = '"Fraunces Variable",Georgia,serif';
+const NUMBER_FONT = '"Public Sans Variable",system-ui,sans-serif';
 
 export interface Scene {
   readonly objects: Placed[];
@@ -104,14 +104,14 @@ export function createScene(canvas: HTMLCanvasElement, data: SceneData): Scene {
       // Keep labels clear of the bottom control bar.
       if (labelY > height - 150 && y < height - 170) labelY = Math.min(labelY, height - 150);
       ctx.globalAlpha = alpha * Math.min(1, (px - 40) / 30);
-      ctx.font = `600 ${fontSize}px ${LABEL_FONT}`;
+      ctx.font = `italic 500 ${fontSize + 1}px ${LABEL_FONT}`;
       const textWidth = ctx.measureText(o.name).width;
       const flag = (['i', 'u', 'n', 'r'] as const).find((f) => o.flags.includes(f));
       ctx.lineWidth = 4;
       ctx.lineJoin = 'round';
       ctx.strokeStyle = 'rgba(4,6,14,.92)';
       ctx.strokeText(o.name, x, labelY);
-      ctx.fillStyle = '#ffffff';
+      ctx.fillStyle = '#f3efe6';
       ctx.fillText(o.name, x, labelY);
       if (flag) {
         ctx.fillStyle = FLAG_COLOUR[flag];
