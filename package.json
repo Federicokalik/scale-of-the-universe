@@ -1,0 +1,34 @@
+{
+  "name": "scale-of-the-universe",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "An independent 2026 reinterpretation of Scale of the Universe by Cary and Michael Huang.",
+  "author": "Federico Calicchia (https://calicchia.design)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.23.4"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "extract": "node scripts/extract-draft.mjs",
+    "validate": "node scripts/validate-data.mjs"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.7.4",
+    "@unocss/astro": "^66.12.0",
+    "astro": "^7.4.11",
+    "unocss": "^66.12.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.12",
+    "@playwright/test": "^1.65.0",
+    "typescript": "^6.0.3",
+    "vitest": "^5.1.0"
+  }
+}
