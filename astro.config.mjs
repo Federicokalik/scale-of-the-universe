@@ -6,5 +6,5 @@ export default defineConfig({
   site: process.env.SITE_URL ?? 'https://scale-of-universe.calicchia.design',
   output: 'static',
   trailingSlash: 'always',
-  integrations: [UnoCSS({ injectReset: true }), sitemap()],
+  integrations: [UnoCSS({ injectReset: false }), sitemap()],
 });

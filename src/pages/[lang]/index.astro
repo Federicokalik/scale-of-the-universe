@@ -1,0 +1,136 @@
+---
+import '../../styles/glass.css';
+import { ENABLED_LOCALES, type Locale } from '../../data/locales';
+import { FLAG_COLOUR, FLAG_ORDER, ZOOM_MAX, ZOOM_MIN, ZOOM_START } from '../../engine/constants';
+import Base from '../../layouts/Base.astro';
+import { loadSceneData } from '../../lib/data';
+import { fill } from '../../lib/format';
+
+export function getStaticPaths() {
+  return ENABLED_LOCALES.map((locale) => ({ params: { lang: locale.code }, props: { locale } }));
+}
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+const data = await loadSceneData(locale.code);
+const { ui, objects } = data;
+
+const count = (flag: string) => objects.filter((o) => o.flags.some((f) => f === flag)).length;
+const totals = { n: objects.length, r: count('r'), new: count('n'), i: count('i'), u: count('u') };
+const flagVar = { r: 'var(--accent)', n: 'var(--teal)', i: 'var(--violet)', u: 'var(--grey)' };
+
+// Inlined for the client script. "<" is escaped so no description can close the script tag.
+const payload = JSON.stringify(data).replace(/</g, '\\u003c');
+---
+
+<Base lang={locale.code} dir={locale.dir} title={ui['title.full']} description={fill(ui['description'], totals)}>
+  <svg id="lgdefs" width="0" height="0" style="position:absolute" aria-hidden="true"></svg>
+  <canvas id="stage" aria-label={ui['canvas.label']}></canvas>
+
+  <div class="top">
+    <div class="brand">
+      <h1>{ui['title']}</h1>
+      <p>{ui['subtitle']} · <span id="count">{fill(ui['count'], totals)}</span></p>
+      <div class="chips" id="chips">
+        {
+          FLAG_ORDER.map((flag) => (
+            <button class="chip" data-flag={flag} aria-pressed="false">
+              <span class="dot" style={`background:${FLAG_COLOUR[flag]}`} />
+              {ui[`flag.${flag}`]} · {count(flag)}
+            </button>
+          ))
+        }
+      </div>
+    </div>
+    <div class="tools">
+      <div class="search">
+        <input id="q" type="search" placeholder={ui['search.placeholder']} autocomplete="off" aria-label={ui['search.label']} />
+        <div class="results glass" id="results"></div>
+      </div>
+      <button class="btn" id="music" aria-pressed="false">{ui['music.off']}</button>
+      <input class="vol" id="vol" type="range" min="0" max="1" step="0.01" value="0.6" aria-label={ui['volume.label']} />
+      <button class="btn" id="about">{ui['about.button']}</button>
+    </div>
+  </div>
+
+  <aside class="card glass" id="card" aria-live="polite">
+    <button class="x" id="close" aria-label={ui['card.close']}>×</button>
+    <div class="kind" id="cKind"></div>
+    <h2 id="cName"></h2>
+    <div class="size" id="cSize"></div>
+    <div class="sci" id="cSci"></div>
+    <div class="badges" id="cBadges"></div>
+    <p id="cNote"></p>
+    <p class="cmp" id="cCmp"></p>
+    <div class="nav"><button id="prev"></button><button id="next"></button></div>
+  </aside>
+
+  <div class="bottom glass">
+    <div class="read">
+      <span class="pow" id="pow"></span>
+      <span class="pretty" id="pretty"></span>
+      <span class="regime" id="regime"></span>
+    </div>
+    <div class="slide">
+      <button class="step" id="minus" aria-label={ui['zoom.out']}>−</button>
+      <input id="zoom" type="range" min={ZOOM_MIN} max={ZOOM_MAX} step="0.01" value={ZOOM_START} aria-label={ui['zoom.label']} />
+      <button class="step" id="plus" aria-label={ui['zoom.in']}>+</button>
+    </div>
+    <div class="hint">{ui['hint']}</div>
+  </div>
+
+  <dialog class="glass" id="dlg">
+    <h2>{ui['dialog.title']}</h2>
+    <p set:html={ui['dialog.intro']} />
+    <p>{ui['dialog.experiment']}</p>
+
+    <h3>{ui['dialog.contents.title']}</h3>
+    <p id="dlgCount">{fill(ui['dialog.contents.count'], totals)}</p>
+    <ul>
+      {
+        FLAG_ORDER.map((flag) => (
+          <li>
+            <b style={`color:${flagVar[flag]}`}>{ui[`flag.${flag}`]}</b>: {ui[`dialog.flag.${flag}`]}
+          </li>
+        ))
+      }
+    </ul>
+
+    <h3>{ui['dialog.diff.title']}</h3>
+    <p>{ui['dialog.diff.intro']}</p>
+    <ul>
+      {['values', 'new', 'flags', 'art', 'open'].map((key) => <li>{fill(ui[`dialog.diff.${key}`], totals)}</li>)}
+    </ul>
+
+    <h3>{ui['dialog.sizes.title']}</h3>
+    <p>{ui['dialog.sizes.body']}</p>
+
+    <h3>{ui['dialog.sources.title']}</h3>
+    <ul>
+      {['codata', 'nasa', 'mom', 'quipu', 'horseshoe', 'woh'].map((key) => <li set:html={ui[`dialog.sources.${key}`]} />)}
+    </ul>
+    <p>{ui['dialog.sources.note']}</p>
+
+    <h3>{ui['dialog.ui.title']}</h3>
+    <ul>
+      {['concept', 'glass', 'type', 'emoji', 'art', 'music', 'stack'].map((key) => <li set:html={ui[`dialog.ui.${key}`]} />)}
+    </ul>
+
+    <h3>{ui['dialog.privacy.title']}</h3>
+    <p>{ui['dialog.privacy.body']}</p>
+
+    <p set:html={ui['dialog.author']} />
+    <button class="btn" id="dlgClose">{ui['dialog.close']}</button>
+  </dialog>
+
+  <script type="application/json" id="scene-data" set:html={payload} />
+  <script>
+    import { mountScene } from '../../engine/main';
+
+    const data = JSON.parse(document.getElementById('scene-data')!.textContent!);
+    mountScene(document.body, data);
+  </script>
+</Base>

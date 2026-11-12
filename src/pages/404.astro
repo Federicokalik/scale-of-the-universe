@@ -1,0 +1,47 @@
+---
+import '../styles/glass.css';
+import Base from '../layouts/Base.astro';
+---
+
+<Base lang="en" title="Page not found · Scale of the Universe 2026" description="This page does not exist.">
+  <main>
+    <section class="glass">
+      <h1>Nothing at this scale</h1>
+      <p>This page does not exist, or its language is not available yet.</p>
+      <a class="btn" href="/">Back to the start</a>
+    </section>
+  </main>
+</Base>
+
+<style>
+  :global(body) {
+    overflow: auto;
+  }
+  main {
+    min-height: 100%;
+    display: grid;
+    place-items: center;
+    padding: 24px 16px;
+  }
+  section {
+    width: min(460px, 100%);
+    padding: 32px;
+    border-radius: 36px;
+  }
+  h1 {
+    margin: 0 0 8px;
+    font-family: var(--display);
+    font-size: 28px;
+    letter-spacing: -0.02em;
+  }
+  p {
+    margin: 0 0 20px;
+    color: var(--muted);
+  }
+  a {
+    display: inline-flex;
+    align-items: center;
+    color: var(--text);
+    text-decoration: none;
+  }
+</style>

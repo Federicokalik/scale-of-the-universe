@@ -6,9 +6,9 @@ export default defineConfig({
   reporter: 'line',
   use: { baseURL: 'http://localhost:4321' },
   webServer: {
-    command: 'npm run preview -- --port 4321',
+    command: 'npx astro preview --force --port 4321',
     url: 'http://localhost:4321/',
-    reuseExistingServer: true,
+    reuseExistingServer: false,
     timeout: 60000,
   },
 });
