@@ -1,0 +1,324 @@
+[
+  {
+    "id": "galassia-sombrero",
+    "size": 7.5e+20,
+    "basis": "diametro maggiore del disco in luce visibile (diametro angolare × distanza)",
+    "verdict": "corrected",
+    "flags": [
+      "r",
+      "u"
+    ],
+    "desc": "La Galassia Sombrero (M104) è una spirale vista quasi di taglio nella costellazione della Vergine, con un grande rigonfiamento centrale e una banda scura di polveri. Il diametro maggiore di 8,7 primi d'arco, alla distanza di 9,55 megaparsec (circa 31 milioni di anni luce), corrisponde a circa 79.000 anni luce, ma le fonti vanno dai 50.000 anni luce indicati da ESA/Hubble a valori più alti secondo dove si pone il bordo. Hubble vi distingue quasi 2.000 ammassi globulari, circa dieci volte quelli della Via Lattea.",
+    "sources": [
+      {
+        "title": "NED results for object MESSIER 104",
+        "url": "https://ned.ipac.caltech.edu/cgi-bin/objsearch?objname=M104&extend=no&hconst=73&omegam=0.27&omegav=0.73&corr_z=1&out_csys=Equatorial&out_equinox=J2000.0&obj_sort=RA+or+Longitude&of=pre_text&zv_breaker=30000.0&list_limit=5&img_stamp=NO",
+        "publisher": "NASA/IPAC Extragalactic Database (NED)",
+        "evidence": "Major Diameter (arcmin) : 8.7"
+      },
+      {
+        "title": "The Distance to M104",
+        "url": "https://arxiv.org/abs/1610.03857",
+        "publisher": "McQuinn et al., The Astronomical Journal, arXiv",
+        "evidence": "9.55 +/- 0.13 +/- 0.31 Mpc"
+      },
+      {
+        "title": "Hubble mosaic of the majestic Sombrero Galaxy",
+        "url": "https://esahubble.org/images/opo0328a/",
+        "publisher": "ESA/Hubble",
+        "evidence": "The galaxy is 50,000 light-years across"
+      },
+      {
+        "title": "Messier 104",
+        "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-104/",
+        "publisher": "NASA Science",
+        "evidence": "globular clusters, estimated to be nearly 2,000 in number"
+      }
+    ],
+    "note": "Da 9,0e20 m (circa 95.000 anni luce) a 7,5e20 m. Calcolo: 8,7' / 3437,75 × 9,55 Mpc = 24,2 kpc = 78.800 anni luce = 7,46e20 m. Il valore di 95.000 anni luce non compare in nessuna fonte istituzionale che ho potuto aprire (è il D25 riportato da Wikipedia). Con la distanza NASA di 28 milioni di anni luce lo stesso angolo dà circa 71.000 anni luce; ESA/Hubble indica 50.000 anni luce (il valore originale del 2012 era 53.000). Aggiunta la flag u per la dispersione fra le fonti. Rimossa dalla descrizione la frase \"L'originale: 53.000\".",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "virgo-a",
+    "size": 1.25e+21,
+    "basis": "diametro maggiore del corpo luminoso della galassia (diametro angolare × distanza), alone esteso escluso",
+    "verdict": "confirmed",
+    "flags": [
+      "r"
+    ],
+    "desc": "Virgo A è la radiosorgente associata a Messier 87, galassia ellittica gigante dell'ammasso della Vergine a circa 54 milioni di anni luce. Il corpo luminoso misura circa 130.000 anni luce (ESA/Hubble indica 120.000), mentre l'alone di stelle arriva a circa un milione di anni luce di diametro secondo le misure del VLT. Il buco nero al suo centro è il primo di cui sia stata ottenuta un'immagine, pubblicata nel 2019 dall'Event Horizon Telescope.",
+    "sources": [
+      {
+        "title": "NED results for object MESSIER 087",
+        "url": "https://ned.ipac.caltech.edu/cgi-bin/objsearch?objname=M87&extend=no&hconst=73&omegam=0.27&omegav=0.73&corr_z=1&out_csys=Equatorial&out_equinox=J2000.0&obj_sort=RA+or+Longitude&of=pre_text&zv_breaker=30000.0&list_limit=5&img_stamp=NO",
+        "publisher": "NASA/IPAC Extragalactic Database (NED)",
+        "evidence": "Major Diameter (arcmin) : 8.3"
+      },
+      {
+        "title": "Messier 87",
+        "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-87/",
+        "publisher": "NASA Science",
+        "evidence": "Distance 54 million light-years"
+      },
+      {
+        "title": "Lord of the stars",
+        "url": "https://esahubble.org/images/heic0815f/",
+        "publisher": "ESA/Hubble",
+        "evidence": "The 120,000-light-year-diameter galaxy"
+      },
+      {
+        "title": "Giant Galaxy Messier 87 finally sized up",
+        "url": "https://www.eso.org/public/news/eso0919/",
+        "publisher": "ESO",
+        "evidence": "with a diameter of about a million light-years"
+      },
+      {
+        "title": "First Image of a Black Hole",
+        "url": "https://www.eso.org/public/news/eso1907/",
+        "publisher": "ESO",
+        "evidence": "first direct visual evidence of a supermassive black hole and its shadow"
+      }
+    ],
+    "note": "Calcolo: 8,3' / 3437,75 × 54 milioni di anni luce = 130.400 anni luce = 1,23e21 m, entro il 2% del valore attuale (1,25e21 m, circa 132.000 anni luce). ESA/Hubble arrotonda a 120.000 anni luce (1,14e21 m, 9% in meno): la differenza dipende dall'isofota e dalla distanza adottate.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "galassia-ruota-di-carro",
+    "size": 1.4e+21,
+    "basis": "diametro dell'anello esterno",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "La Galassia Ruota di Carro è una galassia ad anello a circa 500 milioni di anni luce, nella costellazione dello Scultore. L'anello esterno, largo circa 150.000 anni luce, è nato dallo scontro frontale con una galassia più piccola che l'ha attraversata. Secondo la NASA contiene almeno alcuni miliardi di stelle nuove e potrebbe racchiudere l'intera Via Lattea.",
+    "sources": [
+      {
+        "title": "The Cartwheel Galaxy: A Starry Ring World Born in a Head-on Collision",
+        "url": "https://science.nasa.gov/asset/hubble/the-cartwheel-galaxy-a-starry-ring-world-born-in-a-head-on-collision/",
+        "publisher": "NASA Science (Hubble)",
+        "evidence": "so large (150,000 light-years across)"
+      },
+      {
+        "title": "Webb Captures Stellar Gymnastics in The Cartwheel Galaxy",
+        "url": "https://esawebb.org/news/weic2211/",
+        "publisher": "ESA/Webb",
+        "evidence": "located about 500 million light-years away in the Sculptor constellation"
+      }
+    ],
+    "note": "150.000 anni luce × 9,4607e15 m = 1,42e21 m, entro l'1,5% del valore attuale.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "andromeda",
+    "size": 1.44e+21,
+    "basis": "diametro maggiore del disco in luce visibile (diametro angolare × distanza)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Andromeda (M31) è la grande galassia a spirale più vicina alla Via Lattea, a 2,5 milioni di anni luce. Il disco visibile ha un asse maggiore di circa 190-200 primi d'arco, cioè circa 140.000-150.000 anni luce, e in cielo appare largo sei volte la Luna piena. Il suo alone di gas rarefatto è molto più esteso: Hubble lo ha tracciato fino a 1,3 milioni di anni luce dalla galassia.",
+    "sources": [
+      {
+        "title": "SIMBAD: M 31 (Andromeda Galaxy)",
+        "url": "https://simbad.harvard.edu/simbad/sim-id?Ident=M31",
+        "publisher": "SIMBAD, CDS Strasbourg (mirror CfA Harvard)",
+        "evidence": "Angular size (arcmin) : 199.53 70.79 35 (Opt)"
+      },
+      {
+        "title": "NED results for object MESSIER 031",
+        "url": "https://ned.ipac.caltech.edu/cgi-bin/objsearch?objname=M31&extend=no&hconst=73&omegam=0.27&omegav=0.73&corr_z=1&out_csys=Equatorial&out_equinox=J2000.0&obj_sort=RA+or+Longitude&of=pre_text&zv_breaker=30000.0&list_limit=5&img_stamp=NO",
+        "publisher": "NASA/IPAC Extragalactic Database (NED)",
+        "evidence": "Major Diameter (arcmin) : 190"
+      },
+      {
+        "title": "Messier 31",
+        "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-31/",
+        "publisher": "NASA Science",
+        "evidence": "Distance 2.5 million light-years"
+      },
+      {
+        "title": "Hubble Maps Giant Halo Around Andromeda Galaxy",
+        "url": "https://science.nasa.gov/missions/hubble/hubble-maps-giant-halo-around-andromeda-galaxy/",
+        "publisher": "NASA Science",
+        "evidence": "extends 1.3 million light-years from the galaxy"
+      }
+    ],
+    "note": "Calcolo: 199,53' / 3437,75 × 2,5 milioni di anni luce = 145.100 anni luce = 1,37e21 m (SIMBAD, 5% sotto il valore attuale); con i 190' di NED si ottengono 138.200 anni luce = 1,31e21 m (9% sotto). Il valore attuale (1,44e21 m, 152.000 anni luce) resta nella dispersione naturale del bordo di un disco galattico e viene mantenuto; la descrizione dà l'intervallo. Non ho trovato una pagina NASA o ESA che dichiari il diametro totale: le cifre di 220.000-260.000 anni luce che circolano online non sono state verificate su una fonte primaria e non sono citate.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "galassia-girandola",
+    "size": 1.6e+21,
+    "basis": "diametro del disco a spirale",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "La Galassia Girandola (M101) è una spirale vista di fronte nell'Orsa Maggiore, a circa 25 milioni di anni luce. Il suo disco di stelle, polveri e gas misura 170.000 anni luce, quasi il doppio della Via Lattea. Gli astronomi stimano che contenga almeno mille miliardi di stelle.",
+    "sources": [
+      {
+        "title": "Messier 101",
+        "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-101/",
+        "publisher": "NASA Science",
+        "evidence": "is 170,000 light-years across"
+      }
+    ],
+    "note": "170.000 anni luce × 9,4607e15 m = 1,61e21 m, entro l'1% del valore attuale. La descrizione era vuota.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "ngc-1232",
+    "size": 1.2e+21,
+    "basis": "diametro maggiore del disco (diametro angolare × distanza)",
+    "verdict": "corrected",
+    "flags": [
+      "r"
+    ],
+    "desc": "NGC 1232 è una galassia a spirale vista quasi di fronte nella costellazione dell'Eridano, a circa 60 milioni di anni luce. Il suo asse maggiore di 7,4 primi d'arco corrisponde a circa 130.000 anni luce, poco più della Via Lattea. Le osservazioni in raggi X di Chandra vi hanno rivelato una nube di gas a 6 milioni di gradi, probabile traccia dello scontro con una galassia nana.",
+    "sources": [
+      {
+        "title": "NGC 1232: Dwarf Galaxy Caught Ramming Into a Large Spiral",
+        "url": "https://chandra.harvard.edu/photo/2013/ngc1232/",
+        "publisher": "NASA Chandra X-ray Center",
+        "evidence": "Image is 6.8 arcmin across (About 120,000 light years)"
+      },
+      {
+        "title": "NED results for object NGC 1232",
+        "url": "https://ned.ipac.caltech.edu/cgi-bin/objsearch?objname=NGC1232&extend=no&hconst=73&omegam=0.27&omegav=0.73&corr_z=1&out_csys=Equatorial&out_equinox=J2000.0&obj_sort=RA+or+Longitude&of=pre_text&zv_breaker=30000.0&list_limit=5&img_stamp=NO",
+        "publisher": "NASA/IPAC Extragalactic Database (NED)",
+        "evidence": "Major Diameter (arcmin) : 7.4"
+      },
+      {
+        "title": "Spiral galaxy NGC 1232",
+        "url": "https://www.eso.org/public/images/eso9845d/",
+        "publisher": "ESO",
+        "evidence": "The distance is about 60 million light-years"
+      }
+    ],
+    "note": "Da 1,9e21 m (200.000 anni luce) a 1,2e21 m. Calcolo: 7,4' / 3437,75 × 60 milioni di anni luce = 129.000 anni luce = 1,22e21 m; coerente con Chandra (6,8' = circa 120.000 anni luce). Il valore di 200.000 anni luce viene dal comunicato ESO del 1998, che lo riferiva al lato del campo di 6,8' con una distanza di circa 100 milioni di anni luce; la pagina ESO dell'immagine oggi indica 60 milioni di anni luce ma conserva la vecchia cifra di 200.000, che a quella distanza non torna. Le distanze in NED vanno da circa 50 a 68 milioni di anni luce, quindi il diametro resta incerto di circa il 15%. La descrizione era vuota.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "ngc-4889",
+    "size": 2.3e+21,
+    "basis": "diametro maggiore del corpo luminoso (diametro angolare × distanza)",
+    "verdict": "confirmed",
+    "flags": [
+      "r"
+    ],
+    "desc": "NGC 4889 è una galassia ellittica gigante, la più grande e luminosa della regione centrale dell'ammasso della Chioma, a circa 300 milioni di anni luce. Il suo asse maggiore di 2,9 primi d'arco corrisponde a circa 250.000 anni luce. Al centro ospita un buco nero di 21 miliardi di masse solari, tra i più massicci mai misurati.",
+    "sources": [
+      {
+        "title": "NED results for object NGC 4889",
+        "url": "https://ned.ipac.caltech.edu/cgi-bin/objsearch?objname=NGC4889&extend=no&hconst=73&omegam=0.27&omegav=0.73&corr_z=1&out_csys=Equatorial&out_equinox=J2000.0&obj_sort=RA+or+Longitude&of=pre_text&zv_breaker=30000.0&list_limit=5&img_stamp=NO",
+        "publisher": "NASA/IPAC Extragalactic Database (NED)",
+        "evidence": "Major Diameter (arcmin) : 2.9"
+      },
+      {
+        "title": "The sleeping giant",
+        "url": "https://esahubble.org/news/heic1602/",
+        "publisher": "ESA/Hubble",
+        "evidence": "Located about 300 million light-years away in the Coma Cluster"
+      },
+      {
+        "title": "Caldwell 35",
+        "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-caldwell-catalog/caldwell-35/",
+        "publisher": "NASA Science",
+        "evidence": "With a mass 21 billion times greater than the Sun"
+      }
+    ],
+    "note": "Calcolo: 2,9' / 3437,75 × 300 milioni di anni luce = 253.000 anni luce = 2,39e21 m, entro il 4% del valore attuale (2,3e21 m, circa 243.000 anni luce). SIMBAD riporta un asse maggiore quasi identico (2,92'). L'alone diffuso è più esteso, ma non ho trovato una misura istituzionale da citare.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "galassia-girino",
+    "size": 2.65e+21,
+    "basis": "lunghezza della coda mareale di stelle e gas",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "La Galassia Girino (UGC 10214) è una spirale deformata a circa 420 milioni di anni luce, nella costellazione del Drago. L'incontro con una piccola galassia compatta le ha strappato una coda di stelle e gas lunga più di 280.000 anni luce. Nella coda brillano ammassi di giovani stelle blu, ciascuno con fino a circa un milione di stelle.",
+    "sources": [
+      {
+        "title": "A 'wallpaper' of distant galaxies is a stunning backdrop for a runaway galaxy",
+        "url": "https://esahubble.org/images/heic0206a/",
+        "publisher": "ESA/Hubble",
+        "evidence": "stretching out more than 280 000 light-years"
+      }
+    ],
+    "note": "280.000 anni luce × 9,4607e15 m = 2,65e21 m. La fonte dice \"più di 280.000\": il valore è un limite inferiore arrotondato.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "ic-1101",
+    "size": 1.6e+22,
+    "basis": "diametro del corpo principale fino al bordo misurato lungo l'asse maggiore (2 × R_edge)",
+    "verdict": "corrected",
+    "flags": [
+      "r",
+      "u"
+    ],
+    "desc": "IC 1101 è la galassia ellittica gigante al centro dell'ammasso Abell 2029, a oltre un miliardo di anni luce. Immagini molto profonde dell'Isaac Newton Telescope, descritte in uno studio del 2026 non ancora passato per la revisione paritaria, collocano il bordo a 260 kiloparsec dal centro, per un diametro di circa 520 kiloparsec, cioè 1,7 milioni di anni luce. Stime precedenti arrivavano a 5,6 milioni di anni luce, e il risultato dipende da come si definisce il bordo della galassia.",
+    "sources": [
+      {
+        "title": "How large can galaxies be? Ultra-deep imaging of IC 1101, the most extended known galaxy",
+        "url": "https://arxiv.org/abs/2607.15340",
+        "publisher": "Marrero-de la Rosa et al., arXiv (preprint)",
+        "evidence": "With a confirmed diameter of around 520 kpc"
+      },
+      {
+        "title": "The largest known galaxy is wider than 17 Milky Ways",
+        "url": "https://www.sciencenews.org/article/largest-known-galaxy-wider-milky-way",
+        "publisher": "Science News",
+        "evidence": "520 kiloparsecs, or nearly 1.7 million light-years"
+      },
+      {
+        "title": "Largest galaxy",
+        "url": "https://www.guinnessworldrecords.com/world-records/64901-largest-galaxy",
+        "publisher": "Guinness World Records",
+        "evidence": "has a major diameter of 5,600,000 light years"
+      }
+    ],
+    "note": "Da 3,8e22 m (circa 4 milioni di anni luce) a 1,6e22 m. Calcolo: 2 × 260 kpc = 520 kpc × 3,0857e19 m = 1,60e22 m (1,7 milioni di anni luce), con z = 0,077. È la prima misura di un bordo vero e proprio, ma viene da un preprint arXiv del luglio 2026: la flag u resta. Per i 4 milioni di anni luce precedenti non ho trovato una fonte primaria apribile; Guinness riporta 5,6 milioni senza indicare la misura d'origine. Rimossa la frase sull'alone che arriva a milioni di anni luce.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "alcioneo",
+    "size": 1.54e+23,
+    "basis": "lunghezza propria proiettata della radiogalassia, da un'estremità all'altra dei lobi",
+    "verdict": "confirmed",
+    "flags": [
+      "n"
+    ],
+    "desc": "Alcioneo è una radiogalassia gigante scoperta nelle immagini del radiotelescopio LOFAR e descritta nel 2022. I suoi lobi radio si estendono in proiezione per 4,99 megaparsec, circa 16 milioni di anni luce, e la lunghezza reale è almeno 5 megaparsec. Al momento della scoperta era la più grande struttura nota di origine galattica, primato passato nel 2024 a Porphyrion.",
+    "sources": [
+      {
+        "title": "The discovery of a radio galaxy of at least 5 Mpc",
+        "url": "https://arxiv.org/abs/2202.05427",
+        "publisher": "Oei et al., Astronomy & Astrophysics 660, A2 (2022), arXiv",
+        "evidence": "projected proper length of $4.99 \\pm 0.04\\ \\mathrm{Mpc}$"
+      }
+    ],
+    "note": "4,99 Mpc × 3,0857e22 m = 1,540e23 m = 16,3 milioni di anni luce. È una lunghezza proiettata sul piano del cielo, quindi un limite inferiore.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "porphyrion",
+    "size": 2.2e+23,
+    "basis": "lunghezza totale della coppia di getti, da un'estremità all'altra",
+    "verdict": "confirmed",
+    "flags": [
+      "n"
+    ],
+    "desc": "Porphyrion è una coppia di getti di plasma lanciati da un buco nero supermassiccio in una galassia a 7,5 miliardi di anni luce. Annunciata nel 2024 con i dati di LOFAR, uGMRT e Keck, si estende per circa 7 megaparsec, cioè 23 milioni di anni luce, quanto 140 Vie Lattee in fila. È la più grande struttura prodotta da una galassia finora osservata.",
+    "sources": [
+      {
+        "title": "Black hole jets on the scale of the Cosmic Web",
+        "url": "https://arxiv.org/abs/2411.08630",
+        "publisher": "Oei et al., Nature 633, 537-541 (2024), arXiv",
+        "evidence": "a black hole jet pair extending over $7$ megaparsecs"
+      },
+      {
+        "title": "Gargantuan Black Hole Jets Are Biggest Seen Yet",
+        "url": "https://www.caltech.edu/about/news/gargantuan-black-hole-jets-are-biggest-seen-yet",
+        "publisher": "Caltech",
+        "evidence": "spanning 23 million light-years in total length"
+      }
+    ],
+    "note": "7 Mpc × 3,0857e22 m = 2,16e23 m; 23 milioni di anni luce × 9,4607e15 m = 2,18e23 m. Il valore attuale (2,2e23 m) è entro il 2%.",
+    "verified": "2026-11-12"
+  }
+]

@@ -35,6 +35,9 @@ Aggiornato dopo ogni ondata. Le correzioni sono già applicate ai dati; le decis
 | Nebulosa Grotta | 6,6 × 10¹⁷ m | 3,8 × 10¹⁷ m | NASA Science (Caldwell 9): circa 40 anni luce |
 | Abell 2029 | 6 × 10²² m | 1,18 × 10²³ m | Walker e colleghi 2012 (MNRAS): r200 = 1,92 Mpc; il vecchio valore era il raggio, non il diametro |
 | Ammasso della Vergine | 1,4 × 10²³ m | 1,06 × 10²³ m | Kim e colleghi 2014 (ApJS): raggio viriale 1,72 Mpc, raddoppiato |
+| Galassia Sombrero | 9,0 × 10²⁰ m | 7,5 × 10²⁰ m | NED (8,7′) per la distanza di McQuinn e colleghi (9,55 Mpc); ESA/Hubble dice 50.000 anni luce; incerta |
+| NGC 1232 | 1,9 × 10²¹ m | 1,2 × 10²¹ m | Chandra X-ray Center: circa 120.000 anni luce; NED |
+| IC 1101 | 3,8 × 10²² m | 1,6 × 10²² m | Marrero-de la Rosa e colleghi 2026 (preprint arXiv 2607.15340): diametro circa 520 kpc; incerta |
 
 ## Decisioni aperte
 
@@ -113,12 +116,19 @@ Aggiornato dopo ogni ondata. Le correzioni sono già applicate ai dati; le decis
 72. **Superammasso della Vergine**: la NASA dice "circa 100 milioni di anni luce"; lasciati 110, segnato incerto.
 73. **Complesso Pesci-Balena**: unica fonte un atto di simposio ("circa 300 Mpc"). Segnato incerto.
 74. **Quipu**: "la più grande" è attribuito agli autori dello studio (2025), non è un primato accertato.
+75. **IC 1101**: il nuovo valore (1,7 milioni di anni luce) viene da un preprint del luglio 2026 non ancora revisionato; Guinness riporta 5,6 milioni senza indicare la misura d'origine, e i 4 milioni di partenza non hanno una fonte apribile. In alternativa: tenere il vecchio valore segnato incerto finché l'articolo non è pubblicato.
+76. **Galassia Sombrero**: 7,5 × 10²⁰ m (circa 79.000 anni luce) è derivato da dimensione angolare e distanza; ESA/Hubble dice 50.000 anni luce.
+77. **Andromeda e Virgo A (M87)**: confermate solo entro il 5–10%; nessuna pagina NASA o ESA dà il diametro di Andromeda.
+78. **Universo intero**: nessuna fonte per 1,6 × 10²⁷ m: è una convenzione. Tenuto come ipotetico e incerto; il ricercatore lo segnala come candidato alla rimozione. Decide Federico.
+79. **Grande Muraglia Ercole-Corona Boreale**: l'articolo dà 2.000–3.000 Mpc; i "10 miliardi di anni luce" erano la distanza, non la dimensione. Valore lasciato (2,6% sopra l'estremo superiore), descrizione corretta, esistenza dibattuta.
+80. **Supervuoto di Eridano, Vuoto KBC, Arco Gigante, Huge-LQG**: strutture dalla realtà o dall'estensione discussa, segnate incerte. Per il supervuoto l'intervallo 1,6–2,5 miliardi di anni luce assume h = 0,7.
 
 ## Da sistemare prima di chiudere la fase
 
 - **Flag "Aggiornato"**: le note "L'originale: …" vengono tolte dalle descrizioni (la versione del 2012 non è verificabile) e la chiave `dialog.diff.values` in `it.json` è stata aggiornata di conseguenza. Resta da decidere se il flag ha ancora senso così com'è.
 - **Fonti tecniche**: gli indirizzi REST di Europe PMC e PubChem sono stati sostituiti con le pagine PubMed, PubMed Central e PubChem (identificativi ricontrollati). Per Apophis, Bennu e Cruithne è citata la pagina del JPL Small-Body Database, ma le cifre sono state lette tramite l'API perché la pagina si carica in modo dinamico.
 - **Fonte non leggibile**: per UY Scuti la cifra di circa 909 R☉ è citata da un file CSV grezzo su GitHub (dati degli autori di Healy e colleghi 2024), non da una pagina. Da sostituire o accompagnare con l'articolo.
+- **Indirizzi NED**: le fonti NED di galaxies-2 usano lunghi indirizzi di ricerca della vecchia interfaccia, che a tratti rispondono 503. Da sostituire con le pagine oggetto stabili, se esistono.
 - **Fonti secondarie da migliorare**: Monte Bianco 2026 (Euronews invece del comunicato dei geometri), Grande Muraglia (Chinaculture.org invece dell'amministrazione statale), Uluru (EBSCO per la lunghezza), Halley (tolta la frase sull'afelio del dicembre 2023, sostenuta solo da siti di notizie).
 - **Vaticano**: la superficie nella descrizione è passata da 0,49 a 0,44 km² (dato della Santa Sede).
 - **Link che rifiutano le richieste automatiche** (da aprire a mano): TSMC (gate dei transistor in produzione), Karger (cellula della pelle), Humanists UK (teiera di Russell).
@@ -128,8 +138,8 @@ Aggiornato dopo ogni ondata. Le correzioni sono già applicate ai dati; le decis
 
 ## Avanzamento
 
-Lotti applicati: black-holes, particles-1/2, atoms-1/2, waves-1/2, molecules-1/2, units-1/2/3, biology-1/2/3/4/5, objects-1/2/3/4/5, places-1/2/3/4, solar-system-1/2/3/4/5, stars-1/2/3/4, distances-1/2/3, nebulae-1/2/3, cosmic-1 (415 oggetti su 447).
+Lotti applicati: black-holes, particles-1/2, atoms-1/2, waves-1/2, molecules-1/2, units-1/2/3, biology-1/2/3/4/5, objects-1/2/3/4/5, places-1/2/3/4, solar-system-1/2/3/4/5, stars-1/2/3/4, distances-1/2/3, nebulae-1/2/3, galaxies-2, cosmic-1/2 (434 oggetti su 447).
 
-Lotti da fare: galaxies-1/2, cosmic-2.
+Lotti da fare: galaxies-1.
 
 Per ogni lotto: `node scripts/apply-research.mjs --check`, `node scripts/check-links.mjs`, campione di fonti riletto in modo indipendente, poi `node scripts/apply-research.mjs`, `npm run validate`, `npm test`, commit.

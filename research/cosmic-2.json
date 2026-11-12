@@ -1,0 +1,200 @@
+[
+  {
+    "id": "grande-muraglia-sloan",
+    "size": 1.3e25,
+    "basis": "lunghezza osservata della struttura, misurata lungo la sua curva",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "La Grande Muraglia Sloan è un filamento di galassie individuato nei dati della Sloan Digital Sky Survey, a una distanza mediana di circa 310 megaparsec, cioè circa un miliardo di anni luce. La sua lunghezza osservata è di 1,37 miliardi di anni luce, che diventano 450 megaparsec in coordinate comoventi. Gli autori della misura la descrissero come la più grande struttura osservata fino ad allora, l'80% più lunga della Grande Muraglia scoperta da Geller e Huchra.",
+    "sources": [
+      {
+        "title": "A Map of the Universe",
+        "url": "https://arxiv.org/abs/astro-ph/0310571",
+        "publisher": "Gott, Jurić, Schlegel et al., arXiv",
+        "evidence": "Sloan Great Wall of galaxies 1.37 billion light years long"
+      }
+    ],
+    "note": "Calcolo: 1,37e9 anni luce × 9,461e15 m = 1,296e25 m, arrotondato a 1,3e25 m. Nel testo completo dell'articolo (PDF arXiv, aperto) la lunghezza osservata è 419 Mpc (1.365 milioni di anni luce) e quella comovente 450 Mpc (1,39e25 m); distanza mediana 310 Mpc × 3,2616 = circa 1,01 miliardi di anni luce. Il primato vale per l'epoca dell'articolo: strutture più estese sono state proposte in seguito.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "supervuoto-di-eridano",
+    "size": 1.7e25,
+    "basis": "diametro del supervuoto (due volte il raggio stimato)",
+    "verdict": "uncertain",
+    "flags": ["r", "u"],
+    "desc": "Il supervuoto di Eridano è una vasta regione povera di galassie, a circa 3 miliardi di anni luce, allineata con la Macchia Fredda del fondo cosmico a microonde. Chi lo ha individuato nel 2015 gli attribuisce un diametro di circa 1,8 miliardi di anni luce, ma il raggio misurato ha un errore di circa il 23%, quindi il diametro può andare da circa 1,6 a 2,5 miliardi di anni luce. Secondo analisi successive, nel modello cosmologico standard il vuoto spiega solo il 10-20% del raffreddamento osservato.",
+    "sources": [
+      {
+        "title": "Detection of a Supervoid Aligned with the Cold Spot of the Cosmic Microwave Background",
+        "url": "https://arxiv.org/abs/1405.1566",
+        "publisher": "Szapudi, Kovács, Granett et al., arXiv",
+        "evidence": "R_void=(220 ± 50) h^-1 Mpc"
+      },
+      {
+        "title": "Cold cosmic mystery solved",
+        "url": "https://manoa.hawaii.edu/news/article.php?aId=7167",
+        "publisher": "University of Hawaiʻi at Mānoa",
+        "evidence": "a vast region 1.8 billion light-years across"
+      },
+      {
+        "title": "The DES view of the Eridanus supervoid and the CMB Cold Spot",
+        "url": "https://arxiv.org/abs/2112.07699",
+        "publisher": "Kovács et al. (Dark Energy Survey), arXiv",
+        "evidence": "only about 10-20% of the observed temperature depression can be accounted for"
+      }
+    ],
+    "note": "Valore attuale: 1,8e9 anni luce × 9,461e15 m = 1,70e25 m, la cifra del comunicato dell'Università delle Hawaii. Dall'articolo: raggio 220 ± 50 h^-1 Mpc; con h = 0,7 il diametro è 2 × 220 / 0,7 = 629 Mpc = 1,94e25 m (2,05 miliardi di anni luce), con intervallo 486-771 Mpc = 1,5e25-2,4e25 m (1,6-2,5 miliardi di anni luce). La scelta h = 0,7 è mia, non dell'abstract. Il valore attuale sta dentro l'intervallo e resta invariato. Un altro studio (Mackenzie et al. 2017, arXiv:1704.03814, aperto ma non citato) conclude che il vuoto non basta a spiegare la Macchia Fredda.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "vuoto-kbc",
+    "size": 1.9e25,
+    "basis": "diametro della regione sottodensa (due volte il raggio di circa 300 Mpc attorno al Gruppo Locale)",
+    "verdict": "uncertain",
+    "flags": ["n", "u"],
+    "desc": "Il vuoto KBC, dal nome di Keenan, Barger e Cowie che lo hanno proposto nel 2013, è una possibile regione a bassa densità che circonda il Gruppo Locale fino a circa 300 megaparsec. Il diametro è quindi di circa 600 megaparsec, cioè circa 2 miliardi di anni luce, con una densità di materia stimata inferiore alla media di circa il 46%. La sua esistenza e la sua profondità sono discusse, anche perché un vuoto simile potrebbe influire sulla misura locale della costante di Hubble.",
+    "sources": [
+      {
+        "title": "Evidence for a ~300 Mpc Scale Under-density in the Local Galaxy Distribution",
+        "url": "https://arxiv.org/abs/1304.2884",
+        "publisher": "Keenan, Barger, Cowie, arXiv",
+        "evidence": "~300 Mpc Scale Under-density in the Local Galaxy Distribution"
+      },
+      {
+        "title": "The KBC void and Hubble tension contradict ΛCDM on a Gpc scale",
+        "url": "https://arxiv.org/abs/2009.11292",
+        "publisher": "Haslbauer, Banik, Kroupa, arXiv",
+        "evidence": "0.46 ± 0.06 between 40 and 300 Mpc around the Local Group"
+      }
+    ],
+    "note": "Calcolo: 2 × 300 Mpc = 600 Mpc × 3,0857e22 m = 1,85e25 m (1,96 miliardi di anni luce); il valore attuale 1,9e25 m differisce di meno del 3% e resta invariato. Il bordo non è netto: 300 Mpc è una scala indicativa. Che il risultato sia discusso lo indicano gli stessi abstract (\"may be lower\", incompatibilità con ΛCDM secondo Haslbauer et al.); non ho citato un singolo lavoro che lo neghi.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "arco-gigante",
+    "size": 3.1e25,
+    "basis": "estensione dell'arco (dimensione propria riportata all'epoca attuale)",
+    "verdict": "uncertain",
+    "flags": ["n", "u"],
+    "desc": "L'Arco Gigante è una struttura a forma di arco quasi simmetrico nella costellazione del Boote, a oltre 9,2 miliardi di anni luce, annunciata nel 2021. Si estende per circa 1 gigaparsec, cioè circa 3,3 miliardi di anni luce, ed è stato trovato grazie all'assorbimento del magnesio negli spettri di quasar più lontani. Gli autori stimano una significatività statistica compresa tra 3 e 4,8 sigma secondo il metodo usato e parlano con cautela di una possibile sfida al principio cosmologico.",
+    "sources": [
+      {
+        "title": "A Giant Arc on the Sky",
+        "url": "https://arxiv.org/abs/2201.06875",
+        "publisher": "Lopez, Clowes, Williger, arXiv",
+        "evidence": "spans ∼1 Gpc (proper size, present epoch)"
+      },
+      {
+        "title": "Discovery of a Giant Arc in distant space adds to challenges to basic assumptions about the Universe",
+        "url": "https://www.uclan.ac.uk/news/discovery-of-a-giant-arc-in-distant-space-adds-to-challenges-to-basic-assumptions-about-the-universe",
+        "publisher": "University of Central Lancashire",
+        "evidence": "spanning 3.3 billion light years"
+      }
+    ],
+    "note": "Calcolo: 1 Gpc = 3,086e25 m; 3,3e9 anni luce × 9,461e15 m = 3,12e25 m. Il valore attuale 3,1e25 m è coerente con entrambi. La frase \"potrebbe essere un allineamento casuale\" della descrizione precedente è stata sostituita con le significatività dichiarate dagli autori (circa 4,5, 3,0 e 4,8 sigma), perché non ho aperto un lavoro indipendente che la sostenga. Il comunicato è datato 7 giugno 2021.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "huge-lqg",
+    "size": 3.8e25,
+    "basis": "dimensione maggiore del gruppo di quasar (dimensione propria riportata all'epoca attuale)",
+    "verdict": "uncertain",
+    "flags": ["n", "u"],
+    "desc": "Lo Huge-LQG è un grande gruppo di 73 quasar a redshift medio 1,27, individuato nel catalogo della Sloan Digital Sky Survey e descritto nel 2012. La sua dimensione maggiore è di circa 1.240 megaparsec, cioè circa 4 miliardi di anni luce, mentre la dimensione caratteristica è di circa 500 megaparsec. La sua realtà fisica è contestata: un'analisi successiva mostra che lo stesso algoritmo trova raggruppamenti ancora più estesi in distribuzioni casuali di punti.",
+    "sources": [
+      {
+        "title": "A structure in the early universe at z ~ 1.3 that exceeds the homogeneity scale of the R-W concordance cosmology",
+        "url": "https://arxiv.org/abs/1211.6256",
+        "publisher": "Clowes, Harris, Raghunathan et al., arXiv",
+        "evidence": "longest dimension ~ 1240 Mpc, membership of 73 quasars"
+      },
+      {
+        "title": "Seeing patterns in noise: Gigaparsec-scale 'structures' that do not violate homogeneity",
+        "url": "https://arxiv.org/abs/1306.1700",
+        "publisher": "Nadathur, arXiv",
+        "evidence": "regularly finds even larger clusters of points, extending over Gpc scales"
+      }
+    ],
+    "note": "Calcolo: 1.240 Mpc × 3,0857e22 m = 3,83e25 m (4,04 miliardi di anni luce); il valore attuale 3,8e25 m è confermato come cifra. Il verdetto è \"uncertain\" perché l'esistenza della struttura come oggetto fisico è contestata. L'anno 2012 è quello dell'identificativo arXiv 1211 (novembre 2012).",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "grande-muraglia-ercole-corona-boreale",
+    "size": 9.5e25,
+    "basis": "estensione massima della concentrazione di lampi gamma (estremo superiore dell'intervallo stimato)",
+    "verdict": "uncertain",
+    "flags": ["n", "u"],
+    "desc": "La Grande Muraglia Ercole-Corona Boreale è una concentrazione di lampi gamma a redshift circa 2, a una distanza di circa 10 miliardi di anni luce: 14 dei 31 lampi di quella fascia cadono in circa un ottavo del cielo. Gli autori ne stimano l'estensione tra 2.000 e 3.000 megaparsec, cioè tra circa 6,5 e 9,8 miliardi di anni luce. Se fosse reale sarebbe la più grande struttura nota, ma gli stessi scopritori scrivono che per stabilire se esiste davvero servono nuovi dati.",
+    "sources": [
+      {
+        "title": "Possible structure in the GRB sky distribution at redshift two",
+        "url": "https://arxiv.org/abs/1401.0533",
+        "publisher": "Horváth, Hakkila, Bagoly, arXiv",
+        "evidence": "The size of the structure defined by these GRBs is about 2000-3000 Mpc"
+      },
+      {
+        "title": "The clustering of gamma-ray bursts in the Hercules-Corona Borealis Great Wall: the largest structure in the Universe?",
+        "url": "https://arxiv.org/abs/2008.03679",
+        "publisher": "Horváth, Szécsi, Hakkila et al., arXiv",
+        "evidence": "to be able to decide conclusively whether it actually exists, we need THESEUS"
+      }
+    ],
+    "note": "Calcolo: 2.000-3.000 Mpc × 3,0857e22 m = 6,2e25-9,3e25 m (6,5-9,8 miliardi di anni luce). Il valore attuale 9,5e25 m (10 miliardi di anni luce) supera del 2,6% l'estremo superiore: resta invariato, ma corrisponde al massimo dell'intervallo, non al valore centrale (circa 7,7e25 m). La descrizione precedente attribuiva i \"circa 10 miliardi di anni luce\" alla dimensione: nell'articolo quella cifra è la distanza della struttura, e la descrizione è stata corretta.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "universo-osservabile",
+    "size": 8.8e26,
+    "basis": "diametro comovente (due volte la distanza attuale dell'orizzonte delle particelle)",
+    "verdict": "confirmed",
+    "flags": ["r"],
+    "desc": "L'universo osservabile è la sfera, centrata sulla Terra, da cui la luce ha avuto il tempo di raggiungerci dall'inizio dell'espansione. Il suo raggio attuale è di circa 14.300 megaparsec, quindi il diametro è di circa 93 miliardi di anni luce. È più grande di quanto suggerisca l'età dell'universo, circa 13,8 miliardi di anni, perché nel frattempo lo spazio si è espanso.",
+    "sources": [
+      {
+        "title": "A Map of the Universe",
+        "url": "https://arxiv.org/abs/astro-ph/0310571",
+        "publisher": "Gott, Jurić, Schlegel et al., arXiv",
+        "evidence": "a co-moving distance of χRH0 = 3.38RH0 = 14,300 Mpc"
+      },
+      {
+        "title": "Age & Size of the Universe Through the Years (Cosmic Times)",
+        "url": "https://imagine.gsfc.nasa.gov/educators/programs/cosmictimes/educators/guide/age_size.html",
+        "publisher": "NASA Goddard Space Flight Center",
+        "evidence": "Size: 94 Billion Light Years"
+      },
+      {
+        "title": "Planck reveals an almost perfect Universe",
+        "url": "https://www.esa.int/Science_Exploration/Space_Science/Planck/Planck_reveals_an_almost_perfect_Universe",
+        "publisher": "ESA",
+        "evidence": "the age of the Universe is 13.82 billion years"
+      }
+    ],
+    "note": "Calcolo: 2 × 14.300 Mpc = 28.600 Mpc × 3,0857e22 m = 8,83e26 m; 28.600 Mpc × 3,2616e6 = 93,3 miliardi di anni luce. La cifra di 14.300 Mpc è nel testo completo dell'articolo (PDF arXiv, equazione 11), non nell'abstract. La pagina NASA dà 94 miliardi di anni luce (47 di raggio), entro l'1% dal valore attuale.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "universo-intero",
+    "size": 1.6e27,
+    "basis": "valore convenzionale ereditato dall'elenco originale: la dimensione dell'universo intero non è misurata",
+    "verdict": "uncertain",
+    "flags": ["i", "u"],
+    "desc": "Nessuno conosce la dimensione dell'universo intero, cioè di tutto ciò che esiste oltre la parte che possiamo osservare: potrebbe essere finito oppure infinito. Le misure del satellite WMAP indicano che la curvatura dello spazio è nulla entro lo 0,4%, un risultato compatibile con un universo infinito ma che non lo dimostra. La dimensione indicata qui è quindi soltanto una convenzione, non una misura.",
+    "sources": [
+      {
+        "title": "Is the Universe finite or infinite? An interview with Joseph Silk",
+        "url": "https://www.esa.int/Science_Exploration/Space_Science/Is_the_Universe_finite_or_infinite_An_interview_with_Joseph_Silk",
+        "publisher": "ESA",
+        "evidence": "We do not know whether the Universe is finite or not."
+      },
+      {
+        "title": "WMAP Overview",
+        "url": "https://science.nasa.gov/mission/wmap/wmap-overview/",
+        "publisher": "NASA Science",
+        "evidence": "curvature of space to within 0.4% of \"flat\" Euclidean"
+      }
+    ],
+    "note": "Non esiste una fonte per 1,6e27 m: è la stima convenzionale con cui si chiudeva l'elenco originale, mantenuta solo come posizione nella scala. Verdetto \"uncertain\" con flag u aggiunto a i, come per gli altri oggetti la cui dimensione è una convenzione. Se si preferisce non mostrare un numero senza fonte, l'oggetto è un candidato alla rimozione o a una resa senza dimensione. La vecchia pagina NASA WMAP sulla forma dell'universo ora reindirizza alla pagina citata.",
+    "verified": "2026-11-12"
+  }
+]

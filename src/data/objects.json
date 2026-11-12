@@ -8392,20 +8392,42 @@
     "verified": null
   },
   {
-    "id": "via-lattea",
-    "size": 830000000000000000000,
+    "id": "galassia-sombrero",
+    "size": 750000000000000000000,
     "kind": "x",
     "glyph": "",
     "flags": [
-      "r"
+      "r",
+      "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "NED results for object MESSIER 104",
+        "url": "https://ned.ipac.caltech.edu/cgi-bin/objsearch?objname=M104&extend=no&hconst=73&omegam=0.27&omegav=0.73&corr_z=1&out_csys=Equatorial&out_equinox=J2000.0&obj_sort=RA+or+Longitude&of=pre_text&zv_breaker=30000.0&list_limit=5&img_stamp=NO",
+        "publisher": "NASA/IPAC Extragalactic Database (NED)"
+      },
+      {
+        "title": "The Distance to M104",
+        "url": "https://arxiv.org/abs/1610.03857",
+        "publisher": "McQuinn et al., The Astronomical Journal, arXiv"
+      },
+      {
+        "title": "Hubble mosaic of the majestic Sombrero Galaxy",
+        "url": "https://esahubble.org/images/opo0328a/",
+        "publisher": "ESA/Hubble"
+      },
+      {
+        "title": "Messier 104",
+        "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-104/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
-    "id": "galassia-sombrero",
-    "size": 900000000000000000000,
+    "id": "via-lattea",
+    "size": 830000000000000000000,
     "kind": "x",
     "glyph": "",
     "flags": [
@@ -8437,6 +8459,34 @@
     "verified": "2026-11-12"
   },
   {
+    "id": "ngc-1232",
+    "size": 1.2e+21,
+    "kind": "x",
+    "glyph": "",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [
+      {
+        "title": "NGC 1232: Dwarf Galaxy Caught Ramming Into a Large Spiral",
+        "url": "https://chandra.harvard.edu/photo/2013/ngc1232/",
+        "publisher": "NASA Chandra X-ray Center"
+      },
+      {
+        "title": "NED results for object NGC 1232",
+        "url": "https://ned.ipac.caltech.edu/cgi-bin/objsearch?objname=NGC1232&extend=no&hconst=73&omegam=0.27&omegav=0.73&corr_z=1&out_csys=Equatorial&out_equinox=J2000.0&obj_sort=RA+or+Longitude&of=pre_text&zv_breaker=30000.0&list_limit=5&img_stamp=NO",
+        "publisher": "NASA/IPAC Extragalactic Database (NED)"
+      },
+      {
+        "title": "Spiral galaxy NGC 1232",
+        "url": "https://www.eso.org/public/images/eso9845d/",
+        "publisher": "ESO"
+      }
+    ],
+    "verified": "2026-11-12"
+  },
+  {
     "id": "virgo-a",
     "size": 1.25e+21,
     "kind": "x",
@@ -8445,8 +8495,34 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "NED results for object MESSIER 087",
+        "url": "https://ned.ipac.caltech.edu/cgi-bin/objsearch?objname=M87&extend=no&hconst=73&omegam=0.27&omegav=0.73&corr_z=1&out_csys=Equatorial&out_equinox=J2000.0&obj_sort=RA+or+Longitude&of=pre_text&zv_breaker=30000.0&list_limit=5&img_stamp=NO",
+        "publisher": "NASA/IPAC Extragalactic Database (NED)"
+      },
+      {
+        "title": "Messier 87",
+        "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-87/",
+        "publisher": "NASA Science"
+      },
+      {
+        "title": "Lord of the stars",
+        "url": "https://esahubble.org/images/heic0815f/",
+        "publisher": "ESA/Hubble"
+      },
+      {
+        "title": "Giant Galaxy Messier 87 finally sized up",
+        "url": "https://www.eso.org/public/news/eso0919/",
+        "publisher": "ESO"
+      },
+      {
+        "title": "First Image of a Black Hole",
+        "url": "https://www.eso.org/public/news/eso1907/",
+        "publisher": "ESO"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "galassia-ruota-di-carro",
@@ -8455,8 +8531,19 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "The Cartwheel Galaxy: A Starry Ring World Born in a Head-on Collision",
+        "url": "https://science.nasa.gov/asset/hubble/the-cartwheel-galaxy-a-starry-ring-world-born-in-a-head-on-collision/",
+        "publisher": "NASA Science (Hubble)"
+      },
+      {
+        "title": "Webb Captures Stellar Gymnastics in The Cartwheel Galaxy",
+        "url": "https://esawebb.org/news/weic2211/",
+        "publisher": "ESA/Webb"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "andromeda",
@@ -8465,8 +8552,29 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "SIMBAD: M 31 (Andromeda Galaxy)",
+        "url": "https://simbad.harvard.edu/simbad/sim-id?Ident=M31",
+        "publisher": "SIMBAD, CDS Strasbourg (mirror CfA Harvard)"
+      },
+      {
+        "title": "NED results for object MESSIER 031",
+        "url": "https://ned.ipac.caltech.edu/cgi-bin/objsearch?objname=M31&extend=no&hconst=73&omegam=0.27&omegav=0.73&corr_z=1&out_csys=Equatorial&out_equinox=J2000.0&obj_sort=RA+or+Longitude&of=pre_text&zv_breaker=30000.0&list_limit=5&img_stamp=NO",
+        "publisher": "NASA/IPAC Extragalactic Database (NED)"
+      },
+      {
+        "title": "Messier 31",
+        "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-31/",
+        "publisher": "NASA Science"
+      },
+      {
+        "title": "Hubble Maps Giant Halo Around Andromeda Galaxy",
+        "url": "https://science.nasa.gov/missions/hubble/hubble-maps-giant-halo-around-andromeda-galaxy/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "galassia-girandola",
@@ -8475,18 +8583,14 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
-  },
-  {
-    "id": "ngc-1232",
-    "size": 1.9e+21,
-    "kind": "x",
-    "glyph": "",
-    "flags": [],
-    "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Messier 101",
+        "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-101/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "ngc-4889",
@@ -8497,8 +8601,24 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "NED results for object NGC 4889",
+        "url": "https://ned.ipac.caltech.edu/cgi-bin/objsearch?objname=NGC4889&extend=no&hconst=73&omegam=0.27&omegav=0.73&corr_z=1&out_csys=Equatorial&out_equinox=J2000.0&obj_sort=RA+or+Longitude&of=pre_text&zv_breaker=30000.0&list_limit=5&img_stamp=NO",
+        "publisher": "NASA/IPAC Extragalactic Database (NED)"
+      },
+      {
+        "title": "The sleeping giant",
+        "url": "https://esahubble.org/news/heic1602/",
+        "publisher": "ESA/Hubble"
+      },
+      {
+        "title": "Caldwell 35",
+        "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-caldwell-catalog/caldwell-35/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "galassia-girino",
@@ -8507,8 +8627,14 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "A 'wallpaper' of distant galaxies is a stunning backdrop for a runaway galaxy",
+        "url": "https://esahubble.org/images/heic0206a/",
+        "publisher": "ESA/Hubble"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "strada-percorsa-dalla-terra-attorno-al-sole",
@@ -8532,6 +8658,35 @@
     "verified": "2026-11-12"
   },
   {
+    "id": "ic-1101",
+    "size": 1.6e+22,
+    "kind": "x",
+    "glyph": "E",
+    "flags": [
+      "r",
+      "u"
+    ],
+    "image": null,
+    "sources": [
+      {
+        "title": "How large can galaxies be? Ultra-deep imaging of IC 1101, the most extended known galaxy",
+        "url": "https://arxiv.org/abs/2607.15340",
+        "publisher": "Marrero-de la Rosa et al., arXiv (preprint)"
+      },
+      {
+        "title": "The largest known galaxy is wider than 17 Milky Ways",
+        "url": "https://www.sciencenews.org/article/largest-known-galaxy-wider-milky-way",
+        "publisher": "Science News"
+      },
+      {
+        "title": "Largest galaxy",
+        "url": "https://www.guinnessworldrecords.com/world-records/64901-largest-galaxy",
+        "publisher": "Guinness World Records"
+      }
+    ],
+    "verified": "2026-11-12"
+  },
+  {
     "id": "distanza-di-andromeda",
     "size": 2.4e+22,
     "kind": "d",
@@ -8548,19 +8703,6 @@
       }
     ],
     "verified": "2026-11-12"
-  },
-  {
-    "id": "ic-1101",
-    "size": 3.8e+22,
-    "kind": "x",
-    "glyph": "E",
-    "flags": [
-      "r",
-      "u"
-    ],
-    "image": null,
-    "sources": [],
-    "verified": null
   },
   {
     "id": "ammasso-della-fornace",
@@ -8661,8 +8803,14 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "The discovery of a radio galaxy of at least 5 Mpc",
+        "url": "https://arxiv.org/abs/2202.05427",
+        "publisher": "Oei et al., Astronomy & Astrophysics 660, A2 (2022), arXiv"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "porphyrion",
@@ -8673,8 +8821,19 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Black hole jets on the scale of the Cosmic Web",
+        "url": "https://arxiv.org/abs/2411.08630",
+        "publisher": "Oei et al., Nature 633, 537-541 (2024), arXiv"
+      },
+      {
+        "title": "Gargantuan Black Hole Jets Are Biggest Seen Yet",
+        "url": "https://www.caltech.edu/about/news/gargantuan-black-hole-jets-are-biggest-seen-yet",
+        "publisher": "Caltech"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "yottametro",
@@ -8862,8 +9021,14 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "A Map of the Universe",
+        "url": "https://arxiv.org/abs/astro-ph/0310571",
+        "publisher": "Gott, Jurić, Schlegel et al., arXiv"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "supervuoto-di-eridano",
@@ -8875,8 +9040,24 @@
       "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Detection of a Supervoid Aligned with the Cold Spot of the Cosmic Microwave Background",
+        "url": "https://arxiv.org/abs/1405.1566",
+        "publisher": "Szapudi, Kovács, Granett et al., arXiv"
+      },
+      {
+        "title": "Cold cosmic mystery solved",
+        "url": "https://manoa.hawaii.edu/news/article.php?aId=7167",
+        "publisher": "University of Hawaiʻi at Mānoa"
+      },
+      {
+        "title": "The DES view of the Eridanus supervoid and the CMB Cold Spot",
+        "url": "https://arxiv.org/abs/2112.07699",
+        "publisher": "Kovács et al. (Dark Energy Survey), arXiv"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "vuoto-kbc",
@@ -8888,8 +9069,19 @@
       "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Evidence for a ~300 Mpc Scale Under-density in the Local Galaxy Distribution",
+        "url": "https://arxiv.org/abs/1304.2884",
+        "publisher": "Keenan, Barger, Cowie, arXiv"
+      },
+      {
+        "title": "The KBC void and Hubble tension contradict ΛCDM on a Gpc scale",
+        "url": "https://arxiv.org/abs/2009.11292",
+        "publisher": "Haslbauer, Banik, Kroupa, arXiv"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "gigaparsec",
@@ -8922,8 +9114,19 @@
       "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "A Giant Arc on the Sky",
+        "url": "https://arxiv.org/abs/2201.06875",
+        "publisher": "Lopez, Clowes, Williger, arXiv"
+      },
+      {
+        "title": "Discovery of a Giant Arc in distant space adds to challenges to basic assumptions about the Universe",
+        "url": "https://www.uclan.ac.uk/news/discovery-of-a-giant-arc-in-distant-space-adds-to-challenges-to-basic-assumptions-about-the-universe",
+        "publisher": "University of Central Lancashire"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "huge-lqg",
@@ -8935,8 +9138,19 @@
       "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "A structure in the early universe at z ~ 1.3 that exceeds the homogeneity scale of the R-W concordance cosmology",
+        "url": "https://arxiv.org/abs/1211.6256",
+        "publisher": "Clowes, Harris, Raghunathan et al., arXiv"
+      },
+      {
+        "title": "Seeing patterns in noise: Gigaparsec-scale 'structures' that do not violate homogeneity",
+        "url": "https://arxiv.org/abs/1306.1700",
+        "publisher": "Nadathur, arXiv"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "grande-muraglia-ercole-corona-boreale",
@@ -8948,8 +9162,19 @@
       "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Possible structure in the GRB sky distribution at redshift two",
+        "url": "https://arxiv.org/abs/1401.0533",
+        "publisher": "Horváth, Hakkila, Bagoly, arXiv"
+      },
+      {
+        "title": "The clustering of gamma-ray bursts in the Hercules-Corona Borealis Great Wall: the largest structure in the Universe?",
+        "url": "https://arxiv.org/abs/2008.03679",
+        "publisher": "Horváth, Szécsi, Hakkila et al., arXiv"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "distanza-dell-hubble-deep-field",
@@ -9025,8 +9250,24 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "A Map of the Universe",
+        "url": "https://arxiv.org/abs/astro-ph/0310571",
+        "publisher": "Gott, Jurić, Schlegel et al., arXiv"
+      },
+      {
+        "title": "Age & Size of the Universe Through the Years (Cosmic Times)",
+        "url": "https://imagine.gsfc.nasa.gov/educators/programs/cosmictimes/educators/guide/age_size.html",
+        "publisher": "NASA Goddard Space Flight Center"
+      },
+      {
+        "title": "Planck reveals an almost perfect Universe",
+        "url": "https://www.esa.int/Science_Exploration/Space_Science/Planck/Planck_reveals_an_almost_perfect_Universe",
+        "publisher": "ESA"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "universo-intero",
@@ -9034,10 +9275,22 @@
     "kind": "c",
     "glyph": "",
     "flags": [
-      "i"
+      "i",
+      "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Is the Universe finite or infinite? An interview with Joseph Silk",
+        "url": "https://www.esa.int/Science_Exploration/Space_Science/Is_the_Universe_finite_or_infinite_An_interview_with_Joseph_Silk",
+        "publisher": "ESA"
+      },
+      {
+        "title": "WMAP Overview",
+        "url": "https://science.nasa.gov/mission/wmap/wmap-overview/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   }
 ]

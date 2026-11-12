@@ -1746,7 +1746,7 @@
     },
     "galassia-sombrero": {
       "name": "Galassia Sombrero",
-      "desc": "Circa 95.000 anni luce. L'originale: 53.000."
+      "desc": "La Galassia Sombrero (M104) è una spirale vista quasi di taglio nella costellazione della Vergine, con un grande rigonfiamento centrale e una banda scura di polveri. Il diametro maggiore di 8,7 primi d'arco, alla distanza di 9,55 megaparsec (circa 31 milioni di anni luce), corrisponde a circa 79.000 anni luce, ma le fonti vanno dai 50.000 anni luce indicati da ESA/Hubble a valori più alti secondo dove si pone il bordo. Hubble vi distingue quasi 2.000 ammassi globulari, circa dieci volte quelli della Via Lattea."
     },
     "zettametro": {
       "name": "Zettametro",
@@ -1754,31 +1754,31 @@
     },
     "virgo-a": {
       "name": "Virgo A",
-      "desc": "Messier 87, la galassia ellittica del primo buco nero fotografato."
+      "desc": "Virgo A è la radiosorgente associata a Messier 87, galassia ellittica gigante dell'ammasso della Vergine a circa 54 milioni di anni luce. Il corpo luminoso misura circa 130.000 anni luce (ESA/Hubble indica 120.000), mentre l'alone di stelle arriva a circa un milione di anni luce di diametro secondo le misure del VLT. Il buco nero al suo centro è il primo di cui sia stata ottenuta un'immagine, pubblicata nel 2019 dall'Event Horizon Telescope."
     },
     "galassia-ruota-di-carro": {
       "name": "Galassia Ruota di Carro",
-      "desc": "Un anello nato da uno scontro frontale."
+      "desc": "La Galassia Ruota di Carro è una galassia ad anello a circa 500 milioni di anni luce, nella costellazione dello Scultore. L'anello esterno, largo circa 150.000 anni luce, è nato dallo scontro frontale con una galassia più piccola che l'ha attraversata. Secondo la NASA contiene almeno alcuni miliardi di stelle nuove e potrebbe racchiudere l'intera Via Lattea."
     },
     "andromeda": {
       "name": "Andromeda",
-      "desc": "Circa 152.000 anni luce."
+      "desc": "Andromeda (M31) è la grande galassia a spirale più vicina alla Via Lattea, a 2,5 milioni di anni luce. Il disco visibile ha un asse maggiore di circa 190-200 primi d'arco, cioè circa 140.000-150.000 anni luce, e in cielo appare largo sei volte la Luna piena. Il suo alone di gas rarefatto è molto più esteso: Hubble lo ha tracciato fino a 1,3 milioni di anni luce dalla galassia."
     },
     "galassia-girandola": {
       "name": "Galassia Girandola",
-      "desc": ""
+      "desc": "La Galassia Girandola (M101) è una spirale vista di fronte nell'Orsa Maggiore, a circa 25 milioni di anni luce. Il suo disco di stelle, polveri e gas misura 170.000 anni luce, quasi il doppio della Via Lattea. Gli astronomi stimano che contenga almeno mille miliardi di stelle."
     },
     "ngc-1232": {
       "name": "NGC 1232",
-      "desc": ""
+      "desc": "NGC 1232 è una galassia a spirale vista quasi di fronte nella costellazione dell'Eridano, a circa 60 milioni di anni luce. Il suo asse maggiore di 7,4 primi d'arco corrisponde a circa 130.000 anni luce, poco più della Via Lattea. Le osservazioni in raggi X di Chandra vi hanno rivelato una nube di gas a 6 milioni di gradi, probabile traccia dello scontro con una galassia nana."
     },
     "ngc-4889": {
       "name": "NGC 4889",
-      "desc": "Ellittica gigante nell'ammasso della Chioma."
+      "desc": "NGC 4889 è una galassia ellittica gigante, la più grande e luminosa della regione centrale dell'ammasso della Chioma, a circa 300 milioni di anni luce. Il suo asse maggiore di 2,9 primi d'arco corrisponde a circa 250.000 anni luce. Al centro ospita un buco nero di 21 miliardi di masse solari, tra i più massicci mai misurati."
     },
     "galassia-girino": {
       "name": "Galassia Girino",
-      "desc": "La coda di stelle è lunga 280.000 anni luce."
+      "desc": "La Galassia Girino (UGC 10214) è una spirale deformata a circa 420 milioni di anni luce, nella costellazione del Drago. L'incontro con una piccola galassia compatta le ha strappato una coda di stelle e gas lunga più di 280.000 anni luce. Nella coda brillano ammassi di giovani stelle blu, ciascuno con fino a circa un milione di stelle."
     },
     "strada-percorsa-dalla-terra-attorno-al-sole": {
       "name": "Strada percorsa dalla Terra attorno al Sole",
@@ -1790,7 +1790,7 @@
     },
     "ic-1101": {
       "name": "IC 1101",
-      "desc": "Tra le galassie più estese: l'alone diffuso arriva a milioni di anni luce, ma il bordo è mal definito."
+      "desc": "IC 1101 è la galassia ellittica gigante al centro dell'ammasso Abell 2029, a oltre un miliardo di anni luce. Immagini molto profonde dell'Isaac Newton Telescope, descritte in uno studio del 2026 non ancora passato per la revisione paritaria, collocano il bordo a 260 kiloparsec dal centro, per un diametro di circa 520 kiloparsec, cioè 1,7 milioni di anni luce. Stime precedenti arrivavano a 5,6 milioni di anni luce, e il risultato dipende da come si definisce il bordo della galassia."
     },
     "ammasso-della-fornace": {
       "name": "Ammasso della Fornace",
@@ -1810,11 +1810,11 @@
     },
     "alcioneo": {
       "name": "Alcioneo",
-      "desc": "Radiogalassia gigante: i lobi coprono 16 milioni di anni luce (2022)."
+      "desc": "Alcioneo è una radiogalassia gigante scoperta nelle immagini del radiotelescopio LOFAR e descritta nel 2022. I suoi lobi radio si estendono in proiezione per 4,99 megaparsec, circa 16 milioni di anni luce, e la lunghezza reale è almeno 5 megaparsec. Al momento della scoperta era la più grande struttura nota di origine galattica, primato passato nel 2024 a Porphyrion."
     },
     "porphyrion": {
       "name": "Porphyrion",
-      "desc": "La coppia di getti da buco nero più lunga mai vista: 23 milioni di anni luce (2024)."
+      "desc": "Porphyrion è una coppia di getti di plasma lanciati da un buco nero supermassiccio in una galassia a 7,5 miliardi di anni luce. Annunciata nel 2024 con i dati di LOFAR, uGMRT e Keck, si estende per circa 7 megaparsec, cioè 23 milioni di anni luce, quanto 140 Vie Lattee in fila. È la più grande struttura prodotta da una galassia finora osservata."
     },
     "yottametro": {
       "name": "Yottametro",
@@ -1854,15 +1854,15 @@
     },
     "grande-muraglia-sloan": {
       "name": "Grande Muraglia Sloan",
-      "desc": ""
+      "desc": "La Grande Muraglia Sloan è un filamento di galassie individuato nei dati della Sloan Digital Sky Survey, a una distanza mediana di circa 310 megaparsec, cioè circa un miliardo di anni luce. La sua lunghezza osservata è di 1,37 miliardi di anni luce, che diventano 450 megaparsec in coordinate comoventi. Gli autori della misura la descrissero come la più grande struttura osservata fino ad allora, l'80% più lunga della Grande Muraglia scoperta da Geller e Huchra."
     },
     "supervuoto-di-eridano": {
       "name": "Supervuoto di Eridano",
-      "desc": "Proposto per spiegare la Macchia Fredda del fondo cosmico. Dimensioni e ruolo sono discussi."
+      "desc": "Il supervuoto di Eridano è una vasta regione povera di galassie, a circa 3 miliardi di anni luce, allineata con la Macchia Fredda del fondo cosmico a microonde. Chi lo ha individuato nel 2015 gli attribuisce un diametro di circa 1,8 miliardi di anni luce, ma il raggio misurato ha un errore di circa il 23%, quindi il diametro può andare da circa 1,6 a 2,5 miliardi di anni luce. Secondo analisi successive, nel modello cosmologico standard il vuoto spiega solo il 10-20% del raffreddamento osservato."
     },
     "vuoto-kbc": {
       "name": "Vuoto KBC",
-      "desc": "Un possibile grande vuoto attorno a noi, largo due miliardi di anni luce."
+      "desc": "Il vuoto KBC, dal nome di Keenan, Barger e Cowie che lo hanno proposto nel 2013, è una possibile regione a bassa densità che circonda il Gruppo Locale fino a circa 300 megaparsec. Il diametro è quindi di circa 600 megaparsec, cioè circa 2 miliardi di anni luce, con una densità di materia stimata inferiore alla media di circa il 46%. La sua esistenza e la sua profondità sono discusse, anche perché un vuoto simile potrebbe influire sulla misura locale della costante di Hubble."
     },
     "gigaparsec": {
       "name": "Gigaparsec",
@@ -1870,15 +1870,15 @@
     },
     "arco-gigante": {
       "name": "Arco Gigante",
-      "desc": "Un arco di galassie lungo 3,3 miliardi di anni luce (2021). Potrebbe essere un allineamento casuale."
+      "desc": "L'Arco Gigante è una struttura a forma di arco quasi simmetrico nella costellazione del Boote, a oltre 9,2 miliardi di anni luce, annunciata nel 2021. Si estende per circa 1 gigaparsec, cioè circa 3,3 miliardi di anni luce, ed è stato trovato grazie all'assorbimento del magnesio negli spettri di quasar più lontani. Gli autori stimano una significatività statistica compresa tra 3 e 4,8 sigma secondo il metodo usato e parlano con cautela di una possibile sfida al principio cosmologico."
     },
     "huge-lqg": {
       "name": "Huge-LQG",
-      "desc": "Un gruppo di 73 quasar esteso 4 miliardi di anni luce. La sua realtà fisica è contestata."
+      "desc": "Lo Huge-LQG è un grande gruppo di 73 quasar a redshift medio 1,27, individuato nel catalogo della Sloan Digital Sky Survey e descritto nel 2012. La sua dimensione maggiore è di circa 1.240 megaparsec, cioè circa 4 miliardi di anni luce, mentre la dimensione caratteristica è di circa 500 megaparsec. La sua realtà fisica è contestata: un'analisi successiva mostra che lo stesso algoritmo trova raggruppamenti ancora più estesi in distribuzioni casuali di punti."
     },
     "grande-muraglia-ercole-corona-boreale": {
       "name": "Grande Muraglia Ercole–Corona Boreale",
-      "desc": "Circa 10 miliardi di anni luce, dedotti dalla distribuzione dei lampi gamma. Non confermata come struttura unica."
+      "desc": "La Grande Muraglia Ercole-Corona Boreale è una concentrazione di lampi gamma a redshift circa 2, a una distanza di circa 10 miliardi di anni luce: 14 dei 31 lampi di quella fascia cadono in circa un ottavo del cielo. Gli autori ne stimano l'estensione tra 2.000 e 3.000 megaparsec, cioè tra circa 6,5 e 9,8 miliardi di anni luce. Se fosse reale sarebbe la più grande struttura nota, ma gli stessi scopritori scrivono che per stabilire se esiste davvero servono nuovi dati."
     },
     "distanza-dell-hubble-deep-field": {
       "name": "Distanza dell'Hubble Deep Field",
@@ -1894,11 +1894,11 @@
     },
     "universo-osservabile": {
       "name": "Universo osservabile",
-      "desc": "93 miliardi di anni luce di diametro. Età: 13,8 miliardi di anni."
+      "desc": "L'universo osservabile è la sfera, centrata sulla Terra, da cui la luce ha avuto il tempo di raggiungerci dall'inizio dell'espansione. Il suo raggio attuale è di circa 14.300 megaparsec, quindi il diametro è di circa 93 miliardi di anni luce. È più grande di quanto suggerisca l'età dell'universo, circa 13,8 miliardi di anni, perché nel frattempo lo spazio si è espanso."
     },
     "universo-intero": {
       "name": "Universo intero",
-      "desc": "Nessuno ne conosce la dimensione: potrebbe essere infinito. L'originale chiudeva qui con una stima convenzionale."
+      "desc": "Nessuno conosce la dimensione dell'universo intero, cioè di tutto ciò che esiste oltre la parte che possiamo osservare: potrebbe essere finito oppure infinito. Le misure del satellite WMAP indicano che la curvatura dello spazio è nulla entro lo 0,4%, un risultato compatibile con un universo infinito ma che non lo dimostra. La dimensione indicata qui è quindi soltanto una convenzione, non una misura."
     }
   }
 }
