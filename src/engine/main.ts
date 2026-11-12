@@ -24,9 +24,10 @@ export function mountScene(root: HTMLElement, data: SceneData): Scene {
   });
   initGlass(root, find<SVGSVGElement>('#lgdefs'));
 
-  // An unknown id in the address is ignored: the page just opens normally.
+  // Ids are ASCII slugs, so the hash is used as written (no decoding that could
+  // throw on a malformed address). An unknown id is ignored: the page just opens.
   const openFromAddress = () => {
-    const id = decodeURIComponent(location.hash.slice(1));
+    const id = location.hash.slice(1);
     if (id) scene.selectById(id);
   };
   addEventListener('hashchange', openFromAddress);

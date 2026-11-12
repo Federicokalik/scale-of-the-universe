@@ -44,3 +44,10 @@ Other commands:
 ## Author
 
 [Federico Calicchia](https://calicchia.design/)
+
+## Publishing
+
+The site deploys to GitHub Pages from `main` through `.github/workflows/deploy.yml`. Two settings live in the repository, not in the code (Settings → Pages):
+
+1. **Source**: GitHub Actions.
+2. **Custom domain**: `scale-of-universe.calicchia.design`, with a DNS `CNAME` record pointing to `federicokalik.github.io`.

@@ -14,6 +14,12 @@ export function validateData(
   const problems: string[] = [];
   const ids = new Set<string>();
 
+  // The scene draws and steps through objects in file order, so it must be size order.
+  objects.forEach((o, i) => {
+    const before = objects[i - 1];
+    if (before && o.size < before.size) problems.push(`${o.id}: out of size order (must not be smaller than ${before.id})`);
+  });
+
   for (const o of objects) {
     if (ids.has(o.id)) problems.push(`duplicate id: ${o.id}`);
     ids.add(o.id);

@@ -39,3 +39,11 @@ test('strict mode requires source, verification date, image and description', ()
     'terra: no source', 'terra: no verification date', 'terra: no image', 'it: terra has no description',
   ]));
 });
+
+test('objects out of size order are reported', () => {
+  const problems = validateData(
+    [obj({ id: 'terra', size: 10 }), obj({ id: 'luna', size: 5 })],
+    { it: loc(['terra', 'luna']) },
+  );
+  expect(problems).toContain('luna: out of size order (must not be smaller than terra)');
+});

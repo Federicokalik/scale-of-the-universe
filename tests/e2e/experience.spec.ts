@@ -94,3 +94,12 @@ test('the page sets no cookies and calls no other host', async ({ page, context 
   expect(await context.cookies()).toEqual([]);
   expect(foreign).toEqual([]);
 });
+
+test('a malformed id in the link raises no error', async ({ page }) => {
+  const errors: Error[] = [];
+  page.on('pageerror', (e) => errors.push(e));
+  await page.goto('/it/#%E0%A4');
+  await expect(page.locator('#count')).toBeVisible();
+  await expect(page.locator('#card')).not.toHaveClass(/open/);
+  expect(errors).toEqual([]);
+});

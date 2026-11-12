@@ -1,7 +1,0 @@
-{
-  "version": "0.0.1",
-  "configurations": [
-    { "name": "site", "runtimeExecutable": "npx", "runtimeArgs": ["astro", "preview", "--force", "--port", "4321"], "port": 4321 },
-    { "name": "draft", "runtimeExecutable": "npx", "runtimeArgs": ["--yes", "http-server", "reference", "-p", "4399", "-c-1", "-s"], "port": 4399 }
-  ]
-}
