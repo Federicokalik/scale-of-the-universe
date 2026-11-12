@@ -1,0 +1,128 @@
+/*
+ * Typography and legibility, layered over the draft's glass.css.
+ * The refraction stays; what changes is the typeface, the text sizes and how
+ * much the panels darken what is behind them.
+ */
+:root {
+  --display: 'Inter Variable', system-ui, sans-serif;
+  --body: 'Inter Variable', system-ui, sans-serif;
+  --mono: 'JetBrains Mono Variable', ui-monospace, monospace;
+  --muted: rgba(236, 239, 255, 0.88);
+  /* How opaque the dark tint under the glass is. Higher reads better, shows less. */
+  --tint: 0.52;
+  --glass-fill:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.03) 42%, rgba(255, 255, 255, 0.08)),
+    rgba(10, 13, 30, var(--tint));
+}
+
+/* Preview variants, chosen with ?glass=a|b|c while the look is being decided. */
+html[data-glass='a'] {
+  --tint: 0.3;
+}
+html[data-glass='b'] {
+  --tint: 0.52;
+}
+html[data-glass='c'] {
+  --tint: 0.76;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.glass,
+.btn,
+.chip,
+.step,
+.x,
+.brand,
+.search input,
+.nav button {
+  text-shadow: 0 1px 3px rgba(0, 0, 16, 0.6);
+}
+
+.brand h1 {
+  font-weight: 700;
+  letter-spacing: -0.025em;
+}
+.brand p {
+  font-size: 14px;
+}
+.chip {
+  font-size: 13px;
+  font-weight: 600;
+  min-height: 32px;
+}
+.btn {
+  font-weight: 600;
+}
+.search input::placeholder {
+  color: rgba(236, 239, 255, 0.8);
+}
+.results span:last-child {
+  font-size: 13px;
+}
+
+.pow,
+.pretty,
+.card .size,
+.card .sci {
+  font-variant-numeric: tabular-nums;
+}
+.pretty,
+.regime {
+  font-size: 14px;
+}
+.hint {
+  font-size: 13px;
+}
+
+.card .kind {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+}
+.card .sci {
+  font-size: 13px;
+}
+.card p {
+  font-size: 16px;
+  line-height: 1.55;
+}
+.card .cmp {
+  font-size: 14px;
+}
+.badge {
+  font-size: 12px;
+}
+.nav button {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+dialog p,
+dialog li {
+  font-size: 15px;
+  line-height: 1.6;
+}
+dialog h3 {
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+@media (max-width: 720px) {
+  .brand h1 {
+    font-size: 18px;
+  }
+  .card p {
+    font-size: 15px;
+  }
+}
+
+/* People who ask for less transparency get solid panels, as in the draft. */
+@media (prefers-reduced-transparency: reduce) {
+  :root {
+    --tint: 0.94;
+  }
+}

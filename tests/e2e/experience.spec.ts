@@ -103,3 +103,11 @@ test('a malformed id in the link raises no error', async ({ page }) => {
   await expect(page.locator('#card')).not.toHaveClass(/open/);
   expect(errors).toEqual([]);
 });
+
+test('interface text is set in Inter, served by the site itself', async ({ page }) => {
+  await page.goto('/it/');
+  const family = await page.evaluate(() => getComputedStyle(document.body).fontFamily);
+  expect(family).toMatch(/^"?Inter Variable"?/);
+  await page.evaluate(() => document.fonts.ready);
+  expect(await page.evaluate(() => document.fonts.check('16px "Inter Variable"'))).toBe(true);
+});

@@ -1,4 +1,7 @@
 ---
+import '@fontsource-variable/inter';
+import '@fontsource-variable/jetbrains-mono';
+
 interface Props {
   lang: string;
   dir?: 'ltr' | 'rtl';
@@ -25,6 +28,13 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
+    <!-- Temporary: lets ?glass=a|b|c preview the three panel variants. Remove once one is chosen. -->
+    <script is:inline>
+      {
+        const choice = new URLSearchParams(location.search).get('glass');
+        document.documentElement.dataset.glass = /^[abc]$/.test(choice || '') ? choice : 'b';
+      }
+    </script>
     <slot name="head" />
   </head>
   <body>

@@ -5,6 +5,9 @@ import { createRenderer } from './draw';
 import { place, type Placed } from './placed';
 import { createSprites } from './sprites';
 
+const LABEL_FONT = '"Inter Variable",system-ui,sans-serif';
+const NUMBER_FONT = '"JetBrains Mono Variable",ui-monospace,monospace';
+
 export interface Scene {
   readonly objects: Placed[];
   /** Current scale, log10 metres (eased towards the target). */
@@ -27,10 +30,10 @@ export interface Scene {
 
 export function createScene(canvas: HTMLCanvasElement, data: SceneData): Scene {
   const ctx = canvas.getContext('2d')!;
-  const renderer = createRenderer(ctx, createSprites());
   const objects = place(data.objects);
   const byId = new Map(objects.map((o) => [o.id, o]));
   const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const renderer = createRenderer(ctx, createSprites(), reduceMotion);
   const selectListeners: ((object: Placed | null) => void)[] = [];
   const frameListeners: ((zoom: number) => void)[] = [];
 
@@ -95,19 +98,20 @@ export function createScene(canvas: HTMLCanvasElement, data: SceneData): Scene {
     ctx.textAlign = 'center';
     ctx.textBaseline = 'alphabetic';
     for (const [o, x, y, px, alpha] of labels) {
-      const fontSize = Math.max(11, Math.min(15, px * 0.075));
+      const fontSize = Math.max(13, Math.min(16, px * 0.075));
       const flat = 'udw'.includes(o.kind) && !o.emoji;
       let labelY = y + (flat ? Math.min(px * 0.16, 60) + fontSize + 8 : px / 2 + fontSize + 6);
       // Keep labels clear of the bottom control bar.
       if (labelY > height - 150 && y < height - 170) labelY = Math.min(labelY, height - 150);
       ctx.globalAlpha = alpha * Math.min(1, (px - 40) / 30);
-      ctx.font = `500 ${fontSize}px -apple-system,BlinkMacSystemFont,"Helvetica Neue","Segoe UI",system-ui,sans-serif`;
+      ctx.font = `600 ${fontSize}px ${LABEL_FONT}`;
       const textWidth = ctx.measureText(o.name).width;
       const flag = (['i', 'u', 'n', 'r'] as const).find((f) => o.flags.includes(f));
-      ctx.lineWidth = 3;
-      ctx.strokeStyle = 'rgba(6,8,18,.7)';
+      ctx.lineWidth = 4;
+      ctx.lineJoin = 'round';
+      ctx.strokeStyle = 'rgba(4,6,14,.92)';
       ctx.strokeText(o.name, x, labelY);
-      ctx.fillStyle = '#eef0f7';
+      ctx.fillStyle = '#ffffff';
       ctx.fillText(o.name, x, labelY);
       if (flag) {
         ctx.fillStyle = FLAG_COLOUR[flag];
@@ -117,8 +121,8 @@ export function createScene(canvas: HTMLCanvasElement, data: SceneData): Scene {
       }
       if (px > 95) {
         const size = formatSize(o.size, data.locale, data.ui);
-        ctx.font = `400 ${fontSize - 2}px ui-monospace,"SF Mono",Menlo,monospace`;
-        ctx.fillStyle = '#9aa3bd';
+        ctx.font = `500 ${fontSize - 1}px ${NUMBER_FONT}`;
+        ctx.fillStyle = '#d5daea';
         ctx.strokeText(size, x, labelY + fontSize + 2);
         ctx.fillText(size, x, labelY + fontSize + 2);
       }

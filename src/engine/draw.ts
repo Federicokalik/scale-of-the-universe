@@ -1,3 +1,4 @@
+import { createBackdrop } from './backdrop';
 import type { Placed } from './placed';
 import { rng, type Sprites } from './sprites';
 
@@ -31,7 +32,10 @@ export interface Renderer {
   object(o: Placed, x: number, y: number, px: number, t: number): void;
 }
 
-export function createRenderer(ctx: Ctx, sprites: Sprites): Renderer {
+/** `still` freezes the backdrop's own motion, for people who prefer reduced motion. */
+export function createRenderer(ctx: Ctx, sprites: Sprites, still = false): Renderer {
+  const backdrop = createBackdrop(ctx);
+
   function glow(x: number, y: number, r: number, inner: string, outer: string): void {
     const g = ctx.createRadialGradient(x, y, 0, x, y, r);
     g.addColorStop(0, inner);
@@ -59,6 +63,8 @@ export function createRenderer(ctx: Ctx, sprites: Sprites): Renderer {
     ctx.globalAlpha = 1;
     ctx.fillStyle = g;
     ctx.fillRect(0, 0, w, h);
+
+    backdrop.draw(z, still ? 0 : t, w, h);
 
     // Dust drifts outward as the scale changes, which gives zooming a sense of motion.
     const far = Math.max(w, h) * 0.7;
