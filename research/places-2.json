@@ -1,0 +1,224 @@
+[
+  {
+    "id": "international-commerce-centre",
+    "size": 484,
+    "basis": "altezza architettonica dell'edificio, dall'ingresso pedonale più basso alla sommità",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "L'International Commerce Centre è un grattacielo per uffici e albergo a Kowloon, Hong Kong, completato nel 2010. È alto 484 m e conta 108 piani fuori terra. Nella classifica del Council on Vertical Urbanism è l'edificio più alto di Hong Kong e il tredicesimo al mondo.",
+    "sources": [
+      {
+        "title": "International Commerce Centre - The Skyscraper Center",
+        "url": "https://www.skyscrapercenter.com/building/international-commerce-centre/137",
+        "publisher": "Council on Vertical Urbanism (già CTBUH), The Skyscraper Center",
+        "evidence": "Height 484 m / 1,588 ft Floors 108"
+      }
+    ],
+    "note": "Altezza architettonica e altezza alla punta coincidono (484 m). Posizioni in classifica lette sulla pagina il 2026-11-12: n. 13 al mondo, n. 1 a Hong Kong; possono cambiare con nuovi completamenti.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "merdeka-118",
+    "size": 679,
+    "basis": "altezza architettonica dell'edificio, guglia compresa",
+    "verdict": "confirmed",
+    "flags": ["n"],
+    "desc": "Merdeka 118 è un grattacielo di 118 piani a Kuala Lumpur, in Malesia, completato nel 2023. La sua altezza architettonica, guglia compresa, è di 678,9 m, mentre il piano occupato più alto si trova a 502,8 m. Nella classifica del Council on Vertical Urbanism è il secondo edificio più alto del mondo, dopo il Burj Khalifa.",
+    "sources": [
+      {
+        "title": "Merdeka 118 - The Skyscraper Center",
+        "url": "https://www.skyscrapercenter.com/building/merdeka-118/10115",
+        "publisher": "Council on Vertical Urbanism (già CTBUH), The Skyscraper Center",
+        "evidence": "Height 678.9 m / 2,227 ft Floors 118"
+      }
+    ],
+    "note": "678,9 m arrotondato a 679 m. La stessa pagina dà 680,5 m alla punta e riporta '# 2 Tallest in the World' (letta il 2026-11-12).",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "burj-khalifa",
+    "size": 828,
+    "basis": "altezza architettonica dell'edificio, guglia compresa",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il Burj Khalifa è un grattacielo di 163 piani a Dubai, negli Emirati Arabi Uniti, inaugurato il 4 gennaio 2010. Con un'altezza architettonica di 828 m è l'edificio più alto del mondo. Il piano occupato più alto si trova a 584,5 m dal suolo.",
+    "sources": [
+      {
+        "title": "Burj Khalifa - The Skyscraper Center",
+        "url": "https://www.skyscrapercenter.com/building/burj-khalifa/3",
+        "publisher": "Council on Vertical Urbanism (già CTBUH), The Skyscraper Center",
+        "evidence": "828 m / 2,717 ft"
+      },
+      {
+        "title": "Tallest building",
+        "url": "https://www.guinnessworldrecords.com/world-records/tallest-building",
+        "publisher": "Guinness World Records",
+        "evidence": "The building officially opened on 4 January 2010"
+      }
+    ],
+    "note": "La pagina del Council on Vertical Urbanism riporta '# 1 Tallest in the World' alla data di verifica e 829,8 m alla punta. Il sito ufficiale burjkhalifa.ae non era raggiungibile dalla sessione e non è citato.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "cascate-dell-angelo",
+    "size": 979,
+    "basis": "dislivello totale della cascata",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il Salto Ángel, o Kerepakupai Merú, precipita dall'Auyán tepui nel Parco nazionale di Canaima, in Venezuela. Il dislivello totale è di 979 m, con un salto singolo di 807 m, ed è registrato come la cascata più alta del mondo. La misura risale a una spedizione del 1949 e si discute se tutti i 979 m appartengano a un'unica cascata.",
+    "sources": [
+      {
+        "title": "Tallest waterfall",
+        "url": "https://www.guinnessworldrecords.com/world-records/highest-waterfall",
+        "publisher": "Guinness World Records",
+        "evidence": "total drop of 979 m (3,212 ft); its longest single drop"
+      }
+    ],
+    "note": "Il primato 'più alte del mondo' è confermato da Guinness, che però segnala il dibattito: se si contasse solo il salto di 807 m, la più alta sarebbe la cascata Tugela (948 m). Britannica non era raggiungibile dalla sessione.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "fabbrica-boeing-di-everett",
+    "size": 1020,
+    "basis": "estensione massima in pianta dell'edificio principale di assemblaggio (stima, non dato ufficiale)",
+    "verdict": "uncertain",
+    "flags": ["u"],
+    "desc": "Lo stabilimento principale di assemblaggio Boeing a Everett, nello Stato di Washington, è registrato come l'edificio più grande del mondo per volume: 13,4 milioni di m³ su 39,8 ettari di superficie coperta. Fu costruito negli anni Sessanta per produrre il 747 e da allora è cresciuto molto. Boeing non pubblica la lunghezza dell'edificio, quindi il valore di circa 1 km qui indicato è una stima.",
+    "sources": [
+      {
+        "title": "Most capacious building",
+        "url": "https://www.guinnessworldrecords.com/world-records/69361-most-capacious-building",
+        "publisher": "Guinness World Records",
+        "evidence": "total volume of 13.4 million m³ (472 million ft³)"
+      },
+      {
+        "title": "Everett Production Facility",
+        "url": "https://www.boeing.com/company/about-bca/everett-production-facility",
+        "publisher": "Boeing",
+        "evidence": "472 million cubic feet of space over 98.3 acres"
+      }
+    ],
+    "note": "Nessuna fonte istituzionale aperta (Boeing, Guinness, Center for Land Use Interpretation) indica la lunghezza o la larghezza dell'edificio: riportano solo volume e superficie. Il valore di 1020 m resta quindi non verificato e viene mantenuto come stima con flag u; da decidere se tenerlo. Controllo di plausibilità: 39,8 ha = 398.000 m², che con 1020 m di lunghezza implicherebbe una larghezza media di circa 390 m.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "citta-del-vaticano",
+    "size": 1050,
+    "basis": "lunghezza massima del territorio dello Stato",
+    "verdict": "confirmed",
+    "flags": ["r"],
+    "desc": "La Città del Vaticano è un'enclave nella città di Roma, nata con i Patti Lateranensi dell'11 febbraio 1929. Il suo territorio misura al massimo 1.045 m in lunghezza e 850 m in larghezza, per una superficie di 0,44 km². È lo Stato indipendente più piccolo del mondo.",
+    "sources": [
+      {
+        "title": "Holy See - State of Vatican City: General Information",
+        "url": "https://www.vatican.va/roman_curia/secretariat_state/documents/informazione_generale/sp_ss_scv_info-generale_en.html",
+        "publisher": "Santa Sede, Segreteria di Stato",
+        "evidence": "maximum length of 1,045 meters and width of 850 meters"
+      },
+      {
+        "title": "Smallest country",
+        "url": "https://www.guinnessworldrecords.com/world-records/smallest-country",
+        "publisher": "Guinness World Records",
+        "evidence": "The smallest independent country in the world"
+      }
+    ],
+    "note": "Il dato ufficiale è 1.045 m: il valore 1050 m è entro lo 0,5% e resta invariato. Corretta nella descrizione la superficie: la precedente indicava 0,49 km², ma la Santa Sede dà 0,439 km² (circa 44 ha) e Guinness 0,44 km².",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "half-dome",
+    "size": 1440,
+    "basis": "altezza della cima sopra il fondo della Yosemite Valley",
+    "verdict": "confirmed",
+    "flags": ["r"],
+    "desc": "L'Half Dome è una cupola di granodiorite nel Parco nazionale di Yosemite, in California, liscia su tre lati e con una parete verticale sul quarto. La cima si trova a circa 2.680 m sul livello del mare e si alza di poco meno di 1.500 m sopra il fondo della Yosemite Valley. Fu salita per la prima volta nel 1875 da George Anderson e oggi si raggiunge con un'escursione di 4.800 piedi (circa 1.460 m) di dislivello.",
+    "sources": [
+      {
+        "title": "Half Dome Day Hike",
+        "url": "https://www.nps.gov/yose/planyourvisit/halfdome.htm",
+        "publisher": "U.S. National Park Service, Yosemite National Park",
+        "evidence": "Rising nearly 5,000 feet above Yosemite Valley and 8,800 feet above sea level"
+      },
+      {
+        "title": "How did Half Dome, the massive rock monument in Yosemite National Park, acquire its unique shape?",
+        "url": "https://www.usgs.gov/faqs/how-did-half-dome-massive-rock-monument-yosemite-national-park-acquire-its-unique-shape",
+        "publisher": "U.S. Geological Survey",
+        "evidence": "nearly 8,800 feet (2,682 meters) above sea level"
+      }
+    ],
+    "note": "Il National Park Service non dà una cifra esatta: 'nearly 5,000 feet' (meno di 1.524 m) sopra la valle e 4.800 piedi di dislivello dell'escursione dal fondovalle (4.800 × 0,3048 = 1.463 m). Il valore attuale di 1440 m è entro il 2% da 1.463 m ed è coerente con 'nearly 5,000 feet', quindi resta invariato. La cifra di 4.737 piedi (1.444 m) che circola in rete non è stata trovata su una fonte istituzionale.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "acceleratore-lineare-di-stanford",
+    "size": 3200,
+    "basis": "lunghezza dell'acceleratore lineare (linac)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "L'acceleratore lineare dello SLAC National Accelerator Laboratory, in California, è lungo 2 miglia, cioè circa 3,2 km, e produsse il suo primo fascio di particelle il 21 maggio 1966. Secondo lo SLAC è il più lungo acceleratore lineare mai costruito. I suoi fasci hanno portato alla scoperta del quark charm e del leptone tau.",
+    "sources": [
+      {
+        "title": "Longest linear accelerator",
+        "url": "https://www.guinnessworldrecords.com/world-records/longest-linear-accelerator",
+        "publisher": "Guinness World Records",
+        "evidence": "a particle accelerator some 3.2 km (2 miles) long"
+      },
+      {
+        "title": "SLAC's Historic Linac Turns 50 and Gets a Makeover",
+        "url": "https://www6.slac.stanford.edu/news/2016-05-04-slacs-historic-linac-turns-50-and-gets-makeover",
+        "publisher": "SLAC National Accelerator Laboratory",
+        "evidence": "SLAC’s 2-mile-long linac, the longest linear accelerator ever built"
+      }
+    ],
+    "note": "2 miglia × 1.609,3 m = 3.219 m, arrotondato a 3,2 km. L'affermazione 'il più lungo mai costruito' viene da un articolo SLAC del 2016 ed è riportata come dichiarazione del laboratorio; Guinness mantiene il primato sulla propria pagina.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "uluru",
+    "size": 3600,
+    "basis": "lunghezza massima del monolito in pianta",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Uluru, già noto come Ayers Rock, è un grande monolito di arenaria nel Territorio del Nord, in Australia, vecchio circa mezzo miliardo di anni. È lungo circa 3,6 km, alto 348 m sulla pianura e ha una circonferenza di 9,4 km. Per gli Anangu, i custodi tradizionali, è inseparabile dalla Tjukurpa, la legge tradizionale.",
+    "sources": [
+      {
+        "title": "Uluru/Ayers Rock (Research Starters)",
+        "url": "https://www.ebsco.com/research-starters/geology/uluruayers-rock",
+        "publisher": "EBSCO Research Starters (Salem Press)",
+        "evidence": "about 2.2 miles (3.6 kilometers) long, 1.2 miles wide (1.9 kilometers)"
+      },
+      {
+        "title": "Uluru - Uluru-Kata Tjuta National Park",
+        "url": "https://parksaustralia.gov.au/uluru/discover/highlights/uluru/",
+        "publisher": "Parks Australia, Governo australiano",
+        "evidence": "It stands 348 metres high and has a circumference of 9.4 km"
+      }
+    ],
+    "note": "Parks Australia pubblica solo altezza e circonferenza; la lunghezza di 3,6 km viene da una voce enciclopedica (EBSCO Research Starters). Britannica, che secondo i risultati di ricerca dà anch'essa 3,6 km, non era raggiungibile dalla sessione e non è citata. Geoscience Australia indica 345 m di altezza anziché 348 m.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "central-park",
+    "size": 4000,
+    "basis": "lunghezza del parco da sud a nord, dalla 59th Street alla 110th Street",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Central Park è il grande parco pubblico al centro di Manhattan, a New York, progettato da Frederick Law Olmsted e Calvert Vaux e creato nel 1858. Si estende dalla 59th alla 110th Street per circa 2,5 miglia, cioè 4 km, e copre 843 acri, circa 341 ettari. Accoglie circa 42 milioni di visite l'anno.",
+    "sources": [
+      {
+        "title": "Central Park - National Historic Landmark nomination form",
+        "url": "https://npgallery.nps.gov/NRHP/GetAsset/NHLS/66000538_text",
+        "publisher": "U.S. National Park Service, National Register of Historic Places",
+        "evidence": "for some 50 blocks (approximately 2-1/2 miles)"
+      },
+      {
+        "title": "Park History",
+        "url": "https://www.centralparknyc.org/park-history",
+        "publisher": "Central Park Conservancy",
+        "evidence": "Its 843 acres included sweeping lawns, picturesque woodlands"
+      }
+    ],
+    "note": "2,5 miglia × 1.609,3 m = 4.023 m, coerente con 4000 m. 843 acri × 0,4047 = 341 ha. NYC Parks indica 840,01 acri per la stessa proprietà. I confini (59th-110th Street, Fifth Avenue-Central Park West) e i 42 milioni di visite sono sulle pagine della Central Park Conservancy.",
+    "verified": "2026-11-12"
+  }
+]

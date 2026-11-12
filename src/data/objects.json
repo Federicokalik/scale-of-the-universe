@@ -3949,8 +3949,14 @@
     "glyph": "🏢",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "International Commerce Centre - The Skyscraper Center",
+        "url": "https://www.skyscrapercenter.com/building/international-commerce-centre/137",
+        "publisher": "Council on Vertical Urbanism (già CTBUH), The Skyscraper Center"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "bennu",
@@ -3989,8 +3995,14 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Merdeka 118 - The Skyscraper Center",
+        "url": "https://www.skyscrapercenter.com/building/merdeka-118/10115",
+        "publisher": "Council on Vertical Urbanism (già CTBUH), The Skyscraper Center"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "burj-khalifa",
@@ -3999,8 +4011,19 @@
     "glyph": "🏙️",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Burj Khalifa - The Skyscraper Center",
+        "url": "https://www.skyscrapercenter.com/building/burj-khalifa/3",
+        "publisher": "Council on Vertical Urbanism (già CTBUH), The Skyscraper Center"
+      },
+      {
+        "title": "Tallest building",
+        "url": "https://www.guinnessworldrecords.com/world-records/tallest-building",
+        "publisher": "Guinness World Records"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "cascate-dell-angelo",
@@ -4009,8 +4032,14 @@
     "glyph": "🏞️",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Tallest waterfall",
+        "url": "https://www.guinnessworldrecords.com/world-records/highest-waterfall",
+        "publisher": "Guinness World Records"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "chilometro",
@@ -4038,10 +4067,23 @@
     "size": 1020,
     "kind": "g",
     "glyph": "🏭",
-    "flags": [],
+    "flags": [
+      "u"
+    ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Most capacious building",
+        "url": "https://www.guinnessworldrecords.com/world-records/69361-most-capacious-building",
+        "publisher": "Guinness World Records"
+      },
+      {
+        "title": "Everett Production Facility",
+        "url": "https://www.boeing.com/company/about-bca/everett-production-facility",
+        "publisher": "Boeing"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "3i-atlas",
@@ -4076,8 +4118,19 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Holy See - State of Vatican City: General Information",
+        "url": "https://www.vatican.va/roman_curia/secretariat_state/documents/informazione_generale/sp_ss_scv_info-generale_en.html",
+        "publisher": "Santa Sede, Segreteria di Stato"
+      },
+      {
+        "title": "Smallest country",
+        "url": "https://www.guinnessworldrecords.com/world-records/smallest-country",
+        "publisher": "Guinness World Records"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "half-dome",
@@ -4088,8 +4141,19 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Half Dome Day Hike",
+        "url": "https://www.nps.gov/yose/planyourvisit/halfdome.htm",
+        "publisher": "U.S. National Park Service, Yosemite National Park"
+      },
+      {
+        "title": "How did Half Dome, the massive rock monument in Yosemite National Park, acquire its unique shape?",
+        "url": "https://www.usgs.gov/faqs/how-did-half-dome-massive-rock-monument-yosemite-national-park-acquire-its-unique-shape",
+        "publisher": "U.S. Geological Survey"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "miglio",
@@ -4137,8 +4201,19 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Longest linear accelerator",
+        "url": "https://www.guinnessworldrecords.com/world-records/longest-linear-accelerator",
+        "publisher": "Guinness World Records"
+      },
+      {
+        "title": "SLAC's Historic Linac Turns 50 and Gets a Makeover",
+        "url": "https://www6.slac.stanford.edu/news/2016-05-04-slacs-historic-linac-turns-50-and-gets-makeover",
+        "publisher": "SLAC National Accelerator Laboratory"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "uluru",
@@ -4147,8 +4222,19 @@
     "glyph": "🪨",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Uluru/Ayers Rock (Research Starters)",
+        "url": "https://www.ebsco.com/research-starters/geology/uluruayers-rock",
+        "publisher": "EBSCO Research Starters (Salem Press)"
+      },
+      {
+        "title": "Uluru - Uluru-Kata Tjuta National Park",
+        "url": "https://parksaustralia.gov.au/uluru/discover/highlights/uluru/",
+        "publisher": "Parks Australia, Governo australiano"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "central-park",
@@ -4157,8 +4243,19 @@
     "glyph": "🌳",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Central Park - National Historic Landmark nomination form",
+        "url": "https://npgallery.nps.gov/NRHP/GetAsset/NHLS/66000538_text",
+        "publisher": "U.S. National Park Service, National Register of Historic Places"
+      },
+      {
+        "title": "Park History",
+        "url": "https://www.centralparknyc.org/park-history",
+        "publisher": "Central Park Conservancy"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "cometa-67p",

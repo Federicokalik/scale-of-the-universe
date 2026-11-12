@@ -898,7 +898,7 @@
     },
     "international-commerce-centre": {
       "name": "International Commerce Centre",
-      "desc": "Hong Kong."
+      "desc": "L'International Commerce Centre è un grattacielo per uffici e albergo a Kowloon, Hong Kong, completato nel 2010. È alto 484 m e conta 108 piani fuori terra. Nella classifica del Council on Vertical Urbanism è l'edificio più alto di Hong Kong e il tredicesimo al mondo."
     },
     "bennu": {
       "name": "Bennu",
@@ -906,15 +906,15 @@
     },
     "merdeka-118": {
       "name": "Merdeka 118",
-      "desc": "Kuala Lumpur: il secondo edificio più alto del mondo."
+      "desc": "Merdeka 118 è un grattacielo di 118 piani a Kuala Lumpur, in Malesia, completato nel 2023. La sua altezza architettonica, guglia compresa, è di 678,9 m, mentre il piano occupato più alto si trova a 502,8 m. Nella classifica del Council on Vertical Urbanism è il secondo edificio più alto del mondo, dopo il Burj Khalifa."
     },
     "burj-khalifa": {
       "name": "Burj Khalifa",
-      "desc": "Dal 2010 l'edificio più alto del mondo."
+      "desc": "Il Burj Khalifa è un grattacielo di 163 piani a Dubai, negli Emirati Arabi Uniti, inaugurato il 4 gennaio 2010. Con un'altezza architettonica di 828 m è l'edificio più alto del mondo. Il piano occupato più alto si trova a 584,5 m dal suolo."
     },
     "cascate-dell-angelo": {
       "name": "Cascate dell'Angelo",
-      "desc": "Le cascate più alte del mondo."
+      "desc": "Il Salto Ángel, o Kerepakupai Merú, precipita dall'Auyán tepui nel Parco nazionale di Canaima, in Venezuela. Il dislivello totale è di 979 m, con un salto singolo di 807 m, ed è registrato come la cascata più alta del mondo. La misura risale a una spedizione del 1949 e si discute se tutti i 979 m appartengano a un'unica cascata."
     },
     "chilometro": {
       "name": "Chilometro",
@@ -922,7 +922,7 @@
     },
     "fabbrica-boeing-di-everett": {
       "name": "Fabbrica Boeing di Everett",
-      "desc": "L'edificio più voluminoso del mondo."
+      "desc": "Lo stabilimento principale di assemblaggio Boeing a Everett, nello Stato di Washington, è registrato come l'edificio più grande del mondo per volume: 13,4 milioni di m³ su 39,8 ettari di superficie coperta. Fu costruito negli anni Sessanta per produrre il 747 e da allora è cresciuto molto. Boeing non pubblica la lunghezza dell'edificio, quindi il valore di circa 1 km qui indicato è una stima."
     },
     "3i-atlas": {
       "name": "3I/ATLAS",
@@ -930,11 +930,11 @@
     },
     "citta-del-vaticano": {
       "name": "Città del Vaticano",
-      "desc": "Lo Stato più piccolo: 0,49 km²."
+      "desc": "La Città del Vaticano è un'enclave nella città di Roma, nata con i Patti Lateranensi dell'11 febbraio 1929. Il suo territorio misura al massimo 1.045 m in lunghezza e 850 m in larghezza, per una superficie di 0,44 km². È lo Stato indipendente più piccolo del mondo."
     },
     "half-dome": {
       "name": "Half Dome",
-      "desc": "Altezza sopra il fondo della Yosemite Valley."
+      "desc": "L'Half Dome è una cupola di granodiorite nel Parco nazionale di Yosemite, in California, liscia su tre lati e con una parete verticale sul quarto. La cima si trova a circa 2.680 m sul livello del mare e si alza di poco meno di 1.500 m sopra il fondo della Yosemite Valley. Fu salita per la prima volta nel 1875 da George Anderson e oggi si raggiunge con un'escursione di 4.800 piedi (circa 1.460 m) di dislivello."
     },
     "miglio": {
       "name": "Miglio",
@@ -946,15 +946,15 @@
     },
     "acceleratore-lineare-di-stanford": {
       "name": "Acceleratore lineare di Stanford",
-      "desc": ""
+      "desc": "L'acceleratore lineare dello SLAC National Accelerator Laboratory, in California, è lungo 2 miglia, cioè circa 3,2 km, e produsse il suo primo fascio di particelle il 21 maggio 1966. Secondo lo SLAC è il più lungo acceleratore lineare mai costruito. I suoi fasci hanno portato alla scoperta del quark charm e del leptone tau."
     },
     "uluru": {
       "name": "Uluru",
-      "desc": ""
+      "desc": "Uluru, già noto come Ayers Rock, è un grande monolito di arenaria nel Territorio del Nord, in Australia, vecchio circa mezzo miliardo di anni. È lungo circa 3,6 km, alto 348 m sulla pianura e ha una circonferenza di 9,4 km. Per gli Anangu, i custodi tradizionali, è inseparabile dalla Tjukurpa, la legge tradizionale."
     },
     "central-park": {
       "name": "Central Park",
-      "desc": ""
+      "desc": "Central Park è il grande parco pubblico al centro di Manhattan, a New York, progettato da Frederick Law Olmsted e Calvert Vaux e creato nel 1858. Si estende dalla 59th alla 110th Street per circa 2,5 miglia, cioè 4 km, e copre 843 acri, circa 341 ettari. Accoglie circa 42 milioni di visite l'anno."
     },
     "cometa-67p": {
       "name": "Cometa 67P",
