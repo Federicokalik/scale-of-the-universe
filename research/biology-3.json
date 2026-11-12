@@ -1,0 +1,206 @@
+[
+  {
+    "id": "spermatozoo",
+    "size": 0.000056,
+    "basis": "lunghezza totale dello spermatozoo umano (testa più coda)",
+    "verdict": "confirmed",
+    "flags": ["n"],
+    "desc": "Lo spermatozoo è la cellula riproduttiva maschile. Quello umano è lungo in tutto circa 55 micrometri: la testa, che contiene il nucleo, misura 4-5 micrometri, mentre la coda è lunga circa 50 micrometri. Quasi tutta la lunghezza è quindi dovuta alla coda, il flagello che lo fa muovere.",
+    "sources": [
+      {
+        "title": "Spermatozoo",
+        "url": "https://www.treccani.it/enciclopedia/spermatozoo/",
+        "publisher": "Treccani, Enciclopedia on line",
+        "evidence": "la coda è lunga circa 50 μm"
+      }
+    ],
+    "note": "Lunghezza totale derivata: testa 4-5 µm (Treccani: \"La testa dello s. umano ha il diametro di 4-5 μm\") + coda circa 50 µm = 54-55 µm, entro il 5% dal valore attuale di 56 µm. La voce Treccani non dà un totale esplicito. Non sono riuscito ad aprire una fonte primaria con la lunghezza totale misurata (Britannica, NCBI Bookshelf e PMC rifiutano l'accesso automatico; l'abstract di Mossman et al. 2013, Human Reproduction, non riporta cifre).",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "ovulo-umano",
+    "size": 0.00012,
+    "basis": "diametro della cellula uovo (oocita) umana, senza gli involucri esterni",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "La cellula uovo, o oocita, è la cellula riproduttiva femminile. In uno studio su 1.563 oociti umani il diametro medio misurato è stato di 115 micrometri, con valori compresi tra 60 e 171 micrometri. Le sue dimensioni sono superiori a quelle delle altre cellule del corpo.",
+    "sources": [
+      {
+        "title": "Oocyte diameter predicts the maturation rate of human immature oocytes collected ex vivo",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36087150/",
+        "publisher": "Pors et al., Journal of Assisted Reproduction and Genetics (2022), PubMed",
+        "evidence": "ranged from 60 to 171 µm with a mean of 115 µm"
+      },
+      {
+        "title": "Uovo",
+        "url": "https://www.treccani.it/enciclopedia/uovo/",
+        "publisher": "Treccani, Enciclopedia on line",
+        "evidence": "notevoli dimensioni, superiori a quelle delle altre cellule"
+      }
+    ],
+    "note": "Media misurata 115 µm (intervallo interquartile 107-124 µm): il valore attuale di 120 µm è entro il 5%. DOI dell'articolo: 10.1007/s10815-022-02602-0. La pagina PubMed blocca WebFetch (richiede cookie): l'abstract è stato letto tramite il connettore PubMed e tramite l'API di Europe PMC. Attenzione: la voce Treccani \"Uovo\" indica invece \"ca. 200 μm di diametro nella donna\", valore più alto che non ho adottato perché non è una misura diretta; la differenza va tenuta presente. Il superlativo \"la cellula umana più grande\" è stato attenuato: Treccani dice solo che le dimensioni sono superiori a quelle delle altre cellule.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "protista-ciliato",
+    "size": 0.00018,
+    "basis": "lunghezza di un ciliato di taglia media (valore rappresentativo, non una misura di una specie precisa)",
+    "verdict": "uncertain",
+    "flags": ["u"],
+    "desc": "I ciliati sono organismi unicellulari coperti di ciglia, che battono per spingere la cellula nell'acqua o per portare il cibo verso la bocca. Se ne conoscono circa 7.000 specie e le dimensioni variano molto: i parameci vanno tipicamente da 50 a 300 micrometri, mentre alcuni generi raggiungono i 2 millimetri. Il valore di 180 micrometri indica quindi solo una taglia intermedia.",
+    "sources": [
+      {
+        "title": "Introduction to the Ciliata",
+        "url": "https://ucmp.berkeley.edu/protista/ciliata.html",
+        "publisher": "University of California Museum of Paleontology (UCMP), Berkeley",
+        "evidence": "a few genera may reach two millimeters in length"
+      },
+      {
+        "title": "Paramecium Genetics, Genomics, and Evolution",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11334263/",
+        "publisher": "Annual Review of Genetics, via PubMed Central",
+        "evidence": "large enough cell sizes (lengths ≈ 50–300 μm)"
+      }
+    ],
+    "note": "Oggetto generico: nessuna fonte dà 180 µm come dimensione \"del\" ciliato, quindi il valore è una convenzione e resta invariato con il flag u. UCMP conferma anche \"about 7000 known species\". L'articolo su PMC (DOI 10.1146/annurev-genet-071819-104035) è stato letto tramite il connettore PubMed perché il sito PMC blocca WebFetch.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "paramecio",
+    "size": 0.00025,
+    "basis": "lunghezza della cellula di un paramecio di specie grande (Paramecium caudatum)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il paramecio è un protista ciliato d'acqua dolce, usato da oltre un secolo come organismo modello in genetica e biologia cellulare. Le specie del genere sono lunghe tipicamente da 50 a 300 micrometri, e le più grandi, come Paramecium caudatum, misurano 170-310 micrometri, abbastanza da essere appena visibili a occhio nudo. Come tutti i ciliati, ogni cellula ha due tipi di nucleo.",
+    "sources": [
+      {
+        "title": "Paramecium Genetics, Genomics, and Evolution",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11334263/",
+        "publisher": "Annual Review of Genetics, via PubMed Central",
+        "evidence": "(170–310 μm in length)"
+      }
+    ],
+    "note": "Il valore attuale di 250 µm cade nell'intervallo 170-310 µm indicato per P. caudatum e P. multimicronucleatum. La frase attuale \"Nuota con migliaia di ciglia\" è stata tolta: non ho aperto una fonte affidabile con il numero di ciglia. L'articolo (DOI 10.1146/annurev-genet-071819-104035) è stato letto tramite il connettore PubMed perché il sito PMC blocca WebFetch; nel testo restituito i nomi delle specie in corsivo erano omessi, e l'attribuzione dell'intervallo 170-310 µm a P. caudatum viene dall'anteprima della stessa pagina nei risultati di ricerca.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "acaro-della-polvere",
+    "size": 0.0003,
+    "basis": "lunghezza del corpo di un acaro della polvere adulto (genere Dermatophagoides)",
+    "verdict": "uncertain",
+    "flags": ["u"],
+    "desc": "Gli acari della polvere sono minuscoli aracnidi che vivono in letti, divani e tappeti, dove si nutrono delle scaglie di pelle perse da persone e animali domestici. Le fonti danno lunghezze diverse, da circa un quarto di millimetro fino a circa 0,5 mm per gli adulti, quindi si vedono bene solo al microscopio. I loro escrementi possono provocare o aggravare l'asma nelle persone sensibilizzate.",
+    "sources": [
+      {
+        "title": "House Dust Mites (ENTFACT-646)",
+        "url": "https://entomology.mgcafe.uky.edu/ef646",
+        "publisher": "University of Kentucky, Department of Entomology",
+        "evidence": "adults are about 0.5 mm long and the immatures are even smaller"
+      },
+      {
+        "title": "The Tiny Invaders in Your Home: Dust Mites",
+        "url": "https://sciencefocus.hkust.edu.hk/node/260",
+        "publisher": "Science Focus, Hong Kong University of Science and Technology",
+        "evidence": "a body size as small as a quarter of a millimeter"
+      }
+    ],
+    "note": "Le due fonti aperte danno 0,25 mm (limite inferiore) e circa 0,5 mm (adulti): il valore attuale di 0,3 mm sta dentro questo intervallo ma non è confermato alla lettera, da cui il verdetto uncertain. Altre schede (Texas A&M: 0,3-0,4 mm; Animal Diversity Web) non si sono aperte (redirect o errore 503) e non sono citate.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "ameba",
+    "size": 0.0005,
+    "basis": "lunghezza della cellula di Amoeba proteus in movimento",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Amoeba proteus è un grande organismo unicellulare d'acqua dolce che si sposta e cattura il cibo allungando pseudopodi. Non ha una forma fissa: le cellule in movimento sono lunghe tipicamente da 220 a 760 micrometri, con una media di 425. Vive in acqua dolce e nello sfagno bagnato e non è una specie rara.",
+    "sources": [
+      {
+        "title": "Amoeba proteus",
+        "url": "https://arcella.nl/?p=1922",
+        "publisher": "Ferry Siemensma, Microworld: world of amoeboid organisms",
+        "evidence": "220–760 µm (mean 425 µm)"
+      }
+    ],
+    "note": "Il valore attuale di 500 µm è dentro l'intervallo 220-760 µm (media 425 µm), quindi confermato come dimensione tipica. La fonte è un sito di riferimento tassonomico specialistico curato da un singolo studioso, non un ente istituzionale: Britannica e Animal Diversity Web non si sono aperte. L'habitat viene dalla stessa pagina (\"Freshwater and wet Sphagnum\", specie non rara).",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "tardigrado",
+    "size": 0.00051,
+    "basis": "lunghezza del corpo di un tardigrado adulto, all'estremo superiore dell'intervallo tipico",
+    "verdict": "confirmed",
+    "flags": ["n"],
+    "desc": "I tardigradi sono animali microscopici, lunghi in media da 0,1 a 0,5 mm, di cui si conoscono oltre 1.000 specie. Possono entrare in criptobiosi, uno stato di vita sospesa. In questo modo sopravvivono a condizioni estreme come l'assenza di ossigeno, il vuoto e le radiazioni ionizzanti.",
+    "sources": [
+      {
+        "title": "Tardigrada (water bears)",
+        "url": "https://animaldiversity.org/accounts/Tardigrada/",
+        "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+        "evidence": "Tardigrades are small (average 0.1 to 0.5 mm long)"
+      }
+    ],
+    "note": "Il valore attuale di 0,51 mm è entro il 5% dal limite superiore dell'intervallo medio (0,5 mm). La fonte conferma vuoto e radiazioni (\"anoxic conditions, vacuums, and ionizing radiation\"); il congelamento, citato nella descrizione precedente, non compare nel passo letto ed è stato tolto.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "lenticchia-d-acqua",
+    "size": 0.003,
+    "basis": "lunghezza della fronda (tallo) di Lemna minor",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "La lenticchia d'acqua comune (Lemna minor) è una pianta acquatica che galleggia libera e forma tappeti verdi sulla superficie di stagni e acque ferme. Ogni piantina è una singola fronda ovale lunga da 1 a 8 mm, tipicamente pochi millimetri. È tra le più piccole piante con fiore.",
+    "sources": [
+      {
+        "title": "Lemna minor (common duckweed)",
+        "url": "https://gobotany.nativeplanttrust.org/species/lemna/minor/",
+        "publisher": "Go Botany, Native Plant Trust",
+        "evidence": "Among the smallest of all flowering plants"
+      }
+    ],
+    "note": "La stessa pagina dà la lunghezza del tallo \"1–8 mm\" e la larghezza \"0.5–6.2 mm\": il valore attuale di 3 mm è dentro l'intervallo. \"Stagni e acque ferme\" è una formulazione generica; la pagina parla di pianta acquatica galleggiante.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "formica",
+    "size": 0.004,
+    "basis": "lunghezza del corpo di un'operaia di formica nera comune (Lasius niger)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Le formiche sono insetti sociali della famiglia Formicidae, con circa 12.000 specie descritte nel mondo. Le dimensioni cambiano molto da una specie all'altra: l'operaia della comune formica nera dei giardini (Lasius niger) è lunga da 3,5 a 5 mm. Si stima che le specie esistenti siano in realtà circa 15.000.",
+    "sources": [
+      {
+        "title": "Lasius niger (trattamento tassonomico da Collingwood, 1979, The Formicidae of Fennoscandia and Denmark)",
+        "url": "https://zenodo.org/record/6283849",
+        "publisher": "C. A. Collingwood, Fauna Entomologica Scandinavica 8, via Zenodo (Biodiversity Literature Repository)",
+        "evidence": "Length: 3.5-5.0 mm."
+      },
+      {
+        "title": "Formicidae (ants)",
+        "url": "https://animaldiversity.org/accounts/Formicidae/",
+        "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology",
+        "evidence": "Approximately, 12,000 species of ants"
+      }
+    ],
+    "note": "Oggetto generico: 4 mm corrisponde a un'operaia di Lasius niger (3,5-5,0 mm), scelta come formica comune rappresentativa. La stima di circa 15.000 specie viene dalla stessa pagina di Animal Diversity Web (\"closer to 15,000 actually exist\"). La scheda Britannica sulle formiche non si è aperta (403).",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "batterio-piu-grande",
+    "size": 0.01,
+    "basis": "lunghezza della cellula di Thiomargarita magnifica (media superiore a 9 mm)",
+    "verdict": "confirmed",
+    "flags": ["r"],
+    "desc": "Thiomargarita magnifica, descritto su Science nel 2022, è il batterio più grande conosciuto: la sua cellula filamentosa è lunga in media oltre 9.000 micrometri, circa un centimetro, ed è visibile a occhio nudo. La maggior parte dei batteri misura intorno a 2 micrometri, e i più grandi noti in precedenza arrivavano a 750 micrometri. Il suo DNA è racchiuso in compartimenti delimitati da membrane, cosa insolita per un batterio.",
+    "sources": [
+      {
+        "title": "A centimeter-long bacterium with DNA contained in metabolically active, membrane-bound organelles",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35737788/",
+        "publisher": "Volland et al., Science 376, 1453-1458 (2022), PubMed",
+        "evidence": "an average cell length greater than 9000 micrometers"
+      }
+    ],
+    "note": "Nessun cambio di valore: la media superiore a 9 mm e il titolo \"centimeter-long\" sostengono il valore attuale di 1 cm (entro circa il 10%, compatibile con \"circa un centimetro\"). Il flag r resta perché il valore era già stato aggiornato rispetto alla lista originale (0,75 mm, coerente con \"some of the largest specimens reaching 750 micrometers\" dello stesso abstract). DOI: 10.1126/science.abb3634. La pagina PubMed blocca WebFetch (richiede cookie) e science.org risponde 403: l'abstract è stato letto tramite l'API di Europe PMC e il connettore PubMed. \"Il più grande conosciuto\" vale alla data della pubblicazione (2022); non ho trovato segnalazioni di batteri più grandi, ma non ho fatto una ricerca esaustiva. Il luogo di scoperta (mangrovie della Guadalupa) non è nell'abstract ed è stato omesso.",
+    "verified": "2026-11-12"
+  }
+]

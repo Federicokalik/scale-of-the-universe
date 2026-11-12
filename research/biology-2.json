@@ -1,0 +1,248 @@
+[
+  {
+    "id": "cromosoma-y",
+    "size": 0.000002,
+    "basis": "lunghezza indicativa del cromosoma Y umano condensato in metafase",
+    "verdict": "uncertain",
+    "flags": ["u"],
+    "desc": "Il cromosoma Y è il più piccolo dei due cromosomi sessuali umani e contiene quasi il 2% del DNA della cellula. In metafase, quando è condensato al massimo, è lungo tipicamente 2 o 3 µm, ma la misura cambia con il grado di condensazione. La sua sequenza completa, 62.460.029 coppie di basi, è stata pubblicata solo nel 2023 dal consorzio Telomere-to-Telomere.",
+    "sources": [
+      {
+        "title": "Y chromosome",
+        "url": "https://medlineplus.gov/genetics/chromosome/y/",
+        "publisher": "MedlinePlus Genetics, U.S. National Library of Medicine",
+        "evidence": "represents almost 2 percent of the total DNA in cells"
+      },
+      {
+        "title": "12.3 Cytogenetic Maps (Introduction to Genetics)",
+        "url": "https://opengenetics.pressbooks.tru.ca/?p=1124",
+        "publisher": "Thompson Rivers University, Open Genetics",
+        "evidence": "a condensed human metaphase chromosome is 5 µm long"
+      },
+      {
+        "title": "Researchers assemble the first complete sequence of a human Y chromosome",
+        "url": "https://www.genome.gov/news/news-release/researchers-assemble-the-first-complete-sequence-of-a-human-y-chromosome",
+        "publisher": "National Human Genome Research Institute (NHGRI), NIH",
+        "evidence": "generated the first truly complete sequence of a human Y chromosome"
+      }
+    ],
+    "note": "Non ho trovato una misura diretta in micrometri del cromosoma Y in metafase: il valore resta una stima, da cui il verdetto incerto. Stima: un cromosoma umano in metafase è lungo in media 5 µm (Open Genetics); il cromosoma medio porta circa 3.100 Mb / 23 = 135 Mb, il cromosoma Y circa 62 Mb, quindi 5 µm × 62 / 135 = 2,3 µm, compatibile con i 2 µm attuali. La cifra 62.460.029 coppie di basi viene dall'abstract dell'articolo su Nature (Rhie et al. 2023, DOI 10.1038/s41586-023-06457-y), letto tramite il record di Europe PMC perché la pagina di Nature non si apre senza login; il comunicato NHGRI citato conferma data (23 agosto 2023) e primato ma non riporta il numero.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "escherichia-coli",
+    "size": 0.0000021,
+    "basis": "lunghezza tipica della cellula a bastoncino",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Escherichia coli è un batterio a forma di bastoncino, usato da decenni come organismo modello in biologia. Una cellula misura tipicamente circa 2 µm di lunghezza e 1 µm di diametro, con un volume intorno a 1 µm³. Le dimensioni non sono fisse: le cellule che crescono più in fretta sono anche più grandi.",
+    "sources": [
+      {
+        "title": "How big is an E. coli cell and what is its mass? (Cell Biology by the Numbers)",
+        "url": "https://book.bionumbers.org/how-big-is-an-e-coli-cell-and-what-is-its-mass/",
+        "publisher": "R. Milo e R. Phillips, Cell Biology by the Numbers (BioNumbers)",
+        "evidence": "a diameter of about ≈1µm, a length of ≈2µm"
+      }
+    ],
+    "note": "Il valore attuale di 2,1 µm è entro il 5% dai 2 µm della fonte. Ho tolto il superlativo \"il batterio più studiato al mondo\" perché la fonte aperta non lo afferma: la pagina sul lievito dello stesso libro lo definisce \"the representative prokaryote\", da cui \"organismo modello\".",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "mitocondrio",
+    "size": 0.0000025,
+    "basis": "lunghezza tipica di un mitocondrio isolato a forma di bastoncino",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il mitocondrio è l'organello che produce la maggior parte dell'ATP, la molecola che fornisce energia alla cellula. Nella forma classica a bastoncino è lungo tipicamente circa 2 µm e largo circa 1 µm, ma in molte cellule i mitocondri si fondono in reti che si estendono per decine di micrometri. Conserva un piccolo genoma proprio, eredità del procariote da cui si ritiene derivi.",
+    "sources": [
+      {
+        "title": "How big are mitochondria? (Cell Biology by the Numbers)",
+        "url": "https://book.bionumbers.org/how-big-are-mitochondria/",
+        "publisher": "R. Milo e R. Phillips, Cell Biology by the Numbers (BioNumbers)",
+        "evidence": "a length of roughly two microns and a diameter of roughly one micron"
+      }
+    ],
+    "note": "La fonte dà \"circa 2 µm\" di lunghezza; il valore attuale di 2,5 µm è più alto del 25% ma rientra nella variabilità naturale dell'organello (forma e dimensioni cambiano con il tipo di cellula e le condizioni), quindi lo confermo come valore tipico. La descrizione riporta la cifra della fonte.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "cellula-di-lievito",
+    "size": 0.000005,
+    "basis": "diametro tipico della cellula, approssimata a una sfera",
+    "verdict": "confirmed",
+    "flags": ["n"],
+    "desc": "Saccharomyces cerevisiae è il lievito usato per fare il pane e la birra. Le sue cellule sono quasi sferiche, con un diametro di circa 4 µm nella forma aploide e circa 6 µm in quella diploide. È un organismo modello della biologia cellulare ed è stato il primo eucariote con il genoma sequenziato per intero, nel 1996.",
+    "sources": [
+      {
+        "title": "How big is a budding yeast cell? (Cell Biology by the Numbers)",
+        "url": "https://book.bionumbers.org/how-big-is-a-budding-yeast-cell/",
+        "publisher": "R. Milo e R. Phillips, Cell Biology by the Numbers (BioNumbers)",
+        "evidence": "a diameter of roughly 4 μm for haploids and roughly 6 μm for diploids"
+      }
+    ],
+    "note": "5 µm è il valore centrale tra i 4 µm (aploide) e i 6 µm (diploide) della fonte. La stessa pagina sostiene pane, birra, ruolo di organismo modello e il sequenziamento del 1996.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "nucleo-cellulare",
+    "size": 0.000006,
+    "basis": "diametro tipico del nucleo di una cellula umana",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il nucleo è il compartimento della cellula eucariote che custodisce il DNA. Il suo diametro va tipicamente da 2 a 10 µm secondo l'organismo e il tipo di cellula. In una cellula umana contiene circa 2 metri di DNA ripiegato.",
+    "sources": [
+      {
+        "title": "How big are nuclei? (Cell Biology by the Numbers)",
+        "url": "https://book.bionumbers.org/how-big-are-nuclei/",
+        "publisher": "R. Milo e R. Phillips, Cell Biology by the Numbers (BioNumbers)",
+        "evidence": "typical diameters ranging between 2 and 10 microns"
+      },
+      {
+        "title": "How big are genomes? (Cell Biology by the Numbers)",
+        "url": "https://book.bionumbers.org/how-big-are-genomes/",
+        "publisher": "R. Milo e R. Phillips, Cell Biology by the Numbers (BioNumbers)",
+        "evidence": "roughly 2 full meters worth of DNA"
+      }
+    ],
+    "note": "6 µm cade al centro dell'intervallo 2-10 µm; la stessa fonte mostra un fibroblasto umano con nucleo di circa 10 µm, quindi 6 µm è un valore tipico e non una misura unica. Il valore di 6 µm per il nucleo umano è quello del manuale di Alberts (Molecular Biology of the Cell, NCBI Bookshelf NBK26834), ma la pagina non si è aperta (controllo reCAPTCHA) e quindi non è citata.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "cloroplasto",
+    "size": 0.0000062,
+    "basis": "lunghezza tipica (asse maggiore) di un cloroplasto a forma di disco",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il cloroplasto è l'organello delle piante e delle alghe in cui avviene la fotosintesi. Ha la forma di un disco lungo tipicamente da 5 a 10 µm. Come il mitocondrio possiede DNA e ribosomi propri.",
+    "sources": [
+      {
+        "title": "7.4B: Chloroplasts (Microbiology, G. Kaiser)",
+        "url": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(Kaiser)/Unit_4%3A_Eukaryotic_Microorganisms_and_Viruses/07%3A_The_Eukaryotic_Cell/7.4%3A_Other_Internal_Membrane-Bound_Organelles/7.4B%3A_Chloroplasts",
+        "publisher": "Gary Kaiser, Community College of Baltimore County, LibreTexts",
+        "evidence": "disk-shaped structures ranging from 5 to 10 micrometers in length"
+      },
+      {
+        "title": "4.3 Eukaryotic Cells (Biology 2e)",
+        "url": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells",
+        "publisher": "OpenStax, Rice University",
+        "evidence": "chloroplasts have their own DNA and ribosomes"
+      }
+    ],
+    "note": "6,2 µm rientra nell'intervallo 5-10 µm. Il manuale di Cooper (The Cell, NCBI Bookshelf NBK9905) dà lo stesso intervallo ma la pagina non si è aperta (reCAPTCHA) e non è citata.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "cromosoma-x",
+    "size": 0.000007,
+    "basis": "lunghezza indicativa del cromosoma X umano condensato in metafase",
+    "verdict": "uncertain",
+    "flags": ["r", "u"],
+    "desc": "Il cromosoma X è uno dei due cromosomi sessuali umani: conta circa 155 milioni di coppie di basi, pari a circa il 5% del DNA della cellula. In metafase è lungo pochi micrometri, tipicamente tra 5 e 7 µm, ma la misura dipende dal grado di condensazione. Nelle cellule con due cromosomi X uno dei due viene inattivato nelle prime fasi dello sviluppo embrionale.",
+    "sources": [
+      {
+        "title": "X chromosome",
+        "url": "https://medlineplus.gov/genetics/chromosome/x/",
+        "publisher": "MedlinePlus Genetics, U.S. National Library of Medicine",
+        "evidence": "spans about 155 million DNA building blocks (base pairs)"
+      },
+      {
+        "title": "12.3 Cytogenetic Maps (Introduction to Genetics)",
+        "url": "https://opengenetics.pressbooks.tru.ca/?p=1124",
+        "publisher": "Thompson Rivers University, Open Genetics",
+        "evidence": "a condensed human metaphase chromosome is 5 µm long"
+      }
+    ],
+    "note": "Non ho trovato una misura diretta in micrometri del cromosoma X in metafase, quindi il verdetto è incerto e la dimensione attuale di 7 µm resta invariata. Stima: cromosoma medio 5 µm per circa 135 Mb (3.100 Mb / 23); X = 155 Mb, quindi 5 µm × 155 / 135 = 5,7 µm. I 7 µm attuali sono più alti del 20% circa ma plausibili per cromosomi meno condensati (prometafase). Ho tolto dalla descrizione il riferimento al valore originale di 4 µm, che resta documentato dal flag r.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "globulo-rosso",
+    "size": 0.0000075,
+    "basis": "diametro medio del disco di un eritrocita umano",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il globulo rosso, o eritrocita, è la cellula del sangue che trasporta l'ossigeno. È un disco biconcavo con un diametro medio di 7-8 µm e, maturando nel midollo osseo, espelle il nucleo e gran parte degli organelli. Resta in circolo fino a 120 giorni.",
+    "sources": [
+      {
+        "title": "18.3 Erythrocytes (Anatomy and Physiology 2e)",
+        "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-3-erythrocytes",
+        "publisher": "OpenStax, Rice University",
+        "evidence": "a mean diameter of only about 7–8 micrometers (µm)"
+      },
+      {
+        "title": "How big is a human cell? (Cell Biology by the Numbers)",
+        "url": "https://book.bionumbers.org/how-big-is-a-human-cell/",
+        "publisher": "R. Milo e R. Phillips, Cell Biology by the Numbers (BioNumbers)",
+        "evidence": "a corresponding diameter of 7-8 µm (BNID 100509)"
+      }
+    ],
+    "note": "7,5 µm è il centro dell'intervallo 7-8 µm dato da entrambe le fonti.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "globulo-bianco",
+    "size": 0.000012,
+    "basis": "diametro tipico di un leucocita umano (neutrofilo, il tipo più comune)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "I globuli bianchi, o leucociti, sono le cellule del sangue che difendono l'organismo. Il diametro cambia con il tipo: 10-12 µm per i neutrofili, da 6 a 14 µm per i linfociti e da 12 a 20 µm per i monociti. Sono molto meno numerosi dei globuli rossi: tipicamente da 5.000 a 10.000 per microlitro di sangue.",
+    "sources": [
+      {
+        "title": "18.4 Leukocytes and Platelets (Anatomy and Physiology 2e)",
+        "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets",
+        "publisher": "OpenStax, Rice University",
+        "evidence": "They are 10–12 µm in diameter, significantly larger than erythrocytes."
+      }
+    ],
+    "note": "12 µm è l'estremo superiore dei neutrofili (10-12 µm) e cade dentro l'intervallo complessivo 6-20 µm. La descrizione precedente dava 10-15 µm: l'intervallo è stato sostituito con quelli per tipo riportati dalla fonte.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "cellula-della-pelle",
+    "size": 0.00003,
+    "basis": "diametro equivalente di un corneocita, il cheratinocita appiattito dello strato più esterno dell'epidermide",
+    "verdict": "uncertain",
+    "flags": ["u"],
+    "desc": "I cheratinociti sono le cellule principali dell'epidermide. Nascono nello strato basale, dove misurano 6-10 µm, e in circa un mese risalgono in superficie appiattendosi in scaglie senza nucleo, i corneociti. Un corneocita ha una superficie di 700-1.200 µm², che corrisponde a un diametro di circa 30-40 µm.",
+    "sources": [
+      {
+        "title": "Corneocytes: Relationship between Structural and Biomechanical Properties",
+        "url": "https://karger.com/article/doi/10.1159/000513054",
+        "publisher": "Évora et al., Skin Pharmacology and Physiology (Karger), 2021",
+        "evidence": "the surface area in non-exposed skin is about 1,000–1,200 μm2"
+      },
+      {
+        "title": "Cell types: Keratinocyte (Atlas of Plant and Animal Histology)",
+        "url": "https://mmegias.webs2.uvigo.es/02-english/8-tipos-celulares/queratinocito.php?tema=b",
+        "publisher": "Universidade de Vigo",
+        "evidence": "They are rounded to columnar in shape, about 6-10 µm in size."
+      }
+    ],
+    "note": "\"Cellula della pelle\" è ambiguo: i cheratinociti vivi misurano 6-15 µm (Vigo: basali 6-10 µm, spinosi 10-15 µm), mentre 30 µm corrisponde solo ai corneociti appiattiti. Diametro derivato dalla superficie, trattando la cellula come un disco, d = 2 × √(A/π): 700 µm² dà 29,9 µm, 1.000 µm² dà 35,7 µm, 1.200 µm² dà 39,1 µm (700-800 µm² è il dato per la pelle esposta, stesso abstract). I 30 µm attuali restano come estremo inferiore; da decidere se rinominare l'oggetto in \"corneocita\" o ridurre la dimensione a circa 10 µm per un cheratinocita vivo.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "granulo-di-polline",
+    "size": 0.00005,
+    "basis": "diametro di un granulo di taglia intermedia; l'intervallo tra le specie è molto ampio",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il granulo di polline trasporta le cellule riproduttive maschili delle piante a seme. Le dimensioni cambiano molto con la specie: da circa 10 µm nell'ortica a circa 200 µm nell'abete bianco. Anche lo stesso granulo vivo si gonfia e si contrae secondo l'umidità.",
+    "sources": [
+      {
+        "title": "Pollen and spores: size, production (Palaeoecology)",
+        "url": "https://www.botany.unibe.ch/paleo/pollen_e/production.htm",
+        "publisher": "Universität Bern, Institute of Plant Sciences",
+        "evidence": "a diameter of around 10 micrometers"
+      },
+      {
+        "title": "Pollen and Spores: Morphology, size",
+        "url": "https://hoopermuseum.earthsci.carleton.ca/2001_pollenspores_ml/morph04.htm",
+        "publisher": "Hooper Virtual Natural History Museum, Carleton University",
+        "evidence": "The smallest grains measure about 5μm, the largest more than 200μm."
+      }
+    ],
+    "note": "50 µm è un valore rappresentativo dentro l'intervallo delle fonti (circa 5-200 µm), non una misura di una specie precisa. L'intervallo \"da 10 a 100 µm\" della descrizione precedente era troppo stretto in alto (abete bianco circa 200 µm secondo Berna) ed è stato sostituito. La definizione di polline come vettore delle cellule riproduttive maschili è nozione generale e non è tratta dalle due pagine citate.",
+    "verified": "2026-11-12"
+  }
+]

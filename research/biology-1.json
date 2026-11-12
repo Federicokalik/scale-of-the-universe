@@ -1,0 +1,226 @@
+[
+  {
+    "id": "membrana-cellulare",
+    "size": 8e-9,
+    "basis": "spessore della membrana plasmatica, proteine comprese",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "La membrana cellulare è il sottile involucro che separa l'interno della cellula dall'ambiente esterno. È formata da un doppio strato di lipidi spesso circa 4 nm, attraversato e rivestito da proteine che portano lo spessore complessivo tipicamente a 7,5-10 nm.",
+    "sources": [
+      {
+        "title": "Thickness of a Cell Membrane (BNID 100787)",
+        "url": "https://bionumbers.hms.harvard.edu/bionumber.aspx?id=100787",
+        "publisher": "BioNumbers, Harvard Medical School",
+        "evidence": "Membranes are typically 7.5 - 10 nm in thickness"
+      },
+      {
+        "title": "What is the thickness of the cell membrane? (Cell Biology by the Numbers)",
+        "url": "https://book.bionumbers.org/what-is-the-thickness-of-the-cell-membrane/",
+        "publisher": "R. Milo e R. Phillips, Cell Biology by the Numbers",
+        "evidence": "This implies an overall bilayer membrane thickness of 4 nm"
+      }
+    ],
+    "note": "Valore attuale 8 nm dentro l'intervallo 7,5-10 nm di BioNumbers (che cita un dizionario di biologia del 1999, organismo non specificato). La seconda fonte precisa che il solo doppio strato lipidico misura circa 4 nm e che lo spessore complessivo è riportato tra 4 e 10 nm. La pagina Britannica sulla membrana non si è aperta (HTTP 403) e non è citata.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "circovirus-suino",
+    "size": 1.7e-8,
+    "basis": "diametro del virione (capside icosaedrico senza involucro)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il circovirus suino è un virus a DNA circolare a singolo filamento che infetta i maiali. Il virione del tipo 1 (PCV1) misura tra 17 e 20,7 nm di diametro, quello del tipo 2 circa 20,5 nm. Secondo l'ICTV, PCV1 e PCV2 sono i più piccoli virus capaci di replicarsi autonomamente nelle cellule dei mammiferi.",
+    "sources": [
+      {
+        "title": "Circoviridae (ICTV Ninth Report)",
+        "url": "https://ictv.global/node/2154",
+        "publisher": "International Committee on Taxonomy of Viruses (ICTV)",
+        "evidence": "19.1–26.5 nm, 17–20.7 nm and 12–20.7 nm, respectively"
+      }
+    ],
+    "note": "Il valore attuale (17 nm) è l'estremo inferiore dell'intervallo ICTV per PCV1 (17-20,7 nm; il valore dipende dal colorante negativo usato); per PCV2 l'ICTV indica circa 20,5 nm. Mantenuto. La frase sul primato è sostenuta dalla stessa pagina: \"The genomes of PCV1 and PCV2 are the smallest viruses replicating autonomously in mammalian cells\"; nella descrizione 'cellule animali' è stato ristretto a 'cellule dei mammiferi' come nella fonte.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "ribosoma",
+    "size": 2.5e-8,
+    "basis": "diametro tipico del ribosoma completo (due subunità unite)",
+    "verdict": "confirmed",
+    "flags": [
+      "n"
+    ],
+    "desc": "Il ribosoma è il complesso di RNA e proteine che legge l'RNA messaggero e assembla le proteine. Misura tipicamente tra 20 e 30 nm: circa 21 nm quello del batterio Escherichia coli, circa 25 nm quello delle cellule dei mammiferi. Nel ribosoma di E. coli circa due terzi della massa sono RNA e un terzo proteine.",
+    "sources": [
+      {
+        "title": "Size of 70s (intact) of ribosome (BNID 102320)",
+        "url": "https://bionumbers.hms.harvard.edu/bionumber.aspx?id=102320",
+        "publisher": "BioNumbers, Harvard Medical School (da Kaczanowska e Rydén-Aulin, Microbiol Mol Biol Rev 2007)",
+        "evidence": "the 70S ribosome is a 210-Å particle"
+      },
+      {
+        "title": "Ribosome diameter (BNID 100483)",
+        "url": "https://bionumbers.hms.harvard.edu/bionumber.aspx?id=100483",
+        "publisher": "BioNumbers, Harvard Medical School",
+        "evidence": "For diameter of ~25nm in mammalian cells see"
+      }
+    ],
+    "note": "Oggetto generico: 25 nm sta dentro la dispersione delle fonti (21 nm per E. coli, 30 nm come valore generico e ~25 nm per le cellule di mammifero in BNID 100483; un'altra voce BioNumbers, BNID 100121, dà 26 nm per E. coli, vista solo nell'elenco dei risultati). Confermato come valore tipico.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "virus-dell-epatite-b",
+    "size": 4.2e-8,
+    "basis": "diametro del virione infettivo completo (particella di Dane)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il virus dell'epatite B infetta le cellule del fegato. Il virione infettivo, detto particella di Dane, è una sfera a doppio guscio di 42 nm di diametro. Contiene un genoma di DNA circolare parzialmente a doppio filamento di circa 3.200 paia di basi.",
+    "sources": [
+      {
+        "title": "Hepatitis B: The Virus and Disease",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2809016",
+        "publisher": "T. J. Liang, Hepatology 2009 (PubMed Central)",
+        "evidence": "spherical, double-shelled structure 42 nm in diameter"
+      }
+    ],
+    "note": "42 nm confermato. Genoma: \"about 3.2 kilobase (kb) pairs\" nella stessa fonte. Un risultato di ricerca segnala che al crio-microscopio il virione appare più grande di 42 nm, ma quella pagina non è stata aperta.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "sars-cov-2",
+    "size": 1.05e-7,
+    "basis": "diametro del virione (particella virale con involucro)",
+    "verdict": "confirmed",
+    "flags": [
+      "n"
+    ],
+    "desc": "SARS-CoV-2 è il coronavirus responsabile della pandemia di COVID-19. Le particelle sono all'incirca sferiche e nelle prime immagini al microscopio elettronico, pubblicate nel 2020, il diametro variava tra circa 60 e 140 nm. Le punte sulla superficie, lunghe da 9 a 12 nm, danno al virione l'aspetto di una corona solare, da cui il nome della famiglia.",
+    "sources": [
+      {
+        "title": "A Novel Coronavirus from Patients with Pneumonia in China, 2019",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7092803/",
+        "publisher": "Zhu et al., New England Journal of Medicine 2020 (PubMed Central)",
+        "evidence": "varied from about 60 to 140 nm"
+      }
+    ],
+    "note": "105 nm è vicino al centro dell'intervallo 60-140 nm misurato da Zhu et al.: confermato come valore tipico. Punte: \"quite distinctive spikes, about 9 to 12 nm, and gave virions the appearance of a solar corona\" nella stessa fonte.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "hiv",
+    "size": 1.2e-7,
+    "basis": "diametro del virione maturo (particella con involucro)",
+    "verdict": "uncertain",
+    "flags": [
+      "r",
+      "u"
+    ],
+    "desc": "L'HIV è il retrovirus che causa l'AIDS. Le sue particelle, all'incirca sferiche, non hanno una dimensione fissa: le fonti indicano da 80-100 nm fino a una media di 145 nm, con singoli virioni tra 120 e 200 nm nelle misure al crio-microscopio elettronico. Il valore di 120 nm qui usato è quindi indicativo.",
+    "sources": [
+      {
+        "title": "Structural organization of authentic, mature HIV-1 virions and cores",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC152888/",
+        "publisher": "Briggs et al., The EMBO Journal 2003 (PubMed Central)",
+        "evidence": "extending from 120 to 200 nm (mean 145 ± 25 nm, n = 255)"
+      },
+      {
+        "title": "Lentivirus",
+        "url": "https://viralzone.expasy.org/264",
+        "publisher": "ViralZone, SIB Swiss Institute of Bioinformatics",
+        "evidence": "Enveloped, spherical to pleomorphic in shape, 80-100 nm in diameter"
+      }
+    ],
+    "note": "Le fonti non concordano: ViralZone dà 80-100 nm per il genere Lentivirus, la misura diretta al crio-microscopio di Briggs et al. (255 virioni di HIV-1) dà 145 ± 25 nm con estremi 120-200 nm. Il valore attuale di 120 nm sta tra i due ed è stato mantenuto con flag u; se si preferisce la misura primaria, l'alternativa è 1,45e-7 m. Tolta dalla descrizione la frase 'L'originale: 90 nm' (storia del dato, non verificata qui); il flag r resta.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "batteriofago-t4",
+    "size": 2.6e-7,
+    "basis": "lunghezza complessiva del virione: testa più coda, fibre escluse",
+    "verdict": "corrected",
+    "flags": [
+      "r"
+    ],
+    "desc": "Il batteriofago T4 è un virus che infetta il batterio Escherichia coli. Ha una testa allungata di 120 nm per 86 nm e una coda contrattile di 140 nm, per una lunghezza complessiva di circa 260 nm. Alla base della coda sono attaccate sei fibre di circa 160 nm, che gli danno l'aspetto di un modulo di atterraggio.",
+    "sources": [
+      {
+        "title": "Bacteriophage T4 Head: Structure, Assembly, and Genome Packaging",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9958956/fullTextXML",
+        "publisher": "Rao, Fokine, Fang e Shao, Viruses 2023 (testo integrale via Europe PMC)",
+        "evidence": "T4 has a 140 nm long contractile tail"
+      },
+      {
+        "title": "Tequatrovirus",
+        "url": "https://viralzone.expasy.org/504",
+        "publisher": "ViralZone, SIB Swiss Institute of Bioinformatics",
+        "evidence": "The prolate head is 120 nm in length and 86 nm in width."
+      }
+    ],
+    "note": "Corretto da 2,1e-7 m a 2,6e-7 m. Calcolo: testa 120 nm + coda 140 nm = 260 nm (fibre escluse). La somma è una derivazione: nessuna delle due fonti dà la lunghezza totale in una sola cifra, e non ho trovato una fonte apribile che sostenga i 210 nm attuali. Le pagine PMC e MDPI dell'articolo di Rao et al. non si sono aperte (verifica del browser, HTTP 403): è citato l'indirizzo Europe PMC del testo integrale, che è quello effettivamente letto (DOI 10.3390/v15020527); il servizio a volte risponde con errore 500 e va riprovato. Stessa fonte: fibre \"six ~160 nm long kinked tail fibers\". Il paragone con il modulo lunare è un'immagine descrittiva, non un dato di fonte.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "batterio-piu-piccolo",
+    "size": 3e-7,
+    "basis": "diametro tipico della cellula (larghezza; la cellula non è sferica)",
+    "verdict": "uncertain",
+    "flags": [
+      "n",
+      "u"
+    ],
+    "desc": "Mycoplasma genitalium è un batterio del gruppo dei micoplasmi, che hanno un diametro di circa 0,2-0,4 µm e sono tra i batteri più piccoli. Quando fu sequenziato nel 1995, il suo genoma di 580.070 paia di basi era il più piccolo noto per un organismo a vita libera.",
+    "sources": [
+      {
+        "title": "Diameter of smallest bacteria - mycoplasma (BNID 104717)",
+        "url": "https://bionumbers.hms.harvard.edu/bionumber.aspx?id=104717",
+        "publisher": "BioNumbers, Harvard Medical School (da Zhao et al., BMC Research Notes 2008)",
+        "evidence": "With a diameter of about 0.2 – 0.4 µm, mycoplasmas are small"
+      },
+      {
+        "title": "The minimal gene complement of Mycoplasma genitalium",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE:%22The%20minimal%20gene%20complement%20of%20Mycoplasma%20genitalium%22&resultType=core&format=json",
+        "publisher": "Fraser et al., Science 1995 (record Europe PMC, PMID 7569993)",
+        "evidence": "the smallest known genome of any free-living organism"
+      }
+    ],
+    "note": "Incerto perché la fonte aperta sulla dimensione riguarda il genere Mycoplasma (0,2-0,4 µm) e non la specie: 0,3 µm è il centro di quell'intervallo. Fonti secondarie viste solo nei risultati di ricerca (non apribili: PMC con verifica del browser, IJSEM e Cardiff con HTTP 403) descrivono M. genitalium come cellula a forma di fiasco di circa 0,6-0,7 µm per 0,3-0,4 µm: se la dimensione deve essere l'estensione massima, il valore sarebbe circa 6e-7 m, ma non ho potuto verificarlo su una pagina aperta. Il primato riguarda il genoma (Fraser et al. 1995, datato) e non le dimensioni della cellula: il nome 'Batterio più piccolo' è quindi da intendere in senso lato. Per l'abstract di Science è citato il record Europe PMC, l'unico indirizzo che si è aperto (DOI 10.1126/science.270.5235.397). Tolto 'capaci di vita autonoma' riferito alle dimensioni: la fonte sostiene il primato solo per il genoma.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "mimivirus",
+    "size": 7.5e-7,
+    "basis": "diametro complessivo del virione, comprese le fibre superficiali",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il Mimivirus è un virus gigante che infetta le amebe. Il capside ha un diametro di circa 500 nm ed è coperto da un fitto strato di fibre lunghe 125 nm, per un diametro totale di circa 750 nm. Per il suo aspetto esterno fu inizialmente identificato per errore come un batterio.",
+    "sources": [
+      {
+        "title": "Structural Studies of the Giant Mimivirus",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2671561/",
+        "publisher": "Xiao et al., PLoS Biology 2009 (PubMed Central)",
+        "evidence": "about 7,500 Å"
+      }
+    ],
+    "note": "750 nm confermato (7.500 Å = 750 nm, fibre comprese; capside \"about 5,000 Å\", fibre \"1,250-Å-long\"). Lo scambio con un batterio è nella stessa fonte: \"had initially led to its false identification as a bacterium\". Che l'ospite sia un'ameba risulta dal titolo dell'articolo di scoperta citato dalla fonte (\"A giant virus in amoebae\", Science 2003), non aperto direttamente.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "virus-piu-grande",
+    "size": 0.0000015,
+    "basis": "lunghezza della particella virale (forma ad anfora)",
+    "verdict": "confirmed",
+    "flags": [
+      "r"
+    ],
+    "desc": "Pithovirus sibericum è un virus gigante con una particella a forma di anfora lunga 1,5 µm. È stato isolato da un campione di permafrost siberiano vecchio di oltre 30.000 anni e descritto nel 2014, quando superò per dimensioni i pandoravirus, lunghi circa 1 µm. Il suo genoma, di circa 600.000 paia di basi, è invece molto più piccolo del loro.",
+    "sources": [
+      {
+        "title": "Thirty-thousand-year-old distant relative of giant icosahedral DNA viruses with a pandoravirus morphology",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:24591590%20AND%20SRC:MED&resultType=core&format=json",
+        "publisher": "Legendre et al., PNAS 2014 (record Europe PMC, PMID 24591590)",
+        "evidence": "an even larger pandoravirus-like particle 1.5 μm in length"
+      }
+    ],
+    "note": "1,5 µm confermato dall'abstract (stesso abstract: \">30,000-y-old radiocarbon-dated sample\", \"600 kb AT-rich genome\", pandoravirus \"1 μm in length\", genomi \"up to 2.8 Mb\"). Il superlativo assoluto non è verificato alla data odierna: la fonte sostiene solo che nel 2014 la particella era più grande di quella dei pandoravirus, e la descrizione lo dice in questi termini; il nome 'Virus più grande' andrebbe inteso come 'tra i più grandi' o verificato a parte. 'Siberiano' viene dal nome della specie e dalla descrizione attuale; il luogo esatto del campione non è nelle frasi dell'abstract lette. Tolta 'L'originale: 440 nm' (storia del dato); il flag r resta. La pagina PubMed non si è aperta (richiede cookie): è citato il record Europe PMC dello stesso abstract (DOI 10.1073/pnas.1320670111).",
+    "verified": "2026-11-12"
+  }
+]

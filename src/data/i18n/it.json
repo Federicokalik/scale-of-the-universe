@@ -122,11 +122,11 @@
     },
     "lunghezza-di-planck": {
       "name": "Lunghezza di Planck",
-      "desc": "1,616255×10⁻³⁵ m (CODATA 2022). Sotto questa scala la fisica nota non basta più."
+      "desc": "La lunghezza di Planck è una delle costanti fisiche fondamentali tabulate dal CODATA. Il valore raccomandato nel 2022 è 1,616255×10⁻³⁵ m, con un'incertezza relativa di circa 1,1×10⁻⁵. Il raggio di carica del protone è circa 5×10¹⁹ volte più grande."
     },
     "yoctometro": {
       "name": "Yoctometro",
-      "desc": "Un quadrilionesimo di metro: 10⁻²⁴ m."
+      "desc": "Lo yoctometro vale 10⁻²⁴ m, cioè un milionesimo di miliardesimo di miliardesimo di metro. Il prefisso yocto è stato adottato dalla Conferenza generale dei pesi e delle misure nel 1991. La lunghezza di Planck corrisponde a circa 1,6×10⁻¹¹ yoctometri."
     },
     "neutrino": {
       "name": "Neutrino",
@@ -138,7 +138,7 @@
     },
     "zeptometro": {
       "name": "Zeptometro",
-      "desc": "10⁻²¹ m."
+      "desc": "Lo zeptometro vale 10⁻²¹ m, un millesimo di attometro. Il prefisso zepto è stato adottato dalla Conferenza generale dei pesi e delle misure nel 1991. Alla massima sensibilità gli interferometri LIGO rilevano variazioni di distanza tra gli specchi pari a un decimillesimo della larghezza di un protone, cioè nell'ordine di cento zeptometri."
     },
     "preone": {
       "name": "Preone",
@@ -174,7 +174,7 @@
     },
     "attometro": {
       "name": "Attometro",
-      "desc": "10⁻¹⁸ m."
+      "desc": "L'attometro vale 10⁻¹⁸ m, un millesimo di femtometro. Il prefisso atto è stato adottato dalla Conferenza generale dei pesi e delle misure nel 1964. È la scala a cui si cercano eventuali dimensioni dei quark: l'esperimento ZEUS al collisore HERA ha posto per il loro raggio effettivo un limite superiore di 0,43 attometri."
     },
     "quark-up": {
       "name": "Quark up",
@@ -194,7 +194,7 @@
     },
     "femtometro": {
       "name": "Femtometro",
-      "desc": "10⁻¹⁵ m, detto anche fermi."
+      "desc": "Il femtometro vale 10⁻¹⁵ m ed è la scala dei nuclei atomici. È chiamato anche fermi, un nome che il NIST elenca tra quelli da non usare con il SI. Il raggio di carica del protone misura circa 0,84 femtometri."
     },
     "protone": {
       "name": "Protone",
@@ -234,7 +234,7 @@
     },
     "picometro": {
       "name": "Picometro",
-      "desc": "10⁻¹² m."
+      "desc": "Il picometro vale 10⁻¹² m, un millesimo di nanometro. Il prefisso pico fa parte dei prefissi del SI dal 1960. È l'unità adatta alle dimensioni atomiche: il raggio di Bohr, la scala di lunghezza dell'atomo di idrogeno, vale circa 52,9 picometri."
     },
     "raggi-gamma": {
       "name": "Raggi gamma",
@@ -246,7 +246,7 @@
     },
     "risoluzione-record-di-un-microscopio-elettronico": {
       "name": "Risoluzione record di un microscopio elettronico",
-      "desc": "Pticografia elettronica (2021): circa 0,2 Å, al limite fissato dalle vibrazioni termiche degli atomi. L'originale: 0,5 Å."
+      "desc": "La pticografia elettronica ricostruisce l'immagine di un cristallo a partire dalle figure di diffrazione di un fascio di elettroni. In un lavoro del 2021 Zhen Chen e colleghi hanno ottenuto una sfocatura strumentale inferiore a 20 picometri, cioè 0,2 Å. A questo livello il limite non è più lo strumento ma l'agitazione termica degli atomi del reticolo."
     },
     "atomo-di-elio": {
       "name": "Atomo di elio",
@@ -254,7 +254,7 @@
     },
     "angstrom": {
       "name": "Ångström",
-      "desc": "10⁻¹⁰ m, l'unità classica per atomi e legami chimici."
+      "desc": "L'ångström vale 10⁻¹⁰ m, cioè 0,1 nanometri, ed è un'unità esterna al Sistema Internazionale. È dell'ordine di grandezza degli atomi: il raggio di Bohr vale circa 0,529 ångström."
     },
     "atomo-di-idrogeno": {
       "name": "Atomo di idrogeno",
@@ -270,7 +270,7 @@
     },
     "legame-carbonio-carbonio": {
       "name": "Legame carbonio–carbonio",
-      "desc": "Legame singolo: 154 pm. È l'impalcatura della chimica organica."
+      "desc": "Il legame singolo tra due atomi di carbonio è lungo circa 154 picometri: nell'etano la distanza misurata tra i due nuclei è di 1,536 Å. Catene e anelli di questi legami formano lo scheletro delle molecole organiche."
     },
     "atomo-di-zolfo": {
       "name": "Atomo di zolfo",
@@ -278,15 +278,15 @@
     },
     "molecola-di-co2": {
       "name": "Molecola di CO₂",
-      "desc": "Distanza tra i due atomi di ossigeno. In atmosfera ha superato le 425 parti per milione."
+      "desc": "L'anidride carbonica è una molecola lineare: un atomo di carbonio tra due di ossigeno, con legami C=O di 1,162 Å. La distanza tra i due ossigeni è quindi di 2,32 Å. La sua concentrazione in atmosfera ha superato le 425 parti per milione: a settembre 2026 la media mensile misurata a Mauna Loa era di 426,07 ppm."
     },
     "molecola-d-acqua": {
       "name": "Molecola d'acqua",
-      "desc": "Due idrogeni e un ossigeno a 104,5°."
+      "desc": "Una molecola d'acqua è fatta di un atomo di ossigeno e due di idrogeno, con legami O–H di 0,958 Å e un angolo di 104,5°. Il diametro di circa 2,75 Å usato qui è un valore efficace, quello della molecola trattata come una sfera: le fonti danno cifre tra 2,63 e 2,8 Å. I due nuclei di idrogeno distano tra loro solo 1,51 Å."
     },
     "gate-di-transistor-piu-corto": {
       "name": "Gate di transistor più corto",
-      "desc": "Transistor al disolfuro di molibdeno con il gate sul bordo di un foglio di grafene (2022). L'originale indicava 2 nm."
+      "desc": "È un transistor con canale di disolfuro di molibdeno in cui il gate è il bordo di un foglio di grafene, spesso un solo atomo: 0,34 nm. Lo ha presentato su Nature nel marzo 2022 un gruppo della Tsinghua University di Pechino; il primato precedente, del 2021, era di 0,65 nm. Secondo le simulazioni degli autori il canale efficace è lungo 0,34 nm a transistor acceso e 4,54 nm a transistor spento."
     },
     "atomo-di-cesio": {
       "name": "Atomo di cesio",
@@ -294,55 +294,55 @@
     },
     "molecola-di-caffeina": {
       "name": "Molecola di caffeina",
-      "desc": "C₈H₁₀N₄O₂."
+      "desc": "La caffeina (C₈H₁₀N₄O₂, nome sistematico 1,3,7-trimetilpurina-2,6-dione) è una molecola quasi piatta, formata da due anelli fusi con tre gruppi metile. Nel modello tridimensionale calcolato da PubChem i due nuclei più lontani distano circa 0,76 nm, e 0,65 nm se si escludono gli idrogeni. La dimensione dipende quindi da che cosa si misura, e contando anche le nuvole elettroniche l'ingombro è maggiore."
     },
     "molecola-di-glucosio": {
       "name": "Molecola di glucosio",
-      "desc": "C₆H₁₂O₆, il carburante delle cellule."
+      "desc": "Il glucosio è uno zucchero semplice di formula C₆H₁₂O₆, che in soluzione si chiude quasi sempre ad anello. In questa forma la molecola misura circa 0,86 nm lungo l'asse maggiore e 0,84 nm lungo quello minore, raggi di van der Waals compresi."
     },
     "nanometro": {
       "name": "Nanometro",
-      "desc": "10⁻⁹ m."
+      "desc": "Il nanometro vale 10⁻⁹ m, un miliardesimo di metro. Il prefisso nano fa parte dei prefissi del SI dal 1960. Nel cristallo di silicio il parametro reticolare, cioè il lato della cella elementare, misura circa 0,543 nanometri."
     },
     "fullerene-c60": {
       "name": "Fullerene C₆₀",
-      "desc": "Sessanta atomi di carbonio a forma di pallone da calcio."
+      "desc": "Il fullerene C₆₀ è una gabbia chiusa di sessanta atomi di carbonio disposti come le cuciture di un pallone da calcio, con 12 pentagoni e 20 esagoni. La molecola ha un diametro di circa 1,03 nm, mentre due atomi di carbonio diametralmente opposti distano 0,71 nm. È stato scoperto nel 1985 da Harold Kroto, Richard Smalley e Robert Curl, premiati con il Nobel per la chimica nel 1996."
     },
     "nanotubo-di-carbonio": {
       "name": "Nanotubo di carbonio",
-      "desc": "Diametro tipico di un nanotubo a parete singola."
+      "desc": "Un nanotubo a parete singola è un foglio di atomi di carbonio spesso un solo strato, arrotolato a cilindro. I primi, ottenuti nel 1993 da un gruppo dell'IBM vaporizzando insieme carbonio e cobalto in un arco elettrico, avevano tutti un diametro di circa 1,2 nm. Il diametro varia da un nanotubo all'altro secondo il modo in cui viene prodotto."
     },
     "alfa-elica-di-una-proteina": {
       "name": "Alfa elica di una proteina",
-      "desc": "Circa 1,2 nm contando le catene laterali."
+      "desc": "L'alfa elica è il più comune avvolgimento a spirale di una catena proteica: ogni giro comprende 3,6 amminoacidi e avanza di 5,4 Å. Lo scheletro, senza catene laterali, ha un diametro di circa 0,6 nm. Le catene laterali sporgono verso l'esterno, quindi la larghezza complessiva dipende dagli amminoacidi presenti e il valore di circa 1,2 nm usato qui è una stima convenzionale."
     },
     "dna-spessore": {
       "name": "DNA (spessore)",
-      "desc": "Doppia elica B: 2,0 nm di diametro e 3,4 nm per giro. L'originale: 3 nm."
+      "desc": "Il DNA è una doppia elica formata da due filamenti appaiati tramite le basi azotate. Il diametro è di 2 nm, uniforme lungo tutta la molecola, e ogni giro misura 3,4 nm e contiene circa 10 coppie di basi. La struttura fu ricostruita negli anni Cinquanta da Watson e Crick a partire dai dati di diffrazione a raggi X di Rosalind Franklin."
     },
     "fosfolipide": {
       "name": "Fosfolipide",
-      "desc": "Il mattone delle membrane cellulari."
+      "desc": "Un fosfolipide è una molecola con una testa idrofila contenente un gruppo fosfato e due code idrofobe di acidi grassi. È lungo tipicamente 2-2,5 nm, cioè metà dello spessore di una membrana. In acqua queste molecole si dispongono spontaneamente in un doppio strato, la struttura di base delle membrane cellulari."
     },
     "doppio-strato-fosfolipidico": {
       "name": "Doppio strato fosfolipidico",
-      "desc": "Due file di fosfolipidi, code contro code."
+      "desc": "Il doppio strato fosfolipidico è formato da due file di fosfolipidi con le code idrofobe rivolte verso l'interno e le teste verso l'acqua. Lo spessore è di circa 5 nm: un doppio strato di DPPC misura 4,6 nm, mentre le membrane plasmatiche complete vanno da 5 a 10 nm. Un globulo rosso, largo circa 8 µm, è più o meno 1.000 volte più largo."
     },
     "emoglobina": {
       "name": "Emoglobina",
-      "desc": "La proteina che trasporta l'ossigeno. La previsione della struttura delle proteine con AlphaFold è valsa il Nobel per la chimica 2024."
+      "desc": "L'emoglobina è la proteina dei globuli rossi che trasporta l'ossigeno: è fatta di quattro catene, due alfa e due beta, ciascuna con un gruppo eme che contiene un atomo di ferro. La molecola ha un diametro di circa 5 nm, con dimensioni di circa 6 × 5 × 5 nm. La previsione della struttura delle proteine con AlphaFold è valsa a Demis Hassabis e John Jumper il Nobel per la chimica 2024."
     },
     "membrana-cellulare": {
       "name": "Membrana cellulare",
-      "desc": "Doppio strato lipidico più proteine: 7–10 nm."
+      "desc": "La membrana cellulare è il sottile involucro che separa l'interno della cellula dall'ambiente esterno. È formata da un doppio strato di lipidi spesso circa 4 nm, attraversato e rivestito da proteine che portano lo spessore complessivo tipicamente a 7,5-10 nm."
     },
     "anticorpo-igg": {
       "name": "Anticorpo IgG",
-      "desc": "La classica forma a Y del sistema immunitario."
+      "desc": "L'immunoglobulina G è un anticorpo: una proteina a forma di Y di circa 150 kDa, con due bracci Fab che legano l'antigene e un gambo Fc. La sua estensione massima è di circa 15 nm: le misure in soluzione danno 15-16 nm, quelle su superficie circa 14 × 8 nm. I bracci sono molto flessibili grazie alla regione cerniera, quindi la forma cambia di continuo."
     },
     "gate-di-un-transistor-in-produzione": {
       "name": "Gate di un transistor in produzione",
-      "desc": "Chip detti a 2 nm (2025–2026): il nome è commerciale, il gate misura circa 12 nm."
+      "desc": "Nei chip detti a 2 nm, in produzione di serie da fine 2025, il nome è un'etichetta commerciale e non misura nessuna parte del transistor. I produttori non pubblicano la lunghezza del gate: il chip dimostrativo a 2 nm di IBM del 2021 aveva un gate di 12 nm, lungo circa due dozzine di atomi. La roadmap IRDS 2022 prevede che la lunghezza del canale smetta di ridursi intorno a 12 nm."
     },
     "luce-euv-per-litografia": {
       "name": "Luce EUV per litografia",
@@ -350,19 +350,19 @@
     },
     "circovirus-suino": {
       "name": "Circovirus suino",
-      "desc": "Tra i virus più piccoli capaci di replicarsi da soli nelle cellule animali."
+      "desc": "Il circovirus suino è un virus a DNA circolare a singolo filamento che infetta i maiali. Il virione del tipo 1 (PCV1) misura tra 17 e 20,7 nm di diametro, quello del tipo 2 circa 20,5 nm. Secondo l'ICTV, PCV1 e PCV2 sono i più piccoli virus capaci di replicarsi autonomamente nelle cellule dei mammiferi."
     },
     "ribosoma": {
       "name": "Ribosoma",
-      "desc": "La macchina molecolare che costruisce le proteine."
+      "desc": "Il ribosoma è il complesso di RNA e proteine che legge l'RNA messaggero e assembla le proteine. Misura tipicamente tra 20 e 30 nm: circa 21 nm quello del batterio Escherichia coli, circa 25 nm quello delle cellule dei mammiferi. Nel ribosoma di E. coli circa due terzi della massa sono RNA e un terzo proteine."
     },
     "virus-dell-epatite-b": {
       "name": "Virus dell'epatite B",
-      "desc": "Particella di Dane, 42 nm."
+      "desc": "Il virus dell'epatite B infetta le cellule del fegato. Il virione infettivo, detto particella di Dane, è una sfera a doppio guscio di 42 nm di diametro. Contiene un genoma di DNA circolare parzialmente a doppio filamento di circa 3.200 paia di basi."
     },
     "nanoparticella-lipidica": {
       "name": "Nanoparticella lipidica",
-      "desc": "L'involucro che porta l'mRNA dei vaccini dentro le cellule."
+      "desc": "Una nanoparticella lipidica è la sfera di grassi che racchiude l'mRNA dei vaccini e lo porta dentro le cellule. Misura circa 60-100 nm di diametro ed è fatta di quattro componenti: un lipide ionizzabile, un fosfolipide neutro, colesterolo e un lipide legato a PEG. I vaccini anti COVID-19 di Pfizer-BioNTech e Moderna usano entrambi questa tecnologia."
     },
     "ultravioletto": {
       "name": "Ultravioletto",
@@ -370,11 +370,11 @@
     },
     "sars-cov-2": {
       "name": "SARS-CoV-2",
-      "desc": "Il coronavirus della pandemia di COVID-19: circa 100 nm."
+      "desc": "SARS-CoV-2 è il coronavirus responsabile della pandemia di COVID-19. Le particelle sono all'incirca sferiche e nelle prime immagini al microscopio elettronico, pubblicate nel 2020, il diametro variava tra circa 60 e 140 nm. Le punte sulla superficie, lunghe da 9 a 12 nm, danno al virione l'aspetto di una corona solare, da cui il nome della famiglia."
     },
     "hiv": {
       "name": "HIV",
-      "desc": "Circa 120 nm. L'originale: 90 nm."
+      "desc": "L'HIV è il retrovirus che causa l'AIDS. Le sue particelle, all'incirca sferiche, non hanno una dimensione fissa: le fonti indicano da 80-100 nm fino a una media di 145 nm, con singoli virioni tra 120 e 200 nm nelle misure al crio-microscopio elettronico. Il valore di 120 nm qui usato è quindi indicativo."
     },
     "fossetta-di-un-cd-profondita": {
       "name": "Fossetta di un CD (profondità)",
@@ -382,19 +382,19 @@
     },
     "limite-del-microscopio-ottico": {
       "name": "Limite del microscopio ottico",
-      "desc": "Limite di diffrazione di Abbe. Le tecniche a super-risoluzione, come MINFLUX, scendono a pochi nanometri."
+      "desc": "Il limite di diffrazione di Abbe dice che un microscopio ottico distingue due punti solo se distano più di circa metà della lunghezza d'onda della luce. In pratica la distanza minima va da 200 nm per la luce blu a 350 nm per quella rossa. Le tecniche a super-risoluzione come MINFLUX localizzano le molecole con una precisione di 1-3 nm."
     },
     "batteriofago-t4": {
       "name": "Batteriofago T4",
-      "desc": "Un virus che infetta i batteri, a forma di modulo lunare."
+      "desc": "Il batteriofago T4 è un virus che infetta il batterio Escherichia coli. Ha una testa allungata di 120 nm per 86 nm e una coda contrattile di 140 nm, per una lunghezza complessiva di circa 260 nm. Alla base della coda sono attaccate sei fibre di circa 160 nm, che gli danno l'aspetto di un modulo di atterraggio."
     },
     "batterio-piu-piccolo": {
       "name": "Batterio più piccolo",
-      "desc": "Mycoplasma genitalium, tra i più piccoli organismi capaci di vita autonoma."
+      "desc": "Mycoplasma genitalium è un batterio del gruppo dei micoplasmi, che hanno un diametro di circa 0,2-0,4 µm e sono tra i batteri più piccoli. Quando fu sequenziato nel 1995, il suo genoma di 580.070 paia di basi era il più piccolo noto per un organismo a vita libera."
     },
     "particella-piu-penetrante-per-un-filtro-ffp2": {
       "name": "Particella più penetrante per un filtro FFP2",
-      "desc": "Intorno a 0,3 µm i filtri sono meno efficienti: è la taglia di prova. L'originale parlava di 1 µm per le mascherine chirurgiche."
+      "desc": "Un filtro facciale ferma bene sia le particelle grandi sia quelle piccolissime: in mezzo c'è una taglia che passa più facilmente, detta particella più penetrante. Per convenzione si indica 0,3 µm, la taglia che l'ente statunitense NIOSH considera la più difficile da filtrare. Le misure sui filtri N95 a carica elettrostatica la collocano però tra 40 e 300 nm, spesso intorno a 40-50 nm."
     },
     "luce-viola": {
       "name": "Luce viola",
@@ -410,23 +410,23 @@
     },
     "mimivirus": {
       "name": "Mimivirus",
-      "desc": "Virus gigante, scambiato per un batterio alla scoperta."
+      "desc": "Il Mimivirus è un virus gigante che infetta le amebe. Il capside ha un diametro di circa 500 nm ed è coperto da un fitto strato di fibre lunghe 125 nm, per un diametro totale di circa 750 nm. Per il suo aspetto esterno fu inizialmente identificato per errore come un batterio."
     },
     "micrometro": {
       "name": "Micrometro",
-      "desc": "10⁻⁶ m, o micron."
+      "desc": "Il micrometro vale 10⁻⁶ m, un milionesimo di metro. Il vecchio nome micron è elencato dal NIST tra quelli da non usare con il SI. Un globulo rosso umano ha un diametro di circa 7,7 micrometri."
     },
     "virus-piu-grande": {
       "name": "Virus più grande",
-      "desc": "Pithovirus sibericum: 1,5 µm, riattivato nel 2014 dal permafrost siberiano. L'originale: 440 nm."
+      "desc": "Pithovirus sibericum è un virus gigante con una particella a forma di anfora lunga 1,5 µm. È stato isolato da un campione di permafrost siberiano vecchio di oltre 30.000 anni e descritto nel 2014, quando superò per dimensioni i pandoravirus, lunghi circa 1 µm. Il suo genoma, di circa 600.000 paia di basi, è invece molto più piccolo del loro."
     },
     "cromosoma-y": {
       "name": "Cromosoma Y",
-      "desc": "Sequenziato per intero solo nel 2023."
+      "desc": "Il cromosoma Y è il più piccolo dei due cromosomi sessuali umani e contiene quasi il 2% del DNA della cellula. In metafase, quando è condensato al massimo, è lungo tipicamente 2 o 3 µm, ma la misura cambia con il grado di condensazione. La sua sequenza completa, 62.460.029 coppie di basi, è stata pubblicata solo nel 2023 dal consorzio Telomere-to-Telomere."
     },
     "escherichia-coli": {
       "name": "Escherichia coli",
-      "desc": "Il batterio più studiato al mondo."
+      "desc": "Escherichia coli è un batterio a forma di bastoncino, usato da decenni come organismo modello in biologia. Una cellula misura tipicamente circa 2 µm di lunghezza e 1 µm di diametro, con un volume intorno a 1 µm³. Le dimensioni non sono fisse: le cellule che crescono più in fretta sono anche più grandi."
     },
     "particella-di-argilla": {
       "name": "Particella di argilla",
@@ -434,27 +434,27 @@
     },
     "mitocondrio": {
       "name": "Mitocondrio",
-      "desc": "La centrale energetica della cellula."
+      "desc": "Il mitocondrio è l'organello che produce la maggior parte dell'ATP, la molecola che fornisce energia alla cellula. Nella forma classica a bastoncino è lungo tipicamente circa 2 µm e largo circa 1 µm, ma in molte cellule i mitocondri si fondono in reti che si estendono per decine di micrometri. Conserva un piccolo genoma proprio, eredità del procariote da cui si ritiene derivi."
     },
     "cellula-di-lievito": {
       "name": "Cellula di lievito",
-      "desc": "Saccharomyces cerevisiae: pane, birra e genetica."
+      "desc": "Saccharomyces cerevisiae è il lievito usato per fare il pane e la birra. Le sue cellule sono quasi sferiche, con un diametro di circa 4 µm nella forma aploide e circa 6 µm in quella diploide. È un organismo modello della biologia cellulare ed è stato il primo eucariote con il genoma sequenziato per intero, nel 1996."
     },
     "nucleo-cellulare": {
       "name": "Nucleo cellulare",
-      "desc": "Contiene circa due metri di DNA ripiegato."
+      "desc": "Il nucleo è il compartimento della cellula eucariote che custodisce il DNA. Il suo diametro va tipicamente da 2 a 10 µm secondo l'organismo e il tipo di cellula. In una cellula umana contiene circa 2 metri di DNA ripiegato."
     },
     "cloroplasto": {
       "name": "Cloroplasto",
-      "desc": "Dove avviene la fotosintesi."
+      "desc": "Il cloroplasto è l'organello delle piante e delle alghe in cui avviene la fotosintesi. Ha la forma di un disco lungo tipicamente da 5 a 10 µm. Come il mitocondrio possiede DNA e ribosomi propri."
     },
     "cromosoma-x": {
       "name": "Cromosoma X",
-      "desc": "In metafase. L'originale: 4 µm."
+      "desc": "Il cromosoma X è uno dei due cromosomi sessuali umani: conta circa 155 milioni di coppie di basi, pari a circa il 5% del DNA della cellula. In metafase è lungo pochi micrometri, tipicamente tra 5 e 7 µm, ma la misura dipende dal grado di condensazione. Nelle cellule con due cromosomi X uno dei due viene inattivato nelle prime fasi dello sviluppo embrionale."
     },
     "globulo-rosso": {
       "name": "Globulo rosso",
-      "desc": "Un disco biconcavo senza nucleo."
+      "desc": "Il globulo rosso, o eritrocita, è la cellula del sangue che trasporta l'ossigeno. È un disco biconcavo con un diametro medio di 7-8 µm e, maturando nel midollo osseo, espelle il nucleo e gran parte degli organelli. Resta in circolo fino a 120 giorni."
     },
     "infrarosso-termico": {
       "name": "Infrarosso termico",
@@ -462,7 +462,7 @@
     },
     "globulo-bianco": {
       "name": "Globulo bianco",
-      "desc": "Tra 10 e 15 µm secondo il tipo."
+      "desc": "I globuli bianchi, o leucociti, sono le cellule del sangue che difendono l'organismo. Il diametro cambia con il tipo: 10-12 µm per i neutrofili, da 6 a 14 µm per i linfociti e da 12 a 20 µm per i monociti. Sono molto meno numerosi dei globuli rossi: tipicamente da 5.000 a 10.000 per microlitro di sangue."
     },
     "fibra-di-seta": {
       "name": "Fibra di seta",
@@ -486,7 +486,7 @@
     },
     "cellula-della-pelle": {
       "name": "Cellula della pelle",
-      "desc": "Cheratinocita."
+      "desc": "I cheratinociti sono le cellule principali dell'epidermide. Nascono nello strato basale, dove misurano 6-10 µm, e in circa un mese risalgono in superficie appiattendosi in scaglie senza nucleo, i corneociti. Un corneocita ha una superficie di 700-1.200 µm², che corrisponde a un diametro di circa 30-40 µm."
     },
     "particella-di-limo": {
       "name": "Particella di limo",
@@ -494,7 +494,7 @@
     },
     "granulo-di-polline": {
       "name": "Granulo di polline",
-      "desc": "Da 10 a 100 µm secondo la specie."
+      "desc": "Il granulo di polline trasporta le cellule riproduttive maschili delle piante a seme. Le dimensioni cambiano molto con la specie: da circa 10 µm nell'ortica a circa 200 µm nell'abete bianco. Anche lo stesso granulo vivo si gonfia e si contrae secondo l'umidità."
     },
     "pixel-di-uno-smartphone": {
       "name": "Pixel di uno smartphone",
@@ -502,7 +502,7 @@
     },
     "spermatozoo": {
       "name": "Spermatozoo",
-      "desc": "Lunghezza totale, quasi tutta coda."
+      "desc": "Lo spermatozoo è la cellula riproduttiva maschile. Quello umano è lungo in tutto circa 55 micrometri: la testa, che contiene il nucleo, misura 4-5 micrometri, mentre la coda è lunga circa 50 micrometri. Quasi tutta la lunghezza è quindi dovuta alla coda, il flagello che lo fa muovere."
     },
     "capello-umano": {
       "name": "Capello umano",
@@ -518,15 +518,15 @@
     },
     "ovulo-umano": {
       "name": "Ovulo umano",
-      "desc": "La cellula umana più grande."
+      "desc": "La cellula uovo, o oocita, è la cellula riproduttiva femminile. In uno studio su 1.563 oociti umani il diametro medio misurato è stato di 115 micrometri, con valori compresi tra 60 e 171 micrometri. Le sue dimensioni sono superiori a quelle delle altre cellule del corpo."
     },
     "protista-ciliato": {
       "name": "Protista ciliato",
-      "desc": ""
+      "desc": "I ciliati sono organismi unicellulari coperti di ciglia, che battono per spingere la cellula nell'acqua o per portare il cibo verso la bocca. Se ne conoscono circa 7.000 specie e le dimensioni variano molto: i parameci vanno tipicamente da 50 a 300 micrometri, mentre alcuni generi raggiungono i 2 millimetri. Il valore di 180 micrometri indica quindi solo una taglia intermedia."
     },
     "paramecio": {
       "name": "Paramecio",
-      "desc": "Nuota con migliaia di ciglia."
+      "desc": "Il paramecio è un protista ciliato d'acqua dolce, usato da oltre un secolo come organismo modello in genetica e biologia cellulare. Le specie del genere sono lunghe tipicamente da 50 a 300 micrometri, e le più grandi, come Paramecium caudatum, misurano 170-310 micrometri, abbastanza da essere appena visibili a occhio nudo. Come tutti i ciliati, ogni cellula ha due tipi di nucleo."
     },
     "pixel-di-un-monitor": {
       "name": "Pixel di un monitor",
@@ -534,7 +534,7 @@
     },
     "acaro-della-polvere": {
       "name": "Acaro della polvere",
-      "desc": ""
+      "desc": "Gli acari della polvere sono minuscoli aracnidi che vivono in letti, divani e tappeti, dove si nutrono delle scaglie di pelle perse da persone e animali domestici. Le fonti danno lunghezze diverse, da circa un quarto di millimetro fino a circa 0,5 mm per gli adulti, quindi si vedono bene solo al microscopio. I loro escrementi possono provocare o aggravare l'asma nelle persone sensibilizzate."
     },
     "granello-di-sale": {
       "name": "Granello di sale",
@@ -542,11 +542,11 @@
     },
     "ameba": {
       "name": "Ameba",
-      "desc": "Amoeba proteus."
+      "desc": "Amoeba proteus è un grande organismo unicellulare d'acqua dolce che si sposta e cattura il cibo allungando pseudopodi. Non ha una forma fissa: le cellule in movimento sono lunghe tipicamente da 220 a 760 micrometri, con una media di 425. Vive in acqua dolce e nello sfagno bagnato e non è una specie rara."
     },
     "tardigrado": {
       "name": "Tardigrado",
-      "desc": "Sopravvive al vuoto, alle radiazioni e al congelamento."
+      "desc": "I tardigradi sono animali microscopici, lunghi in media da 0,1 a 0,5 mm, di cui si conoscono oltre 1.000 specie. Possono entrare in criptobiosi, uno stato di vita sospesa. In questo modo sopravvivono a condizioni estreme come l'assenza di ossigeno, il vuoto e le radiazioni ionizzanti."
     },
     "granello-di-sabbia": {
       "name": "Granello di sabbia",
@@ -578,7 +578,7 @@
     },
     "lenticchia-d-acqua": {
       "name": "Lenticchia d'acqua",
-      "desc": "Tra le più piccole piante con fiore."
+      "desc": "La lenticchia d'acqua comune (Lemna minor) è una pianta acquatica che galleggia libera e forma tappeti verdi sulla superficie di stagni e acque ferme. Ogni piantina è una singola fronda ovale lunga da 1 a 8 mm, tipicamente pochi millimetri. È tra le più piccole piante con fiore."
     },
     "seme-di-sesamo": {
       "name": "Seme di sesamo",
@@ -586,7 +586,7 @@
     },
     "formica": {
       "name": "Formica",
-      "desc": ""
+      "desc": "Le formiche sono insetti sociali della famiglia Formicidae, con circa 12.000 specie descritte nel mondo. Le dimensioni cambiano molto da una specie all'altra: l'operaia della comune formica nera dei giardini (Lasius niger) è lunga da 3,5 a 5 mm. Si stima che le specie esistenti siano in realtà circa 15.000."
     },
     "pelle-della-pianta-del-piede": {
       "name": "Pelle della pianta del piede",
@@ -610,7 +610,7 @@
     },
     "batterio-piu-grande": {
       "name": "Batterio più grande",
-      "desc": "Thiomargarita magnifica (2022): circa un centimetro, visibile a occhio nudo. L'originale: 0,75 mm."
+      "desc": "Thiomargarita magnifica, descritto su Science nel 2022, è il batterio più grande conosciuto: la sua cellula filamentosa è lunga in media oltre 9.000 micrometri, circa un centimetro, ed è visibile a occhio nudo. La maggior parte dei batteri misura intorno a 2 micrometri, e i più grandi noti in precedenza arrivavano a 750 micrometri. Il suo DNA è racchiuso in compartimenti delimitati da membrane, cosa insolita per un batterio."
     },
     "chicco-di-caffe": {
       "name": "Chicco di caffè",
@@ -1450,7 +1450,7 @@
     },
     "terametro": {
       "name": "Terametro",
-      "desc": "Un miliardo di chilometri."
+      "desc": "Il terametro (Tm) vale 10^12 metri, cioè un miliardo di chilometri: il prefisso SI tera indica un fattore mille miliardi. Corrisponde a circa 6,7 unità astronomiche, quasi sette volte la distanza media tra la Terra e il Sole. La luce impiega circa 56 minuti per percorrerlo."
     },
     "betelgeuse": {
       "name": "Betelgeuse",
@@ -1502,7 +1502,7 @@
     },
     "giorno-luce": {
       "name": "Giorno-luce",
-      "desc": "La strada della luce in 24 ore: 25,9 miliardi di km."
+      "desc": "Il giorno-luce è la distanza che la luce percorre nel vuoto in 24 ore: circa 25,9 miliardi di chilometri, pari a circa 173 unità astronomiche. Secondo la NASA la sonda Voyager 1 raggiunge questa distanza dalla Terra il 18 novembre 2026, traguardo mai toccato da un altro oggetto costruito dall'uomo."
     },
     "eliopausa": {
       "name": "Eliopausa",
@@ -1534,7 +1534,7 @@
     },
     "petametro": {
       "name": "Petametro",
-      "desc": ""
+      "desc": "Il petametro (Pm) vale 10^15 metri, cioè mille miliardi di chilometri: il prefisso SI peta indica un fattore 10^15. Corrisponde a circa un decimo di anno luce (0,106) e a circa 6.700 unità astronomiche. La luce impiega quasi 39 giorni per percorrerlo."
     },
     "distanza-proxima-alfa-centauri-a": {
       "name": "Distanza Proxima–Alfa Centauri A",
@@ -1566,7 +1566,7 @@
     },
     "anno-luce": {
       "name": "Anno luce",
-      "desc": "9.460.730.472.580,8 km."
+      "desc": "L'anno luce è la distanza che la luce percorre nel vuoto in un anno: circa 9.461 miliardi di chilometri, ovvero 9,46 × 10^15 metri. Con l'anno giuliano di 365,25 giorni il valore esatto è 9.460.730.472.580,8 km. Equivale a circa 63.240 unità astronomiche."
     },
     "nebulosa-uovo-marcio": {
       "name": "Nebulosa Uovo Marcio",
@@ -1590,7 +1590,7 @@
     },
     "parsec": {
       "name": "Parsec",
-      "desc": "3,26 anni luce."
+      "desc": "Il parsec (pc) è l'unità di distanza più usata dagli astronomi per stelle e galassie: vale circa 3,0857 × 10^16 metri, cioè 3,26 anni luce. Corrisponde a circa 206.265 unità astronomiche e dal 2015 una risoluzione dell'Unione Astronomica Internazionale ne fissa il valore esatto a partire dall'unità astronomica."
     },
     "nebulosa-testa-di-cavallo": {
       "name": "Nebulosa Testa di Cavallo",
@@ -1650,7 +1650,7 @@
     },
     "esametro": {
       "name": "Esametro",
-      "desc": ""
+      "desc": "L'esametro (Em) vale 10^18 metri: il prefisso SI exa, in italiano esa, indica un fattore 10^18. Corrisponde a circa 106 anni luce, cioè a circa 32 parsec. La luce che parte oggi da un capo di un esametro arriva all'altro dopo poco più di un secolo."
     },
     "nebulosa-laguna": {
       "name": "Nebulosa Laguna",
@@ -1750,7 +1750,7 @@
     },
     "zettametro": {
       "name": "Zettametro",
-      "desc": ""
+      "desc": "Lo zettametro (Zm) vale 10^21 metri: il prefisso SI zetta indica un fattore 10^21. Corrisponde a circa 105.700 anni luce, cioè a circa 32.400 parsec. È un'unità adatta a esprimere le dimensioni delle galassie."
     },
     "virgo-a": {
       "name": "Virgo A",
@@ -1818,7 +1818,7 @@
     },
     "yottametro": {
       "name": "Yottametro",
-      "desc": ""
+      "desc": "Lo yottametro (Ym) vale 10^24 metri: il prefisso SI yotta indica un fattore 10^24. Corrisponde a circa 105,7 milioni di anni luce, cioè a circa 32,4 milioni di parsec. Un gigaparsec equivale a quasi 31 yottametri."
     },
     "superammasso-della-vergine": {
       "name": "Superammasso della Vergine",
@@ -1866,7 +1866,7 @@
     },
     "gigaparsec": {
       "name": "Gigaparsec",
-      "desc": "3,26 miliardi di anni luce."
+      "desc": "Il gigaparsec (Gpc) vale un miliardo di parsec, cioè circa 3,0857 × 10^25 metri. Corrisponde a circa 3,26 miliardi di anni luce. È l'unità usata per le distanze cosmologiche più grandi."
     },
     "arco-gigante": {
       "name": "Arco Gigante",

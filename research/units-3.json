@@ -1,0 +1,224 @@
+[
+  {
+    "id": "terametro",
+    "size": 1000000000000,
+    "basis": "lunghezza dell'unità: 1 terametro (Tm) = 10^12 metri",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il terametro (Tm) vale 10^12 metri, cioè un miliardo di chilometri: il prefisso SI tera indica un fattore mille miliardi. Corrisponde a circa 6,7 unità astronomiche, quasi sette volte la distanza media tra la Terra e il Sole. La luce impiega circa 56 minuti per percorrerlo.",
+    "sources": [
+      {
+        "title": "SI prefixes",
+        "url": "https://www.bipm.org/en/measurement-units/si-prefixes",
+        "publisher": "Bureau International des Poids et Mesures (BIPM)",
+        "evidence": "tera T 10¹²"
+      },
+      {
+        "title": "NIST Guide to the SI, Appendix B.9: Factors for units listed by kind of quantity or field of science",
+        "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9",
+        "publisher": "National Institute of Standards and Technology (NIST)",
+        "evidence": "astronomical unit (ua) meter (m) 1.495 979 E+11"
+      }
+    ],
+    "note": "Valore esatto per definizione del prefisso. Confronti derivati: 1e12 m / 1,495979e11 m = 6,68 ua; 1e12 m / 299.792.458 m/s = 3336 s = 55,6 minuti (velocità della luce da NIST/CODATA, https://physics.nist.gov/cgi-bin/cuu/Value?c, aperta e verificata). Nel testo della pagina BIPM estratto dallo strumento gli esponenti compaiono senza apice (1012).",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "giorno-luce",
+    "size": 25900000000000,
+    "basis": "distanza percorsa dalla luce nel vuoto in 24 ore (86.400 secondi)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il giorno-luce è la distanza che la luce percorre nel vuoto in 24 ore: circa 25,9 miliardi di chilometri, pari a circa 173 unità astronomiche. Secondo la NASA la sonda Voyager 1 raggiunge questa distanza dalla Terra il 18 novembre 2026, traguardo mai toccato da un altro oggetto costruito dall'uomo.",
+    "sources": [
+      {
+        "title": "Voyager 1: What Is a Light-Day",
+        "url": "https://science.nasa.gov/mission/voyager/voyager-1/voyager-1-what-is-a-light-day/",
+        "publisher": "NASA Science",
+        "evidence": "distance that light will travel in 24 hours, or 16,094,799,096 miles (25,902,068,356 kilometers)"
+      },
+      {
+        "title": "CODATA Value: speed of light in vacuum",
+        "url": "https://physics.nist.gov/cgi-bin/cuu/Value?c",
+        "publisher": "National Institute of Standards and Technology (NIST), CODATA",
+        "evidence": "299 792 458 m s^-1 (exact)"
+      }
+    ],
+    "note": "Calcolo: 299.792.458 m/s × 86.400 s = 25.902.068.371.200 m = 2,590e13 m; il valore attuale 2,59e13 m differisce dello 0,01%. La NASA riporta 25.902.068.356 km (differenza di 15 km dal calcolo esatto, irrilevante). 2,5902e13 m / 1,495979e11 m = 173,1 ua (unità astronomica da NIST SP 811 App. B.9). Il passaggio di Voyager 1 è previsto dalla NASA per il 18 novembre 2026 alle 5:16:07 EST, cioè sei giorni dopo la data di verifica: la descrizione lo attribuisce alla NASA. La pagina NASA dice 'reached by no other human-made object'.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "petametro",
+    "size": 1000000000000000,
+    "basis": "lunghezza dell'unità: 1 petametro (Pm) = 10^15 metri",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il petametro (Pm) vale 10^15 metri, cioè mille miliardi di chilometri: il prefisso SI peta indica un fattore 10^15. Corrisponde a circa un decimo di anno luce (0,106) e a circa 6.700 unità astronomiche. La luce impiega quasi 39 giorni per percorrerlo.",
+    "sources": [
+      {
+        "title": "SI prefixes",
+        "url": "https://www.bipm.org/en/measurement-units/si-prefixes",
+        "publisher": "Bureau International des Poids et Mesures (BIPM)",
+        "evidence": "peta P 10¹⁵"
+      },
+      {
+        "title": "NIST Guide to the SI, Appendix B.9: Factors for units listed by kind of quantity or field of science",
+        "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9",
+        "publisher": "National Institute of Standards and Technology (NIST)",
+        "evidence": "light year (l. y.) meter (m) 9.460 73 E+15"
+      }
+    ],
+    "note": "Valore esatto per definizione del prefisso. La descrizione era vuota. Confronti derivati: 1e15 / 9,46073e15 = 0,1057 anni luce; 1e15 / 1,495979e11 = 6685 ua; 1e15 m / 299.792.458 m/s = 3.335.641 s = 38,6 giorni.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "anno-luce",
+    "size": 9461000000000000,
+    "basis": "distanza percorsa dalla luce nel vuoto in un anno giuliano (365,25 giorni di 86.400 secondi)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "L'anno luce è la distanza che la luce percorre nel vuoto in un anno: circa 9.461 miliardi di chilometri, ovvero 9,46 × 10^15 metri. Con l'anno giuliano di 365,25 giorni il valore esatto è 9.460.730.472.580,8 km. Equivale a circa 63.240 unità astronomiche.",
+    "sources": [
+      {
+        "title": "NIST Guide to the SI, Appendix B.9: Factors for units listed by kind of quantity or field of science",
+        "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9",
+        "publisher": "National Institute of Standards and Technology (NIST)",
+        "evidence": "light year (l. y.) meter (m) 9.460 73 E+15"
+      },
+      {
+        "title": "CODATA Value: speed of light in vacuum",
+        "url": "https://physics.nist.gov/cgi-bin/cuu/Value?c",
+        "publisher": "National Institute of Standards and Technology (NIST), CODATA",
+        "evidence": "299 792 458 m s^-1 (exact)"
+      }
+    ],
+    "note": "Calcolo: 299.792.458 m/s × 31.557.600 s (365,25 × 86.400) = 9.460.730.472.580.800 m, che conferma la cifra della descrizione attuale e il valore 9,461e15 m. La nota 18 di NIST SP 811 (https://www.nist.gov/pml/special-publication-811/nist-guide-si-footnotes, aperta) indica che il fattore si basa su 1 d = 86.400 s e 1 secolo giuliano = 36.525 d. 9,46073e15 / 1,495979e11 = 63.241 ua. Le pagine IAU che definiscono l'anno luce (iau.org e iauarchive.eso.org) non si sono aperte (404 e 502), quindi non sono citate.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "parsec",
+    "size": 30857000000000000,
+    "basis": "lunghezza dell'unità: 1 parsec (pc), definito a partire dall'unità astronomica",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il parsec (pc) è l'unità di distanza più usata dagli astronomi per stelle e galassie: vale circa 3,0857 × 10^16 metri, cioè 3,26 anni luce. Corrisponde a circa 206.265 unità astronomiche e dal 2015 una risoluzione dell'Unione Astronomica Internazionale ne fissa il valore esatto a partire dall'unità astronomica.",
+    "sources": [
+      {
+        "title": "NIST Guide to the SI, Appendix B.9: Factors for units listed by kind of quantity or field of science",
+        "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9",
+        "publisher": "National Institute of Standards and Technology (NIST)",
+        "evidence": "parsec (pc) meter (m) 3.085 678 E+16"
+      },
+      {
+        "title": "IAU 2015 Resolution B2 on Recommended Zero Points for the Absolute and Apparent Bolometric Magnitude Scales",
+        "url": "https://arxiv.org/abs/1510.06262",
+        "publisher": "IAU Inter-Division A-G Working Group (Mamajek et al.), arXiv",
+        "evidence": "an exact definition for the parsec"
+      },
+      {
+        "title": "Cosmic Distances",
+        "url": "https://science.nasa.gov/solar-system/cosmic-distances/",
+        "publisher": "NASA Science",
+        "evidence": "One parsec is 3.26 light years."
+      }
+    ],
+    "note": "Il valore attuale 3,0857e16 m coincide con quello NIST (3,085678e16 m). Verifiche: 3,085678e16 / 9,46073e15 = 3,2616 anni luce; 3,085678e16 / 1,495979e11 = 206.265 ua. La definizione classica (distanza da cui 1 ua sottende un secondo d'arco) non è stata inserita nella descrizione perché nessuna pagina istituzionale che la riporta si è aperta (pagine IAU: 404/502); l'abstract della risoluzione IAU 2015 B2 conferma solo che la definizione è esatta e basata sull'unità astronomica (IAU 2012 B2).",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "esametro",
+    "size": 1000000000000000000,
+    "basis": "lunghezza dell'unità: 1 esametro (Em) = 10^18 metri",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "L'esametro (Em) vale 10^18 metri: il prefisso SI exa, in italiano esa, indica un fattore 10^18. Corrisponde a circa 106 anni luce, cioè a circa 32 parsec. La luce che parte oggi da un capo di un esametro arriva all'altro dopo poco più di un secolo.",
+    "sources": [
+      {
+        "title": "SI prefixes",
+        "url": "https://www.bipm.org/en/measurement-units/si-prefixes",
+        "publisher": "Bureau International des Poids et Mesures (BIPM)",
+        "evidence": "exa E 10¹⁸"
+      },
+      {
+        "title": "NIST Guide to the SI, Appendix B.9: Factors for units listed by kind of quantity or field of science",
+        "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9",
+        "publisher": "National Institute of Standards and Technology (NIST)",
+        "evidence": "light year (l. y.) meter (m) 9.460 73 E+15"
+      }
+    ],
+    "note": "Valore esatto per definizione del prefisso. La descrizione era vuota. Confronti derivati: 1e18 / 9,46073e15 = 105,7 anni luce; 1e18 / 3,085678e16 = 32,4 parsec.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "zettametro",
+    "size": 1e+21,
+    "basis": "lunghezza dell'unità: 1 zettametro (Zm) = 10^21 metri",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Lo zettametro (Zm) vale 10^21 metri: il prefisso SI zetta indica un fattore 10^21. Corrisponde a circa 105.700 anni luce, cioè a circa 32.400 parsec. È un'unità adatta a esprimere le dimensioni delle galassie.",
+    "sources": [
+      {
+        "title": "SI prefixes",
+        "url": "https://www.bipm.org/en/measurement-units/si-prefixes",
+        "publisher": "Bureau International des Poids et Mesures (BIPM)",
+        "evidence": "zetta Z 10²¹"
+      },
+      {
+        "title": "NIST Guide to the SI, Appendix B.9: Factors for units listed by kind of quantity or field of science",
+        "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9",
+        "publisher": "National Institute of Standards and Technology (NIST)",
+        "evidence": "light year (l. y.) meter (m) 9.460 73 E+15"
+      }
+    ],
+    "note": "Valore esatto per definizione del prefisso. La descrizione era vuota. Confronti derivati: 1e21 / 9,46073e15 = 105.700 anni luce; 1e21 / 3,085678e16 = 32.408 parsec. Non è stato inserito un confronto con una galassia specifica perché non è stata aperta una fonte per il suo diametro; l'ultima frase è una considerazione generale sull'ordine di grandezza.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "yottametro",
+    "size": 1e+24,
+    "basis": "lunghezza dell'unità: 1 yottametro (Ym) = 10^24 metri",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Lo yottametro (Ym) vale 10^24 metri: il prefisso SI yotta indica un fattore 10^24. Corrisponde a circa 105,7 milioni di anni luce, cioè a circa 32,4 milioni di parsec. Un gigaparsec equivale a quasi 31 yottametri.",
+    "sources": [
+      {
+        "title": "SI prefixes",
+        "url": "https://www.bipm.org/en/measurement-units/si-prefixes",
+        "publisher": "Bureau International des Poids et Mesures (BIPM)",
+        "evidence": "yotta Y 10²⁴"
+      },
+      {
+        "title": "NIST Guide to the SI, Appendix B.9: Factors for units listed by kind of quantity or field of science",
+        "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9",
+        "publisher": "National Institute of Standards and Technology (NIST)",
+        "evidence": "parsec (pc) meter (m) 3.085 678 E+16"
+      }
+    ],
+    "note": "Valore esatto per definizione del prefisso. La descrizione era vuota. Confronti derivati: 1e24 / 9,46073e15 = 1,057e8 anni luce; 1e24 / 3,085678e16 = 3,2408e7 parsec; 1 Gpc = 3,085678e25 m = 30,86 Ym.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "gigaparsec",
+    "size": 3.0857e+25,
+    "basis": "lunghezza dell'unità: 1 gigaparsec (Gpc) = 10^9 parsec",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il gigaparsec (Gpc) vale un miliardo di parsec, cioè circa 3,0857 × 10^25 metri. Corrisponde a circa 3,26 miliardi di anni luce. È l'unità usata per le distanze cosmologiche più grandi.",
+    "sources": [
+      {
+        "title": "NIST Guide to the SI, Appendix B.9: Factors for units listed by kind of quantity or field of science",
+        "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9",
+        "publisher": "National Institute of Standards and Technology (NIST)",
+        "evidence": "parsec (pc) meter (m) 3.085 678 E+16"
+      },
+      {
+        "title": "Metric (SI) Prefixes",
+        "url": "https://www.nist.gov/pml/owm/metric-si-prefixes",
+        "publisher": "National Institute of Standards and Technology (NIST)",
+        "evidence": "giga G 10⁹ billion"
+      }
+    ],
+    "note": "Calcolo: 3,085678e16 m × 1e9 = 3,085678e25 m, che coincide con il valore attuale 3,0857e25 m. 3,085678e25 / 9,46073e15 = 3,2616e9 anni luce. L'ultima frase è una considerazione generale sull'uso, non tratta da una fonte specifica.",
+    "verified": "2026-11-12"
+  }
+]

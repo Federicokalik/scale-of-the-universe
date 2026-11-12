@@ -1,0 +1,224 @@
+[
+  {
+    "id": "dna-spessore",
+    "size": 2e-9,
+    "basis": "diametro della doppia elica del DNA in forma B",
+    "verdict": "confirmed",
+    "flags": ["r"],
+    "desc": "Il DNA è una doppia elica formata da due filamenti appaiati tramite le basi azotate. Il diametro è di 2 nm, uniforme lungo tutta la molecola, e ogni giro misura 3,4 nm e contiene circa 10 coppie di basi. La struttura fu ricostruita negli anni Cinquanta da Watson e Crick a partire dai dati di diffrazione a raggi X di Rosalind Franklin.",
+    "sources": [
+      {
+        "title": "Biology 2e, 14.2 DNA Structure and Sequencing",
+        "url": "https://openstax.org/books/biology-2e/pages/14-2-dna-structure-and-sequencing",
+        "publisher": "OpenStax, Rice University",
+        "evidence": "The diameter of the DNA double-helix is 2 nm, and it is uniform throughout."
+      }
+    ],
+    "note": "Valore confermato: 2 nm di diametro, 0,34 nm tra coppie di basi, 3,4 nm per giro (stessa pagina: \"each turn of the helix measures 3.4 nm\"). Tolta la frase \"L'originale: 3 nm\": riguarda l'elenco del 2012 e non è verificabile su una fonte. La pagina OpenStax dice \"In the 1950s\" e non cita l'anno 1953, quindi la descrizione resta sul decennio. Le pagine NCBI Bookshelf e Nature Scitable non si sono aperte (verifica browser, login).",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "fosfolipide",
+    "size": 2.5e-9,
+    "basis": "lunghezza di una molecola dalla testa polare alla fine delle code, pari a metà dello spessore del doppio strato",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Un fosfolipide è una molecola con una testa idrofila contenente un gruppo fosfato e due code idrofobe di acidi grassi. È lungo tipicamente 2-2,5 nm, cioè metà dello spessore di una membrana. In acqua queste molecole si dispongono spontaneamente in un doppio strato, la struttura di base delle membrane cellulari.",
+    "sources": [
+      {
+        "title": "Closer Look at Structure of Fully Hydrated Fluid Phase DPPC Bilayers",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1459514/",
+        "publisher": "Kučerka, Tristram-Nagle, Nagle, Biophysical Journal (2006)",
+        "evidence": "DHH 37.8, 2DC 27.9, DB′ 45.9 (Å, Table 1, DPPC)"
+      },
+      {
+        "title": "Biology 2e, 5.1 Components and Structure",
+        "url": "https://openstax.org/books/biology-2e/pages/5-1-components-and-structure",
+        "publisher": "OpenStax, Rice University",
+        "evidence": "The hydrophilic head group consists of a phosphate-containing group attached to a glycerol molecule."
+      }
+    ],
+    "note": "Misura derivata, non letta direttamente: la lunghezza di una molecola è metà dello spessore del doppio strato. Per il DPPC a 50 °C lo spessore sterico è 45,9 Å, quindi 45,9 / 2 = 22,95 Å = 2,3 nm; con una membrana di 5 nm si ottiene 2,5 nm. Il valore attuale di 2,5 nm rientra nella variabilità tra lipidi con code di lunghezza diversa, quindi resta invariato e la descrizione dà l'intervallo. Non ho trovato una fonte che riporti direttamente la lunghezza di una singola molecola.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "doppio-strato-fosfolipidico",
+    "size": 5e-9,
+    "basis": "spessore del doppio strato lipidico di una membrana",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il doppio strato fosfolipidico è formato da due file di fosfolipidi con le code idrofobe rivolte verso l'interno e le teste verso l'acqua. Lo spessore è di circa 5 nm: un doppio strato di DPPC misura 4,6 nm, mentre le membrane plasmatiche complete vanno da 5 a 10 nm. Un globulo rosso, largo circa 8 µm, è più o meno 1.000 volte più largo.",
+    "sources": [
+      {
+        "title": "Biology 2e, 5.1 Components and Structure",
+        "url": "https://openstax.org/books/biology-2e/pages/5-1-components-and-structure",
+        "publisher": "OpenStax, Rice University",
+        "evidence": "Plasma membranes range from 5 to 10 nm in thickness."
+      },
+      {
+        "title": "Closer Look at Structure of Fully Hydrated Fluid Phase DPPC Bilayers",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1459514/",
+        "publisher": "Kučerka, Tristram-Nagle, Nagle, Biophysical Journal (2006)",
+        "evidence": "DHH 37.8, 2DC 27.9, DB′ 45.9 (Å, Table 1, DPPC)"
+      }
+    ],
+    "note": "Spessore sterico del doppio strato di DPPC a 50 °C: 45,9 Å = 4,59 nm (4,6 nm arrotondato); distanza testa-testa 37,8 Å = 3,78 nm. Il valore di 5 nm è l'estremo inferiore dell'intervallo OpenStax per le membrane plasmatiche (5-10 nm, proteine comprese) e sta entro circa l'8% dalla misura sul DPPC: rientra nella variabilità tra lipidi, quindi confermato. Il confronto con il globulo rosso viene dalla stessa pagina OpenStax (\"approximately 1,000 times wider than a plasma membrane\").",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "emoglobina",
+    "size": 5.5e-9,
+    "basis": "diametro medio della molecola (tetramero), che misura circa 6 × 5 × 5 nm",
+    "verdict": "confirmed",
+    "flags": ["n"],
+    "desc": "L'emoglobina è la proteina dei globuli rossi che trasporta l'ossigeno: è fatta di quattro catene, due alfa e due beta, ciascuna con un gruppo eme che contiene un atomo di ferro. La molecola ha un diametro di circa 5 nm, con dimensioni di circa 6 × 5 × 5 nm. La previsione della struttura delle proteine con AlphaFold è valsa a Demis Hassabis e John Jumper il Nobel per la chimica 2024.",
+    "sources": [
+      {
+        "title": "Size and Shape of Protein Molecules at the Nanometer Level Determined by Sedimentation, Gel Filtration, and Electron Microscopy",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3055910/",
+        "publisher": "H. P. Erickson, Biological Procedures Online (2009)",
+        "evidence": "The diameter of a single hemoglobin molecule is about 5 nm."
+      },
+      {
+        "title": "Molecule of the Month: Hemoglobin",
+        "url": "https://pdb101.rcsb.org/motm/41",
+        "publisher": "RCSB PDB-101",
+        "evidence": "four protein chains, two alpha chains and two beta chains"
+      },
+      {
+        "title": "Demis Hassabis & John Jumper awarded Nobel Prize in Chemistry",
+        "url": "https://deepmind.google/discover/blog/demis-hassabis-john-jumper-awarded-nobel-prize-in-chemistry/",
+        "publisher": "Google DeepMind",
+        "evidence": "were co-awarded the 2024 Nobel Prize in Chemistry for their work developing AlphaFold"
+      }
+    ],
+    "note": "Erickson dà \"about 5 nm\" nel testo e 6 × 5 × 5 nm nella Tabella 4 (dai file PDB): 5,5 nm sta in mezzo, quindi confermato. Le dimensioni 6,4 × 5,5 × 5,0 nm attribuite a Perutz circolano molto, ma non ho trovato una pagina apribile che le riporti e non le cito. Il Nobel 2024 è confermato dalla pagina di Google DeepMind (nobelprize.org risponde 403); va ricordato che il premio è stato condiviso anche con David Baker, cosa che la descrizione non dice.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "anticorpo-igg",
+    "size": 1.5e-8,
+    "basis": "estensione massima della molecola a Y (lunghezza massima in soluzione)",
+    "verdict": "corrected",
+    "flags": ["n", "r"],
+    "desc": "L'immunoglobulina G è un anticorpo: una proteina a forma di Y di circa 150 kDa, con due bracci Fab che legano l'antigene e un gambo Fc. La sua estensione massima è di circa 15 nm: le misure in soluzione danno 15-16 nm, quelle su superficie circa 14 × 8 nm. I bracci sono molto flessibili grazie alla regione cerniera, quindi la forma cambia di continuo.",
+    "sources": [
+      {
+        "title": "The Solution Structures of Two Human IgG1 Antibodies Show Conformational Stability and Accommodate Their C1q and FcγR Ligands",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4375494",
+        "publisher": "Rayner et al., Journal of Biological Chemistry (2015)",
+        "evidence": "the same overall length of 16 nm"
+      },
+      {
+        "title": "IgG (technical information)",
+        "url": "https://www.agrisera.com/en/info/igg.html",
+        "publisher": "Agrisera (produttore di anticorpi)",
+        "evidence": "IgG molecule dimensions: 13.7 nm (width), 8.4 nm (height)"
+      },
+      {
+        "title": "IgG Antibody 3D Structures and Dynamics",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6698877/",
+        "publisher": "Jay et al., Antibodies (2018)",
+        "evidence": "the arms of IgGs are highly flexible"
+      }
+    ],
+    "note": "Corretto da 1,2e-8 m (12 nm) a 1,5e-8 m (15 nm). Le misure di diffusione in soluzione su due IgG1 umane danno una lunghezza massima di 16 nm (15 nm in un altro tampone); la scheda tecnica Agrisera riporta 13,7 × 8,4 nm citando un lavoro del 2008 su ACS Nano. L'intervallo sostenuto è 13,7-16 nm e 12 nm ne resta fuori di oltre il 10%; 15 nm è il valore centrale arrotondato. Il PDF dell'articolo ACS Nano (UC Davis) non si è aperto, quindi le cifre 14,5 × 8,5 × 4 nm spesso ripetute non sono citate. La massa di 150 kDa viene da Jay et al. (\"150 kDa IgG1 particles\").",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "gate-di-un-transistor-in-produzione",
+    "size": 1.25e-8,
+    "basis": "lunghezza fisica del gate di un transistor nei processi detti a 2 nm",
+    "verdict": "uncertain",
+    "flags": ["r", "u"],
+    "desc": "Nei chip detti a 2 nm, in produzione di serie da fine 2025, il nome è un'etichetta commerciale e non misura nessuna parte del transistor. I produttori non pubblicano la lunghezza del gate: il chip dimostrativo a 2 nm di IBM del 2021 aveva un gate di 12 nm, lungo circa due dozzine di atomi. La roadmap IRDS 2022 prevede che la lunghezza del canale smetta di ridursi intorno a 12 nm.",
+    "sources": [
+      {
+        "title": "Introducing the world's first 2 nm node chip",
+        "url": "https://research.ibm.com/blog/2-nm-chip",
+        "publisher": "IBM Research",
+        "evidence": "we were able to create a 12 nm gate length"
+      },
+      {
+        "title": "International Roadmap for Devices and Systems 2022 Update: More Moore",
+        "url": "https://irds.ieee.org/images/files/pdf/2022/2022IRDS_MM.pdf",
+        "publisher": "IEEE IRDS",
+        "evidence": "physical channel length would saturate around 12nm"
+      },
+      {
+        "title": "2nm Technology",
+        "url": "https://www.tsmc.com/english/dedicatedFoundry/technology/logic/l_2nm",
+        "publisher": "TSMC",
+        "evidence": "has started volume production in 4Q25 as planned"
+      }
+    ],
+    "note": "Dimensione lasciata a 1,25e-8 m ma segnata incerta: nessuna fonte aperta dà la lunghezza del gate di un processo a 2 nm in produzione (la pagina TSMC N2 non la riporta). I 12 nm vengono da un chip di ricerca IBM del 2021 e dalla previsione IRDS; le tabelle IRDS con i valori per anno sono immagini nel PDF e non sono riuscito a leggerle, quindi non cito i valori per il 2025. Sul nome commerciale IBM scrive che \"2 nm does not correspond to half pitch of contacted metal wires, as traditionally defined\". Da decidere se rinominare l'oggetto, visto che il dato misurato riguarda un prototipo.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "nanoparticella-lipidica",
+    "size": 8e-8,
+    "basis": "diametro tipico di una nanoparticella lipidica dei vaccini a mRNA (intervallo 60-100 nm)",
+    "verdict": "confirmed",
+    "flags": ["n"],
+    "desc": "Una nanoparticella lipidica è la sfera di grassi che racchiude l'mRNA dei vaccini e lo porta dentro le cellule. Misura circa 60-100 nm di diametro ed è fatta di quattro componenti: un lipide ionizzabile, un fosfolipide neutro, colesterolo e un lipide legato a PEG. I vaccini anti COVID-19 di Pfizer-BioNTech e Moderna usano entrambi questa tecnologia.",
+    "sources": [
+      {
+        "title": "mRNA-lipid nanoparticle COVID-19 vaccines: Structure and stability",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8032477/",
+        "publisher": "Schoenmaker et al., International Journal of Pharmaceutics (2021)",
+        "evidence": "these components form particles of about 60–100 nm in size"
+      }
+    ],
+    "note": "80 nm è il centro dell'intervallo 60-100 nm indicato dalla rassegna, quindi confermato. Le misure sui singoli prodotti variano con il metodo (diffusione dinamica della luce, microscopia a forza atomica), per questo la descrizione dà l'intervallo.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "limite-del-microscopio-ottico",
+    "size": 2e-7,
+    "basis": "minima distanza risolvibile con luce visibile (limite di diffrazione di Abbe, circa metà della lunghezza d'onda)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il limite di diffrazione di Abbe dice che un microscopio ottico distingue due punti solo se distano più di circa metà della lunghezza d'onda della luce. In pratica la distanza minima va da 200 nm per la luce blu a 350 nm per quella rossa. Le tecniche a super-risoluzione come MINFLUX localizzano le molecole con una precisione di 1-3 nm.",
+    "sources": [
+      {
+        "title": "Microscopy's Cutting Edge",
+        "url": "https://www.optica-opn.org/home/articles/volume_34/april_2023/features/microscopy_s_cutting_edge/",
+        "publisher": "Optics & Photonics News, Optica (2023)",
+        "evidence": "typically ranges from 200 nm for far-blue light to 350 nm for far-red light"
+      },
+      {
+        "title": "Major advance in super-resolution fluorescence microscopy",
+        "url": "https://www.eurekalert.org/news-releases/982995",
+        "publisher": "Max Planck Institute for Medical Research (comunicato, 2023)",
+        "evidence": "has already attained a spatial resolution of one to a few nanometers"
+      }
+    ],
+    "note": "200 nm è l'estremo inferiore dell'intervallo pratico (200-350 nm secondo la lunghezza d'onda) ed è il valore convenzionale: confermato. Per MINFLUX l'articolo Optica riporta \"localization precision at the scale of the fluorophore itself (1 to 3 nm)\". La pagina del Nobel per la chimica 2014 (nobelprize.org) risponde 403 e non è citata.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "particella-piu-penetrante-per-un-filtro-ffp2",
+    "size": 3.1e-7,
+    "basis": "diametro della particella che attraversa più facilmente un filtro facciale (MPPS); 0,3 µm è il valore convenzionale usato nelle prove",
+    "verdict": "uncertain",
+    "flags": ["r", "u"],
+    "desc": "Un filtro facciale ferma bene sia le particelle grandi sia quelle piccolissime: in mezzo c'è una taglia che passa più facilmente, detta particella più penetrante. Per convenzione si indica 0,3 µm, la taglia che l'ente statunitense NIOSH considera la più difficile da filtrare. Le misure sui filtri N95 a carica elettrostatica la collocano però tra 40 e 300 nm, spesso intorno a 40-50 nm.",
+    "sources": [
+      {
+        "title": "Understanding Filtration Efficiency Testing and Fit Testing in Filtering Facepiece Respirators (FFRs), DHHS (NIOSH) Publication No. 2021-123",
+        "url": "https://www.cdc.gov/niosh/docs/2021-123/pdfs/2021-123revised112021.pdf",
+        "publisher": "CDC / NIOSH",
+        "evidence": "the most challenging to filter--particles with a 0.3-micron diameter"
+      },
+      {
+        "title": "Filtration Performance of NIOSH-Approved N95 and P100 Filtering Facepiece Respirators Against 4 to 30 Nanometer-Size Nanoparticles",
+        "url": "https://stacks.cdc.gov/view/cdc/189446/cdc_189446_DS1.pdf",
+        "publisher": "Rengasamy et al. (NIOSH), Journal of Occupational and Environmental Hygiene (2008), CDC Stacks",
+        "evidence": "most penetrating particle size (MPPS) occurring between 40 and 300 nm"
+      }
+    ],
+    "note": "Dimensione lasciata a 3,1e-7 m (0,3 µm è il valore convenzionale, differenza del 3%) ma segnata incerta: 0,3 µm è una convenzione di prova, non una misura del punto debole di ogni filtro. Lo studio NIOSH trova per cinque modelli N95 una taglia più penetrante \"in the 40 nm range\". Entrambe le fonti riguardano i filtri N95 statunitensi: non ho aperto una fonte sulla norma europea EN 149 per gli FFP2, quindi la descrizione non parla di \"taglia di prova\" degli FFP2 e cita solo gli N95. Tolta la frase sull'originale (1 µm per le mascherine chirurgiche), non verificabile. Da valutare se rinominare l'oggetto senza \"FFP2\".",
+    "verified": "2026-11-12"
+  }
+]

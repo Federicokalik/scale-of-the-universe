@@ -54,8 +54,19 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "CODATA Value: Planck length",
+        "url": "https://physics.nist.gov/cgi-bin/cuu/Value?plkl",
+        "publisher": "NIST, CODATA 2022"
+      },
+      {
+        "title": "CODATA Value: proton rms charge radius",
+        "url": "https://physics.nist.gov/cgi-bin/cuu/Value?rp",
+        "publisher": "NIST, CODATA 2022"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "yoctometro",
@@ -64,8 +75,19 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "SI prefixes",
+        "url": "https://www.bipm.org/en/measurement-units/si-prefixes",
+        "publisher": "BIPM"
+      },
+      {
+        "title": "CODATA Value: Planck length",
+        "url": "https://physics.nist.gov/cgi-bin/cuu/Value?plkl",
+        "publisher": "NIST, CODATA 2022"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "neutrino",
@@ -115,8 +137,19 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "SI prefixes",
+        "url": "https://www.bipm.org/en/measurement-units/si-prefixes",
+        "publisher": "BIPM"
+      },
+      {
+        "title": "Facts",
+        "url": "https://www.ligo.caltech.edu/page/facts",
+        "publisher": "LIGO Laboratory, Caltech"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "preone",
@@ -314,8 +347,19 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "SI prefixes",
+        "url": "https://www.bipm.org/en/measurement-units/si-prefixes",
+        "publisher": "BIPM"
+      },
+      {
+        "title": "Limits on the effective quark radius from inclusive ep scattering at HERA",
+        "url": "https://arxiv.org/abs/1604.01280",
+        "publisher": "ZEUS Collaboration, arXiv"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "quark-up",
@@ -408,8 +452,19 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "NIST Guide to the SI, Chapter 5: Units Outside the SI",
+        "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-chapter-5-units-outside-si",
+        "publisher": "NIST Special Publication 811"
+      },
+      {
+        "title": "CODATA Value: proton rms charge radius",
+        "url": "https://physics.nist.gov/cgi-bin/cuu/Value?rp",
+        "publisher": "NIST, CODATA 2022"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "protone",
@@ -605,8 +660,19 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Metric (SI) Prefixes",
+        "url": "https://www.nist.gov/pml/owm/metric-si-prefixes",
+        "publisher": "NIST"
+      },
+      {
+        "title": "CODATA Value: Bohr radius",
+        "url": "https://physics.nist.gov/cgi-bin/cuu/Value?bohrrada0",
+        "publisher": "NIST, CODATA 2022"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "raggi-gamma",
@@ -661,8 +727,14 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Electron ptychography achieves atomic-resolution limits set by lattice vibrations",
+        "url": "https://arxiv.org/abs/2101.00465",
+        "publisher": "Chen et al., arXiv (versione pubblicata su Science, DOI 10.1126/science.abg2533)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "atomo-di-elio",
@@ -694,8 +766,19 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "NIST Guide to the SI, Chapter 5: Units Outside the SI",
+        "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-chapter-5-units-outside-si",
+        "publisher": "NIST Special Publication 811"
+      },
+      {
+        "title": "CODATA Value: Bohr radius",
+        "url": "https://physics.nist.gov/cgi-bin/cuu/Value?bohrrada0",
+        "publisher": "NIST, CODATA 2022"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "atomo-di-idrogeno",
@@ -766,8 +849,14 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Experimental data for C2H6 (Ethane)",
+        "url": "https://cccbdb.nist.gov/exp2x.asp?casno=74840",
+        "publisher": "NIST Computational Chemistry Comparison and Benchmark Database (CCCBDB)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "atomo-di-zolfo",
@@ -796,8 +885,19 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Experimental data for CO2 (Carbon dioxide)",
+        "url": "https://cccbdb.nist.gov/exp2x.asp?casno=124389",
+        "publisher": "NIST Computational Chemistry Comparison and Benchmark Database (CCCBDB)"
+      },
+      {
+        "title": "Trends in Atmospheric Carbon Dioxide (CO2)",
+        "url": "https://gml.noaa.gov/ccgg/trends/",
+        "publisher": "NOAA Global Monitoring Laboratory"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "molecola-d-acqua",
@@ -806,8 +906,19 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Diameter of water molecule (BNID 103723)",
+        "url": "https://bionumbers.hms.harvard.edu/bionumber.aspx?id=103723",
+        "publisher": "BioNumbers, Harvard Medical School (da D'Arrigo, Am J Physiol 1978)"
+      },
+      {
+        "title": "Experimental data for H2O (Water)",
+        "url": "https://cccbdb.nist.gov/exp2x.asp?casno=7732185",
+        "publisher": "NIST Computational Chemistry Comparison and Benchmark Database (CCCBDB)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "gate-di-transistor-piu-corto",
@@ -818,8 +929,19 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Vertical MoS2 transistors with sub-1-nm gate lengths (Wu et al., Nature 603, 259-264, 2022), record Europe PMC",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038/s41586-021-04323-3&resultType=core&format=json",
+        "publisher": "Europe PMC (abstract dell'articolo su Nature, PMID 35264756)"
+      },
+      {
+        "title": "These Transistor Gates Are Just One Carbon Atom Thick",
+        "url": "https://spectrum.ieee.org/smallest-transistor-one-carbon-atom",
+        "publisher": "IEEE Spectrum"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "atomo-di-cesio",
@@ -853,11 +975,23 @@
     "kind": "m",
     "glyph": "",
     "flags": [
-      "n"
+      "n",
+      "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Caffeine (CID 2519), 3D conformer record",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/2519/record/JSON?record_type=3d",
+        "publisher": "PubChem, National Library of Medicine (NIH)"
+      },
+      {
+        "title": "Caffeine (CID 2519), computed properties",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/2519/property/MolecularFormula,MolecularWeight,IUPACName,Title/JSON",
+        "publisher": "PubChem, National Library of Medicine (NIH)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "molecola-di-glucosio",
@@ -866,8 +1000,19 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Size of glucose ring molecule (BNID 110368)",
+        "url": "https://bionumbers.hms.harvard.edu/bionumber.aspx?id=110368",
+        "publisher": "BioNumbers, Harvard Medical School (da una tesi di dottorato in ingegneria chimica, 1995)"
+      },
+      {
+        "title": "D-Glucose (CID 5793), computed properties",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/5793/property/MolecularFormula,MolecularWeight,Title/JSON",
+        "publisher": "PubChem, National Library of Medicine (NIH)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "nanometro",
@@ -876,8 +1021,19 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Metric (SI) Prefixes",
+        "url": "https://www.nist.gov/pml/owm/metric-si-prefixes",
+        "publisher": "NIST"
+      },
+      {
+        "title": "CODATA Value: lattice parameter of silicon",
+        "url": "https://physics.nist.gov/cgi-bin/cuu/Value?asil",
+        "publisher": "NIST, CODATA 2022"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "fullerene-c60",
@@ -886,8 +1042,19 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "buckminsterfulleren",
+        "url": "https://lex.dk/buckminsterfulleren",
+        "publisher": "Lex, Danmarks Nationalleksikon (Den Store Danske)"
+      },
+      {
+        "title": "Buckminsterfullerene: Molecule of the Month",
+        "url": "https://www.bristol.ac.uk/Depts/Chemistry/MOTM/buckyball/c60a.htm",
+        "publisher": "University of Bristol, School of Chemistry (testo di W. Locke, Sussex Fullerene Group)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "nanotubo-di-carbonio",
@@ -896,8 +1063,14 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Cobalt-catalysed growth of carbon nanotubes with single-atomic-layer walls (Bethune et al., Nature 363, 605-607, 1993)",
+        "url": "https://authors.library.caltech.edu/58145/",
+        "publisher": "CaltechAUTHORS, California Institute of Technology (abstract dell'articolo su Nature)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "alfa-elica-di-una-proteina",
@@ -905,11 +1078,23 @@
     "kind": "m",
     "glyph": "",
     "flags": [
-      "r"
+      "r",
+      "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Alpha helix (protein structure modelling pages)",
+        "url": "https://www.chem.uwec.edu/Modeling/GGProteinStructures/Pages/alpha_helix/helix_2.html",
+        "publisher": "University of Wisconsin-Eau Claire, Department of Chemistry"
+      },
+      {
+        "title": "The alpha helix (Biomolecules tutorial, Protein Structure)",
+        "url": "https://www2.chem.wisc.edu/deptfiles/genchem/netorial/modules/biomolecules/modules/protein2/prot23.htm",
+        "publisher": "University of Wisconsin-Madison, Department of Chemistry"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "dna-spessore",
@@ -920,8 +1105,14 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Biology 2e, 14.2 DNA Structure and Sequencing",
+        "url": "https://openstax.org/books/biology-2e/pages/14-2-dna-structure-and-sequencing",
+        "publisher": "OpenStax, Rice University"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "fosfolipide",
@@ -930,8 +1121,19 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Closer Look at Structure of Fully Hydrated Fluid Phase DPPC Bilayers",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1459514/",
+        "publisher": "Kučerka, Tristram-Nagle, Nagle, Biophysical Journal (2006)"
+      },
+      {
+        "title": "Biology 2e, 5.1 Components and Structure",
+        "url": "https://openstax.org/books/biology-2e/pages/5-1-components-and-structure",
+        "publisher": "OpenStax, Rice University"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "doppio-strato-fosfolipidico",
@@ -940,8 +1142,19 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Biology 2e, 5.1 Components and Structure",
+        "url": "https://openstax.org/books/biology-2e/pages/5-1-components-and-structure",
+        "publisher": "OpenStax, Rice University"
+      },
+      {
+        "title": "Closer Look at Structure of Fully Hydrated Fluid Phase DPPC Bilayers",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1459514/",
+        "publisher": "Kučerka, Tristram-Nagle, Nagle, Biophysical Journal (2006)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "emoglobina",
@@ -952,8 +1165,24 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Size and Shape of Protein Molecules at the Nanometer Level Determined by Sedimentation, Gel Filtration, and Electron Microscopy",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3055910/",
+        "publisher": "H. P. Erickson, Biological Procedures Online (2009)"
+      },
+      {
+        "title": "Molecule of the Month: Hemoglobin",
+        "url": "https://pdb101.rcsb.org/motm/41",
+        "publisher": "RCSB PDB-101"
+      },
+      {
+        "title": "Demis Hassabis & John Jumper awarded Nobel Prize in Chemistry",
+        "url": "https://deepmind.google/discover/blog/demis-hassabis-john-jumper-awarded-nobel-prize-in-chemistry/",
+        "publisher": "Google DeepMind"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "membrana-cellulare",
@@ -962,20 +1191,19 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
-  },
-  {
-    "id": "anticorpo-igg",
-    "size": 1.2e-8,
-    "kind": "m",
-    "glyph": "",
-    "flags": [
-      "n"
+    "sources": [
+      {
+        "title": "Thickness of a Cell Membrane (BNID 100787)",
+        "url": "https://bionumbers.hms.harvard.edu/bionumber.aspx?id=100787",
+        "publisher": "BioNumbers, Harvard Medical School"
+      },
+      {
+        "title": "What is the thickness of the cell membrane? (Cell Biology by the Numbers)",
+        "url": "https://book.bionumbers.org/what-is-the-thickness-of-the-cell-membrane/",
+        "publisher": "R. Milo e R. Phillips, Cell Biology by the Numbers"
+      }
     ],
-    "image": null,
-    "sources": [],
-    "verified": null
+    "verified": "2026-11-12"
   },
   {
     "id": "gate-di-un-transistor-in-produzione",
@@ -983,11 +1211,28 @@
     "kind": "m",
     "glyph": "",
     "flags": [
-      "r"
+      "r",
+      "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Introducing the world's first 2 nm node chip",
+        "url": "https://research.ibm.com/blog/2-nm-chip",
+        "publisher": "IBM Research"
+      },
+      {
+        "title": "International Roadmap for Devices and Systems 2022 Update: More Moore",
+        "url": "https://irds.ieee.org/images/files/pdf/2022/2022IRDS_MM.pdf",
+        "publisher": "IEEE IRDS"
+      },
+      {
+        "title": "2nm Technology",
+        "url": "https://www.tsmc.com/english/dedicatedFoundry/technology/logic/l_2nm",
+        "publisher": "TSMC"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "luce-euv-per-litografia",
@@ -1008,14 +1253,49 @@
     "verified": "2026-11-12"
   },
   {
+    "id": "anticorpo-igg",
+    "size": 1.5e-8,
+    "kind": "m",
+    "glyph": "",
+    "flags": [
+      "n",
+      "r"
+    ],
+    "image": null,
+    "sources": [
+      {
+        "title": "The Solution Structures of Two Human IgG1 Antibodies Show Conformational Stability and Accommodate Their C1q and FcγR Ligands",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4375494",
+        "publisher": "Rayner et al., Journal of Biological Chemistry (2015)"
+      },
+      {
+        "title": "IgG (technical information)",
+        "url": "https://www.agrisera.com/en/info/igg.html",
+        "publisher": "Agrisera (produttore di anticorpi)"
+      },
+      {
+        "title": "IgG Antibody 3D Structures and Dynamics",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6698877/",
+        "publisher": "Jay et al., Antibodies (2018)"
+      }
+    ],
+    "verified": "2026-11-12"
+  },
+  {
     "id": "circovirus-suino",
     "size": 1.7e-8,
     "kind": "b",
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Circoviridae (ICTV Ninth Report)",
+        "url": "https://ictv.global/node/2154",
+        "publisher": "International Committee on Taxonomy of Viruses (ICTV)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "ribosoma",
@@ -1026,8 +1306,19 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Size of 70s (intact) of ribosome (BNID 102320)",
+        "url": "https://bionumbers.hms.harvard.edu/bionumber.aspx?id=102320",
+        "publisher": "BioNumbers, Harvard Medical School (da Kaczanowska e Rydén-Aulin, Microbiol Mol Biol Rev 2007)"
+      },
+      {
+        "title": "Ribosome diameter (BNID 100483)",
+        "url": "https://bionumbers.hms.harvard.edu/bionumber.aspx?id=100483",
+        "publisher": "BioNumbers, Harvard Medical School"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "virus-dell-epatite-b",
@@ -1036,8 +1327,14 @@
     "glyph": "🦠",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Hepatitis B: The Virus and Disease",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2809016",
+        "publisher": "T. J. Liang, Hepatology 2009 (PubMed Central)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "nanoparticella-lipidica",
@@ -1048,8 +1345,14 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "mRNA-lipid nanoparticle COVID-19 vaccines: Structure and stability",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8032477/",
+        "publisher": "Schoenmaker et al., International Journal of Pharmaceutics (2021)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "ultravioletto",
@@ -1078,8 +1381,14 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "A Novel Coronavirus from Patients with Pneumonia in China, 2019",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7092803/",
+        "publisher": "Zhu et al., New England Journal of Medicine 2020 (PubMed Central)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "hiv",
@@ -1087,11 +1396,23 @@
     "kind": "b",
     "glyph": "🦠",
     "flags": [
-      "r"
+      "r",
+      "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Structural organization of authentic, mature HIV-1 virions and cores",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC152888/",
+        "publisher": "Briggs et al., The EMBO Journal 2003 (PubMed Central)"
+      },
+      {
+        "title": "Lentivirus",
+        "url": "https://viralzone.expasy.org/264",
+        "publisher": "ViralZone, SIB Swiss Institute of Bioinformatics"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "fossetta-di-un-cd-profondita",
@@ -1110,18 +1431,42 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Microscopy's Cutting Edge",
+        "url": "https://www.optica-opn.org/home/articles/volume_34/april_2023/features/microscopy_s_cutting_edge/",
+        "publisher": "Optics & Photonics News, Optica (2023)"
+      },
+      {
+        "title": "Major advance in super-resolution fluorescence microscopy",
+        "url": "https://www.eurekalert.org/news-releases/982995",
+        "publisher": "Max Planck Institute for Medical Research (comunicato, 2023)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "batteriofago-t4",
-    "size": 2.1e-7,
+    "size": 2.6e-7,
     "kind": "b",
     "glyph": "",
-    "flags": [],
+    "flags": [
+      "r"
+    ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Bacteriophage T4 Head: Structure, Assembly, and Genome Packaging",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9958956/fullTextXML",
+        "publisher": "Rao, Fokine, Fang e Shao, Viruses 2023 (testo integrale via Europe PMC)"
+      },
+      {
+        "title": "Tequatrovirus",
+        "url": "https://viralzone.expasy.org/504",
+        "publisher": "ViralZone, SIB Swiss Institute of Bioinformatics"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "batterio-piu-piccolo",
@@ -1129,11 +1474,23 @@
     "kind": "b",
     "glyph": "",
     "flags": [
-      "n"
+      "n",
+      "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Diameter of smallest bacteria - mycoplasma (BNID 104717)",
+        "url": "https://bionumbers.hms.harvard.edu/bionumber.aspx?id=104717",
+        "publisher": "BioNumbers, Harvard Medical School (da Zhao et al., BMC Research Notes 2008)"
+      },
+      {
+        "title": "The minimal gene complement of Mycoplasma genitalium",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE:%22The%20minimal%20gene%20complement%20of%20Mycoplasma%20genitalium%22&resultType=core&format=json",
+        "publisher": "Fraser et al., Science 1995 (record Europe PMC, PMID 7569993)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "particella-piu-penetrante-per-un-filtro-ffp2",
@@ -1141,11 +1498,23 @@
     "kind": "m",
     "glyph": "",
     "flags": [
-      "r"
+      "r",
+      "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Understanding Filtration Efficiency Testing and Fit Testing in Filtering Facepiece Respirators (FFRs), DHHS (NIOSH) Publication No. 2021-123",
+        "url": "https://www.cdc.gov/niosh/docs/2021-123/pdfs/2021-123revised112021.pdf",
+        "publisher": "CDC / NIOSH"
+      },
+      {
+        "title": "Filtration Performance of NIOSH-Approved N95 and P100 Filtering Facepiece Respirators Against 4 to 30 Nanometer-Size Nanoparticles",
+        "url": "https://stacks.cdc.gov/view/cdc/189446/cdc_189446_DS1.pdf",
+        "publisher": "Rengasamy et al. (NIOSH), Journal of Occupational and Environmental Hygiene (2008), CDC Stacks"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "luce-viola",
@@ -1211,8 +1580,14 @@
     "glyph": "🦠",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Structural Studies of the Giant Mimivirus",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2671561/",
+        "publisher": "Xiao et al., PLoS Biology 2009 (PubMed Central)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "micrometro",
@@ -1221,8 +1596,19 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "NIST Guide to the SI, Chapter 5: Units Outside the SI",
+        "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-chapter-5-units-outside-si",
+        "publisher": "NIST Special Publication 811"
+      },
+      {
+        "title": "Red blood cell diameter (BNID 108239)",
+        "url": "https://bionumbers.hms.harvard.edu/bionumber.aspx?id=108239",
+        "publisher": "BioNumbers, Harvard Medical School"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "virus-piu-grande",
@@ -1233,18 +1619,42 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Thirty-thousand-year-old distant relative of giant icosahedral DNA viruses with a pandoravirus morphology",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:24591590%20AND%20SRC:MED&resultType=core&format=json",
+        "publisher": "Legendre et al., PNAS 2014 (record Europe PMC, PMID 24591590)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "cromosoma-y",
     "size": 0.000002,
     "kind": "b",
     "glyph": "",
-    "flags": [],
+    "flags": [
+      "u"
+    ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Y chromosome",
+        "url": "https://medlineplus.gov/genetics/chromosome/y/",
+        "publisher": "MedlinePlus Genetics, U.S. National Library of Medicine"
+      },
+      {
+        "title": "12.3 Cytogenetic Maps (Introduction to Genetics)",
+        "url": "https://opengenetics.pressbooks.tru.ca/?p=1124",
+        "publisher": "Thompson Rivers University, Open Genetics"
+      },
+      {
+        "title": "Researchers assemble the first complete sequence of a human Y chromosome",
+        "url": "https://www.genome.gov/news/news-release/researchers-assemble-the-first-complete-sequence-of-a-human-y-chromosome",
+        "publisher": "National Human Genome Research Institute (NHGRI), NIH"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "escherichia-coli",
@@ -1253,8 +1663,14 @@
     "glyph": "🧫",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "How big is an E. coli cell and what is its mass? (Cell Biology by the Numbers)",
+        "url": "https://book.bionumbers.org/how-big-is-an-e-coli-cell-and-what-is-its-mass/",
+        "publisher": "R. Milo e R. Phillips, Cell Biology by the Numbers (BioNumbers)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "particella-di-argilla",
@@ -1273,8 +1689,14 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "How big are mitochondria? (Cell Biology by the Numbers)",
+        "url": "https://book.bionumbers.org/how-big-are-mitochondria/",
+        "publisher": "R. Milo e R. Phillips, Cell Biology by the Numbers (BioNumbers)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "cellula-di-lievito",
@@ -1285,8 +1707,14 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "How big is a budding yeast cell? (Cell Biology by the Numbers)",
+        "url": "https://book.bionumbers.org/how-big-is-a-budding-yeast-cell/",
+        "publisher": "R. Milo e R. Phillips, Cell Biology by the Numbers (BioNumbers)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "nucleo-cellulare",
@@ -1295,8 +1723,19 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "How big are nuclei? (Cell Biology by the Numbers)",
+        "url": "https://book.bionumbers.org/how-big-are-nuclei/",
+        "publisher": "R. Milo e R. Phillips, Cell Biology by the Numbers (BioNumbers)"
+      },
+      {
+        "title": "How big are genomes? (Cell Biology by the Numbers)",
+        "url": "https://book.bionumbers.org/how-big-are-genomes/",
+        "publisher": "R. Milo e R. Phillips, Cell Biology by the Numbers (BioNumbers)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "cloroplasto",
@@ -1305,8 +1744,19 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "7.4B: Chloroplasts (Microbiology, G. Kaiser)",
+        "url": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(Kaiser)/Unit_4%3A_Eukaryotic_Microorganisms_and_Viruses/07%3A_The_Eukaryotic_Cell/7.4%3A_Other_Internal_Membrane-Bound_Organelles/7.4B%3A_Chloroplasts",
+        "publisher": "Gary Kaiser, Community College of Baltimore County, LibreTexts"
+      },
+      {
+        "title": "4.3 Eukaryotic Cells (Biology 2e)",
+        "url": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells",
+        "publisher": "OpenStax, Rice University"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "cromosoma-x",
@@ -1314,11 +1764,23 @@
     "kind": "b",
     "glyph": "",
     "flags": [
-      "r"
+      "r",
+      "u"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "X chromosome",
+        "url": "https://medlineplus.gov/genetics/chromosome/x/",
+        "publisher": "MedlinePlus Genetics, U.S. National Library of Medicine"
+      },
+      {
+        "title": "12.3 Cytogenetic Maps (Introduction to Genetics)",
+        "url": "https://opengenetics.pressbooks.tru.ca/?p=1124",
+        "publisher": "Thompson Rivers University, Open Genetics"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "globulo-rosso",
@@ -1327,8 +1789,19 @@
     "glyph": "🩸",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "18.3 Erythrocytes (Anatomy and Physiology 2e)",
+        "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-3-erythrocytes",
+        "publisher": "OpenStax, Rice University"
+      },
+      {
+        "title": "How big is a human cell? (Cell Biology by the Numbers)",
+        "url": "https://book.bionumbers.org/how-big-is-a-human-cell/",
+        "publisher": "R. Milo e R. Phillips, Cell Biology by the Numbers (BioNumbers)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "infrarosso-termico",
@@ -1358,8 +1831,14 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "18.4 Leukocytes and Platelets (Anatomy and Physiology 2e)",
+        "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets",
+        "publisher": "OpenStax, Rice University"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "fibra-di-seta",
@@ -1416,10 +1895,23 @@
     "size": 0.00003,
     "kind": "b",
     "glyph": "",
-    "flags": [],
+    "flags": [
+      "u"
+    ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Corneocytes: Relationship between Structural and Biomechanical Properties",
+        "url": "https://karger.com/article/doi/10.1159/000513054",
+        "publisher": "Évora et al., Skin Pharmacology and Physiology (Karger), 2021"
+      },
+      {
+        "title": "Cell types: Keratinocyte (Atlas of Plant and Animal Histology)",
+        "url": "https://mmegias.webs2.uvigo.es/02-english/8-tipos-celulares/queratinocito.php?tema=b",
+        "publisher": "Universidade de Vigo"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "particella-di-limo",
@@ -1438,8 +1930,19 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Pollen and spores: size, production (Palaeoecology)",
+        "url": "https://www.botany.unibe.ch/paleo/pollen_e/production.htm",
+        "publisher": "Universität Bern, Institute of Plant Sciences"
+      },
+      {
+        "title": "Pollen and Spores: Morphology, size",
+        "url": "https://hoopermuseum.earthsci.carleton.ca/2001_pollenspores_ml/morph04.htm",
+        "publisher": "Hooper Virtual Natural History Museum, Carleton University"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "pixel-di-uno-smartphone",
@@ -1462,8 +1965,14 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Spermatozoo",
+        "url": "https://www.treccani.it/enciclopedia/spermatozoo/",
+        "publisher": "Treccani, Enciclopedia on line"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "capello-umano",
@@ -1502,18 +2011,42 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Oocyte diameter predicts the maturation rate of human immature oocytes collected ex vivo",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36087150/",
+        "publisher": "Pors et al., Journal of Assisted Reproduction and Genetics (2022), PubMed"
+      },
+      {
+        "title": "Uovo",
+        "url": "https://www.treccani.it/enciclopedia/uovo/",
+        "publisher": "Treccani, Enciclopedia on line"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "protista-ciliato",
     "size": 0.00018,
     "kind": "b",
     "glyph": "",
-    "flags": [],
+    "flags": [
+      "u"
+    ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Introduction to the Ciliata",
+        "url": "https://ucmp.berkeley.edu/protista/ciliata.html",
+        "publisher": "University of California Museum of Paleontology (UCMP), Berkeley"
+      },
+      {
+        "title": "Paramecium Genetics, Genomics, and Evolution",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11334263/",
+        "publisher": "Annual Review of Genetics, via PubMed Central"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "paramecio",
@@ -1522,8 +2055,14 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Paramecium Genetics, Genomics, and Evolution",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11334263/",
+        "publisher": "Annual Review of Genetics, via PubMed Central"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "pixel-di-un-monitor",
@@ -1542,10 +2081,23 @@
     "size": 0.0003,
     "kind": "b",
     "glyph": "🕷️",
-    "flags": [],
+    "flags": [
+      "u"
+    ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "House Dust Mites (ENTFACT-646)",
+        "url": "https://entomology.mgcafe.uky.edu/ef646",
+        "publisher": "University of Kentucky, Department of Entomology"
+      },
+      {
+        "title": "The Tiny Invaders in Your Home: Dust Mites",
+        "url": "https://sciencefocus.hkust.edu.hk/node/260",
+        "publisher": "Science Focus, Hong Kong University of Science and Technology"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "granello-di-sale",
@@ -1564,8 +2116,14 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Amoeba proteus",
+        "url": "https://arcella.nl/?p=1922",
+        "publisher": "Ferry Siemensma, Microworld: world of amoeboid organisms"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "tardigrado",
@@ -1576,8 +2134,14 @@
       "n"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Tardigrada (water bears)",
+        "url": "https://animaldiversity.org/accounts/Tardigrada/",
+        "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "granello-di-sabbia",
@@ -1676,8 +2240,14 @@
     "glyph": "🌿",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Lemna minor (common duckweed)",
+        "url": "https://gobotany.nativeplanttrust.org/species/lemna/minor/",
+        "publisher": "Go Botany, Native Plant Trust"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "seme-di-sesamo",
@@ -1696,8 +2266,19 @@
     "glyph": "🐜",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Lasius niger (trattamento tassonomico da Collingwood, 1979, The Formicidae of Fennoscandia and Denmark)",
+        "url": "https://zenodo.org/record/6283849",
+        "publisher": "C. A. Collingwood, Fauna Entomologica Scandinavica 8, via Zenodo (Biodiversity Literature Repository)"
+      },
+      {
+        "title": "Formicidae (ants)",
+        "url": "https://animaldiversity.org/accounts/Formicidae/",
+        "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "pelle-della-pianta-del-piede",
@@ -1758,8 +2339,14 @@
       "r"
     ],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "A centimeter-long bacterium with DNA contained in metabolically active, membrane-bound organelles",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35737788/",
+        "publisher": "Volland et al., Science 376, 1453-1458 (2022), PubMed"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "chicco-di-caffe",
@@ -4115,8 +4702,19 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "SI prefixes",
+        "url": "https://www.bipm.org/en/measurement-units/si-prefixes",
+        "publisher": "Bureau International des Poids et Mesures (BIPM)"
+      },
+      {
+        "title": "NIST Guide to the SI, Appendix B.9: Factors for units listed by kind of quantity or field of science",
+        "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9",
+        "publisher": "National Institute of Standards and Technology (NIST)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "betelgeuse",
@@ -4265,8 +4863,19 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "Voyager 1: What Is a Light-Day",
+        "url": "https://science.nasa.gov/mission/voyager/voyager-1/voyager-1-what-is-a-light-day/",
+        "publisher": "NASA Science"
+      },
+      {
+        "title": "CODATA Value: speed of light in vacuum",
+        "url": "https://physics.nist.gov/cgi-bin/cuu/Value?c",
+        "publisher": "National Institute of Standards and Technology (NIST), CODATA"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "eliopausa",
@@ -4388,8 +4997,19 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "SI prefixes",
+        "url": "https://www.bipm.org/en/measurement-units/si-prefixes",
+        "publisher": "Bureau International des Poids et Mesures (BIPM)"
+      },
+      {
+        "title": "NIST Guide to the SI, Appendix B.9: Factors for units listed by kind of quantity or field of science",
+        "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9",
+        "publisher": "National Institute of Standards and Technology (NIST)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "distanza-proxima-alfa-centauri-a",
@@ -4476,8 +5096,19 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "NIST Guide to the SI, Appendix B.9: Factors for units listed by kind of quantity or field of science",
+        "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9",
+        "publisher": "National Institute of Standards and Technology (NIST)"
+      },
+      {
+        "title": "CODATA Value: speed of light in vacuum",
+        "url": "https://physics.nist.gov/cgi-bin/cuu/Value?c",
+        "publisher": "National Institute of Standards and Technology (NIST), CODATA"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "nebulosa-uovo-marcio",
@@ -4541,8 +5172,24 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "NIST Guide to the SI, Appendix B.9: Factors for units listed by kind of quantity or field of science",
+        "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9",
+        "publisher": "National Institute of Standards and Technology (NIST)"
+      },
+      {
+        "title": "IAU 2015 Resolution B2 on Recommended Zero Points for the Absolute and Apparent Bolometric Magnitude Scales",
+        "url": "https://arxiv.org/abs/1510.06262",
+        "publisher": "IAU Inter-Division A-G Working Group (Mamajek et al.), arXiv"
+      },
+      {
+        "title": "Cosmic Distances",
+        "url": "https://science.nasa.gov/solar-system/cosmic-distances/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "nebulosa-testa-di-cavallo",
@@ -4701,8 +5348,19 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "SI prefixes",
+        "url": "https://www.bipm.org/en/measurement-units/si-prefixes",
+        "publisher": "Bureau International des Poids et Mesures (BIPM)"
+      },
+      {
+        "title": "NIST Guide to the SI, Appendix B.9: Factors for units listed by kind of quantity or field of science",
+        "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9",
+        "publisher": "National Institute of Standards and Technology (NIST)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "nebulosa-laguna",
@@ -4973,8 +5631,19 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "SI prefixes",
+        "url": "https://www.bipm.org/en/measurement-units/si-prefixes",
+        "publisher": "Bureau International des Poids et Mesures (BIPM)"
+      },
+      {
+        "title": "NIST Guide to the SI, Appendix B.9: Factors for units listed by kind of quantity or field of science",
+        "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9",
+        "publisher": "National Institute of Standards and Technology (NIST)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "virgo-a",
@@ -5160,8 +5829,19 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "SI prefixes",
+        "url": "https://www.bipm.org/en/measurement-units/si-prefixes",
+        "publisher": "Bureau International des Poids et Mesures (BIPM)"
+      },
+      {
+        "title": "NIST Guide to the SI, Appendix B.9: Factors for units listed by kind of quantity or field of science",
+        "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9",
+        "publisher": "National Institute of Standards and Technology (NIST)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "superammasso-della-vergine",
@@ -5294,8 +5974,19 @@
     "glyph": "",
     "flags": [],
     "image": null,
-    "sources": [],
-    "verified": null
+    "sources": [
+      {
+        "title": "NIST Guide to the SI, Appendix B.9: Factors for units listed by kind of quantity or field of science",
+        "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9",
+        "publisher": "National Institute of Standards and Technology (NIST)"
+      },
+      {
+        "title": "Metric (SI) Prefixes",
+        "url": "https://www.nist.gov/pml/owm/metric-si-prefixes",
+        "publisher": "National Institute of Standards and Technology (NIST)"
+      }
+    ],
+    "verified": "2026-11-12"
   },
   {
     "id": "arco-gigante",

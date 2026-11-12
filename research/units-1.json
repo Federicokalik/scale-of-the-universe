@@ -1,0 +1,218 @@
+[
+  {
+    "id": "lunghezza-di-planck",
+    "size": 1.616e-35,
+    "basis": "valore della lunghezza di Planck (costante CODATA)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "La lunghezza di Planck è una delle costanti fisiche fondamentali tabulate dal CODATA. Il valore raccomandato nel 2022 è 1,616255×10⁻³⁵ m, con un'incertezza relativa di circa 1,1×10⁻⁵. Il raggio di carica del protone è circa 5×10¹⁹ volte più grande.",
+    "sources": [
+      {
+        "title": "CODATA Value: Planck length",
+        "url": "https://physics.nist.gov/cgi-bin/cuu/Value?plkl",
+        "publisher": "NIST, CODATA 2022",
+        "evidence": "1.616 255 x 10-35 m"
+      },
+      {
+        "title": "CODATA Value: proton rms charge radius",
+        "url": "https://physics.nist.gov/cgi-bin/cuu/Value?rp",
+        "publisher": "NIST, CODATA 2022",
+        "evidence": "8.4075 x 10-16 m"
+      }
+    ],
+    "note": "Valore confermato: 1,616255e-35 m, arrotondato a 1,616e-35. Confronto: 8,4075e-16 / 1,616255e-35 = 5,2e19. La frase attuale \"Sotto questa scala la fisica nota non basta più\" è stata tolta perché la pagina NIST dà solo il valore e non la sostiene.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "yoctometro",
+    "size": 1e-24,
+    "basis": "lunghezza dell'unità: 1 ym = 10⁻²⁴ m (prefisso SI yocto)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Lo yoctometro vale 10⁻²⁴ m, cioè un milionesimo di miliardesimo di miliardesimo di metro. Il prefisso yocto è stato adottato dalla Conferenza generale dei pesi e delle misure nel 1991. La lunghezza di Planck corrisponde a circa 1,6×10⁻¹¹ yoctometri.",
+    "sources": [
+      {
+        "title": "SI prefixes",
+        "url": "https://www.bipm.org/en/measurement-units/si-prefixes",
+        "publisher": "BIPM",
+        "evidence": "yocto y 10–24; CGPM Resolution 4 (1991)"
+      },
+      {
+        "title": "CODATA Value: Planck length",
+        "url": "https://physics.nist.gov/cgi-bin/cuu/Value?plkl",
+        "publisher": "NIST, CODATA 2022",
+        "evidence": "1.616 255 x 10-35 m"
+      }
+    ],
+    "note": "Definizione, non misura. 10⁻²⁴ = 10⁻⁶ × 10⁻⁹ × 10⁻⁹. Confronto: 1,616255e-35 m / 1e-24 m = 1,6e-11 ym. \"Quadrilionesimo\" della descrizione attuale è corretto solo nella scala lunga e si presta a equivoci: sostituito con una forma esplicita.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "zeptometro",
+    "size": 1e-21,
+    "basis": "lunghezza dell'unità: 1 zm = 10⁻²¹ m (prefisso SI zepto)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Lo zeptometro vale 10⁻²¹ m, un millesimo di attometro. Il prefisso zepto è stato adottato dalla Conferenza generale dei pesi e delle misure nel 1991. Alla massima sensibilità gli interferometri LIGO rilevano variazioni di distanza tra gli specchi pari a un decimillesimo della larghezza di un protone, cioè nell'ordine di cento zeptometri.",
+    "sources": [
+      {
+        "title": "SI prefixes",
+        "url": "https://www.bipm.org/en/measurement-units/si-prefixes",
+        "publisher": "BIPM",
+        "evidence": "zepto z 10–21; CGPM Resolution 4 (1991)"
+      },
+      {
+        "title": "Facts",
+        "url": "https://www.ligo.caltech.edu/page/facts",
+        "publisher": "LIGO Laboratory, Caltech",
+        "evidence": "1/10,000th the width of a proton"
+      }
+    ],
+    "note": "Definizione, non misura. La pagina LIGO non dà la cifra in metri: l'ordine di grandezza è derivato dal raggio di carica del protone CODATA 2022 (8,4075e-16 m, https://physics.nist.gov/cgi-bin/cuu/Value?rp): 2 × 8,4075e-16 m / 10.000 = 1,7e-19 m = 170 zm circa. Per questo la descrizione dice solo \"nell'ordine di cento zeptometri\".",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "attometro",
+    "size": 1e-18,
+    "basis": "lunghezza dell'unità: 1 am = 10⁻¹⁸ m (prefisso SI atto)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "L'attometro vale 10⁻¹⁸ m, un millesimo di femtometro. Il prefisso atto è stato adottato dalla Conferenza generale dei pesi e delle misure nel 1964. È la scala a cui si cercano eventuali dimensioni dei quark: l'esperimento ZEUS al collisore HERA ha posto per il loro raggio effettivo un limite superiore di 0,43 attometri.",
+    "sources": [
+      {
+        "title": "SI prefixes",
+        "url": "https://www.bipm.org/en/measurement-units/si-prefixes",
+        "publisher": "BIPM",
+        "evidence": "atto a 10–18; CGPM Resolution 8 (1964)"
+      },
+      {
+        "title": "Limits on the effective quark radius from inclusive ep scattering at HERA",
+        "url": "https://arxiv.org/abs/1604.01280",
+        "publisher": "ZEUS Collaboration, arXiv",
+        "evidence": "upper limit on the effective quark radius is 0.43·10^-16 cm"
+      }
+    ],
+    "note": "Definizione, non misura. Conversione: 0,43e-16 cm = 0,43e-18 m = 0,43 am (limite al 95% di livello di confidenza). Nell'abstract su arXiv la cifra è scritta in notazione TeX.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "femtometro",
+    "size": 1e-15,
+    "basis": "lunghezza dell'unità: 1 fm = 10⁻¹⁵ m (prefisso SI femto)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il femtometro vale 10⁻¹⁵ m ed è la scala dei nuclei atomici. È chiamato anche fermi, un nome che il NIST elenca tra quelli da non usare con il SI. Il raggio di carica del protone misura circa 0,84 femtometri.",
+    "sources": [
+      {
+        "title": "NIST Guide to the SI, Chapter 5: Units Outside the SI",
+        "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-chapter-5-units-outside-si",
+        "publisher": "NIST Special Publication 811",
+        "evidence": "1 fermi = 1 fm = 10-15 m"
+      },
+      {
+        "title": "CODATA Value: proton rms charge radius",
+        "url": "https://physics.nist.gov/cgi-bin/cuu/Value?rp",
+        "publisher": "NIST, CODATA 2022",
+        "evidence": "8.4075 x 10-16 m"
+      }
+    ],
+    "note": "Definizione, non misura. 8,4075e-16 m = 0,84 fm. Il prefisso femto risulta adottato nel 1964 (BIPM, https://www.bipm.org/en/measurement-units/si-prefixes), dato non riportato nella descrizione.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "picometro",
+    "size": 1e-12,
+    "basis": "lunghezza dell'unità: 1 pm = 10⁻¹² m (prefisso SI pico)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il picometro vale 10⁻¹² m, un millesimo di nanometro. Il prefisso pico fa parte dei prefissi del SI dal 1960. È l'unità adatta alle dimensioni atomiche: il raggio di Bohr, la scala di lunghezza dell'atomo di idrogeno, vale circa 52,9 picometri.",
+    "sources": [
+      {
+        "title": "Metric (SI) Prefixes",
+        "url": "https://www.nist.gov/pml/owm/metric-si-prefixes",
+        "publisher": "NIST",
+        "evidence": "pico p 10-12 trillionth"
+      },
+      {
+        "title": "CODATA Value: Bohr radius",
+        "url": "https://physics.nist.gov/cgi-bin/cuu/Value?bohrrada0",
+        "publisher": "NIST, CODATA 2022",
+        "evidence": "5.291 772 105 44 x 10-11 m"
+      }
+    ],
+    "note": "Definizione, non misura. 5,2918e-11 m = 52,9 pm. L'anno 1960 viene dalla pagina NIST sui prefissi (\"Three for forming submultiples: micro, nano, and pico\").",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "angstrom",
+    "size": 1e-10,
+    "basis": "lunghezza dell'unità: 1 Å = 10⁻¹⁰ m = 0,1 nm (unità esterna al SI)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "L'ångström vale 10⁻¹⁰ m, cioè 0,1 nanometri, ed è un'unità esterna al Sistema Internazionale. È dell'ordine di grandezza degli atomi: il raggio di Bohr vale circa 0,529 ångström.",
+    "sources": [
+      {
+        "title": "NIST Guide to the SI, Chapter 5: Units Outside the SI",
+        "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-chapter-5-units-outside-si",
+        "publisher": "NIST Special Publication 811",
+        "evidence": "Å = 0.1 nm = 10-10 m"
+      },
+      {
+        "title": "CODATA Value: Bohr radius",
+        "url": "https://physics.nist.gov/cgi-bin/cuu/Value?bohrrada0",
+        "publisher": "NIST, CODATA 2022",
+        "evidence": "5.291 772 105 44 x 10-11 m"
+      }
+    ],
+    "note": "Definizione, non misura. 5,2918e-11 m = 0,529 Å. La frase attuale \"l'unità classica per atomi e legami chimici\" è stata sostituita da un confronto verificabile, perché le fonti aperte non la riportano in quella forma.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "nanometro",
+    "size": 1e-9,
+    "basis": "lunghezza dell'unità: 1 nm = 10⁻⁹ m (prefisso SI nano)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il nanometro vale 10⁻⁹ m, un miliardesimo di metro. Il prefisso nano fa parte dei prefissi del SI dal 1960. Nel cristallo di silicio il parametro reticolare, cioè il lato della cella elementare, misura circa 0,543 nanometri.",
+    "sources": [
+      {
+        "title": "Metric (SI) Prefixes",
+        "url": "https://www.nist.gov/pml/owm/metric-si-prefixes",
+        "publisher": "NIST",
+        "evidence": "nano n 10-9 billionth"
+      },
+      {
+        "title": "CODATA Value: lattice parameter of silicon",
+        "url": "https://physics.nist.gov/cgi-bin/cuu/Value?asil",
+        "publisher": "NIST, CODATA 2022",
+        "evidence": "5.431 020 511 x 10-10 m"
+      }
+    ],
+    "note": "Definizione, non misura. 5,431e-10 m = 0,543 nm. \"Lato della cella elementare\" è la spiegazione usuale di parametro reticolare per un cristallo cubico; la pagina NIST riporta solo il nome della grandezza e il valore.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "micrometro",
+    "size": 1e-6,
+    "basis": "lunghezza dell'unità: 1 µm = 10⁻⁶ m (prefisso SI micro)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il micrometro vale 10⁻⁶ m, un milionesimo di metro. Il vecchio nome micron è elencato dal NIST tra quelli da non usare con il SI. Un globulo rosso umano ha un diametro di circa 7,7 micrometri.",
+    "sources": [
+      {
+        "title": "NIST Guide to the SI, Chapter 5: Units Outside the SI",
+        "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-chapter-5-units-outside-si",
+        "publisher": "NIST Special Publication 811",
+        "evidence": "micron for micrometer (µm); 1 µm = 10-6 m"
+      },
+      {
+        "title": "Red blood cell diameter (BNID 108239)",
+        "url": "https://bionumbers.hms.harvard.edu/bionumber.aspx?id=108239",
+        "publisher": "BioNumbers, Harvard Medical School",
+        "evidence": "7.7 µm"
+      }
+    ],
+    "note": "Definizione, non misura. Nella tabella 11 della pagina NIST la riga del micron ha un simbolo reso male (\"1 m = 1 µm\"); il valore 10⁻⁶ m è comunque esplicito. Il diametro del globulo rosso è un valore medio (BioNumbers cita il Cell Size Database di T. R. Gregory).",
+    "verified": "2026-11-12"
+  }
+]

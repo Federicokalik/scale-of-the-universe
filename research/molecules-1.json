@@ -1,0 +1,224 @@
+[
+  {
+    "id": "risoluzione-record-di-un-microscopio-elettronico",
+    "size": 2e-11,
+    "basis": "risoluzione laterale: sfocatura strumentale residua di un'immagine ottenuta per pticografia elettronica",
+    "verdict": "confirmed",
+    "flags": ["r"],
+    "desc": "La pticografia elettronica ricostruisce l'immagine di un cristallo a partire dalle figure di diffrazione di un fascio di elettroni. In un lavoro del 2021 Zhen Chen e colleghi hanno ottenuto una sfocatura strumentale inferiore a 20 picometri, cioè 0,2 Å. A questo livello il limite non è più lo strumento ma l'agitazione termica degli atomi del reticolo.",
+    "sources": [
+      {
+        "title": "Electron ptychography achieves atomic-resolution limits set by lattice vibrations",
+        "url": "https://arxiv.org/abs/2101.00465",
+        "publisher": "Chen et al., arXiv (versione pubblicata su Science, DOI 10.1126/science.abg2533)",
+        "evidence": "an instrumental blurring of under 20 picometers"
+      }
+    ],
+    "note": "20 pm = 2e-11 m, valore attuale confermato (la fonte dice \"under 20 pm\", quindi è un limite superiore). Tolta dalla descrizione la frase \"L'originale: 0,5 Å\": riguarda la lista del 2012 e non è verificabile su una fonte esterna. Non ho controllato se dopo il 2021 siano state pubblicate risoluzioni migliori: la descrizione data il risultato e non usa la parola record.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "legame-carbonio-carbonio",
+    "size": 1.56e-10,
+    "basis": "lunghezza del legame singolo carbonio-carbonio (distanza tra i due nuclei)",
+    "verdict": "confirmed",
+    "flags": ["n"],
+    "desc": "Il legame singolo tra due atomi di carbonio è lungo circa 154 picometri: nell'etano la distanza misurata tra i due nuclei è di 1,536 Å. Catene e anelli di questi legami formano lo scheletro delle molecole organiche.",
+    "sources": [
+      {
+        "title": "Experimental data for C2H6 (Ethane)",
+        "url": "https://cccbdb.nist.gov/exp2x.asp?casno=74840",
+        "publisher": "NIST Computational Chemistry Comparison and Benchmark Database (CCCBDB)",
+        "evidence": "rCC 1.536 Å"
+      }
+    ],
+    "note": "Il valore attuale (1,56e-10 m) è l'1,6% sopra il dato NIST per l'etano (1,536e-10 m): entro il 5%, quindi confermato e lasciato invariato. Segnalo però che la descrizione dice 154 pm mentre la dimensione è 156 pm: se si vuole coerenza, 1,54e-10 sarebbe il valore più preciso. La frase sullo scheletro delle molecole organiche è una nozione generale, non tratta dalla pagina citata.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "molecola-di-co2",
+    "size": 2.32e-10,
+    "basis": "distanza tra i nuclei dei due atomi di ossigeno (molecola lineare, due legami C=O)",
+    "verdict": "confirmed",
+    "flags": ["n"],
+    "desc": "L'anidride carbonica è una molecola lineare: un atomo di carbonio tra due di ossigeno, con legami C=O di 1,162 Å. La distanza tra i due ossigeni è quindi di 2,32 Å. La sua concentrazione in atmosfera ha superato le 425 parti per milione: a settembre 2026 la media mensile misurata a Mauna Loa era di 426,07 ppm.",
+    "sources": [
+      {
+        "title": "Experimental data for CO2 (Carbon dioxide)",
+        "url": "https://cccbdb.nist.gov/exp2x.asp?casno=124389",
+        "publisher": "NIST Computational Chemistry Comparison and Benchmark Database (CCCBDB)",
+        "evidence": "rCO 1.162 Å; O2-O3 distance 2.3242 Å"
+      },
+      {
+        "title": "Trends in Atmospheric Carbon Dioxide (CO2)",
+        "url": "https://gml.noaa.gov/ccgg/trends/",
+        "publisher": "NOAA Global Monitoring Laboratory",
+        "evidence": "September 2026: 426.07 ppm"
+      }
+    ],
+    "note": "Calcolo: 2 × 1,162 Å = 2,324 Å = 2,32e-10 m, uguale al valore attuale. Il dato NOAA è una media mensile preliminare (pagina aggiornata il 9 ottobre 2026); settembre è vicino al minimo stagionale, quindi l'affermazione \"ha superato le 425 ppm\" regge.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "molecola-d-acqua",
+    "size": 2.75e-10,
+    "basis": "diametro efficace della molecola, trattata come una sfera (non la distanza tra i nuclei)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Una molecola d'acqua è fatta di un atomo di ossigeno e due di idrogeno, con legami O–H di 0,958 Å e un angolo di 104,5°. Il diametro di circa 2,75 Å usato qui è un valore efficace, quello della molecola trattata come una sfera: le fonti danno cifre tra 2,63 e 2,8 Å. I due nuclei di idrogeno distano tra loro solo 1,51 Å.",
+    "sources": [
+      {
+        "title": "Diameter of water molecule (BNID 103723)",
+        "url": "https://bionumbers.hms.harvard.edu/bionumber.aspx?id=103723",
+        "publisher": "BioNumbers, Harvard Medical School (da D'Arrigo, Am J Physiol 1978)",
+        "evidence": "2.8 Å; Other sources give value of 2.63 Å"
+      },
+      {
+        "title": "Experimental data for H2O (Water)",
+        "url": "https://cccbdb.nist.gov/exp2x.asp?casno=7732185",
+        "publisher": "NIST Computational Chemistry Comparison and Benchmark Database (CCCBDB)",
+        "evidence": "rOH 0.958 Å; aHOH 104.4776; H2-H3 1.5144 Å"
+      }
+    ],
+    "note": "Il valore attuale di 2,75 Å sta dentro l'intervallo riportato da BioNumbers (2,63-2,8 Å) e dista meno del 2% da 2,8 Å: confermato. È comunque una convenzione e la descrizione lo dice. La pagina del sito Water Structure and Science (London South Bank University), che secondo i risultati di ricerca riporta proprio 2,75 Å, non si è aperta (connessione chiusa due volte) e quindi non è citata.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "gate-di-transistor-piu-corto",
+    "size": 3.4e-10,
+    "basis": "lunghezza fisica del gate, pari allo spessore di un foglio di grafene monoatomico usato di taglio",
+    "verdict": "confirmed",
+    "flags": ["r"],
+    "desc": "È un transistor con canale di disolfuro di molibdeno in cui il gate è il bordo di un foglio di grafene, spesso un solo atomo: 0,34 nm. Lo ha presentato su Nature nel marzo 2022 un gruppo della Tsinghua University di Pechino; il primato precedente, del 2021, era di 0,65 nm. Secondo le simulazioni degli autori il canale efficace è lungo 0,34 nm a transistor acceso e 4,54 nm a transistor spento.",
+    "sources": [
+      {
+        "title": "Vertical MoS2 transistors with sub-1-nm gate lengths (Wu et al., Nature 603, 259-264, 2022), record Europe PMC",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038/s41586-021-04323-3&resultType=core&format=json",
+        "publisher": "Europe PMC (abstract dell'articolo su Nature, PMID 35264756)",
+        "evidence": "effective channel length approaches 0.34 nm in the On state"
+      },
+      {
+        "title": "These Transistor Gates Are Just One Carbon Atom Thick",
+        "url": "https://spectrum.ieee.org/smallest-transistor-one-carbon-atom",
+        "publisher": "IEEE Spectrum",
+        "evidence": "with a gate length of just 0.34 nm"
+      }
+    ],
+    "note": "0,34 nm = 3,4e-10 m, confermato. Attenzione alla sfumatura: l'abstract parla di \"physical gate length of sub-1 nm\" e attribuisce 0,34 nm alla lunghezza efficace del canale nello stato acceso (da simulazione); la cifra di 0,34 nm come lunghezza di gate è riportata da IEEE Spectrum, che cita gli autori. Il primato è datato al 2022: non ho verificato se sia stato superato in seguito, e il nome dell'oggetto (\"più corto\") resta un superlativo da tenere d'occhio. La pagina di Nature non si apre senza login, per questo cito il record Europe PMC, che ho aperto. Tolta la frase \"L'originale indicava 2 nm\": riguarda la lista del 2012 e non è verificabile su una fonte esterna.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "molecola-di-caffeina",
+    "size": 7.8e-10,
+    "basis": "estensione massima della molecola: distanza tra i due nuclei più lontani (atomi di idrogeno di due gruppi metile)",
+    "verdict": "uncertain",
+    "flags": ["n", "u"],
+    "desc": "La caffeina (C₈H₁₀N₄O₂, nome sistematico 1,3,7-trimetilpurina-2,6-dione) è una molecola quasi piatta, formata da due anelli fusi con tre gruppi metile. Nel modello tridimensionale calcolato da PubChem i due nuclei più lontani distano circa 0,76 nm, e 0,65 nm se si escludono gli idrogeni. La dimensione dipende quindi da che cosa si misura, e contando anche le nuvole elettroniche l'ingombro è maggiore.",
+    "sources": [
+      {
+        "title": "Caffeine (CID 2519), 3D conformer record",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/2519/record/JSON?record_type=3d",
+        "publisher": "PubChem, National Library of Medicine (NIH)",
+        "evidence": "atoms 17 (-2.5186, -2.7596, 0.0011) and 19 (4.1992, 0.7801, 0.0002)"
+      },
+      {
+        "title": "Caffeine (CID 2519), computed properties",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/2519/property/MolecularFormula,MolecularWeight,IUPACName,Title/JSON",
+        "publisher": "PubChem, National Library of Medicine (NIH)",
+        "evidence": "C8H10N4O2; 1,3,7-trimethylpurine-2,6-dione"
+      }
+    ],
+    "note": "Non ho trovato una fonte che dichiari direttamente una \"dimensione\" della caffeina. Valore derivato dalle coordinate del conformero 3D di PubChem (modello calcolato con campo di forze MMFF94, non una misura): distanza massima tra nuclei = radice di (6,7178² + 3,5397² + 0,0009²) = 7,593 Å tra gli idrogeni 17 e 19; distanza massima tra atomi pesanti = 6,531 Å (un ossigeno e un carbonio). Il valore attuale di 7,8e-10 m dista il 2,7% da 7,59 Å, quindi resta invariato, ma il verdetto è incerto perché la grandezza è una convenzione e la base è un modello. La frase sulle nuvole elettroniche è qualitativa: non do una cifra per l'ingombro di van der Waals perché non l'ho trovata su una fonte.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "molecola-di-glucosio",
+    "size": 9e-10,
+    "basis": "asse maggiore della molecola in forma ad anello, compresi i raggi di van der Waals",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il glucosio è uno zucchero semplice di formula C₆H₁₂O₆, che in soluzione si chiude quasi sempre ad anello. In questa forma la molecola misura circa 0,86 nm lungo l'asse maggiore e 0,84 nm lungo quello minore, raggi di van der Waals compresi.",
+    "sources": [
+      {
+        "title": "Size of glucose ring molecule (BNID 110368)",
+        "url": "https://bionumbers.hms.harvard.edu/bionumber.aspx?id=110368",
+        "publisher": "BioNumbers, Harvard Medical School (da una tesi di dottorato in ingegneria chimica, 1995)",
+        "evidence": "Long axis 8.6Å short axis 8.4Å"
+      },
+      {
+        "title": "D-Glucose (CID 5793), computed properties",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/5793/property/MolecularFormula,MolecularWeight,Title/JSON",
+        "publisher": "PubChem, National Library of Medicine (NIH)",
+        "evidence": "C6H12O6"
+      }
+    ],
+    "note": "Il valore attuale (9e-10 m) è il 4,7% sopra l'asse maggiore riportato da BioNumbers (8,6e-10 m): al limite della soglia del 5%, confermato e lasciato invariato; 8,6e-10 sarebbe più aderente alla fonte. Le dimensioni di BioNumbers sono calcolate con un programma di modellistica (HyperChem), non misurate. La voce BioNumbers 106979 (catena aperta, 1,5 nm) è comparsa solo nei risultati di ricerca e non è stata aperta, quindi non è usata. Tolta l'espressione \"il carburante delle cellule\": vera in generale, ma nessuna delle pagine aperte la sostiene. Anche \"si chiude quasi sempre ad anello\" è una nozione generale non tratta dalle fonti citate.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "fullerene-c60",
+    "size": 1.05e-9,
+    "basis": "diametro esterno della molecola (ingombro di van der Waals); la gabbia dei nuclei è più piccola",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Il fullerene C₆₀ è una gabbia chiusa di sessanta atomi di carbonio disposti come le cuciture di un pallone da calcio, con 12 pentagoni e 20 esagoni. La molecola ha un diametro di circa 1,03 nm, mentre due atomi di carbonio diametralmente opposti distano 0,71 nm. È stato scoperto nel 1985 da Harold Kroto, Richard Smalley e Robert Curl, premiati con il Nobel per la chimica nel 1996.",
+    "sources": [
+      {
+        "title": "buckminsterfulleren",
+        "url": "https://lex.dk/buckminsterfulleren",
+        "publisher": "Lex, Danmarks Nationalleksikon (Den Store Danske)",
+        "evidence": "diameter på 10,3∙10-10 m ... carbonatomer på 7,1∙10-10 m"
+      },
+      {
+        "title": "Buckminsterfullerene: Molecule of the Month",
+        "url": "https://www.bristol.ac.uk/Depts/Chemistry/MOTM/buckyball/c60a.htm",
+        "publisher": "University of Bristol, School of Chemistry (testo di W. Locke, Sussex Fullerene Group)",
+        "evidence": "spherical C60 molecules, approximately 7Å in diameter"
+      }
+    ],
+    "note": "Il valore attuale (1,05e-9 m) è l'1,9% sopra il diametro di 1,03 nm dell'enciclopedia nazionale danese: confermato. I 7 Å della pagina di Bristol sono il diametro della gabbia dei nuclei (analisi ai raggi X del 1990), coerente con 0,71 nm. Anno, autori della scoperta e Nobel 1996 sono nella pagina di Bristol; il paragone con il pallone e il numero di facce sono nella voce danese. Britannica e il sito del Nobel hanno risposto 403 e non sono citati.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "nanotubo-di-carbonio",
+    "size": 1.2e-9,
+    "basis": "diametro di un nanotubo di carbonio a parete singola",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Un nanotubo a parete singola è un foglio di atomi di carbonio spesso un solo strato, arrotolato a cilindro. I primi, ottenuti nel 1993 da un gruppo dell'IBM vaporizzando insieme carbonio e cobalto in un arco elettrico, avevano tutti un diametro di circa 1,2 nm. Il diametro varia da un nanotubo all'altro secondo il modo in cui viene prodotto.",
+    "sources": [
+      {
+        "title": "Cobalt-catalysed growth of carbon nanotubes with single-atomic-layer walls (Bethune et al., Nature 363, 605-607, 1993)",
+        "url": "https://authors.library.caltech.edu/58145/",
+        "publisher": "CaltechAUTHORS, California Institute of Technology (abstract dell'articolo su Nature)",
+        "evidence": "very small diameters (about 1.2 nm) and walls only a single atomic layer thick"
+      }
+    ],
+    "note": "1,2 nm = 1,2e-9 m, confermato sulla base del lavoro di Bethune e colleghi (IBM Almaden, 17 giugno 1993). La fonte dà il diametro di quei campioni, non un valore tipico generale: la descrizione lo presenta così. L'ultima frase (variabilità del diametro) e l'immagine del foglio arrotolato sono nozioni generali non tratte dalla pagina citata. La pagina di Nature non si apre senza login.",
+    "verified": "2026-11-12"
+  },
+  {
+    "id": "alfa-elica-di-una-proteina",
+    "size": 1.25e-9,
+    "basis": "diametro dell'elica comprese le catene laterali (valore convenzionale); lo scheletro da solo è largo circa la metà",
+    "verdict": "uncertain",
+    "flags": ["r", "u"],
+    "desc": "L'alfa elica è il più comune avvolgimento a spirale di una catena proteica: ogni giro comprende 3,6 amminoacidi e avanza di 5,4 Å. Lo scheletro, senza catene laterali, ha un diametro di circa 0,6 nm. Le catene laterali sporgono verso l'esterno, quindi la larghezza complessiva dipende dagli amminoacidi presenti e il valore di circa 1,2 nm usato qui è una stima convenzionale.",
+    "sources": [
+      {
+        "title": "Alpha helix (protein structure modelling pages)",
+        "url": "https://www.chem.uwec.edu/Modeling/GGProteinStructures/Pages/alpha_helix/helix_2.html",
+        "publisher": "University of Wisconsin-Eau Claire, Department of Chemistry",
+        "evidence": "Ignoring the side chains, this helix is approximately 6 Angstroms in diameter"
+      },
+      {
+        "title": "The alpha helix (Biomolecules tutorial, Protein Structure)",
+        "url": "https://www2.chem.wisc.edu/deptfiles/genchem/netorial/modules/biomolecules/modules/protein2/prot23.htm",
+        "publisher": "University of Wisconsin-Madison, Department of Chemistry",
+        "evidence": "Each turn rises through 5.4 Å ... all the side chains project out"
+      }
+    ],
+    "note": "Non ho trovato una fonte istituzionale apribile che dichiari 1,2 nm (12 Å) con le catene laterali: la cifra compare su Wikipedia e su siti divulgativi, non citabili, e le pagine di NCBI Bookshelf e PMC hanno risposto con un captcha. Le fonti aperte sostengono solo il diametro dello scheletro (circa 6 Å), il passo (5,4 Å, 3,6 residui per giro) e il fatto che le catene laterali sporgono. Dimensione lasciata a 1,25e-9 m con flag u; la descrizione attuale dice 1,2 nm mentre la dimensione è 1,25 nm. Se si preferisce un valore sostenuto direttamente da una fonte, l'alternativa è 6e-10 m (solo scheletro). \"Il più comune\" è una nozione generale non tratta dalle pagine citate.",
+    "verified": "2026-11-12"
+  }
+]
