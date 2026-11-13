@@ -25,20 +25,18 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci
-      - run: npm run validate
+      - run: npm run validate -- --strict
+      - run: node scripts/check-translations.mjs
       - run: npm test
       - run: npm run build
         env:
           SITE_URL: ${{ vars.SITE_URL }}
-      # Publishing waits for the repository variable PAGES_ENABLED=true, set when the site goes live.
       - uses: actions/upload-pages-artifact@v3
-        if: vars.PAGES_ENABLED == 'true'
         with:
           path: dist
 
   deploy:
     needs: build
-    if: vars.PAGES_ENABLED == 'true'
     runs-on: ubuntu-latest
     environment:
       name: github-pages

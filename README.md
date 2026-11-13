@@ -2,7 +2,7 @@
 
 An interactive zoom through 447 objects, from the Planck length (10⁻³⁵ m) to the observable universe (10²⁷ m), each drawn to scale.
 
-> **Not yet published.** Data, images and eleven languages are in place; a final polish pass is still to come.
+> **Live at <https://federicokalik.github.io/scale-of-the-universe/>.**
 >
 > Italian is the original language. English, German, Dutch (Belgium), Portuguese (Brazil), Spanish, French, Russian, Simplified Chinese, Arabic and Japanese are automatic translations, not reviewed by native speakers. `node scripts/check-translations.mjs` checks them against the Italian for missing entries, lost placeholders and lost numbers.
 
@@ -53,3 +53,9 @@ The site deploys to GitHub Pages from `main` through `.github/workflows/deploy.y
 
 1. **Source**: GitHub Actions.
 2. **Custom domain**: none. The site is served at `https://federicokalik.github.io/scale-of-the-universe/`; the folder is set as `base` in `astro.config.mjs`.
+
+## Licence
+
+- **Code**: MIT, see [`LICENSE`](LICENSE).
+- **Text, data and original illustrations** (`src/data/`, the SVG files in `public/img/`): [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+- **Photographs** (the `-256.webp` and `-800.webp` files of objects listed as photographs in [`CREDITS.md`](CREDITS.md)): each keeps its own author and licence (public domain, CC0, CC BY or CC BY-SA), listed there and on the object's card.
