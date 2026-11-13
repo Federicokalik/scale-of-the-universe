@@ -110,7 +110,23 @@
     "card.image": "图像",
     "card.illustration": "原创插图",
     "card.verified": "核实于{date}",
-    "card.newtab": "在新标签页中打开"
+    "card.newtab": "在新标签页中打开",
+    "diff.title": "与原作的差异",
+    "diff.intro": "与 Scale of the Universe 2（2012）的清单相比的变化：更正或更新了{r}个数值，新增{new}个对象，{i}个假想对象和{u}个不确定的测量已如实标注，删除了一个对象。",
+    "diff.updated.title": "更正或更新的数值",
+    "diff.updated.intro": "每个对象都链接到当前数值及其来源。“2012年清单”一栏只在本项目最初的草稿记有当年数值的地方填写：这些数字没有在原网站上重新核对。",
+    "diff.col.object": "对象",
+    "diff.col.now": "当前数值",
+    "diff.col.then": "2012年清单",
+    "diff.col.change": "变化",
+    "diff.new.title": "新增对象",
+    "diff.new.intro": "2012年清单中没有；大多是2015–2026年的发现或测量。",
+    "diff.flagged.title": "假想与不确定",
+    "diff.flagged.intro": "理论预言但从未被观测到的对象，以及有争议或误差范围很大的测量：这里对它们作了标注，而不是当作事实展示。",
+    "diff.removed.title": "删除的对象",
+    "diff.removed.body": "火柴已被删除：没有找到关于其长度的可靠来源。",
+    "diff.back": "返回尺度",
+    "diff.link": "完整的差异清单，逐个对象列出"
   },
   "objects": {
     "schiuma-quantistica": {

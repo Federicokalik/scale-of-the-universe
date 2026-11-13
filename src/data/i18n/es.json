@@ -110,7 +110,23 @@
     "card.image": "Imagen",
     "card.illustration": "Ilustración original",
     "card.verified": "Verificado el {date}",
-    "card.newtab": "se abre en una pestaña nueva"
+    "card.newtab": "se abre en una pestaña nueva",
+    "diff.title": "Diferencias con el original",
+    "diff.intro": "Qué cambia respecto a la lista de Scale of the Universe 2 (2012): {r} valores corregidos o actualizados, {new} objetos nuevos, {i} objetos hipotéticos y {u} medidas inciertas señalados como tales, un objeto eliminado.",
+    "diff.updated.title": "Valores corregidos o actualizados",
+    "diff.updated.intro": "Cada objeto lleva al valor actual y a su fuente. La columna «Lista de 2012» solo está rellena donde el borrador del que partió este proyecto anotaba el valor de entonces: esas cifras no se han vuelto a comprobar en el sitio original.",
+    "diff.col.object": "Objeto",
+    "diff.col.now": "Valor actual",
+    "diff.col.then": "Lista de 2012",
+    "diff.col.change": "Variación",
+    "diff.new.title": "Objetos nuevos",
+    "diff.new.intro": "Ausentes de la lista de 2012; en gran parte descubrimientos o mediciones de 2015–2026.",
+    "diff.flagged.title": "Hipotéticos e inciertos",
+    "diff.flagged.intro": "Objetos previstos por una teoría pero nunca observados, y medidas discutidas o con márgenes de error amplios: aquí están señalados, en lugar de mostrarse como hechos.",
+    "diff.removed.title": "Objeto eliminado",
+    "diff.removed.body": "La cerilla se ha eliminado: no se encontró una fuente fiable para su longitud.",
+    "diff.back": "Volver a la escala",
+    "diff.link": "Lista completa de las diferencias, objeto por objeto"
   },
   "objects": {
     "schiuma-quantistica": {

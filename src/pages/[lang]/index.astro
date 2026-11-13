@@ -146,6 +146,7 @@ const payload = JSON.stringify(data).replace(/</g, '\\u003c');
     <ul>
       {['values', 'new', 'flags', 'art', 'open'].map((key) => <li>{fill(ui[`dialog.diff.${key}`], totals)}</li>)}
     </ul>
+    <p><a href={`${import.meta.env.BASE_URL}${locale.code}/differences/`}>{ui['diff.link']}</a></p>
 
     <h3>{ui['dialog.sizes.title']}</h3>
     <p>{ui['dialog.sizes.body']}</p>

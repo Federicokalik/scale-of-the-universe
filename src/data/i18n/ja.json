@@ -110,7 +110,23 @@
     "card.image": "画像",
     "card.illustration": "オリジナルのイラスト",
     "card.verified": "{date}に確認",
-    "card.newtab": "新しいタブで開きます"
+    "card.newtab": "新しいタブで開きます",
+    "diff.title": "オリジナルとの違い",
+    "diff.intro": "Scale of the Universe 2(2012年)のリストと比べて変わった点:訂正または更新した値が{r}件、新しい対象が{new}件、仮説上の対象{i}件と不確かな測定{u}件はそのように明示し、対象を1つ削除しました。",
+    "diff.updated.title": "訂正または更新した値",
+    "diff.updated.intro": "各対象から、現在の値とその出典に進めます。「2012年のリスト」の列は、このプロジェクトの出発点になった下書きに当時の値が書かれていた場合だけ記入しています。これらの数字は、オリジナルのサイトで再確認していません。",
+    "diff.col.object": "対象",
+    "diff.col.now": "現在の値",
+    "diff.col.then": "2012年のリスト",
+    "diff.col.change": "変化",
+    "diff.new.title": "新しい対象",
+    "diff.new.intro": "2012年のリストにはなかったものです。多くは2015〜2026年の発見や測定です。",
+    "diff.flagged.title": "仮説上のものと不確かなもの",
+    "diff.flagged.intro": "理論で予言されていても観測されたことのない対象と、異論のある測定や誤差の大きい測定です。ここでは事実として示すのではなく、そのように明示しています。",
+    "diff.removed.title": "削除した対象",
+    "diff.removed.body": "マッチ棒は削除しました。長さについて信頼できる出典が見つからなかったためです。",
+    "diff.back": "スケールに戻る",
+    "diff.link": "違いの全リスト(対象ごと)"
   },
   "objects": {
     "schiuma-quantistica": {

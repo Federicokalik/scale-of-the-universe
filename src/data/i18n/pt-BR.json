@@ -110,7 +110,23 @@
     "card.image": "Imagem",
     "card.illustration": "Ilustração original",
     "card.verified": "Verificado em {date}",
-    "card.newtab": "abre em uma nova aba"
+    "card.newtab": "abre em uma nova aba",
+    "diff.title": "Diferenças em relação ao original",
+    "diff.intro": "O que muda em relação à lista do Scale of the Universe 2 (2012): {r} valores corrigidos ou atualizados, {new} objetos novos, {i} objetos hipotéticos e {u} medidas incertas indicados como tais, um objeto removido.",
+    "diff.updated.title": "Valores corrigidos ou atualizados",
+    "diff.updated.intro": "Cada objeto leva ao valor atual e à sua fonte. A coluna “Lista de 2012” só está preenchida onde o rascunho de que este projeto partiu anotava o valor da época: esses números não foram conferidos de novo no site original.",
+    "diff.col.object": "Objeto",
+    "diff.col.now": "Valor atual",
+    "diff.col.then": "Lista de 2012",
+    "diff.col.change": "Variação",
+    "diff.new.title": "Objetos novos",
+    "diff.new.intro": "Ausentes da lista de 2012; em grande parte descobertas ou medições de 2015–2026.",
+    "diff.flagged.title": "Hipotéticos e incertos",
+    "diff.flagged.intro": "Objetos previstos por uma teoria mas nunca observados, e medidas contestadas ou com margens de erro amplas: aqui estão indicados, em vez de mostrados como fatos.",
+    "diff.removed.title": "Objeto removido",
+    "diff.removed.body": "O fósforo foi removido: não foi encontrada uma fonte confiável para o seu comprimento.",
+    "diff.back": "Voltar à escala",
+    "diff.link": "Lista completa das diferenças, objeto por objeto"
   },
   "objects": {
     "schiuma-quantistica": {

@@ -198,3 +198,25 @@ test('the method dialog can be linked to', async ({ page }) => {
   await page.goto('/it/#about');
   await expect(page.locator('#dlg')).toBeVisible();
 });
+
+test('the differences page lists the corrected values and links back to each object', async ({ page }) => {
+  await page.goto('/it/differences/');
+  await expect(page.locator('h1')).toHaveText("Differenze dall'originale");
+  const row = page.locator('tbody tr', { hasText: 'Torre Eiffel' });
+  await expect(row).toContainText('330 m');
+  await expect(row).toContainText('320 m');
+  await row.locator('a').click();
+  await expect(page).toHaveURL(/\/it\/#torre-eiffel$/);
+  await expect(page.locator('.card h2')).toHaveText('Torre Eiffel');
+});
+
+test('the differences page exists in every language and fits a phone', async ({ browser }) => {
+  const context = await browser.newContext({ viewport: { width: 375, height: 667 } });
+  const page = await context.newPage();
+  for (const code of ['en', 'ar', 'ja', 'ru']) {
+    await page.goto(`/${code}/differences/`);
+    await expect(page.locator('tbody tr')).toHaveCount(136);
+    expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(375);
+  }
+  await context.close();
+});

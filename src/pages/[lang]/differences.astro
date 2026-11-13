@@ -1,0 +1,261 @@
+---
+import '../../styles/glass.css';
+import '../../styles/ui.css';
+import originals from '../../data/originals.json';
+import { ENABLED_LOCALES, type Locale } from '../../data/locales';
+import { FLAG_COLOUR } from '../../engine/constants';
+import Base from '../../layouts/Base.astro';
+import { loadSceneData } from '../../lib/data';
+import { fill, formatSize } from '../../lib/format';
+
+export function getStaticPaths() {
+  return ENABLED_LOCALES.map((locale) => ({ params: { lang: locale.code }, props: { locale } }));
+}
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+const { ui, objects } = await loadSceneData(locale.code);
+const base = import.meta.env.BASE_URL;
+const home = `${base}${locale.code}/`;
+const has = (flag: string) => objects.filter((o) => o.flags.some((f) => f === flag));
+const updated = has('r');
+const added = has('n');
+const hypothetical = has('i');
+const uncertain = has('u');
+const totals = { r: updated.length, new: added.length, i: hypothetical.length, u: uncertain.length };
+const then = originals as Record<string, number>;
+const size = (metres: number) => formatSize(metres, locale.code, ui);
+/** How many times larger (×) or smaller (÷) the current value is than the one recorded for 2012. */
+function change(now: number, before: number): string {
+  const ratio = now / before;
+  const factor = ratio >= 1 ? ratio : 1 / ratio;
+  if (factor < 1.005) return '=';
+  return `${ratio >= 1 ? '×' : '÷'} ${factor.toLocaleString(locale.code, { maximumFractionDigits: factor >= 100 ? 0 : factor >= 10 ? 1 : 2 })}`;
+}
+---
+
+<Base lang={locale.code} dir={locale.dir} title={`${ui['diff.title']} · ${ui['title.full']}`} description={fill(ui['diff.intro'], totals)}>
+  <Fragment slot="head">
+    {ENABLED_LOCALES.map((l) => <link rel="alternate" hreflang={l.code} href={new URL(`${base}${l.code}/differences/`, Astro.site)} />)}
+  </Fragment>
+  <main class="diff">
+    <p class="back"><a class="btn" href={home}>{ui['diff.back']}</a></p>
+    <h1>{ui['diff.title']}</h1>
+    <p class="lead">{fill(ui['diff.intro'], totals)}</p>
+
+    <section>
+      <h2><span class="dot" style={`background:${FLAG_COLOUR.r}`}></span>{ui['diff.updated.title']} · {updated.length}</h2>
+      <p>{ui['diff.updated.intro']}</p>
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">{ui['diff.col.object']}</th>
+            <th scope="col" class="num">{ui['diff.col.now']}</th>
+            <th scope="col" class="num">{ui['diff.col.then']}</th>
+            <th scope="col" class="num wide">{ui['diff.col.change']}</th>
+          </tr>
+        </thead>
+        <tbody>
+          {
+            updated.map((o) => (
+              <tr>
+                <th scope="row">
+                  <a href={`${home}#${o.id}`}>{o.name}</a>
+                </th>
+                <td class="num">{size(o.size)}</td>
+                <td class="num">{then[o.id] ? size(then[o.id]) : '–'}</td>
+                <td class="num wide">{then[o.id] ? change(o.size, then[o.id]) : ''}</td>
+              </tr>
+            ))
+          }
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2><span class="dot" style={`background:${FLAG_COLOUR.n}`}></span>{ui['diff.new.title']} · {added.length}</h2>
+      <p>{ui['diff.new.intro']}</p>
+      <ul class="names">
+        {
+          added.map((o) => (
+            <li>
+              <a href={`${home}#${o.id}`}>{o.name}</a> <span>{size(o.size)}</span>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+
+    <section>
+      <h2>{ui['diff.flagged.title']}</h2>
+      <p>{ui['diff.flagged.intro']}</p>
+      <h3><span class="dot" style={`background:${FLAG_COLOUR.i}`}></span>{ui['flag.i']} · {hypothetical.length}</h3>
+      <ul class="names">
+        {
+          hypothetical.map((o) => (
+            <li>
+              <a href={`${home}#${o.id}`}>{o.name}</a> <span>{size(o.size)}</span>
+            </li>
+          ))
+        }
+      </ul>
+      <h3><span class="dot" style={`background:${FLAG_COLOUR.u}`}></span>{ui['flag.u']} · {uncertain.length}</h3>
+      <ul class="names">
+        {
+          uncertain.map((o) => (
+            <li>
+              <a href={`${home}#${o.id}`}>{o.name}</a> <span>{size(o.size)}</span>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+
+    <section>
+      <h2>{ui['diff.removed.title']}</h2>
+      <p>{ui['diff.removed.body']}</p>
+    </section>
+
+    <p class="back"><a class="btn" href={home}>{ui['diff.back']}</a></p>
+  </main>
+</Base>
+
+<style>
+  :global(body) {
+    overflow: auto;
+    background: #07080c;
+  }
+  .diff {
+    width: min(880px, 100%);
+    margin: 0 auto;
+    padding: 24px 16px 64px;
+  }
+  .back {
+    margin: 0 0 24px;
+  }
+  .back .btn {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  h1 {
+    margin: 0 0 12px;
+    font-family: var(--display);
+    font-size: clamp(30px, 6vw, 44px);
+    font-weight: 600;
+    line-height: 1.1;
+    text-wrap: balance;
+  }
+  .lead {
+    margin: 0;
+    max-width: 68ch;
+    font-size: 18px;
+    line-height: 1.55;
+    color: var(--muted);
+  }
+  section {
+    margin-top: 48px;
+  }
+  h2 {
+    margin: 0 0 8px;
+    font-family: var(--display);
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  h3 {
+    margin: 24px 0 8px;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  section > p {
+    margin: 0 0 16px;
+    max-width: 68ch;
+    color: var(--muted);
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+  }
+  th,
+  td {
+    padding: 10px 8px;
+    text-align: start;
+    vertical-align: baseline;
+    border-bottom: 1px solid var(--line);
+  }
+  thead th {
+    position: sticky;
+    top: 0;
+    background: #07080c;
+    color: var(--accent);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  tbody th {
+    font-weight: 500;
+  }
+  .num {
+    text-align: end;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+  td.num {
+    color: var(--muted);
+  }
+  a {
+    color: var(--text);
+    text-underline-offset: 3px;
+    text-decoration-color: var(--line);
+  }
+  a:hover {
+    text-decoration-color: currentColor;
+  }
+  .names {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    columns: 2;
+    column-gap: 32px;
+  }
+  .names li {
+    break-inside: avoid;
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 8px 0;
+    border-bottom: 1px solid var(--line);
+    font-size: 15px;
+  }
+  .names span {
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+  @media (max-width: 640px) {
+    .wide {
+      display: none;
+    }
+    .num {
+      white-space: normal;
+    }
+    .names {
+      columns: 1;
+    }
+    th,
+    td {
+      padding: 10px 4px;
+    }
+  }
+</style>

@@ -110,7 +110,23 @@
     "card.image": "Immagine",
     "card.illustration": "Illustrazione originale",
     "card.verified": "Verificato il {date}",
-    "card.newtab": "si apre in una nuova scheda"
+    "card.newtab": "si apre in una nuova scheda",
+    "diff.title": "Differenze dall'originale",
+    "diff.intro": "Che cosa cambia rispetto all'elenco di Scale of the Universe 2 (2012): {r} valori corretti o aggiornati, {new} oggetti nuovi, {i} oggetti ipotetici e {u} misure incerte segnalati come tali, un oggetto tolto.",
+    "diff.updated.title": "Valori corretti o aggiornati",
+    "diff.updated.intro": "Ogni oggetto porta al valore attuale e alla sua fonte. La colonna «Elenco del 2012» è compilata solo dove la bozza da cui è partito questo progetto annotava il valore di allora: quelle cifre non sono state ricontrollate sul sito originale.",
+    "diff.col.object": "Oggetto",
+    "diff.col.now": "Valore attuale",
+    "diff.col.then": "Elenco del 2012",
+    "diff.col.change": "Variazione",
+    "diff.new.title": "Oggetti nuovi",
+    "diff.new.intro": "Assenti nell'elenco del 2012, in gran parte scoperte o misure degli anni 2015–2026.",
+    "diff.flagged.title": "Ipotetici e incerti",
+    "diff.flagged.intro": "Oggetti previsti da una teoria ma mai osservati, e misure contestate o con margini d'errore ampi: qui sono segnalati, invece di essere mostrati come fatti.",
+    "diff.removed.title": "Oggetto tolto",
+    "diff.removed.body": "Il fiammifero è stato tolto: non è stata trovata una fonte affidabile per la sua lunghezza.",
+    "diff.back": "Torna alla scala",
+    "diff.link": "Elenco completo delle differenze, oggetto per oggetto"
   },
   "objects": {
     "schiuma-quantistica": {

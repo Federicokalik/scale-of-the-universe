@@ -110,7 +110,23 @@
     "card.image": "Bild",
     "card.illustration": "Eigene Illustration",
     "card.verified": "Geprüft am {date}",
-    "card.newtab": "öffnet sich in einem neuen Tab"
+    "card.newtab": "öffnet sich in einem neuen Tab",
+    "diff.title": "Unterschiede zum Original",
+    "diff.intro": "Was sich gegenüber der Liste von Scale of the Universe 2 (2012) ändert: {r} korrigierte oder aktualisierte Werte, {new} neue Objekte, {i} hypothetische Objekte und {u} unsichere Messungen, die als solche gekennzeichnet sind, ein entferntes Objekt.",
+    "diff.updated.title": "Korrigierte oder aktualisierte Werte",
+    "diff.updated.intro": "Jedes Objekt führt zum aktuellen Wert und zu seiner Quelle. Die Spalte „Liste von 2012“ ist nur dort ausgefüllt, wo der Entwurf, von dem dieses Projekt ausging, den damaligen Wert notiert hatte: Diese Zahlen wurden nicht auf der Originalseite nachgeprüft.",
+    "diff.col.object": "Objekt",
+    "diff.col.now": "Aktueller Wert",
+    "diff.col.then": "Liste von 2012",
+    "diff.col.change": "Änderung",
+    "diff.new.title": "Neue Objekte",
+    "diff.new.intro": "Nicht in der Liste von 2012; größtenteils Entdeckungen oder Messungen der Jahre 2015–2026.",
+    "diff.flagged.title": "Hypothetisch und unsicher",
+    "diff.flagged.intro": "Objekte, die eine Theorie vorhersagt, die aber nie beobachtet wurden, sowie umstrittene Messungen oder solche mit großen Fehlergrenzen: Hier sind sie gekennzeichnet, statt als Tatsachen gezeigt zu werden.",
+    "diff.removed.title": "Entferntes Objekt",
+    "diff.removed.body": "Das Streichholz wurde entfernt: Für seine Länge fand sich keine verlässliche Quelle.",
+    "diff.back": "Zurück zur Skala",
+    "diff.link": "Vollständige Liste der Unterschiede, Objekt für Objekt"
   },
   "objects": {
     "schiuma-quantistica": {

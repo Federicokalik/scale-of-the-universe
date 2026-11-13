@@ -110,7 +110,23 @@
     "card.image": "Afbeelding",
     "card.illustration": "Originele illustratie",
     "card.verified": "Gecontroleerd op {date}",
-    "card.newtab": "opent in een nieuw tabblad"
+    "card.newtab": "opent in een nieuw tabblad",
+    "diff.title": "Verschillen met het origineel",
+    "diff.intro": "Wat er verandert tegenover de lijst van Scale of the Universe 2 (2012): {r} gecorrigeerde of bijgewerkte waarden, {new} nieuwe objecten, {i} hypothetische objecten en {u} onzekere metingen die als zodanig zijn aangeduid, één verwijderd object.",
+    "diff.updated.title": "Gecorrigeerde of bijgewerkte waarden",
+    "diff.updated.intro": "Elk object leidt naar de huidige waarde en de bron ervan. De kolom ‘Lijst van 2012’ is alleen ingevuld waar het ontwerp waarmee dit project begon de toenmalige waarde noteerde: die cijfers zijn niet opnieuw gecontroleerd op de originele site.",
+    "diff.col.object": "Object",
+    "diff.col.now": "Huidige waarde",
+    "diff.col.then": "Lijst van 2012",
+    "diff.col.change": "Verandering",
+    "diff.new.title": "Nieuwe objecten",
+    "diff.new.intro": "Niet in de lijst van 2012; grotendeels ontdekkingen of metingen uit 2015–2026.",
+    "diff.flagged.title": "Hypothetisch en onzeker",
+    "diff.flagged.intro": "Objecten die een theorie voorspelt maar die nooit zijn waargenomen, en metingen die betwist zijn of ruime foutmarges hebben: hier zijn ze aangeduid, niet als feiten getoond.",
+    "diff.removed.title": "Verwijderd object",
+    "diff.removed.body": "De lucifer is verwijderd: er werd geen betrouwbare bron voor de lengte gevonden.",
+    "diff.back": "Terug naar de schaal",
+    "diff.link": "Volledige lijst van de verschillen, object per object"
   },
   "objects": {
     "schiuma-quantistica": {

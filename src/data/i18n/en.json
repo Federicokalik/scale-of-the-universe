@@ -110,7 +110,23 @@
     "card.image": "Image",
     "card.illustration": "Original illustration",
     "card.verified": "Verified on {date}",
-    "card.newtab": "opens in a new tab"
+    "card.newtab": "opens in a new tab",
+    "diff.title": "Differences from the original",
+    "diff.intro": "What changes compared with the list in Scale of the Universe 2 (2012): {r} values corrected or updated, {new} new objects, {i} hypothetical objects and {u} uncertain measurements marked as such, one object removed.",
+    "diff.updated.title": "Corrected or updated values",
+    "diff.updated.intro": "Each object links to its current value and source. The “2012 list” column is filled in only where the draft this project started from noted the value used then: those figures were not re-checked on the original site.",
+    "diff.col.object": "Object",
+    "diff.col.now": "Current value",
+    "diff.col.then": "2012 list",
+    "diff.col.change": "Change",
+    "diff.new.title": "New objects",
+    "diff.new.intro": "Not in the 2012 list; mostly discoveries or measurements from 2015–2026.",
+    "diff.flagged.title": "Hypothetical and uncertain",
+    "diff.flagged.intro": "Objects predicted by a theory but never observed, and measurements that are disputed or have wide error bars: here they are marked, not shown as facts.",
+    "diff.removed.title": "Object removed",
+    "diff.removed.body": "The match was removed: no reliable source was found for its length.",
+    "diff.back": "Back to the scale",
+    "diff.link": "Full list of differences, object by object"
   },
   "objects": {
     "schiuma-quantistica": {
