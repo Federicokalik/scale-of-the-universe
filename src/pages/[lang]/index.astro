@@ -22,6 +22,7 @@ const { ui, objects } = data;
 
 const count = (flag: string) => objects.filter((o) => o.flags.some((f) => f === flag)).length;
 const sourceGroups = sourceIndex(objects);
+const photos = objects.filter((o) => o.image && o.imageShape !== 'art' && o.credit).sort((a, b) => a.name.localeCompare(b.name, locale.code));
 const totals = {
   n: objects.length,
   r: count('r'),
@@ -31,6 +32,8 @@ const totals = {
   verified: objects.filter((o) => o.verified).length,
   sources: countSources(sourceGroups),
   sites: sourceGroups.length,
+  photos: photos.length,
+  art: objects.filter((o) => o.imageShape === 'art').length,
 };
 const flagVar = { r: 'var(--accent)', n: 'var(--teal)', i: 'var(--violet)', u: 'var(--grey)' };
 
@@ -146,6 +149,27 @@ const payload = JSON.stringify(data).replace(/</g, '\\u003c');
         ))
       }
     </details>
+
+    <h3>{ui['dialog.images.title']}</h3>
+    <p>{fill(ui['dialog.images.intro'], totals)}</p>
+    {
+      photos.length > 0 && (
+        <details class="source-list">
+          <summary>{fill(ui['dialog.images.all'], totals)}</summary>
+          <ul>
+            {photos.map((o) => (
+              <li>
+                {o.name}:{' '}
+                <a href={o.credit!.page} rel="noopener">
+                  {o.credit!.author}
+                </a>
+                , {o.credit!.licence}
+              </li>
+            ))}
+          </ul>
+        </details>
+      )
+    }
 
     <h3>{ui['dialog.ui.title']}</h3>
     <ul>
