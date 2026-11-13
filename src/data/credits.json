@@ -1,4 +1,25 @@
 {
+  "3i-atlas": {
+    "title": "3I-ATLAS noirlab2532b",
+    "author": "International Gemini Observatory/NOIRLab/NSF/AURA/B. Bolin Image Processing: J. Miller & M",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:3I-ATLAS_noirlab2532b.jpg"
+  },
+  "abell-2029": {
+    "title": "Galaxy Cluster Relaxed Now, but was Wild in the Past (Abell 2029 composite)",
+    "author": "X-ray: NASA/CXC/CfA/C. Watson et al.; Optical: PanSTARRS; Image Processing: NASA/CXC/SAO/N",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Galaxy_Cluster_Relaxed_Now,_but_was_Wild_in_the_Past_(Abell_2029_composite).jpg"
+  },
+  "acaro-della-polvere": {
+    "title": "CSIRO ScienceImage 11085 A scanning electron micrograph of a female dust mite",
+    "author": "Matt Colloff, CSIRO",
+    "licence": "CC BY 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_11085_A_scanning_electron_micrograph_of_a_female_dust_mite.jpg"
+  },
   "afelio-della-cometa-hale-bopp": {
     "title": "Illustrazione originale",
     "author": "Federico Calicchia",
@@ -13,12 +34,26 @@
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
   },
+  "albatro-urlatore": {
+    "title": "Diomedea exulans in flight - SE Tasmania",
+    "author": "JJ Harrison",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Diomedea_exulans_in_flight_-_SE_Tasmania.jpg"
+  },
   "albireo-a": {
     "title": "Illustrazione originale",
     "author": "Federico Calicchia",
     "licence": "CC BY 4.0",
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
+  },
+  "alcioneo": {
+    "title": "Alcyoneus, a low-excitation radio galaxy",
+    "author": "Oei, Martijn S. S. L.; van Weeren, Reinout J.; Hardcastle, Martin J.; Botteon, Andrea; Shi",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Alcyoneus,_a_low-excitation_radio_galaxy.jpg"
   },
   "aldebaran": {
     "title": "Illustrazione originale",
@@ -69,12 +104,54 @@
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
   },
+  "ameba": {
+    "title": "Amoeba proteus with many pseudopodia",
+    "author": "SmallRex",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Amoeba_proteus_with_many_pseudopodia.jpg"
+  },
+  "ammasso-della-fornace": {
+    "title": "VST image of the Fornax Galaxy Cluster",
+    "author": "ESO. Acknowledgement: Aniello Grado and Luca Limatola",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:VST_image_of_the_Fornax_Galaxy_Cluster.jpg"
+  },
+  "ammasso-della-vergine": {
+    "title": "Virgo Cluster taken by Vera C. Rubin (noirlab2521a)",
+    "author": "Credit: RubinObs/NOIRLab/SLAC/NSF/DOE/AURA",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Virgo_Cluster_taken_by_Vera_C._Rubin_(noirlab2521a).jpg"
+  },
+  "anaconda-verde": {
+    "title": "Sucuri verde",
+    "author": "MKAMPIS",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sucuri_verde.jpg"
+  },
+  "andromeda": {
+    "title": "M31-Andromede-16-09-2023-Hamois",
+    "author": "Lviatour",
+    "licence": "CC BY-SA 2.5",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:M31-Andromede-16-09-2023-Hamois.jpg"
+  },
   "anelli-di-saturno": {
     "title": "Illustrazione originale",
     "author": "Federico Calicchia",
     "licence": "CC BY 4.0",
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
+  },
+  "anello-di-barnard": {
+    "title": "BarnardLoopHunterWilson",
+    "author": "Hewholooks",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:BarnardLoopHunterWilson.jpg"
   },
   "angstrom": {
     "title": "Illustrazione originale",
@@ -97,12 +174,33 @@
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
   },
+  "apophis": {
+    "title": "99942 Apophis shape",
+    "author": "Astronomical Institute of the Charles University: Josef Ďurech, Vojtěch Sidorin",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:99942_Apophis_shape.png"
+  },
   "arco-gigante": {
     "title": "Illustrazione originale",
     "author": "Federico Calicchia",
     "licence": "CC BY 4.0",
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
+  },
+  "argentinosaurus": {
+    "title": "Argentinosaurus skeleton, PLoS ONE",
+    "author": "William Irvin Sellers, Lee Margetts, Rodolfo Aníbal Coria, Phillip Lars Manning",
+    "licence": "CC BY 2.5",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Argentinosaurus_skeleton,_PLoS_ONE.png"
+  },
+  "arrokoth": {
+    "title": "UltimaThule CA06 color 20190516",
+    "author": "NASA/Johns Hopkins University Applied Physics Laboratory/Southwest Research Institute/Roma",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:UltimaThule_CA06_color_20190516.png"
   },
   "arturo": {
     "title": "Illustrazione originale",
@@ -153,6 +251,69 @@
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
   },
+  "autobus": {
+    "title": "LTZ1328-19-20241030-160332",
+    "author": "SIA321",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:LTZ1328-19-20241030-160332.jpg"
+  },
+  "automobile": {
+    "title": "Golf R mk7 side view",
+    "author": "Gogodance",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Golf_R_mk7_side_view.jpg"
+  },
+  "balenottera-azzurra": {
+    "title": "Bluewhale877",
+    "author": "NMFS Northeast Fisheries Science Center (NOAA)",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Bluewhale877.jpg"
+  },
+  "batterio-piu-grande": {
+    "title": "Morphology and ultrastructure of Ca. T. magnifica",
+    "author": "JEAN-MARIE VOLLAND",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Morphology_and_ultrastructure_of_Ca._T._magnifica.jpg"
+  },
+  "bennu": {
+    "title": "Bennu mosaic OSIRIS-REx (square)",
+    "author": "NASA/Goddard/University of Arizona",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Bennu_mosaic_OSIRIS-REx_(square).png"
+  },
+  "betelgeuse": {
+    "title": "Betelgeuse captured by ALMA",
+    "author": "ALMA (ESO/NAOJ/NRAO)/E. O’Gorman/P. Kervella",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Betelgeuse_captured_by_ALMA.jpg"
+  },
+  "bicicletta": {
+    "title": "Left side of Flying Pigeon",
+    "author": "齐健 from Peking, People's Republic of China",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Left_side_of_Flying_Pigeon.jpg"
+  },
+  "biglia": {
+    "title": "JM marbles 01",
+    "author": "Joe Mabel",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:JM_marbles_01.jpg"
+  },
+  "boeing-747-8": {
+    "title": "D-ABYT at FRA",
+    "author": "Juke Schweizer",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:D-ABYT_at_FRA.jpg"
+  },
   "bolla-locale": {
     "title": "Illustrazione originale",
     "author": "Federico Calicchia",
@@ -181,6 +342,34 @@
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
   },
+  "burj-khalifa": {
+    "title": "Burj Khalifa (16260269606)",
+    "author": "Laika ac",
+    "licence": "CC BY-SA 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Burj_Khalifa_(16260269606).jpg"
+  },
+  "california": {
+    "title": "Tule Fog California - 2005",
+    "author": "Jeff Schmaltz; NASA",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Tule_Fog_California_-_2005.jpg"
+  },
+  "callisto": {
+    "title": "Callisto VGR2 C2060635 OGB",
+    "author": "zelario12",
+    "licence": "CC BY-SA 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Callisto_VGR2_C2060635_OGB.png"
+  },
+  "campo-da-football-americano": {
+    "title": "Wayzata High School field aerial, August 2024",
+    "author": "Bspor.88",
+    "licence": "CC0",
+    "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Wayzata_High_School_field_aerial,_August_2024.jpg"
+  },
   "canes-venatici-i": {
     "title": "Illustrazione originale",
     "author": "Federico Calicchia",
@@ -195,12 +384,75 @@
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
   },
+  "caronte": {
+    "title": "Charon in True Color - High-Res",
+    "author": "NASA/Johns Hopkins University Applied Physics Laboratory/Southwest Research Institute/Alex",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Charon_in_True_Color_-_High-Res.png"
+  },
+  "casa-media-negli-usa": {
+    "title": "Big single-family home 2",
+    "author": "SanjibLemar",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Big_single-family_home_2.jpg"
+  },
+  "cascate-dell-angelo": {
+    "title": "Salto del Angel-Canaima-Venezuela03",
+    "author": "Diego Delso",
+    "licence": "CC BY 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Salto_del_Angel-Canaima-Venezuela03.JPG"
+  },
   "cellula-della-pelle": {
     "title": "Illustrazione originale",
     "author": "Federico Calicchia",
     "licence": "CC BY 4.0",
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
+  },
+  "cellula-di-lievito": {
+    "title": "Saccharomyces cerevisiae SEM",
+    "author": "Mogana Das Murtey and Patchamuthu Ramasamy",
+    "licence": "CC BY 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Saccharomyces_cerevisiae_SEM.jpg"
+  },
+  "central-park": {
+    "title": "Global Citizen Festival Central Park New York City from NYonAir (15351915006)",
+    "author": "Anthony Quintano from Hillsborough, NJ, United States",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Global_Citizen_Festival_Central_Park_New_York_City_from_NYonAir_(15351915006).jpg"
+  },
+  "cerere": {
+    "title": "Ceres - RC3 - Haulani Crater (22381131691) (cropped)",
+    "author": "Justin Cowart",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Ceres_-_RC3_-_Haulani_Crater_(22381131691)_(cropped).jpg"
+  },
+  "chicco-di-caffe": {
+    "title": "Roasted coffee beans",
+    "author": "MarkSweep",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Roasted_coffee_beans.jpg"
+  },
+  "chicco-di-grandine-piu-grande": {
+    "title": "Record hailstone Vivian, SD",
+    "author": "NWS Aberdeen, SD",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Record_hailstone_Vivian,_SD.jpg"
+  },
+  "chicco-di-riso": {
+    "title": "Grano de arroz basmati integral, 2020-06-12, DD 01-11 FS",
+    "author": "Diego Delso",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Grano_de_arroz_basmati_integral,_2020-06-12,_DD_01-11_FS.jpg"
   },
   "chilometro": {
     "title": "Illustrazione originale",
@@ -215,6 +467,41 @@
     "licence": "CC BY 4.0",
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
+  },
+  "citta-del-vaticano": {
+    "title": "Vatican City and St. Peter Square evening twilight aerial view",
+    "author": "lafiguradelpadre Congreso",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vatican_City_and_St._Peter_Square_evening_twilight_aerial_view.jpg"
+  },
+  "cloroplasto": {
+    "title": "Clorofila 3",
+    "author": "Wilfredor",
+    "licence": "CC0",
+    "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Clorofila_3.jpg"
+  },
+  "colosseo": {
+    "title": "Colosseo 2020",
+    "author": "FeaturedPics",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Colosseo_2020.jpg"
+  },
+  "cometa-67p": {
+    "title": "Comet 67P True color",
+    "author": "ESA/Rosetta/MPS for OSIRIS Team MPS/UPD/LAM/IAA/SSO/INTA/UPM/DASP/IDA",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Comet_67P_True_color.jpg"
+  },
+  "cometa-di-halley": {
+    "title": "Lspn comet halley",
+    "author": "NASA/W. Liller",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Lspn_comet_halley.jpg"
   },
   "complesso-pesci-balena": {
     "title": "Illustrazione originale",
@@ -237,12 +524,26 @@
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
   },
+  "cubo-di-rubik": {
+    "title": "Rubiks cube by keqs",
+    "author": "Lars Karlsson ( Keqs)",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Rubiks_cube_by_keqs.jpg"
+  },
   "dal-pavimento-al-soffitto": {
     "title": "Illustrazione originale",
     "author": "Federico Calicchia",
     "licence": "CC BY 4.0",
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
+  },
+  "deimos": {
+    "title": "Deimos-viking1",
+    "author": "NASA",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Deimos-viking1.jpg"
   },
   "deneb": {
     "title": "Illustrazione originale",
@@ -257,6 +558,20 @@
     "licence": "CC BY 4.0",
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
+  },
+  "diga-di-hoover": {
+    "title": "Hoover Dam and Black Canyon seen from the Mike O'Callaghan–Pat Tillman Memorial Bridge, panorama, Arizona–Nevada",
+    "author": "Christian David",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Hoover_Dam_and_Black_Canyon_seen_from_the_Mike_O%27Callaghan%E2%80%93Pat_Tillman_Memorial_Bridge,_panorama,_Arizona%E2%80%93Nevada.jpg"
+  },
+  "dimorphos": {
+    "title": "Stacked image of Dimorphos true orientation",
+    "author": "Eydeet, using DART's satellite imagery by NASA",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Stacked_image_of_Dimorphos_true_orientation.jpg"
   },
   "distanza-del-grande-attrattore": {
     "title": "Illustrazione originale",
@@ -356,6 +671,13 @@
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
   },
+  "dodo": {
+    "title": "Dronte dodo Raphus cucullatus",
+    "author": "Jebulon",
+    "licence": "CC0",
+    "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Dronte_dodo_Raphus_cucullatus.jpg"
+  },
   "doppio-strato-fosfolipidico": {
     "title": "Illustrazione originale",
     "author": "Federico Calicchia",
@@ -376,6 +698,13 @@
     "licence": "CC BY 4.0",
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
+  },
+  "elefante-africano": {
+    "title": "178 Male African bush elephant in Etosha National Park Photo by Giles Laurent",
+    "author": "Giles Laurent",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:178_Male_African_bush_elephant_in_Etosha_National_Park_Photo_by_Giles_Laurent.jpg"
   },
   "elettrone-limite-superiore": {
     "title": "Illustrazione originale",
@@ -405,6 +734,13 @@
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
   },
+  "encelado": {
+    "title": "PIA17202 - Approaching Enceladus",
+    "author": "National Aeronautics and Space Administration (NASA) / Jet Propulsion Laboratory (JPL)",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:PIA17202_-_Approaching_Enceladus.jpg"
+  },
   "enif": {
     "title": "Illustrazione originale",
     "author": "Federico Calicchia",
@@ -418,6 +754,34 @@
     "licence": "CC BY 4.0",
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
+  },
+  "escherichia-coli": {
+    "title": "E coli at 10000x, original",
+    "author": "Photo by Eric Erbe, digital colorization by Christopher Pooley, both of USDA, ARS, EMU.",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:E_coli_at_10000x,_original.jpg"
+  },
+  "essere-umano": {
+    "title": "Da Vinci Vitruve Luc Viatour",
+    "author": "Leonardo da Vinci",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Da_Vinci_Vitruve_Luc_Viatour.jpg"
+  },
+  "europa": {
+    "title": "Europa - Perijove 45 (cropped)",
+    "author": "NASA/JPL-Caltech/SwRI/MSSS/Kevin M. Gill",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Europa_-_Perijove_45_(cropped).png"
+  },
+  "fabbrica-boeing-di-everett": {
+    "title": "Boeing Everett Plant",
+    "author": "Maurice King",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Boeing_Everett_Plant.jpg"
   },
   "fascia-di-kuiper": {
     "title": "Illustrazione originale",
@@ -440,12 +804,33 @@
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
   },
+  "fiocco-di-neve": {
+    "title": "Snowflake (lumehelves)",
+    "author": "Janek Lass",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Snowflake_(lumehelves).jpg"
+  },
   "fiocco-di-neve-piu-grande": {
     "title": "Illustrazione originale",
     "author": "Federico Calicchia",
     "licence": "CC BY 4.0",
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
+  },
+  "fobos": {
+    "title": "Phobos colour 2008",
+    "author": "NASA / JPL-Caltech / University of Arizona",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Phobos_colour_2008.jpg"
+  },
+  "formica": {
+    "title": "Red Ant - March 2025",
+    "author": "Samantha Henneke from Seagrove, North Carolina, USA",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Red_Ant_-_March_2025.jpg"
   },
   "fosfolipide": {
     "title": "Illustrazione originale",
@@ -489,6 +874,62 @@
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
   },
+  "galassia-del-triangolo": {
+    "title": "VST snaps a very detailed view of the Triangulum Galaxy",
+    "author": "ESO",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:VST_snaps_a_very_detailed_view_of_the_Triangulum_Galaxy.jpg"
+  },
+  "galassia-girandola": {
+    "title": "M101 hires STScI-PRC2006-10a",
+    "author": "Credit: Image: European Space Agency & NASA Acknowledgements: Project Investigators for th",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:M101_hires_STScI-PRC2006-10a.jpg"
+  },
+  "galassia-girino": {
+    "title": "UGC 10214HST",
+    "author": "NASA, H. Ford (JHU), G. Illingworth (USCS/LO), M. Clampin (STScI), G. Hartig (STScI), the ",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:UGC_10214HST.jpg"
+  },
+  "galassia-occhio-nero": {
+    "title": "NGC 4826 - HST",
+    "author": "Judy Schmidt from USA",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:NGC_4826_-_HST.png"
+  },
+  "galassia-ruota-di-carro": {
+    "title": "Cartwheel Galaxy (NIRCam and MIRI Composite Image) (weic2211a)",
+    "author": "NASA, ESA, CSA, STScI",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Cartwheel_Galaxy_(NIRCam_and_MIRI_Composite_Image)_(weic2211a).jpeg"
+  },
+  "galassia-sombrero": {
+    "title": "M104 ngc4594 sombrero galaxy hi-res",
+    "author": "NASA/ESA and The Hubble Heritage Team (STScI/AURA)",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:M104_ngc4594_sombrero_galaxy_hi-res.jpg"
+  },
+  "galassia-vortice": {
+    "title": "Messier51 sRGB",
+    "author": "NASA and European Space Agency",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Messier51_sRGB.jpg"
+  },
+  "ganimede": {
+    "title": "Ganymede - Perijove 34 Composite",
+    "author": "NASA/JPL-Caltech/SwRI/MSSS/ Kevin M. Gill",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ganymede_-_Perijove_34_Composite.png"
+  },
   "ganymed": {
     "title": "Illustrazione originale",
     "author": "Federico Calicchia",
@@ -509,6 +950,20 @@
     "licence": "CC BY 4.0",
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
+  },
+  "gateway-arch": {
+    "title": "St Louis Gateway Arch",
+    "author": "[ B0iwehijro2i0- ] `1l]] from Davis, CA, USA",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:St_Louis_Gateway_Arch.jpg"
+  },
+  "gatto": {
+    "title": "Cat November 2010-1a",
+    "author": "Alvesgaspar",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cat_November_2010-1a.jpg"
   },
   "getto-relativistico-di-m87": {
     "title": "Illustrazione originale",
@@ -538,6 +993,27 @@
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
   },
+  "giove": {
+    "title": "Jupiter OPAL 2024",
+    "author": "NASA/STSCI (S.T.A.R.S)",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Jupiter_OPAL_2024.png"
+  },
+  "giraffa": {
+    "title": "Three giraffes 01",
+    "author": "Byrdyak",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Three_giraffes_01.jpg"
+  },
+  "girasole": {
+    "title": "Sonnenblume Helianthus 1",
+    "author": "böhringer friedrich",
+    "licence": "CC BY-SA 2.5",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Sonnenblume_Helianthus_1.JPG"
+  },
   "gliese-229-a": {
     "title": "Illustrazione originale",
     "author": "Federico Calicchia",
@@ -552,12 +1028,54 @@
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
   },
+  "globulo-bianco": {
+    "title": "Neutrophil with anthrax copy",
+    "author": "Volker Brinkmann",
+    "licence": "CC BY 2.5",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Neutrophil_with_anthrax_copy.jpg"
+  },
+  "goccia-di-pioggia": {
+    "title": "Raindrops on Leaf - Flickr - Fred Veenkamp",
+    "author": "Fred Veenkamp",
+    "licence": "CC BY-SA 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Raindrops_on_Leaf_-_Flickr_-_Fred_Veenkamp.jpg"
+  },
   "gonggong": {
     "title": "Illustrazione originale",
     "author": "Federico Calicchia",
     "licence": "CC BY 4.0",
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
+  },
+  "granchio-gigante-del-giappone": {
+    "title": "Macrocheira kaempferi",
+    "author": "Lycaon (Hans Hillewaert)",
+    "licence": "CC BY 2.5",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Macrocheira_kaempferi.jpg"
+  },
+  "grand-canyon": {
+    "title": "Grand Canyon Hopi Point with rainbow 2013",
+    "author": "Tuxyso",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Grand_Canyon_Hopi_Point_with_rainbow_2013.jpg"
+  },
+  "grande-barriera-corallina": {
+    "title": "ISS-45 StoryOfWater, Great Barrier Reef, Australia",
+    "author": "NASA/Kjell Lindgren",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:ISS-45_StoryOfWater,_Great_Barrier_Reef,_Australia.jpg"
+  },
+  "grande-muraglia-cinese": {
+    "title": "The Great Wall of China at Jinshanling-edit",
+    "author": "Severin.stalder",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Great_Wall_of_China_at_Jinshanling-edit.jpg"
   },
   "grande-muraglia-ercole-corona-boreale": {
     "title": "Illustrazione originale",
@@ -573,12 +1091,61 @@
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
   },
+  "grande-nube-di-magellano": {
+    "title": "LMC snapped by the ESO 1-metre Schmidt telescope",
+    "author": "ESO",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:LMC_snapped_by_the_ESO_1-metre_Schmidt_telescope.jpg"
+  },
+  "grande-piramide-di-giza": {
+    "title": "Great Pyramid of Giza - Pyramid of Khufu",
+    "author": "Douwe C. van der Zee",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg"
+  },
+  "granello-di-sabbia": {
+    "title": "Macrophotography of grains of sand in polarised ligth",
+    "author": "Jojowikiscience",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Macrophotography_of_grains_of_sand_in_polarised_ligth.jpg"
+  },
+  "granello-di-sale": {
+    "title": "Salt Crystals macro",
+    "author": "Prosthetic Head",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Salt_Crystals_macro.jpg"
+  },
+  "granulo-di-polline": {
+    "title": "Misc pollen",
+    "author": "Dartmouth College Electron Microscope Facility",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Misc_pollen.jpg"
+  },
   "gruppo-locale": {
     "title": "Illustrazione originale",
     "author": "Federico Calicchia",
     "licence": "CC BY 4.0",
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
+  },
+  "half-dome": {
+    "title": "Half Dome with Eastern Yosemite Valley (Zuschnitt)",
+    "author": "Thomas Wolf, www.foto-tw.de",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Half_Dome_with_Eastern_Yosemite_Valley_(Zuschnitt).jpg"
+  },
+  "hiv": {
+    "title": "HIV-budding-Color",
+    "author": "Photo Credit: C. Goldsmith Content Providers: CDC/ C. Goldsmith, P. Feorino, E. L. Palmer,",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:HIV-budding-Color.jpg"
   },
   "huge-lqg": {
     "title": "Illustrazione originale",
@@ -587,12 +1154,47 @@
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
   },
+  "ic-1101": {
+    "title": "IC 1101",
+    "author": "SDSS",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:IC_1101.jpg"
+  },
   "infrarosso-termico": {
     "title": "Illustrazione originale",
     "author": "Federico Calicchia",
     "licence": "CC BY 4.0",
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
+  },
+  "international-commerce-centre": {
+    "title": "International Commerce Centre skyscraper, in West Kowloon, Hong Kong (Ank Kumar) 09",
+    "author": "Ank Kumar",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:International_Commerce_Centre_skyscraper,_in_West_Kowloon,_Hong_Kong_(Ank_Kumar)_09.jpg"
+  },
+  "io": {
+    "title": "Io highest resolution natural color",
+    "author": "NASA",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Io_highest_resolution_natural_color.png"
+  },
+  "isetta": {
+    "title": "BMW Isetta - Flickr - mick - Lumix",
+    "author": "Mick from Northamptonshire, England",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:BMW_Isetta_-_Flickr_-_mick_-_Lumix.jpg"
+  },
+  "italia": {
+    "title": "Satellite image of Italy in March 2003",
+    "author": "Jacques Descloitres, MODIS Rapid Response Team, NASA/GSFC",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Satellite_image_of_Italy_in_March_2003.jpg"
   },
   "k2-18-b": {
     "title": "Illustrazione originale",
@@ -622,12 +1224,33 @@
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
   },
+  "large-hadron-collider": {
+    "title": "Large Hadron Collider dipole magnets IMG 0955",
+    "author": "alpinethread",
+    "licence": "CC BY-SA 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Large_Hadron_Collider_dipole_magnets_IMG_0955.jpg"
+  },
   "legame-carbonio-carbonio": {
     "title": "Illustrazione originale",
     "author": "Federico Calicchia",
     "licence": "CC BY 4.0",
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
+  },
+  "leo-ii": {
+    "title": "LG Leo II (26422781005)",
+    "author": "Giuseppe Donatiello",
+    "licence": "CC0",
+    "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:LG_Leo_II_(26422781005).jpg"
+  },
+  "lep": {
+    "title": "LEP radiofrequency cavity",
+    "author": "Geni",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:LEP_radiofrequency_cavity.JPG"
   },
   "limite-del-microscopio-ottico": {
     "title": "Illustrazione originale",
@@ -649,6 +1272,13 @@
     "licence": "CC BY 4.0",
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
+  },
+  "lombrico-comune": {
+    "title": "Lumbricus terrestris (26559560801)",
+    "author": "Donald Hobern from Copenhagen, Denmark",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lumbricus_terrestris_(26559560801).jpg"
   },
   "luce-euv-per-litografia": {
     "title": "Illustrazione originale",
@@ -678,6 +1308,13 @@
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
   },
+  "luna": {
+    "title": "FullMoon2010",
+    "author": "Gregory H. Revera",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:FullMoon2010.jpg"
+  },
   "lunghezza-d-onda-compton-dell-elettrone": {
     "title": "Illustrazione originale",
     "author": "Federico Calicchia",
@@ -699,12 +1336,33 @@
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
   },
+  "m87": {
+    "title": "Black hole - Messier 87 crop max res",
+    "author": "Event Horizon Telescope, uploader cropped and converted TIF to JPG",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Black_hole_-_Messier_87_crop_max_res.jpg"
+  },
+  "maraapunisaurus": {
+    "title": "Maraapunisaurus TD",
+    "author": "TotalDino",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Maraapunisaurus_TD.png"
+  },
   "maratona": {
     "title": "Illustrazione originale",
     "author": "Federico Calicchia",
     "licence": "CC BY 4.0",
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
+  },
+  "marte": {
+    "title": "OSIRIS Mars true color",
+    "author": "ESA & MPS for OSIRIS Team MPS/UPD/LAM/IAA/RSSD/INTA/UPM/DASP/IDA, CC BY-SA 3.0 IGO",
+    "licence": "CC BY-SA 3.0 igo",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:OSIRIS_Mars_true_color.jpg"
   },
   "megametro": {
     "title": "Illustrazione originale",
@@ -720,12 +1378,47 @@
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
   },
+  "mercurio": {
+    "title": "Mercury in true color",
+    "author": "NASA/Johns Hopkins University Applied Physics Laboratory/Arizona State University/Carnegie",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Mercury_in_true_color.jpg"
+  },
+  "merdeka-118": {
+    "title": "Merdeka Tower 20241022 - full 2 (Cropped)",
+    "author": "Ahmad Ali Karim",
+    "licence": "CC0",
+    "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Merdeka_Tower_20241022_-_full_2_(Cropped).jpg"
+  },
+  "messier-14": {
+    "title": "Messier 14",
+    "author": "NOIRLAB / NSF / AURA",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Messier_14.jpg"
+  },
+  "messier-54": {
+    "title": "Messier 54 HST",
+    "author": "ESA/Hubble & NASA",
+    "licence": "CC BY 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Messier_54_HST.jpg"
+  },
   "metro": {
     "title": "Illustrazione originale",
     "author": "Federico Calicchia",
     "licence": "CC BY 4.0",
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
+  },
+  "microchip": {
+    "title": "EPROM Microchip SuperMacro",
+    "author": "Zephyris",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:EPROM_Microchip_SuperMacro.jpg"
   },
   "micrometro": {
     "title": "Illustrazione originale",
@@ -755,12 +1448,40 @@
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
   },
+  "mimas": {
+    "title": "Mimas Cassini",
+    "author": "NASA / JPL-Caltech / Space Science Institute",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Mimas_Cassini.jpg"
+  },
+  "mimivirus": {
+    "title": "Electron microscopic image of a mimivirus - journal.ppat.1000087.g007 crop",
+    "author": "Ghigo E, Kartenbeck J, Lien P, Pelkmans L, Capo C, Mege JL, Raoult D.",
+    "licence": "CC BY 2.5",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Electron_microscopic_image_of_a_mimivirus_-_journal.ppat.1000087.g007_crop.png"
+  },
+  "miranda": {
+    "title": "Miranda mosaic in color - Voyager 2",
+    "author": "zelario12",
+    "licence": "CC BY-SA 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Miranda_mosaic_in_color_-_Voyager_2.png"
+  },
   "mitocondrio": {
     "title": "Illustrazione originale",
     "author": "Federico Calicchia",
     "licence": "CC BY 4.0",
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
+  },
+  "modulo-lunare-apollo": {
+    "title": "Apollo 14 Lunar Module (LM) on the moon",
+    "author": "NASA",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Apollo_14_Lunar_Module_(LM)_on_the_moon.jpg"
   },
   "molecola-d-acqua": {
     "title": "Illustrazione originale",
@@ -804,6 +1525,20 @@
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
   },
+  "monte-bianco": {
+    "title": "Mont Blanc Aiguille",
+    "author": "Hseugut",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mont_Blanc_Aiguille.jpg"
+  },
+  "monte-everest": {
+    "title": "Everest North Face toward Base Camp Tibet Luca Galuzzi 2006",
+    "author": "Luca Galuzzi ( Lucag)",
+    "licence": "CC BY-SA 2.5",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg"
+  },
   "mu-cephei": {
     "title": "Illustrazione originale",
     "author": "Federico Calicchia",
@@ -846,6 +1581,160 @@
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
   },
+  "nebulosa-anello": {
+    "title": "Hubble image of the Ring Nebula (Messier 57)",
+    "author": "NASA, ESA, and C. Robert O’Dell (Vanderbilt University)",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Hubble_image_of_the_Ring_Nebula_(Messier_57).jpg"
+  },
+  "nebulosa-aquila": {
+    "title": "Eagle Nebula from ESO",
+    "author": "ESO",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Eagle_Nebula_from_ESO.jpg"
+  },
+  "nebulosa-blinking": {
+    "title": "NGC 6826HSTFull",
+    "author": "Bruce Balick (University of Washington), Jason Alexander (University of Washington), Arsen",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:NGC_6826HSTFull.jpg"
+  },
+  "nebulosa-bolla": {
+    "title": "The Bubble Nebula - NGC 7635 - Heic1608a",
+    "author": "NASA, ESA, Hubble Heritage Team",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Bubble_Nebula_-_NGC_7635_-_Heic1608a.jpg"
+  },
+  "nebulosa-boomerang": {
+    "title": "Boomerang nebula",
+    "author": "ESA/NASA",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Boomerang_nebula.jpg"
+  },
+  "nebulosa-cono": {
+    "title": "Cone Nebula (NGC 2264) Star-Forming Pillar of Gas and Dust",
+    "author": "NASA, H. Ford (JHU), G. Illingworth (UCSC/LO), M.Clampin (STScI), G. Hartig (STScI), the A",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cone_Nebula_(NGC_2264)_Star-Forming_Pillar_of_Gas_and_Dust.jpg"
+  },
+  "nebulosa-della-carena": {
+    "title": "Carina Nebula",
+    "author": "ESO/T. Preibisch",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Carina_Nebula.jpg"
+  },
+  "nebulosa-di-orione": {
+    "title": "Orion Nebula - Hubble 2006 mosaic 18000",
+    "author": "NASA, ESA, M. Robberto (Space Telescope Science Institute/ESA) and the Hubble Space Telesc",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Orion_Nebula_-_Hubble_2006_mosaic_18000.jpg"
+  },
+  "nebulosa-elica": {
+    "title": "NGC7293 (2004)",
+    "author": "NASA, ESA, C.R. O'Dell (Vanderbilt University), M. Meixner and P. McCullough (STScI)",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:NGC7293_(2004).jpg"
+  },
+  "nebulosa-formica": {
+    "title": "Ant Nebula",
+    "author": "NASA, ESA & the Hubble Heritage Team (STScI/AURA). Acknowledgment: R. Sahai (Jet Propulsio",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Ant_Nebula.jpg"
+  },
+  "nebulosa-granchio": {
+    "title": "Crab Nebula",
+    "author": "NASA, ESA, J. Hester and A. Loll (Arizona State University)",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Crab_Nebula.jpg"
+  },
+  "nebulosa-grotta": {
+    "title": "Sh2-155, Cave Nebula (noao-sh2-155)",
+    "author": "T.A. Rector (University of Alaska Anchorage) and H. Schweiker (WIYN and NOIRLab/ NSF /AURA",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sh2-155,_Cave_Nebula_(noao-sh2-155).jpg"
+  },
+  "nebulosa-homunculus": {
+    "title": "EtaCarinae",
+    "author": "Nathan Smith (University of California, Berkeley), and NASA",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:EtaCarinae.jpg"
+  },
+  "nebulosa-laguna": {
+    "title": "VST images the Lagoon Nebula",
+    "author": "ESO/VPHAS+ team",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:VST_images_the_Lagoon_Nebula.jpg"
+  },
+  "nebulosa-ngc-2392": {
+    "title": "Ngc2392",
+    "author": "NASA, ESA, Andrew Fruchter (STScI), and the ERO team (STScI + ST-ECF)",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Ngc2392.jpg"
+  },
+  "nebulosa-nord-america": {
+    "title": "NGC 7000 + IC 5070",
+    "author": "gjdonatiello",
+    "licence": "CC0",
+    "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:NGC_7000_%2B_IC_5070.jpg"
+  },
+  "nebulosa-rosetta": {
+    "title": "Rosette Nebula Captured with DECam (noirlab2424a)",
+    "author": "CTIO/NOIRLab/DOE/NSF/AURA Image Processing: T.A. Rector (University of Alaska Anchorage/NS",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rosette_Nebula_Captured_with_DECam_(noirlab2424a).jpg"
+  },
+  "nebulosa-stingray": {
+    "title": "Stingraynebula",
+    "author": "Matt Bobrowsky, Orbital Sciences Corporation and NASA/ESA",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Stingraynebula.jpg"
+  },
+  "nebulosa-tarantola": {
+    "title": "Tarantula Nebula by JWST",
+    "author": "NASA, ESA, CSA, STScI, Webb ERO Production Team",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Tarantula_Nebula_by_JWST.jpg"
+  },
+  "nebulosa-testa-di-cavallo": {
+    "title": "Nebulosa testa di cavallo con SPECULOOS",
+    "author": "ESO",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nebulosa_testa_di_cavallo_con_SPECULOOS.jpg"
+  },
+  "nebulosa-uovo-marcio": {
+    "title": "The Calabash clash",
+    "author": "ESA/Hubble & NASA Acknowledgement: Judy Schmidt",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Calabash_clash.jpg"
+  },
+  "nettuno": {
+    "title": "Neptune Voyager2 color calibrated",
+    "author": "NASA / Voyager 2 / PDS / OPUS / Ardenau4",
+    "licence": "CC0",
+    "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Neptune_Voyager2_color_calibrated.png"
+  },
   "neutrino": {
     "title": "Illustrazione originale",
     "author": "Federico Calicchia",
@@ -874,6 +1763,34 @@
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
   },
+  "ngc-1232": {
+    "title": "NGC 1232",
+    "author": "ESO",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:NGC_1232.jpg"
+  },
+  "ngc-3310": {
+    "title": "NGC 3310",
+    "author": "NASA and The Hubble Heritage Team (STScI/AURA)",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:NGC_3310.jpg"
+  },
+  "ngc-4889": {
+    "title": "Caldwell 35",
+    "author": "NASA Hubble",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Caldwell_35.jpg"
+  },
+  "ngc-7714": {
+    "title": "NGC 7714",
+    "author": "NASA and ESA, A. Gal-Yam (Weizmann Institute of Science)",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:NGC_7714.jpg"
+  },
   "nube-di-oort": {
     "title": "Illustrazione originale",
     "author": "Federico Calicchia",
@@ -894,6 +1811,13 @@
     "licence": "CC BY 4.0",
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
+  },
+  "nucleo-cellulare": {
+    "title": "Multicolor fluorescence image of a living HeLa cell",
+    "author": "8x57is",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Multicolor_fluorescence_image_of_a_living_HeLa_cell.jpg"
   },
   "nucleo-di-cloro": {
     "title": "Illustrazione originale",
@@ -922,6 +1846,20 @@
     "licence": "CC BY 4.0",
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
+  },
+  "olympus-mons-altezza": {
+    "title": "Olympus Mons alt",
+    "author": "Image by NASA, modifications by Seddon",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Olympus_Mons_alt.jpg"
+  },
+  "omega-centauri": {
+    "title": "Omega Centauri by ESO",
+    "author": "ESO",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Omega_Centauri_by_ESO.jpg"
   },
   "onda-di-radcliffe": {
     "title": "Illustrazione originale",
@@ -958,6 +1896,34 @@
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
   },
+  "ovulo-umano": {
+    "title": "Oocyte with Zona pellucida (27771482282)",
+    "author": "ZEISS Microscopy from Germany",
+    "licence": "CC BY-SA 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Oocyte_with_Zona_pellucida_(27771482282).jpg"
+  },
+  "pallone-da-basket": {
+    "title": "Isolated basketball",
+    "author": "User: MrX",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Isolated_basketball.png"
+  },
+  "pallone-da-calcio": {
+    "title": "Adidas Trionda ball",
+    "author": "OhanaUnited Talk page",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Adidas_Trionda_ball.jpg"
+  },
+  "paramecio": {
+    "title": "Paramecium",
+    "author": "Barfooz at the English Wikipedia.",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Paramecium.jpg"
+  },
   "parsec": {
     "title": "Illustrazione originale",
     "author": "Federico Calicchia",
@@ -993,6 +1959,13 @@
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
   },
+  "penny-statunitense": {
+    "title": "US One Cent Obv",
+    "author": "United States Mint",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:US_One_Cent_Obv.png"
+  },
   "perielio-della-parker-solar-probe": {
     "title": "Illustrazione originale",
     "author": "Federico Calicchia",
@@ -1014,12 +1987,40 @@
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
   },
+  "piccola-nube-di-magellano": {
+    "title": "SMC - Noirlab2030b",
+    "author": "Credit: CTIO/NOIRLab/NSF/AURA/SMASH/D. Nidever (Montana State University) Acknowledgment: ",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:SMC_-_Noirlab2030b.jpg"
+  },
   "picometro": {
     "title": "Illustrazione originale",
     "author": "Federico Calicchia",
     "licence": "CC BY 4.0",
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
+  },
+  "pilastri-della-creazione": {
+    "title": "Pillars of creation 2014 HST WFC3-UVIS full-res denoised",
+    "author": "NASA, ESA, and the Hubble Heritage Team (STScI/AURA)",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Pillars_of_creation_2014_HST_WFC3-UVIS_full-res_denoised.jpg"
+  },
+  "pixel-di-un-monitor": {
+    "title": "LCD subpixels",
+    "author": "Politelyinsulting",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:LCD_subpixels.jpg"
+  },
+  "plutone": {
+    "title": "Pluto in True Color - High-Res",
+    "author": "NASA/Johns Hopkins University Applied Physics Laboratory/Southwest Research Institute/Alex",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Pluto_in_True_Color_-_High-Res.png"
   },
   "polare": {
     "title": "Illustrazione originale",
@@ -1042,6 +2043,13 @@
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
   },
+  "porphyrion": {
+    "title": "Porphyrion LOFAR HBA 6\"",
+    "author": "Martijn Oei",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Porphyrion_LOFAR_HBA_6%22.png"
+  },
   "preone": {
     "title": "Illustrazione originale",
     "author": "Federico Calicchia",
@@ -1055,6 +2063,13 @@
     "licence": "CC BY 4.0",
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
+  },
+  "protista-ciliato": {
+    "title": "Ciliate collage",
+    "author": "Respectively: Picturepest, Anatoly Mikhaltsov, Bernd Laber, Deuterostome, Flupke59",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ciliate_collage.jpg"
   },
   "protone": {
     "title": "Illustrazione originale",
@@ -1112,12 +2127,40 @@
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
   },
+  "quercia": {
+    "title": "Quercus robur",
+    "author": "Wikimedia Commons",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Quercus_robur.jpg"
+  },
   "quipu": {
     "title": "Illustrazione originale",
     "author": "Federico Calicchia",
     "licence": "CC BY 4.0",
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
+  },
+  "r-doradus": {
+    "title": "Detailed images of the surface of the star R Doradus (no annotations) (eso2412b)",
+    "author": "ALMA (ESO/NAOJ/NRAO)/W. Vlemmings et al.",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Detailed_images_of_the_surface_of_the_star_R_Doradus_(no_annotations)_(eso2412b).tiff"
+  },
+  "r136a1": {
+    "title": "Noirlab2220a Sharpest Image Ever of R136a1, Largest Known Star",
+    "author": "International Gemini Observatory/NOIRLab/NSF/AURA Acknowledgment: Image processing: T.A. R",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Noirlab2220a_Sharpest_Image_Ever_of_R136a1,_Largest_Known_Star.jpg"
+  },
+  "rafflesia": {
+    "title": "Rafflesia arnoldii, Sumatra",
+    "author": "LukeTriton",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rafflesia_arnoldii,_Sumatra.jpg"
   },
   "raggi-gamma": {
     "title": "Illustrazione originale",
@@ -1154,6 +2197,13 @@
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
   },
+  "ribosoma": {
+    "title": "Ribosome shape",
+    "author": "Vossman",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ribosome_shape.png"
+  },
   "rigel": {
     "title": "Illustrazione originale",
     "author": "Federico Calicchia",
@@ -1168,12 +2218,33 @@
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
   },
+  "ruanda": {
+    "title": "Satellite image of Rwanda in May 2002",
+    "author": "Wikimedia Commons",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Satellite_image_of_Rwanda_in_May_2002.jpg"
+  },
   "s-doradus": {
     "title": "Illustrazione originale",
     "author": "Federico Calicchia",
     "licence": "CC BY 4.0",
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
+  },
+  "sagittarius-a": {
+    "title": "EHT Sagittarius A black hole",
+    "author": "EHT Collaboration",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:EHT_Sagittarius_A_black_hole.tif"
+  },
+  "saguaro": {
+    "title": "Carnegiea gigantea in Saguaro National Park near Tucson, Arizona during November (58)",
+    "author": "WClarke",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Carnegiea_gigantea_in_Saguaro_National_Park_near_Tucson,_Arizona_during_November_(58).jpg"
   },
   "sars-cov-2": {
     "title": "Novel Coronavirus SARS-CoV-2",
@@ -1182,12 +2253,33 @@
     "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Novel_Coronavirus_SARS-CoV-2.jpg"
   },
+  "saturn-v": {
+    "title": "Apollo 11 Launch - GPN-2000-000630",
+    "author": "NASA",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Apollo_11_Launch_-_GPN-2000-000630.jpg"
+  },
+  "saturno": {
+    "title": "Saturn global view from Cassini, rings open Better Colour",
+    "author": "NASA / JPL-Caltech / SSI / color composite by Gordan Ugarkovic",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Saturn_global_view_from_Cassini,_rings_open_Better_Colour.png"
+  },
   "scala-acustica-barionica": {
     "title": "Illustrazione originale",
     "author": "Federico Calicchia",
     "licence": "CC BY 4.0",
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
+  },
+  "schermo-solare-del-telescopio-webb": {
+    "title": "James Webb Space Telescope Sunshield Test Unfolds Seamlessly (15235550340)",
+    "author": "NASA Goddard Space Flight Center from Greenbelt, MD, USA",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:James_Webb_Space_Telescope_Sunshield_Test_Unfolds_Seamlessly_(15235550340).jpg"
   },
   "schiuma-quantistica": {
     "title": "Illustrazione originale",
@@ -1203,12 +2295,26 @@
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
   },
+  "seme-di-girasole": {
+    "title": "Sunflower Seeds Kaldari",
+    "author": "Kaldari",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Sunflower_Seeds_Kaldari.jpg"
+  },
   "sensibilita-di-ligo": {
     "title": "Illustrazione originale",
     "author": "Federico Calicchia",
     "licence": "CC BY 4.0",
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
+  },
+  "sirio-a": {
+    "title": "Sirius",
+    "author": "Mellostorm",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sirius.jpg"
   },
   "sirio-b": {
     "title": "Illustrazione originale",
@@ -1224,12 +2330,40 @@
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
   },
+  "smartphone": {
+    "title": "Wikipedia homepage on a large Android phone, 2015-04-16",
+    "author": "Sage Ross",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Wikipedia_homepage_on_a_large_Android_phone,_2015-04-16.jpg"
+  },
+  "sole": {
+    "title": "The Sun in white light",
+    "author": "Matúš Motlo",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Sun_in_white_light.jpg"
+  },
   "spica": {
     "title": "Illustrazione originale",
     "author": "Federico Calicchia",
     "licence": "CC BY 4.0",
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
+  },
+  "starship": {
+    "title": "Starship full stack with Jeep",
+    "author": "Hotel Pika",
+    "licence": "CC BY-SA 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Starship_full_stack_with_Jeep.jpg"
+  },
+  "stazione-spaziale-internazionale": {
+    "title": "The station pictured from the SpaceX Crew Dragon 5",
+    "author": "NASA",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:The_station_pictured_from_the_SpaceX_Crew_Dragon_5.jpg"
   },
   "stella-di-kapteyn": {
     "title": "Illustrazione originale",
@@ -1287,6 +2421,20 @@
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
   },
+  "tardigrado": {
+    "title": "SEM image of Milnesium tardigradum in active state - journal.pone.0045682.g001-2 (white background)",
+    "author": "Schokraie E, Warnken U, Hotz-Wagenblatt A, Grohme MA, Hengherr S, et al. (2012)",
+    "licence": "CC BY 2.5",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:SEM_image_of_Milnesium_tardigradum_in_active_state_-_journal.pone.0045682.g001-2_(white_background).png"
+  },
+  "tazza": {
+    "title": "Mug of Tea",
+    "author": "Factorylad",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Mug_of_Tea.JPG"
+  },
   "teiera-di-russell": {
     "title": "Illustrazione originale",
     "author": "Federico Calicchia",
@@ -1301,6 +2449,20 @@
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
   },
+  "terra": {
+    "title": "The Earth seen from Apollo 17",
+    "author": "NASA/Apollo 17 crew; taken by either Harrison Schmitt or Ron Evans",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg"
+  },
+  "the-spire": {
+    "title": "Fairy of Eagle Nebula",
+    "author": "NASA, ESA, and The Hubble Heritage Team (STScI/AURA)",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Fairy_of_Eagle_Nebula.jpg"
+  },
   "thou": {
     "title": "Illustrazione originale",
     "author": "Federico Calicchia",
@@ -1308,12 +2470,47 @@
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
   },
+  "titania": {
+    "title": "Titania (moon) color",
+    "author": "NASA/JPL",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Titania_(moon)_color.jpg"
+  },
+  "titanic": {
+    "title": "RMS Titanic 3 (cropped to ship)",
+    "author": "Francis Godolphin Osbourne Stuart",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:RMS_Titanic_3_(cropped_to_ship).jpg"
+  },
+  "titano": {
+    "title": "Titan in true color by Kevin M. Gill",
+    "author": "NASA/JPL-Caltech/SSI/Kevin M. Gill",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Titan_in_true_color_by_Kevin_M._Gill.jpg"
+  },
   "ton-618": {
     "title": "Illustrazione originale",
     "author": "Federico Calicchia",
     "licence": "CC BY 4.0",
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
+  },
+  "torre-di-pisa": {
+    "title": "The Leaning Tower of Pisa SB",
+    "author": "Saffron Blaze",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Leaning_Tower_of_Pisa_SB.jpeg"
+  },
+  "torre-eiffel": {
+    "title": "Tour Eiffel Wikimedia Commons (cropped)",
+    "author": "Benh LIEU SONG",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Tour_Eiffel_Wikimedia_Commons_(cropped).jpg"
   },
   "trappist-1": {
     "title": "Illustrazione originale",
@@ -1343,12 +2540,26 @@
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
   },
+  "tyrannosaurus-rex": {
+    "title": "Tyrannosaurus Rex Holotype",
+    "author": "ScottRobertAnselmo",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tyrannosaurus_Rex_Holotype.jpg"
+  },
   "ultravioletto": {
     "title": "Illustrazione originale",
     "author": "Federico Calicchia",
     "licence": "CC BY 4.0",
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
+  },
+  "uluru": {
+    "title": "ULURU",
+    "author": "Ek2030372672",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:ULURU.jpg"
   },
   "universo-intero": {
     "title": "Illustrazione originale",
@@ -1363,6 +2574,41 @@
     "licence": "CC BY 4.0",
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
+  },
+  "uno-schermo": {
+    "title": "EIZO Foris FG2421 VGA computer monitor displaying test pattern",
+    "author": "Lucasbosch",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:EIZO_Foris_FG2421_VGA_computer_monitor_displaying_test_pattern.png"
+  },
+  "uovo-di-gallina": {
+    "title": "A brown chicken egg on white background",
+    "author": "Leo219",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:A_brown_chicken_egg_on_white_background.png"
+  },
+  "uovo-di-quaglia": {
+    "title": "Quail eggs (Перепелиные яйца)",
+    "author": "Alon-De-Lon",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Quail_eggs_(%D0%9F%D0%B5%D1%80%D0%B5%D0%BF%D0%B5%D0%BB%D0%B8%D0%BD%D1%8B%D0%B5_%D1%8F%D0%B9%D1%86%D0%B0).jpg"
+  },
+  "uovo-di-struzzo": {
+    "title": "Struthio camelus MHNT.ZOO.2010.11.1.1",
+    "author": "Roger Culos",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Struthio_camelus_MHNT.ZOO.2010.11.1.1.jpg"
+  },
+  "urano": {
+    "title": "Uranus Voyager2 color calibrated",
+    "author": "Ardenau4",
+    "licence": "CC0",
+    "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Uranus_Voyager2_color_calibrated.png"
   },
   "uy-scuti": {
     "title": "Illustrazione originale",
@@ -1385,12 +2631,68 @@
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
   },
+  "v838-monocerotis": {
+    "title": "V838 Mon HST",
+    "author": "NASA, ESA and H.E. Bond (STScI)",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:V838_Mon_HST.jpg"
+  },
   "vega": {
     "title": "Illustrazione originale",
     "author": "Federico Calicchia",
     "licence": "CC BY 4.0",
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
+  },
+  "venere": {
+    "title": "Venus from Mariner 10",
+    "author": "NASA/JPL-Caltech",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Venus_from_Mariner_10.jpg"
+  },
+  "verme-gigante-del-gippsland": {
+    "title": "Megascolides australis by Bartholomew",
+    "author": "Arthur Bartholomew (1833—1903)",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Megascolides_australis_by_Bartholomew.png"
+  },
+  "vesta": {
+    "title": "Vesta in natural color",
+    "author": "NASA / JPL / MPS / DLR / IDA / Björn Jónsson",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Vesta_in_natural_color.jpg"
+  },
+  "via-lattea": {
+    "title": "ESO-VLT-Laser-phot-33a-07",
+    "author": "ESO/ Y. Beletsky",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:ESO-VLT-Laser-phot-33a-07.jpg"
+  },
+  "virgo-a": {
+    "title": "Messier 87 Hubble WikiSky",
+    "author": "en:NASA, en:STScI, en:WikiSky",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Messier_87_Hubble_WikiSky.jpg"
+  },
+  "virus-dell-epatite-b": {
+    "title": "Hepatitis-B virions",
+    "author": "CDC",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Hepatitis-B_virions.jpg"
+  },
+  "virus-piu-grande": {
+    "title": "Viruses-09-00046-g002a Pithovirus",
+    "author": "Provided by Steven W. Wilhelm, Jordan T. Bird, Kyle S. Bonifer, Benjamin C. Calfee, Tian C",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Viruses-09-00046-g002a_Pithovirus.jpg"
   },
   "voyager-1": {
     "title": "Illustrazione originale",
@@ -1426,6 +2728,27 @@
     "licence": "CC BY 4.0",
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
+  },
+  "vy-canis-majoris": {
+    "title": "VLT image of the surroundings of VY Canis Majoris seen with SPHERE",
+    "author": "ESO",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:VLT_image_of_the_surroundings_of_VY_Canis_Majoris_seen_with_SPHERE.jpg"
+  },
+  "willis-tower": {
+    "title": "Sears Tower, Wacker Drive and Jackson Boulevard, Chicago, IL - 54189600901",
+    "author": "w_lemay",
+    "licence": "CC BY-SA 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sears_Tower,_Wacker_Drive_and_Jackson_Boulevard,_Chicago,_IL_-_54189600901.jpg"
+  },
+  "woh-g64": {
+    "title": "WOH G64 VLTI",
+    "author": "ESO/K. Ohnaka et al.",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:WOH_G64_VLTI.jpg"
   },
   "wolf-359": {
     "title": "Illustrazione originale",

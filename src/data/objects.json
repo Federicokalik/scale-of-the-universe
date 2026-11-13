@@ -1378,7 +1378,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "ribosoma",
     "sources": [
       {
         "title": "Size of 70s (intact) of ribosome (BNID 102320)",
@@ -1391,7 +1391,8 @@
         "publisher": "BioNumbers, Harvard Medical School"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "virus-dell-epatite-b",
@@ -1399,7 +1400,7 @@
     "kind": "b",
     "glyph": "🦠",
     "flags": [],
-    "image": null,
+    "image": "virus-dell-epatite-b",
     "sources": [
       {
         "title": "Hepatitis B: The Virus and Disease",
@@ -1407,7 +1408,8 @@
         "publisher": "T. J. Liang, Hepatology 2009 (PubMed Central)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "nanoparticella-lipidica",
@@ -1475,7 +1477,7 @@
       "r",
       "u"
     ],
-    "image": null,
+    "image": "hiv",
     "sources": [
       {
         "title": "Structural organization of authentic, mature HIV-1 virions and cores",
@@ -1488,7 +1490,8 @@
         "publisher": "ViralZone, SIB Swiss Institute of Bioinformatics"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "fossetta-di-un-cd-profondita",
@@ -1671,7 +1674,7 @@
     "kind": "b",
     "glyph": "🦠",
     "flags": [],
-    "image": null,
+    "image": "mimivirus",
     "sources": [
       {
         "title": "Structural Studies of the Giant Mimivirus",
@@ -1679,7 +1682,8 @@
         "publisher": "Xiao et al., PLoS Biology 2009 (PubMed Central)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "micrometro",
@@ -1711,7 +1715,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "virus-piu-grande",
     "sources": [
       {
         "title": "Thirty-thousand-year-old distant relative of giant icosahedral DNA viruses with a pandoravirus morphology",
@@ -1719,7 +1723,8 @@
         "publisher": "Legendre et al., PNAS 2014 (record PubMed, PMID 24591590)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "cromosoma-y",
@@ -1779,7 +1784,7 @@
     "kind": "b",
     "glyph": "🧫",
     "flags": [],
-    "image": null,
+    "image": "escherichia-coli",
     "sources": [
       {
         "title": "How big is an E. coli cell and what is its mass? (Cell Biology by the Numbers)",
@@ -1787,7 +1792,8 @@
         "publisher": "R. Milo e R. Phillips, Cell Biology by the Numbers (BioNumbers)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "mitocondrio",
@@ -1814,7 +1820,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "cellula-di-lievito",
     "sources": [
       {
         "title": "How big is a budding yeast cell? (Cell Biology by the Numbers)",
@@ -1822,7 +1828,8 @@
         "publisher": "R. Milo e R. Phillips, Cell Biology by the Numbers (BioNumbers)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "nucleo-cellulare",
@@ -1830,7 +1837,7 @@
     "kind": "b",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "nucleo-cellulare",
     "sources": [
       {
         "title": "How big are nuclei? (Cell Biology by the Numbers)",
@@ -1843,7 +1850,8 @@
         "publisher": "R. Milo e R. Phillips, Cell Biology by the Numbers (BioNumbers)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "cloroplasto",
@@ -1851,7 +1859,7 @@
     "kind": "b",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "cloroplasto",
     "sources": [
       {
         "title": "7.4B: Chloroplasts (Microbiology, G. Kaiser)",
@@ -1864,7 +1872,8 @@
         "publisher": "OpenStax, Rice University"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "cromosoma-x",
@@ -1939,7 +1948,7 @@
     "kind": "b",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "globulo-bianco",
     "sources": [
       {
         "title": "18.4 Leukocytes and Platelets (Anatomy and Physiology 2e)",
@@ -1947,7 +1956,8 @@
         "publisher": "OpenStax, Rice University"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "fibra-di-seta",
@@ -2100,7 +2110,7 @@
     "kind": "b",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "granulo-di-polline",
     "sources": [
       {
         "title": "Pollen and spores: size, production (Palaeoecology)",
@@ -2113,7 +2123,8 @@
         "publisher": "Hooper Virtual Natural History Museum, Carleton University"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "pixel-di-uno-smartphone",
@@ -2213,7 +2224,7 @@
     "kind": "b",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "ovulo-umano",
     "sources": [
       {
         "title": "Oocyte diameter predicts the maturation rate of human immature oocytes collected ex vivo",
@@ -2226,7 +2237,8 @@
         "publisher": "Treccani, Enciclopedia on line"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "protista-ciliato",
@@ -2236,7 +2248,7 @@
     "flags": [
       "u"
     ],
-    "image": null,
+    "image": "protista-ciliato",
     "sources": [
       {
         "title": "Introduction to the Ciliata",
@@ -2249,7 +2261,8 @@
         "publisher": "Annual Review of Genetics, via PubMed Central"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "paramecio",
@@ -2257,7 +2270,7 @@
     "kind": "b",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "paramecio",
     "sources": [
       {
         "title": "Paramecium Genetics, Genomics, and Evolution",
@@ -2265,7 +2278,8 @@
         "publisher": "Annual Review of Genetics, via PubMed Central"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "pixel-di-un-monitor",
@@ -2275,7 +2289,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "pixel-di-un-monitor",
     "sources": [
       {
         "title": "CSS Values and Units Module Level 3",
@@ -2288,7 +2302,8 @@
         "publisher": "Apple"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "acaro-della-polvere",
@@ -2298,7 +2313,7 @@
     "flags": [
       "u"
     ],
-    "image": null,
+    "image": "acaro-della-polvere",
     "sources": [
       {
         "title": "House Dust Mites (ENTFACT-646)",
@@ -2311,7 +2326,8 @@
         "publisher": "Science Focus, Hong Kong University of Science and Technology"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "granello-di-sale",
@@ -2319,7 +2335,7 @@
     "kind": "o",
     "glyph": "🧂",
     "flags": [],
-    "image": null,
+    "image": "granello-di-sale",
     "sources": [
       {
         "title": "Salt: The Only Rock We Eat (May 2025)",
@@ -2327,7 +2343,8 @@
         "publisher": "University of California Agriculture and Natural Resources, UC Master Food Preserver Program"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "ameba",
@@ -2335,7 +2352,7 @@
     "kind": "b",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "ameba",
     "sources": [
       {
         "title": "Amoeba proteus",
@@ -2343,7 +2360,8 @@
         "publisher": "Ferry Siemensma, Microworld: world of amoeboid organisms"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "tardigrado",
@@ -2353,7 +2371,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "tardigrado",
     "sources": [
       {
         "title": "Tardigrada (water bears)",
@@ -2361,7 +2379,8 @@
         "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "granello-di-sabbia",
@@ -2369,7 +2388,7 @@
     "kind": "o",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "granello-di-sabbia",
     "sources": [
       {
         "title": "Sabbia (Enciclopedia on line)",
@@ -2377,7 +2396,8 @@
         "publisher": "Istituto della Enciclopedia Italiana Treccani"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "pelle-delle-palpebre",
@@ -2521,7 +2541,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "goccia-di-pioggia",
     "sources": [
       {
         "title": "Raindrops are Different Shapes (Water Science School)",
@@ -2534,7 +2554,8 @@
         "publisher": "NASA Global Precipitation Measurement (GPM)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "lenticchia-d-acqua",
@@ -2579,7 +2600,7 @@
     "kind": "b",
     "glyph": "🐜",
     "flags": [],
-    "image": null,
+    "image": "formica",
     "sources": [
       {
         "title": "Lasius niger (trattamento tassonomico da Collingwood, 1979, The Formicidae of Fennoscandia and Denmark)",
@@ -2592,7 +2613,8 @@
         "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "pelle-della-pianta-del-piede",
@@ -2619,7 +2641,7 @@
     "flags": [
       "u"
     ],
-    "image": null,
+    "image": "microchip",
     "sources": [
       {
         "title": "NE555 Single Precision Timer (scheda prodotto, tabella dei contenitori)",
@@ -2632,7 +2654,8 @@
         "publisher": "Istituto della Enciclopedia Italiana Treccani"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "chicco-di-riso",
@@ -2640,7 +2663,7 @@
     "kind": "o",
     "glyph": "🍚",
     "flags": [],
-    "image": null,
+    "image": "chicco-di-riso",
     "sources": [
       {
         "title": "Rice in human nutrition: Grain structure, composition and consumers' criteria for quality",
@@ -2648,7 +2671,8 @@
         "publisher": "FAO (Organizzazione delle Nazioni Unite per l'alimentazione e l'agricoltura), con IRRI"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "seme-di-girasole",
@@ -2659,7 +2683,7 @@
       "u",
       "r"
     ],
-    "image": null,
+    "image": "seme-di-girasole",
     "sources": [
       {
         "title": "Physical properties of sunflower seeds (Helianthus annuus L.)",
@@ -2667,7 +2691,8 @@
         "publisher": "Işık e İzli, International Journal of Agricultural Research (2007), archivio dell'Università di Uludağ"
       }
     ],
-    "verified": "2026-11-13"
+    "verified": "2026-11-13",
+    "imageShape": "frame"
   },
   {
     "id": "fiocco-di-neve",
@@ -2677,7 +2702,7 @@
     "flags": [
       "u"
     ],
-    "image": null,
+    "image": "fiocco-di-neve",
     "sources": [
       {
         "title": "Just how big can a snowflake get? It depends on what you mean by 'snowflake'",
@@ -2685,7 +2710,8 @@
         "publisher": "NPR (ripubblicato da GBH News)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "batterio-piu-grande",
@@ -2695,7 +2721,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "batterio-piu-grande",
     "sources": [
       {
         "title": "A centimeter-long bacterium with DNA contained in metabolically active, membrane-bound organelles",
@@ -2703,7 +2729,8 @@
         "publisher": "Volland et al., Science 376, 1453-1458 (2022), PubMed"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "uovo-di-colibri",
@@ -2729,7 +2756,7 @@
     "kind": "o",
     "glyph": "🫘",
     "flags": [],
-    "image": null,
+    "image": "chicco-di-caffe",
     "sources": [
       {
         "title": "The use of multispectral imaging for the discrimination of Arabica and Robusta coffee beans",
@@ -2737,7 +2764,8 @@
         "publisher": "Mihailova et al., Food Chemistry: X 14 (2022), su PubMed Central"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "biglia",
@@ -2745,7 +2773,7 @@
     "kind": "o",
     "glyph": "🔮",
     "flags": [],
-    "image": null,
+    "image": "biglia",
     "sources": [
       {
         "title": "How To Size a Marble",
@@ -2758,7 +2786,8 @@
         "publisher": "The Strong National Museum of Play"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "penny-statunitense",
@@ -2766,7 +2795,7 @@
     "kind": "o",
     "glyph": "🪙",
     "flags": [],
-    "image": null,
+    "image": "penny-statunitense",
     "sources": [
       {
         "title": "31 U.S. Code § 5112 - Denominations, specifications, and design of coins",
@@ -2779,7 +2808,8 @@
         "publisher": "Associated Press (su Anchorage Daily News)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "moneta-da-1-euro",
@@ -2826,7 +2856,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "uovo-di-quaglia",
     "sources": [
       {
         "title": "Aspects regarding some morphological values of the domestic quail eggs (Coturnix coturnix japonica)",
@@ -2834,7 +2864,8 @@
         "publisher": "Teușan, Vacaru-Opriș e Teușan, Scientific Papers: Animal Science and Biotechnologies 41(2), 2008"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "uovo-di-gallina",
@@ -2842,7 +2873,7 @@
     "kind": "o",
     "glyph": "🥚",
     "flags": [],
-    "image": null,
+    "image": "uovo-di-gallina",
     "sources": [
       {
         "title": "The Comparison of Weight and Shape-related Traits in Eggs from Different Chicken Genotypes",
@@ -2850,7 +2881,8 @@
         "publisher": "Uçar e Kahya, Turkish Journal of Agriculture: Food Science and Technology 12(12), 2024 (scheda FAO AGRIS)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "cubo-di-rubik",
@@ -2858,7 +2890,7 @@
     "kind": "o",
     "glyph": "🟧",
     "flags": [],
-    "image": null,
+    "image": "cubo-di-rubik",
     "sources": [
       {
         "title": "Rubik's Cube (puzzle), MISC.524-1988",
@@ -2871,7 +2903,8 @@
         "publisher": "The Strong National Museum of Play"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "colibri",
@@ -2918,7 +2951,7 @@
     "flags": [
       "u"
     ],
-    "image": null,
+    "image": "tazza",
     "sources": [
       {
         "title": "FÄRGRIK Mug, stoneware white, 25 cl",
@@ -2926,7 +2959,8 @@
         "publisher": "IKEA (scheda prodotto del produttore)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "microonde-del-forno",
@@ -2965,7 +2999,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "smartphone",
     "sources": [
       {
         "title": "iPhone 16 - Technical Specifications",
@@ -2973,7 +3007,8 @@
         "publisher": "Apple"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "uovo-di-struzzo",
@@ -2981,7 +3016,7 @@
     "kind": "o",
     "glyph": "🥚",
     "flags": [],
-    "image": null,
+    "image": "uovo-di-struzzo",
     "sources": [
       {
         "title": "Ostrich",
@@ -2989,7 +3024,8 @@
         "publisher": "San Diego Zoo Wildlife Alliance"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "lombrico-comune",
@@ -2999,7 +3035,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "lombrico-comune",
     "sources": [
       {
         "title": "Lumbricus terrestris",
@@ -3007,7 +3043,8 @@
         "publisher": "Global Invasive Species Database, IUCN Invasive Species Specialist Group"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "chicco-di-grandine-piu-grande",
@@ -3015,7 +3052,7 @@
     "kind": "o",
     "glyph": "🧊",
     "flags": [],
-    "image": null,
+    "image": "chicco-di-grandine-piu-grande",
     "sources": [
       {
         "title": "Record Setting Hail Event in Vivian, South Dakota on July 23, 2010",
@@ -3023,7 +3060,8 @@
         "publisher": "NOAA National Weather Service, Aberdeen SD"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "pallone-da-calcio",
@@ -3033,7 +3071,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "pallone-da-calcio",
     "sources": [
       {
         "title": "Laws of the Game - Law 2: The Ball",
@@ -3041,7 +3079,8 @@
         "publisher": "The International Football Association Board (IFAB)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "pallone-da-basket",
@@ -3049,7 +3088,7 @@
     "kind": "o",
     "glyph": "🏀",
     "flags": [],
-    "image": null,
+    "image": "pallone-da-basket",
     "sources": [
       {
         "title": "Official Basketball Rules 2026 - Basketball Equipment",
@@ -3057,7 +3096,8 @@
         "publisher": "FIBA (International Basketball Federation)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "teiera-di-russell",
@@ -3101,7 +3141,7 @@
     "kind": "o",
     "glyph": "💻",
     "flags": [],
-    "image": null,
+    "image": "uno-schermo",
     "sources": [
       {
         "title": "MacBook Air - Technical Specifications",
@@ -3109,7 +3149,8 @@
         "publisher": "Apple"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "fiocco-di-neve-piu-grande",
@@ -3138,7 +3179,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "gatto",
     "sources": [
       {
         "title": "Body Size and Bite Force of Stray and Feral Cats: Are Bigger or Older Cats Taking the Largest or More Difficult-to-Handle Prey?",
@@ -3151,7 +3192,8 @@
         "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "pallone-da-spiaggia",
@@ -3197,7 +3239,7 @@
     "kind": "b",
     "glyph": "🦤",
     "flags": [],
-    "image": null,
+    "image": "dodo",
     "sources": [
       {
         "title": "The Oxford Dodo",
@@ -3205,7 +3247,8 @@
         "publisher": "Oxford University Museum of Natural History"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "rafflesia",
@@ -3213,7 +3256,7 @@
     "kind": "b",
     "glyph": "🌺",
     "flags": [],
-    "image": null,
+    "image": "rafflesia",
     "sources": [
       {
         "title": "Largest single flower",
@@ -3221,7 +3264,8 @@
         "publisher": "Guinness World Records"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "essere-umano",
@@ -3229,7 +3273,7 @@
     "kind": "b",
     "glyph": "🧍",
     "flags": [],
-    "image": null,
+    "image": "essere-umano",
     "sources": [
       {
         "title": "Human Height",
@@ -3237,7 +3281,8 @@
         "publisher": "Our World in Data (dati NCD Risk Factor Collaboration)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "bicicletta",
@@ -3247,7 +3292,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "bicicletta",
     "sources": [
       {
         "title": "Traffic-free routes and greenways design guide - 6. Space requirements",
@@ -3255,7 +3300,8 @@
         "publisher": "Walk Wheel Cycle Trust (già Sustrans)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "verme-gigante-del-gippsland",
@@ -3265,7 +3311,7 @@
     "flags": [
       "u"
     ],
-    "image": null,
+    "image": "verme-gigante-del-gippsland",
     "sources": [
       {
         "title": "Giant Gippsland earthworm",
@@ -3278,7 +3324,8 @@
         "publisher": "Earthworm Society of Britain"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "isetta",
@@ -3288,7 +3335,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "isetta",
     "sources": [
       {
         "title": "Allgemeine Daten zum BMW Isetta 250 Standard (03/55 - 01/57)",
@@ -3301,7 +3348,8 @@
         "publisher": "BMW Group Classic"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "girasole",
@@ -3309,7 +3357,7 @@
     "kind": "b",
     "glyph": "🌻",
     "flags": [],
-    "image": null,
+    "image": "girasole",
     "sources": [
       {
         "title": "Helianthus annuus",
@@ -3317,7 +3365,8 @@
         "publisher": "North Carolina State University Extension, Gardener Plant Toolbox"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "dal-pavimento-al-soffitto",
@@ -3363,7 +3412,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "albatro-urlatore",
     "sources": [
       {
         "title": "Diomedea exulans (wandering albatross)",
@@ -3371,7 +3420,8 @@
         "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "granchio-gigante-del-giappone",
@@ -3381,7 +3431,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "granchio-gigante-del-giappone",
     "sources": [
       {
         "title": "Macrocheira kaempferi (Japanese spider crab)",
@@ -3389,7 +3439,8 @@
         "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "automobile",
@@ -3399,7 +3450,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "automobile",
     "sources": [
       {
         "title": "Ever-bigger? Car size at a crossroads",
@@ -3412,7 +3463,8 @@
         "publisher": "Volkswagen UK"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "giraffa",
@@ -3420,7 +3472,7 @@
     "kind": "b",
     "glyph": "🦒",
     "flags": [],
-    "image": null,
+    "image": "giraffa",
     "sources": [
       {
         "title": "Giraffa camelopardalis (giraffe)",
@@ -3428,7 +3480,8 @@
         "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "anaconda-verde",
@@ -3438,7 +3491,7 @@
     "flags": [
       "u"
     ],
-    "image": null,
+    "image": "anaconda-verde",
     "sources": [
       {
         "title": "Eunectes murinus (anaconda, green anaconda)",
@@ -3451,7 +3504,8 @@
         "publisher": "Smithsonian's National Zoo and Conservation Biology Institute"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "elefante-africano",
@@ -3459,7 +3513,7 @@
     "kind": "b",
     "glyph": "🐘",
     "flags": [],
-    "image": null,
+    "image": "elefante-africano",
     "sources": [
       {
         "title": "African Elephants (Loxodonta africana and L. cyclotis) Fact Sheet: Physical Characteristics",
@@ -3472,7 +3526,8 @@
         "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "modulo-lunare-apollo",
@@ -3480,7 +3535,7 @@
     "kind": "o",
     "glyph": "🛰️",
     "flags": [],
-    "image": null,
+    "image": "modulo-lunare-apollo",
     "sources": [
       {
         "title": "Apollo 204 Review Board: Description of the Apollo spacecraft",
@@ -3493,7 +3548,8 @@
         "publisher": "Smithsonian National Air and Space Museum"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "saguaro",
@@ -3501,7 +3557,7 @@
     "kind": "b",
     "glyph": "🌵",
     "flags": [],
-    "image": null,
+    "image": "saguaro",
     "sources": [
       {
         "title": "Saguaro Cactus",
@@ -3514,7 +3570,8 @@
         "publisher": "U.S. National Park Service, Organ Pipe Cactus National Monument"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "autobus",
@@ -3522,7 +3579,7 @@
     "kind": "o",
     "glyph": "🚌",
     "flags": [],
-    "image": null,
+    "image": "autobus",
     "sources": [
       {
         "title": "Citaro: Facts",
@@ -3530,7 +3587,8 @@
         "publisher": "Mercedes-Benz Buses (Daimler Buses)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "tyrannosaurus-rex",
@@ -3540,7 +3598,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "tyrannosaurus-rex",
     "sources": [
       {
         "title": "How well do you know SUE?",
@@ -3553,7 +3611,8 @@
         "publisher": "Natural History Museum, London"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "casa-media-negli-usa",
@@ -3563,7 +3622,7 @@
     "flags": [
       "u"
     ],
-    "image": null,
+    "image": "casa-media-negli-usa",
     "sources": [
       {
         "title": "Highlights of 2025 Characteristics of New Housing",
@@ -3571,7 +3630,8 @@
         "publisher": "U.S. Census Bureau"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "quercia",
@@ -3579,7 +3639,7 @@
     "kind": "b",
     "glyph": "🌳",
     "flags": [],
-    "image": null,
+    "image": "quercia",
     "sources": [
       {
         "title": "Oak, English (Quercus robur)",
@@ -3587,7 +3647,8 @@
         "publisher": "Woodland Trust"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "schermo-solare-del-telescopio-webb",
@@ -3597,7 +3658,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "schermo-solare-del-telescopio-webb",
     "sources": [
       {
         "title": "Webb's Sunshield",
@@ -3605,7 +3666,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "balenottera-azzurra",
@@ -3613,7 +3675,7 @@
     "kind": "b",
     "glyph": "🐋",
     "flags": [],
-    "image": null,
+    "image": "balenottera-azzurra",
     "sources": [
       {
         "title": "Blue Whale",
@@ -3621,7 +3683,8 @@
         "publisher": "NOAA Fisheries"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "maraapunisaurus",
@@ -3632,7 +3695,7 @@
       "r",
       "u"
     ],
-    "image": null,
+    "image": "maraapunisaurus",
     "sources": [
       {
         "title": "Maraapunisaurus fragillimus, n.g. (formerly Amphicoelias fragillimus), a basal rebbachisaurid from the Morrison Formation (Upper Jurassic) of Colorado",
@@ -3640,7 +3703,8 @@
         "publisher": "K. Carpenter, Geology of the Intermountain West, vol. 5 (2018)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "argentinosaurus",
@@ -3650,7 +3714,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "argentinosaurus",
     "sources": [
       {
         "title": "Argentinosaurus (Dino Directory)",
@@ -3658,7 +3722,8 @@
         "publisher": "Natural History Museum, London"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "torre-di-pisa",
@@ -3669,7 +3734,7 @@
       "n",
       "r"
     ],
-    "image": null,
+    "image": "torre-di-pisa",
     "sources": [
       {
         "title": "Tower",
@@ -3682,7 +3747,8 @@
         "publisher": "Istituto della Enciclopedia Italiana Treccani"
       }
     ],
-    "verified": "2026-11-13"
+    "verified": "2026-11-13",
+    "imageShape": "frame"
   },
   {
     "id": "boeing-747-8",
@@ -3692,7 +3758,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "boeing-747-8",
     "sources": [
       {
         "title": "Boeing Joins Fuselage Sections for First 747-8 Intercontinental",
@@ -3705,7 +3771,8 @@
         "publisher": "Boeing"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "stazione-spaziale-internazionale",
@@ -3713,7 +3780,7 @@
     "kind": "o",
     "glyph": "🛰️",
     "flags": [],
-    "image": null,
+    "image": "stazione-spaziale-internazionale",
     "sources": [
       {
         "title": "International Space Station Facts and Figures",
@@ -3726,7 +3793,8 @@
         "publisher": "NASA"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "campo-da-football-americano",
@@ -3734,7 +3802,7 @@
     "kind": "g",
     "glyph": "🏈",
     "flags": [],
-    "image": null,
+    "image": "campo-da-football-americano",
     "sources": [
       {
         "title": "2026 NFL Rulebook, Rule 1 Section 1 Article 1 (Playing Lines)",
@@ -3742,7 +3810,8 @@
         "publisher": "National Football League, NFL Football Operations"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "saturn-v",
@@ -3750,7 +3819,7 @@
     "kind": "o",
     "glyph": "🚀",
     "flags": [],
-    "image": null,
+    "image": "saturn-v",
     "sources": [
       {
         "title": "What Was the Saturn V? (Grades 5-8)",
@@ -3758,7 +3827,8 @@
         "publisher": "NASA"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "sequoia-hyperion",
@@ -3791,7 +3861,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "starship",
     "sources": [
       {
         "title": "SpaceX launches Starship V3, the world's most powerful and tallest rocket ever",
@@ -3799,7 +3869,8 @@
         "publisher": "Scientific American"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "grande-piramide-di-giza",
@@ -3809,7 +3880,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "grande-piramide-di-giza",
     "sources": [
       {
         "title": "Tallest pyramid",
@@ -3822,7 +3893,8 @@
         "publisher": "Istituto della Enciclopedia Italiana Treccani"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "dimorphos",
@@ -3832,7 +3904,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "dimorphos",
     "sources": [
       {
         "title": "Hera",
@@ -3845,7 +3917,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "colosseo",
@@ -3855,7 +3928,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "colosseo",
     "sources": [
       {
         "title": "Largest amphitheatre",
@@ -3873,7 +3946,8 @@
         "publisher": "Parco archeologico del Colosseo"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "gateway-arch",
@@ -3881,7 +3955,7 @@
     "kind": "g",
     "glyph": "🌉",
     "flags": [],
-    "image": null,
+    "image": "gateway-arch",
     "sources": [
       {
         "title": "Gateway Arch Fact Sheet",
@@ -3894,7 +3968,8 @@
         "publisher": "U.S. National Park Service"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "oumuamua",
@@ -3927,7 +4002,7 @@
     "kind": "g",
     "glyph": "🏞️",
     "flags": [],
-    "image": null,
+    "image": "diga-di-hoover",
     "sources": [
       {
         "title": "Hoover Dam Frequently Asked Questions and Answers: The Dam",
@@ -3935,7 +4010,8 @@
         "publisher": "U.S. Bureau of Reclamation"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "titanic",
@@ -3943,7 +4019,7 @@
     "kind": "o",
     "glyph": "🚢",
     "flags": [],
-    "image": null,
+    "image": "titanic",
     "sources": [
       {
         "title": "RMS Titanic facts",
@@ -3951,7 +4027,8 @@
         "publisher": "Royal Museums Greenwich"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "onde-radio-am",
@@ -3980,7 +4057,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "torre-eiffel",
     "sources": [
       {
         "title": "Eiffel Tower",
@@ -3993,7 +4070,8 @@
         "publisher": "Istituto della Enciclopedia Italiana Treccani"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "apophis",
@@ -4003,7 +4081,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "apophis",
     "sources": [
       {
         "title": "Small-Body Database Lookup: 99942 Apophis (2004 MN4)",
@@ -4016,7 +4094,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "willis-tower",
@@ -4024,7 +4103,7 @@
     "kind": "g",
     "glyph": "🏢",
     "flags": [],
-    "image": null,
+    "image": "willis-tower",
     "sources": [
       {
         "title": "Willis Tower",
@@ -4037,7 +4116,8 @@
         "publisher": "Willis Tower (Perform Properties)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "international-commerce-centre",
@@ -4045,7 +4125,7 @@
     "kind": "g",
     "glyph": "🏢",
     "flags": [],
-    "image": null,
+    "image": "international-commerce-centre",
     "sources": [
       {
         "title": "International Commerce Centre - The Skyscraper Center",
@@ -4053,7 +4133,8 @@
         "publisher": "Council on Vertical Urbanism (già CTBUH), The Skyscraper Center"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "bennu",
@@ -4063,7 +4144,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "bennu",
     "sources": [
       {
         "title": "Small-Body Database Lookup: 101955 Bennu (1999 RQ36)",
@@ -4081,7 +4162,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "merdeka-118",
@@ -4091,7 +4173,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "merdeka-118",
     "sources": [
       {
         "title": "Merdeka 118 - The Skyscraper Center",
@@ -4099,7 +4181,8 @@
         "publisher": "Council on Vertical Urbanism (già CTBUH), The Skyscraper Center"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "burj-khalifa",
@@ -4107,7 +4190,7 @@
     "kind": "g",
     "glyph": "🏙️",
     "flags": [],
-    "image": null,
+    "image": "burj-khalifa",
     "sources": [
       {
         "title": "Burj Khalifa - The Skyscraper Center",
@@ -4120,7 +4203,8 @@
         "publisher": "Guinness World Records"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "cascate-dell-angelo",
@@ -4128,7 +4212,7 @@
     "kind": "g",
     "glyph": "🏞️",
     "flags": [],
-    "image": null,
+    "image": "cascate-dell-angelo",
     "sources": [
       {
         "title": "Tallest waterfall",
@@ -4136,7 +4220,8 @@
         "publisher": "Guinness World Records"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "chilometro",
@@ -4168,7 +4253,7 @@
     "flags": [
       "u"
     ],
-    "image": null,
+    "image": "fabbrica-boeing-di-everett",
     "sources": [
       {
         "title": "Most capacious building",
@@ -4181,7 +4266,8 @@
         "publisher": "Boeing"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "3i-atlas",
@@ -4192,7 +4278,7 @@
       "n",
       "u"
     ],
-    "image": null,
+    "image": "3i-atlas",
     "sources": [
       {
         "title": "Comet 3I/ATLAS",
@@ -4205,7 +4291,8 @@
         "publisher": "Forbes & Butler, arXiv"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "citta-del-vaticano",
@@ -4215,7 +4302,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "citta-del-vaticano",
     "sources": [
       {
         "title": "Holy See - State of Vatican City: General Information",
@@ -4228,7 +4315,8 @@
         "publisher": "Guinness World Records"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "half-dome",
@@ -4238,7 +4326,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "half-dome",
     "sources": [
       {
         "title": "Half Dome Day Hike",
@@ -4251,7 +4339,8 @@
         "publisher": "U.S. Geological Survey"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "miglio",
@@ -4321,7 +4410,7 @@
     "kind": "g",
     "glyph": "🪨",
     "flags": [],
-    "image": null,
+    "image": "uluru",
     "sources": [
       {
         "title": "Uluru/Ayers Rock (Research Starters)",
@@ -4334,7 +4423,8 @@
         "publisher": "Parks Australia, Governo australiano"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "central-park",
@@ -4342,7 +4432,7 @@
     "kind": "g",
     "glyph": "🌳",
     "flags": [],
-    "image": null,
+    "image": "central-park",
     "sources": [
       {
         "title": "Central Park - National Historic Landmark nomination form",
@@ -4355,7 +4445,8 @@
         "publisher": "Central Park Conservancy"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "cometa-67p",
@@ -4365,7 +4456,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "cometa-67p",
     "sources": [
       {
         "title": "Comet 67P/Churyumov-Gerasimenko",
@@ -4378,7 +4469,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "monte-bianco",
@@ -4388,7 +4480,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "monte-bianco",
     "sources": [
       {
         "title": "Il Monte Bianco guadagna quasi due metri: ora arriva a 4.807,47 metri",
@@ -4401,7 +4493,8 @@
         "publisher": "Treccani, Enciclopedia on line"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "palm-jebel-ali",
@@ -4427,7 +4520,7 @@
     "kind": "g",
     "glyph": "⭕",
     "flags": [],
-    "image": null,
+    "image": "large-hadron-collider",
     "sources": [
       {
         "title": "The Large Hadron Collider",
@@ -4435,7 +4528,8 @@
         "publisher": "CERN"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "lep",
@@ -4445,7 +4539,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "lep",
     "sources": [
       {
         "title": "The Large Electron-Positron Collider",
@@ -4458,7 +4552,8 @@
         "publisher": "CERN"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "monte-everest",
@@ -4466,7 +4561,7 @@
     "kind": "g",
     "glyph": "🏔️",
     "flags": [],
-    "image": null,
+    "image": "monte-everest",
     "sources": [
       {
         "title": "Highest mountain",
@@ -4474,7 +4569,8 @@
         "publisher": "Guinness World Records"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "fossa-delle-marianne-profondita",
@@ -4503,7 +4599,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "cometa-di-halley",
     "sources": [
       {
         "title": "1P/Halley",
@@ -4516,7 +4612,8 @@
         "publisher": "European Space Agency (ESA)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "deimos",
@@ -4526,7 +4623,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "deimos",
     "sources": [
       {
         "title": "Mars Fact Sheet",
@@ -4539,7 +4636,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-13"
+    "verified": "2026-11-13",
+    "imageShape": "glow"
   },
   {
     "id": "stella-di-neutroni",
@@ -4575,7 +4673,7 @@
       "u",
       "r"
     ],
-    "image": null,
+    "image": "olympus-mons-altezza",
     "sources": [
       {
         "title": "Tallest mountain in the Solar System",
@@ -4588,7 +4686,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-13"
+    "verified": "2026-11-13",
+    "imageShape": "frame"
   },
   {
     "id": "fobos",
@@ -4598,7 +4697,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "fobos",
     "sources": [
       {
         "title": "Mars Fact Sheet",
@@ -4616,7 +4715,8 @@
         "publisher": "JAXA"
       }
     ],
-    "verified": "2026-11-13"
+    "verified": "2026-11-13",
+    "imageShape": "glow"
   },
   {
     "id": "future-circular-collider",
@@ -4671,7 +4771,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "arrokoth",
     "sources": [
       {
         "title": "New Horizons",
@@ -4684,7 +4784,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "maratona",
@@ -4926,7 +5027,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "ruanda",
     "sources": [
       {
         "title": "Rwanda (Worldmark Encyclopedia of Nations), sezione Location, Size, and Extent",
@@ -4939,7 +5040,8 @@
         "publisher": "Governo della Repubblica del Ruanda"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "psyche",
@@ -5001,7 +5103,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "mimas",
     "sources": [
       {
         "title": "Planetary Satellite Physical Parameters",
@@ -5019,7 +5121,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "disc"
   },
   {
     "id": "west-virginia",
@@ -5050,7 +5153,7 @@
     "kind": "g",
     "glyph": "🏜️",
     "flags": [],
-    "image": null,
+    "image": "grand-canyon",
     "sources": [
       {
         "title": "Frequently Asked Questions - Grand Canyon National Park",
@@ -5063,7 +5166,8 @@
         "publisher": "U.S. National Park Service"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "miranda",
@@ -5071,7 +5175,7 @@
     "kind": "p",
     "glyph": "#b9bcc2",
     "flags": [],
-    "image": null,
+    "image": "miranda",
     "sources": [
       {
         "title": "Planetary Satellite Physical Parameters",
@@ -5089,7 +5193,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "disc"
   },
   {
     "id": "encelado",
@@ -5099,7 +5204,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "encelado",
     "sources": [
       {
         "title": "Saturnian Satellite Fact Sheet",
@@ -5122,7 +5227,8 @@
         "publisher": "NASA Science (Cassini)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "disc"
   },
   {
     "id": "vesta",
@@ -5133,7 +5239,7 @@
       "n",
       "r"
     ],
-    "image": null,
+    "image": "vesta",
     "sources": [
       {
         "title": "Asteroid Fact Sheet",
@@ -5146,7 +5252,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-13"
+    "verified": "2026-11-13",
+    "imageShape": "glow"
   },
   {
     "id": "dysnomia",
@@ -5174,7 +5281,7 @@
     "kind": "p",
     "glyph": "#8b8b8b",
     "flags": [],
-    "image": null,
+    "image": "cerere",
     "sources": [
       {
         "title": "Asteroid Fact Sheet",
@@ -5187,7 +5294,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "disc"
   },
   {
     "id": "megametro",
@@ -5260,7 +5368,7 @@
     "kind": "g",
     "glyph": "🇮🇹",
     "flags": [],
-    "image": null,
+    "image": "italia",
     "sources": [
       {
         "title": "Italy (Worldmark Encyclopedia of Nations), sezione Location, Size, and Extent",
@@ -5273,7 +5381,8 @@
         "publisher": "Istituto della Enciclopedia Italiana Treccani"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "caronte",
@@ -5281,7 +5390,7 @@
     "kind": "p",
     "glyph": "#a8a29e",
     "flags": [],
-    "image": null,
+    "image": "caronte",
     "sources": [
       {
         "title": "Pluto Fact Sheet",
@@ -5294,7 +5403,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "disc"
   },
   {
     "id": "gonggong",
@@ -5326,7 +5436,7 @@
     "kind": "g",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "california",
     "sources": [
       {
         "title": "California (Worldmark Encyclopedia of the States), sezione Location, Size, and Extent",
@@ -5339,7 +5449,8 @@
         "publisher": "Istituto della Enciclopedia Italiana Treccani"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "texas",
@@ -5419,7 +5530,7 @@
     "kind": "p",
     "glyph": "#b9bcc2",
     "flags": [],
-    "image": null,
+    "image": "titania",
     "sources": [
       {
         "title": "Planetary Satellite Physical Parameters",
@@ -5432,7 +5543,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "disc"
   },
   {
     "id": "grande-barriera-corallina",
@@ -5442,7 +5554,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "grande-barriera-corallina",
     "sources": [
       {
         "title": "What is the Great Barrier Reef?",
@@ -5450,7 +5562,8 @@
         "publisher": "NOAA National Ocean Service"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "eris",
@@ -5483,7 +5596,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "plutone",
     "sources": [
       {
         "title": "Pluto Facts",
@@ -5496,7 +5609,8 @@
         "publisher": "NASA NSSDCA"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "disc"
   },
   {
     "id": "tritone",
@@ -5525,7 +5639,7 @@
     "kind": "p",
     "glyph": "#d9cdb8",
     "flags": [],
-    "image": null,
+    "image": "europa",
     "sources": [
       {
         "title": "Planetary Satellite Physical Parameters",
@@ -5538,7 +5652,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "disc"
   },
   {
     "id": "luna",
@@ -5546,7 +5661,7 @@
     "kind": "p",
     "glyph": "#c9c9c9",
     "flags": [],
-    "image": null,
+    "image": "luna",
     "sources": [
       {
         "title": "Planetary Satellite Physical Parameters",
@@ -5559,7 +5674,8 @@
         "publisher": "NASA"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "disc"
   },
   {
     "id": "io",
@@ -5567,7 +5683,7 @@
     "kind": "p",
     "glyph": "#e8d44d",
     "flags": [],
-    "image": null,
+    "image": "io",
     "sources": [
       {
         "title": "Planetary Satellite Physical Parameters",
@@ -5580,7 +5696,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "disc"
   },
   {
     "id": "larghezza-degli-stati-uniti",
@@ -5604,7 +5721,7 @@
     "kind": "p",
     "glyph": "#6b5d52",
     "flags": [],
-    "image": null,
+    "image": "callisto",
     "sources": [
       {
         "title": "Planetary Satellite Physical Parameters",
@@ -5617,7 +5734,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "disc"
   },
   {
     "id": "mercurio",
@@ -5625,7 +5743,7 @@
     "kind": "p",
     "glyph": "#9c9892",
     "flags": [],
-    "image": null,
+    "image": "mercurio",
     "sources": [
       {
         "title": "Mercury Fact Sheet",
@@ -5638,7 +5756,8 @@
         "publisher": "ESA"
       }
     ],
-    "verified": "2026-11-13"
+    "verified": "2026-11-13",
+    "imageShape": "disc"
   },
   {
     "id": "titano",
@@ -5646,7 +5765,7 @@
     "kind": "p",
     "glyph": "#d9a441",
     "flags": [],
-    "image": null,
+    "image": "titano",
     "sources": [
       {
         "title": "Planetary Satellite Physical Parameters",
@@ -5664,7 +5783,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "disc"
   },
   {
     "id": "ganimede",
@@ -5672,7 +5792,7 @@
     "kind": "p",
     "glyph": "#a39a8c",
     "flags": [],
-    "image": null,
+    "image": "ganimede",
     "sources": [
       {
         "title": "Planetary Satellite Physical Parameters",
@@ -5690,7 +5810,8 @@
         "publisher": "ESA"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "disc"
   },
   {
     "id": "marte",
@@ -5698,7 +5819,7 @@
     "kind": "p",
     "glyph": "#c1583b",
     "flags": [],
-    "image": null,
+    "image": "marte",
     "sources": [
       {
         "title": "Mars Fact Sheet",
@@ -5711,7 +5832,8 @@
         "publisher": "NASA NSSDCA (Goddard Space Flight Center)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "disc"
   },
   {
     "id": "asia",
@@ -5788,7 +5910,7 @@
     "kind": "p",
     "glyph": "#e3c58a",
     "flags": [],
-    "image": null,
+    "image": "venere",
     "sources": [
       {
         "title": "Venus Fact Sheet",
@@ -5801,7 +5923,8 @@
         "publisher": "NASA NSSDCA (Goddard Space Flight Center)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "disc"
   },
   {
     "id": "terra",
@@ -5809,7 +5932,7 @@
     "kind": "p",
     "glyph": "#3b82c4",
     "flags": [],
-    "image": null,
+    "image": "terra",
     "sources": [
       {
         "title": "Earth Fact Sheet",
@@ -5822,7 +5945,8 @@
         "publisher": "NASA NSSDCA (Goddard Space Flight Center)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "disc"
   },
   {
     "id": "grande-muraglia-cinese",
@@ -5832,7 +5956,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "grande-muraglia-cinese",
     "sources": [
       {
         "title": "The Great Wall faces severe preservation challenges",
@@ -5845,7 +5969,8 @@
         "publisher": "Istituto della Enciclopedia Italiana Treccani"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "k2-18-b",
@@ -5888,7 +6013,7 @@
     "kind": "p",
     "glyph": "#3f66d9",
     "flags": [],
-    "image": null,
+    "image": "nettuno",
     "sources": [
       {
         "title": "Neptune Fact Sheet",
@@ -5901,7 +6026,8 @@
         "publisher": "NASA NSSDCA (Goddard Space Flight Center)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "disc"
   },
   {
     "id": "urano",
@@ -5909,7 +6035,7 @@
     "kind": "p",
     "glyph": "#9bd9e0",
     "flags": [],
-    "image": null,
+    "image": "urano",
     "sources": [
       {
         "title": "Uranus Fact Sheet",
@@ -5922,7 +6048,8 @@
         "publisher": "NASA NSSDCA (Goddard Space Flight Center)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "disc"
   },
   {
     "id": "mondo-di-minecraft",
@@ -5969,7 +6096,7 @@
     "kind": "p",
     "glyph": "#e3cf9c",
     "flags": [],
-    "image": null,
+    "image": "saturno",
     "sources": [
       {
         "title": "Saturn Fact Sheet",
@@ -5982,7 +6109,8 @@
         "publisher": "NASA NSSDCA (Goddard Space Flight Center)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "eblm-j0555-57ab",
@@ -6039,7 +6167,7 @@
     "kind": "p",
     "glyph": "#d9a066",
     "flags": [],
-    "image": null,
+    "image": "giove",
     "sources": [
       {
         "title": "Jupiter Fact Sheet",
@@ -6052,7 +6180,8 @@
         "publisher": "NASA NSSDCA (Goddard Space Flight Center)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "disc"
   },
   {
     "id": "trappist-1",
@@ -6309,7 +6438,7 @@
     "kind": "s",
     "glyph": "#ffe9a8",
     "flags": [],
-    "image": null,
+    "image": "sole",
     "sources": [
       {
         "title": "IAU 2015 Resolution B3 on Recommended Nominal Conversion Constants for Selected Solar and Planetary Properties",
@@ -6317,7 +6446,8 @@
         "publisher": "International Astronomical Union (Mamajek et al.), arXiv"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "disc"
   },
   {
     "id": "distanza-del-telescopio-webb",
@@ -6366,7 +6496,7 @@
     "kind": "s",
     "glyph": "#dfe9ff",
     "flags": [],
-    "image": null,
+    "image": "sirio-a",
     "sources": [
       {
         "title": "The interferometric diameter and internal structure of Sirius A",
@@ -6379,7 +6509,8 @@
         "publisher": "ESA/Hubble"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "altair",
@@ -6600,7 +6731,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "sagittarius-a",
     "sources": [
       {
         "title": "The mass distribution in the Galactic Centre from interferometric astrometry of multiple stellar orbits",
@@ -6613,7 +6744,8 @@
         "publisher": "ESO / Event Horizon Telescope Collaboration"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "alnitak",
@@ -6682,7 +6814,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "r136a1",
     "sources": [
       {
         "title": "The R136 star cluster dissected with Hubble Space Telescope/STIS. III. The most massive stars and their clumped winds",
@@ -6695,7 +6827,8 @@
         "publisher": "NSF NOIRLab"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "aldebaran",
@@ -6856,7 +6989,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "r-doradus",
     "sources": [
       {
         "title": "Infrared Interferometric Three-dimensional Diagnosis of the Atmospheric Dynamics of the AGB Star R Dor with VLTI/AMBER",
@@ -6869,7 +7002,8 @@
         "publisher": "European Southern Observatory (ESO)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "pistol-star",
@@ -6935,7 +7069,7 @@
       "r",
       "u"
     ],
-    "image": null,
+    "image": "v838-monocerotis",
     "sources": [
       {
         "title": "V838 Monocerotis as seen by ALMA: a remnant of a binary merger in a triple system",
@@ -6953,7 +7087,8 @@
         "publisher": "Lane et al., The Astrophysical Journal Letters (2005), arXiv"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "distanza-giove-sole",
@@ -7062,7 +7197,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "betelgeuse",
     "sources": [
       {
         "title": "Standing on the shoulders of giants: New mass and distance estimates for Betelgeuse through combined evolutionary, asteroseismic, and hydrodynamical simulations with MESA",
@@ -7075,7 +7210,8 @@
         "publisher": "NSF NOIRLab"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "woh-g64",
@@ -7086,7 +7222,7 @@
       "r",
       "u"
     ],
-    "image": null,
+    "image": "woh-g64",
     "sources": [
       {
         "title": "The Physical Properties of the Red Supergiant WOH G64: The Largest Star Known?",
@@ -7104,7 +7240,8 @@
         "publisher": "van Loon & Ohnaka, MNRAS (2026), arXiv"
       }
     ],
-    "verified": "2026-11-13"
+    "verified": "2026-11-13",
+    "imageShape": "glow"
   },
   {
     "id": "uy-scuti",
@@ -7212,7 +7349,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "vy-canis-majoris",
     "sources": [
       {
         "title": "Fundamental properties and atmospheric structure of the red supergiant VY CMa based on VLTI/AMBER spectro-interferometry",
@@ -7220,7 +7357,8 @@
         "publisher": "Wittkowski et al., Astronomy & Astrophysics 540, L12 (2012), arXiv"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "stephenson-2-18",
@@ -7371,7 +7509,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "m87",
     "sources": [
       {
         "title": "First M87 Event Horizon Telescope Results. I. The Shadow of the Supermassive Black Hole",
@@ -7384,7 +7522,8 @@
         "publisher": "ESO / Event Horizon Telescope Collaboration"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "afelio-della-cometa-hale-bopp",
@@ -7521,7 +7660,7 @@
     "flags": [
       "u"
     ],
-    "image": null,
+    "image": "nebulosa-stingray",
     "sources": [
       {
         "title": "Birth and early evolution of a planetary nebula",
@@ -7539,7 +7678,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "petametro",
@@ -7619,7 +7759,7 @@
     "flags": [
       "u"
     ],
-    "image": null,
+    "image": "nebulosa-blinking",
     "sources": [
       {
         "title": "Caldwell 15",
@@ -7637,7 +7777,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "nebulosa-homunculus",
@@ -7647,7 +7788,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "nebulosa-homunculus",
     "sources": [
       {
         "title": "NASA's Hubble Space Telescope Resolves Eruption of a Massive Star",
@@ -7655,7 +7796,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "nebulosa-clessidra",
@@ -7711,7 +7853,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "nebulosa-anello",
     "sources": [
       {
         "title": "NASA's Hubble Space Telescope Reveals the Ring Nebula's True Shape",
@@ -7724,7 +7866,8 @@
         "publisher": "ESA/Webb"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "nebulosa-ngc-2392",
@@ -7735,7 +7878,7 @@
       "r",
       "u"
     ],
-    "image": null,
+    "image": "nebulosa-ngc-2392",
     "sources": [
       {
         "title": "A Detailed Morpho-Kinematic Model of the Eskimo, NGC 2392. A Unifying View with the Cat's Eye and Saturn Planetary Nebulae",
@@ -7753,7 +7896,8 @@
         "publisher": "NASA"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "nebulosa-uovo-marcio",
@@ -7761,7 +7905,7 @@
     "kind": "n",
     "glyph": "3",
     "flags": [],
-    "image": null,
+    "image": "nebulosa-uovo-marcio",
     "sources": [
       {
         "title": "Rotten Egg Nebula (PIA04228)",
@@ -7769,7 +7913,8 @@
         "publisher": "NASA/JPL Photojournal"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "nebulosa-formica",
@@ -7779,7 +7924,7 @@
     "flags": [
       "u"
     ],
-    "image": null,
+    "image": "nebulosa-formica",
     "sources": [
       {
         "title": "The Ant Nebula (Menzel 3): Fiery Lobes Protrude From Dying, Sun-like Star",
@@ -7792,7 +7937,8 @@
         "publisher": "ESA/Hubble"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "nube-di-oort",
@@ -7849,7 +7995,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "nebulosa-boomerang",
     "sources": [
       {
         "title": "The Coldest Place in the Universe: Probing the Ultra-Cold Outflow and Dusty Disk in the Boomerang Nebula",
@@ -7867,7 +8013,8 @@
         "publisher": "ESA/Hubble"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "distanza-sole-proxima",
@@ -7899,7 +8046,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "nebulosa-testa-di-cavallo",
     "sources": [
       {
         "title": "APOD: 2025 December 10 – The Horsehead Nebula",
@@ -7912,7 +8059,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "pilastri-della-creazione",
@@ -7922,7 +8070,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "pilastri-della-creazione",
     "sources": [
       {
         "title": "Hubble Goes High Def to Revisit the Iconic 'Pillars of Creation'",
@@ -7940,7 +8088,8 @@
         "publisher": "STScI (webbtelescope.org)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "nebulosa-elica",
@@ -7951,7 +8100,7 @@
       "r",
       "u"
     ],
-    "image": null,
+    "image": "nebulosa-elica",
     "sources": [
       {
         "title": "Caldwell 63 (Helix Nebula)",
@@ -7964,7 +8113,8 @@
         "publisher": "NASA Science (Astronomy Picture of the Day)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "nebulosa-bolla",
@@ -7974,7 +8124,7 @@
     "flags": [
       "u"
     ],
-    "image": null,
+    "image": "nebulosa-bolla",
     "sources": [
       {
         "title": "Hubble Sees a Star 'Inflating' a Giant Bubble",
@@ -7987,7 +8137,8 @@
         "publisher": "ESA/Hubble"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "nebulosa-cono",
@@ -7995,7 +8146,7 @@
     "kind": "n",
     "glyph": "0",
     "flags": [],
-    "image": null,
+    "image": "nebulosa-cono",
     "sources": [
       {
         "title": "Cone Nebula (NGC 2264): Star-Forming Pillar of Gas and Dust",
@@ -8003,7 +8154,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "the-spire",
@@ -8013,7 +8165,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "the-spire",
     "sources": [
       {
         "title": "Messier 16 (The Eagle Nebula)",
@@ -8021,7 +8173,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "nebulosa-granchio",
@@ -8029,7 +8182,7 @@
     "kind": "n",
     "glyph": "4",
     "flags": [],
-    "image": null,
+    "image": "nebulosa-granchio",
     "sources": [
       {
         "title": "Crab Nebula (Hubble mosaic)",
@@ -8042,7 +8195,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "nebulosa-di-orione",
@@ -8050,7 +8204,7 @@
     "kind": "n",
     "glyph": "0",
     "flags": [],
-    "image": null,
+    "image": "nebulosa-di-orione",
     "sources": [
       {
         "title": "M42/M43, NGC 1976, Orion Nebula",
@@ -8068,7 +8222,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "nube-interstellare-locale",
@@ -8100,7 +8255,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "nebulosa-grotta",
     "sources": [
       {
         "title": "Caldwell 9 (Cave Nebula)",
@@ -8113,7 +8268,8 @@
         "publisher": "NASA (Astronomy Picture of the Day)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "nebulosa-aquila",
@@ -8121,7 +8277,7 @@
     "kind": "n",
     "glyph": "3",
     "flags": [],
-    "image": null,
+    "image": "nebulosa-aquila",
     "sources": [
       {
         "title": "Messier 16 (The Eagle Nebula)",
@@ -8129,7 +8285,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "messier-14",
@@ -8140,7 +8297,7 @@
       "r",
       "u"
     ],
-    "image": null,
+    "image": "messier-14",
     "sources": [
       {
         "title": "M14, NGC 6402",
@@ -8153,7 +8310,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "nebulosa-nord-america",
@@ -8164,7 +8322,7 @@
       "r",
       "u"
     ],
-    "image": null,
+    "image": "nebulosa-nord-america",
     "sources": [
       {
         "title": "Distance and Tangential Velocity of the Main Ionizing Star in the North America/Pelican Nebulae with Gaia EDR3",
@@ -8177,7 +8335,8 @@
         "publisher": "NASA Science (Astronomy Picture of the Day)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "nebulosa-laguna",
@@ -8188,7 +8347,7 @@
       "r",
       "u"
     ],
-    "image": null,
+    "image": "nebulosa-laguna",
     "sources": [
       {
         "title": "The VLT Survey Telescope Snaps the Lagoon Nebula (eso1403)",
@@ -8206,7 +8365,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "esametro",
@@ -8236,7 +8396,7 @@
     "kind": "n",
     "glyph": "0",
     "flags": [],
-    "image": null,
+    "image": "nebulosa-rosetta",
     "sources": [
       {
         "title": "Radiant Stars at the Heart of a Cosmic Rose (noirlab2424)",
@@ -8244,7 +8404,8 @@
         "publisher": "NOIRLab (NSF)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "omega-centauri",
@@ -8254,7 +8415,7 @@
     "flags": [
       "u"
     ],
-    "image": null,
+    "image": "omega-centauri",
     "sources": [
       {
         "title": "Omega Centauri",
@@ -8272,7 +8433,8 @@
         "publisher": "ESA/Hubble"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "nebulosa-della-carena",
@@ -8282,7 +8444,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "nebulosa-della-carena",
     "sources": [
       {
         "title": "The Carina Nebula",
@@ -8300,7 +8462,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "anello-di-barnard",
@@ -8308,7 +8471,7 @@
     "kind": "n",
     "glyph": "0",
     "flags": [],
-    "image": null,
+    "image": "anello-di-barnard",
     "sources": [
       {
         "title": "Astronomy Picture of the Day, 19 January 2013: Barnard Stares at NGC 2170",
@@ -8316,7 +8479,8 @@
         "publisher": "NASA APOD"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "messier-54",
@@ -8326,7 +8490,7 @@
     "flags": [
       "u"
     ],
-    "image": null,
+    "image": "messier-54",
     "sources": [
       {
         "title": "A Deep View into the Nucleus of the Sagittarius Dwarf Spheroidal Galaxy with MUSE. III.",
@@ -8344,7 +8508,8 @@
         "publisher": "ESA/Hubble"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "nebulosa-tarantola",
@@ -8354,7 +8519,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "nebulosa-tarantola",
     "sources": [
       {
         "title": "The Tarantula Nebula",
@@ -8372,7 +8537,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "bolla-locale",
@@ -8422,7 +8588,7 @@
       "u",
       "r"
     ],
-    "image": null,
+    "image": "leo-ii",
     "sources": [
       {
         "title": "A Wide-Field View of Leo II: A Structural Analysis Using the SDSS",
@@ -8435,7 +8601,8 @@
         "publisher": "NASA/IPAC Extragalactic Database (NED), Caltech"
       }
     ],
-    "verified": "2026-11-13"
+    "verified": "2026-11-13",
+    "imageShape": "glow"
   },
   {
     "id": "getto-relativistico-di-m87",
@@ -8550,7 +8717,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "piccola-nube-di-magellano",
     "sources": [
       {
         "title": "NED object page: Small Magellanic Cloud",
@@ -8563,7 +8730,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "grande-nube-di-magellano",
@@ -8573,7 +8741,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "grande-nube-di-magellano",
     "sources": [
       {
         "title": "NED object page: Large Magellanic Cloud",
@@ -8586,7 +8754,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "ngc-3310",
@@ -8597,7 +8766,7 @@
       "r",
       "u"
     ],
-    "image": null,
+    "image": "ngc-3310",
     "sources": [
       {
         "title": "NED object page: NGC 3310",
@@ -8615,7 +8784,8 @@
         "publisher": "NASA Science (Hubble)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "bolle-di-fermi",
@@ -8645,7 +8815,7 @@
       "r",
       "u"
     ],
-    "image": null,
+    "image": "ngc-7714",
     "sources": [
       {
         "title": "NED object page: NGC 7714",
@@ -8663,7 +8833,8 @@
         "publisher": "NASA / STScI"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "galassia-occhio-nero",
@@ -8673,7 +8844,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "galassia-occhio-nero",
     "sources": [
       {
         "title": "M64, NGC 4826",
@@ -8686,7 +8857,8 @@
         "publisher": "NASA/IPAC Extragalactic Database (NED), Caltech"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "galassia-del-triangolo",
@@ -8694,7 +8866,7 @@
     "kind": "x",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "galassia-del-triangolo",
     "sources": [
       {
         "title": "Hubble takes gigantic image of the Triangulum Galaxy (heic1901)",
@@ -8707,7 +8879,8 @@
         "publisher": "NASA/IPAC Extragalactic Database (NED), Caltech"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "galassia-vortice",
@@ -8718,7 +8891,7 @@
       "r",
       "u"
     ],
-    "image": null,
+    "image": "galassia-vortice",
     "sources": [
       {
         "title": "NED object page: Messier 051a",
@@ -8736,7 +8909,8 @@
         "publisher": "NASA Science (Hubble Messier Catalog)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "galassia-sombrero",
@@ -8747,7 +8921,7 @@
       "r",
       "u"
     ],
-    "image": null,
+    "image": "galassia-sombrero",
     "sources": [
       {
         "title": "NED results for object MESSIER 104",
@@ -8770,7 +8944,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "via-lattea",
@@ -8780,7 +8955,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "via-lattea",
     "sources": [
       {
         "title": "The Milky Way is just an average spiral",
@@ -8793,7 +8968,8 @@
         "publisher": "NASA Goddard, Imagine the Universe"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "zettametro",
@@ -8825,7 +9001,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "ngc-1232",
     "sources": [
       {
         "title": "NGC 1232: Dwarf Galaxy Caught Ramming Into a Large Spiral",
@@ -8843,7 +9019,8 @@
         "publisher": "ESO"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "virgo-a",
@@ -8853,7 +9030,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "virgo-a",
     "sources": [
       {
         "title": "NED results for object MESSIER 087",
@@ -8881,7 +9058,8 @@
         "publisher": "ESO"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "galassia-ruota-di-carro",
@@ -8889,7 +9067,7 @@
     "kind": "x",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "galassia-ruota-di-carro",
     "sources": [
       {
         "title": "The Cartwheel Galaxy: A Starry Ring World Born in a Head-on Collision",
@@ -8902,7 +9080,8 @@
         "publisher": "ESA/Webb"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "andromeda",
@@ -8910,7 +9089,7 @@
     "kind": "x",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "andromeda",
     "sources": [
       {
         "title": "SIMBAD: M 31 (Andromeda Galaxy)",
@@ -8933,7 +9112,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "galassia-girandola",
@@ -8941,7 +9121,7 @@
     "kind": "x",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "galassia-girandola",
     "sources": [
       {
         "title": "Messier 101",
@@ -8949,7 +9129,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "ngc-4889",
@@ -8959,7 +9140,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "ngc-4889",
     "sources": [
       {
         "title": "NED results for object NGC 4889",
@@ -8977,7 +9158,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "galassia-girino",
@@ -8985,7 +9167,7 @@
     "kind": "x",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "galassia-girino",
     "sources": [
       {
         "title": "A 'wallpaper' of distant galaxies is a stunning backdrop for a runaway galaxy",
@@ -8993,7 +9175,8 @@
         "publisher": "ESA/Hubble"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "strada-percorsa-dalla-terra-attorno-al-sole",
@@ -9026,7 +9209,7 @@
       "r",
       "u"
     ],
-    "image": null,
+    "image": "ic-1101",
     "sources": [
       {
         "title": "How large can galaxies be? Ultra-deep imaging of IC 1101, the most extended known galaxy",
@@ -9044,7 +9227,8 @@
         "publisher": "Guinness World Records"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "distanza-di-andromeda",
@@ -9073,7 +9257,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "ammasso-della-fornace",
     "sources": [
       {
         "title": "The Fornax Deep Survey with VST. VII. Evolution and Structure of Late Type Galaxies inside the Virial Radius of the Fornax Cluster",
@@ -9086,7 +9270,8 @@
         "publisher": "European Southern Observatory (ESO)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "gruppo-locale",
@@ -9118,7 +9303,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "ammasso-della-vergine",
     "sources": [
       {
         "title": "The Extended Virgo Cluster Catalog",
@@ -9131,7 +9316,8 @@
         "publisher": "Mei et al., The Astrophysical Journal, arXiv"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "abell-2029",
@@ -9141,7 +9327,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "abell-2029",
     "sources": [
       {
         "title": "X-ray observations of the galaxy cluster Abell 2029 to the virial radius",
@@ -9154,7 +9340,8 @@
         "publisher": "Chandra X-ray Center (NASA/SAO)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "alcioneo",
@@ -9164,7 +9351,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "alcioneo",
     "sources": [
       {
         "title": "The discovery of a radio galaxy of at least 5 Mpc",
@@ -9172,7 +9359,8 @@
         "publisher": "Oei et al., Astronomy & Astrophysics 660, A2 (2022), arXiv"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "porphyrion",
@@ -9182,7 +9370,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "porphyrion",
     "sources": [
       {
         "title": "Black hole jets on the scale of the Cosmic Web",
@@ -9195,7 +9383,8 @@
         "publisher": "Caltech"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "yottametro",

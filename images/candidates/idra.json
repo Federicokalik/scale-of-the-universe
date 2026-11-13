@@ -1,5 +1,19 @@
 [
   {
+    "file": "File:Hydra (moon) 2015-7-15 (raw).jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Hydra_(moon)_2015-7-15_(raw).jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Hydra_%28moon%29_2015-7-15_%28raw%29.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Hydra_%28moon%29_2015-7-15_%28raw%29.jpg/330px-Hydra_%28moon%29_2015-7-15_%28raw%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 1041,
+    "height": 698,
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "author": "NASA/ APL",
+    "credit": "http://www.nasa.gov/image-feature/hydra-emerges-from-the-shadows",
+    "description": "This is the first multi-pixel image of Hydra, Pluto's moon, taken during the New Horizon's closest approach.",
+    "via": "Commons search \"Hydra moon New Horizons\""
+  },
+  {
     "file": "File:Hydra false color map.png",
     "page": "https://commons.wikimedia.org/wiki/File:Hydra_false_color_map.png",
     "original": "https://upload.wikimedia.org/wikipedia/commons/5/56/Hydra_false_color_map.png",
@@ -11,6 +25,6 @@
     "author": "Askaniy Anpilogov",
     "credit": "https://www.flickr.com/photos/193560059@N03/52302223132/",
     "description": "Info: simple cylindrical projection, planetocentric coordinate system, center longitude 0° (x-axis of the model), manual projection. False color map: no gamma correction; gray calibrated BLUE, RED and NIR filters of MVIC were used to color ",
-    "via": "Commons search \"Hydra (moon)\""
+    "via": "Commons search \"Hydra moon New Horizons\""
   }
 ]
