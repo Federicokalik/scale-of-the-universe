@@ -1,0 +1,58 @@
+[
+  {
+    "file": "File:Reworked composite image of Arrokoth.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Reworked_composite_image_of_Arrokoth.png",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/a/af/Reworked_composite_image_of_Arrokoth.png",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Reworked_composite_image_of_Arrokoth.png/330px-Reworked_composite_image_of_Arrokoth.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 1622,
+    "height": 2024,
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "author": "NASA/JHUAPL/SwRI/Roman Tkachenko",
+    "credit": "https://x.com/_RomanTkachenko/status/1612514810620420096/photo/2",
+    "description": "Processed LORRI stack was colorized using low-res MVIC color data in NIRRB. High precision alignment of two observations with different geometry gives a pretty accurate colorization of this premodal KBO performed in two versions.",
+    "via": "lead image of the English Wikipedia article \"486958 Arrokoth\""
+  },
+  {
+    "file": "File:UltimaThule CA06 color 20190516.png",
+    "page": "https://commons.wikimedia.org/wiki/File:UltimaThule_CA06_color_20190516.png",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/6/60/UltimaThule_CA06_color_20190516.png",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/UltimaThule_CA06_color_20190516.png/330px-UltimaThule_CA06_color_20190516.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 1860,
+    "height": 1302,
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "author": "NASA/Johns Hopkins University Applied Physics Laboratory/Southwest Research Institute/Roman Tkachenko.",
+    "credit": "Image provided from two sources: https://www.nasa.gov/feature/nasa-s-new-horizons-team-publishes-first-kuiper-belt-flyby-science-results and http://pluto.jhuapl.edu/News-Center/News-Article.php?page=2",
+    "description": "This composite image of the primordial contact binary Kuiper Belt Object 2014 MU69 (official designation: (486958) Arrokoth, nickname: Ultima Thule - the bigger part is Ultima, the smaller one Thule) – featured on the cover of the May 17 is",
+    "via": "Commons search \"486958 Arrokoth\""
+  },
+  {
+    "file": "File:Arrokoth map by Askaniy.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Arrokoth_map_by_Askaniy.png",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/6/64/Arrokoth_map_by_Askaniy.png",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Arrokoth_map_by_Askaniy.png/330px-Arrokoth_map_by_Askaniy.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 4096,
+    "height": 2048,
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "Askaniy Anpilogov, Roman Tkachenko",
+    "credit": "https://www.deviantart.com/askaniy/art/Arrokoth-Texture-Map-981803164",
+    "description": "Map of 486958 Arrokoth",
+    "via": "Commons search \"486958 Arrokoth\""
+  },
+  {
+    "file": "File:Arrokoth Shape Model.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Arrokoth_Shape_Model.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/0/02/Arrokoth_Shape_Model.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Arrokoth_Shape_Model.jpg/330px-Arrokoth_Shape_Model.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 1166,
+    "height": 588,
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "author": "Model by James Tuttle Keane; NASA/Johns Hopkins University Applied Physics Laboratory/Southwest Research Institute/James Tuttle Keane",
+    "credit": "Original image also shown in New Horizons press release conference",
+    "description": "Shape model of the contact binary KBO 486958 Arrokoth, based on stereographic perspectives of the object in New Horizons images. The model is colored to show variations of the geopotential elevation across Arrokoth's surface.",
+    "via": "Commons search \"486958 Arrokoth\""
+  }
+]

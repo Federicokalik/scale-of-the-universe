@@ -216,7 +216,9 @@ function star(o, random) {
 function world(o, random) {
   const c = o.glyph || '#9aa3bd';
   if (o.id === 'oumuamua') return `<g transform="rotate(-22 ${CX} ${CY})">${path(blob(CX, CY, 250, random, 11, 0.1, 0.17), `fill="${c}"`)}${path(blob(CX - 20, CY - 12, 200, random, 9, 0.12, 0.08), 'fill="#fff" opacity=".12"')}</g>`;
-  if (['cruithne', 'ganymed'].includes(o.id)) return path(blob(CX, CY, 190, random, 10, 0.2, 0.84), `fill="${c}"`) + path(blob(CX - 46, CY - 44, 96, random, 8, 0.2, 0.8), 'fill="#fff" opacity=".12"') + circle(CX + 60, CY + 40, 30, 'fill="#000" opacity=".18"') + circle(CX - 20, CY + 80, 18, 'fill="#000" opacity=".18"');
+  if (['cruithne', 'ganymed', 'psyche', 'galatea', 'nereide', 'bianca', 'belinda'].includes(o.id)) return path(blob(CX, CY, 190, random, 10, 0.2, 0.84), `fill="${c}"`) + path(blob(CX - 46, CY - 44, 96, random, 8, 0.2, 0.8), 'fill="#fff" opacity=".12"') + circle(CX + 60, CY + 40, 30, 'fill="#000" opacity=".18"') + circle(CX - 20, CY + 80, 18, 'fill="#000" opacity=".18"');
+  // Haumea spins so fast that it is stretched into an ellipsoid about twice as long as it is thick.
+  if (o.id === 'haumea') return `<g transform="translate(${CX} ${CY}) rotate(-14) scale(1.3 .66) translate(${-CX} ${-CY})">${sphere(CX, CY, 200, c, 'w')}</g>`;
   let s = sphere(CX, CY, 200, c, 'w');
   if (o.id === 'tres-4-b' || o.id === 'k2-18-b') {
     let bands = '';
@@ -670,6 +672,32 @@ function everyday(o, random) {
     }
     case 'cromosoma-y':
       return path(`M${CX} ${CY - 20}L${CX - 70} ${CY - 170}M${CX} ${CY - 20}L${CX + 70} ${CY - 170}M${CX} ${CY - 20}V${CY + 230}`, `fill="none" stroke="${VIOLET}" stroke-width="64" stroke-linecap="round"`) + circle(CX, CY - 20, 26, `fill="${INK}"`);
+    case 'cromosoma-x':
+      return path(`M${CX - 90} ${CY - 230}L${CX + 90} ${CY + 230}M${CX + 90} ${CY - 230}L${CX - 90} ${CY + 230}`, `fill="none" stroke="${VIOLET}" stroke-width="64" stroke-linecap="round"`) + circle(CX, CY, 26, `fill="${INK}"`);
+    case 'sequoia-hyperion': {
+      // A very tall, narrow conifer beside a person-sized mark, to give the proportion.
+      let s = `<rect x="${CX - 13}" y="60" width="26" height="490" rx="8" fill="#7a4a2c"/>`;
+      for (let i = 0; i < 9; i++) {
+        const y = 60 + i * 36;
+        const w = 26 + i * 9;
+        s += path(`M${CX} ${y - 26}L${CX + w} ${y + 44}H${CX - w}Z`, `fill="${['#2f7a4a', '#3b8f58'][i % 2]}"`);
+      }
+      return s + line(60, 552, W - 60, 552, `stroke="${INK}" stroke-width="3" opacity=".6"`) + line(CX + 190, 552, CX + 190, 544, `stroke="${AMBER}" stroke-width="5" stroke-linecap="round"`) + circle(CX + 190, 541, 3, `fill="${AMBER}"`);
+    }
+    case 'uovo-di-colibri':
+      return glow(CX, CY, 290, '#fff', 'g', 0.18) + `<g transform="rotate(-18 ${CX} ${CY})">` + path(`M${CX - 190} ${CY}C${CX - 190} ${CY - 150} ${CX + 60} ${CY - 150} ${CX + 200} ${CY - 40}C${CX + 250} ${CY} ${CX + 250} ${CY + 10} ${CX + 200} ${CY + 50}C${CX + 60} ${CY + 150} ${CX - 190} ${CY + 150} ${CX - 190} ${CY}Z`, 'fill="#f7f3ea"') + `<ellipse cx="${CX - 60}" cy="${CY - 50}" rx="70" ry="26" fill="#fff" opacity=".7"/></g>`;
+    case 'gocciolina-di-nebbia': {
+      let s = '';
+      for (let i = 0; i < 26; i++) s += circle(40 + random() * 720, 40 + random() * 520, 6 + random() * 16, `fill="${BLUE}" opacity="${f(0.15 + random() * 0.3)}"`);
+      return s + sphere(CX, CY, 150, '#b9d6ff', 'w') + `<ellipse cx="${CX - 54}" cy="${CY - 62}" rx="34" ry="20" fill="#fff" opacity=".75" transform="rotate(-35 ${CX - 54} ${CY - 62})"/>`;
+    }
+    case 'foglio-di-carta-spessore': {
+      // A sheet seen edge-on: the thickness is the thin dimension between the two marks.
+      const sheet = `<rect x="110" y="${CY - 9}" width="580" height="18" rx="3" fill="#f4f1e8"/>`;
+      return path(`M110 ${CY - 9}L230 ${CY - 150}H${W - 110}L${W - 110} ${CY - 9}Z`, 'fill="#f4f1e8" opacity=".28"') + sheet + line(CX, CY - 60, CX, CY - 14, `stroke="${TEAL}" stroke-width="4"`) + line(CX, CY + 14, CX, CY + 60, `stroke="${TEAL}" stroke-width="4"`) + path(`M${CX - 12} ${CY - 30}L${CX} ${CY - 12}L${CX + 12} ${CY - 30}M${CX - 12} ${CY + 30}L${CX} ${CY + 12}L${CX + 12} ${CY + 30}`, `fill="none" stroke="${TEAL}" stroke-width="4"`);
+    }
+    case 'carta-di-credito-spessore':
+      return `<g transform="translate(${CX} ${CY - 30}) skewX(-28)"><rect x="-250" y="-120" width="500" height="250" rx="22" fill="#3b5fa8"/><rect x="-250" y="-70" width="500" height="44" fill="#16233f"/><rect x="-200" y="30" width="78" height="56" rx="8" fill="${AMBER}"/></g>` + `<rect x="80" y="${CY + 150}" width="560" height="26" rx="6" fill="#5b7fc8"/>` + line(680, CY + 110, 680, CY + 146, `stroke="${TEAL}" stroke-width="4"`) + line(680, CY + 180, 680, CY + 216, `stroke="${TEAL}" stroke-width="4"`) + path(`M668 ${CY + 132}L680 ${CY + 148}L692 ${CY + 132}M668 ${CY + 194}L680 ${CY + 178}L692 ${CY + 194}`, `fill="none" stroke="${TEAL}" stroke-width="4"`);
     case 'cellula-della-pelle': {
       let s = '';
       for (let r = 0; r < 3; r++) for (let c = 0; c < 4; c++) {

@@ -1,0 +1,44 @@
+[
+  {
+    "file": "File:99942 Apophis shape.png",
+    "page": "https://commons.wikimedia.org/wiki/File:99942_Apophis_shape.png",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/d/df/99942_Apophis_shape.png",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/99942_Apophis_shape.png/330px-99942_Apophis_shape.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 1200,
+    "height": 310,
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "author": "Astronomical Institute of the Charles University: Josef Ďurech, Vojtěch Sidorin",
+    "credit": "http://astro.troja.mff.cuni.cz/projects/asteroids3D/web.php?page=db_tumblers",
+    "description": "DAMIT model of Apophis generated from light curve. This assumes that all areas of the asteroid have a similar albedo and reflectivity.",
+    "via": "Commons search \"99942 Apophis\""
+  },
+  {
+    "file": "File:Apophis impact risk corridor 2029.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Apophis_impact_risk_corridor_2029.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/4/47/Apophis_impact_risk_corridor_2029.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Apophis_impact_risk_corridor_2029.jpg/330px-Apophis_impact_risk_corridor_2029.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 908,
+    "height": 455,
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Renerpho",
+    "credit": "Own work",
+    "description": "For the 2020-21 Planetary Defense Campaign, Apophis was used as a test case, to practise the response to an actual impact threat. Assuming Apophis had been discovered in late 2020 or early 2021, the impact risk corridor for 13 April 2029 wo",
+    "via": "Commons search \"99942 Apophis\""
+  },
+  {
+    "file": "File:Change in orbit of Apophis in 2029.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Change_in_orbit_of_Apophis_in_2029.png",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/6/62/Change_in_orbit_of_Apophis_in_2029.png",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Change_in_orbit_of_Apophis_in_2029.png/330px-Change_in_orbit_of_Apophis_in_2029.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 782,
+    "height": 465,
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Eric Kvaalen",
+    "credit": "Data calculated using the JPL Horizons System, [1] and [2]",
+    "description": "Chang in orbit of Apophis in 2029. The red curves show the orbit before the April 13, 2029, close encounter with the earth, while the green curves show the orbit afterwards. The x-axis is the heliocentric ecliptic longitude (increasing towa",
+    "via": "Commons search \"99942 Apophis\""
+  }
+]

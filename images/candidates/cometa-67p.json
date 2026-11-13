@@ -1,0 +1,58 @@
+[
+  {
+    "file": "File:Comet 67P True color.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Comet_67P_True_color.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Comet_67P_True_color.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Comet_67P_True_color.jpg/330px-Comet_67P_True_color.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 1920,
+    "height": 1920,
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "ESA/Rosetta/MPS for OSIRIS Team MPS/UPD/LAM/IAA/SSO/INTA/UPM/DASP/IDA",
+    "credit": "https://blogs.esa.int/rosetta/2014/12/12/comet-67pc-g-in-living-colour/ https://www.planetary.org/space-images/comet-cg-20140806-osiris-color https://www.flickr.com/photos/europeanspaceagency/15978891",
+    "description": "A colour image of Comet 67P/Churyumov-Gerasimenko composed of three images taken with the Narrow Angle Camera (NAC) of the scientific imaging system OSIRIS in red (centred at 744 nm wavelength), green (536 nm), and blue (481 nm) filters on ",
+    "via": "lead image of the English Wikipedia article \"67P/Churyumov–Gerasimenko\""
+  },
+  {
+    "file": "File:Comet 67P on 19 September 2014 NavCam mosaic.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Comet_67P_on_19_September_2014_NavCam_mosaic.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/8/81/Comet_67P_on_19_September_2014_NavCam_mosaic.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Comet_67P_on_19_September_2014_NavCam_mosaic.jpg/330px-Comet_67P_on_19_September_2014_NavCam_mosaic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 4400,
+    "height": 3500,
+    "licence": "CC BY-SA 3.0 igo",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en",
+    "author": "ESA/Rosetta/NAVCAM, CC BY-SA IGO 3.0",
+    "credit": "http://www.esa.int/spaceinimages/Images/2014/09/Comet_on_19_September_2014_NavCam ( image link ) http://sci.esa.int/rosetta/54679-comet-67p-on-19-september-2014-navcam-mosaic/ http://blogs.esa.int/ros",
+    "description": "Mosaic of four images taken by Rosetta 's navigation camera (NAVCAM) on 19 September 2014 at 28.6 km (17.8 mi) from the centre of comet 67P/Churyumov–Gerasimenko . The images used for this mosaic were taken in sequence as a 2×2 raster over ",
+    "via": "Commons search \"67P/Churyumov–Gerasimenko\""
+  },
+  {
+    "file": "File:Comet 67P Churyumov–Gerasimenko (Rosetta).png",
+    "page": "https://commons.wikimedia.org/wiki/File:Comet_67P_Churyumov%E2%80%93Gerasimenko_(Rosetta).png",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Comet_67P_Churyumov%E2%80%93Gerasimenko_%28Rosetta%29.png",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Comet_67P_Churyumov%E2%80%93Gerasimenko_%28Rosetta%29.png/330px-Comet_67P_Churyumov%E2%80%93Gerasimenko_%28Rosetta%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 800,
+    "height": 800,
+    "licence": "CC BY-SA 3.0 igo",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en",
+    "author": "ESA/Rosetta/NAVCAM",
+    "credit": "https://imagearchives.esac.esa.int/picture.php?/7215/category/63",
+    "description": "Comet 67P/Churyumov-Gerasimenko as seen by Rosetta’s navigation camera on 19 August 2014.",
+    "via": "Commons search \"67P/Churyumov–Gerasimenko\""
+  },
+  {
+    "file": "File:67P Churyumov-Gerasimenko - Rosetta (32755885495).png",
+    "page": "https://commons.wikimedia.org/wiki/File:67P_Churyumov-Gerasimenko_-_Rosetta_(32755885495).png",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/b/bc/67P_Churyumov-Gerasimenko_-_Rosetta_%2832755885495%29.png",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/67P_Churyumov-Gerasimenko_-_Rosetta_%2832755885495%29.png/330px-67P_Churyumov-Gerasimenko_-_Rosetta_%2832755885495%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 3200,
+    "height": 3200,
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "author": "Justin Cowart",
+    "credit": "67P/Churyumov-Gerasimenko - Rosetta",
+    "description": "Approximate true color image of comet 67P taken by the Rosetta spacecraft's OSIRIS Narrow Angle Camera on March 17, 2015. This image is a four frame mosaic, with each color frame imaged through VIS_BLUE, VIS_GREEN, and VIS_RED filters. At t",
+    "via": "Commons search \"67P/Churyumov–Gerasimenko\""
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "file": "File:A foggy winter morning.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:A_foggy_winter_morning.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/5/51/A_foggy_winter_morning.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/A_foggy_winter_morning.jpg/330px-A_foggy_winter_morning.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 3000,
+    "height": 2000,
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Abdul Momin",
+    "credit": "Own work",
+    "description": "A foggy winter morning in Bangladesh",
+    "via": "lead image of the English Wikipedia article \"Fog\""
+  },
+  {
+    "file": "File:Vallee-brouillard.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Vallee-brouillard.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/4/46/Vallee-brouillard.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Vallee-brouillard.jpg/330px-Vallee-brouillard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 4210,
+    "height": 2750,
+    "licence": "CC BY 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/3.0",
+    "author": "Thomas Bresson",
+    "credit": "Own work",
+    "description": "Fog in the valley of Savoureuse ( Territoire de Belfort ; eastern France) at sunset, seen from the summit of the Ballon d'Alsace",
+    "via": "Commons search \"Fog\""
+  },
+  {
+    "file": "File:Trees in fog on the northern side of Loch Tay, Scottish Highlands, Scotland.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Trees_in_fog_on_the_northern_side_of_Loch_Tay,_Scottish_Highlands,_Scotland.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Trees_in_fog_on_the_northern_side_of_Loch_Tay%2C_Scottish_Highlands%2C_Scotland.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Trees_in_fog_on_the_northern_side_of_Loch_Tay%2C_Scottish_Highlands%2C_Scotland.jpg/330px-Trees_in_fog_on_the_northern_side_of_Loch_Tay%2C_Scottish_Highlands%2C_Scotland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 5447,
+    "height": 2492,
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Michal Klajban",
+    "credit": "Own work",
+    "description": "Trees in fog on the northern side of Loch Tay , Scottish Highlands , Scotland",
+    "via": "Commons search \"Fog\""
+  },
+  {
+    "file": "File:Fog around Lake Heron, Taylor Range, Canterbury, New Zealand.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Fog_around_Lake_Heron,_Taylor_Range,_Canterbury,_New_Zealand.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/1/15/Fog_around_Lake_Heron%2C_Taylor_Range%2C_Canterbury%2C_New_Zealand.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Fog_around_Lake_Heron%2C_Taylor_Range%2C_Canterbury%2C_New_Zealand.jpg/330px-Fog_around_Lake_Heron%2C_Taylor_Range%2C_Canterbury%2C_New_Zealand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 16968,
+    "height": 3467,
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Michal Klajban",
+    "credit": "Own work",
+    "description": "Fog around Lake Heron close to Taylor Range, Canterbury, New Zealand",
+    "via": "Commons search \"Fog\""
+  }
+]

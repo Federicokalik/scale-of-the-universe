@@ -1,0 +1,58 @@
+[
+  {
+    "file": "File:The chaotic spin of Pluto’s moon Nix.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:The_chaotic_spin_of_Pluto%E2%80%99s_moon_Nix.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/9/9d/The_chaotic_spin_of_Pluto%E2%80%99s_moon_Nix.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/The_chaotic_spin_of_Pluto%E2%80%99s_moon_Nix.jpg/330px-The_chaotic_spin_of_Pluto%E2%80%99s_moon_Nix.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 1280,
+    "height": 929,
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "author": "NASA, ESA, M. Showalter (SETI Inst.), G. Bacon (STScI)",
+    "credit": "http://www.spacetelescope.org/images/heic1512a/",
+    "description": "This set of illustrations of Pluto’s moon Nix shows how the orientation of the moon changes unpredictably as it orbits the Pluto-Charon system. This illustration is based on a computer simulation which calculated the chaotic movement of the",
+    "via": "Commons search \"Nix (moon)\""
+  },
+  {
+    "file": "File:15-111c-PlutoMoon-Nix-ComputerModeling-20150603.png",
+    "page": "https://commons.wikimedia.org/wiki/File:15-111c-PlutoMoon-Nix-ComputerModeling-20150603.png",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/d/d8/15-111c-PlutoMoon-Nix-ComputerModeling-20150603.png",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/15-111c-PlutoMoon-Nix-ComputerModeling-20150603.png/330px-15-111c-PlutoMoon-Nix-ComputerModeling-20150603.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 1157,
+    "height": 779,
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "author": "NASA/ESA/M. Showalter (SETI)/G. Bacon (STScI)",
+    "credit": "http://www.nasa.gov/sites/default/files/thumbnails/image/15-111c.png",
+    "description": "June 3, 2015 15-111 http://www.nasa.gov/press-release/nasa-s-hubble-finds-pluto-s-moons-tumbling-in-absolute-chaos Pluto’s moon Nix This set of computer modeling illustrations of Pluto’s moon Nix shows how the orientation of the moon change",
+    "via": "Commons search \"Nix (moon)\""
+  },
+  {
+    "file": "File:Nix gray map.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Nix_gray_map.png",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Nix_gray_map.png",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Nix_gray_map.png/330px-Nix_gray_map.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 2048,
+    "height": 1024,
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "Askaniy Anpilogov",
+    "credit": "https://www.deviantart.com/askaniy/art/Nix-Color-Texture-Maps-926588947 , https://www.flickr.com/photos/193560059@N03/52302966308/",
+    "description": "Info: simple cylindrical projection, planetocentric coordinate system, center longitude 0° (is chosen as the closest major axis to Pluto during the closest flyby, it's x-axis of the model), manual projection. True color gray calibrated map:",
+    "via": "Commons search \"Nix (moon)\""
+  },
+  {
+    "file": "File:Nix true color map.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Nix_true_color_map.png",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Nix_true_color_map.png",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Nix_true_color_map.png/330px-Nix_true_color_map.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 2048,
+    "height": 1024,
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "Askaniy Anpilogov",
+    "credit": "https://www.deviantart.com/askaniy/art/Nix-Color-Texture-Maps-926588947 , https://www.flickr.com/photos/193560059@N03/52302966308/",
+    "description": "Info: simple cylindrical projection, planetocentric coordinate system, center longitude 0° (is chosen as the closest major axis to Pluto during the closest flyby, it's x-axis of the model), manual projection. True color map: gamma corrected",
+    "via": "Commons search \"Nix (moon)\""
+  }
+]

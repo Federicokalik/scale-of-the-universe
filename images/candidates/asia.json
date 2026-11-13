@@ -1,0 +1,58 @@
+[
+  {
+    "file": "File:Asia satellite orthographic.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Asia_satellite_orthographic.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Asia_satellite_orthographic.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Asia_satellite_orthographic.jpg/330px-Asia_satellite_orthographic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 1887,
+    "height": 1962,
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "author": "",
+    "credit": "",
+    "description": "",
+    "via": "Commons search \"Asia satellite orthographic\""
+  },
+  {
+    "file": "File:Asia satellite.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Asia_satellite.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Asia_satellite.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Asia_satellite.jpg/330px-Asia_satellite.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 1000,
+    "height": 1000,
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "author": "Koyos",
+    "credit": "Own work by uploader, made with NASA World Wind.",
+    "description": "Satellite map of Asia. Land terrain and bathymetry (ocean-floor topography).",
+    "via": "Commons search \"Asia satellite orthographic\""
+  },
+  {
+    "file": "File:Post-Soviet satellite orthographic.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Post-Soviet_satellite_orthographic.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/1/19/Post-Soviet_satellite_orthographic.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Post-Soviet_satellite_orthographic.jpg/330px-Post-Soviet_satellite_orthographic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 1605,
+    "height": 954,
+    "licence": "CC0",
+    "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "User:Mzajac",
+    "credit": "Cropped from File:Asia satellite orthographic.jpg",
+    "description": "Blue Marble satellite map framing the post-Soviet states.",
+    "via": "Commons search \"Asia satellite orthographic\""
+  },
+  {
+    "file": "File:Antarctica satellite.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Antarctica_satellite.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/9/99/Antarctica_satellite.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Antarctica_satellite.jpg/330px-Antarctica_satellite.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 900,
+    "height": 900,
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "author": "Koyos",
+    "credit": "Own work by uploader, made with NASA World Wind.",
+    "description": "Satellite map of Antarctica. Land terrain and bathymetry (ocean-floor topography).",
+    "via": "Commons search \"Asia satellite orthographic\""
+  }
+]

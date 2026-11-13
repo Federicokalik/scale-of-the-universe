@@ -1,5 +1,6 @@
 // Finds candidate photographs with a usable licence for the objects in images/plan.json.
 //   node scripts/find-images.mjs --from 0 --count 12
+//   node scripts/find-images.mjs --ids globulo-rosso,colibri     (search these again)
 // For each object it writes up to four candidates to images/candidates/<id>.json and
 // draws one contact sheet, images/sheets/sheet-<from>.jpg, so a person can pick by eye.
 // Wikipedia is used only as a trail to the file on Wikimedia Commons, where the licence is read.
@@ -13,7 +14,9 @@ const arg = (name, fallback) => {
 };
 const from = Number(arg('from', 0));
 const count = Number(arg('count', 12));
-const force = process.argv.includes('--force');
+// --ids a,b,c searches those objects again (ignoring what was found before) and draws sheet-redo.jpg.
+const only = arg('ids', '').split(',').filter(Boolean);
+const force = process.argv.includes('--force') || only.length > 0;
 
 const UA = 'ScaleOfTheUniverse-build/0.1 (image licence check; static educational site)';
 const COMMONS = 'https://commons.wikimedia.org/w/api.php';
@@ -99,7 +102,10 @@ async function find(spec) {
 }
 
 const plan = JSON.parse(readFileSync('images/plan.json', 'utf8'));
-const ids = Object.keys(plan).filter((id) => !id.startsWith('_')).slice(from, from + count);
+const planned = Object.keys(plan).filter((id) => !id.startsWith('_'));
+const unknown = only.filter((id) => !planned.includes(id));
+if (unknown.length) throw new Error(`not in images/plan.json: ${unknown.join(', ')}`);
+const ids = only.length ? only : planned.slice(from, from + count);
 mkdirSync('images/candidates', { recursive: true });
 mkdirSync('images/sheets', { recursive: true });
 
@@ -145,7 +151,7 @@ for (const [row, id] of ids.entries()) {
   await sleep(300);
 }
 
-const sheet = `images/sheets/sheet-${String(from).padStart(3, '0')}.jpg`;
+const sheet = only.length ? 'images/sheets/sheet-redo.jpg' : `images/sheets/sheet-${String(from).padStart(3, '0')}.jpg`;
 await sharp({ create: { width: CELL * 8, height: Math.ceil(ids.length / 2) * (CELL + LABEL), channels: 3, background: '#101014' } })
   .composite(composites)
   .jpeg({ quality: 72 })
