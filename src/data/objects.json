@@ -1499,7 +1499,7 @@
     "kind": "o",
     "glyph": "💿",
     "flags": [],
-    "image": null,
+    "image": "fossetta-di-un-cd-profondita",
     "sources": [
       {
         "title": "All About Digital Audio: Part 5",
@@ -1512,7 +1512,8 @@
         "publisher": "Georgia State University, Department of Physics and Astronomy"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "limite-del-microscopio-ottico",
@@ -1544,7 +1545,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "batteriofago-t4",
     "sources": [
       {
         "title": "Bacteriophage T4 Head: Structure, Assembly, and Genome Packaging",
@@ -1557,7 +1558,8 @@
         "publisher": "ViralZone, SIB Swiss Institute of Bioinformatics"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "batterio-piu-piccolo",
@@ -1568,7 +1570,7 @@
       "n",
       "u"
     ],
-    "image": null,
+    "image": "batterio-piu-piccolo",
     "sources": [
       {
         "title": "Diameter of smallest bacteria - mycoplasma (BNID 104717)",
@@ -1581,7 +1583,8 @@
         "publisher": "Fraser et al., Science 1995 (record PubMed, PMID 7569993)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "particella-piu-penetrante-per-un-filtro-ffp2",
@@ -2422,7 +2425,7 @@
     "kind": "o",
     "glyph": "✏️",
     "flags": [],
-    "image": null,
+    "image": "mina-di-matita",
     "sources": [
       {
         "title": "Super-Polymer fineline lead, HB, 0.7 mm, set of 2",
@@ -2435,7 +2438,8 @@
         "publisher": "STAEDTLER (produttore)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "carta-di-credito-spessore",
@@ -2563,7 +2567,7 @@
     "kind": "b",
     "glyph": "🌿",
     "flags": [],
-    "image": null,
+    "image": "lenticchia-d-acqua",
     "sources": [
       {
         "title": "Lemna minor (common duckweed)",
@@ -2571,7 +2575,8 @@
         "publisher": "Go Botany, Native Plant Trust"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "seme-di-sesamo",
@@ -4389,7 +4394,7 @@
     "kind": "g",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "acceleratore-lineare-di-stanford",
     "sources": [
       {
         "title": "Longest linear accelerator",
@@ -4402,7 +4407,8 @@
         "publisher": "SLAC National Accelerator Laboratory"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "uluru",
@@ -4504,7 +4510,7 @@
     "flags": [
       "u"
     ],
-    "image": null,
+    "image": "palm-jebel-ali",
     "sources": [
       {
         "title": "Mohammed bin Rashid approves new futuristic masterplan for Palm Jebel Ali",
@@ -4512,7 +4518,8 @@
         "publisher": "Government of Dubai Media Office"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "large-hadron-collider",
@@ -5618,7 +5625,7 @@
     "kind": "p",
     "glyph": "#d8c7c0",
     "flags": [],
-    "image": null,
+    "image": "tritone",
     "sources": [
       {
         "title": "Planetary Satellite Physical Parameters",
@@ -5631,7 +5638,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "disc"
   },
   {
     "id": "europa",
@@ -5841,7 +5849,7 @@
     "kind": "g",
     "glyph": "🌏",
     "flags": [],
-    "image": null,
+    "image": "asia",
     "sources": [
       {
         "title": "Asia, Enciclopedia on line",
@@ -5849,7 +5857,8 @@
         "publisher": "Istituto della Enciclopedia Italiana Treccani"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "trappist-1-e",
@@ -7612,7 +7621,7 @@
       "u",
       "r"
     ],
-    "image": null,
+    "image": "hamburger-di-gomez",
     "sources": [
       {
         "title": "The ALMA View of the Edge-on Gomez's Hamburger System: A Highly-Dynamic, Asymmetric Protoplanetary Disk Reveals the Earliest Phases of Giant Planet Formation",
@@ -7625,7 +7634,8 @@
         "publisher": "Law et al., accettato da The Astrophysical Journal (2026), arXiv"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "ton-618",
@@ -7731,7 +7741,7 @@
       "r",
       "u"
     ],
-    "image": null,
+    "image": "nebulosa-occhio-di-gatto",
     "sources": [
       {
         "title": "Hubble Space Telescope Measurements of the Expansion of NGC 6543: Parallax Distance and Nebular Evolution",
@@ -7749,7 +7759,8 @@
         "publisher": "ESA/Hubble"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "nebulosa-blinking",
@@ -7808,7 +7819,7 @@
       "r",
       "u"
     ],
-    "image": null,
+    "image": "nebulosa-clessidra",
     "sources": [
       {
         "title": "VLT observations of the asymmetric Etched Hourglass Nebula, MyCn 18",
@@ -7821,7 +7832,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "anno-luce",

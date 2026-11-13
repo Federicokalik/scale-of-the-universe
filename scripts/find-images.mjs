@@ -135,8 +135,13 @@ for (const [row, id] of ids.entries()) {
   });
   for (const [col, c] of candidates.entries()) {
     try {
-      const response = await fetch(c.thumb, { headers: { 'user-agent': UA }, signal: AbortSignal.timeout(30000) });
-      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      let response;
+      for (let attempt = 1; ; attempt++) {
+        response = await fetch(c.thumb, { headers: { 'user-agent': UA }, signal: AbortSignal.timeout(30000) });
+        if (response.ok) break;
+        if (attempt === 4) throw new Error(`HTTP ${response.status}`);
+        await sleep(5000 * attempt);
+      }
       const tile = await sharp(Buffer.from(await response.arrayBuffer()))
         .resize(CELL - 6, CELL - 6, { fit: 'contain', background: '#202028' })
         .composite([{ input: Buffer.from(`<svg xmlns="http://www.w3.org/2000/svg" width="34" height="26"><rect width="34" height="26" fill="#000"/><text x="9" y="20" font-family="sans-serif" font-size="20" fill="#ff0">${col + 1}</text></svg>`), left: 0, top: 0 }])

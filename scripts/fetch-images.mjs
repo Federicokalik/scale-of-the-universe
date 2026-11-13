@@ -92,9 +92,10 @@ for (const id of todo) {
     continue;
   }
   try {
-    // Large originals are fetched as a 1280 px rendition: enough for an 800 px card image.
-    const url = Math.max(chosen.width, chosen.height) > 1600 ? chosen.thumb.replace(/\/\d+px-/, '/1280px-') : chosen.original;
-    const source = await download(url);
+    // A rendition at a standard width (enough for an 800 px card image) is asked for first:
+    // the thumbnail server is far more generous with requests than the one holding originals.
+    const rendition = chosen.thumb.replace(/\/\d+px-/, chosen.width <= 960 ? '/960px-' : '/1280px-');
+    const source = await download(rendition).catch(() => download(chosen.original));
     writeFileSync(`images/originals/${id}`, source);
     const shape = choice.shape ?? defaultShape(object);
     writeFileSync(small, await canvasTile(source, shape));

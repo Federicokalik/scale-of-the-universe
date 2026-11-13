@@ -20,6 +20,13 @@
     "licenceUrl": "https://creativecommons.org/licenses/by/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_11085_A_scanning_electron_micrograph_of_a_female_dust_mite.jpg"
   },
+  "acceleratore-lineare-di-stanford": {
+    "title": "SLAC National Accelerator Laboratory Aerial 2",
+    "author": "Victor Blacus",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:SLAC_National_Accelerator_Laboratory_Aerial_2.png"
+  },
   "afelio-della-cometa-hale-bopp": {
     "title": "Illustrazione originale",
     "author": "Federico Calicchia",
@@ -209,6 +216,13 @@
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
   },
+  "asia": {
+    "title": "Asia satellite",
+    "author": "Koyos",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Asia_satellite.jpg"
+  },
   "atomo-di-carbonio": {
     "title": "Illustrazione originale",
     "author": "Federico Calicchia",
@@ -278,6 +292,20 @@
     "licence": "Public domain",
     "licenceUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Morphology_and_ultrastructure_of_Ca._T._magnifica.jpg"
+  },
+  "batterio-piu-piccolo": {
+    "title": "3D Whole Cell (3D-WC) model of a Mycoplasma genitalium cell",
+    "author": "Martina Maritan, Scripps Research",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:3D_Whole_Cell_(3D-WC)_model_of_a_Mycoplasma_genitalium_cell.png"
+  },
+  "batteriofago-t4": {
+    "title": "Viruses-07-02932-g002B-T4",
+    "author": "Eugenijus Šimoliūnas, Monika Vilkaitytė, Laura Kaliniene, Aurelija Zajančkauskaitė, Algird",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Viruses-07-02932-g002B-T4.png"
   },
   "bennu": {
     "title": "Bennu mosaic OSIRIS-REx (square)",
@@ -846,6 +874,13 @@
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
   },
+  "fossetta-di-un-cd-profondita": {
+    "title": "CD-ROM pressed pits",
+    "author": "[Tycho] talk,",
+    "licence": "CC0",
+    "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:CD-ROM_pressed_pits.jpg"
+  },
   "fullerene-c60": {
     "title": "Illustrazione originale",
     "author": "Federico Calicchia",
@@ -1140,6 +1175,13 @@
     "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Half_Dome_with_Eastern_Yosemite_Valley_(Zuschnitt).jpg"
   },
+  "hamburger-di-gomez": {
+    "title": "Gomez Hamburger IRAS 18059-3211 HST",
+    "author": "Image Credit: NASA and The Hubble Heritage Team (STScI/AURA) Acknowledgment: A. Gomez (Cer",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Gomez_Hamburger_IRAS_18059-3211_HST.jpg"
+  },
   "hiv": {
     "title": "HIV-budding-Color",
     "author": "Photo Credit: C. Goldsmith Content Providers: CDC/ C. Goldsmith, P. Feorino, E. L. Palmer,",
@@ -1237,6 +1279,13 @@
     "licence": "CC BY 4.0",
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
+  },
+  "lenticchia-d-acqua": {
+    "title": "Lemna minor plants",
+    "author": "Kostka Martin",
+    "licence": "CC0",
+    "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Lemna_minor_plants.jpg"
   },
   "leo-ii": {
     "title": "LG Leo II (26422781005)",
@@ -1462,6 +1511,13 @@
     "licenceUrl": "https://creativecommons.org/licenses/by/2.5",
     "page": "https://commons.wikimedia.org/wiki/File:Electron_microscopic_image_of_a_mimivirus_-_journal.ppat.1000087.g007_crop.png"
   },
+  "mina-di-matita": {
+    "title": "Mechanical lead pencil tip",
+    "author": "Saurabh R. Patil",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mechanical_lead_pencil_tip.jpg"
+  },
   "miranda": {
     "title": "Miranda mosaic in color - Voyager 2",
     "author": "zelario12",
@@ -1616,6 +1672,13 @@
     "licenceUrl": "",
     "page": "https://commons.wikimedia.org/wiki/File:Boomerang_nebula.jpg"
   },
+  "nebulosa-clessidra": {
+    "title": "MyCn 18 \"Etched Hourglass\"",
+    "author": "Judy Schmidt from USA",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:MyCn_18_%22Etched_Hourglass%22.png"
+  },
   "nebulosa-cono": {
     "title": "Cone Nebula (NGC 2264) Star-Forming Pillar of Gas and Dust",
     "author": "NASA, H. Ford (JHU), G. Illingworth (UCSC/LO), M.Clampin (STScI), G. Hartig (STScI), the A",
@@ -1692,6 +1755,13 @@
     "licence": "CC0",
     "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     "page": "https://commons.wikimedia.org/wiki/File:NGC_7000_%2B_IC_5070.jpg"
+  },
+  "nebulosa-occhio-di-gatto": {
+    "title": "Catseye-big",
+    "author": "NASA, ESA, HEIC, and The Hubble Heritage Team (STScI/AURA)",
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Catseye-big.jpg"
   },
   "nebulosa-rosetta": {
     "title": "Rosette Nebula Captured with DECam (noirlab2424a)",
@@ -1916,6 +1986,13 @@
     "licence": "CC BY-SA 4.0",
     "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Adidas_Trionda_ball.jpg"
+  },
+  "palm-jebel-ali": {
+    "title": "Palm Jebel Ali on 8 May 2008 Pict 2",
+    "author": "Imre Solt",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Palm_Jebel_Ali_on_8_May_2008_Pict_2.jpg"
   },
   "paramecio": {
     "title": "Paramecium",
@@ -2532,6 +2609,13 @@
     "licence": "CC BY 4.0",
     "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
     "page": "https://scale-of-universe.calicchia.design/"
+  },
+  "tritone": {
+    "title": "Neptune’s Moon Triton Fosters Rare Icy Union (gemini1903a) square",
+    "author": "NASA/JPL",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Neptune%E2%80%99s_Moon_Triton_Fosters_Rare_Icy_Union_(gemini1903a)_square.jpg"
   },
   "twip": {
     "title": "Illustrazione originale",
