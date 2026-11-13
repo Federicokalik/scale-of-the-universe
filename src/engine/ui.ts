@@ -112,6 +112,9 @@ export function bindUi(root: HTMLElement, scene: Scene, data: SceneData, music: 
     const before = scene.objects[o.index - 1];
     const after = scene.objects[o.index + 1];
     prev.textContent = before ? `← ${before.name}` : '';
+    // A long name is cut with an ellipsis; the whole of it stays available on hover and to assistive technology.
+    prev.title = before?.name ?? '';
+    next.title = after?.name ?? '';
     prev.disabled = !before;
     next.textContent = after ? `${after.name} →` : '';
     next.disabled = !after;
@@ -218,10 +221,10 @@ export function bindUi(root: HTMLElement, scene: Scene, data: SceneData, music: 
   const bar = root.querySelector<HTMLElement>('.bottom')!;
   const frame = (): void => {
     const open = card.classList.contains('open');
-    const narrow = innerWidth <= 720;
     if (!open) return scene.setCentre(0.5, 0.46);
     const box = card.getBoundingClientRect();
-    if (narrow) {
+    // A card nearly as wide as the view is a sheet; a narrower one is a column at the side.
+    if (box.width > innerWidth * 0.7) {
       // The card is a sheet above the scale bar: the object sits between the top controls and the sheet.
       const free = [top.getBoundingClientRect().bottom, Math.min(box.top, bar.getBoundingClientRect().top)];
       scene.setCentre(0.5, (free[0] + free[1]) / 2 / innerHeight);

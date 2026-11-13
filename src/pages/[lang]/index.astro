@@ -48,7 +48,7 @@ const payload = JSON.stringify(data).replace(/</g, '\\u003c');
     {ENABLED_LOCALES.map((l) => <link rel="alternate" hreflang={l.code} href={new URL(`${import.meta.env.BASE_URL}${l.code}/`, Astro.site)} />)}
     <link rel="alternate" hreflang="x-default" href={new URL(import.meta.env.BASE_URL, Astro.site)} />
   </Fragment>
-  <canvas id="stage" aria-label={ui['canvas.label']}></canvas>
+  <canvas id="stage" role="img" aria-label={ui['canvas.label']}></canvas>
 
   <div class="top">
     <div class="brand">

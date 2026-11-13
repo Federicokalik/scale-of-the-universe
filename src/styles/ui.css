@@ -544,3 +544,71 @@ dialog {
     transform: none !important;
   }
 }
+
+/* ---- phase 5, second pass: the skill's checklist ---- */
+
+/* No double-tap delay on controls. */
+button,
+select,
+input,
+a {
+  touch-action: manipulation;
+}
+/* A control that cannot be used looks like it. */
+button:disabled {
+  opacity: 0.38;
+  cursor: default;
+  pointer-events: none;
+}
+/* Eight pixels between neighbouring targets. */
+.chips {
+  gap: 8px;
+}
+/* Long addresses and titles wrap instead of pushing the card wider. */
+.sources,
+.card p {
+  overflow-wrap: anywhere;
+}
+.sources a {
+  display: inline-block;
+  padding-block: 2px;
+}
+@media (max-width: 720px) {
+  /* Sixteen pixels for reading text on a phone. */
+  .card p {
+    font-size: 16px;
+  }
+}
+/* A phone held sideways: no room for the filters, and the card goes to the side. */
+@media (max-height: 480px) and (orientation: landscape) {
+  .brand p,
+  .chips {
+    display: none;
+  }
+  .brand {
+    flex: 0 1 auto;
+  }
+  .tools {
+    flex: 1 1 0;
+  }
+  .card {
+    top: 64px;
+    bottom: auto;
+    inset-inline: auto 8px;
+    width: min(46%, 350px);
+    max-height: calc(100% - 150px);
+    transform-origin: top;
+  }
+}
+/* Source titles and credits are mostly in Latin letters: each line takes its own direction, so it reads straight inside a right-to-left page. */
+.sources li,
+.source-list li,
+.card .photo figcaption {
+  unicode-bidi: plaintext;
+  text-align: start;
+}
+@media (max-height: 480px) and (orientation: landscape) {
+  .card {
+    max-height: calc(100% - 172px);
+  }
+}
