@@ -193,3 +193,8 @@ test('an object at the far end of the scale is drawn once the view has flown to 
   );
   expect(drawn).toContain('Laniakea');
 });
+
+test('the method dialog can be linked to', async ({ page }) => {
+  await page.goto('/it/#about');
+  await expect(page.locator('#dlg')).toBeVisible();
+});

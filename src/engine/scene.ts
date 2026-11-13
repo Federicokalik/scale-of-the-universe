@@ -111,7 +111,8 @@ export function createScene(canvas: HTMLCanvasElement, data: SceneData): Scene {
       if (x < -px || x > width + px || y < -px || y > height + px) continue;
       ctx.globalAlpha = alpha;
       ctx.save();
-      renderer.object(o, x, y, px, t);
+      // Pictures are fetched only once the view is within a decade of where it is going.
+      renderer.object(o, x, y, px, t, Math.abs(zTarget - z) < 1);
       ctx.restore();
       if (o === selected) {
         ctx.globalAlpha = 0.55 + 0.35 * Math.sin(t * 3);

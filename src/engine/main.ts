@@ -26,6 +26,8 @@ export function mountScene(root: HTMLElement, data: SceneData): Scene {
   // throw on a malformed address). An unknown id is ignored: the page just opens.
   const openFromAddress = () => {
     const id = location.hash.slice(1);
+    // "#about" opens the method dialog, so it can be linked to; no object has that id.
+    if (id === 'about') return find<HTMLElement>('#about').click();
     if (id) scene.selectById(id);
   };
   addEventListener('hashchange', openFromAddress);

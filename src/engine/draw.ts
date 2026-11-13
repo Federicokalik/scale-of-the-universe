@@ -14,7 +14,8 @@ const DUST = Array.from({ length: 150 }, (_, i) => {
 
 export interface Renderer {
   background(z: number, t: number, w: number, h: number, cx: number, cy: number): void;
-  object(o: Placed, x: number, y: number, px: number, t: number): void;
+  /** `load` is false while the view is still flying: pictures passed on the way are not fetched. */
+  object(o: Placed, x: number, y: number, px: number, t: number, load?: boolean): void;
 }
 
 /** Below this size on screen a photograph is not worth a download. */
@@ -26,12 +27,13 @@ export function createRenderer(ctx: Ctx, sprites: Sprites, still = false): Rende
   const photos = new Map<string, HTMLImageElement | null>();
 
   /** The object's photograph once it has loaded; starts the download the first time it is asked for. */
-  function photo(o: Placed): HTMLImageElement | null {
+  function photo(o: Placed, load: boolean): HTMLImageElement | null {
     // Stars and black holes without a photograph are drawn by the code below, which renders them well at any size;
     // every other illustrated object shows its own drawing.
     if (!o.image || (o.imageShape === 'art' && 'sh'.includes(o.kind))) return null;
     const known = photos.get(o.image);
     if (known !== undefined) return known && known.complete && known.naturalWidth ? known : null;
+    if (!load) return null;
     const image = new Image();
     image.decoding = 'async';
     image.onerror = () => photos.set(o.image!, null);
@@ -41,9 +43,9 @@ export function createRenderer(ctx: Ctx, sprites: Sprites, still = false): Rende
   }
 
   /** Draws the photograph in the way its shape asks for. Returns false when there is none to draw yet. */
-  function drawPhoto(o: Placed, x: number, y: number, px: number): boolean {
+  function drawPhoto(o: Placed, x: number, y: number, px: number, load: boolean): boolean {
     if (px < PHOTO_MIN_PX) return false;
-    const image = photo(o);
+    const image = photo(o, load);
     if (!image) return false;
     const r = px / 2;
     if (o.imageShape === 'disc') {
@@ -127,19 +129,30 @@ export function createRenderer(ctx: Ctx, sprites: Sprites, still = false): Rende
     }
   }
 
-  function object(o: Placed, x: number, y: number, px: number, t: number): void {
+  function object(o: Placed, x: number, y: number, px: number, t: number, load = true): void {
     const r = px / 2;
     const k = o.kind;
     const colour = o.glyph[0] === '#' ? o.glyph : null;
 
-    if (drawPhoto(o, x, y, px)) return;
+    if (drawPhoto(o, x, y, px, load)) return;
 
-    if (o.emoji && o.image) {
-      // Too small for its picture yet (or the picture is still loading): a plain mark, not an emoji.
-      ctx.fillStyle = 'rgba(223,227,234,.5)';
-      ctx.beginPath();
-      ctx.arc(x, y, Math.max(2, r * 0.45), 0, 7);
-      ctx.fill();
+    if (o.image && !(o.imageShape === 'art' && 'sh'.includes(k))) {
+      // The object has a picture that is not on screen yet (too small, or still on its way):
+      // a plain mark stands in, never a shape that could be taken for the object itself.
+      if (px < PHOTO_MIN_PX) {
+        ctx.fillStyle = 'rgba(223,227,234,.5)';
+        ctx.beginPath();
+        ctx.arc(x, y, Math.max(2, r * 0.45), 0, 7);
+        ctx.fill();
+      } else {
+        ctx.strokeStyle = 'rgba(223,227,234,.28)';
+        ctx.lineWidth = 1;
+        ctx.setLineDash([3, 5]);
+        ctx.beginPath();
+        ctx.arc(x, y, r * 0.7, 0, 7);
+        ctx.stroke();
+        ctx.setLineDash([]);
+      }
       return;
     }
 
