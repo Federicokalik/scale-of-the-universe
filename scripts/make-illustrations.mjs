@@ -851,7 +851,7 @@ const objects = readJson('src/data/objects.json');
 const choices = readJson('images/choices.json', {});
 const plan = readJson('images/plan.json', {});
 const credits = readJson('src/data/credits.json', {});
-const SITE = 'https://scale-of-universe.calicchia.design/';
+const SITE = 'https://federicokalik.github.io/scale-of-the-universe/';
 mkdirSync('public/img', { recursive: true });
 
 // An object gets a drawing when the plan gives it no photograph, or when no candidate was good enough (choice 0).

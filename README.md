@@ -50,4 +50,4 @@ Other commands:
 The site deploys to GitHub Pages from `main` through `.github/workflows/deploy.yml`. Two settings live in the repository, not in the code (Settings → Pages):
 
 1. **Source**: GitHub Actions.
-2. **Custom domain**: `scale-of-universe.calicchia.design`, with a DNS `CNAME` record pointing to `federicokalik.github.io`.
+2. **Custom domain**: none. The site is served at `https://federicokalik.github.io/scale-of-the-universe/`; the folder is set as `base` in `astro.config.mjs`.

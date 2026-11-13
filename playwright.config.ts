@@ -6,9 +6,10 @@ export default defineConfig({
   reporter: 'line',
   use: { baseURL: 'http://localhost:4321' },
   webServer: {
-    command: 'npx astro preview --force --port 4321',
+    // The tests address the site at the root, so it is built there first.
+    command: 'BASE_PATH=/ npx astro build && BASE_PATH=/ npx astro preview --force --port 4321',
     url: 'http://localhost:4321/',
     reuseExistingServer: false,
-    timeout: 60000,
+    timeout: 120000,
   },
 });

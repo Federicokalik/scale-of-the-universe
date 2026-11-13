@@ -21,7 +21,7 @@ const description = `From the Planck length to the observable universe: ${object
       <nav class="languages" aria-label="Choose a language">
         {
           ENABLED_LOCALES.map((locale) => (
-            <a class="btn" href={`/${locale.code}/`} hreflang={locale.code} lang={locale.code} dir={locale.dir}>
+            <a class="btn" href={`${import.meta.env.BASE_URL}${locale.code}/`} hreflang={locale.code} lang={locale.code} dir={locale.dir}>
               {locale.name}
             </a>
           ))

@@ -163,6 +163,6 @@ delle immagini, dettagli delle utility UnoCSS, forma esatta dei test.
 
 ## Risposte arrivate dopo l'approvazione
 
-1. Sottodominio: `scale-of-universe.calicchia.design`.
+1. Indirizzo: `https://federicokalik.github.io/scale-of-the-universe/` (deciso il 13 novembre 2026: niente sottodominio di calicchia.design).
 2. Licenza, crediti e firma: **Federico Calicchia**.
 3. Il titolo è tradotto in ogni lingua (in italiano "Scala dell'Universo 2026").
