@@ -1,0 +1,58 @@
+[
+  {
+    "file": "File:E coli at 10000x, original.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:E_coli_at_10000x,_original.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/b/bc/E_coli_at_10000x%2C_original.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/E_coli_at_10000x%2C_original.jpg/330px-E_coli_at_10000x%2C_original.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 2598,
+    "height": 1889,
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "author": "Photo by Eric Erbe, digital colorization by Christopher Pooley, both of USDA, ARS, EMU.",
+    "credit": "This image was released by the Agricultural Research Service , the research agency of the United States Department of Agriculture , with the ID K11077-1 (next) .",
+    "description": "Low-temperature electron micrograph of a cluster of E. coli bacteria, magnified 10,000 times. Each individual bacterium is oblong shaped.",
+    "via": "lead image of the English Wikipedia article \"Escherichia coli\""
+  },
+  {
+    "file": "File:E. coli Bacteria (7316101966).jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:E._coli_Bacteria_(7316101966).jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/3/3a/E._coli_Bacteria_%287316101966%29.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/E._coli_Bacteria_%287316101966%29.jpg/330px-E._coli_Bacteria_%287316101966%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 2100,
+    "height": 1766,
+    "licence": "Public domain",
+    "licenceUrl": "",
+    "author": "NIAID",
+    "credit": "E. coli Bacteria",
+    "description": "Scanning electron micrograph of Escherichia coli, grown in culture and adhered to a cover slip. Credit: NIAID",
+    "via": "Commons search \"Escherichia coli\""
+  },
+  {
+    "file": "File:Escherichia-coli-bacterium(1).tif",
+    "page": "https://commons.wikimedia.org/wiki/File:Escherichia-coli-bacterium(1).tif",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Escherichia-coli-bacterium%281%29.tif",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Escherichia-coli-bacterium%281%29.tif/lossy-page1-330px-Escherichia-coli-bacterium%281%29.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 3439,
+    "height": 3439,
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "author": "David S. Goodsell, RCSB Protein Data Bank",
+    "credit": "http://pdb101.rcsb.org/sci-art/goodsell-gallery/escherichia-coli-bacterium",
+    "description": "This painting shows a cross-section through an Escherichia coli cell. The characteristic two-membrane cell wall of gram-negative bacteria is shown in green, with many lipopolysaccharide chains extending from the surface and a network of cro",
+    "via": "Commons search \"Escherichia coli\""
+  },
+  {
+    "file": "File:Escherichia coli EMB.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Escherichia_coli_EMB.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Escherichia_coli_EMB.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Escherichia_coli_EMB.jpg/330px-Escherichia_coli_EMB.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 6000,
+    "height": 4000,
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "author": "Gene Drendel",
+    "credit": "Own work",
+    "description": "Escherichia coli growing on Eosin methylene blue (EMB) media, the green metallic sheen is distinctive of E. coli grown on EMB.",
+    "via": "Commons search \"Escherichia coli\""
+  }
+]
