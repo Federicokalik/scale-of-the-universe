@@ -6,6 +6,8 @@ import { place, type Placed } from './placed';
 import { createSprites } from './sprites';
 
 const LABEL_FONT = '"Fraunces Variable",Georgia,serif';
+/** Scripts with no true italic (and none in the site's own typefaces) are lettered upright, in the system's face. */
+const UPRIGHT = /^(zh|ja|ar)/;
 const NUMBER_FONT = '"Public Sans Variable",system-ui,sans-serif';
 
 export interface Scene {
@@ -129,7 +131,7 @@ export function createScene(canvas: HTMLCanvasElement, data: SceneData): Scene {
       // Keep labels clear of the bottom control bar.
       if (labelY > height - 150 && y < height - 170) labelY = Math.min(labelY, height - 150);
       ctx.globalAlpha = alpha * Math.min(1, (px - 40) / 30);
-      ctx.font = `italic 500 ${fontSize + 1}px ${LABEL_FONT}`;
+      ctx.font = UPRIGHT.test(data.locale) ? `500 ${fontSize}px system-ui,sans-serif` : `italic 500 ${fontSize + 1}px ${LABEL_FONT}`;
       const textWidth = ctx.measureText(o.name).width;
       const box: [number, number, number, number] = [x - textWidth / 2 - 14, labelY - fontSize - 2, x + textWidth / 2 + 6, labelY + (px > 95 ? fontSize + 6 : 4)];
       if (taken.some((b) => box[0] < b[2] && box[2] > b[0] && box[1] < b[3] && box[3] > b[1])) continue;

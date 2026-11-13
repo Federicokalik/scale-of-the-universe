@@ -59,7 +59,7 @@ button{cursor:pointer}
 .search input::placeholder{color:var(--muted)}
 .results{position:absolute;top:calc(100% + 8px);right:0;left:0;min-width:270px;max-height:320px;overflow:auto;padding:8px;display:none;z-index:5;border-radius:24px}
 .results.open{display:block}
-.results button{display:flex;justify-content:space-between;gap:10px;width:100%;text-align:left;background:none;border:0;padding:9px 12px;border-radius:16px;transition:background .2s}
+.results button{display:flex;justify-content:space-between;gap:10px;width:100%;text-align:start;background:none;border:0;padding:9px 12px;border-radius:16px;transition:background .2s}
 .results button:hover,.results button:focus-visible{background:rgba(255,255,255,.16)}
 .results span:last-child{color:var(--muted);font-family:var(--mono);font-size:12px;white-space:nowrap}
 .btn{border-radius:999px;height:44px;padding:0 18px;white-space:nowrap;font-weight:500}
@@ -78,16 +78,16 @@ input[type=range]::-moz-range-thumb{width:38px;height:24px;border-radius:999px;b
 .read{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
 .pow{font-family:var(--display);font-weight:700;font-size:32px;line-height:1;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
 .pretty{font-family:var(--mono);font-size:13px;color:var(--accent)}
-.regime{color:var(--muted);font-size:13px;margin-left:auto}
+.regime{color:var(--muted);font-size:13px;margin-inline-start:auto}
 .slide{display:flex;align-items:center;gap:12px}
 .slide input{flex:1}
 .step{width:40px;height:40px;border-radius:50%;font-size:20px;line-height:1;flex:none}
 .hint{color:var(--muted);font-size:12px;text-align:center}
 
-.card{position:fixed;top:132px;right:16px;width:350px;max-height:calc(100% - 310px);overflow:auto;padding:20px;border-radius:32px;
+.card{position:fixed;top:132px;inset-inline-end:16px;width:350px;max-height:calc(100% - 310px);overflow:auto;padding:20px;border-radius:32px;
   opacity:0;visibility:hidden;transform:translateY(14px) scale(.94);transform-origin:top right;transition:opacity .22s,transform .5s var(--spring),visibility 0s .22s}
 .card.open{opacity:1;visibility:visible;transform:none;transition:opacity .22s,transform .5s var(--spring),visibility 0s}
-.card h2{font-family:var(--display);font-size:24px;line-height:1.12;letter-spacing:-.02em;margin:0 34px 4px 0;text-wrap:balance}
+.card h2{font-family:var(--display);font-size:24px;line-height:1.12;letter-spacing:-.02em;margin:0 0 4px;margin-inline-end:34px;text-wrap:balance}
 .card .kind{color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.08em}
 .card .size{font-family:var(--mono);font-size:18px;color:var(--accent);margin:10px 0 2px}
 .card .sci{font-family:var(--mono);font-size:12px;color:var(--muted)}
@@ -95,7 +95,7 @@ input[type=range]::-moz-range-thumb{width:38px;height:24px;border-radius:999px;b
 .card .cmp{color:var(--muted);font-size:13px}
 .badges{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
 .badge{font-size:11px;font-weight:600;border-radius:999px;padding:3px 10px;border:1px solid currentColor;background:rgba(255,255,255,.08)}
-.x{position:absolute;top:14px;right:14px;width:34px;height:34px;border-radius:50%;font-size:18px;line-height:1}
+.x{position:absolute;top:14px;inset-inline-end:14px;width:34px;height:34px;border-radius:50%;font-size:18px;line-height:1}
 .nav{display:flex;gap:8px;margin-top:16px}
 .nav button{flex:1;border-radius:999px;padding:8px 12px;font-size:13px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
 
@@ -104,7 +104,7 @@ dialog::backdrop{background:rgba(4,6,18,.45);-webkit-backdrop-filter:blur(6px);b
 dialog h2{font-family:var(--display);margin:0 0 8px;font-size:26px;letter-spacing:-.02em}
 dialog h3{font-size:14px;margin:16px 0 4px;color:var(--accent)}
 dialog p,dialog li{font-size:14px;max-width:65ch}
-dialog ul{padding-left:18px;margin:6px 0}
+dialog ul{padding-inline-start:18px;margin:6px 0}
 dialog a{color:var(--teal)}
 
 @media (max-width:720px){
@@ -113,11 +113,11 @@ dialog a{color:var(--teal)}
   .brand p{display:none}
   .chips{margin-top:6px}
   .search input{width:150px}
-  .card{top:auto;right:8px;left:8px;bottom:168px;width:auto;max-height:42%;transform-origin:bottom center}
+  .card{top:auto;inset-inline:8px;bottom:168px;width:auto;max-height:42%;transform-origin:bottom center}
   .bottom{width:calc(100% - 16px);bottom:8px;border-radius:28px;padding:12px 14px}
   .pow{font-size:24px}
   .hint{display:none}
-  .regime{margin-left:0}
+  .regime{margin-inline-start:0}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 @media (prefers-reduced-transparency:reduce){.glass,.btn,.chip,.step,.x,.brand,.search input,.nav button{background:rgba(20,24,46,.94);-webkit-backdrop-filter:none;backdrop-filter:none}}
