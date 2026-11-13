@@ -15,7 +15,7 @@ export interface Scene {
   target(): number;
   setZoom(value: number, immediate?: boolean): void;
   selected(): Placed | null;
-  /** Opens (or with null, closes) an object; `fly` also moves the scale onto it. */
+  /** Opens (or with null, closes) an object; `fly` also zooms to it and brings it to the middle of the view. */
   select(object: Placed | null, fly?: boolean): void;
   /** Opens the object with this id and flies to it. False when the id is unknown. */
   selectById(id: string): boolean;
@@ -42,6 +42,11 @@ export function createScene(canvas: HTMLCanvasElement, data: SceneData): Scene {
   let z = ZOOM_START;
   let zTarget = ZOOM_START;
   let selected: Placed | null = null;
+  /** The object the view is centred on; cleared as soon as the visitor zooms by hand. */
+  let focus: Placed | null = null;
+  /** Current shift of the whole scene, in CSS pixels, eased towards what centres `focus`. */
+  let shiftX = 0;
+  let shiftY = 0;
   let highlight: Flag | '' = '';
   let hits: [Placed, number, number, number][] = [];
 
@@ -61,9 +66,22 @@ export function createScene(canvas: HTMLCanvasElement, data: SceneData): Scene {
 
     const m = Math.min(width, height);
     const unit = m * 0.3;
-    const cx = width / 2;
-    const cy = height * 0.46;
-    renderer.background(z, t, width, height, cx, cy);
+    // Objects sit around a fixed point; to bring one to the middle the whole scene is shifted
+    // by its offset from that point. The shift is eased, and eases back to zero without a focus.
+    let wantX = 0;
+    let wantY = 0;
+    if (focus) {
+      const px = Math.pow(10, focus.log - z) * unit;
+      wantX = -Math.cos(focus.angle) * focus.distance * px;
+      wantY = -Math.sin(focus.angle) * focus.distance * px * 0.86;
+    }
+    shiftX = reduceMotion ? wantX : shiftX + (wantX - shiftX) * 0.12;
+    shiftY = reduceMotion ? wantY : shiftY + (wantY - shiftY) * 0.12;
+    if (Math.abs(wantX - shiftX) < 0.05) shiftX = wantX;
+    if (Math.abs(wantY - shiftY) < 0.05) shiftY = wantY;
+    renderer.background(z, t, width, height, width / 2, height * 0.46);
+    const cx = width / 2 + shiftX;
+    const cy = height * 0.46 + shiftY;
 
     hits = [];
     const labels: [Placed, number, number, number, number][] = [];
@@ -138,13 +156,19 @@ export function createScene(canvas: HTMLCanvasElement, data: SceneData): Scene {
     zoom: () => z,
     target: () => zTarget,
     setZoom(value, immediate = false) {
+      focus = null;
       zTarget = Math.max(ZOOM_MIN, Math.min(ZOOM_MAX, value));
       if (immediate) z = zTarget;
     },
     selected: () => selected,
     select(object, fly = false) {
       selected = object;
-      if (object && fly) scene.setZoom(object.log + 0.05);
+      if (object && fly) {
+        scene.setZoom(object.log + 0.05);
+        focus = object;
+      } else if (!object) {
+        focus = null;
+      }
       for (const listener of selectListeners) listener(object);
     },
     selectById(id) {

@@ -56,7 +56,8 @@ export function bindInput(scene: Scene, { canvas, slider, minus, plus, onEscape 
 
   const release = (e: PointerEvent) => {
     const tap = pointers.has(e.pointerId) && pointers.size === 1 && moved <= 6 && e.type === 'pointerup';
-    if (tap) scene.select(scene.pick(e.clientX, e.clientY));
+    // A tap on an object, however small or far from the middle, zooms to it and centres it.
+    if (tap) scene.select(scene.pick(e.clientX, e.clientY), true);
     pointers.delete(e.pointerId);
     pinch = 0;
   };
