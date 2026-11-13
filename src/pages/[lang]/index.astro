@@ -104,6 +104,7 @@ const payload = JSON.stringify(data).replace(/</g, '\\u003c');
     <h2>{ui['dialog.title']}</h2>
     <p set:html={ui['dialog.intro']} />
     <p>{ui['dialog.experiment']}</p>
+    <p>{ui['dialog.translation']}</p>
 
     <h3>{ui['dialog.contents.title']}</h3>
     <p id="dlgCount">{fill(ui['dialog.contents.count'], totals)}</p>
@@ -173,7 +174,7 @@ const payload = JSON.stringify(data).replace(/</g, '\\u003c');
 
     <h3>{ui['dialog.ui.title']}</h3>
     <ul>
-      {['concept', 'type', 'emoji', 'art', 'music', 'stack'].map((key) => <li set:html={ui[`dialog.ui.${key}`]} />)}
+      {['concept', 'type', 'art', 'music', 'stack'].map((key) => <li set:html={ui[`dialog.ui.${key}`]} />)}
     </ul>
 
     <h3>{ui['dialog.privacy.title']}</h3>
