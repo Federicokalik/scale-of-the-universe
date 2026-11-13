@@ -73,7 +73,7 @@
     "regime.11": "Struttura a grande scala",
     "dialog.title": "Metodo e fonti",
     "dialog.intro": "Reinterpretazione indipendente dell'idea di <a href=\"https://scaleofuniverse.com/\">Scale of the Universe</a> di Cary e Michael Huang. Grafica, testi, codice e musica sono originali; dell'opera di partenza resta solo l'elenco degli oggetti, che sono fatti.",
-    "dialog.experiment": "Tutto il lavoro è un esperimento per provare Claude Fable 5.2, il modello di Anthropic che ha scritto codice e testi sotto la direzione di Federico Calicchia.",
+    "dialog.experiment": "Tutto il lavoro è un esperimento per provare Claude Fable 5.2, il modello di Anthropic. Il modello ha scritto codice e testi, ha cercato e controllato i dati e ha scelto le immagini in autonomia, a partire dalle richieste di Federico Calicchia. Nessuna persona ha rivisto il risultato: il sito è pubblicato così come il modello l'ha prodotto, e può contenere errori.",
     "dialog.translation": "L'italiano è la lingua originale di questo sito. Le altre lingue sono traduzioni automatiche, non riviste da madrelingua: se trovi un errore, segnalalo.",
     "dialog.contents.title": "Cosa contiene",
     "dialog.contents.count": "{n} oggetti: l'elenco della versione del 2012, con {r} valori corretti e un oggetto tolto perché senza fonte, più {new} oggetti nuovi.",

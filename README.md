@@ -10,7 +10,7 @@ This is an independent reinterpretation of **[Scale of the Universe](https://sca
 
 ## An experiment
 
-The whole project is an experiment to try **Claude Fable 5.2**, Anthropic's model, which wrote the code and the text under the direction of Federico Calicchia.
+The whole project is an experiment to try **Claude Fable 5.2**, Anthropic's model. The model wrote the code and the text, researched and checked the data and chose the images on its own, starting from Federico Calicchia's requests. No person has reviewed the result: the site is published as the model produced it, and it may contain errors.
 
 ## Privacy
 
