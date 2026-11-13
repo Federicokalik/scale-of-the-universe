@@ -48,9 +48,9 @@ export function createScene(canvas: HTMLCanvasElement, data: SceneData): Scene {
   let selected: Placed | null = null;
   /** The object the view is centred on; cleared as soon as the visitor zooms by hand. */
   let focus: Placed | null = null;
-  /** Current shift of the whole scene, in CSS pixels, eased towards what centres `focus`. */
-  let shiftX = 0;
-  let shiftY = 0;
+  /** The object whose offset the scene is shifted by, and how strongly (0 to 1, eased). */
+  let held: Placed | null = null;
+  let hold = 0;
   let centre = [0.5, 0.46];
   let centreTarget = [0.5, 0.46];
   let highlight: Flag | '' = '';
@@ -72,19 +72,24 @@ export function createScene(canvas: HTMLCanvasElement, data: SceneData): Scene {
 
     const m = Math.min(width, height);
     const unit = m * 0.3;
-    // Objects sit around a fixed point; to bring one to the middle the whole scene is shifted
-    // by its offset from that point. The shift is eased, and eases back to zero without a focus.
-    let wantX = 0;
-    let wantY = 0;
-    if (focus) {
-      const px = Math.pow(10, focus.log - z) * unit;
-      wantX = -Math.cos(focus.angle) * focus.distance * px;
-      wantY = -Math.sin(focus.angle) * focus.distance * px * 0.86;
+    // Objects sit around a fixed point; to bring one to the middle the whole scene is shifted by its
+    // offset from that point. Only the strength of the shift is eased (0 = none, 1 = centred): the
+    // offset itself is taken fresh every frame, because during a long flight it passes through
+    // astronomically large values that an eased position would take seconds to shed.
+    if (focus && focus !== held) {
+      held = focus;
+      hold = 0;
     }
-    shiftX = reduceMotion ? wantX : shiftX + (wantX - shiftX) * 0.12;
-    shiftY = reduceMotion ? wantY : shiftY + (wantY - shiftY) * 0.12;
-    if (Math.abs(wantX - shiftX) < 0.05) shiftX = wantX;
-    if (Math.abs(wantY - shiftY) < 0.05) shiftY = wantY;
+    const want = focus ? 1 : 0;
+    hold = reduceMotion || Math.abs(want - hold) < 1e-3 ? want : hold + (want - hold) * 0.12;
+    let shiftX = 0;
+    let shiftY = 0;
+    if (held && hold > 0) {
+      const px = Math.pow(10, held.log - z) * unit;
+      const limit = (width + height) * 4;
+      shiftX = Math.max(-limit, Math.min(limit, -Math.cos(held.angle) * held.distance * px * hold));
+      shiftY = Math.max(-limit, Math.min(limit, -Math.sin(held.angle) * held.distance * px * 0.86 * hold));
+    }
     centre = centre.map((v, i) => (reduceMotion || Math.abs(centreTarget[i] - v) < 1e-4 ? centreTarget[i] : v + (centreTarget[i] - v) * 0.12));
     renderer.background(z, t, width, height, width * centre[0], height * centre[1]);
     const cx = width * centre[0] + shiftX;
@@ -131,7 +136,7 @@ export function createScene(canvas: HTMLCanvasElement, data: SceneData): Scene {
       const flat = 'udw'.includes(o.kind) && !o.emoji;
       // The name sits right under what is actually drawn, which for a framed picture is smaller than the object's circle.
       const picture = Boolean(o.image);
-      const half = picture && o.imageShape === 'frame' ? px * 0.35 : picture && o.imageShape === 'art' && o.emoji ? px * 0.3 : flat ? Math.min(px * 0.16, 60) + 2 : px / 2;
+      const half = picture && o.imageShape === 'frame' ? px * 0.35 : picture && o.imageShape === 'art' && !'shpnxc'.includes(o.kind) ? px * 0.3 : flat ? Math.min(px * 0.16, 60) + 2 : px / 2;
       let labelY = y + half + fontSize + 6;
       // Keep labels clear of the bottom control bar.
       if (labelY > height - 150 && y < height - 170) labelY = Math.min(labelY, height - 150);

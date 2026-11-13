@@ -231,7 +231,7 @@ function world(o, random) {
   if (o.id === 'oumuamua') return `<g transform="rotate(-22 ${CX} ${CY})">${path(blob(CX, CY, 250, random, 11, 0.1, 0.17), `fill="${c}"`)}${path(blob(CX - 20, CY - 12, 200, random, 9, 0.12, 0.08), 'fill="#fff" opacity=".12"')}</g>`;
   if (['cruithne', 'ganymed', 'psyche', 'galatea', 'nereide', 'bianca', 'belinda'].includes(o.id)) return path(blob(CX, CY, 190, random, 10, 0.2, 0.84), `fill="${c}"`) + path(blob(CX - 46, CY - 44, 96, random, 8, 0.2, 0.8), 'fill="#fff" opacity=".12"') + circle(CX + 60, CY + 40, 30, 'fill="#000" opacity=".18"') + circle(CX - 20, CY + 80, 18, 'fill="#000" opacity=".18"');
   // Haumea spins so fast that it is stretched into an ellipsoid about twice as long as it is thick.
-  if (o.id === 'haumea') return `<g transform="translate(${CX} ${CY}) rotate(-14) scale(1.3 .66) translate(${-CX} ${-CY})">${sphere(CX, CY, 200, c, 'w')}</g>`;
+  if (o.id === 'haumea') return `<g transform="translate(${CX} ${CY}) rotate(-14) scale(1 .51) translate(${-CX} ${-CY})">${sphere(CX, CY, 200, c, 'w')}</g>`;
   let s = sphere(CX, CY, 200, c, 'w');
   if (o.id === 'tres-4-b' || o.id === 'k2-18-b') {
     let bands = '';
@@ -833,7 +833,8 @@ function everyday(o, random) {
 const DRAW = { q: particle, u: unit, d: distance, w: wave, a: atomOrNucleus, m: molecule, s: star, p: world, h: blackHole, c: cosmic, n: cloud, x: dwarfGalaxy, b: everyday, o: everyday, g: everyday };
 const SKY = 'sphcnx';
 
-export function illustration(o) {
+/** `bare` leaves the background out: the canvas draws sky objects straight onto the scene. */
+export function illustration(o, bare = false) {
   const body = DRAW[o.kind](o, rng(o.id));
   let grid = '';
   if (!SKY.includes(o.kind)) {
@@ -842,7 +843,7 @@ export function illustration(o) {
   }
   return (
     `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img">` +
-    `<rect width="${W}" height="${H}" fill="${SKY.includes(o.kind) ? '#05060a' : '#0b0d13'}"/>${grid}${body}</svg>\n`
+    (bare ? '' : `<rect width="${W}" height="${H}" fill="${SKY.includes(o.kind) ? '#05060a' : '#0b0d13'}"/>${grid}`) + `${body}</svg>\n`
   );
 }
 
@@ -861,7 +862,7 @@ for (const o of targets) {
   const svg = illustration(o);
   writeFileSync(`public/img/${o.id}.svg`, svg);
   // A small raster copy for the canvas, which draws it in place of an emoji.
-  await sharp(Buffer.from(svg)).resize(320, 240).webp({ quality: 82 }).toFile(`public/img/${o.id}-256.webp`);
+  await sharp(Buffer.from(SKY.includes(o.kind) ? illustration(o, true) : svg)).resize(512, 384).webp({ quality: 80 }).toFile(`public/img/${o.id}-256.webp`);
   o.image = o.id;
   o.imageShape = 'art';
   credits[o.id] = { title: 'Illustrazione originale', author: 'Federico Calicchia', licence: 'CC BY 4.0', licenceUrl: 'https://creativecommons.org/licenses/by/4.0/', page: SITE };

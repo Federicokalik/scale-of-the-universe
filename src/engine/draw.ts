@@ -27,8 +27,9 @@ export function createRenderer(ctx: Ctx, sprites: Sprites, still = false): Rende
 
   /** The object's photograph once it has loaded; starts the download the first time it is asked for. */
   function photo(o: Placed): HTMLImageElement | null {
-    // A drawing stands in on the canvas only where the object would otherwise be an emoji.
-    if (!o.image || (o.imageShape === 'art' && !o.emoji)) return null;
+    // Stars and black holes without a photograph are drawn by the code below, which renders them well at any size;
+    // every other illustrated object shows its own drawing.
+    if (!o.image || (o.imageShape === 'art' && 'sh'.includes(o.kind))) return null;
     const known = photos.get(o.image);
     if (known !== undefined) return known && known.complete && known.naturalWidth ? known : null;
     const image = new Image();
@@ -67,6 +68,13 @@ export function createRenderer(ctx: Ctx, sprites: Sprites, still = false): Rende
     ctx.arc(x, y, r, 0, 7);
     ctx.stroke();
     ctx.setLineDash([]);
+    if (o.imageShape === 'art' && 'pnxc'.includes(o.kind)) {
+      // Sky drawings have no background of their own, so only the object itself is painted.
+      // A world fills half the plate's width; a cloud, galaxy or structure nearly all of it.
+      const w = px * (o.kind === 'p' ? 2 : 1.25);
+      ctx.drawImage(image, x - w / 2, y - (w * 0.75) / 2, w, w * 0.75);
+      return true;
+    }
     if (o.imageShape === 'art') {
       // The drawing is a 4:3 plate whose diagonal is the object's size.
       const w = px * 0.8;

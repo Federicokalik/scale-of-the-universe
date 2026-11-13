@@ -120,8 +120,11 @@ const payload = JSON.stringify(data).replace(/</g, '\\u003c');
   </div>
 
   <dialog class="glass" id="dlg">
-    <button class="x" id="dlgX" aria-label={ui['dialog.close']}>×</button>
-    <h2>{ui['dialog.title']}</h2>
+    <header class="dlg-head">
+      <h2>{ui['dialog.title']}</h2>
+      <button class="x" id="dlgX" aria-label={ui['dialog.close']}>×</button>
+    </header>
+    <div class="dlg-body">
     <p set:html={ui['dialog.intro']} />
     <p>{ui['dialog.experiment']}</p>
     <p>{ui['dialog.translation']}</p>
@@ -202,6 +205,7 @@ const payload = JSON.stringify(data).replace(/</g, '\\u003c');
 
     <p set:html={ui['dialog.author']} />
     <button class="btn" id="dlgClose">{ui['dialog.close']}</button>
+    </div>
   </dialog>
 
   <script type="application/json" id="scene-data" set:html={payload} />

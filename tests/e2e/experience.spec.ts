@@ -168,3 +168,28 @@ test('the language menu switches language and keeps the open object', async ({ p
   await expect(page).toHaveURL(/\/en\/#terra$/);
   await expect(page.locator('.card h2')).toHaveText('Earth');
 });
+
+test('an object at the far end of the scale is drawn once the view has flown to it', async ({ page }) => {
+  // A long flight once left the scene shifted off-screen for seconds: nothing was drawn at all.
+  await page.goto('/it/#laniakea');
+  await page.waitForTimeout(3500);
+  const drawn = await page.evaluate(
+    () =>
+      new Promise<string[]>((resolve) => {
+        const proto = CanvasRenderingContext2D.prototype;
+        const original = proto.fillText;
+        const seen: string[] = [];
+        proto.fillText = function (text: string, ...rest: [number, number]) {
+          seen.push(text);
+          return original.call(this, text, ...rest);
+        };
+        requestAnimationFrame(() =>
+          requestAnimationFrame(() => {
+            proto.fillText = original;
+            resolve(seen);
+          }),
+        );
+      }),
+  );
+  expect(drawn).toContain('Laniakea');
+});

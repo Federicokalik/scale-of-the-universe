@@ -434,14 +434,33 @@ dialog h3 {
   font-size: 12px;
 }
 
-/* The method dialog can be closed from the top as well as from the end. */
-dialog .x {
-  position: sticky;
-  top: 0;
-  float: inline-end;
-  margin-inline-start: 12px;
-  z-index: 1;
-  background: rgba(20, 22, 30, 0.96);
+/* The method dialog: a fixed header with the title and the close button; only the body scrolls. */
+dialog[open] {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  overflow: hidden;
+}
+.dlg-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 20px 20px 12px 26px;
+  padding-inline: 26px 20px;
+  border-bottom: 1px solid var(--line);
+}
+.dlg-head h2 {
+  margin: 0;
+}
+.dlg-head .x {
+  position: static;
+  flex: none;
+}
+.dlg-body {
+  overflow: auto;
+  overscroll-behavior: contain;
+  padding: 8px 26px 26px;
 }
 dialog {
   overscroll-behavior: contain;
@@ -531,8 +550,13 @@ dialog {
     bottom: max(8px, env(safe-area-inset-bottom));
   }
   dialog {
-    padding: 20px;
     max-height: 88%;
+  }
+  .dlg-head {
+    padding-inline: 20px 14px;
+  }
+  .dlg-body {
+    padding: 8px 20px 20px;
   }
 }
 
@@ -611,4 +635,66 @@ button:disabled {
   .card {
     max-height: calc(100% - 172px);
   }
+}
+
+/* ---- scrollbars: slim, in the panel's own colours, and kept inside its rounded corners ---- */
+.card,
+.dlg-body,
+.results {
+  --bar: rgba(243, 239, 230, 0.32);
+  --bar-hover: rgba(243, 239, 230, 0.55);
+}
+/* Chromium and Safari: a floating thumb with clear space around it, a track that stops short of the corners, no arrows. */
+.card::-webkit-scrollbar,
+.dlg-body::-webkit-scrollbar,
+.results::-webkit-scrollbar {
+  width: 14px;
+  height: 14px;
+}
+.card::-webkit-scrollbar-track,
+.dlg-body::-webkit-scrollbar-track,
+.results::-webkit-scrollbar-track {
+  background: transparent;
+  margin-block: 18px;
+}
+.card::-webkit-scrollbar-thumb,
+.dlg-body::-webkit-scrollbar-thumb,
+.results::-webkit-scrollbar-thumb {
+  background: var(--bar);
+  background-clip: padding-box;
+  border: 4px solid transparent;
+  border-radius: 999px;
+  min-height: 44px;
+}
+.card::-webkit-scrollbar-thumb:hover,
+.dlg-body::-webkit-scrollbar-thumb:hover,
+.results::-webkit-scrollbar-thumb:hover {
+  background: var(--bar-hover);
+  background-clip: padding-box;
+}
+.card::-webkit-scrollbar-button,
+.dlg-body::-webkit-scrollbar-button,
+.results::-webkit-scrollbar-button,
+.card::-webkit-scrollbar-corner,
+.dlg-body::-webkit-scrollbar-corner,
+.results::-webkit-scrollbar-corner {
+  display: none;
+}
+/* Firefox has no such parts: the standard properties give it a thin bar in the same colours. */
+@supports not selector(::-webkit-scrollbar) {
+  .card,
+  .dlg-body,
+  .results {
+    scrollbar-width: thin;
+    scrollbar-color: var(--bar) transparent;
+  }
+}
+/* Note: scrollbar-color is inherited and, once set, switches Chromium to the standard bar with its arrows,
+   so it is set only inside the @supports block above and never on a parent. */
+/* Chromium keeps the arrow buttons unless they are given no size at all. */
+.card::-webkit-scrollbar-button,
+.dlg-body::-webkit-scrollbar-button,
+.results::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
 }
