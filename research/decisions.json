@@ -1,0 +1,466 @@
+[
+  {
+    "id": "quark-up",
+    "size": 8.6e-19,
+    "basis": "limite superiore sperimentale al diametro: due volte il raggio efficace massimo misurato da ZEUS",
+    "verdict": "corrected",
+    "flags": [
+      "u",
+      "r"
+    ],
+    "desc": "Il quark up ha carica elettrica +2/3 e una massa di circa 2,16 MeV secondo il Particle Data Group. Con il quark down forma la prima generazione, quella di cui è fatta tutta la materia stabile. Non ha una dimensione misurata: la grandezza mostrata è il limite superiore dell'esperimento ZEUS a HERA, secondo cui un'eventuale struttura ha un raggio inferiore a 0,43×10⁻¹⁸ m.",
+    "sources": [
+      {
+        "title": "Quarks, Summary Table, Review of Particle Physics 2024",
+        "url": "https://pdg.lbl.gov/2024/tables/rpp2024-sum-quarks.pdf",
+        "publisher": "Particle Data Group (LBNL)",
+        "evidence": "mu = 2.16 ± 0.07 MeV"
+      },
+      {
+        "title": "The Standard Model",
+        "url": "https://home.cern/science/physics/standard-model",
+        "publisher": "CERN",
+        "evidence": "stable matter in the universe is made from particles that belong to the first generation"
+      },
+      {
+        "title": "Limits on the effective quark radius from inclusive ep scattering at HERA",
+        "url": "https://arxiv.org/abs/1604.01280",
+        "publisher": "ZEUS Collaboration, arXiv (accettato da Physics Letters B)",
+        "evidence": "upper limit on the effective quark radius is $0.43\\cdot 10^{-16}$ cm"
+      }
+    ],
+    "note": "Vincolo V6: da 1,1e-18 m (convenzione sopra il limite) a 2 × 0,43e-18 m = 8,6e-19 m. Nota del lotto: Il valore convenzionale 1,1e-18 m è più grande del limite sperimentale ZEUS (0,43e-18 m): mantenuto come da istruzioni di categoria, ma la descrizione lo dice. Da valutare se abbassarlo sotto il limite. La frase \"costituente di protoni e neutroni\" è stata sostituita con quella sulla prima generazione, sostenuta dalla pagina CERN. Massa MS-bar a 2 GeV dal PDG 2024 (PDF aperto ed estratto in testo).",
+    "verified": "2026-11-13"
+  },
+  {
+    "id": "quark-down",
+    "size": 8.6e-19,
+    "basis": "limite superiore sperimentale al diametro: due volte il raggio efficace massimo misurato da ZEUS",
+    "verdict": "corrected",
+    "flags": [
+      "u",
+      "r"
+    ],
+    "desc": "Il quark down ha carica elettrica −1/3 e una massa di circa 4,70 MeV secondo il Particle Data Group, poco più del doppio di quella del quark up. Con il quark up forma la prima generazione, quella di cui è fatta tutta la materia stabile. Non ha una dimensione misurata: la grandezza mostrata è il limite superiore dell'esperimento ZEUS a HERA, secondo cui un'eventuale struttura ha un raggio inferiore a 0,43×10⁻¹⁸ m.",
+    "sources": [
+      {
+        "title": "Quarks, Summary Table, Review of Particle Physics 2024",
+        "url": "https://pdg.lbl.gov/2024/tables/rpp2024-sum-quarks.pdf",
+        "publisher": "Particle Data Group (LBNL)",
+        "evidence": "md = 4.70 ± 0.07 MeV"
+      },
+      {
+        "title": "The Standard Model",
+        "url": "https://home.cern/science/physics/standard-model",
+        "publisher": "CERN",
+        "evidence": "stable matter in the universe is made from particles that belong to the first generation"
+      },
+      {
+        "title": "Limits on the effective quark radius from inclusive ep scattering at HERA",
+        "url": "https://arxiv.org/abs/1604.01280",
+        "publisher": "ZEUS Collaboration, arXiv (accettato da Physics Letters B)",
+        "evidence": "upper limit on the effective quark radius is $0.43\\cdot 10^{-16}$ cm"
+      }
+    ],
+    "note": "Vincolo V6: da 1,2e-18 m (convenzione sopra il limite) a 2 × 0,43e-18 m = 8,6e-19 m. Nota del lotto: Il valore convenzionale 1,2e-18 m è più grande del limite sperimentale ZEUS (0,43e-18 m): mantenuto come da istruzioni di categoria, ma la descrizione lo dice. Da valutare se abbassarlo sotto il limite. Rapporto delle masse: il PDG dà mu/md = 0,462, cioè md è circa 2,2 volte mu. La frase \"costituente di protoni e neutroni\" è stata sostituita con quella sulla prima generazione, sostenuta dalla pagina CERN.",
+    "verified": "2026-11-13"
+  },
+  {
+    "id": "seme-di-girasole",
+    "size": 0.0078,
+    "basis": "lunghezza (asse maggiore) del seme con il guscio (achenio)",
+    "verdict": "corrected",
+    "flags": [
+      "u",
+      "r"
+    ],
+    "desc": "Il seme di girasole è in realtà un frutto secco, l'achenio, che racchiude il seme vero e proprio. Uno studio dell'Università di Uludağ ha misurato in media 7,79 mm di lunghezza, 7,12 mm di larghezza e 4,18 mm di spessore. La lunghezza dipende molto dalla varietà, e i semi da sgranocchiare sono sensibilmente più lunghi.",
+    "sources": [
+      {
+        "title": "Physical properties of sunflower seeds (Helianthus annuus L.)",
+        "url": "https://acikerisim.uludag.edu.tr/entities/publication/6b47145a-8319-4a47-a8db-93cc6fb53291/full",
+        "publisher": "Işık e İzli, International Journal of Agricultural Research (2007), archivio dell'Università di Uludağ",
+        "evidence": "average length, width and thickness were 7.79, 7.12 and 4.18 mm"
+      }
+    ],
+    "note": "Vincolo V1: da 10,4 mm a 7,8 mm, l'unica cifra letta su una fonte aperta. Nota del lotto: L'unica fonte che si è aperta dà 7,79 mm per una varietà turca (umidità 10,06% su base secca), cioè il 25% in meno del valore attuale. Altri studi comparsi solo nei risultati di ricerca (Gupta e Das 1997; Madras Agricultural Journal 2014; una rassegna MDPI con 7-25 mm) indicano 8-12 mm per le varietà da olio e oltre 15 mm per quelle da consumo diretto, ma le pagine non si sono aperte (403, verifica del browser o PDF non leggibile) e non sono citate. Per questo il valore di 10,4 mm resta, ma come incerto. L'affermazione sui semi da consumo più lunghi è qualitativa e non ha una cifra verificata.",
+    "verified": "2026-11-13"
+  },
+  {
+    "id": "torre-di-pisa",
+    "size": 58.36,
+    "basis": "altezza dichiarata dall'ente gestore",
+    "verdict": "corrected",
+    "flags": [
+      "n",
+      "r"
+    ],
+    "desc": "È il campanile del Duomo di Pisa, iniziato nel 1174 e inclinatosi già durante la costruzione. L'Opera della Primaziale Pisana, che lo gestisce, indica un'altezza di 58,36 m, un diametro esterno di 15 m e un peso di 14.453 tonnellate. All'interno una scala di 273 gradini porta alla cella delle sette campane.",
+    "sources": [
+      {
+        "title": "Tower",
+        "url": "https://www.opapisa.it/en/square-of-miracles/tower/",
+        "publisher": "Opera della Primaziale Pisana",
+        "evidence": "Height: 58,36 metres External diameter: 15 metres Weight: 14.453 tonnes"
+      },
+      {
+        "title": "Pisa, Enciclopedia on line",
+        "url": "https://www.treccani.it/enciclopedia/pisa/",
+        "publisher": "Istituto della Enciclopedia Italiana Treccani",
+        "evidence": "Il celebre campanile, a torre pendente, fu iniziato da Bonanno nel 1174"
+      }
+    ],
+    "note": "Vincolo V2: da 56 m a 58,36 m, la cifra citata nella descrizione. Nota del lotto: L'ente gestore dà 58,36 m; il valore attuale di 56 m è più basso del 4,0% (56 / 58,36 = 0,960), quindi entro la soglia del 5% e lasciato invariato. Non ho potuto aprire una fonte che dichiari 56 m o che spieghi la differenza (di solito attribuita alla misura dal piano di fondazione anziché dal suolo): Britannica è bloccata da una verifica anti-bot. Da valutare se portare il valore a 58,36 m per coerenza con la descrizione. L'inclinazione non è riportata perché la pagina ufficiale dà circa 5,115°, valore che non ho potuto confrontare con un'altra fonte.",
+    "verified": "2026-11-13"
+  },
+  {
+    "id": "olympus-mons-altezza",
+    "size": 25000,
+    "basis": "altezza dalla base alla vetta",
+    "verdict": "corrected",
+    "flags": [
+      "n",
+      "u",
+      "r"
+    ],
+    "desc": "Olympus Mons è un vulcano a scudo di Marte, il più grande vulcano e la montagna più alta del Sistema Solare. Il Guinness World Records indica 25 km dalla base alla vetta, quasi tre volte l'Everest, ma il valore cambia secondo il riferimento scelto per misurarlo. Nonostante l'altezza ha pendii molto dolci, perché è oltre 20 volte più largo che alto.",
+    "sources": [
+      {
+        "title": "Tallest mountain in the Solar System",
+        "url": "https://www.guinnessworldrecords.com/world-records/highest-mountain-in-the-solar-system",
+        "publisher": "Guinness World Records",
+        "evidence": "Its peak is 25 km (15 miles) above its base"
+      },
+      {
+        "title": "Mars: Facts",
+        "url": "https://science.nasa.gov/mars/facts/",
+        "publisher": "NASA Science",
+        "evidence": "Mars is home to the largest volcano in the solar system, Olympus Mons"
+      }
+    ],
+    "note": "Vincolo V1: da 21,9 km (quota sul livello di riferimento, senza fonte aperta) a 25 km dalla base alla vetta (Guinness World Records). Nota del lotto: ATTENZIONE: il valore di 21,9 km (quota sopra il livello di riferimento, dall'altimetro MOLA di Mars Global Surveyor) non è stato verificato su una pagina aperta, perché i siti NASA/USGS che lo riportano erano bloccati dalla rete della sessione. Le fonti aperte danno altezze dalla base: 25 km (Guinness) e \"more than 25 miles ... 40 kilometers\" (pagina NASA Mars Facts, valore anomalo rispetto al resto della letteratura). Per questo il verdetto è uncertain con flag u e la dimensione resta invariata; la descrizione cita solo il valore verificato (25 km dalla base). Prima della pubblicazione conviene confermare i 21,9 km su una fonte MOLA, oppure portare la dimensione a 25.000 m (dalla base).",
+    "verified": "2026-11-13"
+  },
+  {
+    "id": "deimos",
+    "size": 15600,
+    "basis": "asse più lungo (due volte il semiasse maggiore di 7,8 km)",
+    "verdict": "corrected",
+    "flags": [
+      "r"
+    ],
+    "desc": "Deimos è la più piccola delle due lune di Marte, scoperta l'11 agosto 1877 da Asaph Hall. Ha forma irregolare: l'asse più lungo misura circa 15,6 km, contro un diametro medio di circa 12,4 km. Orbita attorno a Marte ogni 30 ore circa.",
+    "sources": [
+      {
+        "title": "Mars Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html",
+        "publisher": "NASA NSSDCA",
+        "evidence": "Subplanetary axis radius (km) 13.0 7.8 Along-orbit axis radius (km) 11.4 6.0"
+      },
+      {
+        "title": "Deimos",
+        "url": "https://science.nasa.gov/mars/moons/deimos/",
+        "publisher": "NASA Science",
+        "evidence": "15 by 12 by 11 kilometers"
+      }
+    ],
+    "note": "Vincolo V3: corpo irregolare, da diametro medio 12,4 km ad asse più lungo 2 × 7,8 = 15,6 km (NSSDCA). Nota del lotto: Calcolo: semiassi 7,8 × 6,0 × 5,1 km; media geometrica (7,8 × 6,0 × 5,1)^(1/3) = 6,20 km; diametro medio 12,4 km. Il corpo è irregolare e l'asse maggiore è 15,6 km (2 × 7,8): se per i corpi irregolari si vuole l'asse maggiore, la misura sarebbe 15.600 m. Qui è confermato il valore attuale come diametro medio. Nella scheda NSSDCA le colonne sono Fobos e Deimos; il semiasse polare è 9,1 e 5,1 km.",
+    "verified": "2026-11-13"
+  },
+  {
+    "id": "fobos",
+    "size": 26000,
+    "basis": "asse più lungo (due volte il semiasse maggiore di 13,0 km)",
+    "verdict": "corrected",
+    "flags": [
+      "r"
+    ],
+    "desc": "Fobos è la più grande delle due lune di Marte, di forma irregolare: l'asse più lungo misura circa 26 km, contro un diametro medio di circa 22 km. Orbita così vicino al pianeta da compiere tre giri al giorno. La missione giapponese MMX, lanciata il 20 ottobre 2026, punta a riportarne campioni sulla Terra nel 2031.",
+    "sources": [
+      {
+        "title": "Mars Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html",
+        "publisher": "NASA NSSDCA",
+        "evidence": "Subplanetary axis radius (km) 13.0 7.8 Along-orbit axis radius (km) 11.4 6.0"
+      },
+      {
+        "title": "Phobos",
+        "url": "https://science.nasa.gov/mars/moons/phobos/",
+        "publisher": "NASA Science",
+        "evidence": "27 by 22 by 18 kilometers"
+      },
+      {
+        "title": "MMX - Martian Moons eXploration",
+        "url": "https://www.mmx.jaxa.jp/en/",
+        "publisher": "JAXA",
+        "evidence": "return to Earth targeted for 2031"
+      }
+    ],
+    "note": "Vincolo V3: corpo irregolare, da diametro medio 22,2 km ad asse più lungo 2 × 13,0 = 26 km (NSSDCA). Nota del lotto: Calcolo: semiassi 13,0 × 11,4 × 9,1 km; media geometrica (13,0 × 11,4 × 9,1)^(1/3) = 11,05 km; diametro medio 22,1 km, entro lo 0,5% da 22,2 km. Il corpo è irregolare e l'asse maggiore è 26 km (2 × 13,0; 27 km per NASA Science): se per i corpi irregolari si vuole l'asse maggiore, la misura sarebbe circa 26.000 m. Qui è confermato il valore attuale come diametro medio. Nella scheda NSSDCA le colonne sono Fobos e Deimos; il semiasse polare è 9,1 e 5,1 km. La pagina JAXA riporta anche 'LAUNCH [Success] 2026.10.20'.",
+    "verified": "2026-11-13"
+  },
+  {
+    "id": "galatea",
+    "size": 204000,
+    "basis": "asse più lungo (due volte il semiasse maggiore di 102 km)",
+    "verdict": "corrected",
+    "flags": [
+      "r"
+    ],
+    "desc": "Galatea è una piccola luna interna di Nettuno dalla forma irregolare: l'asse più lungo misura circa 204 km, contro un diametro medio di circa 176 km. È stata scoperta nel luglio 1989 dal gruppo scientifico della sonda Voyager 2. Si ritiene che la sua gravità disturbi gli anelli di Nettuno.",
+    "sources": [
+      {
+        "title": "Neptunian Satellite Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/neptuniansatfact.html",
+        "publisher": "NASA NSSDCA (Goddard Space Flight Center)",
+        "evidence": "Galatea (NVI) 0.04 102 x 92 x 72 0.08"
+      },
+      {
+        "title": "Galatea",
+        "url": "https://science.nasa.gov/neptune/moons/galatea/",
+        "publisher": "NASA Science",
+        "evidence": "Galatea was discovered in July 1989 by the Voyager 2 science team"
+      }
+    ],
+    "note": "Vincolo V3: corpo irregolare, da diametro medio 176 km ad asse più lungo 2 × 102 = 204 km (NSSDCA). Nota del lotto: NSSDCA dà i semiassi 102 × 92 × 72 km: raggio medio = (102 × 92 × 72)^(1/3) = 87,7 km, diametro medio 175,5 km, in accordo con 176 km. L'asse maggiore sarebbe 2 × 102 = 204 km. La tabella JPL SSD riporta invece un raggio medio di 79 ± 12 km (diametro 158 km), compatibile entro l'incertezza.",
+    "verified": "2026-11-13"
+  },
+  {
+    "id": "vesta",
+    "size": 569000,
+    "basis": "asse più lungo",
+    "verdict": "corrected",
+    "flags": [
+      "n",
+      "r"
+    ],
+    "desc": "Vesta è il secondo corpo più massiccio della fascia principale degli asteroidi, dopo Cerere: misura circa 569 × 555 × 453 km, con un diametro medio di circa 525 km. La sonda Dawn della NASA le ha orbitato attorno dal 16 luglio 2011 al 5 settembre 2012. Il cratere Rheasilvia, largo circa 500 km, è quasi grande quanto l'asteroide stesso.",
+    "sources": [
+      {
+        "title": "Asteroid Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/asteroidfact.html",
+        "publisher": "NASA NSSDCA",
+        "evidence": "4 Vesta 569 x 555 x 453"
+      },
+      {
+        "title": "Vesta",
+        "url": "https://science.nasa.gov/solar-system/asteroids/4-vesta/",
+        "publisher": "NASA Science",
+        "evidence": "Vesta is the second most massive body in the main asteroid belt"
+      }
+    ],
+    "note": "Vincolo V3: corpo non arrotondato dalla propria gravità, da diametro medio 525 km ad asse più lungo 569 km (NSSDCA). Nota del lotto: Assi NSSDCA 569 x 555 x 453 km: media aritmetica 525,7 km, media geometrica 523,0 km. La NASA indica che Rheasilvia (500 km) è circa il 95% del diametro medio, cioè circa 526 km. Valore attuale entro l'1%.",
+    "verified": "2026-11-13"
+  },
+  {
+    "id": "psyche",
+    "size": 278000,
+    "basis": "asse più lungo del modello di forma",
+    "verdict": "corrected",
+    "flags": [
+      "n",
+      "r"
+    ],
+    "desc": "(16) Psyche è un grande asteroide ricco di metallo della fascia principale, con una forma irregolare simile a una patata. Nel punto più largo misura circa 278 km, contro un diametro equivalente di circa 222 km. La sonda Psyche della NASA, lanciata il 13 ottobre 2023, dovrebbe iniziare la sua missione attorno all'asteroide nell'agosto 2029.",
+    "sources": [
+      {
+        "title": "Asteroid 16 Psyche: Shape, Features, and Global Map (Shepard et al. 2021)",
+        "url": "https://arxiv.org/abs/2110.03635",
+        "publisher": "Shepard et al., Planetary Science Journal, arXiv",
+        "evidence": "an effective spherical diameter Deff = 222 -1/+4 km"
+      },
+      {
+        "title": "Asteroid Psyche",
+        "url": "https://science.nasa.gov/solar-system/asteroids/16-psyche/",
+        "publisher": "NASA Science",
+        "evidence": "Psyche begins its prime mission at the asteroid in August 2029"
+      }
+    ],
+    "note": "Vincolo V3: corpo irregolare, da diametro equivalente 220 km ad asse più lungo 278 km (Shepard e colleghi 2021, abstract). Nota del lotto: 220 km contro 222 km (differenza 0,9%), valore mantenuto. Modello di forma: 278 × 238 × 171 km; la NASA indica 280 km nel punto più largo. La NASA precisa che Psyche è probabilmente una miscela di roccia e metallo, non metallo puro: «ricco di metallo» resta corretto.",
+    "verified": "2026-11-13"
+  },
+  {
+    "id": "mercurio",
+    "size": 4879000,
+    "basis": "diametro medio (due volte il raggio medio volumetrico)",
+    "verdict": "confirmed",
+    "flags": [],
+    "desc": "Mercurio è il pianeta più vicino al Sole, con un diametro medio di circa 4.879 km. La sonda BepiColombo di ESA e JAXA, partita il 20 ottobre 2018, è stata progettata per studiarlo dall'orbita. Il piano di missione dell'ESA fissa l'ingresso in orbita al 21 novembre 2026 e l'inizio delle osservazioni scientifiche ad aprile 2027.",
+    "sources": [
+      {
+        "title": "Mercury Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/mercuryfact.html",
+        "publisher": "NASA NSSDCA",
+        "evidence": "Volumetric mean radius (km) 2439.7"
+      },
+      {
+        "title": "BepiColombo factsheet",
+        "url": "https://www.esa.int/Science_Exploration/Space_Science/BepiColombo/BepiColombo_factsheet",
+        "publisher": "ESA",
+        "evidence": "MPO+Mio enter Mercury orbit: 21 November 2026"
+      }
+    ],
+    "note": "Vincolo V8: la frase sul futuro è ora una previsione datata e attribuita. Nota del lotto: Raggio medio 2.439,7 km × 2 = 4.879,4 km. Alla data di verifica (12 novembre 2026) l'inserzione in orbita di BepiColombo è ancora futura: la pagina ESA degli aggiornamenti (6 ottobre 2026) conferma il 21 novembre 2026. La frase andrà aggiornata dopo quella data.",
+    "verified": "2026-11-13"
+  },
+  {
+    "id": "voyager-1",
+    "size": 25850000000000,
+    "basis": "distanza della sonda dalla Terra a novembre 2026",
+    "verdict": "confirmed",
+    "flags": [
+      "r"
+    ],
+    "desc": "Voyager 1, lanciata il 5 settembre 1977, è l'oggetto costruito dall'uomo più lontano dalla Terra. La NASA ha calcolato per il 18 novembre 2026 il traguardo di un giorno-luce di distanza, cioè 25,902 miliardi di km: a quella distanza un segnale radio impiega 24 ore per arrivare alla sonda. Nell'agosto 2012 è stata la prima sonda a entrare nello spazio interstellare.",
+    "sources": [
+      {
+        "title": "Where Are Voyager 1 and Voyager 2 Now?",
+        "url": "https://science.nasa.gov/mission/voyager/where-are-voyager-1-and-voyager-2-now/",
+        "publisher": "NASA Science",
+        "evidence": "Nov. 18, 2026 ... 16.094 billion miles (25.902 billion kilometers) away from Earth"
+      },
+      {
+        "title": "Voyager 1",
+        "url": "https://science.nasa.gov/mission/voyager/voyager-1/",
+        "publisher": "NASA Science",
+        "evidence": "Voyager 1 The most distant human-made object"
+      }
+    ],
+    "note": "Vincolo V8: la frase sul futuro è ora una previsione datata e attribuita. Nota del lotto: Un giorno-luce = 299.792.458 m/s × 86.400 s = 2,5902e13 m, raggiunto il 18 novembre 2026 (2:16 PST). Il valore attuale 2,585e13 m è lo 0,2% in meno, coerente con la data di verifica: la sonda si allontana e la distanza dalla Terra oscilla durante l'anno, quindi il dato invecchia in fretta. 'Metà novembre' è stato precisato in 18 novembre. Tolta la frase 'L'originale: 17 miliardi di km' (storia del dato, non verificata qui); il flag r resta.",
+    "verified": "2026-11-13"
+  },
+  {
+    "id": "afelio-della-cometa-hale-bopp",
+    "size": 53000000000000,
+    "basis": "distanza dal Sole all'afelio dell'orbita attuale della cometa C/1995 O1 (Hale-Bopp)",
+    "verdict": "corrected",
+    "flags": [
+      "r"
+    ],
+    "desc": "La cometa Hale-Bopp, scoperta il 23 luglio 1995 e passata al perielio il 1° aprile 1997, percorre un'orbita molto allungata. Gli elementi orbitali del JPL collocano il suo afelio a circa 354 unità astronomiche dal Sole, oltre dieci volte la distanza di Nettuno. Il nucleo ha un diametro di circa 60 km.",
+    "sources": [
+      {
+        "title": "Small-Body Database Lookup: C/1995 O1 (Hale-Bopp)",
+        "url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=C%2F1995%20O1",
+        "publisher": "NASA/JPL Solar System Dynamics",
+        "evidence": "ad 354 au"
+      },
+      {
+        "title": "C/1995 O1 (Hale-Bopp)",
+        "url": "https://science.nasa.gov/solar-system/comets/c-1995-o1-hale-bopp/",
+        "publisher": "NASA Science",
+        "evidence": "nucleus measuring approximately 37 miles (60 kilometers) in diameter"
+      }
+    ],
+    "note": "Vincolo V2: da 5,5e13 m (circa 368 UA) a 354 UA × 1,496e11 m = 5,3e13 m, la cifra citata nella descrizione. Nota del lotto: JPL SBDB (elementi osculanti eliocentrici, epoca JD 2459837.5): afelio 354 UA × 1,495978707e11 m = 5,30e13 m. Il valore attuale 5,5e13 m (circa 368 UA) è il 3,7% in più: entro la tolleranza del 5%, quindi la dimensione resta, ma la descrizione ora dice 354 UA invece di 'circa 370 UA', che non ho trovato in una fonte citabile. Se si vuole coerenza piena tra testo e dimensione, 5,3e13 m è il valore meglio sostenuto. La pagina SBDB è generata via JavaScript: i valori sono stati letti dalla stessa banca dati JPL che la alimenta. 354 UA / 30,1 UA = 11,8.",
+    "verified": "2026-11-13"
+  },
+  {
+    "id": "woh-g64",
+    "size": 1110000000000,
+    "basis": "diametro: due volte il raggio attuale stimato (circa 800 raggi solari)",
+    "verdict": "corrected",
+    "flags": [
+      "r",
+      "u"
+    ],
+    "desc": "WOH G64 è una supergigante rossa della Grande Nube di Magellano, circondata da uno spesso toro di polveri. Nel 2009 il suo raggio fu calcolato in 1.540 raggi solari, ma intorno al 2014 la stella è cambiata e uno studio pubblicato nel 2026 indica un raggio attuale di circa 800 raggi solari, il valore mostrato qui. Spettri del 2024-2025 mostrano che è ancora una supergigante rossa, quindi la sua natura e le sue dimensioni restano discusse.",
+    "sources": [
+      {
+        "title": "The Physical Properties of the Red Supergiant WOH G64: The Largest Star Known?",
+        "url": "https://arxiv.org/abs/0903.2260",
+        "publisher": "Levesque et al., The Astronomical Journal 137, 4744 (2009), arXiv",
+        "evidence": "We determine a radius of R/R_sun = 1540"
+      },
+      {
+        "title": "The dramatic transition of the extreme Red Supergiant WOH G64 to a Yellow Hypergiant",
+        "url": "https://arxiv.org/html/2411.19329",
+        "publisher": "Muñoz-Sanchez et al., Nature Astronomy 10, 702 (2026), arXiv",
+        "evidence": "The inferred current radius is approximately 800 R⊙"
+      },
+      {
+        "title": "A phoenix rises from the ashes: WOH G64 is still a red supergiant, for now",
+        "url": "https://arxiv.org/abs/2601.02057",
+        "publisher": "van Loon & Ohnaka, MNRAS (2026), arXiv",
+        "evidence": "This implies that WOH G64 is currently a red supergiant"
+      }
+    ],
+    "note": "Vincolo V4: misura più recente. Da 2,14e12 m (1.540 raggi solari, 2009) a 2 × 800 × 6,957e8 m = 1.11e+12 m. Nota del lotto: 2 × 1.540 × 6,957e8 m = 2,143e12 m: il valore attuale corrisponde alla stima del 2009 e viene mantenuto, con flag u. Muñoz-Sanchez et al. collocano la transizione fotometrica tra il 2013,5 e il 2014,5 e avvertono che gli 800 raggi solari sono 'indicative rather than definitive'; l'articolo è uscito su Nature Astronomy il 23 febbraio 2026 (pagina nature.com aperta per la data). Con 800 raggi solari il diametro sarebbe 1,11e12 m.",
+    "verified": "2026-11-13"
+  },
+  {
+    "id": "mu-cephei",
+    "size": 1350000000000,
+    "basis": "diametro: due volte il raggio della stima più recente (972 raggi solari)",
+    "verdict": "corrected",
+    "flags": [
+      "u",
+      "r"
+    ],
+    "desc": "Mu Cephei, la Stella Granata di Herschel, è una supergigante rossa nella costellazione di Cefeo. Le stime del raggio dipendono dalla distanza, ancora mal nota: 972 ± 228 raggi solari in uno studio del 2019 che adotta 641 parsec, 1.420 in uno studio del 2005. Il valore mostrato segue la stima più recente, circa 1,35 miliardi di km di diametro.",
+    "sources": [
+      {
+        "title": "NOEMA maps the CO J = 2 − 1 environment of the red supergiant μ Cep",
+        "url": "https://arxiv.org/pdf/1903.07129",
+        "publisher": "Montargès et al., MNRAS 485, 2417 (2019), arXiv",
+        "evidence": "R* 972 ± 228 R⊙"
+      },
+      {
+        "title": "The Effective Temperature Scale of Galactic Red Supergiants: Cool, But Not As Cool As We Thought",
+        "url": "https://arxiv.org/pdf/astro-ph/0504337",
+        "publisher": "Levesque et al., The Astrophysical Journal 628, 973 (2005), arXiv",
+        "evidence": "HD 206936 M1 I 3700 2.01 -0.5 -0.5 1420"
+      }
+    ],
+    "note": "Vincolo V4: misura più recente. Da 1,6e12 m a 2 × 972 × 6,957e8 m = 1.35e+12 m. Nota del lotto: Montargès et al. 2019 (Tabella 2): d = 641 +148/−144 pc, R = 972 ± 228 raggi solari, cioè diametro 1,35e12 m. Levesque et al. 2005 (Tabella 4, HD 206936 = mu Cep): 1.420 raggi solari, diametro 1,98e12 m. Il valore attuale (1,6e12 m = 1.150 raggi solari) sta nell'intervallo e viene mantenuto come incerto. Entrambi gli articoli usano il nome 'Herschel's Garnet Star'. Un articolo del 2026 (Wiesemeyer et al., A&A 711, A305) darebbe 762 raggi solari, ma aanda.org non si è aperto e quindi il dato non è usato.",
+    "verified": "2026-11-13"
+  },
+  {
+    "id": "distanza-del-grande-attrattore",
+    "size": 2.08e+24,
+    "basis": "distanza tra la Via Lattea e la regione del Grande Attrattore, il cui nucleo è identificato con l'ammasso della Norma (Abell 3627)",
+    "verdict": "corrected",
+    "flags": [
+      "u",
+      "r"
+    ],
+    "desc": "Il Grande Attrattore è una regione di spazio con un'enorme concentrazione di massa, la cui gravità domina la nostra parte di Universo. Viene associato all'ammasso di galassie della Norma, che dista circa 220 milioni di anni luce. La distanza è approssimativa, perché la zona si trova dietro il piano della Via Lattea, dove stelle e polveri nascondono gran parte degli oggetti.",
+    "sources": [
+      {
+        "title": "Hubble Focuses on \"the Great Attractor\"",
+        "url": "https://science.nasa.gov/missions/hubble/hubble-focuses-on-the-great-attractor/",
+        "publisher": "NASA Science",
+        "evidence": "lies about 220 million light-years away"
+      }
+    ],
+    "note": "Vincolo V2: da 2,2e24 m (232,5 milioni di anni luce) a 220 milioni di anni luce × 9,461e15 m = 2,08e24 m, la cifra citata nella descrizione. Nota del lotto: Il valore attuale, 2,2e24 m, corrisponde a 232,5 milioni di anni luce; la NASA indica circa 220 milioni di anni luce (2,08e24 m) per l'ammasso della Norma, differenza 5,4%. Il Grande Attrattore è una regione diffusa e non un oggetto con una distanza misurata con precisione: valore mantenuto, verdetto incerto, flag u aggiunto. La descrizione originale era vuota.",
+    "verified": "2026-11-13"
+  },
+  {
+    "id": "leo-ii",
+    "size": 39000000000000000000,
+    "basis": "diametro mareale (due volte il raggio mareale di 632 pc)",
+    "verdict": "corrected",
+    "flags": [
+      "u",
+      "r"
+    ],
+    "desc": "Leo II è una galassia nana sferoidale satellite della Via Lattea, a circa 233 kpc (760.000 anni luce) da noi. La sua estensione dipende dalla definizione: il raggio del nucleo è di circa 178 pc e il raggio mareale di circa 632 pc, quindi il diametro va da circa 360 a circa 1.260 pc (da 1.200 a 4.100 anni luce); qui è mostrato quello mareale. Le misure indicano che è dominata dalla materia oscura.",
+    "sources": [
+      {
+        "title": "A Wide-Field View of Leo II: A Structural Analysis Using the SDSS",
+        "url": "https://arxiv.org/abs/0708.1853",
+        "publisher": "Coleman et al., arXiv",
+        "evidence": "a tidal radius of r_t = 9.33 +/- 0.47 arcmin (632 +/- 32 pc)"
+      },
+      {
+        "title": "NED object page: Leo II (Leo B)",
+        "url": "https://ned.ipac.caltech.edu/cgi-bin/objsearch?objname=Leo+II&extend=no&hconst=73&omegam=0.27&omegav=0.73&corr_z=1&out_csys=Equatorial&out_equinox=J2000.0&obj_sort=RA+or+Longitude&of=pre_text&zv_breaker=30000.0&list_limit=5&img_stamp=YES",
+        "publisher": "NASA/IPAC Extragalactic Database (NED), Caltech",
+        "evidence": "Major Diameter (arcmin) : 12.0"
+      }
+    ],
+    "note": "Vincolo V3: il valore era un raggio. Da 2e19 m a 2 × 632 pc × 3,086e16 m = 3,9e19 m. Nota del lotto: Il valore attuale (2e19 m = 648 pc) coincide con il raggio mareale di Coleman et al. (632 pc), non con un diametro. Diametro del nucleo: 2 × 178 pc = 356 pc = 1,1e19 m; diametro mareale: 2 × 632 pc = 1.264 pc = 3,9e19 m; diametro apparente NED 12,0' × 217 kpc (mediana delle distanze NED, stessa pagina) = 757 pc = 2,3e19 m. Il valore attuale cade dentro questo intervallo, quindi lo tengo e segno 'u'. Se si preferisce l'estensione massima, usare 3,9e19 m.",
+    "verified": "2026-11-13"
+  }
+]

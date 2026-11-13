@@ -44,13 +44,6 @@ test('an unknown id in the link opens no card and raises no error', async ({ pag
   expect(errors).toEqual([]);
 });
 
-// The match is the one object left without a description or a source: it is proposed for removal.
-test('an object without a description hides the paragraph', async ({ page }) => {
-  await page.goto('/it/#fiammifero');
-  await expect(page.locator('#cName')).toHaveText('Fiammifero');
-  await expect(page.locator('#cNote')).toBeHidden();
-});
-
 test('closing the card clears the link', async ({ page }) => {
   await page.goto('/it/#sole');
   await page.click('#close');
@@ -134,10 +127,4 @@ test('a verified object shows its sources and the date it was checked', async ({
   await expect(link).toHaveAttribute('href', /^https:\/\//);
   await expect(link).toHaveAttribute('rel', /noopener/);
   await expect(sources).toContainText(/Verificato il \d{1,2} \p{L}+ \d{4}/u);
-});
-
-test('an object not verified yet shows no sources block', async ({ page }) => {
-  await page.goto('/it/#fiammifero');
-  await expect(page.locator('#cName')).toHaveText('Fiammifero');
-  await expect(page.locator('#cSources')).toBeHidden();
 });

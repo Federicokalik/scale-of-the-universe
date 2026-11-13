@@ -173,11 +173,11 @@
     },
     "quark-up": {
       "name": "Quark up",
-      "desc": "Il quark up ha carica elettrica +2/3 e una massa di circa 2,16 MeV secondo il Particle Data Group. Con il quark down forma la prima generazione, quella di cui è fatta tutta la materia stabile. Non ha una dimensione misurata: la grandezza mostrata è una convenzione, e l'esperimento ZEUS a HERA indica che un'eventuale struttura è più piccola di 0,43×10⁻¹⁸ m."
+      "desc": "Il quark up ha carica elettrica +2/3 e una massa di circa 2,16 MeV secondo il Particle Data Group. Con il quark down forma la prima generazione, quella di cui è fatta tutta la materia stabile. Non ha una dimensione misurata: la grandezza mostrata è il limite superiore dell'esperimento ZEUS a HERA, secondo cui un'eventuale struttura ha un raggio inferiore a 0,43×10⁻¹⁸ m."
     },
     "quark-down": {
       "name": "Quark down",
-      "desc": "Il quark down ha carica elettrica −1/3 e una massa di circa 4,70 MeV secondo il Particle Data Group, poco più del doppio di quella del quark up. Con il quark up forma la prima generazione, quella di cui è fatta tutta la materia stabile. Non ha una dimensione misurata: la grandezza mostrata è una convenzione, e l'esperimento ZEUS a HERA indica che un'eventuale struttura è più piccola di 0,43×10⁻¹⁸ m."
+      "desc": "Il quark down ha carica elettrica −1/3 e una massa di circa 4,70 MeV secondo il Particle Data Group, poco più del doppio di quella del quark up. Con il quark up forma la prima generazione, quella di cui è fatta tutta la materia stabile. Non ha una dimensione misurata: la grandezza mostrata è il limite superiore dell'esperimento ZEUS a HERA, secondo cui un'eventuale struttura ha un raggio inferiore a 0,43×10⁻¹⁸ m."
     },
     "elettrone-limite-superiore": {
       "name": "Elettrone (limite superiore)",
@@ -613,7 +613,7 @@
     },
     "seme-di-girasole": {
       "name": "Seme di girasole",
-      "desc": "Il seme di girasole è in realtà un frutto secco, l'achenio, che racchiude il seme vero e proprio. La lunghezza dipende molto dalla varietà: uno studio dell'Università di Uludağ ha misurato in media 7,79 mm di lunghezza, 7,12 mm di larghezza e 4,18 mm di spessore, mentre i semi da sgranocchiare sono sensibilmente più lunghi. Il valore di circa 1 cm è quindi indicativo."
+      "desc": "Il seme di girasole è in realtà un frutto secco, l'achenio, che racchiude il seme vero e proprio. Uno studio dell'Università di Uludağ ha misurato in media 7,79 mm di lunghezza, 7,12 mm di larghezza e 4,18 mm di spessore. La lunghezza dipende molto dalla varietà, e i semi da sgranocchiare sono sensibilmente più lunghi."
     },
     "uovo-di-colibri": {
       "name": "Uovo di colibrì",
@@ -638,10 +638,6 @@
     "uovo-di-quaglia": {
       "name": "Uovo di quaglia",
       "desc": "L'uovo della quaglia giapponese domestica, quello che si trova in commercio, è lungo tipicamente circa 32 mm e largo circa 25 mm. In uno studio dell'Università di Iași il peso medio è risultato di 10,44 g. Il guscio è chiaro con macchie scure."
-    },
-    "fiammifero": {
-      "name": "Fiammifero",
-      "desc": ""
     },
     "uovo-di-gallina": {
       "name": "Uovo di gallina",
@@ -680,7 +676,7 @@
       "desc": "Il lombrico comune (Lumbricus terrestris) è un verme anellide originario dell'Europa, di colore dal rosato al bruno rossastro. Da adulto è lungo tipicamente da 10 a 25 cm. Scava gallerie verticali permanenti che scendono in profondità nel suolo."
     },
     "chicco-di-grandine-piu-grande": {
-      "name": "Chicco di grandine più grande",
+      "name": "Chicco di grandine da record (USA)",
       "desc": "Il chicco di grandine caduto a Vivian, in South Dakota, il 23 luglio 2010 misurava 8 pollici di diametro, cioè circa 20 cm, e pesava circa 0,88 kg. Secondo il National Weather Service detiene il primato degli Stati Uniti per diametro e per peso. Il primato di circonferenza resta invece a un chicco caduto ad Aurora, in Nebraska, nel 2003."
     },
     "pallone-da-calcio": {
@@ -981,7 +977,7 @@
     },
     "deimos": {
       "name": "Deimos",
-      "desc": "Deimos è la più piccola delle due lune di Marte, scoperta l'11 agosto 1877 da Asaph Hall. Ha forma irregolare, con assi di circa 15 × 12 × 11 km e un diametro medio di circa 12,4 km. Orbita attorno a Marte ogni 30 ore circa."
+      "desc": "Deimos è la più piccola delle due lune di Marte, scoperta l'11 agosto 1877 da Asaph Hall. Ha forma irregolare: l'asse più lungo misura circa 15,6 km, contro un diametro medio di circa 12,4 km. Orbita attorno a Marte ogni 30 ore circa."
     },
     "cometa-di-halley": {
       "name": "Cometa di Halley",
@@ -993,7 +989,7 @@
     },
     "fobos": {
       "name": "Fobos",
-      "desc": "Fobos è la più grande delle due lune di Marte, di forma irregolare: misura circa 27 × 22 × 18 km, con un diametro medio di circa 22 km. Orbita così vicino al pianeta da compiere tre giri al giorno. La missione giapponese MMX, lanciata il 20 ottobre 2026, punta a riportarne campioni sulla Terra nel 2031."
+      "desc": "Fobos è la più grande delle due lune di Marte, di forma irregolare: l'asse più lungo misura circa 26 km, contro un diametro medio di circa 22 km. Orbita così vicino al pianeta da compiere tre giri al giorno. La missione giapponese MMX, lanciata il 20 ottobre 2026, punta a riportarne campioni sulla Terra nel 2031."
     },
     "stella-di-neutroni": {
       "name": "Stella di neutroni",
@@ -1045,7 +1041,7 @@
     },
     "galatea": {
       "name": "Galatea",
-      "desc": "Galatea è una piccola luna interna di Nettuno dalla forma irregolare, con un diametro medio di circa 176 km. È stata scoperta nel luglio 1989 dal gruppo scientifico della sonda Voyager 2. Si ritiene che la sua gravità disturbi gli anelli di Nettuno."
+      "desc": "Galatea è una piccola luna interna di Nettuno dalla forma irregolare: l'asse più lungo misura circa 204 km, contro un diametro medio di circa 176 km. È stata scoperta nel luglio 1989 dal gruppo scientifico della sonda Voyager 2. Si ritiene che la sua gravità disturbi gli anelli di Nettuno."
     },
     "gaia-bh3": {
       "name": "Gaia BH3",
@@ -1053,7 +1049,7 @@
     },
     "psyche": {
       "name": "Psyche",
-      "desc": "(16) Psyche è un grande asteroide ricco di metallo della fascia principale, con una forma irregolare simile a una patata e un diametro equivalente di circa 222 km. Nel punto più largo misura circa 280 km. La sonda Psyche della NASA, lanciata il 13 ottobre 2023, dovrebbe iniziare la sua missione attorno all'asteroide nell'agosto 2029."
+      "desc": "(16) Psyche è un grande asteroide ricco di metallo della fascia principale, con una forma irregolare simile a una patata. Nel punto più largo misura circa 278 km, contro un diametro equivalente di circa 222 km. La sonda Psyche della NASA, lanciata il 13 ottobre 2023, dovrebbe iniziare la sua missione attorno all'asteroide nell'agosto 2029."
     },
     "ruanda": {
       "name": "Ruanda",
@@ -1085,7 +1081,7 @@
     },
     "vesta": {
       "name": "Vesta",
-      "desc": "Vesta è il secondo corpo più massiccio della fascia principale degli asteroidi, dopo Cerere, con un diametro medio di circa 525 km. La sonda Dawn della NASA le ha orbitato attorno dal 16 luglio 2011 al 5 settembre 2012. Il cratere Rheasilvia, largo circa 500 km, è quasi grande quanto l'asteroide stesso."
+      "desc": "Vesta è il secondo corpo più massiccio della fascia principale degli asteroidi, dopo Cerere: misura circa 569 × 555 × 453 km, con un diametro medio di circa 525 km. La sonda Dawn della NASA le ha orbitato attorno dal 16 luglio 2011 al 5 settembre 2012. Il cratere Rheasilvia, largo circa 500 km, è quasi grande quanto l'asteroide stesso."
     },
     "dysnomia": {
       "name": "Dysnomia",
@@ -1177,7 +1173,7 @@
     },
     "mercurio": {
       "name": "Mercurio",
-      "desc": "Mercurio è il pianeta più vicino al Sole, con un diametro medio di circa 4.879 km. La sonda BepiColombo di ESA e JAXA, partita il 20 ottobre 2018, ha in programma l'ingresso in orbita attorno al pianeta il 21 novembre 2026. L'inizio delle osservazioni scientifiche è previsto per aprile 2027."
+      "desc": "Mercurio è il pianeta più vicino al Sole, con un diametro medio di circa 4.879 km. La sonda BepiColombo di ESA e JAXA, partita il 20 ottobre 2018, è stata progettata per studiarlo dall'orbita. Il piano di missione dell'ESA fissa l'ingresso in orbita al 21 novembre 2026 e l'inizio delle osservazioni scientifiche ad aprile 2027."
     },
     "titano": {
       "name": "Titano",
@@ -1465,7 +1461,7 @@
     },
     "mu-cephei": {
       "name": "Mu Cephei",
-      "desc": "Mu Cephei, la Stella Granata di Herschel, è una supergigante rossa nella costellazione di Cefeo. Le stime del raggio dipendono dalla distanza, ancora mal nota: 972 ± 228 raggi solari in uno studio del 2019 che adotta 641 parsec, 1.420 in uno studio del 2005. Il valore mostrato, circa 1.150 raggi solari ossia 1,6 miliardi di km di diametro, sta tra le due stime."
+      "desc": "Mu Cephei, la Stella Granata di Herschel, è una supergigante rossa nella costellazione di Cefeo. Le stime del raggio dipendono dalla distanza, ancora mal nota: 972 ± 228 raggi solari in uno studio del 2019 che adotta 641 parsec, 1.420 in uno studio del 2005. Il valore mostrato segue la stima più recente, circa 1,35 miliardi di km di diametro."
     },
     "vy-canis-majoris": {
       "name": "VY Canis Majoris",
@@ -1473,7 +1469,7 @@
     },
     "woh-g64": {
       "name": "WOH G64",
-      "desc": "WOH G64 è una supergigante rossa della Grande Nube di Magellano, circondata da uno spesso toro di polveri. Nel 2009 il suo raggio fu calcolato in 1.540 raggi solari, ma intorno al 2014 la stella è cambiata e uno studio pubblicato nel 2026 indica un raggio attuale di circa 800 raggi solari. Spettri del 2024-2025 mostrano però che è ancora una supergigante rossa, quindi la sua natura e le sue dimensioni restano discusse."
+      "desc": "WOH G64 è una supergigante rossa della Grande Nube di Magellano, circondata da uno spesso toro di polveri. Nel 2009 il suo raggio fu calcolato in 1.540 raggi solari, ma intorno al 2014 la stella è cambiata e uno studio pubblicato nel 2026 indica un raggio attuale di circa 800 raggi solari, il valore mostrato qui. Spettri del 2024-2025 mostrano che è ancora una supergigante rossa, quindi la sua natura e le sue dimensioni restano discusse."
     },
     "stephenson-2-18": {
       "name": "Stephenson 2-18",
@@ -1493,7 +1489,7 @@
     },
     "voyager-1": {
       "name": "Voyager 1",
-      "desc": "Voyager 1, lanciata il 5 settembre 1977, è l'oggetto costruito dall'uomo più lontano dalla Terra. Secondo la NASA il 18 novembre 2026 raggiunge un giorno-luce di distanza, cioè 25,902 miliardi di km: un segnale radio impiega allora 24 ore per arrivare alla sonda. Nell'agosto 2012 è stata la prima sonda a entrare nello spazio interstellare."
+      "desc": "Voyager 1, lanciata il 5 settembre 1977, è l'oggetto costruito dall'uomo più lontano dalla Terra. La NASA ha calcolato per il 18 novembre 2026 il traguardo di un giorno-luce di distanza, cioè 25,902 miliardi di km: a quella distanza un segnale radio impiega 24 ore per arrivare alla sonda. Nell'agosto 2012 è stata la prima sonda a entrare nello spazio interstellare."
     },
     "giorno-luce": {
       "name": "Giorno-luce",
@@ -1681,7 +1677,7 @@
     },
     "leo-ii": {
       "name": "Leo II",
-      "desc": "Leo II è una galassia nana sferoidale satellite della Via Lattea, a circa 233 kpc (760.000 anni luce) da noi. La sua estensione dipende dalla definizione: il raggio del nucleo è di circa 178 pc e il raggio mareale di circa 632 pc, quindi il diametro va da circa 360 a circa 1.260 pc (da 1.200 a 4.100 anni luce). Le misure indicano che è dominata dalla materia oscura."
+      "desc": "Leo II è una galassia nana sferoidale satellite della Via Lattea, a circa 233 kpc (760.000 anni luce) da noi. La sua estensione dipende dalla definizione: il raggio del nucleo è di circa 178 pc e il raggio mareale di circa 632 pc, quindi il diametro va da circa 360 a circa 1.260 pc (da 1.200 a 4.100 anni luce); qui è mostrato quello mareale. Le misure indicano che è dominata dalla materia oscura."
     },
     "getto-relativistico-di-m87": {
       "name": "Getto relativistico di M87",

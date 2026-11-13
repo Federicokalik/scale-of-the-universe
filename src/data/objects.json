@@ -352,6 +352,64 @@
     "verified": "2026-11-12"
   },
   {
+    "id": "quark-up",
+    "size": 8.6e-19,
+    "kind": "q",
+    "glyph": "",
+    "flags": [
+      "u",
+      "r"
+    ],
+    "image": null,
+    "sources": [
+      {
+        "title": "Quarks, Summary Table, Review of Particle Physics 2024",
+        "url": "https://pdg.lbl.gov/2024/tables/rpp2024-sum-quarks.pdf",
+        "publisher": "Particle Data Group (LBNL)"
+      },
+      {
+        "title": "The Standard Model",
+        "url": "https://home.cern/science/physics/standard-model",
+        "publisher": "CERN"
+      },
+      {
+        "title": "Limits on the effective quark radius from inclusive ep scattering at HERA",
+        "url": "https://arxiv.org/abs/1604.01280",
+        "publisher": "ZEUS Collaboration, arXiv (accettato da Physics Letters B)"
+      }
+    ],
+    "verified": "2026-11-13"
+  },
+  {
+    "id": "quark-down",
+    "size": 8.6e-19,
+    "kind": "q",
+    "glyph": "",
+    "flags": [
+      "u",
+      "r"
+    ],
+    "image": null,
+    "sources": [
+      {
+        "title": "Quarks, Summary Table, Review of Particle Physics 2024",
+        "url": "https://pdg.lbl.gov/2024/tables/rpp2024-sum-quarks.pdf",
+        "publisher": "Particle Data Group (LBNL)"
+      },
+      {
+        "title": "The Standard Model",
+        "url": "https://home.cern/science/physics/standard-model",
+        "publisher": "CERN"
+      },
+      {
+        "title": "Limits on the effective quark radius from inclusive ep scattering at HERA",
+        "url": "https://arxiv.org/abs/1604.01280",
+        "publisher": "ZEUS Collaboration, arXiv (accettato da Physics Letters B)"
+      }
+    ],
+    "verified": "2026-11-13"
+  },
+  {
     "id": "attometro",
     "size": 1e-18,
     "kind": "u",
@@ -368,62 +426,6 @@
         "title": "Limits on the effective quark radius from inclusive ep scattering at HERA",
         "url": "https://arxiv.org/abs/1604.01280",
         "publisher": "ZEUS Collaboration, arXiv"
-      }
-    ],
-    "verified": "2026-11-12"
-  },
-  {
-    "id": "quark-up",
-    "size": 1.1e-18,
-    "kind": "q",
-    "glyph": "",
-    "flags": [
-      "u"
-    ],
-    "image": null,
-    "sources": [
-      {
-        "title": "Quarks, Summary Table, Review of Particle Physics 2024",
-        "url": "https://pdg.lbl.gov/2024/tables/rpp2024-sum-quarks.pdf",
-        "publisher": "Particle Data Group (LBNL)"
-      },
-      {
-        "title": "The Standard Model",
-        "url": "https://home.cern/science/physics/standard-model",
-        "publisher": "CERN"
-      },
-      {
-        "title": "Limits on the effective quark radius from inclusive ep scattering at HERA",
-        "url": "https://arxiv.org/abs/1604.01280",
-        "publisher": "ZEUS Collaboration, arXiv (accettato da Physics Letters B)"
-      }
-    ],
-    "verified": "2026-11-12"
-  },
-  {
-    "id": "quark-down",
-    "size": 1.2e-18,
-    "kind": "q",
-    "glyph": "",
-    "flags": [
-      "u"
-    ],
-    "image": null,
-    "sources": [
-      {
-        "title": "Quarks, Summary Table, Review of Particle Physics 2024",
-        "url": "https://pdg.lbl.gov/2024/tables/rpp2024-sum-quarks.pdf",
-        "publisher": "Particle Data Group (LBNL)"
-      },
-      {
-        "title": "The Standard Model",
-        "url": "https://home.cern/science/physics/standard-model",
-        "publisher": "CERN"
-      },
-      {
-        "title": "Limits on the effective quark radius from inclusive ep scattering at HERA",
-        "url": "https://arxiv.org/abs/1604.01280",
-        "publisher": "ZEUS Collaboration, arXiv (accettato da Physics Letters B)"
       }
     ],
     "verified": "2026-11-12"
@@ -2566,6 +2568,25 @@
     "verified": "2026-11-12"
   },
   {
+    "id": "seme-di-girasole",
+    "size": 0.0078,
+    "kind": "o",
+    "glyph": "",
+    "flags": [
+      "u",
+      "r"
+    ],
+    "image": null,
+    "sources": [
+      {
+        "title": "Physical properties of sunflower seeds (Helianthus annuus L.)",
+        "url": "https://acikerisim.uludag.edu.tr/entities/publication/6b47145a-8319-4a47-a8db-93cc6fb53291/full",
+        "publisher": "Işık e İzli, International Journal of Agricultural Research (2007), archivio dell'Università di Uludağ"
+      }
+    ],
+    "verified": "2026-11-13"
+  },
+  {
     "id": "fiocco-di-neve",
     "size": 0.008,
     "kind": "o",
@@ -2631,24 +2652,6 @@
         "title": "The use of multispectral imaging for the discrimination of Arabica and Robusta coffee beans",
         "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9108882/",
         "publisher": "Mihailova et al., Food Chemistry: X 14 (2022), su PubMed Central"
-      }
-    ],
-    "verified": "2026-11-12"
-  },
-  {
-    "id": "seme-di-girasole",
-    "size": 0.0104,
-    "kind": "o",
-    "glyph": "",
-    "flags": [
-      "u"
-    ],
-    "image": null,
-    "sources": [
-      {
-        "title": "Physical properties of sunflower seeds (Helianthus annuus L.)",
-        "url": "https://acikerisim.uludag.edu.tr/entities/publication/6b47145a-8319-4a47-a8db-93cc6fb53291/full",
-        "publisher": "Işık e İzli, International Journal of Agricultural Research (2007), archivio dell'Università di Uludağ"
       }
     ],
     "verified": "2026-11-12"
@@ -2748,16 +2751,6 @@
       }
     ],
     "verified": "2026-11-12"
-  },
-  {
-    "id": "fiammifero",
-    "size": 0.045,
-    "kind": "o",
-    "glyph": "",
-    "flags": [],
-    "image": null,
-    "sources": [],
-    "verified": null
   },
   {
     "id": "uovo-di-gallina",
@@ -3579,11 +3572,12 @@
   },
   {
     "id": "torre-di-pisa",
-    "size": 56,
+    "size": 58.36,
     "kind": "g",
     "glyph": "🗼",
     "flags": [
-      "n"
+      "n",
+      "r"
     ],
     "image": null,
     "sources": [
@@ -3598,7 +3592,7 @@
         "publisher": "Istituto della Enciclopedia Italiana Treccani"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-13"
   },
   {
     "id": "boeing-747-8",
@@ -4406,27 +4400,6 @@
     "verified": "2026-11-12"
   },
   {
-    "id": "deimos",
-    "size": 12400,
-    "kind": "p",
-    "glyph": "#a89b8c",
-    "flags": [],
-    "image": null,
-    "sources": [
-      {
-        "title": "Mars Fact Sheet",
-        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html",
-        "publisher": "NASA NSSDCA"
-      },
-      {
-        "title": "Deimos",
-        "url": "https://science.nasa.gov/mars/moons/deimos/",
-        "publisher": "NASA Science"
-      }
-    ],
-    "verified": "2026-11-12"
-  },
-  {
     "id": "cometa-di-halley",
     "size": 15000,
     "kind": "p",
@@ -4450,35 +4423,13 @@
     "verified": "2026-11-12"
   },
   {
-    "id": "olympus-mons-altezza",
-    "size": 21900,
-    "kind": "g",
-    "glyph": "🌋",
-    "flags": [
-      "n",
-      "u"
-    ],
-    "image": null,
-    "sources": [
-      {
-        "title": "Tallest mountain in the Solar System",
-        "url": "https://www.guinnessworldrecords.com/world-records/highest-mountain-in-the-solar-system",
-        "publisher": "Guinness World Records"
-      },
-      {
-        "title": "Mars: Facts",
-        "url": "https://science.nasa.gov/mars/facts/",
-        "publisher": "NASA Science"
-      }
-    ],
-    "verified": "2026-11-12"
-  },
-  {
-    "id": "fobos",
-    "size": 22200,
+    "id": "deimos",
+    "size": 15600,
     "kind": "p",
-    "glyph": "#8d8279",
-    "flags": [],
+    "glyph": "#a89b8c",
+    "flags": [
+      "r"
+    ],
     "image": null,
     "sources": [
       {
@@ -4487,17 +4438,12 @@
         "publisher": "NASA NSSDCA"
       },
       {
-        "title": "Phobos",
-        "url": "https://science.nasa.gov/mars/moons/phobos/",
+        "title": "Deimos",
+        "url": "https://science.nasa.gov/mars/moons/deimos/",
         "publisher": "NASA Science"
-      },
-      {
-        "title": "MMX - Martian Moons eXploration",
-        "url": "https://www.mmx.jaxa.jp/en/",
-        "publisher": "JAXA"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-13"
   },
   {
     "id": "stella-di-neutroni",
@@ -4521,6 +4467,59 @@
       }
     ],
     "verified": "2026-11-12"
+  },
+  {
+    "id": "olympus-mons-altezza",
+    "size": 25000,
+    "kind": "g",
+    "glyph": "🌋",
+    "flags": [
+      "n",
+      "u",
+      "r"
+    ],
+    "image": null,
+    "sources": [
+      {
+        "title": "Tallest mountain in the Solar System",
+        "url": "https://www.guinnessworldrecords.com/world-records/highest-mountain-in-the-solar-system",
+        "publisher": "Guinness World Records"
+      },
+      {
+        "title": "Mars: Facts",
+        "url": "https://science.nasa.gov/mars/facts/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-13"
+  },
+  {
+    "id": "fobos",
+    "size": 26000,
+    "kind": "p",
+    "glyph": "#8d8279",
+    "flags": [
+      "r"
+    ],
+    "image": null,
+    "sources": [
+      {
+        "title": "Mars Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html",
+        "publisher": "NASA NSSDCA"
+      },
+      {
+        "title": "Phobos",
+        "url": "https://science.nasa.gov/mars/moons/phobos/",
+        "publisher": "NASA Science"
+      },
+      {
+        "title": "MMX - Martian Moons eXploration",
+        "url": "https://www.mmx.jaxa.jp/en/",
+        "publisher": "JAXA"
+      }
+    ],
+    "verified": "2026-11-13"
   },
   {
     "id": "future-circular-collider",
@@ -4772,27 +4771,6 @@
     "verified": "2026-11-12"
   },
   {
-    "id": "galatea",
-    "size": 176000,
-    "kind": "p",
-    "glyph": "#7d8791",
-    "flags": [],
-    "image": null,
-    "sources": [
-      {
-        "title": "Neptunian Satellite Fact Sheet",
-        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/neptuniansatfact.html",
-        "publisher": "NASA NSSDCA (Goddard Space Flight Center)"
-      },
-      {
-        "title": "Galatea",
-        "url": "https://science.nasa.gov/neptune/moons/galatea/",
-        "publisher": "NASA Science"
-      }
-    ],
-    "verified": "2026-11-12"
-  },
-  {
     "id": "gaia-bh3",
     "size": 195000,
     "kind": "h",
@@ -4816,27 +4794,27 @@
     "verified": "2026-11-12"
   },
   {
-    "id": "psyche",
-    "size": 220000,
+    "id": "galatea",
+    "size": 204000,
     "kind": "p",
-    "glyph": "#9a9a9a",
+    "glyph": "#7d8791",
     "flags": [
-      "n"
+      "r"
     ],
     "image": null,
     "sources": [
       {
-        "title": "Asteroid 16 Psyche: Shape, Features, and Global Map (Shepard et al. 2021)",
-        "url": "https://arxiv.org/abs/2110.03635",
-        "publisher": "Shepard et al., Planetary Science Journal, arXiv"
+        "title": "Neptunian Satellite Fact Sheet",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/neptuniansatfact.html",
+        "publisher": "NASA NSSDCA (Goddard Space Flight Center)"
       },
       {
-        "title": "Asteroid Psyche",
-        "url": "https://science.nasa.gov/solar-system/asteroids/16-psyche/",
+        "title": "Galatea",
+        "url": "https://science.nasa.gov/neptune/moons/galatea/",
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-13"
   },
   {
     "id": "ruanda",
@@ -4860,6 +4838,30 @@
       }
     ],
     "verified": "2026-11-12"
+  },
+  {
+    "id": "psyche",
+    "size": 278000,
+    "kind": "p",
+    "glyph": "#9a9a9a",
+    "flags": [
+      "n",
+      "r"
+    ],
+    "image": null,
+    "sources": [
+      {
+        "title": "Asteroid 16 Psyche: Shape, Features, and Global Map (Shepard et al. 2021)",
+        "url": "https://arxiv.org/abs/2110.03635",
+        "publisher": "Shepard et al., Planetary Science Journal, arXiv"
+      },
+      {
+        "title": "Asteroid Psyche",
+        "url": "https://science.nasa.gov/solar-system/asteroids/16-psyche/",
+        "publisher": "NASA Science"
+      }
+    ],
+    "verified": "2026-11-13"
   },
   {
     "id": "nereide",
@@ -5022,11 +5024,12 @@
   },
   {
     "id": "vesta",
-    "size": 525000,
+    "size": 569000,
     "kind": "p",
     "glyph": "#a8a29e",
     "flags": [
-      "n"
+      "n",
+      "r"
     ],
     "image": null,
     "sources": [
@@ -5041,7 +5044,7 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-13"
   },
   {
     "id": "dysnomia",
@@ -5529,7 +5532,7 @@
         "publisher": "ESA"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-13"
   },
   {
     "id": "titano",
@@ -6921,6 +6924,35 @@
     "verified": "2026-11-12"
   },
   {
+    "id": "woh-g64",
+    "size": 1110000000000,
+    "kind": "s",
+    "glyph": "#ff7a4d",
+    "flags": [
+      "r",
+      "u"
+    ],
+    "image": null,
+    "sources": [
+      {
+        "title": "The Physical Properties of the Red Supergiant WOH G64: The Largest Star Known?",
+        "url": "https://arxiv.org/abs/0903.2260",
+        "publisher": "Levesque et al., The Astronomical Journal 137, 4744 (2009), arXiv"
+      },
+      {
+        "title": "The dramatic transition of the extreme Red Supergiant WOH G64 to a Yellow Hypergiant",
+        "url": "https://arxiv.org/html/2411.19329",
+        "publisher": "Muñoz-Sanchez et al., Nature Astronomy 10, 702 (2026), arXiv"
+      },
+      {
+        "title": "A phoenix rises from the ashes: WOH G64 is still a red supergiant, for now",
+        "url": "https://arxiv.org/abs/2601.02057",
+        "publisher": "van Loon & Ohnaka, MNRAS (2026), arXiv"
+      }
+    ],
+    "verified": "2026-11-13"
+  },
+  {
     "id": "uy-scuti",
     "size": 1260000000000,
     "kind": "s",
@@ -6943,6 +6975,30 @@
       }
     ],
     "verified": "2026-11-12"
+  },
+  {
+    "id": "mu-cephei",
+    "size": 1350000000000,
+    "kind": "s",
+    "glyph": "#ff4f33",
+    "flags": [
+      "u",
+      "r"
+    ],
+    "image": null,
+    "sources": [
+      {
+        "title": "NOEMA maps the CO J = 2 − 1 environment of the red supergiant μ Cep",
+        "url": "https://arxiv.org/pdf/1903.07129",
+        "publisher": "Montargès et al., MNRAS 485, 2417 (2019), arXiv"
+      },
+      {
+        "title": "The Effective Temperature Scale of Galactic Red Supergiants: Cool, But Not As Cool As We Thought",
+        "url": "https://arxiv.org/pdf/astro-ph/0504337",
+        "publisher": "Levesque et al., The Astrophysical Journal 628, 973 (2005), arXiv"
+      }
+    ],
+    "verified": "2026-11-13"
   },
   {
     "id": "ky-cygni",
@@ -6991,29 +7047,6 @@
     "verified": "2026-11-12"
   },
   {
-    "id": "mu-cephei",
-    "size": 1600000000000,
-    "kind": "s",
-    "glyph": "#ff4f33",
-    "flags": [
-      "u"
-    ],
-    "image": null,
-    "sources": [
-      {
-        "title": "NOEMA maps the CO J = 2 − 1 environment of the red supergiant μ Cep",
-        "url": "https://arxiv.org/pdf/1903.07129",
-        "publisher": "Montargès et al., MNRAS 485, 2417 (2019), arXiv"
-      },
-      {
-        "title": "The Effective Temperature Scale of Galactic Red Supergiants: Cool, But Not As Cool As We Thought",
-        "url": "https://arxiv.org/pdf/astro-ph/0504337",
-        "publisher": "Levesque et al., The Astrophysical Journal 628, 973 (2005), arXiv"
-      }
-    ],
-    "verified": "2026-11-12"
-  },
-  {
     "id": "vy-canis-majoris",
     "size": 1980000000000,
     "kind": "s",
@@ -7027,35 +7060,6 @@
         "title": "Fundamental properties and atmospheric structure of the red supergiant VY CMa based on VLTI/AMBER spectro-interferometry",
         "url": "https://arxiv.org/abs/1203.5194",
         "publisher": "Wittkowski et al., Astronomy & Astrophysics 540, L12 (2012), arXiv"
-      }
-    ],
-    "verified": "2026-11-12"
-  },
-  {
-    "id": "woh-g64",
-    "size": 2140000000000,
-    "kind": "s",
-    "glyph": "#ff7a4d",
-    "flags": [
-      "r",
-      "u"
-    ],
-    "image": null,
-    "sources": [
-      {
-        "title": "The Physical Properties of the Red Supergiant WOH G64: The Largest Star Known?",
-        "url": "https://arxiv.org/abs/0903.2260",
-        "publisher": "Levesque et al., The Astronomical Journal 137, 4744 (2009), arXiv"
-      },
-      {
-        "title": "The dramatic transition of the extreme Red Supergiant WOH G64 to a Yellow Hypergiant",
-        "url": "https://arxiv.org/html/2411.19329",
-        "publisher": "Muñoz-Sanchez et al., Nature Astronomy 10, 702 (2026), arXiv"
-      },
-      {
-        "title": "A phoenix rises from the ashes: WOH G64 is still a red supergiant, for now",
-        "url": "https://arxiv.org/abs/2601.02057",
-        "publisher": "van Loon & Ohnaka, MNRAS (2026), arXiv"
       }
     ],
     "verified": "2026-11-12"
@@ -7153,7 +7157,7 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-13"
   },
   {
     "id": "giorno-luce",
@@ -7219,10 +7223,12 @@
   },
   {
     "id": "afelio-della-cometa-hale-bopp",
-    "size": 55000000000000,
+    "size": 53000000000000,
     "kind": "d",
     "glyph": "",
-    "flags": [],
+    "flags": [
+      "r"
+    ],
     "image": null,
     "sources": [
       {
@@ -7236,7 +7242,7 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-13"
   },
   {
     "id": "afelio-di-sedna",
@@ -8210,29 +8216,6 @@
     "verified": "2026-11-12"
   },
   {
-    "id": "leo-ii",
-    "size": 20000000000000000000,
-    "kind": "x",
-    "glyph": "E",
-    "flags": [
-      "u"
-    ],
-    "image": null,
-    "sources": [
-      {
-        "title": "A Wide-Field View of Leo II: A Structural Analysis Using the SDSS",
-        "url": "https://arxiv.org/abs/0708.1853",
-        "publisher": "Coleman et al., arXiv"
-      },
-      {
-        "title": "NED object page: Leo II (Leo B)",
-        "url": "https://ned.ipac.caltech.edu/cgi-bin/objsearch?objname=Leo+II&extend=no&hconst=73&omegam=0.27&omegav=0.73&corr_z=1&out_csys=Equatorial&out_equinox=J2000.0&obj_sort=RA+or+Longitude&of=pre_text&zv_breaker=30000.0&list_limit=5&img_stamp=YES",
-        "publisher": "NASA/IPAC Extragalactic Database (NED), Caltech"
-      }
-    ],
-    "verified": "2026-11-12"
-  },
-  {
     "id": "canes-venatici-i",
     "size": 34000000000000000000,
     "kind": "x",
@@ -8250,6 +8233,30 @@
       }
     ],
     "verified": "2026-11-12"
+  },
+  {
+    "id": "leo-ii",
+    "size": 39000000000000000000,
+    "kind": "x",
+    "glyph": "E",
+    "flags": [
+      "u",
+      "r"
+    ],
+    "image": null,
+    "sources": [
+      {
+        "title": "A Wide-Field View of Leo II: A Structural Analysis Using the SDSS",
+        "url": "https://arxiv.org/abs/0708.1853",
+        "publisher": "Coleman et al., arXiv"
+      },
+      {
+        "title": "NED object page: Leo II (Leo B)",
+        "url": "https://ned.ipac.caltech.edu/cgi-bin/objsearch?objname=Leo+II&extend=no&hconst=73&omegam=0.27&omegav=0.73&corr_z=1&out_csys=Equatorial&out_equinox=J2000.0&obj_sort=RA+or+Longitude&of=pre_text&zv_breaker=30000.0&list_limit=5&img_stamp=YES",
+        "publisher": "NASA/IPAC Extragalactic Database (NED), Caltech"
+      }
+    ],
+    "verified": "2026-11-13"
   },
   {
     "id": "getto-relativistico-di-m87",
@@ -9048,11 +9055,12 @@
   },
   {
     "id": "distanza-del-grande-attrattore",
-    "size": 2.2e+24,
+    "size": 2.08e+24,
     "kind": "d",
     "glyph": "",
     "flags": [
-      "u"
+      "u",
+      "r"
     ],
     "image": null,
     "sources": [
@@ -9062,7 +9070,7 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-13"
   },
   {
     "id": "vuoto-del-boote",

@@ -1,6 +1,25 @@
-# Fase 2 — correzioni fatte e decisioni aperte
+# Fase 2 — correzioni, vincoli e decisioni
 
-Aggiornato dopo ogni ondata. Le correzioni sono già applicate ai dati; le decisioni aperte aspettano Federico.
+Tutte le 86 decisioni sono prese (13 novembre 2026). Federico ha delegato la scelta: ogni decisione applica uno dei vincoli qui sotto, senza eccezioni caso per caso.
+
+## Vincoli
+
+Regole con cui si decide ogni valore. Valgono anche per le fasi successive.
+
+- **V1 — Fonte aperta.** Ogni valore sta entro il 5% di una cifra letta su una fonte aperta, o dentro l'intervallo che la fonte dichiara. Se il valore non ha una fonte e ne esiste una per una cifra diversa, si adotta quella. Entro il 5% il valore non si tocca.
+- **V2 — Scheda e valore coerenti.** Se la descrizione cita una cifra per la stessa grandezza e il valore mostrato se ne scosta di più del 3%, il valore si allinea alla cifra citata.
+- **V3 — Che cosa si misura.** La dimensione è un diametro o un'estensione massima, mai un raggio. Corpi arrotondati dalla propria gravità (pianeti, pianeti nani, lune sferiche, stelle, anche schiacciate dalla rotazione): diametro medio. Corpi irregolari: asse più lungo, quando una fonte lo dà.
+- **V4 — Fonti in disaccordo.** Vale la misura più recente tra quelle aperte, con flag "incerto" e l'intervallo nella descrizione. Se il valore è già dentro l'intervallo e non c'è una misura più recente affidabile, resta.
+- **V5 — Valori derivati.** Ammessi (dimensione angolare per distanza, somme, leggi fisiche) se il calcolo è in nota; flag "incerto" quando un ingresso lo è.
+- **V6 — Limiti sperimentali.** Una convenzione non supera mai un limite misurato: dove esiste un limite superiore, il valore è quel limite.
+- **V7 — Nomi e superlativi.** Il nome e la descrizione non affermano più di quanto la fonte sostiene. I primati non sostenuti si tolgono o si attribuiscono a chi li dichiara.
+- **V8 — Frasi a scadenza.** Nessuna frase diventa falsa col passare del tempo: gli eventi futuri sono scritti come previsioni datate e attribuite.
+- **V9 — Oggetti tipici.** Per oggetti generici o dalla taglia variabile basta un esemplare o un intervallo documentato; il valore resta se è dentro l'intervallo.
+- **V10 — Senza misura.** Se l'oggetto è documentato ma nessuna fonte ne dà la misura lineare, resta con flag "incerto" e la descrizione lo dice. Se nessuna fonte aperta documenta nemmeno la misura di base di un oggetto comune, l'oggetto si toglie.
+- **V11 — Preprint e fonti secondarie.** Ammessi se dichiarati nella descrizione o in nota, con flag "incerto" quando reggono da soli il valore.
+- **V12 — Niente passi indietro.** Una correzione applicata con fonte non si annulla senza una fonte migliore.
+
+Limite noto: V2 è stato applicato ai casi emersi dai lotti (Torre di Pisa, Hale-Bopp, Grande Attrattore), non con un controllo sistematico di tutte le 446 schede.
 
 ## Correzioni di valore applicate
 
@@ -43,96 +62,198 @@ Aggiornato dopo ogni ondata. Le correzioni sono già applicate ai dati; le decis
 | NGC 3310 | 2,2 × 10²⁰ m | 3,6 × 10²⁰ m | NED (3,1′) per la distanza media; il vecchio valore era il limite inferiore NASA; incerta |
 | Grande Nube di Magellano | 3,05 × 10²⁰ m | 2,9 × 10²⁰ m | NED (645′) |
 | NGC 7714 | 3,5 × 10²⁰ m | 4,8 × 10²⁰ m | NED (1,9′) per la distanza ESA/Hubble; incerta |
+| Quark up e quark down | 1,1 e 1,2 × 10⁻¹⁸ m | 8,6 × 10⁻¹⁹ m | V6: doppio del raggio limite di ZEUS (0,43 × 10⁻¹⁸ m) |
+| Seme di girasole | 10,4 mm | 7,8 mm | V1: Università di Uludağ |
+| Torre di Pisa | 56 m | 58,36 m | V2: Opera della Primaziale Pisana |
+| Olympus Mons (altezza) | 21,9 km | 25 km | V1: Guinness World Records, dalla base alla vetta |
+| Deimos | 12,4 km | 15,6 km | V3: asse più lungo, NSSDCA |
+| Fobos | 22,2 km | 26 km | V3: asse più lungo, NSSDCA |
+| Galatea | 176 km | 204 km | V3: asse più lungo, NSSDCA |
+| Vesta | 525 km | 569 km | V3: asse più lungo, NSSDCA |
+| Psyche | 220 km | 278 km | V3: asse più lungo, Shepard e colleghi 2021 |
+| Afelio di Hale-Bopp | 5,5 × 10¹³ m | 5,3 × 10¹³ m | V2: JPL, 354 UA |
+| WOH G64 | 2,14 × 10¹² m | 1,11 × 10¹² m | V4: circa 800 R☉, studio del 2026 |
+| Mu Cephei | 1,6 × 10¹² m | 1,35 × 10¹² m | V4: 972 R☉, Montargès e colleghi 2019 |
+| Distanza del Grande Attrattore | 2,2 × 10²⁴ m | 2,08 × 10²⁴ m | V2: NASA, 220 milioni di anni luce |
+| Leo II | 2 × 10¹⁹ m | 3,9 × 10¹⁹ m | V3: diametro mareale, il valore era un raggio |
 
-## Decisioni aperte
+Le righe da "Quark up" in giù vengono dalle decisioni del 13 novembre e sono registrate in `research/decisions.json`, che prevale sui file dei lotti per quegli oggetti.
+
+## Decisioni prese
 
 1. **Elettrone (limite superiore)**: tenere la correzione o tornare al valore convenzionale di partenza (senza fonte).
+    - **Deciso (V1):** resta la correzione: è la cifra con fonte aperta.
 2. **Quark up e down**: le dimensioni convenzionali (1,1 e 1,2 × 10⁻¹⁸ m) superano il limite sperimentale di 0,43 × 10⁻¹⁸ m. Abbassarle o lasciarle con la nota.
+    - **Deciso (V6):** **cambiato**: entrambi a 8,6 × 10⁻¹⁹ m, il doppio del raggio limite di ZEUS.
 3. **Cellula della pelle**: 30 µm vale solo per i corneociti appiattiti; i cheratinociti vivi sono 6–15 µm. Rinominare o rimpicciolire.
+    - **Deciso (V7):** resta 30 µm; la descrizione dice che vale per i corneociti.
 4. **Fibra di seta**: 12,5 µm è il singolo filamento (7–14 µm), non il filo del bozzolo (15–26 µm). Rinominare o cambiare valore.
+    - **Deciso (V7):** resta 12,5 µm; la descrizione dice che è il singolo filamento.
 5. **Nevischio**: in alternativa alla correzione, tenere 4,2 mm e rinominare in "Granuli di ghiaccio".
+    - **Deciso (V1):** resta la correzione a 1 mm.
 6. **Chicco di grandine più grande**: la fonte sostiene un record statunitense, non mondiale. Il nome dice ancora "più grande".
+    - **Deciso (V7):** **cambiato**: rinominato "Chicco di grandine da record (USA)".
 7. **Valori lasciati invariati ma con alternative più centrali**: gatto (0,46 m contro medie di 0,50–0,55 m), quercia (20 m, minimo dell'intervallo 20–40 m), saguaro (12 m contro massimi ordinari di 13,7–15,2 m).
+    - **Deciso (V9):** restano: i valori sono dentro gli intervalli documentati.
 8. **Pelle delle palpebre e della pianta del piede**: una sola fonte (Università di Leeds); altre non apribili suggeriscono 2,3–2,9 mm per il tallone.
+    - **Deciso (V9):** resta: una fonte aperta basta.
 
 9. **Fiammifero**: proposto per la rimozione (nessuna fonte apribile con una lunghezza). Non rimosso: tenerlo, cercare ancora o toglierlo.
+    - **Deciso (V10):** **rimosso**: nessuna fonte aperta dà la lunghezza. Gli oggetti passano da 447 a 446.
 10. **Seme di girasole**: l'unica fonte aperta dà 7,8 mm contro i 10,4 attuali, e il suo link va in timeout. Da ricontrollare.
+    - **Deciso (V1):** **cambiato**: da 10,4 a 7,8 mm, l'unica cifra letta su una fonte aperta.
 11. **Starship**: 123 m confermati, ma la versione V3 (volata il 22 maggio 2026) sarebbe 124 m secondo Scientific American; le pagine SpaceX e FAA non si aprivano.
+    - **Deciso (V1):** resta 123 m.
 12. **Mondo di Minecraft**: nessuna pagina ufficiale Mojang aperta; unica fonte una segnalazione sul tracker dei bug. Segnato incerto.
+    - **Deciso (V10):** resta, incerto: l'oggetto è documentato, la misura no.
 13. **Cubo di Rubik**: confermato sul dato del V&A (5,5 cm); i 5,7 cm attuali non sono stati verificati.
+    - **Deciso (V1):** resta 5,7 cm: è entro il 5% dell'esemplare del V&A.
 14. **Oggetti generici** (smartphone, schermo, tazza, pallone da spiaggia, bicicletta, automobile): confermati su un solo esemplare ciascuno.
+    - **Deciso (V9):** restano: un esemplare documentato basta.
 15. **Torre di Pisa**: l'Opera della Primaziale dà 58,36 m; i 56 m attuali non hanno una fonte aperta (scarto 4%, lasciato). Proposta: passare a 58,36 m.
+    - **Deciso (V2):** **cambiato**: da 56 a 58,36 m.
 16. **Olympus Mons (altezza)**: 21,9 km senza fonte aperta; Guinness dà 25 km dalla base alla cima. Segnato incerto. Trovare una fonte MOLA o passare a 25 km.
+    - **Deciso (V1):** **cambiato**: da 21,9 a 25 km (dalla base alla vetta), incerto.
 17. **Palm Jebel Ali (7 km) e Brunei (120 km)**: le fonti danno solo la superficie (13,4 km² e 5.765 km²). Segnati incerti.
+    - **Deciso (V10):** restano, incerti.
 18. **Fabbrica Boeing di Everett**: 1.020 m senza fonte; Boeing e Guinness pubblicano solo volume e superficie. Segnata incerta: tenerla, cercare ancora o toglierla.
+    - **Deciso (V10):** resta, incerta: l'edificio è documentato, la lunghezza no.
 19. **Casa media negli USA**: il Census Bureau pubblica solo la superficie (mediana 2.142 piedi quadrati, circa 199 m²); i 15 m restano una convenzione, segnata incerta.
+    - **Deciso (V10):** resta, incerta.
 20. **Ruanda**: il vecchio valore (230 km) corrisponde alla larghezza est–ovest, non trovata in una fonte. In alternativa alla correzione: tenerlo e segnarlo incerto.
+    - **Deciso (V1):** resta la correzione a 248 km.
 21. **Italia**: 1.200 km corrisponde alla penisola (1.185 km), non alla distanza Alpi–Lampedusa (circa 1.290 km). Descrizione riscritta di conseguenza.
+    - **Deciso (V3):** resta 1.200 km: è la lunghezza della penisola, e la descrizione lo dice.
 22. **Asia**: 8.500 km è derivato dalle latitudini di Treccani, non è una cifra dichiarata.
+    - **Deciso (V5):** resta: valore derivato con calcolo in nota.
 23. **Half Dome**: NPS dice solo "quasi 5.000 piedi" sopra la valle; 1.440 m lasciato.
+    - **Deciso (V1):** resta 1.440 m.
 24. **Corpi irregolari, criterio unico**: Idra è stata corretta all'asse più lungo (62 km), mentre Deimos (12,4 km), Fobos (22,2 km), Galatea (176 km), Nix (50 km) e Haumea (1.560 km) restano al diametro medio; gli assi più lunghi sarebbero circa 15,6, 26, 204 e 2.322 km. Scegliere un criterio e applicarlo a tutti.
+    - **Deciso (V3):** **cambiato**: asse più lungo per i corpi irregolari. Deimos 15,6 km, Fobos 26 km, Galatea 204 km, Vesta 569 km, Psyche 278 km; Idra e Nix lo erano già. Haumea resta al diametro medio perché è un pianeta nano.
 25. **Dimorphos**: ESA dà 151 m, la pagina NASA su Didymos dice ancora circa 170 m. Lasciato 150 m.
+    - **Deciso (V1):** resta 150 m (ESA: 151 m).
 26. **3I/ATLAS**: 1.040 m da un preprint arXiv (820–1.050 m), entro i limiti di Hubble (0,44–5,6 km). Segnato incerto.
+    - **Deciso (V11):** resta, incerto: fonte un preprint dichiarato.
 27. **Ganymed (asteroide)**: fonti da circa 35 km (abstract EPSC-DPS 2025) a quasi 40 km (pagina radar JPL). Lasciato 35 km, segnato incerto.
+    - **Deciso (V4):** resta 35 km, incerto: è la stima più recente.
 28. **Nereide**: 357 km (Kiss e colleghi 2016) contro 340 km (NSSDCA), al limite del 5%. Lasciato confermato.
+    - **Deciso (V4):** resta 357 km: è la misura più recente.
 29. **Dysnomia e Sedna**: 615 (+60/−50) km e 995 ± 80 km sono stime da modelli termici, mai risolte direttamente. Segnate incerte; Sedna resta a 1.020 km.
+    - **Deciso (V4):** restano, incerte.
 30. **Mercurio**: la descrizione dice che BepiColombo entrerà in orbita il 21 novembre 2026 (ESA). Va riscritta dopo quella data.
+    - **Deciso (V8):** **cambiato**: la frase su BepiColombo è ora una previsione datata e attribuita all'ESA.
 31. **K2-18 b**: il comunicato Webb della NASA dà 2,6 raggi terrestri (coerente con il valore attuale), il catalogo esopianeti NASA 2,37 (circa il 9% in meno). Segnato incerto; in alternativa confermato sul 2,6.
+    - **Deciso (V4):** resta, incerto.
 32. **TrES-4 b**: raggi pubblicati da 1,61 a 1,78 raggi gioviani (230.000–255.000 km). Segnato incerto; "tra gli esopianeti più grandi" sostituito con "il più grande pianeta in transito noto alla scoperta".
+    - **Deciso (V4):** resta, incerto.
 33. **Gliese 229 B**: oggi è nota come binaria (due nane brune di 38 e 34 masse gioviane) e nessuna componente ha un raggio misurato. Lasciata a 1,3 × 10⁸ m, segnata incerta: tenerla così, rinominarla o toglierla.
+    - **Deciso (V10):** resta, incerta: la descrizione dice che è una binaria.
 34. **Proxima Centauri**: confermata sul raggio adottato (0,1542 R☉); l'interferometria diretta dà 0,141 R☉, il 9% in meno.
+    - **Deciso (V4):** resta il raggio adottato dall'articolo più recente.
 35. **Gliese 229 A**: il raggio è citato di seconda mano da una tabella di confronto (Gaidos 2014 via Calamari 2022).
+    - **Deciso (V11):** resta: fonte secondaria dichiarata.
 36. **VV Cephei B**: raggio solo stimato (13–25 R☉); unica fonte aperta una scheda della British Astronomical Association. Segnata incerta.
+    - **Deciso (V11):** resta, incerta.
 37. **Alnitak**: 20 ± 3,2 R☉, dipende dalla distanza adottata (387 o 294 pc). Segnata incerta.
+    - **Deciso (V4):** resta, incerta.
 38. **Altair, Vega, Regolo**: stelle schiacciate dalla rotazione, confermate come diametri medi; i diametri equatoriali sarebbero 2,82, 3,79 e 5,86 × 10⁹ m. Stesso criterio da fissare della decisione 24.
+    - **Deciso (V3):** restano al diametro medio: sono stelle, arrotondate dalla propria gravità.
 39. **Pollux**: la fonte dà 8,8 R☉ (1,22 × 10¹⁰ m); il valore attuale è il 2,9% più alto, lasciato.
+    - **Deciso (V1):** resta: entro il 5%.
 40. **La Superba**: il nuovo valore è un calcolo (Stefan-Boltzmann), non una misura diretta. In alternativa: tenere 4,4 × 10¹¹ m segnato incerto.
+    - **Deciso (V5):** resta 4,8 × 10¹¹ m, incerta: valore derivato con calcolo in nota.
 41. **Deneb**: 203 ± 17 R☉ (Schiller e Przybilla, valore attuale) contro circa 117 R☉ (Baines e colleghi 2025, con parallasse incerta). Segnata incerta.
+    - **Deciso (V4):** resta, incerta: la misura più recente ha una parallasse inaffidabile.
 42. **S Doradus**: il raggio varia tra 100 e 380 R☉; il valore attuale (circa 359 R☉) è vicino al massimo. Segnata incerta.
+    - **Deciso (V4):** resta, incerta: il valore è dentro l'intervallo.
 43. **Pistol Star**: la fonte la classifica come variabile blu luminosa (LBV), non come ipergigante blu.
+    - **Deciso (V7):** resta: la descrizione usa la classificazione della fonte.
 44. **Altezza totale dell'umanità**: 1,3 × 10¹⁰ m poggia su un'ipotesi di altezza media di 1,5–1,65 m (nessuna fonte dà la media inclusi i bambini) e la pagina ONU aperta dà 8,2 miliardi nel 2024, non 8,3 nel 2026. Segnata incerta.
+    - **Deciso (V5):** resta, incerta.
 45. **Afelio di Hale-Bopp**: JPL dà 354 UA (5,3 × 10¹³ m); il valore attuale (5,5 × 10¹³ m) è il 3,7% più alto ed è rimasto, ma la descrizione dice 354 UA. Proposta: allineare il valore a 5,3 × 10¹³ m.
+    - **Deciso (V2):** **cambiato**: da 5,5 a 5,3 × 10¹³ m (354 UA).
 46. **Afelio di Sedna**: 936 UA (arXiv 2506.17732, coerente con il valore) contro 1.010 UA (elementi eliocentrici JPL). Segnato incerto.
+    - **Deciso (V4):** resta, incerto: coincide con la stima più recente.
 47. **Perielio della Parker Solar Probe**: dalla cifra NASA in miglia la distanza dal centro del Sole viene 6,81 × 10⁹ m contro i 6,9 × 10⁹ attuali (1,3%). Lasciato.
+    - **Deciso (V1):** resta: entro il 5%.
 48. **Voyager 1**: la descrizione cita la tappa di un giorno-luce prevista dalla NASA per il 18 novembre 2026. Va riletta dopo quella data.
+    - **Deciso (V8):** **cambiato**: la frase sul giorno-luce è ora un calcolo datato e attribuito alla NASA.
 49. **Supergiganti rosse**: otto su dodici dell'ultimo lotto sono segnate incerte perché i raggi pubblicati divergono molto. UY Scuti: 1.708 ± 192 R☉ (2013) contro circa 909 R☉ (Healy e colleghi 2024); il valore attuale corrisponde a circa 905 R☉. WOH G64: 1.540 R☉ (2009, valore attuale) contro circa 800 R☉ (2024). V838 Monocerotis, V354 Cephei e KY Cygni sono al minimo degli intervalli pubblicati. Mu Cephei: 972 ± 228 R☉ o 1.420 R☉; una stima 2026 di 762 R☉ non è stata aperta. Decidere se tenere i valori attuali o passare alle misure più recenti.
+    - **Deciso (V4):** **cambiato**: WOH G64 a 1,11 × 10¹² m (circa 800 R☉, 2026) e Mu Cephei a 1,35 × 10¹² m (972 R☉, 2019). UY Scuti e V838 Monocerotis seguivano già la misura più recente; V354 Cephei e KY Cygni restano, incerte.
 50. **VV Cephei A**: l'articolo dietro i 1.050 R☉ attuali (Bauer 2008) non si apriva; è sostenuto solo l'intervallo 600–1.800 R☉.
+    - **Deciso (V4):** resta, incerta: il valore è dentro l'intervallo.
 51. **UY Scuti e Stephenson 2-18**: tolti i superlativi "stella più grande", non sostenuti dalle fonti.
+    - **Deciso (V7):** restano tolti.
 52. **Distanza del Grande Attrattore**: la NASA dà circa 220 milioni di anni luce per l'ammasso del Regolo; il valore attuale corrisponde a 232,5 milioni (5,4% in più) e la regione è diffusa. Segnata incerta. Proposta: allineare a 220 milioni.
+    - **Deciso (V2):** **cambiato**: da 2,2 a 2,08 × 10²⁴ m (220 milioni di anni luce).
 53. **Distanza dell'Hubble Deep Field**: la fonte dà solo limiti ("più di dieci miliardi di anni fa"). Segnata incerta.
+    - **Deciso (V10):** resta, incerta.
 54. **Raggio di Hubble**: da 13,4 a 14,5 miliardi di anni luce a seconda della costante di Hubble usata (67,4 o 73,0 km/s/Mpc). Segnato incerto.
+    - **Deciso (V4):** resta, incerto.
 55. **MoM-z14**: la distanza di circa 34 miliardi di anni luce è un calcolo dal redshift con i parametri di Planck, non una cifra citata; "la più distante" vale a gennaio 2026.
+    - **Deciso (V5):** resta: valore derivato con calcolo in nota.
 56. **Strada percorsa dalla Terra attorno al Sole**: valore derivato (circonferenza dell'orbita per 4,54 miliardi di anni), assumendo un'orbita invariata.
+    - **Deciso (V5):** resta: valore derivato.
 57. **Hamburger di Gomez**: il valore scende di dieci volte perché oggi è considerato un disco protoplanetario vicino (139 pc) e non una nebulosa lontana. La distanza resta incerta (con 250 pc il diametro raddoppia). Verificare che la categoria e il nome sul sito siano ancora adatti.
+    - **Deciso (V4):** resta la correzione; nome invariato, perché è il nome proprio dell'oggetto.
 58. **Nebulosa Boomerang**: il nuovo valore misura il deflusso freddo visto da ALMA, non i lobi visibili nell'immagine Hubble, per i quali non c'è una fonte con la misura.
+    - **Deciso (V1):** resta la correzione: è l'unica misura con fonte.
 59. **Nebulosa Anello**: il vecchio valore (2,6 anni luce) forse includeva gli aloni esterni, ma nessuna fonte aperta ne dà la misura. Ora vale per l'anello principale.
+    - **Deciso (V1):** resta la correzione.
 60. **Nebulose Stingray, Blinking e Formica**: valori lasciati, segnate incerte perché le distanze pubblicate divergono (per Stingray da 0,83 a 5,6 kpc).
+    - **Deciso (V4):** restano, incerte.
 61. **Omega Centauri**: ESO dà circa 150 anni luce (valore attuale), la NASA 450. Segnato incerto.
+    - **Deciso (V4):** resta 150 anni luce, incerto.
 62. **Messier 14 e Messier 54**: le cifre popolari (100 e 306 anni luce) non hanno una fonte apribile. M14 poggia su una sola didascalia NOIRLab; per M54 l'abstract citato dice solo "circa 75 pc" di raggio mareale. Segnati incerti.
+    - **Deciso (V11):** restano, incerti.
 63. **Anello di Barnard**: una sola fonte, una didascalia NASA APOD (300 anni luce).
+    - **Deciso (V11):** resta: una fonte aperta basta.
 64. **Nebulosa Elica**: anello brillante di quasi 3 anni luce, alone esterno oltre 6; il valore attuale (circa 5,7 anni luce) sta in mezzo. Segnata incerta.
+    - **Deciso (V4):** resta, incerta: il valore è dentro l'intervallo.
 65. **Nebulosa Bolla**: NASA 7 anni luce (valore attuale), ESA circa 10. Segnata incerta.
+    - **Deciso (V4):** resta 7 anni luce, incerta.
 66. **Nebulosa Nord America**: 85–90 anni luce derivati dalla distanza Gaia (785 pc), non dichiarati da una fonte; una pagina NASA del 2011 dice circa 50. Segnata incerta.
+    - **Deciso (V5):** resta, incerta.
 67. **Nebulosa del Granchio**: lasciata a 11 anni luce (NASA), ma altre pagine NASA dicono 6 e 10.
+    - **Deciso (V1):** resta 11 anni luce.
 68. **Nebulosa di Orione**: 24 anni luce derivati da dimensione angolare e distanza; una pagina NASA APOD dice 40.
+    - **Deciso (V5):** resta 24 anni luce: valore derivato.
 69. **Nube Interstellare Locale**: la cifra (circa 30 anni luce) è citata da Physics Today perché il comunicato NASA originale non è più raggiungibile.
+    - **Deciso (V11):** resta: fonte secondaria dichiarata.
 70. **Ammasso della Vergine**: nessuna fonte primaria aperta dà i 15 milioni di anni luce di partenza; la correzione usa il doppio del raggio viriale. In alternativa: tenere il vecchio valore segnato incerto.
+    - **Deciso (V1):** resta la correzione: i 15 milioni di anni luce non hanno fonte.
 71. **Vuoto del Boote**: l'articolo del 1987 dà un raggio di 62 Mpc con H0 = 50, cioè 280–400 milioni di anni luce a seconda della costante usata. Lasciato 3,1 × 10²⁴ m, segnato incerto; con H0 = 70 sarebbe 2,7 × 10²⁴ m. La fonte è un PDF scansionato.
+    - **Deciso (V4):** resta, incerto: il valore è dentro l'intervallo.
 72. **Superammasso della Vergine**: la NASA dice "circa 100 milioni di anni luce"; lasciati 110, segnato incerto.
+    - **Deciso (V4):** resta, incerto.
 73. **Complesso Pesci-Balena**: unica fonte un atto di simposio ("circa 300 Mpc"). Segnato incerto.
+    - **Deciso (V11):** resta, incerto.
 74. **Quipu**: "la più grande" è attribuito agli autori dello studio (2025), non è un primato accertato.
+    - **Deciso (V7):** resta: il primato è attribuito agli autori.
 75. **IC 1101**: il nuovo valore (1,7 milioni di anni luce) viene da un preprint del luglio 2026 non ancora revisionato; Guinness riporta 5,6 milioni senza indicare la misura d'origine, e i 4 milioni di partenza non hanno una fonte apribile. In alternativa: tenere il vecchio valore segnato incerto finché l'articolo non è pubblicato.
+    - **Deciso (V11):** resta la correzione, incerta: il preprint è dichiarato in descrizione.
 76. **Galassia Sombrero**: 7,5 × 10²⁰ m (circa 79.000 anni luce) è derivato da dimensione angolare e distanza; ESA/Hubble dice 50.000 anni luce.
+    - **Deciso (V5):** resta il valore derivato, incerto.
 77. **Andromeda e Virgo A (M87)**: confermate solo entro il 5–10%; nessuna pagina NASA o ESA dà il diametro di Andromeda.
+    - **Deciso (V1):** restano: entro il 5–10%, con dimensione angolare e distanza citate.
 78. **Universo intero**: nessuna fonte per 1,6 × 10²⁷ m: è una convenzione. Tenuto come ipotetico e incerto; il ricercatore lo segnala come candidato alla rimozione. Decide Federico.
+    - **Deciso (V10):** resta come oggetto ipotetico e incerto: il concetto è documentato, la misura è una convenzione dichiarata.
 79. **Grande Muraglia Ercole-Corona Boreale**: l'articolo dà 2.000–3.000 Mpc; i "10 miliardi di anni luce" erano la distanza, non la dimensione. Valore lasciato (2,6% sopra l'estremo superiore), descrizione corretta, esistenza dibattuta.
+    - **Deciso (V4):** resta, incerta.
 80. **Supervuoto di Eridano, Vuoto KBC, Arco Gigante, Huge-LQG**: strutture dalla realtà o dall'estensione discussa, segnate incerte. Per il supervuoto l'intervallo 1,6–2,5 miliardi di anni luce assume h = 0,7.
+    - **Deciso (V4):** restano, incerti.
 81. **NGC 3310**: la NASA dichiara circa 16 kpc (4,9 × 10²⁰ m) a 18 Mpc; il valore applicato usa la distanza media di NED. Scegliere quale dei due.
+    - **Deciso (V5):** resta il valore derivato, incerto.
 82. **Leo II**: 2 × 10¹⁹ m corrisponde al raggio mareale (632 pc), non al diametro (3,9 × 10¹⁹ m). Lasciato, segnato incerto: raddoppiare o tenere.
+    - **Deciso (V3):** **cambiato**: da 2 a 3,9 × 10¹⁹ m, perché il valore era un raggio.
 83. **Grande Nube di Magellano**: correzione marginale (5–6%). In alternativa lasciare il valore di partenza.
+    - **Deciso (V12):** resta la correzione.
 84. **Nana del Cane Maggiore**: la sua natura di galassia è contestata (potrebbe essere una normale popolazione del disco esterno). Segnata incerta.
+    - **Deciso (V7):** resta, incerta: la descrizione dice che la sua natura è contestata.
 85. **Galassia Vortice**: NED per la distanza dà circa 100.000 anni luce, la NASA dice 60.000; il valore attuale (circa 77.000) sta in mezzo. Segnata incerta.
+    - **Deciso (V4):** resta, incerta: il valore è dentro l'intervallo.
 86. **Via Lattea**: confermata su D25 = 26,8 kpc (circa 87.400 anni luce); la cifra divulgativa della NASA è "circa 100.000 anni luce".
+    - **Deciso (V1):** resta: confermata su D25.
 
 ## Da sistemare prima di chiudere la fase
 
@@ -149,13 +270,13 @@ Aggiornato dopo ogni ondata. Le correzioni sono già applicate ai dati; le decis
 
 ## Avanzamento
 
-Lotti applicati: tutti e 44 (446 oggetti su 447). L'unico oggetto non verificato è il fiammifero, proposto per la rimozione (decisione 9).
+Lotti applicati: tutti e 44, più `research/decisions.json`. Tutti i 446 oggetti sono verificati; il fiammifero è stato rimosso (decisione 9).
 
 Chiusura della fase:
 
 - **Elenco delle fonti**: "Metodo e fonti" ora mostra l'elenco completo generato dai dati (678 fonti da 198 siti, raggruppate per sito). Le sei voci scritte a mano sono state tolte: due rimandavano a space.com e sci.news, fuori dai criteri.
-- **Validazione rigorosa**: `npm run validate -- --strict` segnala solo le immagini mancanti (fase 3) e le tre righe del fiammifero.
-- **Test**: 78 test unitari e 23 test nel browser passano. Due test nel browser puntavano alla formica come oggetto senza descrizione né fonti: ora usano il fiammifero, quindi vanno aggiornati se il fiammifero viene tolto o verificato.
+- **Validazione rigorosa**: `npm run validate -- --strict` segnala solo le immagini mancanti (fase 3).
+- **Test**: 78 test unitari e 21 test nel browser passano. I due test nel browser sull'oggetto senza descrizione né fonti sono stati tolti: quel caso non esiste più nei dati.
 - **Test nel browser in ambienti cloud**: `astro preview` si mette da solo in background e Playwright lo vede uscire; inoltre la versione di Playwright del progetto cerca un Chromium diverso da quello installato. Qui sono stati eseguiti con una configurazione temporanea, senza toccare `playwright.config.ts`.
 - **Controllo dei link**: `check-links.mjs` in ambienti con proxy va lanciato con `NODE_USE_ENV_PROXY=1`.
 - **Oggetti da aggiungere**: nessuna proposta raccolta dai lotti; la lista è da fare a parte, se la si vuole.
