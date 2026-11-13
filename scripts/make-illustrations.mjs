@@ -698,6 +698,49 @@ function everyday(o, random) {
     }
     case 'carta-di-credito-spessore':
       return `<g transform="translate(${CX} ${CY - 30}) skewX(-28)"><rect x="-250" y="-120" width="500" height="250" rx="22" fill="#3b5fa8"/><rect x="-250" y="-70" width="500" height="44" fill="#16233f"/><rect x="-200" y="30" width="78" height="56" rx="8" fill="${AMBER}"/></g>` + `<rect x="80" y="${CY + 150}" width="560" height="26" rx="6" fill="#5b7fc8"/>` + line(680, CY + 110, 680, CY + 146, `stroke="${TEAL}" stroke-width="4"`) + line(680, CY + 180, 680, CY + 216, `stroke="${TEAL}" stroke-width="4"`) + path(`M668 ${CY + 132}L680 ${CY + 148}L692 ${CY + 132}M668 ${CY + 194}L680 ${CY + 178}L692 ${CY + 194}`, `fill="none" stroke="${TEAL}" stroke-width="4"`);
+    case 'fibra-di-seta': {
+      // The thread of a silkworm seen end-on: two filaments of fibroin inside one coat of sericin.
+      const tri = (x) => path(`M${x - 92} ${CY + 70}Q${x - 110} ${CY - 20} ${x} ${CY - 96}Q${x + 110} ${CY - 20} ${x + 92} ${CY + 70}Q${x} ${CY + 104} ${x - 92} ${CY + 70}Z`, 'fill="#f6ecd0"');
+      return `<ellipse cx="${CX}" cy="${CY}" rx="290" ry="170" fill="#e9c46a" opacity=".55"/>` + tri(CX - 122) + tri(CX + 122);
+    }
+    case 'pixel-di-uno-smartphone': {
+      // One pixel in the middle of its neighbours: three coloured sub-pixels side by side.
+      let s = '';
+      for (let row = -1; row <= 1; row++)
+        for (let col = -1; col <= 1; col++)
+          for (const [i, colour] of ['#ff5a4f', '#4fd16a', '#4f8dff'].entries())
+            s += `<rect x="${CX - 99 + col * 236 + i * 70}" y="${CY - 99 + row * 236}" width="58" height="198" rx="12" fill="${colour}" opacity="${row || col ? 0.28 : 1}"/>`;
+      return s + `<rect x="${CX - 116}" y="${CY - 116}" width="232" height="232" rx="10" fill="none" stroke="${INK}" stroke-width="3" stroke-dasharray="8 8"/>`;
+    }
+    case 'seme-di-sesamo': {
+      const seed = (x, y, angle, scale) =>
+        `<g transform="translate(${x} ${y}) rotate(${angle}) scale(${scale})">` +
+        path('M-150 0C-150 -84 -30 -100 90 -62C150 -42 176 -14 176 0C176 14 150 42 90 62C-30 100 -150 84 -150 0Z', 'fill="#ead9b0"') +
+        path('M-110 -30C-60 -64 20 -62 90 -40', 'fill="none" stroke="#fff" stroke-width="14" stroke-linecap="round" opacity=".45"') +
+        '</g>';
+      return seed(CX - 20, CY + 10, -24, 1.25) + seed(150, 120, 40, 0.42) + seed(660, 480, -70, 0.38);
+    }
+    case 'righello-da-un-piede': {
+      let s = `<rect x="70" y="${CY - 70}" width="660" height="140" rx="8" fill="#e0b877"/>`;
+      for (let i = 0; i <= 48; i++) {
+        const x = 94 + (i * 612) / 48;
+        const long = i % 4 === 0;
+        s += line(x, CY - 70, x, CY - 70 + (long ? 56 : i % 2 === 0 ? 38 : 24), `stroke="#3a2a14" stroke-width="${long ? 3 : 2}"`);
+        if (long && i < 48) s += `<text x="${f(x + 14)}" y="${CY + 16}" font-family="'Public Sans',system-ui,sans-serif" font-size="24" font-weight="600" fill="#3a2a14">${i / 4 + 1}</text>`;
+      }
+      return s;
+    }
+    case 'brunei':
+    case 'west-virginia': {
+      // No free picture from orbit was found: a plain patch of land with its width marked, not a map.
+      return (
+        path(blob(CX, CY - 30, 200, random, 11, 0.3, 0.72), 'fill="#3f7d5a"') +
+        path(blob(CX - 40, CY - 50, 110, random, 8, 0.3, 0.7), 'fill="#5fa377" opacity=".7"') +
+        line(150, H - 90, W - 150, H - 90, `stroke="${INK}" stroke-width="3"`) +
+        line(150, H - 104, 150, H - 76, `stroke="${INK}" stroke-width="3"`) +
+        line(W - 150, H - 104, W - 150, H - 76, `stroke="${INK}" stroke-width="3"`)
+      );
+    }
     case 'cellula-della-pelle': {
       let s = '';
       for (let r = 0; r < 3; r++) for (let c = 0; c < 4; c++) {

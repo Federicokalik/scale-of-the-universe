@@ -1766,7 +1766,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "particella-di-argilla",
     "sources": [
       {
         "title": "ISO 14688-1:2002, Geotechnical investigation and testing. Identification and classification of soil. Part 1 (anteprima, Table 1)",
@@ -1779,7 +1779,8 @@
         "publisher": "Kansas State University, via LibreTexts"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "escherichia-coli",
@@ -1887,7 +1888,7 @@
       "r",
       "u"
     ],
-    "image": null,
+    "image": "cromosoma-x",
     "sources": [
       {
         "title": "X chromosome",
@@ -1900,7 +1901,8 @@
         "publisher": "Thompson Rivers University, Open Genetics"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "globulo-rosso",
@@ -1908,7 +1910,7 @@
     "kind": "b",
     "glyph": "🩸",
     "flags": [],
-    "image": null,
+    "image": "globulo-rosso",
     "sources": [
       {
         "title": "18.3 Erythrocytes (Anatomy and Physiology 2e)",
@@ -1921,7 +1923,8 @@
         "publisher": "R. Milo e R. Phillips, Cell Biology by the Numbers (BioNumbers)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "infrarosso-termico",
@@ -1970,7 +1973,7 @@
     "flags": [
       "u"
     ],
-    "image": null,
+    "image": "fibra-di-seta",
     "sources": [
       {
         "title": "Mode III Tear Resistance of Bombyx mori Silk Cocoons",
@@ -1983,7 +1986,8 @@
         "publisher": "FAO"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "twip",
@@ -2034,7 +2038,7 @@
     "flags": [
       "u"
     ],
-    "image": null,
+    "image": "gocciolina-di-nebbia",
     "sources": [
       {
         "title": "Glossary (voce Fog)",
@@ -2042,7 +2046,8 @@
         "publisher": "FogQuest: Sustainable Water Solutions (ente non profit canadese)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "thou",
@@ -2137,7 +2142,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "pixel-di-uno-smartphone",
     "sources": [
       {
         "title": "iPhone 16 Technical Specifications",
@@ -2145,7 +2150,8 @@
         "publisher": "Apple"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "spermatozoo",
@@ -2155,7 +2161,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "spermatozoo",
     "sources": [
       {
         "title": "Spermatozoo",
@@ -2163,7 +2169,8 @@
         "publisher": "Treccani, Enciclopedia on line"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "capello-umano",
@@ -2171,7 +2178,7 @@
     "kind": "o",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "capello-umano",
     "sources": [
       {
         "title": "Just How Small Is \"Nano\"?",
@@ -2179,7 +2186,8 @@
         "publisher": "U.S. National Nanotechnology Initiative (nano.gov)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "limite-dell-occhio-nudo",
@@ -2206,7 +2214,7 @@
     "kind": "o",
     "glyph": "📄",
     "flags": [],
-    "image": null,
+    "image": "foglio-di-carta-spessore",
     "sources": [
       {
         "title": "REY Copy, scheda tecnica (80 g/m², A4)",
@@ -2219,7 +2227,8 @@
         "publisher": "U.S. National Nanotechnology Initiative (nano.gov)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "ovulo-umano",
@@ -2447,7 +2456,7 @@
     "kind": "o",
     "glyph": "💳",
     "flags": [],
-    "image": null,
+    "image": "carta-di-credito-spessore",
     "sources": [
       {
         "title": "ISO/IEC 7810:2003 Identification cards - Physical characteristics (scope)",
@@ -2455,7 +2464,8 @@
         "publisher": "Estonian Centre for Standardisation and Accreditation (EVS), scheda della norma ISO/IEC"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "millimetro",
@@ -2584,7 +2594,7 @@
     "kind": "o",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "seme-di-sesamo",
     "sources": [
       {
         "title": "Sesamum indicum, seed (Digital Plant Atlas)",
@@ -2597,7 +2607,8 @@
         "publisher": "Purdue University, Center for New Crops and Plant Products"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "formica",
@@ -2745,7 +2756,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "uovo-di-colibri",
     "sources": [
       {
         "title": "Smallest bird egg",
@@ -2753,7 +2764,8 @@
         "publisher": "Guinness World Records"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "chicco-di-caffe",
@@ -2824,7 +2836,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "moneta-da-1-euro",
     "sources": [
       {
         "title": "Common sides of euro coins",
@@ -2832,7 +2844,8 @@
         "publisher": "Banca centrale europea"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "pollice",
@@ -2917,7 +2930,7 @@
     "kind": "b",
     "glyph": "🐦",
     "flags": [],
-    "image": null,
+    "image": "colibri",
     "sources": [
       {
         "title": "Archilochus colubris (ruby-throated hummingbird)",
@@ -2925,7 +2938,8 @@
         "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "toporagno",
@@ -2933,7 +2947,7 @@
     "kind": "b",
     "glyph": "🐭",
     "flags": [],
-    "image": null,
+    "image": "toporagno",
     "sources": [
       {
         "title": "Common Shrew (Sorex araneus)",
@@ -2946,7 +2960,8 @@
         "publisher": "Animal Diversity Web, University of Michigan Museum of Zoology"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "tazza",
@@ -3130,7 +3145,7 @@
     "kind": "o",
     "glyph": "📏",
     "flags": [],
-    "image": null,
+    "image": "righello-da-un-piede",
     "sources": [
       {
         "title": "U.S. Survey Foot",
@@ -3138,7 +3153,8 @@
         "publisher": "National Institute of Standards and Technology (NIST)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "uno-schermo",
@@ -3206,7 +3222,7 @@
     "kind": "o",
     "glyph": "🏐",
     "flags": [],
-    "image": null,
+    "image": "pallone-da-spiaggia",
     "sources": [
       {
         "title": "Glossy Panel Inflatable Beach Ball - 24\"",
@@ -3214,7 +3230,8 @@
         "publisher": "Intex Recreation Corp."
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "metro",
@@ -3843,7 +3860,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "sequoia-hyperion",
     "sources": [
       {
         "title": "Tallest tree living",
@@ -3856,7 +3873,8 @@
         "publisher": "U.S. National Park Service, Redwood National and State Parks"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "starship",
@@ -4819,7 +4837,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "nix",
     "sources": [
       {
         "title": "The Small Satellites of Pluto as Observed by New Horizons (Weaver et al. 2016, Science 351, aae0030), full text",
@@ -4837,7 +4855,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "bianca",
@@ -4845,7 +4864,7 @@
     "kind": "p",
     "glyph": "#8e9aa3",
     "flags": [],
-    "image": null,
+    "image": "bianca",
     "sources": [
       {
         "title": "Uranian Satellite Fact Sheet",
@@ -4858,7 +4877,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "buco-nero-stellare",
@@ -4892,7 +4912,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "idra",
     "sources": [
       {
         "title": "Pluto Fact Sheet",
@@ -4910,7 +4930,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "glow"
   },
   {
     "id": "rhode-island",
@@ -4918,7 +4939,7 @@
     "kind": "g",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "rhode-island",
     "sources": [
       {
         "title": "Rhode Island",
@@ -4931,7 +4952,8 @@
         "publisher": "Treccani, Enciclopedia on line"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "belinda",
@@ -4941,7 +4963,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "belinda",
     "sources": [
       {
         "title": "Uranian Satellite Fact Sheet",
@@ -4954,7 +4976,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "brunei",
@@ -4964,7 +4987,7 @@
     "flags": [
       "u"
     ],
-    "image": null,
+    "image": "brunei",
     "sources": [
       {
         "title": "Brunei (Enciclopedia Italiana, V Appendice)",
@@ -4977,7 +5000,8 @@
         "publisher": "Treccani, Enciclopedia on line"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "gaia-bh3",
@@ -5011,7 +5035,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "galatea",
     "sources": [
       {
         "title": "Neptunian Satellite Fact Sheet",
@@ -5024,7 +5048,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-13"
+    "verified": "2026-11-13",
+    "imageShape": "art"
   },
   {
     "id": "ruanda",
@@ -5059,7 +5084,7 @@
       "n",
       "r"
     ],
-    "image": null,
+    "image": "psyche",
     "sources": [
       {
         "title": "Asteroid 16 Psyche: Shape, Features, and Global Map (Shepard et al. 2021)",
@@ -5072,7 +5097,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-13"
+    "verified": "2026-11-13",
+    "imageShape": "art"
   },
   {
     "id": "nereide",
@@ -5082,7 +5108,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "nereide",
     "sources": [
       {
         "title": "Nereid from space: Rotation, size and shape analysis from Kepler/K2, Herschel and Spitzer observations (Kiss et al. 2016), full text",
@@ -5100,7 +5126,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "mimas",
@@ -5139,7 +5166,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "west-virginia",
     "sources": [
       {
         "title": "West Virginia (Worldmark Encyclopedia of the States), sezione Location, Size, and Extent",
@@ -5152,7 +5179,8 @@
         "publisher": "Istituto della Enciclopedia Italiana Treccani"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "grand-canyon",
@@ -5359,7 +5387,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "quaoar",
     "sources": [
       {
         "title": "ESA's Cheops finds an unexpected ring around dwarf planet Quaoar",
@@ -5367,7 +5395,8 @@
         "publisher": "European Space Agency (ESA)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "italia",
@@ -5465,7 +5494,7 @@
     "kind": "g",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "texas",
     "sources": [
       {
         "title": "Texas' Natural Environment (Length and Breadth of Texas)",
@@ -5478,7 +5507,8 @@
         "publisher": "Istituto della Enciclopedia Italiana Treccani"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "makemake",
@@ -5488,7 +5518,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "makemake",
     "sources": [
       {
         "title": "Dwarf Planet Makemake Lacks Atmosphere (eso1246)",
@@ -5501,7 +5531,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "haumea",
@@ -5511,7 +5542,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "haumea",
     "sources": [
       {
         "title": "The size, shape, density and ring of the dwarf planet Haumea from a stellar occultation (Ortiz et al. 2017)",
@@ -5529,7 +5560,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "titania",
@@ -5580,7 +5612,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "eris",
     "sources": [
       {
         "title": "Faraway Eris is Pluto's Twin (eso1142)",
@@ -5593,7 +5625,8 @@
         "publisher": "STScI / HubbleSite"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "plutone",
@@ -5713,7 +5746,7 @@
     "kind": "g",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "larghezza-degli-stati-uniti",
     "sources": [
       {
         "title": "Extreme Distances (computed to mean sea level)",
@@ -5721,7 +5754,8 @@
         "publisher": "U.S. Geological Survey"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "callisto",
@@ -7020,7 +7054,7 @@
     "kind": "s",
     "glyph": "#a9c4ff",
     "flags": [],
-    "image": null,
+    "image": "pistol-star",
     "sources": [
       {
         "title": "Metallicity in the Galactic Center: The Quintuplet cluster",
@@ -7028,7 +7062,8 @@
         "publisher": "Najarro et al., The Astrophysical Journal (arXiv)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "la-superba",
@@ -7141,7 +7176,7 @@
     "kind": "s",
     "glyph": "#ff6a45",
     "flags": [],
-    "image": null,
+    "image": "antares",
     "sources": [
       {
         "title": "High spectral resolution imaging of the dynamical atmosphere of the red supergiant Antares in the CO first overtone lines with VLTI/AMBER",
@@ -7149,7 +7184,8 @@
         "publisher": "Ohnaka et al., Astronomy & Astrophysics 555, A24 (2013), arXiv"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "v354-cephei",

@@ -39,8 +39,17 @@ Il ragionamento (piano, scelta delle foto, disegno delle illustrazioni, controll
 
 ## Stato
 
+Fase chiusa il 13 novembre 2026.
+
 - [x] Catena di strumenti, validazione, tela, scheda, crediti nel pannello "Metodo e fonti"
-- [x] 208 illustrazioni originali
-- [ ] Ricerca dei candidati per i 239 oggetti con foto (in corso)
-- [ ] Scelta, scaricamento e controllo delle foto
-- [ ] `CREDITS.md` definitivo, validazione rigorosa pulita, controllo visivo su tela
+- [x] Ricerca dei candidati per i 239 oggetti con foto, più una seconda ricerca mirata per 21
+- [x] 215 fotografie scelte, scaricate e controllate (titolo e descrizione del file, non solo la miniatura)
+- [x] 231 illustrazioni originali (24 oggetti del piano sono passati a illustrazione: nessuna foto libera adatta)
+- [x] `CREDITS.md` definitivo, validazione rigorosa pulita, 80 test unitari e 21 test nel browser verdi
+
+Da sapere:
+
+- Brunei e West Virginia hanno un disegno generico (una macchia di terra con la larghezza segnata), non una mappa: non c'era una foto dallo spazio con licenza adatta.
+- Idra è la foto vera di New Horizons, quindi a pochi pixel: è la migliore che esista.
+- Lo spermatozoo è una foto a contrasto di fase senza specie dichiarata nel file.
+- La faccia comune dell'euro è un disegno dell'Unione europea: la riproduzione è ammessa, la foto è CC0.
