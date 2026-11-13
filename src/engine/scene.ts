@@ -115,6 +115,10 @@ export function createScene(canvas: HTMLCanvasElement, data: SceneData): Scene {
 
     ctx.textAlign = 'center';
     ctx.textBaseline = 'alphabetic';
+    // Names never overlap: the selected object is lettered first, then the others from the largest
+    // down, and a name that would cover one already written is left out until there is room.
+    labels.sort((a, b) => Number(b[0] === selected) - Number(a[0] === selected) || b[3] - a[3]);
+    const taken: [number, number, number, number][] = [];
     for (const [o, x, y, px, alpha] of labels) {
       const fontSize = Math.max(13, Math.min(16, px * 0.075));
       const flat = 'udw'.includes(o.kind) && !o.emoji;
@@ -127,6 +131,9 @@ export function createScene(canvas: HTMLCanvasElement, data: SceneData): Scene {
       ctx.globalAlpha = alpha * Math.min(1, (px - 40) / 30);
       ctx.font = `italic 500 ${fontSize + 1}px ${LABEL_FONT}`;
       const textWidth = ctx.measureText(o.name).width;
+      const box: [number, number, number, number] = [x - textWidth / 2 - 14, labelY - fontSize - 2, x + textWidth / 2 + 6, labelY + (px > 95 ? fontSize + 6 : 4)];
+      if (taken.some((b) => box[0] < b[2] && box[2] > b[0] && box[1] < b[3] && box[3] > b[1])) continue;
+      taken.push(box);
       const flag = (['i', 'u', 'n', 'r'] as const).find((f) => o.flags.includes(f));
       ctx.lineWidth = 4;
       ctx.lineJoin = 'round';

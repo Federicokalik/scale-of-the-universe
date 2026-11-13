@@ -48,10 +48,10 @@ const BLUE = '#7d9fd0';
 const MONO = "ui-monospace,'SF Mono',Menlo,Consolas,monospace";
 const SERIF = "'Times New Roman',Times,serif";
 
-/** A lit sphere: flat colour, a highlight and a dark limb. `id` keeps gradient names unique inside one drawing. */
+/** A matt sphere lit from the upper left: flat colour, soft light, dark limb, no gloss. `id` keeps gradient names unique inside one drawing. */
 function sphere(x, y, r, colour, id) {
   return (
-    `<defs><radialGradient id="${id}" cx="35%" cy="32%" r="75%"><stop offset="0" stop-color="#fff" stop-opacity=".55"/><stop offset=".45" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#00040f" stop-opacity=".7"/></radialGradient></defs>` +
+    `<defs><radialGradient id="${id}" cx="35%" cy="32%" r="75%"><stop offset="0" stop-color="#fff" stop-opacity=".16"/><stop offset=".55" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".62"/></radialGradient></defs>` +
     circle(x, y, r, `fill="${colour}"`) +
     circle(x, y, r, `fill="url(#${id})"`)
   );
@@ -431,7 +431,8 @@ function cosmic(o, random) {
 }
 function cloud(o, random) {
   const puff = (x, y, r, colour, i, strength = 0.5) => glow(x, y, r, colour, `p${i}`, strength);
-  if (o.id === 'bolle-di-fermi') return `<ellipse cx="${CX}" cy="${CY - 150}" rx="150" ry="140" fill="${VIOLET}" opacity=".45"/><ellipse cx="${CX}" cy="${CY + 150}" rx="150" ry="140" fill="${VIOLET}" opacity=".45"/><ellipse cx="${CX}" cy="${CY}" rx="330" ry="34" fill="#e9e3ff"/>` + glow(CX, CY, 80, '#fff', 'g', 0.9);
+  // Two lobes above and below the disc of the Milky Way, seen edge-on.
+  if (o.id === 'bolle-di-fermi') return `<ellipse cx="${CX}" cy="${CY - 142}" rx="140" ry="138" fill="${VIOLET}" fill-opacity=".12" stroke="${VIOLET}" stroke-width="1.5"/><ellipse cx="${CX}" cy="${CY + 142}" rx="140" ry="138" fill="${VIOLET}" fill-opacity=".12" stroke="${VIOLET}" stroke-width="1.5"/><ellipse cx="${CX}" cy="${CY}" rx="330" ry="14" fill="${INK}" opacity=".8"/>` + glow(CX, CY, 60, '#fff', 'g', 0.6);
   if (o.id === 'onda-di-radcliffe') {
     let s = '';
     for (let i = 0; i < 80; i++) {
@@ -725,7 +726,11 @@ function everyday(o, random) {
         : `<rect x="250" y="60" width="300" height="320" fill="none" stroke="${INK}" stroke-width="1.5"/>`;
       const x1 = card ? 190 : 250;
       const x2 = card ? 610 : 550;
-      return face + `<rect x="${x1}" y="${470 - t / 2}" width="${x2 - x1}" height="${t}" fill="${INK}" opacity=".85"/>` + line(x2 + 14, 470 - t / 2, x2 + 70, 470 - t / 2, `stroke="${TEAL}" stroke-width="1"`) + line(x2 + 14, 470 + t / 2, x2 + 70, 470 + t / 2, `stroke="${TEAL}" stroke-width="1"`) + dimension(x2 + 50, 470 - t / 2 - 44, x2 + 50, 470 - t / 2, TEAL).replace(/<path[^>]*>/, '') + dimension(x2 + 50, 470 + t / 2, x2 + 50, 470 + t / 2 + 44, TEAL).replace(/<path[^>]*>$/, '');
+      const top = 470 - t / 2;
+      const bottom = 470 + t / 2;
+      const x = x2 + 60;
+      const arrow = (y, dir) => line(x, y + dir * 46, x, y, `stroke="${TEAL}" stroke-width="1.5"`) + path(`M${x - 6} ${y + dir * 12}L${x} ${y}L${x + 6} ${y + dir * 12}`, `fill="none" stroke="${TEAL}" stroke-width="1.5"`);
+      return face + `<rect x="${x1}" y="${top}" width="${x2 - x1}" height="${t}" fill="${INK}" opacity=".85"/>` + line(x2 + 12, top, x + 22, top, `stroke="${TEAL}" stroke-width="1" opacity=".7"`) + line(x2 + 12, bottom, x + 22, bottom, `stroke="${TEAL}" stroke-width="1" opacity=".7"`) + arrow(top, -1) + arrow(bottom, 1);
     }
     case 'fibra-di-seta': {
       // The thread of a silkworm seen end-on: two filaments of fibroin inside one coat of sericin.
