@@ -200,13 +200,47 @@ export function bindUi(root: HTMLElement, scene: Scene, data: SceneData, music: 
   const dialog = el<HTMLDialogElement>('dlg');
   el('about').addEventListener('click', () => dialog.showModal());
   el('dlgClose').addEventListener('click', () => dialog.close());
+  el('dlgX').addEventListener('click', () => dialog.close());
+
+  /* ---- language ---- */
+  const language = el<HTMLSelectElement>('lang');
+  language.addEventListener('change', () => {
+    try {
+      localStorage.setItem('sotu.lang', language.value);
+    } catch {
+      // Storage can be blocked; the choice still takes effect for this visit.
+    }
+    location.href = `${language.dataset.base}${language.value}/${location.hash}`;
+  });
+
+  /* ---- keep the scene's centre in the part of the view the panels leave free ---- */
+  const top = root.querySelector<HTMLElement>('.top')!;
+  const bar = root.querySelector<HTMLElement>('.bottom')!;
+  const frame = (): void => {
+    const open = card.classList.contains('open');
+    const narrow = innerWidth <= 720;
+    if (!open) return scene.setCentre(0.5, 0.46);
+    const box = card.getBoundingClientRect();
+    if (narrow) {
+      // The card is a sheet above the scale bar: the object sits between the top controls and the sheet.
+      const free = [top.getBoundingClientRect().bottom, Math.min(box.top, bar.getBoundingClientRect().top)];
+      scene.setCentre(0.5, (free[0] + free[1]) / 2 / innerHeight);
+    } else {
+      // The card is a column at one side: the object sits in the middle of what is left.
+      const left = box.left > innerWidth / 2 ? 0 : box.right;
+      const right = box.left > innerWidth / 2 ? box.left : innerWidth;
+      scene.setCentre((left + right) / 2 / innerWidth, 0.46);
+    }
+  };
+  scene.onSelect(() => requestAnimationFrame(frame));
+  addEventListener('resize', frame);
 
   /* ---- music ---- */
   const musicButton = el('music');
   const volume = el<HTMLInputElement>('vol');
   musicButton.addEventListener('click', () => {
     const state = music.toggle(Number(volume.value));
-    musicButton.textContent = ui[`music.${state}`];
+    el('musicLabel').textContent = ui[`music.${state}`].replace(/^♪\s*/, '');
     musicButton.classList.toggle('on', state === 'on');
     musicButton.setAttribute('aria-pressed', String(state === 'on'));
   });

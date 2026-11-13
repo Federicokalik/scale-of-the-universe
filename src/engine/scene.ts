@@ -19,6 +19,8 @@ export interface Scene {
   selected(): Placed | null;
   /** Opens (or with null, closes) an object; `fly` also zooms to it and brings it to the middle of the view. */
   select(object: Placed | null, fly?: boolean): void;
+  /** Where the middle of the scene sits, as fractions of the view; eased, so panels can make room. */
+  setCentre(x: number, y: number): void;
   /** Opens the object with this id and flies to it. False when the id is unknown. */
   selectById(id: string): boolean;
   /** Dims every object that lacks this flag; '' clears the filter. */
@@ -49,6 +51,8 @@ export function createScene(canvas: HTMLCanvasElement, data: SceneData): Scene {
   /** Current shift of the whole scene, in CSS pixels, eased towards what centres `focus`. */
   let shiftX = 0;
   let shiftY = 0;
+  let centre = [0.5, 0.46];
+  let centreTarget = [0.5, 0.46];
   let highlight: Flag | '' = '';
   let hits: [Placed, number, number, number][] = [];
 
@@ -81,9 +85,10 @@ export function createScene(canvas: HTMLCanvasElement, data: SceneData): Scene {
     shiftY = reduceMotion ? wantY : shiftY + (wantY - shiftY) * 0.12;
     if (Math.abs(wantX - shiftX) < 0.05) shiftX = wantX;
     if (Math.abs(wantY - shiftY) < 0.05) shiftY = wantY;
-    renderer.background(z, t, width, height, width / 2, height * 0.46);
-    const cx = width / 2 + shiftX;
-    const cy = height * 0.46 + shiftY;
+    centre = centre.map((v, i) => (reduceMotion || Math.abs(centreTarget[i] - v) < 1e-4 ? centreTarget[i] : v + (centreTarget[i] - v) * 0.12));
+    renderer.background(z, t, width, height, width * centre[0], height * centre[1]);
+    const cx = width * centre[0] + shiftX;
+    const cy = height * centre[1] + shiftY;
 
     hits = [];
     const labels: [Placed, number, number, number, number][] = [];
@@ -182,6 +187,9 @@ export function createScene(canvas: HTMLCanvasElement, data: SceneData): Scene {
         focus = null;
       }
       for (const listener of selectListeners) listener(object);
+    },
+    setCentre(x, y) {
+      centreTarget = [Math.max(0.2, Math.min(0.8, x)), Math.max(0.2, Math.min(0.8, y))];
     },
     selectById(id) {
       const object = byId.get(id);

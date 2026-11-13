@@ -35,6 +35,8 @@ const totals = {
   photos: photos.length,
   art: objects.filter((o) => o.imageShape === 'art').length,
 };
+/** The music strings carry a leading note sign from the draft; the button now draws its own icon. */
+const bare = (text: string) => text.replace(/^♪\s*/, '');
 const flagVar = { r: 'var(--accent)', n: 'var(--teal)', i: 'var(--violet)', u: 'var(--grey)' };
 
 // Inlined for the client script. "<" is escaped so no description can close the script tag.
@@ -42,6 +44,10 @@ const payload = JSON.stringify(data).replace(/</g, '\\u003c');
 ---
 
 <Base lang={locale.code} dir={locale.dir} title={ui['title.full']} description={fill(ui['description'], totals)}>
+  <Fragment slot="head">
+    {ENABLED_LOCALES.map((l) => <link rel="alternate" hreflang={l.code} href={new URL(`${import.meta.env.BASE_URL}${l.code}/`, Astro.site)} />)}
+    <link rel="alternate" hreflang="x-default" href={new URL(import.meta.env.BASE_URL, Astro.site)} />
+  </Fragment>
   <canvas id="stage" aria-label={ui['canvas.label']}></canvas>
 
   <div class="top">
@@ -64,9 +70,22 @@ const payload = JSON.stringify(data).replace(/</g, '\\u003c');
         <input id="q" type="search" placeholder={ui['search.placeholder']} autocomplete="off" aria-label={ui['search.label']} />
         <div class="results glass" id="results"></div>
       </div>
-      <button class="btn" id="music" aria-pressed="false">{ui['music.off']}</button>
+      <button class="btn icon" id="music" aria-pressed="false">
+        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18V6l10-2v12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="6.5" cy="18" r="2.5" fill="currentColor"/><circle cx="16.5" cy="16" r="2.5" fill="currentColor"/></svg>
+        <span class="lbl" id="musicLabel">{bare(ui['music.off'])}</span>
+      </button>
       <input class="vol" id="vol" type="range" min="0" max="1" step="0.01" value="0.6" aria-label={ui['volume.label']} />
-      <button class="btn" id="about">{ui['about.button']}</button>
+      <button class="btn icon" id="about">
+        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 11v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="7.6" r="1.2" fill="currentColor"/></svg>
+        <span class="lbl">{ui['about.button']}</span>
+      </button>
+      <label class="btn icon lang">
+        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3 12h18M12 3c3 3.2 3 14.800 0 18M12 3c-3 3.2-3 14.800 0 18" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+        <span class="lbl" aria-hidden="true">{locale.name}</span>
+        <select id="lang" aria-label={ui['language.label']} data-base={import.meta.env.BASE_URL}>
+          {ENABLED_LOCALES.map((l) => <option value={l.code} lang={l.code} selected={l.code === locale.code}>{l.name}</option>)}
+        </select>
+      </label>
     </div>
   </div>
 
@@ -101,6 +120,7 @@ const payload = JSON.stringify(data).replace(/</g, '\\u003c');
   </div>
 
   <dialog class="glass" id="dlg">
+    <button class="x" id="dlgX" aria-label={ui['dialog.close']}>×</button>
     <h2>{ui['dialog.title']}</h2>
     <p set:html={ui['dialog.intro']} />
     <p>{ui['dialog.experiment']}</p>

@@ -140,3 +140,31 @@ test('a verified object shows its sources and the date it was checked', async ({
   await expect(link).toHaveAttribute('rel', /noopener/);
   await expect(sources).toContainText(/Verificato il \d{1,2} \p{L}+ \d{4}/u);
 });
+
+test('on a phone nothing overflows and every control is big enough for a finger', async ({ browser }) => {
+  const context = await browser.newContext({ viewport: { width: 375, height: 667 }, hasTouch: true, isMobile: true });
+  const page = await context.newPage();
+  await page.goto('/it/#terra');
+  await expect(page.locator('.card')).toHaveClass(/open/);
+  // Sizes are read once the card has finished growing into place.
+  await page.waitForTimeout(800);
+  expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(375);
+  const small = await page.evaluate(() =>
+    [...document.querySelectorAll<HTMLElement>('button, .lang, input[type=search]')]
+      .filter((e) => e.offsetParent !== null && !e.closest('dialog'))
+      .filter((e) => e.getBoundingClientRect().height < 44)
+      .map((e) => e.id || e.className),
+  );
+  expect(small).toEqual([]);
+  // The chosen object stays visible above the card.
+  const card = await page.locator('.card').boundingBox();
+  expect(card!.y).toBeGreaterThan(200);
+  await context.close();
+});
+
+test('the language menu switches language and keeps the open object', async ({ page }) => {
+  await page.goto('/it/#terra');
+  await page.locator('#lang').selectOption('en');
+  await expect(page).toHaveURL(/\/en\/#terra$/);
+  await expect(page.locator('.card h2')).toHaveText('Earth');
+});
