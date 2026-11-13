@@ -55,6 +55,33 @@ export function bindUi(root: HTMLElement, scene: Scene, data: SceneData, music: 
     }
   }
 
+  const figure = el('cFigure');
+  const picture = el<HTMLImageElement>('cImg');
+  const creditLine = el('cCredit');
+
+  /** The photograph with who made it and its licence. Hidden for objects that have none. */
+  function showPhoto(o: Placed): void {
+    figure.hidden = !(o.image && o.credit);
+    creditLine.replaceChildren();
+    if (!o.image || !o.credit) {
+      picture.removeAttribute('src');
+      return;
+    }
+    picture.src = `${import.meta.env.BASE_URL}img/${o.image}-800.webp`;
+    picture.alt = o.name;
+    const link = (text: string, href: string) => {
+      const a = document.createElement('a');
+      a.href = href;
+      a.target = '_blank';
+      a.rel = 'noopener noreferrer';
+      a.textContent = text;
+      a.setAttribute('aria-label', `${text} (${ui['card.newtab']})`);
+      return a;
+    };
+    creditLine.append(`${ui['card.image']}: `, link(o.credit.author, o.credit.page), ' · ');
+    creditLine.append(o.credit.licenceUrl ? link(o.credit.licence, o.credit.licenceUrl) : o.credit.licence);
+  }
+
   function showCard(o: Placed | null): void {
     // Keep the address shareable: #id while a card is open, nothing otherwise.
     history.replaceState(null, '', o ? `#${o.id}` : location.pathname + location.search);
@@ -78,6 +105,7 @@ export function bindUi(root: HTMLElement, scene: Scene, data: SceneData, music: 
         return badge;
       }),
     );
+    showPhoto(o);
     showSources(o);
     const before = scene.objects[o.index - 1];
     const after = scene.objects[o.index + 1];

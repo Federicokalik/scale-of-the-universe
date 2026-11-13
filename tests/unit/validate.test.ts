@@ -47,3 +47,25 @@ test('objects out of size order are reported', () => {
   );
   expect(problems).toContain('luna: out of size order (must not be smaller than terra)');
 });
+
+const credit = { title: 'Earth', author: 'NASA', licence: 'Public domain', licenceUrl: '', page: 'https://commons.wikimedia.org/wiki/File:Earth.jpg' };
+
+test('an image needs a shape and a complete credit', () => {
+  const locales = { it: loc(['terra']) };
+  expect(validateData([obj({ image: 'terra' })], locales, { credits: {} })).toEqual([
+    'terra: image without a valid imageShape',
+    'terra: image without a credit',
+  ]);
+  expect(validateData([obj({ image: 'terra', imageShape: 'disc' })], locales, { credits: { terra: { ...credit, author: ' ' } } })).toEqual([
+    'terra: credit is incomplete',
+  ]);
+  expect(validateData([obj({ image: 'terra', imageShape: 'disc' })], locales, { credits: { terra: credit } })).toEqual([]);
+});
+
+test('non-commercial and no-derivatives licences are refused', () => {
+  const locales = { it: loc(['terra']) };
+  for (const licence of ['CC BY-NC 4.0', 'CC BY-ND 2.0', 'CC BY-NC-SA 3.0']) {
+    const problems = validateData([obj({ image: 'terra', imageShape: 'disc' })], locales, { credits: { terra: { ...credit, licence } } });
+    expect(problems).toEqual([`terra: licence "${licence}" is not allowed`]);
+  }
+});

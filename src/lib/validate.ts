@@ -1,5 +1,6 @@
-import { FLAGS, KINDS, type LocaleFile, type ObjectRecord } from './types.ts';
+import { FLAGS, KINDS, type Credit, type ImageShape, type LocaleFile, type ObjectRecord } from './types.ts';
 
+const SHAPES: readonly ImageShape[] = ['disc', 'glow', 'frame'];
 const SLUG = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 
 /**
@@ -9,7 +10,7 @@ const SLUG = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 export function validateData(
   objects: ObjectRecord[],
   locales: Record<string, LocaleFile>,
-  { strict = false }: { strict?: boolean } = {},
+  { strict = false, credits }: { strict?: boolean; credits?: Record<string, Credit> } = {},
 ): string[] {
   const problems: string[] = [];
   const ids = new Set<string>();
@@ -27,6 +28,15 @@ export function validateData(
     if (!(Number.isFinite(o.size) && o.size > 0)) problems.push(`${o.id}: size must be a positive number`);
     if (!KINDS.includes(o.kind)) problems.push(`${o.id}: unknown kind "${o.kind}"`);
     for (const f of o.flags) if (!FLAGS.includes(f)) problems.push(`${o.id}: unknown flag "${f}"`);
+    if (o.image) {
+      if (!o.imageShape || !SHAPES.includes(o.imageShape)) problems.push(`${o.id}: image without a valid imageShape`);
+      if (credits) {
+        const credit = credits[o.id];
+        if (!credit) problems.push(`${o.id}: image without a credit`);
+        else if (!credit.author.trim() || !credit.licence.trim() || !credit.page.startsWith('https://')) problems.push(`${o.id}: credit is incomplete`);
+        else if (/\b(NC|ND)\b/i.test(credit.licence)) problems.push(`${o.id}: licence "${credit.licence}" is not allowed`);
+      }
+    }
     if (strict) {
       if (!o.sources.length) problems.push(`${o.id}: no source`);
       if (!o.verified) problems.push(`${o.id}: no verification date`);

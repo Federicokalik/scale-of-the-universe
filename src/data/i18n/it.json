@@ -103,6 +103,7 @@
     "dialog.privacy.body": "Questo sito non usa cookie e non traccia nulla: nessuna statistica, nessun servizio di terze parti, nessun dato inviato a qualcuno. L'unica cosa che viene ricordata è la lingua che scegli, e resta nel tuo browser. Il sito è ospitato su GitHub Pages, che come ogni server riceve l'indirizzo IP di chi lo visita secondo la propria informativa.",
     "dialog.author": "Un progetto di <a href=\"https://calicchia.design/\">Federico Calicchia</a>.",
     "card.sources": "Fonti",
+    "card.image": "Immagine",
     "card.verified": "Verificato il {date}",
     "card.newtab": "si apre in una nuova scheda"
   },

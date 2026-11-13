@@ -1,7 +1,7 @@
 // Checks src/data for coherence. Exit code 0 when clean, 1 with a list of problems.
 // --strict also requires a source, a verification date, an image and a description
 // for every object (used from phase 2 onwards).
-import { readFileSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import { ENABLED_LOCALES } from '../src/data/locales.ts';
 import { validateData } from '../src/lib/validate.ts';
 
@@ -10,7 +10,15 @@ const objects = read('objects.json');
 const locales = Object.fromEntries(ENABLED_LOCALES.map((l) => [l.code, read(`i18n/${l.code}.json`)]));
 const strict = process.argv.includes('--strict');
 
-const problems = validateData(objects, locales, { strict });
+const credits = read('credits.json');
+const problems = validateData(objects, locales, { strict, credits });
+// Every image named in the data must exist in both sizes.
+for (const o of objects) {
+  if (!o.image) continue;
+  for (const size of [256, 800]) {
+    if (!existsSync(new URL(`../public/img/${o.image}-${size}.webp`, import.meta.url))) problems.push(`${o.id}: public/img/${o.image}-${size}.webp is missing`);
+  }
+}
 if (problems.length) {
   const shown = problems.slice(0, 40);
   console.error(`${problems.length} problem(s) found${strict ? ' (strict)' : ''}:`);

@@ -1393,7 +1393,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "sars-cov-2",
     "sources": [
       {
         "title": "A Novel Coronavirus from Patients with Pneumonia in China, 2019",
@@ -1401,7 +1401,8 @@
         "publisher": "Zhu et al., New England Journal of Medicine 2020 (PubMed Central)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "frame"
   },
   {
     "id": "hiv",

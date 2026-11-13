@@ -17,9 +17,62 @@ export interface Renderer {
   object(o: Placed, x: number, y: number, px: number, t: number): void;
 }
 
+/** Below this size on screen a photograph is not worth a download. */
+const PHOTO_MIN_PX = 28;
+
 /** `still` freezes the backdrop's own motion, for people who prefer reduced motion. */
 export function createRenderer(ctx: Ctx, sprites: Sprites, still = false): Renderer {
   const backdrop = createBackdrop(ctx);
+  const photos = new Map<string, HTMLImageElement | null>();
+
+  /** The object's photograph once it has loaded; starts the download the first time it is asked for. */
+  function photo(o: Placed): HTMLImageElement | null {
+    if (!o.image) return null;
+    const known = photos.get(o.image);
+    if (known !== undefined) return known && known.complete && known.naturalWidth ? known : null;
+    const image = new Image();
+    image.decoding = 'async';
+    image.onerror = () => photos.set(o.image!, null);
+    image.src = `${import.meta.env.BASE_URL}img/${o.image}-256.webp`;
+    photos.set(o.image, image);
+    return null;
+  }
+
+  /** Draws the photograph in the way its shape asks for. Returns false when there is none to draw yet. */
+  function drawPhoto(o: Placed, x: number, y: number, px: number): boolean {
+    if (px < PHOTO_MIN_PX) return false;
+    const image = photo(o);
+    if (!image) return false;
+    const r = px / 2;
+    if (o.imageShape === 'disc') {
+      ctx.beginPath();
+      ctx.arc(x, y, r, 0, 7);
+      ctx.clip();
+      ctx.drawImage(image, x - r, y - r, px, px);
+      return true;
+    }
+    if (o.imageShape === 'glow') {
+      // Additive, with the tile's own soft edge: the black around the subject vanishes.
+      ctx.globalCompositeOperation = 'lighter';
+      const side = px * 1.2;
+      ctx.drawImage(image, x - side / 2, y - side / 2, side, side);
+      return true;
+    }
+    // A rounded frame inside the dashed circle that marks the real size.
+    ctx.strokeStyle = 'rgba(255,255,255,.13)';
+    ctx.lineWidth = 1;
+    ctx.setLineDash([3, 5]);
+    ctx.beginPath();
+    ctx.arc(x, y, r, 0, 7);
+    ctx.stroke();
+    ctx.setLineDash([]);
+    const side = px * 0.7;
+    ctx.beginPath();
+    ctx.roundRect(x - side / 2, y - side / 2, side, side, side * 0.16);
+    ctx.clip();
+    ctx.drawImage(image, x - side / 2, y - side / 2, side, side);
+    return true;
+  }
 
   function glow(x: number, y: number, r: number, inner: string, outer: string): void {
     const g = ctx.createRadialGradient(x, y, 0, x, y, r);
@@ -59,6 +112,8 @@ export function createRenderer(ctx: Ctx, sprites: Sprites, still = false): Rende
     const r = px / 2;
     const k = o.kind;
     const colour = o.glyph[0] === '#' ? o.glyph : null;
+
+    if (drawPhoto(o, x, y, px)) return;
 
     if (o.emoji) {
       ctx.strokeStyle = 'rgba(255,255,255,.13)';

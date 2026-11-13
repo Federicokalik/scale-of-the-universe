@@ -1,0 +1,5 @@
+{
+  "_readme": "id -> number of the candidate picked on the contact sheet (1-4), 0 = none (the object gets an illustration). An object form {pick, shape} overrides the default shape (disc, glow, frame).",
+  "sars-cov-2": 1, "hiv": 2, "batteriofago-t4": 1, "mimivirus": 1, "virus-piu-grande": 1, "escherichia-coli": 1, "mitocondrio": 0,
+  "cellula-di-lievito": 1, "cloroplasto": 2, "globulo-rosso": 2, "globulo-bianco": 1, "granulo-di-polline": 1
+}

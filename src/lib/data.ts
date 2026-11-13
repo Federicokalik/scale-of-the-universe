@@ -1,5 +1,6 @@
+import credits from '../data/credits.json';
 import objects from '../data/objects.json';
-import type { LocaleFile, ObjectRecord, SceneData } from './types';
+import type { Credit, LocaleFile, ObjectRecord, SceneData } from './types';
 
 const localeFiles = import.meta.glob<{ default: LocaleFile }>('../data/i18n/*.json');
 
@@ -14,7 +15,8 @@ export async function loadSceneData(locale: string): Promise<SceneData> {
     objects: (objects as ObjectRecord[]).map((record) => {
       const text = file.objects[record.id];
       if (!text) throw new Error(`Locale "${locale}" has no entry for object "${record.id}"`);
-      return { ...record, name: text.name, desc: text.desc };
+      const credit = (credits as Record<string, Credit>)[record.id];
+      return { ...record, name: text.name, desc: text.desc, ...(record.image && credit ? { credit } : {}) };
     }),
   };
 }
