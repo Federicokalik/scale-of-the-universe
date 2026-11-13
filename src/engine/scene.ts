@@ -118,7 +118,10 @@ export function createScene(canvas: HTMLCanvasElement, data: SceneData): Scene {
     for (const [o, x, y, px, alpha] of labels) {
       const fontSize = Math.max(13, Math.min(16, px * 0.075));
       const flat = 'udw'.includes(o.kind) && !o.emoji;
-      let labelY = y + (flat ? Math.min(px * 0.16, 60) + fontSize + 8 : px / 2 + fontSize + 6);
+      // The name sits right under what is actually drawn, which for a framed picture is smaller than the object's circle.
+      const picture = Boolean(o.image);
+      const half = picture && o.imageShape === 'frame' ? px * 0.35 : picture && o.imageShape === 'art' && o.emoji ? px * 0.3 : flat ? Math.min(px * 0.16, 60) + 2 : px / 2;
+      let labelY = y + half + fontSize + 6;
       // Keep labels clear of the bottom control bar.
       if (labelY > height - 150 && y < height - 170) labelY = Math.min(labelY, height - 150);
       ctx.globalAlpha = alpha * Math.min(1, (px - 40) / 30);

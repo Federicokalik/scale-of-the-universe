@@ -27,7 +27,8 @@ export function createRenderer(ctx: Ctx, sprites: Sprites, still = false): Rende
 
   /** The object's photograph once it has loaded; starts the download the first time it is asked for. */
   function photo(o: Placed): HTMLImageElement | null {
-    if (!o.image || o.imageShape === 'art') return null;
+    // A drawing stands in on the canvas only where the object would otherwise be an emoji.
+    if (!o.image || (o.imageShape === 'art' && !o.emoji)) return null;
     const known = photos.get(o.image);
     if (known !== undefined) return known && known.complete && known.naturalWidth ? known : null;
     const image = new Image();
@@ -66,6 +67,16 @@ export function createRenderer(ctx: Ctx, sprites: Sprites, still = false): Rende
     ctx.arc(x, y, r, 0, 7);
     ctx.stroke();
     ctx.setLineDash([]);
+    if (o.imageShape === 'art') {
+      // The drawing is a 4:3 plate whose diagonal is the object's size.
+      const w = px * 0.8;
+      const h = px * 0.6;
+      ctx.beginPath();
+      ctx.roundRect(x - w / 2, y - h / 2, w, h, px * 0.03);
+      ctx.clip();
+      ctx.drawImage(image, x - w / 2, y - h / 2, w, h);
+      return true;
+    }
     const side = px * 0.7;
     ctx.beginPath();
     ctx.roundRect(x - side / 2, y - side / 2, side, side, side * 0.16);
@@ -114,6 +125,15 @@ export function createRenderer(ctx: Ctx, sprites: Sprites, still = false): Rende
     const colour = o.glyph[0] === '#' ? o.glyph : null;
 
     if (drawPhoto(o, x, y, px)) return;
+
+    if (o.emoji && o.image) {
+      // Too small for its picture yet (or the picture is still loading): a plain mark, not an emoji.
+      ctx.fillStyle = 'rgba(223,227,234,.5)';
+      ctx.beginPath();
+      ctx.arc(x, y, Math.max(2, r * 0.45), 0, 7);
+      ctx.fill();
+      return;
+    }
 
     if (o.emoji) {
       ctx.strokeStyle = 'rgba(255,255,255,.13)';

@@ -28,13 +28,25 @@ const circle = (x, y, r, attrs = '') => `<circle cx="${f(x)}" cy="${f(y)}" r="${
 const line = (x1, y1, x2, y2, attrs = '') => `<line x1="${f(x1)}" y1="${f(y1)}" x2="${f(x2)}" y2="${f(y2)}" ${attrs}/>`;
 const path = (d, attrs = '') => `<path d="${d}" ${attrs}/>`;
 const text = (x, y, s, size = 44, attrs = '') =>
-  `<text x="${f(x)}" y="${f(y)}" font-family="'Public Sans',system-ui,sans-serif" font-size="${size}" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="#f3efe6" ${attrs}>${s}</text>`;
-const INK = '#eef0f7';
-const TEAL = '#7fe0d4';
-const AMBER = '#ffb86b';
-const VIOLET = '#b9a2ff';
-const RED = '#ff8a7a';
-const BLUE = '#9fc2ff';
+  `<text x="${f(x)}" y="${f(y)}" font-family="${MONO}" font-size="${size}" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="${INK}" ${attrs}>${s}</text>`;
+/** A physical symbol, set in italic serif as in print. */
+const symbol = (x, y, s, size = 44) =>
+  `<text x="${f(x)}" y="${f(y)}" font-family="${SERIF}" font-style="italic" font-size="${size}" text-anchor="middle" dominant-baseline="central" fill="${INK}">${s}</text>`;
+/** A dimension line with arrowheads, vertical when x1 === x2. */
+function dimension(x1, y1, x2, y2, colour = INK) {
+  const a = Math.atan2(y2 - y1, x2 - x1);
+  const head = (x, y, dir) => path(`M${f(x + Math.cos(a + 0.42) * 13 * dir)} ${f(y + Math.sin(a + 0.42) * 13 * dir)}L${f(x)} ${f(y)}L${f(x + Math.cos(a - 0.42) * 13 * dir)} ${f(y + Math.sin(a - 0.42) * 13 * dir)}`, `fill="none" stroke="${colour}" stroke-width="1.5"`);
+  return line(x1, y1, x2, y2, `stroke="${colour}" stroke-width="1.5"`) + head(x1, y1, 1) + head(x2, y2, -1);
+}
+// One restrained palette for every drawing: off-white ink and five muted accents.
+const INK = '#dfe3ea';
+const TEAL = '#6fb3c4';
+const AMBER = '#d6a35c';
+const VIOLET = '#9b98c9';
+const RED = '#cf6f5f';
+const BLUE = '#7d9fd0';
+const MONO = "ui-monospace,'SF Mono',Menlo,Consolas,monospace";
+const SERIF = "'Times New Roman',Times,serif";
 
 /** A lit sphere: flat colour, a highlight and a dark limb. `id` keeps gradient names unique inside one drawing. */
 function sphere(x, y, r, colour, id) {
@@ -66,10 +78,10 @@ function blob(x, y, r, random, lumps = 9, depth = 0.22, squash = 1) {
   return `${d}Q${f(first[0])} ${f(first[1])} ${f((first[0] + points[1][0]) / 2)} ${f((first[1] + points[1][1]) / 2)}Z`;
 }
 const bracket = (x1, x2, y, label) =>
-  line(x1, y, x2, y, `stroke="${INK}" stroke-width="2" opacity=".7"`) +
-  line(x1, y - 12, x1, y + 12, `stroke="${INK}" stroke-width="2" opacity=".7"`) +
-  line(x2, y - 12, x2, y + 12, `stroke="${INK}" stroke-width="2" opacity=".7"`) +
-  (label ? text((x1 + x2) / 2, y + 40, label, 34, 'opacity=".9"') : '');
+  line(x1, y - 26, x1, y + 10, `stroke="${INK}" stroke-width="1" opacity=".6"`) +
+  line(x2, y - 26, x2, y + 10, `stroke="${INK}" stroke-width="1" opacity=".6"`) +
+  dimension(x1, y, x2, y) +
+  (label ? symbol((x1 + x2) / 2, y + 34, label, 36) : '');
 
 /* ---------- particles ---------- */
 const PARTICLE = {
@@ -81,7 +93,7 @@ function particle(o, random) {
   const c = o.flags.includes('i') ? VIOLET : TEAL;
   if (o.id === 'schiuma-quantistica') {
     let s = '';
-    for (let i = 0; i < 70; i++) s += circle(CX + (random() - 0.5) * 520, CY + (random() - 0.5) * 360, 8 + random() * 46, `fill="none" stroke="${c}" stroke-width="1.5" opacity="${f(0.25 + random() * 0.5)}"`);
+    for (let i = 0; i < 70; i++) s += circle(CX + (random() - 0.5) * 520, CY + (random() - 0.5) * 360, 8 + random() * 46, `fill="none" stroke="${c}" stroke-width="1" opacity="${f(0.25 + random() * 0.5)}"`);
     return s;
   }
   if (o.id === 'stringa') {
@@ -91,25 +103,25 @@ function particle(o, random) {
       const r = 150 + 34 * Math.sin(a * 7) + 16 * Math.sin(a * 13 + 1);
       d += `${i ? 'L' : 'M'}${f(CX + Math.cos(a) * r * 1.25)} ${f(CY + Math.sin(a) * r)}`;
     }
-    return glow(CX, CY, 260, c, 'g', 0.35) + path(`${d}Z`, `fill="none" stroke="${c}" stroke-width="5" stroke-linejoin="round"`);
+    return path(`${d}Z`, `fill="none" stroke="${c}" stroke-width="2" stroke-linejoin="round"`);
   }
   if (o.id === 'lunghezze-sondate-da-lhc') {
-    let s = glow(CX, CY, 150, AMBER, 'g', 0.8);
+    let s = circle(CX, CY, 4, `fill="${INK}"`);
     for (let i = 0; i < 26; i++) {
       const a = random() * Math.PI * 2;
       const bend = (random() - 0.5) * 260;
       const len = 150 + random() * 170;
       const ex = CX + Math.cos(a) * len;
       const ey = CY + Math.sin(a) * len;
-      s += path(`M${CX} ${CY}Q${f(CX + Math.cos(a + 1.2) * bend * 0.4 + Math.cos(a) * len * 0.5)} ${f(CY + Math.sin(a + 1.2) * bend * 0.4 + Math.sin(a) * len * 0.5)} ${f(ex)} ${f(ey)}`, `fill="none" stroke="${[TEAL, AMBER, VIOLET, INK][i % 4]}" stroke-width="2" opacity=".8"`);
+      s += path(`M${CX} ${CY}Q${f(CX + Math.cos(a + 1.2) * bend * 0.4 + Math.cos(a) * len * 0.5)} ${f(CY + Math.sin(a + 1.2) * bend * 0.4 + Math.sin(a) * len * 0.5)} ${f(ex)} ${f(ey)}`, `fill="none" stroke="${[TEAL, AMBER, INK][i % 3]}" stroke-width="1.2" opacity=".8"`);
     }
     return s;
   }
   return (
-    glow(CX, CY, 250, c, 'g', 0.55) +
-    circle(CX, CY, 190, `fill="none" stroke="${c}" stroke-width="2" stroke-dasharray="4 12" opacity=".7"`) +
-    `<ellipse cx="${CX}" cy="${CY}" rx="150" ry="58" fill="none" stroke="${c}" stroke-width="2" opacity=".6" transform="rotate(-24 ${CX} ${CY})"/>` +
-    text(CX, CY, PARTICLE[o.id] ?? '', 130)
+    circle(CX, CY, 190, `fill="none" stroke="${c}" stroke-width="1.2" stroke-dasharray="3 9"`) +
+    line(CX - 230, CY, CX - 190, CY, `stroke="${c}" stroke-width="1"`) + line(CX + 190, CY, CX + 230, CY, `stroke="${c}" stroke-width="1"`) +
+    line(CX, CY - 230, CX, CY - 190, `stroke="${c}" stroke-width="1"`) + line(CX, CY + 190, CX, CY + 230, `stroke="${c}" stroke-width="1"`) +
+    symbol(CX, CY, PARTICLE[o.id] ?? '', 150)
   );
 }
 
@@ -123,13 +135,13 @@ const UNIT = {
 function unit(o) {
   const x1 = 110;
   const x2 = W - 110;
-  let s = line(x1, CY, x2, CY, `stroke="${INK}" stroke-width="4"`);
+  let s = line(x1, CY, x2, CY, `stroke="${INK}" stroke-width="1.5"`);
   for (let i = 0; i <= 10; i++) {
     const x = x1 + ((x2 - x1) * i) / 10;
-    const tick = i % 5 ? 16 : 34;
-    s += line(x, CY - tick, x, CY + tick, `stroke="${INK}" stroke-width="${i % 5 ? 2 : 4}"`);
+    const tick = i % 10 ? (i % 5 ? 12 : 20) : 30;
+    s += line(x, CY - tick, x, CY, `stroke="${INK}" stroke-width="${i % 5 ? 1 : 1.5}"`);
   }
-  return s + text(CX, CY - 110, UNIT[o.id] ?? '', 84);
+  return s + text(CX, CY - 96, UNIT[o.id] ?? '', 64);
 }
 
 /* ---------- wavelengths ---------- */
@@ -144,7 +156,7 @@ function wave(o, random) {
     d += `${i ? 'L' : 'M'}${f(x1 + u * (x2 - x1))} ${f(CY - 40 - Math.sin(u * Math.PI * 2 * cycles) * 120)}`;
   }
   const span = (x2 - x1) / cycles;
-  return glow(CX, CY - 40, 330, c, 'g', 0.22) + path(d, `fill="none" stroke="${c}" stroke-width="6" stroke-linecap="round"`) + bracket(x1 + span / 4, x1 + span / 4 + span, CY + 150, 'λ');
+  return line(x1 - 30, CY - 40, x2 + 30, CY - 40, `stroke="${INK}" stroke-width="1" opacity=".45"`) + path(d, `fill="none" stroke="${c}" stroke-width="2.5" stroke-linecap="round"`) + bracket(x1 + span / 4, x1 + span / 4 + span, CY + 150, 'λ');
 }
 
 /* ---------- nuclei and atoms ---------- */
@@ -167,17 +179,17 @@ function atomOrNucleus(o, random) {
   if (NUCLEUS[o.id]) {
     const [z, n] = NUCLEUS[o.id];
     const radius = z + n === 1 ? 130 : 60 + 18 * Math.cbrt(z + n) * 1.6;
-    return glow(CX, CY, radius * 1.7, AMBER, 'g', 0.35) + nucleons(CX, CY, z, n, Math.min(radius, 230), random, 'n');
+    return nucleons(CX, CY, z, n, Math.min(radius, 230), random, 'n');
   }
   const shells = SHELLS[o.id] ?? [1];
   const outer = 250;
-  let s = glow(CX, CY, outer + 30, AMBER, 'g', 0.3) + circle(CX, CY, 16, `fill="${RED}"`);
+  let s = circle(CX, CY, 12, `fill="${RED}"`);
   shells.forEach((count, i) => {
     const r = shells.length === 1 ? 170 : 60 + ((outer - 60) * i) / (shells.length - 1);
-    s += circle(CX, CY, r, `fill="none" stroke="${AMBER}" stroke-width="1.5" opacity=".5"`);
+    s += circle(CX, CY, r, `fill="none" stroke="${INK}" stroke-width="1" opacity=".45"`);
     for (let k = 0; k < count; k++) {
       const a = (k / count) * Math.PI * 2 + i * 0.7;
-      s += circle(CX + Math.cos(a) * r, CY + Math.sin(a) * r, 8, `fill="${TEAL}"`);
+      s += circle(CX + Math.cos(a) * r, CY + Math.sin(a) * r, 6, `fill="${TEAL}"`);
     }
   });
   return s;
@@ -195,23 +207,24 @@ function star(o, random) {
     );
   }
   const r = o.id === 'sirio-b' ? 110 : 205;
-  let s = glow(CX, CY, r * 1.55, c, 'g', 0.55);
-  s += `<defs><radialGradient id="s" cx="42%" cy="40%" r="62%"><stop offset="0" stop-color="#fff"/><stop offset=".5" stop-color="${c}"/><stop offset="1" stop-color="${c}" stop-opacity=".78"/></radialGradient><clipPath id="k">${circle(CX, CY, r)}</clipPath></defs>`;
-  s += circle(CX, CY, r, 'fill="url(#s)"');
+  let s = glow(CX, CY, r * 1.35, c, 'g', 0.28);
+  s += `<defs><radialGradient id="s" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="${c}"/><stop offset=".7" stop-color="${c}"/><stop offset="1" stop-color="#000" stop-opacity=".0"/></radialGradient><radialGradient id="l"><stop offset=".55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".55"/></radialGradient><clipPath id="k">${circle(CX, CY, r)}</clipPath></defs>`;
+  s += circle(CX, CY, r, `fill="${c}"`);
   // Cool, bloated stars get large convection cells; a brown dwarf gets bands.
   const cool = /^#ff[4-9]/i.test(c) || o.id === 'gliese-229-b';
   let marks = '';
   if (o.id === 'gliese-229-b') {
-    for (let i = -3; i <= 3; i++) marks += `<rect x="${CX - r}" y="${f(CY + i * 52 - 12)}" width="${r * 2}" height="${f(18 + random() * 14)}" fill="#3a1a10" opacity=".35"/>`;
+    for (let i = -3; i <= 3; i++) marks += `<rect x="${CX - r}" y="${f(CY + i * 52 - 12)}" width="${r * 2}" height="${f(18 + random() * 14)}" fill="#000" opacity=".22"/>`;
   } else {
-    const cells = cool ? 18 : 7;
+    // Granulation: many small cells of slightly different brightness, coarser on cool giants.
+    const cells = cool ? 260 : 420;
     for (let i = 0; i < cells; i++) {
       const a = random() * 7;
-      const d = Math.sqrt(random()) * r * 0.85;
-      marks += circle(CX + Math.cos(a) * d, CY + Math.sin(a) * d, (cool ? 26 : 12) + random() * (cool ? 40 : 14), `fill="${random() > 0.5 ? '#fff' : '#3a0d00'}" opacity="${cool ? 0.13 : 0.08}"`);
+      const d = Math.sqrt(random()) * r;
+      marks += circle(CX + Math.cos(a) * d, CY + Math.sin(a) * d, (cool ? 7 : 4) + random() * (cool ? 9 : 4), `fill="${random() > 0.5 ? '#fff' : '#000'}" opacity=".05"`);
     }
   }
-  return `${s}<g clip-path="url(#k)">${marks}</g>`;
+  return `${s}<g clip-path="url(#k)">${marks}</g>${circle(CX, CY, r, 'fill="url(#l)"')}`;
 }
 function world(o, random) {
   const c = o.glyph || '#9aa3bd';
@@ -231,7 +244,7 @@ function world(o, random) {
 /* ---------- black holes ---------- */
 function blackHole(o) {
   const hole = (x, y, r, tag) =>
-    glow(x, y, r * 2.5, '#ffaa5a', `${tag}g`, 0.5) +
+    glow(x, y, r * 2.2, '#d6a35c', `${tag}g`, 0.3) +
     `<ellipse cx="${x}" cy="${y}" rx="${f(r * 2.2)}" ry="${f(r * 0.5)}" fill="none" stroke="#ffb46e" stroke-width="${f(r * 0.16)}" opacity=".6" transform="rotate(-14 ${x} ${y})"/>` +
     circle(x, y, r, 'fill="#000"') +
     circle(x, y, r * 1.06, `fill="none" stroke="#ffcd8c" stroke-width="${f(Math.max(2, r * 0.07))}"`);
@@ -264,8 +277,8 @@ const SPAN = {
   'distanza-dell-hubble-deep-field': ['galaxy', 'faint'], 'mom-z14': ['galaxy', 'faint'],
 };
 function distance(o, random) {
-  const dashed = `stroke="${TEAL}" stroke-width="3" stroke-dasharray="10 10"`;
-  const ring = (r, extra = '') => circle(CX, CY, r, `fill="none" stroke="${TEAL}" stroke-width="2" ${extra}`);
+  const dashed = `stroke="${TEAL}" stroke-width="1.5" stroke-dasharray="8 8"`;
+  const ring = (r, extra = '') => circle(CX, CY, r, `fill="none" stroke="${TEAL}" stroke-width="1.2" ${extra}`);
   if (SPAN[o.id]) {
     const [a, b] = SPAN[o.id];
     const x1 = 130;
@@ -281,12 +294,10 @@ function distance(o, random) {
     case 'anelli-di-saturno':
       return `<ellipse cx="${CX}" cy="${CY}" rx="300" ry="84" fill="none" stroke="#e3cf9c" stroke-width="34" opacity=".55" transform="rotate(-12 ${CX} ${CY})"/>` + sphere(CX, CY, 118, '#e3cf9c', 'a') + path(`M${CX - 293} ${CY + 62}A300 84 -12 0 0 ${CX + 293} ${CY - 62}`, 'fill="none" stroke="#e3cf9c" stroke-width="34" opacity=".8"') + bracket(CX - 318, CX + 318, CY + 210, '');
     case 'altezza-totale-dell-umanita': {
+      // A column of equal segments, one per person, fading upwards: the heights simply add up.
       let s = '';
-      for (let i = 0; i < 9; i++) {
-        const y = 560 - i * 60;
-        s += circle(CX, y - 44, 9, `fill="${INK}"`) + path(`M${CX} ${y - 34}V${y - 10}M${CX - 12} ${y - 26}H${CX + 12}M${CX} ${y - 10}L${CX - 9} ${y}M${CX} ${y - 10}L${CX + 9} ${y}`, `stroke="${INK}" stroke-width="4" stroke-linecap="round" opacity="${f(1 - i * 0.09)}"`);
-      }
-      return s + line(CX + 70, 30, CX + 70, 560, dashed);
+      for (let i = 0; i < 26; i++) s += `<rect x="${CX - 14}" y="${f(548 - i * 20)}" width="28" height="18" fill="none" stroke="${INK}" stroke-width="1" opacity="${f(1 - i * 0.034)}"/>`;
+      return s + dimension(CX + 80, 40, CX + 80, 566, TEAL);
     }
     case 'sistema-di-trappist-1': {
       let s = body('red', CX, CY, 'a');
@@ -462,7 +473,8 @@ function dwarfGalaxy(o, random) {
 }
 
 /* ---------- molecules and the nanoscale ---------- */
-const ATOM = { C: ['#8d93a6', 30], O: ['#ff6b5e', 30], H: ['#f4f6ff', 20], N: ['#6f8cff', 30] };
+// CPK colours, toned down.
+const ATOM = { C: ['#7b8090', 30], O: ['#c9584c', 30], H: ['#dfe3ea', 20], N: ['#5f7bd0', 30] };
 function ballAndStick(atoms, bonds, scale, ox = CX, oy = CY) {
   let s = '';
   for (const [a, b, order = 1] of bonds) {
@@ -473,7 +485,7 @@ function ballAndStick(atoms, bonds, scale, ox = CX, oy = CY) {
     const len = Math.hypot(nx, ny) || 1;
     for (let k = 0; k < order; k++) {
       const off = (k - (order - 1) / 2) * 12;
-      s += line(ox + x1 * scale + (nx / len) * off, oy + y1 * scale + (ny / len) * off, ox + x2 * scale + (nx / len) * off, oy + y2 * scale + (ny / len) * off, `stroke="${INK}" stroke-width="7" stroke-linecap="round" opacity=".75"`);
+      s += line(ox + x1 * scale + (nx / len) * off, oy + y1 * scale + (ny / len) * off, ox + x2 * scale + (nx / len) * off, oy + y2 * scale + (ny / len) * off, `stroke="${INK}" stroke-width="4" stroke-linecap="round" opacity=".7"`);
     }
   }
   atoms.forEach(([el, x, y], i) => {
@@ -555,7 +567,7 @@ function molecule(o, random) {
         else back += l;
       }
       for (const p of pts) if (p[2] > 0) front += circle(CX + p[0] * 46, CY + p[1] * 46, 9, 'fill="#8d93a6"');
-      return glow(CX, CY, 280, TEAL, 'g', 0.25) + back + front;
+      return back + front;
     }
     case 'nanotubo-di-carbonio': {
       let s = '';
@@ -567,7 +579,7 @@ function molecule(o, random) {
         const next = CY - Math.cos(theta + Math.PI / 16) * R;
         s += line(x, y, x + 40, next, `stroke="${INK}" stroke-width="2" opacity=".55"`) + line(x, y, x, CY - Math.cos(theta + Math.PI / 16) * R, `stroke="${INK}" stroke-width="2" opacity=".35"`) + circle(x, y, 4, 'fill="#8d93a6"');
       }
-      return glow(CX, CY, 300, TEAL, 'g', 0.2) + s;
+      return s;
     }
     case 'alfa-elica-di-una-proteina':
     case 'dna-spessore': {
@@ -607,7 +619,7 @@ function molecule(o, random) {
       return `<g transform="translate(${CX} ${CY + 20}) scale(.8) translate(${-CX} ${-CY})">${arm(`M${CX} ${CY + 250}V${CY + 20}`, VIOLET, 64) + arm(`M${CX} ${CY + 20}L${CX - 210} ${CY - 220}`, VIOLET, 46) + arm(`M${CX} ${CY + 20}L${CX + 210} ${CY - 220}`, VIOLET, 46) + arm(`M${CX - 56} ${CY - 6}L${CX - 250} ${CY - 180}`, TEAL, 30) + arm(`M${CX + 56} ${CY - 6}L${CX + 250} ${CY - 180}`, TEAL, 30) + circle(CX - 232, CY - 222, 26, `fill="${AMBER}"`) + circle(CX + 232, CY - 222, 26, `fill="${AMBER}"`)}</g>`;
     }
     case 'nanoparticella-lipidica': {
-      let s = glow(CX, CY, 290, TEAL, 'g', 0.25);
+      let s = '';
       for (let i = 0; i < 44; i++) {
         const a = (i / 44) * Math.PI * 2;
         s += line(CX + Math.cos(a) * 232, CY + Math.sin(a) * 232, CX + Math.cos(a) * 180, CY + Math.sin(a) * 180, `stroke="${INK}" stroke-width="3" opacity=".6"`) + circle(CX + Math.cos(a) * 240, CY + Math.sin(a) * 240, 12, `fill="${AMBER}"`);
@@ -644,8 +656,8 @@ function everyday(o, random) {
     let y = 120;
     let s = '';
     thicknesses.forEach((t, i) => {
-      s += path(`M90 ${y}q160 -22 310 0t310 0v${t}q-155 22 -310 0t-310 0Z`, `fill="${colours[i]}"`);
-      y += t + 6;
+      s += `<rect x="130" y="${y}" width="540" height="${t}" fill="${colours[i]}" stroke="${INK}" stroke-width="1"/>`;
+      y += t;
     });
     return s;
   };
@@ -656,13 +668,14 @@ function everyday(o, random) {
       return s + path(blob(CX, CY, 92, random, 9, 0.12, 1.9), `fill="${VIOLET}" opacity=".9"`);
     }
     case 'mitocondrio': {
-      // A bean with the folded inner membrane (cristae).
+      // Section: outer membrane, inner membrane folded into cristae, matrix inside.
       let folds = '';
       for (let i = 0; i < 7; i++) {
         const x = CX - 210 + i * 70;
-        folds += path(`M${x} ${CY + (i % 2 ? -88 : 88)}q26 ${i % 2 ? 70 : -70} 0 ${i % 2 ? 128 : -128}`, `fill="none" stroke="#ffd0a8" stroke-width="18" stroke-linecap="round"`);
+        const up = i % 2;
+        folds += path(`M${x - 9} ${CY + (up ? -112 : 112)}V${CY + (up ? 30 : -30)}a9 9 0 0 ${up ? 0 : 1} 18 0V${CY + (up ? -112 : 112)}`, `fill="#0b0d13" stroke="${AMBER}" stroke-width="2"`);
       }
-      return `<rect x="${CX - 290}" y="${CY - 130}" width="580" height="260" rx="130" fill="#b5532f" stroke="#ffd0a8" stroke-width="10"/>` + folds;
+      return `<rect x="${CX - 290}" y="${CY - 130}" width="580" height="260" rx="130" fill="none" stroke="${INK}" stroke-width="2"/><rect x="${CX - 272}" y="${CY - 112}" width="544" height="224" rx="112" fill="${AMBER}" fill-opacity=".1" stroke="${AMBER}" stroke-width="2"/>` + folds;
     }
     case 'circovirus-suino': {
       const pts = ring6(CX, CY, 220, 0);
@@ -671,62 +684,77 @@ function everyday(o, random) {
       return s + circle(CX, CY, 46, `fill="none" stroke="${AMBER}" stroke-width="6"`);
     }
     case 'cromosoma-y':
-      return path(`M${CX} ${CY - 20}L${CX - 70} ${CY - 170}M${CX} ${CY - 20}L${CX + 70} ${CY - 170}M${CX} ${CY - 20}V${CY + 230}`, `fill="none" stroke="${VIOLET}" stroke-width="64" stroke-linecap="round"`) + circle(CX, CY - 20, 26, `fill="${INK}"`);
-    case 'cromosoma-x':
-      return path(`M${CX - 90} ${CY - 230}L${CX + 90} ${CY + 230}M${CX + 90} ${CY - 230}L${CX - 90} ${CY + 230}`, `fill="none" stroke="${VIOLET}" stroke-width="64" stroke-linecap="round"`) + circle(CX, CY, 26, `fill="${INK}"`);
+    case 'cromosoma-x': {
+      // Two sister chromatids joined at the centromere, with a banding pattern; the Y has short upper arms.
+      const y = o.id === 'cromosoma-y';
+      const top = y ? 70 : 200;
+      const bottom = y ? 190 : 230;
+      const arm = (side) => {
+        const x = CX + side * 34;
+        let s = `<rect x="${x - 26}" y="${CY - top}" width="52" height="${top + bottom}" rx="26" fill="${VIOLET}" fill-opacity=".14" stroke="${VIOLET}" stroke-width="2"/>`;
+        for (let i = 0; i < 9; i++) {
+          const by = CY - top + 30 + random() * (top + bottom - 70);
+          if (Math.abs(by - CY) > 26) s += `<rect x="${x - 25}" y="${f(by)}" width="50" height="${f(6 + random() * 16)}" fill="${VIOLET}" opacity=".55"/>`;
+        }
+        return s;
+      };
+      return arm(-1) + arm(1) + `<rect x="${CX - 66}" y="${CY - 12}" width="132" height="24" rx="12" fill="#0b0d13" stroke="${INK}" stroke-width="2"/>`;
+    }
     case 'sequoia-hyperion': {
-      // A very tall, narrow conifer beside a person-sized mark, to give the proportion.
-      let s = `<rect x="${CX - 13}" y="60" width="26" height="490" rx="8" fill="#7a4a2c"/>`;
-      for (let i = 0; i < 9; i++) {
-        const y = 60 + i * 36;
-        const w = 26 + i * 9;
-        s += path(`M${CX} ${y - 26}L${CX + w} ${y + 44}H${CX - w}Z`, `fill="${['#2f7a4a', '#3b8f58'][i % 2]}"`);
-      }
-      return s + line(60, 552, W - 60, 552, `stroke="${INK}" stroke-width="3" opacity=".6"`) + line(CX + 190, 552, CX + 190, 544, `stroke="${AMBER}" stroke-width="5" stroke-linecap="round"`) + circle(CX + 190, 541, 3, `fill="${AMBER}"`);
+      // Elevation: the trunk and crown in outline, a person-sized mark for proportion, the height dimensioned.
+      let crown = `M${CX} 56`;
+      for (let i = 0; i < 12; i++) crown += `L${CX + 20 + i * 5} ${86 + i * 26}L${CX + 8 + i * 4} ${92 + i * 26}`;
+      crown += `L${CX + 8} 400`;
+      const left = crown.replace(/([ML])(\d+)/g, (_, c, x) => `${c}${2 * CX - Number(x)}`);
+      return path(crown, `fill="none" stroke="${INK}" stroke-width="1.5"`) + path(left, `fill="none" stroke="${INK}" stroke-width="1.5"`) + path(`M${CX - 8} 400V552M${CX + 8} 400V552`, `stroke="${INK}" stroke-width="1.5"`) + line(60, 552, W - 60, 552, `stroke="${INK}" stroke-width="1.5"`) + line(CX + 150, 552, CX + 150, 544.5, `stroke="${AMBER}" stroke-width="3"`) + dimension(CX - 150, 56, CX - 150, 552, TEAL);
     }
     case 'uovo-di-colibri':
-      return glow(CX, CY, 290, '#fff', 'g', 0.18) + `<g transform="rotate(-18 ${CX} ${CY})">` + path(`M${CX - 190} ${CY}C${CX - 190} ${CY - 150} ${CX + 60} ${CY - 150} ${CX + 200} ${CY - 40}C${CX + 250} ${CY} ${CX + 250} ${CY + 10} ${CX + 200} ${CY + 50}C${CX + 60} ${CY + 150} ${CX - 190} ${CY + 150} ${CX - 190} ${CY}Z`, 'fill="#f7f3ea"') + `<ellipse cx="${CX - 60}" cy="${CY - 50}" rx="70" ry="26" fill="#fff" opacity=".7"/></g>`;
+      return `<g transform="rotate(-18 ${CX} ${CY})">` + path(`M${CX - 190} ${CY}C${CX - 190} ${CY - 150} ${CX + 60} ${CY - 150} ${CX + 200} ${CY - 40}C${CX + 250} ${CY} ${CX + 250} ${CY + 10} ${CX + 200} ${CY + 50}C${CX + 60} ${CY + 150} ${CX - 190} ${CY + 150} ${CX - 190} ${CY}Z`, `fill="#d9d4c8" stroke="${INK}" stroke-width="1.5"`) + '</g>' + dimension(CX - 205, CY + 215, CX + 215, CY + 215);
     case 'gocciolina-di-nebbia': {
       let s = '';
-      for (let i = 0; i < 26; i++) s += circle(40 + random() * 720, 40 + random() * 520, 6 + random() * 16, `fill="${BLUE}" opacity="${f(0.15 + random() * 0.3)}"`);
-      return s + sphere(CX, CY, 150, '#b9d6ff', 'w') + `<ellipse cx="${CX - 54}" cy="${CY - 62}" rx="34" ry="20" fill="#fff" opacity=".75" transform="rotate(-35 ${CX - 54} ${CY - 62})"/>`;
+      for (let i = 0; i < 26; i++) s += circle(40 + random() * 720, 40 + random() * 520, 6 + random() * 16, `fill="none" stroke="${BLUE}" stroke-width="1" opacity="${f(0.3 + random() * 0.4)}"`);
+      return s + sphere(CX, CY, 150, '#8fa9c9', 'w') + dimension(CX - 150, CY + 200, CX + 150, CY + 200);
     }
-    case 'foglio-di-carta-spessore': {
-      // A sheet seen edge-on: the thickness is the thin dimension between the two marks.
-      const sheet = `<rect x="110" y="${CY - 9}" width="580" height="18" rx="3" fill="#f4f1e8"/>`;
-      return path(`M110 ${CY - 9}L230 ${CY - 150}H${W - 110}L${W - 110} ${CY - 9}Z`, 'fill="#f4f1e8" opacity=".28"') + sheet + line(CX, CY - 60, CX, CY - 14, `stroke="${TEAL}" stroke-width="4"`) + line(CX, CY + 14, CX, CY + 60, `stroke="${TEAL}" stroke-width="4"`) + path(`M${CX - 12} ${CY - 30}L${CX} ${CY - 12}L${CX + 12} ${CY - 30}M${CX - 12} ${CY + 30}L${CX} ${CY + 12}L${CX + 12} ${CY + 30}`, `fill="none" stroke="${TEAL}" stroke-width="4"`);
+    case 'foglio-di-carta-spessore':
+    case 'carta-di-credito-spessore': {
+      // Orthographic views: the face above, the edge below, with the thickness dimensioned.
+      const card = o.id === 'carta-di-credito-spessore';
+      const t = card ? 16 : 5;
+      const face = card
+        ? `<rect x="190" y="90" width="420" height="265" rx="20" fill="none" stroke="${INK}" stroke-width="1.5"/><rect x="190" y="130" width="420" height="44" fill="${INK}" opacity=".18"/><rect x="232" y="222" width="62" height="48" rx="6" fill="none" stroke="${AMBER}" stroke-width="1.5"/>`
+        : `<rect x="250" y="60" width="300" height="320" fill="none" stroke="${INK}" stroke-width="1.5"/>`;
+      const x1 = card ? 190 : 250;
+      const x2 = card ? 610 : 550;
+      return face + `<rect x="${x1}" y="${470 - t / 2}" width="${x2 - x1}" height="${t}" fill="${INK}" opacity=".85"/>` + line(x2 + 14, 470 - t / 2, x2 + 70, 470 - t / 2, `stroke="${TEAL}" stroke-width="1"`) + line(x2 + 14, 470 + t / 2, x2 + 70, 470 + t / 2, `stroke="${TEAL}" stroke-width="1"`) + dimension(x2 + 50, 470 - t / 2 - 44, x2 + 50, 470 - t / 2, TEAL).replace(/<path[^>]*>/, '') + dimension(x2 + 50, 470 + t / 2, x2 + 50, 470 + t / 2 + 44, TEAL).replace(/<path[^>]*>$/, '');
     }
-    case 'carta-di-credito-spessore':
-      return `<g transform="translate(${CX} ${CY - 30}) skewX(-28)"><rect x="-250" y="-120" width="500" height="250" rx="22" fill="#3b5fa8"/><rect x="-250" y="-70" width="500" height="44" fill="#16233f"/><rect x="-200" y="30" width="78" height="56" rx="8" fill="${AMBER}"/></g>` + `<rect x="80" y="${CY + 150}" width="560" height="26" rx="6" fill="#5b7fc8"/>` + line(680, CY + 110, 680, CY + 146, `stroke="${TEAL}" stroke-width="4"`) + line(680, CY + 180, 680, CY + 216, `stroke="${TEAL}" stroke-width="4"`) + path(`M668 ${CY + 132}L680 ${CY + 148}L692 ${CY + 132}M668 ${CY + 194}L680 ${CY + 178}L692 ${CY + 194}`, `fill="none" stroke="${TEAL}" stroke-width="4"`);
     case 'fibra-di-seta': {
       // The thread of a silkworm seen end-on: two filaments of fibroin inside one coat of sericin.
-      const tri = (x) => path(`M${x - 92} ${CY + 70}Q${x - 110} ${CY - 20} ${x} ${CY - 96}Q${x + 110} ${CY - 20} ${x + 92} ${CY + 70}Q${x} ${CY + 104} ${x - 92} ${CY + 70}Z`, 'fill="#f6ecd0"');
-      return `<ellipse cx="${CX}" cy="${CY}" rx="290" ry="170" fill="#e9c46a" opacity=".55"/>` + tri(CX - 122) + tri(CX + 122);
+      const tri = (x) => path(`M${x - 92} ${CY + 70}Q${x - 110} ${CY - 20} ${x} ${CY - 96}Q${x + 110} ${CY - 20} ${x + 92} ${CY + 70}Q${x} ${CY + 104} ${x - 92} ${CY + 70}Z`, `fill="${INK}" fill-opacity=".8"`);
+      return `<ellipse cx="${CX}" cy="${CY}" rx="290" ry="170" fill="${AMBER}" fill-opacity=".16" stroke="${AMBER}" stroke-width="1.5"/>` + tri(CX - 122) + tri(CX + 122);
     }
     case 'pixel-di-uno-smartphone': {
       // One pixel in the middle of its neighbours: three coloured sub-pixels side by side.
       let s = '';
       for (let row = -1; row <= 1; row++)
         for (let col = -1; col <= 1; col++)
-          for (const [i, colour] of ['#ff5a4f', '#4fd16a', '#4f8dff'].entries())
+          for (const [i, colour] of ['#d9584e', '#56b86a', '#5a86e0'].entries())
             s += `<rect x="${CX - 99 + col * 236 + i * 70}" y="${CY - 99 + row * 236}" width="58" height="198" rx="12" fill="${colour}" opacity="${row || col ? 0.28 : 1}"/>`;
-      return s + `<rect x="${CX - 116}" y="${CY - 116}" width="232" height="232" rx="10" fill="none" stroke="${INK}" stroke-width="3" stroke-dasharray="8 8"/>`;
+      return s + `<rect x="${CX - 116}" y="${CY - 116}" width="232" height="232" fill="none" stroke="${INK}" stroke-width="1.2" stroke-dasharray="6 6"/>`;
     }
     case 'seme-di-sesamo': {
       const seed = (x, y, angle, scale) =>
         `<g transform="translate(${x} ${y}) rotate(${angle}) scale(${scale})">` +
-        path('M-150 0C-150 -84 -30 -100 90 -62C150 -42 176 -14 176 0C176 14 150 42 90 62C-30 100 -150 84 -150 0Z', 'fill="#ead9b0"') +
-        path('M-110 -30C-60 -64 20 -62 90 -40', 'fill="none" stroke="#fff" stroke-width="14" stroke-linecap="round" opacity=".45"') +
+        path('M-150 0C-150 -84 -30 -100 90 -62C150 -42 176 -14 176 0C176 14 150 42 90 62C-30 100 -150 84 -150 0Z', `fill="#cdbd97" stroke="${INK}" stroke-width="1.2"`) +
         '</g>';
-      return seed(CX - 20, CY + 10, -24, 1.25) + seed(150, 120, 40, 0.42) + seed(660, 480, -70, 0.38);
+      return seed(CX, CY - 30, 0, 1.5) + dimension(CX - 225, CY + 170, CX + 264, CY + 170);
     }
     case 'righello-da-un-piede': {
-      let s = `<rect x="70" y="${CY - 70}" width="660" height="140" rx="8" fill="#e0b877"/>`;
+      let s = `<rect x="70" y="${CY - 70}" width="660" height="140" fill="none" stroke="${INK}" stroke-width="1.5"/>`;
       for (let i = 0; i <= 48; i++) {
         const x = 94 + (i * 612) / 48;
         const long = i % 4 === 0;
-        s += line(x, CY - 70, x, CY - 70 + (long ? 56 : i % 2 === 0 ? 38 : 24), `stroke="#3a2a14" stroke-width="${long ? 3 : 2}"`);
-        if (long && i < 48) s += `<text x="${f(x + 14)}" y="${CY + 16}" font-family="'Public Sans',system-ui,sans-serif" font-size="24" font-weight="600" fill="#3a2a14">${i / 4 + 1}</text>`;
+        s += line(x, CY - 70, x, CY - 70 + (long ? 56 : i % 2 === 0 ? 38 : 24), `stroke="${INK}" stroke-width="${long ? 1.5 : 1}"`);
+        if (long && i < 48) s += `<text x="${f(x + 14)}" y="${CY + 16}" font-family="${MONO}" font-size="20" fill="${INK}">${i / 4 + 1}</text>`;
       }
       return s;
     }
@@ -734,77 +762,82 @@ function everyday(o, random) {
     case 'west-virginia': {
       // No free picture from orbit was found: a plain patch of land with its width marked, not a map.
       return (
-        path(blob(CX, CY - 30, 200, random, 11, 0.3, 0.72), 'fill="#3f7d5a"') +
-        path(blob(CX - 40, CY - 50, 110, random, 8, 0.3, 0.7), 'fill="#5fa377" opacity=".7"') +
-        line(150, H - 90, W - 150, H - 90, `stroke="${INK}" stroke-width="3"`) +
-        line(150, H - 104, 150, H - 76, `stroke="${INK}" stroke-width="3"`) +
-        line(W - 150, H - 104, W - 150, H - 76, `stroke="${INK}" stroke-width="3"`)
+        path(blob(CX, CY - 30, 200, random, 11, 0.3, 0.72), `fill="${TEAL}" fill-opacity=".1" stroke="${TEAL}" stroke-width="1.5"`) +
+        path(blob(CX, CY - 30, 150, random, 11, 0.3, 0.72), `fill="none" stroke="${TEAL}" stroke-width="1" opacity=".5"`) +
+        path(blob(CX, CY - 30, 96, random, 11, 0.3, 0.72), `fill="none" stroke="${TEAL}" stroke-width="1" opacity=".5"`) +
+        bracket(150, W - 150, H - 80, '')
       );
     }
     case 'cellula-della-pelle': {
       let s = '';
       for (let r = 0; r < 3; r++) for (let c = 0; c < 4; c++) {
         const pts = ring6(170 + c * 165 + (r % 2 ? 82 : 0), 150 + r * 150, 88, 0);
-        s += path(`M${pts.map((p) => `${f(p[0])} ${f(p[1] * 0.92 + 20)}`).join('L')}Z`, `fill="#e8b89a" fill-opacity="${f(0.5 + random() * 0.4)}" stroke="#7a4a36" stroke-width="3"`);
+        s += path(`M${pts.map((p) => `${f(p[0])} ${f(p[1] * 0.92 + 20)}`).join('L')}Z`, `fill="${INK}" fill-opacity="${f(0.04 + random() * 0.08)}" stroke="${INK}" stroke-width="1.5"`) + circle(170 + c * 165 + (r % 2 ? 82 : 0), (150 + r * 150) * 0.92 + 20, 13, `fill="${VIOLET}" opacity=".7"`);
       }
       return s;
     }
     case 'fibra-acrilica': {
       let s = '';
-      for (let i = 0; i < 7; i++) s += path(`M${-20} ${f(90 + i * 70 + random() * 30)}Q${CX} ${f(60 + i * 70 + random() * 90)} ${W + 20} ${f(90 + i * 70 + random() * 30)}`, `fill="none" stroke="${['#ff9db0', '#ffd0d8'][i % 2]}" stroke-width="34" stroke-linecap="round" opacity=".85"`);
+      for (let i = 0; i < 7; i++) s += path(`M${-20} ${f(90 + i * 70 + random() * 30)}Q${CX} ${f(60 + i * 70 + random() * 90)} ${W + 20} ${f(90 + i * 70 + random() * 30)}`, `fill="none" stroke="${INK}" stroke-width="30" stroke-linecap="round" opacity="${i % 2 ? 0.2 : 0.32}"`);
       return s;
     }
     case 'particella-di-limo':
-      return path(blob(CX, CY, 200, random, 8, 0.16, 0.8), 'fill="#b59a7a"') + path(blob(CX - 50, CY - 40, 90, random, 7, 0.2, 0.7), 'fill="#fff" opacity=".18"');
+      return path(blob(CX, CY, 200, random, 8, 0.16, 0.8), `fill="#6f6658" stroke="${INK}" stroke-width="1.5"`) + dimension(CX - 205, CY + 215, CX + 205, CY + 215);
     case 'limite-dell-occhio-nudo':
-      return path(`M120 ${CY - 60}Q${CX} ${CY - 300} 680 ${CY - 60}Q${CX} ${CY + 180} 120 ${CY - 60}Z`, `fill="#f4f6ff" stroke="${INK}" stroke-width="5"`) + circle(CX, CY - 60, 100, 'fill="#5b8fb9"') + circle(CX, CY - 60, 44, 'fill="#05070f"') + circle(CX, CY + 215, 5, `fill="${AMBER}"`) + bracket(CX - 5, CX + 5, CY + 250, '');
+      // Two points at the smallest separation the eye can tell apart: the rays meet at the pupil under a small angle.
+      return path(`M150 ${CY - 26}L640 ${CY}L150 ${CY + 26}`, `fill="none" stroke="${INK}" stroke-width="1.2"`) + circle(150, CY - 26, 6, `fill="${AMBER}"`) + circle(150, CY + 26, 6, `fill="${AMBER}"`) + path(`M640 ${CY - 70}A120 120 0 0 1 640 ${CY + 70}A60 120 0 0 1 640 ${CY - 70}Z`, `fill="${TEAL}" fill-opacity=".12" stroke="${TEAL}" stroke-width="1.5"`) + path(`M470 ${CY - 9}A170 170 0 0 0 470 ${CY + 9}`, `fill="none" stroke="${AMBER}" stroke-width="1.5"`) + symbol(440, CY, 'θ', 34) + dimension(110, CY - 26, 110, CY + 26, TEAL);
     case 'pelle-delle-palpebre':
-      return layers([22, 60, 150], ['#f0c4a8', '#e3a588', '#c97f66']);
+      return layers([22, 60, 150], ['#8d7a70', '#5f5450', '#3a3636']) + dimension(100, 120, 100, 142, TEAL);
     case 'pelle-della-pianta-del-piede':
-      return layers([150, 70, 120], ['#f0c4a8', '#e3a588', '#c97f66']);
+      return layers([150, 70, 120], ['#8d7a70', '#5f5450', '#3a3636']) + dimension(100, 120, 100, 270, TEAL);
     case 'nevischio': {
       let s = '';
-      for (let i = 0; i < 46; i++) s += path(blob(60 + random() * 680, 60 + random() * 480, 9 + random() * 16, random, 7, 0.25, 0.8), 'fill="#f4f8ff" opacity=".9"');
+      for (let i = 0; i < 46; i++) s += path(blob(60 + random() * 680, 60 + random() * 480, 9 + random() * 16, random, 7, 0.25, 0.8), `fill="${INK}" fill-opacity=".2" stroke="${INK}" stroke-width="1"`);
       return s;
     }
     case 'fiocco-di-neve-piu-grande': {
       let arm = `M0 0V-240`;
       for (const [y, len] of [[-70, 60], [-125, 78], [-180, 52]]) arm += `M0 ${y}L${len} ${y - len * 0.75}M0 ${y}L${-len} ${y - len * 0.75}`;
       let s = '';
-      for (let i = 0; i < 6; i++) s += `<g transform="translate(${CX} ${CY}) rotate(${i * 60})">${path(arm, 'fill="none" stroke="#e6f3ff" stroke-width="12" stroke-linecap="round"')}</g>`;
-      return glow(CX, CY, 290, BLUE, 'g', 0.35) + s;
+      for (let i = 0; i < 6; i++) s += `<g transform="translate(${CX} ${CY}) rotate(${i * 60})">${path(arm, `fill="none" stroke="${INK}" stroke-width="3" stroke-linecap="round"`)}</g>`;
+      return s;
     }
     case 'teiera-di-russell':
-      return `<ellipse cx="${CX}" cy="${CY + 150}" rx="340" ry="76" fill="none" stroke="${TEAL}" stroke-width="2" stroke-dasharray="6 10" opacity=".7"/>` + body('sun', CX, CY + 150, 'a') + `<g transform="translate(${CX - 20} ${CY - 110})">${path('M-90 20Q-90 -60 0 -60Q90 -60 90 20Q90 80 0 80Q-90 80 -90 20Z', `fill="${VIOLET}"`)}${path('M88 0Q150 -10 160 -60', `fill="none" stroke="${VIOLET}" stroke-width="20" stroke-linecap="round"`)}${path('M-86 -10Q-150 -10 -150 30Q-150 66 -84 50', `fill="none" stroke="${VIOLET}" stroke-width="16"`)}<rect x="-34" y="-78" width="68" height="20" rx="8" fill="${VIOLET}"/>${circle(0, -88, 12, `fill="${VIOLET}"`)}</g>`;
+      // Russell's thought experiment: a small body on an orbit between Earth and Mars, too small to detect.
+      return `<ellipse cx="${CX}" cy="${CY}" rx="170" ry="120" fill="none" stroke="${INK}" stroke-width="1" opacity=".5"/><ellipse cx="${CX}" cy="${CY}" rx="320" ry="226" fill="none" stroke="${INK}" stroke-width="1" opacity=".5"/><ellipse cx="${CX}" cy="${CY}" rx="245" ry="173" fill="none" stroke="${VIOLET}" stroke-width="1.5" stroke-dasharray="6 8"/>` + body('sun', CX, CY, 'a') + circle(CX + 170, CY, 7, `fill="${BLUE}"`) + circle(CX - 320, CY, 6, `fill="${RED}"`) + circle(CX + 173, CY - 122, 3, `fill="${INK}"`) + circle(CX + 173, CY - 122, 16, `fill="none" stroke="${VIOLET}" stroke-width="1.2"`) + symbol(CX + 205, CY - 150, '?', 34);
     case 'mondo-di-minecraft': {
+      // A square plane in perspective, ruled in blocks: the world is 60 million blocks on a side.
       let s = '';
-      for (let r = 0; r < 12; r++) for (let c = 0; c < 12; c++) {
-        const x = CX + (c - r) * 28;
-        const y = 150 + (c + r) * 16;
-        s += path(`M${x} ${y}l28 16l-28 16l-28 -16Z`, `fill="${['#5aa84a', '#6cbc56', '#4c9a40'][Math.floor(random() * 3)]}" stroke="#2f6a2a" stroke-width="1"`);
+      for (let i = 0; i <= 12; i++) {
+        s += line(CX - 336 + i * 28, 342 - i * 16, CX + i * 28, 534 - i * 16, `stroke="${INK}" stroke-width="1" opacity=".6"`);
+        s += line(CX + 336 - i * 28, 342 - i * 16, CX - i * 28, 534 - i * 16, `stroke="${INK}" stroke-width="1" opacity=".6"`);
       }
-      return s + path(`M${CX - 336} ${342}v40l336 192v-40Z`, 'fill="#7a5a3c"') + path(`M${CX + 336} ${342}v40l-336 192v-40Z`, 'fill="#5f452e"');
+      return s + dimension(CX - 336, 372, CX, 564, TEAL);
     }
     case 'dal-pavimento-al-soffitto':
-      return `<rect x="150" y="90" width="500" height="20" fill="${INK}"/><rect x="150" y="490" width="500" height="20" fill="${INK}"/><rect x="430" y="250" width="110" height="240" rx="4" fill="none" stroke="${INK}" stroke-width="5"/>` + circle(520, 372, 6, `fill="${INK}"`) + line(250, 112, 250, 488, `stroke="${TEAL}" stroke-width="3" stroke-dasharray="10 10"`) + path('M236 132L250 112L264 132M236 468L250 488L264 468', `fill="none" stroke="${TEAL}" stroke-width="3"`);
+      return `<rect x="150" y="96" width="500" height="14" fill="${INK}" opacity=".85"/><rect x="150" y="490" width="500" height="14" fill="${INK}" opacity=".85"/><rect x="430" y="250" width="110" height="240" fill="none" stroke="${INK}" stroke-width="1.5"/>` + circle(522, 372, 3, `fill="${INK}"`) + dimension(250, 110, 250, 490, TEAL);
     case 'fossa-delle-marianne-profondita':
-      return `<rect x="0" y="110" width="${W}" height="${H - 110}" fill="#0f3a6b" opacity=".7"/>` + path(`M0 250L250 270L360 330L400 560L440 340L560 280L${W} 260V${H}H0Z`, 'fill="#3d3327"') + line(0, 110, W, 110, `stroke="${BLUE}" stroke-width="3"`) + line(400, 112, 400, 556, `stroke="${TEAL}" stroke-width="3" stroke-dasharray="10 10"`);
+      return `<rect x="0" y="110" width="${W}" height="${H - 110}" fill="${BLUE}" opacity=".12"/>` + path(`M0 250L250 270L360 330L400 560L440 340L560 280L${W} 260V${H}H0Z`, `fill="#2a2a2c" stroke="${INK}" stroke-width="1.5"`) + line(0, 110, W, 110, `stroke="${BLUE}" stroke-width="1.5"`) + dimension(400, 110, 400, 558, TEAL);
     case 'future-circular-collider':
-      return `<ellipse cx="${CX}" cy="${CY}" rx="310" ry="205" fill="none" stroke="${AMBER}" stroke-width="7"/><ellipse cx="${CX + 190}" cy="${CY + 60}" rx="92" ry="60" fill="none" stroke="${TEAL}" stroke-width="5"/>` + path(`M40 ${CY + 170}Q200 ${CY + 130} 330 ${CY + 190}T${W - 40} ${CY + 150}`, `fill="none" stroke="${BLUE}" stroke-width="10" opacity=".45" stroke-linecap="round"`);
+      return `<ellipse cx="${CX}" cy="${CY}" rx="310" ry="205" fill="none" stroke="${AMBER}" stroke-width="2.5"/><ellipse cx="${CX + 190}" cy="${CY + 60}" rx="92" ry="60" fill="none" stroke="${TEAL}" stroke-width="2"/>` + path(`M40 ${CY + 170}Q200 ${CY + 130} 330 ${CY + 190}T${W - 40} ${CY + 150}`, `fill="none" stroke="${BLUE}" stroke-width="3" opacity=".6" stroke-linecap="round"`);
     default:
       return circle(CX, CY, 190, `fill="none" stroke="${INK}" stroke-width="3" stroke-dasharray="6 10"`);
   }
 }
 
 const DRAW = { q: particle, u: unit, d: distance, w: wave, a: atomOrNucleus, m: molecule, s: star, p: world, h: blackHole, c: cosmic, n: cloud, x: dwarfGalaxy, b: everyday, o: everyday, g: everyday };
-const TINT = { q: '#12283a', u: '#1a1d33', d: '#0f2a2c', w: '#241a30', a: '#2d2116', m: '#16263a', s: '#1c1626', p: '#141a2c', h: '#201410', c: '#1b1436', n: '#1e1630', x: '#15182e', b: '#122a26', o: '#1c2030', g: '#162430' };
+const SKY = 'sphcnx';
 
 export function illustration(o) {
   const body = DRAW[o.kind](o, rng(o.id));
+  let grid = '';
+  if (!SKY.includes(o.kind)) {
+    for (let x = 40; x < W; x += 40) grid += line(x, 0, x, H, 'stroke="#fff" stroke-width="1" opacity=".035"');
+    for (let y = 40; y < H; y += 40) grid += line(0, y, W, y, 'stroke="#fff" stroke-width="1" opacity=".035"');
+  }
   return (
     `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img">` +
-    `<defs><radialGradient id="bg" cx="50%" cy="45%" r="75%"><stop offset="0" stop-color="${TINT[o.kind]}"/><stop offset="1" stop-color="#070912"/></radialGradient></defs>` +
-    `<rect width="${W}" height="${H}" fill="url(#bg)"/>${body}</svg>\n`
+    `<rect width="${W}" height="${H}" fill="${SKY.includes(o.kind) ? '#05060a' : '#0b0d13'}"/>${grid}${body}</svg>\n`
   );
 }
 
@@ -818,8 +851,12 @@ mkdirSync('public/img', { recursive: true });
 
 // An object gets a drawing when the plan gives it no photograph, or when no candidate was good enough (choice 0).
 const targets = objects.filter((o) => (!plan[o.id] || choices[o.id] === 0) && !(o.image && o.imageShape !== 'art'));
+const { default: sharp } = await import('sharp');
 for (const o of targets) {
-  writeFileSync(`public/img/${o.id}.svg`, illustration(o));
+  const svg = illustration(o);
+  writeFileSync(`public/img/${o.id}.svg`, svg);
+  // A small raster copy for the canvas, which draws it in place of an emoji.
+  await sharp(Buffer.from(svg)).resize(320, 240).webp({ quality: 82 }).toFile(`public/img/${o.id}-256.webp`);
   o.image = o.id;
   o.imageShape = 'art';
   credits[o.id] = { title: 'Illustrazione originale', author: 'Federico Calicchia', licence: 'CC BY 4.0', licenceUrl: 'https://creativecommons.org/licenses/by/4.0/', page: SITE };
@@ -829,7 +866,6 @@ writeFileSync('src/data/credits.json', JSON.stringify(Object.fromEntries(Object.
 console.log(`${targets.length} illustration(s) written.`);
 
 if (process.argv.includes('--sheet')) {
-  const { default: sharp } = await import('sharp');
   mkdirSync('images/sheets', { recursive: true });
   const PER = 24;
   for (let start = 0; start < targets.length; start += PER) {
