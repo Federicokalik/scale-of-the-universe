@@ -67,7 +67,8 @@ export function bindUi(root: HTMLElement, scene: Scene, data: SceneData, music: 
       picture.removeAttribute('src');
       return;
     }
-    picture.src = `${import.meta.env.BASE_URL}img/${o.image}-800.webp`;
+    const art = o.imageShape === 'art';
+    picture.src = `${import.meta.env.BASE_URL}img/${o.image}${art ? '.svg' : '-800.webp'}`;
     picture.alt = o.name;
     const link = (text: string, href: string) => {
       const a = document.createElement('a');
@@ -78,7 +79,8 @@ export function bindUi(root: HTMLElement, scene: Scene, data: SceneData, music: 
       a.setAttribute('aria-label', `${text} (${ui['card.newtab']})`);
       return a;
     };
-    creditLine.append(`${ui['card.image']}: `, link(o.credit.author, o.credit.page), ' · ');
+    if (art) creditLine.append(`${ui['card.illustration']} · `);
+    else creditLine.append(`${ui['card.image']}: `, link(o.credit.author, o.credit.page), ' · ');
     creditLine.append(o.credit.licenceUrl ? link(o.credit.licence, o.credit.licenceUrl) : o.credit.licence);
   }
 

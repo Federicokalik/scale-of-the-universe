@@ -104,6 +104,7 @@
     "dialog.author": "Un progetto di <a href=\"https://calicchia.design/\">Federico Calicchia</a>.",
     "card.sources": "Fonti",
     "card.image": "Immagine",
+    "card.illustration": "Illustrazione originale",
     "card.verified": "Verificato il {date}",
     "card.newtab": "si apre in una nuova scheda"
   },

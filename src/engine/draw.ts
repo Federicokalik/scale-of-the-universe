@@ -27,7 +27,7 @@ export function createRenderer(ctx: Ctx, sprites: Sprites, still = false): Rende
 
   /** The object's photograph once it has loaded; starts the download the first time it is asked for. */
   function photo(o: Placed): HTMLImageElement | null {
-    if (!o.image) return null;
+    if (!o.image || o.imageShape === 'art') return null;
     const known = photos.get(o.image);
     if (known !== undefined) return known && known.complete && known.naturalWidth ? known : null;
     const image = new Image();

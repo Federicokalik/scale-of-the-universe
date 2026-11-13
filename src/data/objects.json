@@ -8,7 +8,7 @@
       "i",
       "u"
     ],
-    "image": null,
+    "image": "schiuma-quantistica",
     "sources": [
       {
         "title": "Planck length (CODATA 2022 recommended value)",
@@ -21,7 +21,8 @@
         "publisher": "Chandra X-ray Center (NASA, Harvard-Smithsonian)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "stringa",
@@ -32,7 +33,7 @@
       "i",
       "u"
     ],
-    "image": null,
+    "image": "stringa",
     "sources": [
       {
         "title": "Teoria delle stringhe (Enciclopedia della Scienza e della Tecnica)",
@@ -45,7 +46,8 @@
         "publisher": "NIST, CODATA"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "lunghezza-di-planck",
@@ -53,7 +55,7 @@
     "kind": "u",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "lunghezza-di-planck",
     "sources": [
       {
         "title": "CODATA Value: Planck length",
@@ -66,7 +68,8 @@
         "publisher": "NIST, CODATA 2022"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "yoctometro",
@@ -74,7 +77,7 @@
     "kind": "u",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "yoctometro",
     "sources": [
       {
         "title": "SI prefixes",
@@ -87,7 +90,8 @@
         "publisher": "NIST, CODATA 2022"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "neutrino",
@@ -97,7 +101,7 @@
     "flags": [
       "u"
     ],
-    "image": null,
+    "image": "neutrino",
     "sources": [
       {
         "title": "Direct neutrino-mass measurement based on 259 days of KATRIN data",
@@ -105,7 +109,8 @@
         "publisher": "KATRIN Collaboration (Aker et al.), arXiv"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "quark-top",
@@ -115,7 +120,7 @@
     "flags": [
       "u"
     ],
-    "image": null,
+    "image": "quark-top",
     "sources": [
       {
         "title": "t quark (pdgLive, Review of Particle Physics)",
@@ -128,7 +133,8 @@
         "publisher": "CERN"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "zeptometro",
@@ -136,7 +142,7 @@
     "kind": "u",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "zeptometro",
     "sources": [
       {
         "title": "SI prefixes",
@@ -149,7 +155,8 @@
         "publisher": "LIGO Laboratory, Caltech"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "preone",
@@ -160,7 +167,7 @@
       "i",
       "u"
     ],
-    "image": null,
+    "image": "preone",
     "sources": [
       {
         "title": "Quark and Lepton Compositeness, Searches for (pdgLive)",
@@ -173,7 +180,8 @@
         "publisher": "Particle Data Group (Hikasa, Tanabashi, Terashi, Varelas)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "neutrino-ad-alta-energia",
@@ -183,7 +191,7 @@
     "flags": [
       "u"
     ],
-    "image": null,
+    "image": "neutrino-ad-alta-energia",
     "sources": [
       {
         "title": "KM3NeT detects the highest energy neutrino ever observed",
@@ -191,7 +199,8 @@
         "publisher": "KM3NeT Collaboration"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "quark-bottom",
@@ -201,7 +210,7 @@
     "flags": [
       "u"
     ],
-    "image": null,
+    "image": "quark-bottom",
     "sources": [
       {
         "title": "b quark (pdgLive, Review of Particle Physics)",
@@ -214,7 +223,8 @@
         "publisher": "Fermilab"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "lunghezze-sondate-da-lhc",
@@ -225,7 +235,7 @@
       "r",
       "u"
     ],
-    "image": null,
+    "image": "lunghezze-sondate-da-lhc",
     "sources": [
       {
         "title": "Large Hadron Collider restarts",
@@ -243,7 +253,8 @@
         "publisher": "NIST, CODATA"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "sensibilita-di-ligo",
@@ -253,7 +264,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "sensibilita-di-ligo",
     "sources": [
       {
         "title": "Gravitational Waves Detected 100 Years After Einstein's Prediction",
@@ -266,7 +277,8 @@
         "publisher": "U.S. National Science Foundation (NSF)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "quark-charm",
@@ -276,7 +288,7 @@
     "flags": [
       "u"
     ],
-    "image": null,
+    "image": "quark-charm",
     "sources": [
       {
         "title": "Quarks, Summary Table, Review of Particle Physics 2024",
@@ -289,7 +301,8 @@
         "publisher": "ZEUS Collaboration, arXiv (accettato da Physics Letters B)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "elettrone-limite-superiore",
@@ -300,7 +313,7 @@
       "u",
       "r"
     ],
-    "image": null,
+    "image": "elettrone-limite-superiore",
     "sources": [
       {
         "title": "Search for TeV Strings and New Phenomena in Bhabha Scattering at LEP2",
@@ -308,7 +321,8 @@
         "publisher": "D. Bourilkov, Physical Review D 62, 076005 (2000), arXiv"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "quark-strange",
@@ -318,7 +332,7 @@
     "flags": [
       "u"
     ],
-    "image": null,
+    "image": "quark-strange",
     "sources": [
       {
         "title": "Quarks, Summary Table, Review of Particle Physics 2024",
@@ -331,7 +345,8 @@
         "publisher": "ZEUS Collaboration, arXiv (accettato da Physics Letters B)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "limite-sul-raggio-dei-quark",
@@ -341,7 +356,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "limite-sul-raggio-dei-quark",
     "sources": [
       {
         "title": "Limits on the effective quark radius from inclusive ep scattering at HERA",
@@ -349,7 +364,8 @@
         "publisher": "ZEUS Collaboration, arXiv (accettato da Physics Letters B)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "quark-up",
@@ -360,7 +376,7 @@
       "u",
       "r"
     ],
-    "image": null,
+    "image": "quark-up",
     "sources": [
       {
         "title": "Quarks, Summary Table, Review of Particle Physics 2024",
@@ -378,7 +394,8 @@
         "publisher": "ZEUS Collaboration, arXiv (accettato da Physics Letters B)"
       }
     ],
-    "verified": "2026-11-13"
+    "verified": "2026-11-13",
+    "imageShape": "art"
   },
   {
     "id": "quark-down",
@@ -389,7 +406,7 @@
       "u",
       "r"
     ],
-    "image": null,
+    "image": "quark-down",
     "sources": [
       {
         "title": "Quarks, Summary Table, Review of Particle Physics 2024",
@@ -407,7 +424,8 @@
         "publisher": "ZEUS Collaboration, arXiv (accettato da Physics Letters B)"
       }
     ],
-    "verified": "2026-11-13"
+    "verified": "2026-11-13",
+    "imageShape": "art"
   },
   {
     "id": "attometro",
@@ -415,7 +433,7 @@
     "kind": "u",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "attometro",
     "sources": [
       {
         "title": "SI prefixes",
@@ -428,7 +446,8 @@
         "publisher": "ZEUS Collaboration, arXiv"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "raggio-d-azione-della-forza-debole",
@@ -438,7 +457,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "raggio-d-azione-della-forza-debole",
     "sources": [
       {
         "title": "Gauge and Higgs Bosons, Summary Table, Review of Particle Physics 2024",
@@ -456,7 +475,8 @@
         "publisher": "CERN"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "femtometro",
@@ -464,7 +484,7 @@
     "kind": "u",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "femtometro",
     "sources": [
       {
         "title": "NIST Guide to the SI, Chapter 5: Units Outside the SI",
@@ -477,7 +497,8 @@
         "publisher": "NIST, CODATA 2022"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "protone",
@@ -487,7 +508,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "protone",
     "sources": [
       {
         "title": "CODATA Value: proton rms charge radius",
@@ -495,7 +516,8 @@
         "publisher": "NIST, CODATA 2022"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "neutrone",
@@ -503,7 +525,7 @@
     "kind": "a",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "neutrone",
     "sources": [
       {
         "title": "pdgLive: n (neutron) summary",
@@ -511,7 +533,8 @@
         "publisher": "Particle Data Group (PDG), Lawrence Berkeley National Laboratory"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "nucleo-di-elio",
@@ -521,7 +544,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "nucleo-di-elio",
     "sources": [
       {
         "title": "CODATA Value: alpha particle rms charge radius",
@@ -534,7 +557,8 @@
         "publisher": "Krauth et al., Nature 589, 527-531 (2021), scheda del portale di ricerca della Vrije Universiteit Amsterdam"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "deuterone",
@@ -544,7 +568,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "deuterone",
     "sources": [
       {
         "title": "CODATA Value: deuteron rms charge radius",
@@ -557,7 +581,8 @@
         "publisher": "NIST, CODATA 2022"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "elettrone-raggio-classico",
@@ -565,7 +590,7 @@
     "kind": "q",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "elettrone-raggio-classico",
     "sources": [
       {
         "title": "classical electron radius (2022 CODATA)",
@@ -578,7 +603,8 @@
         "publisher": "D. Bourilkov, Physical Review D 62, 076005 (2000), arXiv"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "nucleo-di-cloro",
@@ -586,7 +612,7 @@
     "kind": "a",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "nucleo-di-cloro",
     "sources": [
       {
         "title": "Modern approach to muonic x-ray spectroscopy demonstrated through the measurement of stable Cl radii",
@@ -599,7 +625,8 @@
         "publisher": "Beyer et al., arXiv:2605.08413 (2026)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "nucleo-atomico-medio",
@@ -607,7 +634,7 @@
     "kind": "a",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "nucleo-atomico-medio",
     "sources": [
       {
         "title": "Nuclear Units / Nuclear Size and Density",
@@ -620,7 +647,8 @@
         "publisher": "U.S. Department of Energy, Office of Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "nucleo-di-piombo-208",
@@ -630,7 +658,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "nucleo-di-piombo-208",
     "sources": [
       {
         "title": "208Pb nuclear charge radius revisited: closing the fine-structure-anomaly gap",
@@ -648,7 +676,8 @@
         "publisher": "Kosyakov, Popov, Vronsky, arXiv:2309.13082"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "nucleo-di-uranio",
@@ -656,7 +685,7 @@
     "kind": "a",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "nucleo-di-uranio",
     "sources": [
       {
         "title": "Nuclear deformation effect on the binding energies in heavy ions",
@@ -664,7 +693,8 @@
         "publisher": "Kozhedub et al., Physical Review A 77, 032501 (2008), arXiv"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "picometro",
@@ -672,7 +702,7 @@
     "kind": "u",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "picometro",
     "sources": [
       {
         "title": "Metric (SI) Prefixes",
@@ -685,7 +715,8 @@
         "publisher": "NIST, CODATA 2022"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "raggi-gamma",
@@ -695,7 +726,7 @@
     "flags": [
       "u"
     ],
-    "image": null,
+    "image": "raggi-gamma",
     "sources": [
       {
         "title": "The Electromagnetic Spectrum (Imagine the Universe!)",
@@ -708,7 +739,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "lunghezza-d-onda-compton-dell-elettrone",
@@ -716,7 +748,7 @@
     "kind": "w",
     "glyph": "#9fd0ff",
     "flags": [],
-    "image": null,
+    "image": "lunghezza-d-onda-compton-dell-elettrone",
     "sources": [
       {
         "title": "CODATA Value: Compton wavelength",
@@ -729,7 +761,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "risoluzione-record-di-un-microscopio-elettronico",
@@ -739,7 +772,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "risoluzione-record-di-un-microscopio-elettronico",
     "sources": [
       {
         "title": "Electron ptychography achieves atomic-resolution limits set by lattice vibrations",
@@ -747,7 +780,8 @@
         "publisher": "Chen et al., arXiv (versione pubblicata su Science, DOI 10.1126/science.abg2533)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "atomo-di-elio",
@@ -757,7 +791,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "atomo-di-elio",
     "sources": [
       {
         "title": "Helium: radii of atoms and ions",
@@ -770,7 +804,8 @@
         "publisher": "NIST, CODATA 2022"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "angstrom",
@@ -778,7 +813,7 @@
     "kind": "u",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "angstrom",
     "sources": [
       {
         "title": "NIST Guide to the SI, Chapter 5: Units Outside the SI",
@@ -791,7 +826,8 @@
         "publisher": "NIST, CODATA 2022"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "atomo-di-idrogeno",
@@ -801,7 +837,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "atomo-di-idrogeno",
     "sources": [
       {
         "title": "CODATA Value: Bohr radius",
@@ -814,7 +850,8 @@
         "publisher": "WebElements (Mark Winter, University of Sheffield)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "atomo-di-carbonio",
@@ -822,7 +859,7 @@
     "kind": "a",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "atomo-di-carbonio",
     "sources": [
       {
         "title": "Carbon: radii of atoms and ions",
@@ -830,7 +867,8 @@
         "publisher": "WebElements (Mark Winter, University of Sheffield)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "raggi-x",
@@ -838,7 +876,7 @@
     "kind": "w",
     "glyph": "#b8c8ff",
     "flags": [],
-    "image": null,
+    "image": "raggi-x",
     "sources": [
       {
         "title": "X-ray Transition Energies Database (SRD 128): Cu KL3",
@@ -851,7 +889,8 @@
         "publisher": "Science Education Resource Center, Carleton College"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "legame-carbonio-carbonio",
@@ -861,7 +900,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "legame-carbonio-carbonio",
     "sources": [
       {
         "title": "Experimental data for C2H6 (Ethane)",
@@ -869,7 +908,8 @@
         "publisher": "NIST Computational Chemistry Comparison and Benchmark Database (CCCBDB)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "atomo-di-zolfo",
@@ -879,7 +919,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "atomo-di-zolfo",
     "sources": [
       {
         "title": "Sulfur: radii of atoms and ions",
@@ -887,7 +927,8 @@
         "publisher": "WebElements (Mark Winter, University of Sheffield)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "molecola-di-co2",
@@ -897,7 +938,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "molecola-di-co2",
     "sources": [
       {
         "title": "Experimental data for CO2 (Carbon dioxide)",
@@ -910,7 +951,8 @@
         "publisher": "NOAA Global Monitoring Laboratory"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "molecola-d-acqua",
@@ -918,7 +960,7 @@
     "kind": "m",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "molecola-d-acqua",
     "sources": [
       {
         "title": "Diameter of water molecule (BNID 103723)",
@@ -931,7 +973,8 @@
         "publisher": "NIST Computational Chemistry Comparison and Benchmark Database (CCCBDB)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "gate-di-transistor-piu-corto",
@@ -941,7 +984,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "gate-di-transistor-piu-corto",
     "sources": [
       {
         "title": "Vertical MoS2 transistors with sub-1-nm gate lengths (Wu et al., Nature 603, 259-264, 2022)",
@@ -954,7 +997,8 @@
         "publisher": "IEEE Spectrum"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "atomo-di-cesio",
@@ -962,7 +1006,7 @@
     "kind": "a",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "atomo-di-cesio",
     "sources": [
       {
         "title": "Caesium: crystal structures",
@@ -980,7 +1024,8 @@
         "publisher": "BIPM"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "molecola-di-caffeina",
@@ -991,7 +1036,7 @@
       "n",
       "u"
     ],
-    "image": null,
+    "image": "molecola-di-caffeina",
     "sources": [
       {
         "title": "Caffeine (CID 2519), 3D conformer record",
@@ -1004,7 +1049,8 @@
         "publisher": "PubChem, National Library of Medicine (NIH)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "molecola-di-glucosio",
@@ -1012,7 +1058,7 @@
     "kind": "m",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "molecola-di-glucosio",
     "sources": [
       {
         "title": "Size of glucose ring molecule (BNID 110368)",
@@ -1025,7 +1071,8 @@
         "publisher": "PubChem, National Library of Medicine (NIH)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "nanometro",
@@ -1033,7 +1080,7 @@
     "kind": "u",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "nanometro",
     "sources": [
       {
         "title": "Metric (SI) Prefixes",
@@ -1046,7 +1093,8 @@
         "publisher": "NIST, CODATA 2022"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "fullerene-c60",
@@ -1054,7 +1102,7 @@
     "kind": "m",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "fullerene-c60",
     "sources": [
       {
         "title": "buckminsterfulleren",
@@ -1067,7 +1115,8 @@
         "publisher": "University of Bristol, School of Chemistry (testo di W. Locke, Sussex Fullerene Group)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "nanotubo-di-carbonio",
@@ -1075,7 +1124,7 @@
     "kind": "m",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "nanotubo-di-carbonio",
     "sources": [
       {
         "title": "Cobalt-catalysed growth of carbon nanotubes with single-atomic-layer walls (Bethune et al., Nature 363, 605-607, 1993)",
@@ -1083,7 +1132,8 @@
         "publisher": "CaltechAUTHORS, California Institute of Technology (abstract dell'articolo su Nature)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "alfa-elica-di-una-proteina",
@@ -1094,7 +1144,7 @@
       "r",
       "u"
     ],
-    "image": null,
+    "image": "alfa-elica-di-una-proteina",
     "sources": [
       {
         "title": "Alpha helix (protein structure modelling pages)",
@@ -1107,7 +1157,8 @@
         "publisher": "University of Wisconsin-Madison, Department of Chemistry"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "dna-spessore",
@@ -1117,7 +1168,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "dna-spessore",
     "sources": [
       {
         "title": "Biology 2e, 14.2 DNA Structure and Sequencing",
@@ -1125,7 +1176,8 @@
         "publisher": "OpenStax, Rice University"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "fosfolipide",
@@ -1133,7 +1185,7 @@
     "kind": "m",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "fosfolipide",
     "sources": [
       {
         "title": "Closer Look at Structure of Fully Hydrated Fluid Phase DPPC Bilayers",
@@ -1146,7 +1198,8 @@
         "publisher": "OpenStax, Rice University"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "doppio-strato-fosfolipidico",
@@ -1154,7 +1207,7 @@
     "kind": "m",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "doppio-strato-fosfolipidico",
     "sources": [
       {
         "title": "Biology 2e, 5.1 Components and Structure",
@@ -1167,7 +1220,8 @@
         "publisher": "Kučerka, Tristram-Nagle, Nagle, Biophysical Journal (2006)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "emoglobina",
@@ -1177,7 +1231,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "emoglobina",
     "sources": [
       {
         "title": "Size and Shape of Protein Molecules at the Nanometer Level Determined by Sedimentation, Gel Filtration, and Electron Microscopy",
@@ -1195,7 +1249,8 @@
         "publisher": "Google DeepMind"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "membrana-cellulare",
@@ -1203,7 +1258,7 @@
     "kind": "b",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "membrana-cellulare",
     "sources": [
       {
         "title": "Thickness of a Cell Membrane (BNID 100787)",
@@ -1216,7 +1271,8 @@
         "publisher": "R. Milo e R. Phillips, Cell Biology by the Numbers"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "gate-di-un-transistor-in-produzione",
@@ -1227,7 +1283,7 @@
       "r",
       "u"
     ],
-    "image": null,
+    "image": "gate-di-un-transistor-in-produzione",
     "sources": [
       {
         "title": "Introducing the world's first 2 nm node chip",
@@ -1245,7 +1301,8 @@
         "publisher": "TSMC"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "luce-euv-per-litografia",
@@ -1255,7 +1312,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "luce-euv-per-litografia",
     "sources": [
       {
         "title": "EUV lithography systems",
@@ -1263,7 +1320,8 @@
         "publisher": "ASML"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "anticorpo-igg",
@@ -1274,7 +1332,7 @@
       "n",
       "r"
     ],
-    "image": null,
+    "image": "anticorpo-igg",
     "sources": [
       {
         "title": "The Solution Structures of Two Human IgG1 Antibodies Show Conformational Stability and Accommodate Their C1q and FcγR Ligands",
@@ -1292,7 +1350,8 @@
         "publisher": "Jay et al., Antibodies (2018)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "circovirus-suino",
@@ -1300,7 +1359,7 @@
     "kind": "b",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "circovirus-suino",
     "sources": [
       {
         "title": "Circoviridae (ICTV Ninth Report)",
@@ -1308,7 +1367,8 @@
         "publisher": "International Committee on Taxonomy of Viruses (ICTV)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "ribosoma",
@@ -1357,7 +1417,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "nanoparticella-lipidica",
     "sources": [
       {
         "title": "mRNA-lipid nanoparticle COVID-19 vaccines: Structure and stability",
@@ -1365,7 +1425,8 @@
         "publisher": "Schoenmaker et al., International Journal of Pharmaceutics (2021)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "ultravioletto",
@@ -1375,7 +1436,7 @@
     "flags": [
       "u"
     ],
-    "image": null,
+    "image": "ultravioletto",
     "sources": [
       {
         "title": "Radiation: Ultraviolet (UV) radiation (Questions and answers)",
@@ -1383,7 +1444,8 @@
         "publisher": "World Health Organization"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "sars-cov-2",
@@ -1455,7 +1517,7 @@
     "kind": "m",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "limite-del-microscopio-ottico",
     "sources": [
       {
         "title": "Microscopy's Cutting Edge",
@@ -1468,7 +1530,8 @@
         "publisher": "Max Planck Institute for Medical Research (comunicato, 2023)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "batteriofago-t4",
@@ -1526,7 +1589,7 @@
       "r",
       "u"
     ],
-    "image": null,
+    "image": "particella-piu-penetrante-per-un-filtro-ffp2",
     "sources": [
       {
         "title": "Understanding Filtration Efficiency Testing and Fit Testing in Filtering Facepiece Respirators (FFRs), DHHS (NIOSH) Publication No. 2021-123",
@@ -1539,7 +1602,8 @@
         "publisher": "Rengasamy et al. (NIOSH), Journal of Occupational and Environmental Hygiene (2008), CDC Stacks"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "luce-viola",
@@ -1547,7 +1611,7 @@
     "kind": "w",
     "glyph": "#8b5cf6",
     "flags": [],
-    "image": null,
+    "image": "luce-viola",
     "sources": [
       {
         "title": "The Electromagnetic Spectrum (Imagine the Universe!)",
@@ -1560,7 +1624,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "luce-verde",
@@ -1570,7 +1635,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "luce-verde",
     "sources": [
       {
         "title": "Realization of the Candela",
@@ -1578,7 +1643,8 @@
         "publisher": "NIST"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "luce-rossa",
@@ -1588,7 +1654,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "luce-rossa",
     "sources": [
       {
         "title": "Visible Light (Tour of the Electromagnetic Spectrum)",
@@ -1596,7 +1662,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "mimivirus",
@@ -1620,7 +1687,7 @@
     "kind": "u",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "micrometro",
     "sources": [
       {
         "title": "NIST Guide to the SI, Chapter 5: Units Outside the SI",
@@ -1633,7 +1700,8 @@
         "publisher": "BioNumbers, Harvard Medical School"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "virus-piu-grande",
@@ -1661,7 +1729,7 @@
     "flags": [
       "u"
     ],
-    "image": null,
+    "image": "cromosoma-y",
     "sources": [
       {
         "title": "Y chromosome",
@@ -1679,7 +1747,8 @@
         "publisher": "National Human Genome Research Institute (NHGRI), NIH"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "particella-di-argilla",
@@ -1726,7 +1795,7 @@
     "kind": "b",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "mitocondrio",
     "sources": [
       {
         "title": "How big are mitochondria? (Cell Biology by the Numbers)",
@@ -1734,7 +1803,8 @@
         "publisher": "R. Milo e R. Phillips, Cell Biology by the Numbers (BioNumbers)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "cellula-di-lievito",
@@ -1847,7 +1917,7 @@
     "kind": "w",
     "glyph": "#f97316",
     "flags": [],
-    "image": null,
+    "image": "infrarosso-termico",
     "sources": [
       {
         "title": "Infrared Waves (Tour of the Electromagnetic Spectrum)",
@@ -1860,7 +1930,8 @@
         "publisher": "NIST / CODATA"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "globulo-bianco",
@@ -1907,7 +1978,7 @@
     "kind": "u",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "twip",
     "sources": [
       {
         "title": "VBE Glossary (voci \"twip\" e \"point\")",
@@ -1920,7 +1991,8 @@
         "publisher": "NIST"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "fibra-acrilica",
@@ -1930,7 +2002,7 @@
     "flags": [
       "u"
     ],
-    "image": null,
+    "image": "fibra-acrilica",
     "sources": [
       {
         "title": "Choosing The Proper Short Cut Fiber",
@@ -1938,7 +2010,8 @@
         "publisher": "MiniFibers, Inc. (produttore)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "gocciolina-di-nebbia",
@@ -1964,7 +2037,7 @@
     "kind": "u",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "thou",
     "sources": [
       {
         "title": "NIST Guide to the SI, Appendix B.8: Factors for Units Listed Alphabetically",
@@ -1972,7 +2045,8 @@
         "publisher": "NIST"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "cellula-della-pelle",
@@ -1982,7 +2056,7 @@
     "flags": [
       "u"
     ],
-    "image": null,
+    "image": "cellula-della-pelle",
     "sources": [
       {
         "title": "Corneocytes: Relationship between Structural and Biomechanical Properties",
@@ -1995,7 +2069,8 @@
         "publisher": "Universidade de Vigo"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "particella-di-limo",
@@ -2003,7 +2078,7 @@
     "kind": "o",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "particella-di-limo",
     "sources": [
       {
         "title": "ISO 14688-1:2002, Geotechnical investigation and testing. Identification and classification of soil. Part 1 (anteprima, Table 1)",
@@ -2016,7 +2091,8 @@
         "publisher": "Kansas State University, via LibreTexts"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "granulo-di-polline",
@@ -2099,7 +2175,7 @@
     "flags": [
       "u"
     ],
-    "image": null,
+    "image": "limite-dell-occhio-nudo",
     "sources": [
       {
         "title": "Resolution and Size Primer",
@@ -2107,7 +2183,8 @@
         "publisher": "James Madison University, Light Microscopy and Imaging Facility"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "foglio-di-carta-spessore",
@@ -2308,7 +2385,7 @@
     "kind": "o",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "pelle-delle-palpebre",
     "sources": [
       {
         "title": "Skin: The Layers of Skin (The Histology Guide)",
@@ -2316,7 +2393,8 @@
         "publisher": "University of Leeds, Faculty of Biological Sciences"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "mina-di-matita",
@@ -2361,7 +2439,7 @@
     "kind": "u",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "millimetro",
     "sources": [
       {
         "title": "SI prefixes",
@@ -2374,7 +2452,8 @@
         "publisher": "NIST"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "nevischio",
@@ -2384,7 +2463,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "nevischio",
     "sources": [
       {
         "title": "Snow grains (International Cloud Atlas)",
@@ -2402,7 +2481,8 @@
         "publisher": "Organizzazione Meteorologica Mondiale (WMO)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "picco-del-fondo-cosmico-a-microonde",
@@ -2412,7 +2492,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "picco-del-fondo-cosmico-a-microonde",
     "sources": [
       {
         "title": "The Temperature of the Cosmic Microwave Background",
@@ -2430,7 +2510,8 @@
         "publisher": "ESA"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "goccia-di-pioggia",
@@ -2519,7 +2600,7 @@
     "kind": "o",
     "glyph": "🦶",
     "flags": [],
-    "image": null,
+    "image": "pelle-della-pianta-del-piede",
     "sources": [
       {
         "title": "Skin: The Layers of Skin (The Histology Guide)",
@@ -2527,7 +2608,8 @@
         "publisher": "University of Leeds, Faculty of Biological Sciences"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "microchip",
@@ -2725,7 +2807,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "pollice",
     "sources": [
       {
         "title": "NIST Guide to the SI, Appendix B.8: Factors for Units Listed Alphabetically",
@@ -2733,7 +2815,8 @@
         "publisher": "NIST"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "uovo-di-quaglia",
@@ -2853,7 +2936,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "microonde-del-forno",
     "sources": [
       {
         "title": "Microwave Ovens (HyperPhysics)",
@@ -2871,7 +2954,8 @@
         "publisher": "U.S. Food and Drug Administration (FDA)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "smartphone",
@@ -2984,7 +3068,7 @@
       "i",
       "u"
     ],
-    "image": null,
+    "image": "teiera-di-russell",
     "sources": [
       {
         "title": "Russell's Teapot",
@@ -2992,7 +3076,8 @@
         "publisher": "Humanists UK, Humanist Heritage"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "righello-da-un-piede",
@@ -3034,7 +3119,7 @@
     "flags": [
       "u"
     ],
-    "image": null,
+    "image": "fiocco-di-neve-piu-grande",
     "sources": [
       {
         "title": "Largest snowflake",
@@ -3042,7 +3127,8 @@
         "publisher": "Guinness World Records"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "gatto",
@@ -3089,7 +3175,7 @@
     "kind": "u",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "metro",
     "sources": [
       {
         "title": "SI base unit: metre (m)",
@@ -3102,7 +3188,8 @@
         "publisher": "NIST"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "dodo",
@@ -3238,7 +3325,7 @@
     "kind": "g",
     "glyph": "🚪",
     "flags": [],
-    "image": null,
+    "image": "dal-pavimento-al-soffitto",
     "sources": [
       {
         "title": "Decreto del Presidente della Repubblica 6 giugno 2001, n. 380, art. 24 (Agibilità), comma 5-bis",
@@ -3246,7 +3333,8 @@
         "publisher": "Normattiva, Presidenza del Consiglio dei Ministri"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "onde-radio-fm",
@@ -3256,7 +3344,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "onde-radio-fm",
     "sources": [
       {
         "title": "47 CFR § 73.201 - Numerical designation of FM broadcast channels",
@@ -3264,7 +3352,8 @@
         "publisher": "U.S. Code of Federal Regulations (FCC), via Cornell Legal Information Institute"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "albatro-urlatore",
@@ -3816,7 +3905,7 @@
       "n",
       "u"
     ],
-    "image": null,
+    "image": "oumuamua",
     "sources": [
       {
         "title": "'Oumuamua",
@@ -3829,7 +3918,8 @@
         "publisher": "NASA (Spitzer)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "diga-di-hoover",
@@ -3871,7 +3961,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "onde-radio-am",
     "sources": [
       {
         "title": "47 CFR § 73.14 - AM broadcast definitions",
@@ -3879,7 +3969,8 @@
         "publisher": "U.S. Code of Federal Regulations (FCC), via Cornell Legal Information Institute"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "torre-eiffel",
@@ -4053,7 +4144,7 @@
     "kind": "u",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "chilometro",
     "sources": [
       {
         "title": "SI prefixes",
@@ -4066,7 +4157,8 @@
         "publisher": "NIST"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "fabbrica-boeing-di-everett",
@@ -4167,7 +4259,7 @@
     "kind": "u",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "miglio",
     "sources": [
       {
         "title": "NIST Guide to the SI, Appendix B.8: Factors for Units Listed Alphabetically",
@@ -4175,7 +4267,8 @@
         "publisher": "NIST"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "cruithne",
@@ -4185,7 +4278,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "cruithne",
     "sources": [
       {
         "title": "Small-Body Database Lookup: 3753 Cruithne (1986 TO)",
@@ -4198,7 +4291,8 @@
         "publisher": "Wiegert, Innanen & Mikkola, Nature"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "acceleratore-lineare-di-stanford",
@@ -4390,7 +4484,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "fossa-delle-marianne-profondita",
     "sources": [
       {
         "title": "Deepest point in the sea",
@@ -4398,7 +4492,8 @@
         "publisher": "Guinness World Records"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "cometa-di-halley",
@@ -4454,7 +4549,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "stella-di-neutroni",
     "sources": [
       {
         "title": "A NICER View of PSR J0030+0451: Millisecond Pulsar Parameter Estimation",
@@ -4467,7 +4562,8 @@
         "publisher": "Riley et al., The Astrophysical Journal Letters, arXiv"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "olympus-mons-altezza",
@@ -4531,7 +4627,7 @@
       "n",
       "i"
     ],
-    "image": null,
+    "image": "future-circular-collider",
     "sources": [
       {
         "title": "Future Circular Collider",
@@ -4539,7 +4635,8 @@
         "publisher": "CERN"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "ganymed",
@@ -4550,7 +4647,7 @@
       "r",
       "u"
     ],
-    "image": null,
+    "image": "ganymed",
     "sources": [
       {
         "title": "Shape Modeling of Asteroid (1036) Ganymed (EPSC-DPS2025-1154)",
@@ -4563,7 +4660,8 @@
         "publisher": "NASA JPL Asteroid Radar Research"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "arrokoth",
@@ -4594,7 +4692,7 @@
     "kind": "d",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "maratona",
     "sources": [
       {
         "title": "Marathon",
@@ -4602,7 +4700,8 @@
         "publisher": "World Athletics"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "nix",
@@ -4661,7 +4760,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "buco-nero-stellare",
     "sources": [
       {
         "title": "What is the Critical Mass at Which a Star Becomes a Black Hole? (Ask an Astronomer)",
@@ -4674,7 +4773,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "idra",
@@ -4779,7 +4879,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "gaia-bh3",
     "sources": [
       {
         "title": "Discovery of a dormant 33 solar-mass black hole in pre-release Gaia astrometry",
@@ -4792,7 +4892,8 @@
         "publisher": "ESA"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "galatea",
@@ -5056,7 +5157,7 @@
       "r",
       "u"
     ],
-    "image": null,
+    "image": "dysnomia",
     "sources": [
       {
         "title": "Masses and densities of dwarf planet satellites measured with ALMA (Brown & Butler 2023)",
@@ -5064,7 +5165,8 @@
         "publisher": "arXiv, Planetary Science Journal"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "cerere",
@@ -5093,7 +5195,7 @@
     "kind": "u",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "megametro",
     "sources": [
       {
         "title": "SI prefixes",
@@ -5106,7 +5208,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "sedna",
@@ -5117,7 +5220,7 @@
       "r",
       "u"
     ],
-    "image": null,
+    "image": "sedna",
     "sources": [
       {
         "title": "\"TNOs are Cool\": A survey of the trans-Neptunian region VII. Size and surface characteristics of (90377) Sedna and 2010 EK139 (Pál et al. 2012)",
@@ -5130,7 +5233,8 @@
         "publisher": "arXiv, Astrophysical Journal Letters"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "quaoar",
@@ -5200,7 +5304,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "gonggong",
     "sources": [
       {
         "title": "The mass and density of the dwarf planet (225088) 2007 OR10 (Kiss et al. 2019)",
@@ -5213,7 +5317,8 @@
         "publisher": "IAU Minor Planet Center"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "california",
@@ -5632,7 +5737,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "trappist-1-e",
     "sources": [
       {
         "title": "TRAPPIST-1 e (Exoplanet Catalog)",
@@ -5650,7 +5755,8 @@
         "publisher": "NASA NSSDCA (Goddard Space Flight Center)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "sirio-b",
@@ -5660,7 +5766,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "sirio-b",
     "sources": [
       {
         "title": "The Sirius System and its Astrophysical Puzzles: Hubble Space Telescope and Ground-Based Astrometry",
@@ -5673,7 +5779,8 @@
         "publisher": "International Astronomical Union (Mamajek et al.), arXiv"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "venere",
@@ -5749,7 +5856,7 @@
       "n",
       "u"
     ],
-    "image": null,
+    "image": "k2-18-b",
     "sources": [
       {
         "title": "Webb Discovers Methane, Carbon Dioxide in Atmosphere of K2-18 b",
@@ -5772,7 +5879,8 @@
         "publisher": "Madhusudhan et al., arXiv"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "nettuno",
@@ -5825,7 +5933,7 @@
       "r",
       "u"
     ],
-    "image": null,
+    "image": "mondo-di-minecraft",
     "sources": [
       {
         "title": "MC-233073 (segnalazione sul bug tracker di Minecraft: Java Edition)",
@@ -5833,7 +5941,8 @@
         "publisher": "Mojira (bug tracker pubblico di Mojang, copia consultabile)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "orbita-geostazionaria",
@@ -5843,7 +5952,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "orbita-geostazionaria",
     "sources": [
       {
         "title": "Catalog of Earth Satellite Orbits",
@@ -5851,7 +5960,8 @@
         "publisher": "NASA Earth Observatory"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "saturno",
@@ -5882,7 +5992,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "eblm-j0555-57ab",
     "sources": [
       {
         "title": "The EBLM project III. A Saturn-size low-mass star at the hydrogen-burning limit",
@@ -5890,7 +6000,8 @@
         "publisher": "von Boetticher et al., Astronomy & Astrophysics, arXiv"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "gliese-229-b",
@@ -5901,7 +6012,7 @@
       "r",
       "u"
     ],
-    "image": null,
+    "image": "gliese-229-b",
     "sources": [
       {
         "title": "The cool brown dwarf Gliese 229 B is a close binary",
@@ -5919,7 +6030,8 @@
         "publisher": "Brandt et al., The Astronomical Journal, arXiv"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "giove",
@@ -5950,7 +6062,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "trappist-1",
     "sources": [
       {
         "title": "Refining the transit timing and photometric analysis of TRAPPIST-1: Masses, radii, densities, dynamics, and ephemerides",
@@ -5963,7 +6075,8 @@
         "publisher": "International Astronomical Union (Mamajek et al.), arXiv"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "wolf-359",
@@ -5973,7 +6086,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "wolf-359",
     "sources": [
       {
         "title": "The M-dwarf Ultraviolet Spectroscopic Sample I. Determining Stellar Parameters for Field Stars",
@@ -5981,7 +6094,8 @@
         "publisher": "Pineda, Youngblood & France, The Astrophysical Journal, arXiv"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "proxima-centauri",
@@ -5989,7 +6103,7 @@
     "kind": "s",
     "glyph": "#ff8a5c",
     "flags": [],
-    "image": null,
+    "image": "proxima-centauri",
     "sources": [
       {
         "title": "Proxima's orbit around Alpha Centauri",
@@ -6002,7 +6116,8 @@
         "publisher": "European Southern Observatory (ESO)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "tres-4-b",
@@ -6012,7 +6127,7 @@
     "flags": [
       "u"
     ],
-    "image": null,
+    "image": "tres-4-b",
     "sources": [
       {
         "title": "TrES-4: A Transiting Hot Jupiter of Very Low Density",
@@ -6035,7 +6150,8 @@
         "publisher": "NASA NSSDCA (Goddard Space Flight Center)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "anelli-di-saturno",
@@ -6045,7 +6161,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "anelli-di-saturno",
     "sources": [
       {
         "title": "Saturnian Rings Fact Sheet",
@@ -6058,7 +6174,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "distanza-terra-luna",
@@ -6066,7 +6183,7 @@
     "kind": "d",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "distanza-terra-luna",
     "sources": [
       {
         "title": "Moon Fact Sheet",
@@ -6079,7 +6196,8 @@
         "publisher": "NASA"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "stella-di-kapteyn",
@@ -6087,7 +6205,7 @@
     "kind": "s",
     "glyph": "#ff9d6c",
     "flags": [],
-    "image": null,
+    "image": "stella-di-kapteyn",
     "sources": [
       {
         "title": "Two planets around Kapteyn's star: a cold and a temperate super-Earth orbiting the nearest halo red-dwarf",
@@ -6095,7 +6213,8 @@
         "publisher": "Anglada-Escudé et al., Monthly Notices of the Royal Astronomical Society Letters, arXiv"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "stella-di-luyten",
@@ -6105,7 +6224,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "stella-di-luyten",
     "sources": [
       {
         "title": "The M-dwarf Ultraviolet Spectroscopic Sample I. Determining Stellar Parameters for Field Stars",
@@ -6113,7 +6232,8 @@
         "publisher": "Pineda, Youngblood & France, The Astrophysical Journal, arXiv"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "gliese-229-a",
@@ -6123,7 +6243,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "gliese-229-a",
     "sources": [
       {
         "title": "An Atmospheric Retrieval of the Brown Dwarf Gliese 229B",
@@ -6136,7 +6256,8 @@
         "publisher": "Brandt et al., The Astronomical Journal, arXiv"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "gigametro",
@@ -6144,7 +6265,7 @@
     "kind": "u",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "gigametro",
     "sources": [
       {
         "title": "SI prefixes",
@@ -6162,7 +6283,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "alfa-centauri-b",
@@ -6170,7 +6292,7 @@
     "kind": "s",
     "glyph": "#ffc98a",
     "flags": [],
-    "image": null,
+    "image": "alfa-centauri-b",
     "sources": [
       {
         "title": "The radii and limb darkenings of Alpha Centauri A and B - Interferometric measurements with VLTI/PIONIER",
@@ -6178,7 +6300,8 @@
         "publisher": "Kervella et al., Astronomy & Astrophysics, arXiv"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "sole",
@@ -6204,7 +6327,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "distanza-del-telescopio-webb",
     "sources": [
       {
         "title": "Webb's Orbit",
@@ -6212,7 +6335,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "alfa-centauri-a",
@@ -6220,7 +6344,7 @@
     "kind": "s",
     "glyph": "#ffeeb5",
     "flags": [],
-    "image": null,
+    "image": "alfa-centauri-a",
     "sources": [
       {
         "title": "The radii and limb darkenings of Alpha Centauri A and B - Interferometric measurements with VLTI/PIONIER",
@@ -6233,7 +6357,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "sirio-a",
@@ -6262,7 +6387,7 @@
     "kind": "s",
     "glyph": "#f1f5ff",
     "flags": [],
-    "image": null,
+    "image": "altair",
     "sources": [
       {
         "title": "Imaging the Surface of Altair",
@@ -6270,7 +6395,8 @@
         "publisher": "Monnier et al. (2007), arXiv"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "procione",
@@ -6278,7 +6404,7 @@
     "kind": "s",
     "glyph": "#fff4d6",
     "flags": [],
-    "image": null,
+    "image": "procione",
     "sources": [
       {
         "title": "The diameter and evolutionary state of Procyon A",
@@ -6286,7 +6412,8 @@
         "publisher": "Kervella et al., Astron. Astrophys. 413, 251 (2004), arXiv"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "vega",
@@ -6294,7 +6421,7 @@
     "kind": "s",
     "glyph": "#dfe9ff",
     "flags": [],
-    "image": null,
+    "image": "vega",
     "sources": [
       {
         "title": "Resolving Vega and the inclination controversy with CHARA/MIRC",
@@ -6302,7 +6429,8 @@
         "publisher": "Monnier et al. (2012), accettato da ApJ Letters, arXiv"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "regolo",
@@ -6310,7 +6438,7 @@
     "kind": "s",
     "glyph": "#bcd0ff",
     "flags": [],
-    "image": null,
+    "image": "regolo",
     "sources": [
       {
         "title": "Colder and Hotter: Interferometric imaging of β Cassiopeiae and α Leonis",
@@ -6318,7 +6446,8 @@
         "publisher": "Che et al., ApJ 732, 68 (2011), arXiv"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "perielio-della-parker-solar-probe",
@@ -6328,7 +6457,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "perielio-della-parker-solar-probe",
     "sources": [
       {
         "title": "NASA's Parker Solar Probe Makes History With Closest Pass to Sun",
@@ -6341,7 +6470,8 @@
         "publisher": "NASA NSSDCA"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "spica",
@@ -6349,7 +6479,7 @@
     "kind": "s",
     "glyph": "#a9c4ff",
     "flags": [],
-    "image": null,
+    "image": "spica",
     "sources": [
       {
         "title": "Stellar modelling of Spica, a high-mass spectroscopic binary with a beta Cep variable primary component",
@@ -6357,7 +6487,8 @@
         "publisher": "Tkachenko et al. (2016), arXiv"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "pollux",
@@ -6365,7 +6496,7 @@
     "kind": "s",
     "glyph": "#ffc78a",
     "flags": [],
-    "image": null,
+    "image": "pollux",
     "sources": [
       {
         "title": "The Mass of the Planet-hosting Giant Star Beta Geminorum Determined from its p-mode Oscillation Spectrum",
@@ -6373,7 +6504,8 @@
         "publisher": "Hatzes et al. (2012), arXiv"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "altezza-totale-dell-umanita",
@@ -6384,7 +6516,7 @@
       "r",
       "u"
     ],
-    "image": null,
+    "image": "altezza-totale-dell-umanita",
     "sources": [
       {
         "title": "World Population Prospects 2024: Summary of Results",
@@ -6397,7 +6529,8 @@
         "publisher": "Our World in Data (University of Oxford / Global Change Data Lab)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "capella",
@@ -6405,7 +6538,7 @@
     "kind": "s",
     "glyph": "#ffe3a3",
     "flags": [],
-    "image": null,
+    "image": "capella",
     "sources": [
       {
         "title": "Capella (alpha Aurigae) revisited: New binary orbit, physical properties, and evolutionary state",
@@ -6413,7 +6546,8 @@
         "publisher": "Torres et al. (2015), arXiv"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "sistema-di-trappist-1",
@@ -6423,7 +6557,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "sistema-di-trappist-1",
     "sources": [
       {
         "title": "TRAPPIST-1 h",
@@ -6436,7 +6570,8 @@
         "publisher": "NASA NSSDCA"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "vv-cephei-b",
@@ -6446,7 +6581,7 @@
     "flags": [
       "u"
     ],
-    "image": null,
+    "image": "vv-cephei-b",
     "sources": [
       {
         "title": "Variable Star of the Year: VV Cephei",
@@ -6454,7 +6589,8 @@
         "publisher": "British Astronomical Association, Variable Star Section"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "sagittarius-a",
@@ -6488,7 +6624,7 @@
       "r",
       "u"
     ],
-    "image": null,
+    "image": "alnitak",
     "sources": [
       {
         "title": "Dynamical mass of the O-type supergiant in Zeta Orionis A",
@@ -6501,7 +6637,8 @@
         "publisher": "NSF NOIRLab"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "arturo",
@@ -6509,7 +6646,7 @@
     "kind": "s",
     "glyph": "#ffb27a",
     "flags": [],
-    "image": null,
+    "image": "arturo",
     "sources": [
       {
         "title": "Fundamental Parameters and Chemical Composition of Arcturus",
@@ -6517,7 +6654,8 @@
         "publisher": "Ramírez e Allende Prieto (2011), arXiv"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "distanza-mercurio-sole",
@@ -6525,7 +6663,7 @@
     "kind": "d",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "distanza-mercurio-sole",
     "sources": [
       {
         "title": "Mercury Fact Sheet",
@@ -6533,7 +6671,8 @@
         "publisher": "NASA NSSDCA"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "r136a1",
@@ -6564,7 +6703,7 @@
     "kind": "s",
     "glyph": "#ffa66b",
     "flags": [],
-    "image": null,
+    "image": "aldebaran",
     "sources": [
       {
         "title": "Long-lived, long-period radial velocity variations in Aldebaran: A planetary companion and stellar activity",
@@ -6572,7 +6711,8 @@
         "publisher": "Hatzes et al., Astronomy & Astrophysics (arXiv)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "polare",
@@ -6582,7 +6722,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "polare",
     "sources": [
       {
         "title": "The Orbit and Dynamical Mass of Polaris: Observations with the CHARA Array",
@@ -6590,7 +6730,8 @@
         "publisher": "Evans et al., The Astrophysical Journal (arXiv)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "albireo-a",
@@ -6600,7 +6741,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "albireo-a",
     "sources": [
       {
         "title": "Thirty-Three New Stellar Angular Diameters from the NPOI, and Nearly 180 NPOI Diameters as an Ensemble",
@@ -6608,7 +6749,8 @@
         "publisher": "Baines et al., The Astronomical Journal (arXiv)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "gacrux",
@@ -6618,7 +6760,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "gacrux",
     "sources": [
       {
         "title": "The Advanced Spectral Library: The Evolution of Chromospheric Wind Characteristics from Noncoronal to Hybrid Giant Stars",
@@ -6626,7 +6768,8 @@
         "publisher": "Nielsen et al., The Astrophysical Journal"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "rigel",
@@ -6634,7 +6777,7 @@
     "kind": "s",
     "glyph": "#a9c4ff",
     "flags": [],
-    "image": null,
+    "image": "rigel",
     "sources": [
       {
         "title": "Asteroseismology of the Nearby SN-II Progenitor: Rigel. Part I. The MOST High Precision Photometry and Radial Velocity Monitoring",
@@ -6642,7 +6785,8 @@
         "publisher": "Moravveji et al., The Astrophysical Journal (arXiv)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "distanza-terra-sole",
@@ -6650,7 +6794,7 @@
     "kind": "d",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "distanza-terra-sole",
     "sources": [
       {
         "title": "Astrodynamic Parameters",
@@ -6658,7 +6802,8 @@
         "publisher": "NASA/JPL Solar System Dynamics"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "enif",
@@ -6668,7 +6813,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "enif",
     "sources": [
       {
         "title": "Vintage NPOI: New and Updated Angular Diameters for 145 Stars",
@@ -6676,7 +6821,8 @@
         "publisher": "Baines et al., The Astronomical Journal (arXiv)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "deneb",
@@ -6686,7 +6832,7 @@
     "flags": [
       "u"
     ],
-    "image": null,
+    "image": "deneb",
     "sources": [
       {
         "title": "Quantitative spectroscopy of Deneb",
@@ -6699,7 +6845,8 @@
         "publisher": "Baines et al., The Astronomical Journal (arXiv)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "r-doradus",
@@ -6749,7 +6896,7 @@
       "u",
       "r"
     ],
-    "image": null,
+    "image": "la-superba",
     "sources": [
       {
         "title": "The formation of a detached shell around the carbon star Y CVn",
@@ -6757,7 +6904,8 @@
         "publisher": "Libert, Gérard & Le Bertre, Monthly Notices of the Royal Astronomical Society (arXiv)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "s-doradus",
@@ -6767,7 +6915,7 @@
     "flags": [
       "u"
     ],
-    "image": null,
+    "image": "s-doradus",
     "sources": [
       {
         "title": "Observations and Interpretation of Luminous Blue Variables",
@@ -6775,7 +6923,8 @@
         "publisher": "H. J. G. L. M. Lamers, IAU Colloquium 155, ASP Conference Series vol. 83 (Cambridge University Press)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "v838-monocerotis",
@@ -6812,7 +6961,7 @@
     "kind": "d",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "distanza-giove-sole",
     "sources": [
       {
         "title": "Jupiter Fact Sheet",
@@ -6820,7 +6969,8 @@
         "publisher": "NASA Space Science Data Coordinated Archive (NSSDCA)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "v382-carinae",
@@ -6830,7 +6980,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "v382-carinae",
     "sources": [
       {
         "title": "Painting a Family Portrait of the Yellow Super- and Hypergiants in the Milky Way I. Constraining the Distances and Luminosities",
@@ -6838,7 +6988,8 @@
         "publisher": "Kasikov, Mehner, Kolka, Aret, Astronomy & Astrophysics (2026), arXiv"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "antares",
@@ -6865,7 +7016,7 @@
       "r",
       "u"
     ],
-    "image": null,
+    "image": "v354-cephei",
     "sources": [
       {
         "title": "The Effective Temperature Scale of Galactic Red Supergiants: Cool, But Not As Cool As We Thought",
@@ -6878,7 +7029,8 @@
         "publisher": "Mauron & Josselin, Astronomy & Astrophysics 526, A156 (2011), arXiv"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "terametro",
@@ -6886,7 +7038,7 @@
     "kind": "u",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "terametro",
     "sources": [
       {
         "title": "SI prefixes",
@@ -6899,7 +7051,8 @@
         "publisher": "National Institute of Standards and Technology (NIST)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "betelgeuse",
@@ -6962,7 +7115,7 @@
       "n",
       "u"
     ],
-    "image": null,
+    "image": "uy-scuti",
     "sources": [
       {
         "title": "The atmospheric structure and fundamental parameters of the red supergiants AH Sco, UY Sct and KW Sgr",
@@ -6975,7 +7128,8 @@
         "publisher": "Healy et al., MNRAS 529, 3630 (2024); archivio dati SNEWS"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "mu-cephei",
@@ -6986,7 +7140,7 @@
       "u",
       "r"
     ],
-    "image": null,
+    "image": "mu-cephei",
     "sources": [
       {
         "title": "NOEMA maps the CO J = 2 − 1 environment of the red supergiant μ Cep",
@@ -6999,7 +7153,8 @@
         "publisher": "Levesque et al., The Astrophysical Journal 628, 973 (2005), arXiv"
       }
     ],
-    "verified": "2026-11-13"
+    "verified": "2026-11-13",
+    "imageShape": "art"
   },
   {
     "id": "ky-cygni",
@@ -7009,7 +7164,7 @@
     "flags": [
       "u"
     ],
-    "image": null,
+    "image": "ky-cygni",
     "sources": [
       {
         "title": "The Effective Temperature Scale of Galactic Red Supergiants: Cool, But Not As Cool As We Thought",
@@ -7022,7 +7177,8 @@
         "publisher": "Mauron & Josselin, Astronomy & Astrophysics 526, A156 (2011), arXiv"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "vv-cephei-a",
@@ -7032,7 +7188,7 @@
     "flags": [
       "u"
     ],
-    "image": null,
+    "image": "vv-cephei-a",
     "sources": [
       {
         "title": "Observing the 2017–'19 primary eclipse of VV Cephei with a low-resolution spectroscope",
@@ -7045,7 +7201,8 @@
         "publisher": "Levesque et al., The Astrophysical Journal 628, 973 (2005), arXiv"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "vy-canis-majoris",
@@ -7074,7 +7231,7 @@
       "n",
       "u"
     ],
-    "image": null,
+    "image": "stephenson-2-18",
     "sources": [
       {
         "title": "Maser Observations of Westerlund 1 and Comprehensive Considerations on Maser Properties of Red Supergiants Associated with Massive Clusters",
@@ -7087,7 +7244,8 @@
         "publisher": "Siebert et al. (2026), arXiv"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "distanza-nettuno-sole",
@@ -7095,7 +7253,7 @@
     "kind": "d",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "distanza-nettuno-sole",
     "sources": [
       {
         "title": "Neptune Fact Sheet",
@@ -7103,7 +7261,8 @@
         "publisher": "NASA Space Science Data Coordinated Archive (NSSDCA)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "distanza-plutone-sole",
@@ -7111,7 +7270,7 @@
     "kind": "d",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "distanza-plutone-sole",
     "sources": [
       {
         "title": "Pluto Fact Sheet",
@@ -7119,7 +7278,8 @@
         "publisher": "NASA Space Science Data Coordinated Archive (NSSDCA)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "fascia-di-kuiper",
@@ -7127,7 +7287,7 @@
     "kind": "d",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "fascia-di-kuiper",
     "sources": [
       {
         "title": "Kuiper Belt: Facts",
@@ -7135,7 +7295,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "voyager-1",
@@ -7145,7 +7306,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "voyager-1",
     "sources": [
       {
         "title": "Where Are Voyager 1 and Voyager 2 Now?",
@@ -7158,7 +7319,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-13"
+    "verified": "2026-11-13",
+    "imageShape": "art"
   },
   {
     "id": "giorno-luce",
@@ -7166,7 +7328,7 @@
     "kind": "u",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "giorno-luce",
     "sources": [
       {
         "title": "Voyager 1: What Is a Light-Day",
@@ -7179,7 +7341,8 @@
         "publisher": "National Institute of Standards and Technology (NIST), CODATA"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "eliopausa",
@@ -7189,7 +7352,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "eliopausa",
     "sources": [
       {
         "title": "Voyager: Interstellar Mission",
@@ -7197,7 +7360,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "m87",
@@ -7230,7 +7394,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "afelio-della-cometa-hale-bopp",
     "sources": [
       {
         "title": "Small-Body Database Lookup: C/1995 O1 (Hale-Bopp)",
@@ -7243,7 +7407,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-13"
+    "verified": "2026-11-13",
+    "imageShape": "art"
   },
   {
     "id": "afelio-di-sedna",
@@ -7253,7 +7418,7 @@
     "flags": [
       "u"
     ],
-    "image": null,
+    "image": "afelio-di-sedna",
     "sources": [
       {
         "title": "Feasibility study of a mission to Sedna - Nuclear propulsion and advanced solar sailing concepts",
@@ -7271,7 +7436,8 @@
         "publisher": "NASA/JPL Solar System Dynamics"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "buco-nero-del-cosmic-horseshoe",
@@ -7282,7 +7448,7 @@
       "n",
       "u"
     ],
-    "image": null,
+    "image": "buco-nero-del-cosmic-horseshoe",
     "sources": [
       {
         "title": "Unveiling a 36 Billion Solar Mass Black Hole at the Centre of the Cosmic Horseshoe Gravitational Lens",
@@ -7295,7 +7461,8 @@
         "publisher": "Royal Astronomical Society"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "hamburger-di-gomez",
@@ -7330,7 +7497,7 @@
       "n",
       "u"
     ],
-    "image": null,
+    "image": "ton-618",
     "sources": [
       {
         "title": "Near Infrared Spectroscopy of High Redshift Active Galactic Nuclei. I. A Metallicity-Accretion Rate Relationship",
@@ -7343,7 +7510,8 @@
         "publisher": "Ge et al., AJ 157, 148 (2019), arXiv"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "nebulosa-stingray",
@@ -7379,7 +7547,7 @@
     "kind": "u",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "petametro",
     "sources": [
       {
         "title": "SI prefixes",
@@ -7392,7 +7560,8 @@
         "publisher": "National Institute of Standards and Technology (NIST)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "distanza-proxima-alfa-centauri-a",
@@ -7402,7 +7571,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "distanza-proxima-alfa-centauri-a",
     "sources": [
       {
         "title": "Proxima's orbit around Alpha Centauri",
@@ -7410,7 +7579,8 @@
         "publisher": "Kervella, Thévenin, Lovis, Astronomy & Astrophysics (arXiv:1611.03495)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "nebulosa-occhio-di-gatto",
@@ -7517,7 +7687,7 @@
     "kind": "u",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "anno-luce",
     "sources": [
       {
         "title": "NIST Guide to the SI, Appendix B.9: Factors for units listed by kind of quantity or field of science",
@@ -7530,7 +7700,8 @@
         "publisher": "National Institute of Standards and Technology (NIST), CODATA"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "nebulosa-anello",
@@ -7632,7 +7803,7 @@
       "r",
       "u"
     ],
-    "image": null,
+    "image": "nube-di-oort",
     "sources": [
       {
         "title": "Oort Cloud: Facts",
@@ -7640,7 +7811,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "parsec",
@@ -7648,7 +7820,7 @@
     "kind": "u",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "parsec",
     "sources": [
       {
         "title": "NIST Guide to the SI, Appendix B.9: Factors for units listed by kind of quantity or field of science",
@@ -7666,7 +7838,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "nebulosa-boomerang",
@@ -7702,7 +7875,7 @@
     "kind": "d",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "distanza-sole-proxima",
     "sources": [
       {
         "title": "A terrestrial planet candidate in a temperate orbit around Proxima Centauri",
@@ -7715,7 +7888,8 @@
         "publisher": "European Southern Observatory (ESO)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "nebulosa-testa-di-cavallo",
@@ -7902,7 +8076,7 @@
     "kind": "n",
     "glyph": "1",
     "flags": [],
-    "image": null,
+    "image": "nube-interstellare-locale",
     "sources": [
       {
         "title": "Voyager spacecraft solve 'fluffy' mystery",
@@ -7915,7 +8089,8 @@
         "publisher": "NASA Scientific Visualization Studio"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "nebulosa-grotta",
@@ -8039,7 +8214,7 @@
     "kind": "u",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "esametro",
     "sources": [
       {
         "title": "SI prefixes",
@@ -8052,7 +8227,8 @@
         "publisher": "National Institute of Standards and Technology (NIST)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "nebulosa-rosetta",
@@ -8206,7 +8382,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "bolla-locale",
     "sources": [
       {
         "title": "1,000-Light-Year Wide Bubble Surrounding Earth is Source of All Nearby, Young Stars",
@@ -8214,7 +8390,8 @@
         "publisher": "Center for Astrophysics | Harvard & Smithsonian"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "canes-venatici-i",
@@ -8225,7 +8402,7 @@
       "r",
       "u"
     ],
-    "image": null,
+    "image": "canes-venatici-i",
     "sources": [
       {
         "title": "A New Milky Way Dwarf Satellite in Canes Venatici",
@@ -8233,7 +8410,8 @@
         "publisher": "Zucker et al., arXiv"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "leo-ii",
@@ -8265,7 +8443,7 @@
     "kind": "d",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "getto-relativistico-di-m87",
     "sources": [
       {
         "title": "Hubble Takes Movies of Space Slinky",
@@ -8278,7 +8456,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "nana-del-cane-maggiore",
@@ -8288,7 +8467,7 @@
     "flags": [
       "u"
     ],
-    "image": null,
+    "image": "nana-del-cane-maggiore",
     "sources": [
       {
         "title": "The Closest View of a Dwarf Galaxy: New Evidence on the Nature of the Canis Major over-density",
@@ -8306,7 +8485,8 @@
         "publisher": "Momany et al., arXiv"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "onda-di-radcliffe",
@@ -8316,7 +8496,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "onda-di-radcliffe",
     "sources": [
       {
         "title": "A Galactic-scale gas wave in the solar neighbourhood",
@@ -8329,7 +8509,8 @@
         "publisher": "Center for Astrophysics | Harvard & Smithsonian"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "nana-ellittica-del-sagittario",
@@ -8340,7 +8521,7 @@
       "r",
       "u"
     ],
-    "image": null,
+    "image": "nana-ellittica-del-sagittario",
     "sources": [
       {
         "title": "NED object page: Sagittarius Dwarf Spheroidal",
@@ -8358,7 +8539,8 @@
         "publisher": "Majewski et al., arXiv"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "piccola-nube-di-magellano",
@@ -8443,7 +8625,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "bolle-di-fermi",
     "sources": [
       {
         "title": "NASA's Fermi Telescope Finds Giant Structure in our Galaxy",
@@ -8451,7 +8633,8 @@
         "publisher": "NASA"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "ngc-7714",
@@ -8618,7 +8801,7 @@
     "kind": "u",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "zettametro",
     "sources": [
       {
         "title": "SI prefixes",
@@ -8631,7 +8814,8 @@
         "publisher": "National Institute of Standards and Technology (NIST)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "ngc-1232",
@@ -8817,7 +9001,7 @@
     "kind": "d",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "strada-percorsa-dalla-terra-attorno-al-sole",
     "sources": [
       {
         "title": "Earth Fact Sheet",
@@ -8830,7 +9014,8 @@
         "publisher": "U.S. Geological Survey (USGS)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "ic-1101",
@@ -8869,7 +9054,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "distanza-di-andromeda",
     "sources": [
       {
         "title": "Messier 31 (The Andromeda Galaxy)",
@@ -8877,7 +9062,8 @@
         "publisher": "NASA Science (Hubble Messier Catalog)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "ammasso-della-fornace",
@@ -8908,7 +9094,7 @@
     "kind": "c",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "gruppo-locale",
     "sources": [
       {
         "title": "The Local Group (Imagine the Universe)",
@@ -8921,7 +9107,8 @@
         "publisher": "McConnachie, The Astronomical Journal, arXiv"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "ammasso-della-vergine",
@@ -9016,7 +9203,7 @@
     "kind": "u",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "yottametro",
     "sources": [
       {
         "title": "SI prefixes",
@@ -9029,7 +9216,8 @@
         "publisher": "National Institute of Standards and Technology (NIST)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "superammasso-della-vergine",
@@ -9039,7 +9227,7 @@
     "flags": [
       "u"
     ],
-    "image": null,
+    "image": "superammasso-della-vergine",
     "sources": [
       {
         "title": "The Local Supercluster (Imagine the Universe)",
@@ -9052,7 +9240,8 @@
         "publisher": "Tully et al., Nature 513, 71–73 (2014)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "distanza-del-grande-attrattore",
@@ -9063,7 +9252,7 @@
       "u",
       "r"
     ],
-    "image": null,
+    "image": "distanza-del-grande-attrattore",
     "sources": [
       {
         "title": "Hubble Focuses on \"the Great Attractor\"",
@@ -9071,7 +9260,8 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-13"
+    "verified": "2026-11-13",
+    "imageShape": "art"
   },
   {
     "id": "vuoto-del-boote",
@@ -9082,7 +9272,7 @@
       "n",
       "u"
     ],
-    "image": null,
+    "image": "vuoto-del-boote",
     "sources": [
       {
         "title": "A Survey of the Bootes Void",
@@ -9095,7 +9285,8 @@
         "publisher": "Kirshner et al., IAU Symposium 104, Cambridge University Press"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "scala-acustica-barionica",
@@ -9105,7 +9296,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "scala-acustica-barionica",
     "sources": [
       {
         "title": "The DESI Science Mission",
@@ -9118,7 +9309,8 @@
         "publisher": "DESI Collaboration, Physical Review D, arXiv"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "laniakea",
@@ -9128,7 +9320,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "laniakea",
     "sources": [
       {
         "title": "The Laniakea supercluster of galaxies",
@@ -9136,7 +9328,8 @@
         "publisher": "Tully, Courtois, Hoffman & Pomarède, Nature 513, 71–73 (2014)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "distanza-del-superammasso-di-shapley",
@@ -9144,7 +9337,7 @@
     "kind": "d",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "distanza-del-superammasso-di-shapley",
     "sources": [
       {
         "title": "High Energy Astrophysics Picture Of the Week: Shapley supercluster (eROSITA)",
@@ -9152,7 +9345,8 @@
         "publisher": "NASA HEASARC (Goddard Space Flight Center)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "complesso-pesci-balena",
@@ -9162,7 +9356,7 @@
     "flags": [
       "u"
     ],
-    "image": null,
+    "image": "complesso-pesci-balena",
     "sources": [
       {
         "title": "The Pisces-Cetus Supercluster Complex",
@@ -9170,7 +9364,8 @@
         "publisher": "R. Brent Tully, IAU Symposium 130, Cambridge University Press"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "quipu",
@@ -9180,7 +9375,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "quipu",
     "sources": [
       {
         "title": "Unveiling the largest structures in the nearby Universe: Discovery of the Quipu superstructure",
@@ -9188,7 +9383,8 @@
         "publisher": "Böhringer, Chon, Trümper, Kraan-Korteweg & Schartel, Astronomy & Astrophysics, arXiv"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "grande-muraglia-sloan",
@@ -9196,7 +9392,7 @@
     "kind": "c",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "grande-muraglia-sloan",
     "sources": [
       {
         "title": "A Map of the Universe",
@@ -9204,7 +9400,8 @@
         "publisher": "Gott, Jurić, Schlegel et al., arXiv"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "supervuoto-di-eridano",
@@ -9215,7 +9412,7 @@
       "r",
       "u"
     ],
-    "image": null,
+    "image": "supervuoto-di-eridano",
     "sources": [
       {
         "title": "Detection of a Supervoid Aligned with the Cold Spot of the Cosmic Microwave Background",
@@ -9233,7 +9430,8 @@
         "publisher": "Kovács et al. (Dark Energy Survey), arXiv"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "vuoto-kbc",
@@ -9244,7 +9442,7 @@
       "n",
       "u"
     ],
-    "image": null,
+    "image": "vuoto-kbc",
     "sources": [
       {
         "title": "Evidence for a ~300 Mpc Scale Under-density in the Local Galaxy Distribution",
@@ -9257,7 +9455,8 @@
         "publisher": "Haslbauer, Banik, Kroupa, arXiv"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "gigaparsec",
@@ -9265,7 +9464,7 @@
     "kind": "u",
     "glyph": "",
     "flags": [],
-    "image": null,
+    "image": "gigaparsec",
     "sources": [
       {
         "title": "NIST Guide to the SI, Appendix B.9: Factors for units listed by kind of quantity or field of science",
@@ -9278,7 +9477,8 @@
         "publisher": "National Institute of Standards and Technology (NIST)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "arco-gigante",
@@ -9289,7 +9489,7 @@
       "n",
       "u"
     ],
-    "image": null,
+    "image": "arco-gigante",
     "sources": [
       {
         "title": "A Giant Arc on the Sky",
@@ -9302,7 +9502,8 @@
         "publisher": "University of Central Lancashire"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "huge-lqg",
@@ -9313,7 +9514,7 @@
       "n",
       "u"
     ],
-    "image": null,
+    "image": "huge-lqg",
     "sources": [
       {
         "title": "A structure in the early universe at z ~ 1.3 that exceeds the homogeneity scale of the R-W concordance cosmology",
@@ -9326,7 +9527,8 @@
         "publisher": "Nadathur, arXiv"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "grande-muraglia-ercole-corona-boreale",
@@ -9337,7 +9539,7 @@
       "n",
       "u"
     ],
-    "image": null,
+    "image": "grande-muraglia-ercole-corona-boreale",
     "sources": [
       {
         "title": "Possible structure in the GRB sky distribution at redshift two",
@@ -9350,7 +9552,8 @@
         "publisher": "Horváth, Szécsi, Hakkila et al., arXiv"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "distanza-dell-hubble-deep-field",
@@ -9360,7 +9563,7 @@
     "flags": [
       "u"
     ],
-    "image": null,
+    "image": "distanza-dell-hubble-deep-field",
     "sources": [
       {
         "title": "Hubble's Deepest View of the Universe Unveils Bewildering Galaxies across Billions of Years",
@@ -9368,7 +9571,8 @@
         "publisher": "NASA Science (comunicato STScI del 1996)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "raggio-di-hubble",
@@ -9379,7 +9583,7 @@
       "n",
       "u"
     ],
-    "image": null,
+    "image": "raggio-di-hubble",
     "sources": [
       {
         "title": "Planck 2018 results. VI. Cosmological parameters",
@@ -9392,7 +9596,8 @@
         "publisher": "Riess et al., The Astrophysical Journal Letters, arXiv"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "mom-z14",
@@ -9402,7 +9607,7 @@
     "flags": [
       "n"
     ],
-    "image": null,
+    "image": "mom-z14",
     "sources": [
       {
         "title": "A Cosmic Miracle: A Remarkably Luminous Galaxy at z_spec=14.44 Confirmed with JWST",
@@ -9415,7 +9620,8 @@
         "publisher": "Space Telescope Science Institute (STScI)"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "universo-osservabile",
@@ -9425,7 +9631,7 @@
     "flags": [
       "r"
     ],
-    "image": null,
+    "image": "universo-osservabile",
     "sources": [
       {
         "title": "A Map of the Universe",
@@ -9443,7 +9649,8 @@
         "publisher": "ESA"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   },
   {
     "id": "universo-intero",
@@ -9454,7 +9661,7 @@
       "i",
       "u"
     ],
-    "image": null,
+    "image": "universo-intero",
     "sources": [
       {
         "title": "Is the Universe finite or infinite? An interview with Joseph Silk",
@@ -9467,6 +9674,7 @@
         "publisher": "NASA Science"
       }
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-12",
+    "imageShape": "art"
   }
 ]

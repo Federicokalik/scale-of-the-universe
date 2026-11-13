@@ -11,8 +11,12 @@ export interface Source {
   publisher?: string;
 }
 
-/** How a photograph is drawn on the canvas: cut to a disc, glowing on black, or in a rounded frame. */
-export type ImageShape = 'disc' | 'glow' | 'frame';
+/**
+ * How an image is used. Photographs go on the canvas cut to a disc, glowing on black, or in a
+ * rounded frame. "art" is an original SVG illustration, shown in the card only: on the canvas
+ * the object keeps its drawn form.
+ */
+export type ImageShape = 'disc' | 'glow' | 'frame' | 'art';
 
 /** Who made an image and under which licence it is used. */
 export interface Credit {
@@ -32,7 +36,7 @@ export interface ObjectRecord {
   /** Draft's fourth field: a #hex colour, an emoji, or a sprite code (0-4, E, I). */
   glyph: string;
   flags: Flag[];
-  /** Base name of the files in public/img (<image>-256.webp and <image>-800.webp), or null. */
+  /** Base name of the files in public/img: <image>-256.webp and <image>-800.webp, or <image>.svg for "art". */
   image: string | null;
   imageShape?: ImageShape;
   sources: Source[];

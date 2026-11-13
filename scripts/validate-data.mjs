@@ -12,11 +12,12 @@ const strict = process.argv.includes('--strict');
 
 const credits = read('credits.json');
 const problems = validateData(objects, locales, { strict, credits });
-// Every image named in the data must exist in both sizes.
+// Every image named in the data must exist: two sizes for a photograph, one file for an illustration.
 for (const o of objects) {
   if (!o.image) continue;
-  for (const size of [256, 800]) {
-    if (!existsSync(new URL(`../public/img/${o.image}-${size}.webp`, import.meta.url))) problems.push(`${o.id}: public/img/${o.image}-${size}.webp is missing`);
+  const files = o.imageShape === 'art' ? [`${o.image}.svg`] : [`${o.image}-256.webp`, `${o.image}-800.webp`];
+  for (const file of files) {
+    if (!existsSync(new URL(`../public/img/${file}`, import.meta.url))) problems.push(`${o.id}: public/img/${file} is missing`);
   }
 }
 if (problems.length) {

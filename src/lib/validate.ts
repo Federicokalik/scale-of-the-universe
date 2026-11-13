@@ -1,6 +1,6 @@
 import { FLAGS, KINDS, type Credit, type ImageShape, type LocaleFile, type ObjectRecord } from './types.ts';
 
-const SHAPES: readonly ImageShape[] = ['disc', 'glow', 'frame'];
+const SHAPES: readonly ImageShape[] = ['disc', 'glow', 'frame', 'art'];
 const SLUG = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 
 /**
