@@ -39,6 +39,7 @@ Other commands:
 ## Where things are
 
 - `src/data/objects.json` — sizes, kinds and flags, independent of language
+- `reference/original-2012.json` — the sizes and names in the list of Scale of the Universe 2 (2012), read from the original site, each paired with the matching object here; `node scripts/extract-originals.mjs --flags` derives from it `src/data/originals.json` and the two flags that compare with that list: `n` (not in the 2012 list) and `r` (in it, with a value more than 10 % different)
 - `src/data/i18n/` — names, descriptions and interface text, one file per language
 - `src/engine/` — the canvas scene, input, music and glass effect
 - `reference/draft.html` — the single-file draft this project started from

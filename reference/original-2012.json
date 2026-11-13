@@ -1,0 +1,1896 @@
+{
+  "source": "https://htwins.net/scale2/ (data/sizes.json and data/languages/l0.txt), read on 2026-11-13",
+  "note": "Sizes and English names of the objects in Scale of the Universe 2 by Cary and Michael Huang (2012), as facts, with the id of the matching object here (null where there is none). The 12 intermediate scale rings of the original are left out.",
+  "objects": [
+    {
+      "id": 1,
+      "name": "1 yoctometer",
+      "metres": 1e-24,
+      "ours": "yoctometro"
+    },
+    {
+      "id": 2,
+      "name": "1 zeptometer",
+      "metres": 1e-21,
+      "ours": "zeptometro"
+    },
+    {
+      "id": 3,
+      "name": "1 attometer",
+      "metres": 1e-18,
+      "ours": "attometro"
+    },
+    {
+      "id": 4,
+      "name": "1 femtometer",
+      "metres": 1e-15,
+      "ours": "femtometro"
+    },
+    {
+      "id": 5,
+      "name": "1 picometer",
+      "metres": 1e-12,
+      "ours": "picometro"
+    },
+    {
+      "id": 6,
+      "name": "1 nanometer",
+      "metres": 1e-9,
+      "ours": "nanometro"
+    },
+    {
+      "id": 7,
+      "name": "1 micrometer",
+      "metres": 0.000001,
+      "ours": "micrometro"
+    },
+    {
+      "id": 8,
+      "name": "1 millimeter",
+      "metres": 0.001,
+      "ours": "millimetro"
+    },
+    {
+      "id": 9,
+      "name": "1 meter",
+      "metres": 1,
+      "ours": "metro"
+    },
+    {
+      "id": 10,
+      "name": "1 kilometer",
+      "metres": 1000,
+      "ours": "chilometro"
+    },
+    {
+      "id": 11,
+      "name": "1 megameter",
+      "metres": 1000000,
+      "ours": "megametro"
+    },
+    {
+      "id": 12,
+      "name": "1 gigameter",
+      "metres": 1000000000,
+      "ours": "gigametro"
+    },
+    {
+      "id": 13,
+      "name": "1 terameter",
+      "metres": 1000000000000,
+      "ours": "terametro"
+    },
+    {
+      "id": 14,
+      "name": "1 petameter",
+      "metres": 1000000000000000,
+      "ours": "petametro"
+    },
+    {
+      "id": 15,
+      "name": "1 exameter",
+      "metres": 1000000000000000000,
+      "ours": "esametro"
+    },
+    {
+      "id": 16,
+      "name": "1 zettameter",
+      "metres": 1e+21,
+      "ours": "zettametro"
+    },
+    {
+      "id": 17,
+      "name": "1 yottameter",
+      "metres": 1e+24,
+      "ours": "yottametro"
+    },
+    {
+      "id": 30,
+      "name": "LCD Pixel",
+      "metres": 0.0003,
+      "ours": "pixel-di-un-monitor"
+    },
+    {
+      "id": 31,
+      "name": "Palm Jebel Ali",
+      "metres": 8000,
+      "ours": "palm-jebel-ali"
+    },
+    {
+      "id": 32,
+      "name": "Neutrino",
+      "metres": 1e-24,
+      "ours": "neutrino"
+    },
+    {
+      "id": 33,
+      "name": "High-Energy Neutrino",
+      "metres": 1.5e-20,
+      "ours": "neutrino-ad-alta-energia"
+    },
+    {
+      "id": 34,
+      "name": "Matchstick",
+      "metres": 0.05,
+      "ours": null
+    },
+    {
+      "id": 35,
+      "name": "Chicken Egg",
+      "metres": 0.055,
+      "ours": "uovo-di-gallina"
+    },
+    {
+      "id": 36,
+      "name": "Quail Egg",
+      "metres": 0.03,
+      "ours": "uovo-di-quaglia"
+    },
+    {
+      "id": 37,
+      "name": "Square Inch",
+      "metres": 0.025,
+      "ours": "pollice"
+    },
+    {
+      "id": 38,
+      "name": "Coffee Bean",
+      "metres": 0.01,
+      "ours": "chicco-di-caffe"
+    },
+    {
+      "id": 39,
+      "name": "Common Earthworm",
+      "metres": 0.04,
+      "ours": "lombrico-comune"
+    },
+    {
+      "id": 40,
+      "name": "Rigel",
+      "metres": 97000000000,
+      "ours": "rigel"
+    },
+    {
+      "id": 41,
+      "name": "United States of America",
+      "metres": 4200000,
+      "ours": "larghezza-degli-stati-uniti"
+    },
+    {
+      "id": 42,
+      "name": "Earth",
+      "metres": 12700000,
+      "ours": "terra"
+    },
+    {
+      "id": 43,
+      "name": "Deneb",
+      "metres": 310000000000,
+      "ours": "deneb"
+    },
+    {
+      "id": 44,
+      "name": "V V Cephei A",
+      "metres": 2400000000000,
+      "ours": "vv-cephei-a"
+    },
+    {
+      "id": 45,
+      "name": "R Doradus",
+      "metres": 520000000000,
+      "ours": "r-doradus"
+    },
+    {
+      "id": 46,
+      "name": "Aldebaran",
+      "metres": 60000000000,
+      "ours": "aldebaran"
+    },
+    {
+      "id": 47,
+      "name": "Pollux",
+      "metres": 11000000000,
+      "ours": "pollux"
+    },
+    {
+      "id": 48,
+      "name": "Arcturus",
+      "metres": 36000000000,
+      "ours": "arturo"
+    },
+    {
+      "id": 49,
+      "name": "The Sun",
+      "metres": 1400000000,
+      "ours": "sole"
+    },
+    {
+      "id": 50,
+      "name": "Alpha Centauri A",
+      "metres": 1500000000,
+      "ours": "alfa-centauri-a"
+    },
+    {
+      "id": 51,
+      "name": "Alpha Centauri B",
+      "metres": 1000000000,
+      "ours": "alfa-centauri-b"
+    },
+    {
+      "id": 52,
+      "name": "Proxima Centauri",
+      "metres": 200000000,
+      "ours": "proxima-centauri"
+    },
+    {
+      "id": 53,
+      "name": "Sirius A",
+      "metres": 2500000000,
+      "ours": "sirio-a"
+    },
+    {
+      "id": 54,
+      "name": "Sirius B",
+      "metres": 20000000,
+      "ours": "sirio-b"
+    },
+    {
+      "id": 55,
+      "name": "Vega",
+      "metres": 3800000000,
+      "ours": "vega"
+    },
+    {
+      "id": 56,
+      "name": "Regulus",
+      "metres": 5800000000,
+      "ours": "regolo"
+    },
+    {
+      "id": 57,
+      "name": "Spica",
+      "metres": 9600000000,
+      "ours": "spica"
+    },
+    {
+      "id": 58,
+      "name": "Alnitak",
+      "metres": 84000000000,
+      "ours": "alnitak"
+    },
+    {
+      "id": 59,
+      "name": "Gacrux",
+      "metres": 160000000000,
+      "ours": "gacrux"
+    },
+    {
+      "id": 60,
+      "name": "Uranus",
+      "metres": 51000000,
+      "ours": "urano"
+    },
+    {
+      "id": 61,
+      "name": "Neptune",
+      "metres": 49000000,
+      "ours": "nettuno"
+    },
+    {
+      "id": 62,
+      "name": "Wolf 359",
+      "metres": 150000000,
+      "ours": "wolf-359"
+    },
+    {
+      "id": 63,
+      "name": "Gliese 229A",
+      "metres": 960000000,
+      "ours": "gliese-229-a"
+    },
+    {
+      "id": 64,
+      "name": "Gliese 229B",
+      "metres": 110000000,
+      "ours": "gliese-229-b"
+    },
+    {
+      "id": 65,
+      "name": "Jupiter",
+      "metres": 140000000,
+      "ours": "giove"
+    },
+    {
+      "id": 66,
+      "name": "Saturn",
+      "metres": 120000000,
+      "ours": "saturno"
+    },
+    {
+      "id": 67,
+      "name": "TrES-4",
+      "metres": 230000000,
+      "ours": "tres-4-b"
+    },
+    {
+      "id": 68,
+      "name": "Venus",
+      "metres": 12000000,
+      "ours": "venere"
+    },
+    {
+      "id": 69,
+      "name": "Mars",
+      "metres": 6800000,
+      "ours": "marte"
+    },
+    {
+      "id": 70,
+      "name": "Mercury",
+      "metres": 4900000,
+      "ours": "mercurio"
+    },
+    {
+      "id": 71,
+      "name": "Ganymede",
+      "metres": 5300000,
+      "ours": "ganimede"
+    },
+    {
+      "id": 72,
+      "name": "Callisto",
+      "metres": 4800000,
+      "ours": "callisto"
+    },
+    {
+      "id": 73,
+      "name": "Io",
+      "metres": 3600000,
+      "ours": "io"
+    },
+    {
+      "id": 74,
+      "name": "Europa",
+      "metres": 3100000,
+      "ours": "europa"
+    },
+    {
+      "id": 75,
+      "name": "Titan",
+      "metres": 5200000,
+      "ours": "titano"
+    },
+    {
+      "id": 76,
+      "name": "The Moon",
+      "metres": 3500000,
+      "ours": "luna"
+    },
+    {
+      "id": 77,
+      "name": "Triton",
+      "metres": 2700000,
+      "ours": "tritone"
+    },
+    {
+      "id": 78,
+      "name": "Pluto",
+      "metres": 2300000,
+      "ours": "plutone"
+    },
+    {
+      "id": 79,
+      "name": "Charon",
+      "metres": 1200000,
+      "ours": "caronte"
+    },
+    {
+      "id": 80,
+      "name": "Eris",
+      "metres": 2400000,
+      "ours": "eris"
+    },
+    {
+      "id": 81,
+      "name": "Dysnomia",
+      "metres": 150000,
+      "ours": "dysnomia"
+    },
+    {
+      "id": 82,
+      "name": "Sedna",
+      "metres": 1800000,
+      "ours": "sedna"
+    },
+    {
+      "id": 83,
+      "name": "Quaoar",
+      "metres": 1300000,
+      "ours": "quaoar"
+    },
+    {
+      "id": 84,
+      "name": "Ceres",
+      "metres": 950000,
+      "ours": "cerere"
+    },
+    {
+      "id": 85,
+      "name": "Polaris",
+      "metres": 40000000000,
+      "ours": "polare"
+    },
+    {
+      "id": 86,
+      "name": "Antares",
+      "metres": 970000000000,
+      "ours": "antares"
+    },
+    {
+      "id": 87,
+      "name": "Altair",
+      "metres": 2600000000,
+      "ours": "altair"
+    },
+    {
+      "id": 88,
+      "name": "La Superba",
+      "metres": 420000000000,
+      "ours": "la-superba"
+    },
+    {
+      "id": 89,
+      "name": "Pistol Star",
+      "metres": 470000000000,
+      "ours": "pistol-star"
+    },
+    {
+      "id": 90,
+      "name": "S Doradus",
+      "metres": 770000000000,
+      "ours": "s-doradus"
+    },
+    {
+      "id": 91,
+      "name": "Enif",
+      "metres": 210000000000,
+      "ours": "enif"
+    },
+    {
+      "id": 92,
+      "name": "Mu Cephei",
+      "metres": 1900000000000,
+      "ours": "mu-cephei"
+    },
+    {
+      "id": 93,
+      "name": "KY Cygni",
+      "metres": 2000000000000,
+      "ours": "ky-cygni"
+    },
+    {
+      "id": 94,
+      "name": "V354 Cephei",
+      "metres": 2100000000000,
+      "ours": "v354-cephei"
+    },
+    {
+      "id": 95,
+      "name": "WOH G64",
+      "metres": 2800000000000,
+      "ours": "woh-g64"
+    },
+    {
+      "id": 96,
+      "name": "VY Canis Majoris",
+      "metres": 3000000000000,
+      "ours": "vy-canis-majoris"
+    },
+    {
+      "id": 97,
+      "name": "Betelgeuse",
+      "metres": 1300000000000,
+      "ours": "betelgeuse"
+    },
+    {
+      "id": 98,
+      "name": "Albireo",
+      "metres": 22000000000,
+      "ours": "albireo-a"
+    },
+    {
+      "id": 99,
+      "name": "Kapteyn's Star",
+      "metres": 420000000,
+      "ours": "stella-di-kapteyn"
+    },
+    {
+      "id": 100,
+      "name": "Luyten's Star",
+      "metres": 330000000,
+      "ours": "stella-di-luyten"
+    },
+    {
+      "id": 101,
+      "name": "Procyon",
+      "metres": 2900000000,
+      "ours": "procione"
+    },
+    {
+      "id": 102,
+      "name": "Asia",
+      "metres": 8000000,
+      "ours": "asia"
+    },
+    {
+      "id": 103,
+      "name": "Italy",
+      "metres": 1100000,
+      "ours": "italia"
+    },
+    {
+      "id": 104,
+      "name": "Brunei",
+      "metres": 120000,
+      "ours": "brunei"
+    },
+    {
+      "id": 105,
+      "name": "Rwanda",
+      "metres": 240000,
+      "ours": "ruanda"
+    },
+    {
+      "id": 106,
+      "name": "California",
+      "metres": 1200000,
+      "ours": "california"
+    },
+    {
+      "id": 107,
+      "name": "West Virginia",
+      "metres": 400000,
+      "ours": "west-virginia"
+    },
+    {
+      "id": 108,
+      "name": "Phobos",
+      "metres": 23000,
+      "ours": "fobos"
+    },
+    {
+      "id": 109,
+      "name": "Deimos",
+      "metres": 13000,
+      "ours": "deimos"
+    },
+    {
+      "id": 110,
+      "name": "Rhode Island",
+      "metres": 75000,
+      "ours": "rhode-island"
+    },
+    {
+      "id": 111,
+      "name": "Giant Earthworm",
+      "metres": 3,
+      "ours": "verme-gigante-del-gippsland"
+    },
+    {
+      "id": 112,
+      "name": "Hydra",
+      "metres": 100000,
+      "ours": "idra"
+    },
+    {
+      "id": 113,
+      "name": "Nix",
+      "metres": 80000,
+      "ours": "nix"
+    },
+    {
+      "id": 114,
+      "name": "Cruithne",
+      "metres": 5000,
+      "ours": "cruithne"
+    },
+    {
+      "id": 115,
+      "name": "Distance from Earth to Moon",
+      "metres": 380000000,
+      "ours": "distanza-terra-luna"
+    },
+    {
+      "id": 116,
+      "name": "Distance from Earth to Sun",
+      "metres": 150000000000,
+      "ours": "distanza-terra-sole"
+    },
+    {
+      "id": 117,
+      "name": "Distance from Neptune to Sun",
+      "metres": 4500000000000,
+      "ours": "distanza-nettuno-sole"
+    },
+    {
+      "id": 118,
+      "name": "Half Dome",
+      "metres": 410,
+      "ours": "half-dome"
+    },
+    {
+      "id": 119,
+      "name": "Mount Everest",
+      "metres": 8800,
+      "ours": "monte-everest"
+    },
+    {
+      "id": 120,
+      "name": "Homunculus Nebula",
+      "metres": 20000000000000,
+      "ours": "nebulosa-homunculus"
+    },
+    {
+      "id": 121,
+      "name": "Kuiper Belt",
+      "metres": 15000000000000,
+      "ours": "fascia-di-kuiper"
+    },
+    {
+      "id": 122,
+      "name": "Light-Year",
+      "metres": 10000000000000000,
+      "ours": "anno-luce"
+    },
+    {
+      "id": 123,
+      "name": "Oort Cloud",
+      "metres": 20000000000000000,
+      "ours": "nube-di-oort"
+    },
+    {
+      "id": 124,
+      "name": "Distance from the Sun to Proxima Centauri",
+      "metres": 42000000000000000,
+      "ours": "distanza-sole-proxima"
+    },
+    {
+      "id": 125,
+      "name": "Stingray Nebula",
+      "metres": 800000000000000,
+      "ours": "nebulosa-stingray"
+    },
+    {
+      "id": 126,
+      "name": "Distance from Proxima Centauri to Alpha Centauri A",
+      "metres": 1500000000000000,
+      "ours": "distanza-proxima-alfa-centauri-a"
+    },
+    {
+      "id": 127,
+      "name": "Cat's Eye Nebula",
+      "metres": 2500000000000000,
+      "ours": "nebulosa-occhio-di-gatto"
+    },
+    {
+      "id": 128,
+      "name": "Ant Nebula",
+      "metres": 20000000000000000,
+      "ours": "nebulosa-formica"
+    },
+    {
+      "id": 129,
+      "name": "Blinking Nebula",
+      "metres": 4500000000000000,
+      "ours": "nebulosa-blinking"
+    },
+    {
+      "id": 130,
+      "name": "Boomerang Nebula",
+      "metres": 21000000000000000,
+      "ours": "nebulosa-boomerang"
+    },
+    {
+      "id": 131,
+      "name": "Eskimo Nebula",
+      "metres": 20000000000000000,
+      "ours": "nebulosa-ngc-2392"
+    },
+    {
+      "id": 132,
+      "name": "The Great Pyramid of Giza",
+      "metres": 150,
+      "ours": "grande-piramide-di-giza"
+    },
+    {
+      "id": 133,
+      "name": "The Distance Earth Has Travelled (Relative to Sun)",
+      "metres": 4.5e+21,
+      "ours": "strada-percorsa-dalla-terra-attorno-al-sole"
+    },
+    {
+      "id": 134,
+      "name": "Gomez's Hamburger",
+      "metres": 2500000000000000,
+      "ours": "hamburger-di-gomez"
+    },
+    {
+      "id": 135,
+      "name": "Hourglass Nebula",
+      "metres": 3000000000000000,
+      "ours": "nebulosa-clessidra"
+    },
+    {
+      "id": 136,
+      "name": "Rotten Egg Nebula",
+      "metres": 14000000000000000,
+      "ours": "nebulosa-uovo-marcio"
+    },
+    {
+      "id": 137,
+      "name": "Light-Day",
+      "metres": 26000000000000,
+      "ours": "giorno-luce"
+    },
+    {
+      "id": 138,
+      "name": "Distance from Voyager 1 to Earth",
+      "metres": 17000000000000,
+      "ours": "voyager-1"
+    },
+    {
+      "id": 139,
+      "name": "Distance from Sedna to Sun (farthest)",
+      "metres": 140000000000000,
+      "ours": "afelio-di-sedna"
+    },
+    {
+      "id": 140,
+      "name": "Distance from Comet Hale-Bopp to Sun (farthest)",
+      "metres": 55000000000000,
+      "ours": "afelio-della-cometa-hale-bopp"
+    },
+    {
+      "id": 141,
+      "name": "Halley's Comet",
+      "metres": 11000,
+      "ours": "cometa-di-halley"
+    },
+    {
+      "id": 142,
+      "name": "Ring Nebula",
+      "metres": 17000000000000000,
+      "ours": "nebulosa-anello"
+    },
+    {
+      "id": 143,
+      "name": "Helix Nebula",
+      "metres": 30000000000000000,
+      "ours": "nebulosa-elica"
+    },
+    {
+      "id": 144,
+      "name": "Bubble Nebula",
+      "metres": 70000000000000000,
+      "ours": "nebulosa-bolla"
+    },
+    {
+      "id": 145,
+      "name": "Cone Nebula",
+      "metres": 80000000000000000,
+      "ours": "nebulosa-cono"
+    },
+    {
+      "id": 146,
+      "name": "The Pillars of Creation",
+      "metres": 100000000000000000,
+      "ours": "pilastri-della-creazione"
+    },
+    {
+      "id": 147,
+      "name": "Eagle Nebula",
+      "metres": 700000000000000000,
+      "ours": "nebulosa-aquila"
+    },
+    {
+      "id": 148,
+      "name": "Crab Nebula",
+      "metres": 110000000000000000,
+      "ours": "nebulosa-granchio"
+    },
+    {
+      "id": 149,
+      "name": "Orion Nebula",
+      "metres": 240000000000000000,
+      "ours": "nebulosa-di-orione"
+    },
+    {
+      "id": 150,
+      "name": "North America Nebula",
+      "metres": 400000000000000000,
+      "ours": "nebulosa-nord-america"
+    },
+    {
+      "id": 151,
+      "name": "The Spire",
+      "metres": 200000000000000000,
+      "ours": "the-spire"
+    },
+    {
+      "id": 152,
+      "name": "Horsehead Nebula",
+      "metres": 20000000000000000,
+      "ours": "nebulosa-testa-di-cavallo"
+    },
+    {
+      "id": 153,
+      "name": "Rosette Nebula",
+      "metres": 1000000000000000000,
+      "ours": "nebulosa-rosetta"
+    },
+    {
+      "id": 154,
+      "name": "Great Nebula in Carina",
+      "metres": 600000000000000000,
+      "ours": "nebulosa-della-carena"
+    },
+    {
+      "id": 155,
+      "name": "Cave Nebula",
+      "metres": 700000000000000000,
+      "ours": "nebulosa-grotta"
+    },
+    {
+      "id": 156,
+      "name": "Capella",
+      "metres": 17000000000,
+      "ours": "capella"
+    },
+    {
+      "id": 157,
+      "name": "Barnard's Loop",
+      "metres": 3000000000000000000,
+      "ours": "anello-di-barnard"
+    },
+    {
+      "id": 158,
+      "name": "Lagoon Nebula",
+      "metres": 1100000000000000000,
+      "ours": "nebulosa-laguna"
+    },
+    {
+      "id": 159,
+      "name": "Tarantula Nebula",
+      "metres": 6000000000000000000,
+      "ours": "nebulosa-tarantola"
+    },
+    {
+      "id": 160,
+      "name": "Parsec",
+      "metres": 33000000000000000,
+      "ours": "parsec"
+    },
+    {
+      "id": 161,
+      "name": "Gigaparsec",
+      "metres": 3.3e+25,
+      "ours": "gigaparsec"
+    },
+    {
+      "id": 162,
+      "name": "Universe",
+      "metres": 1.6e+27,
+      "ours": "universo-intero"
+    },
+    {
+      "id": 163,
+      "name": "Observable Universe",
+      "metres": 9.34e+26,
+      "ours": "universo-osservabile"
+    },
+    {
+      "id": 164,
+      "name": "Sloan Great Wall",
+      "metres": 1.3e+25,
+      "ours": "grande-muraglia-sloan"
+    },
+    {
+      "id": 165,
+      "name": "Eridanus Supervoid",
+      "metres": 5e+24,
+      "ours": "supervuoto-di-eridano"
+    },
+    {
+      "id": 166,
+      "name": "Sagittarius Dwarf Galaxy",
+      "metres": 100000000000000000000,
+      "ours": "nana-ellittica-del-sagittario"
+    },
+    {
+      "id": 167,
+      "name": "Canis Major Dwarf Galaxy",
+      "metres": 50000000000000000000,
+      "ours": "nana-del-cane-maggiore"
+    },
+    {
+      "id": 168,
+      "name": "Milky Way",
+      "metres": 1.2e+21,
+      "ours": "via-lattea"
+    },
+    {
+      "id": 169,
+      "name": "Andromeda Galaxy",
+      "metres": 1.5e+21,
+      "ours": "andromeda"
+    },
+    {
+      "id": 170,
+      "name": "Small Magellanic Cloud",
+      "metres": 70000000000000000000,
+      "ours": "piccola-nube-di-magellano"
+    },
+    {
+      "id": 171,
+      "name": "Large Magellanic Cloud",
+      "metres": 140000000000000000000,
+      "ours": "grande-nube-di-magellano"
+    },
+    {
+      "id": 172,
+      "name": "Triangulum Galaxy",
+      "metres": 500000000000000000000,
+      "ours": "galassia-del-triangolo"
+    },
+    {
+      "id": 173,
+      "name": "Sombrero Galaxy",
+      "metres": 500000000000000000000,
+      "ours": "galassia-sombrero"
+    },
+    {
+      "id": 174,
+      "name": "Pisces-Cetus Supercluster Complex",
+      "metres": 1e+25,
+      "ours": "complesso-pesci-balena"
+    },
+    {
+      "id": 175,
+      "name": "Virgo Supercluster",
+      "metres": 1.1e+24,
+      "ours": "superammasso-della-vergine"
+    },
+    {
+      "id": 176,
+      "name": "Local Group",
+      "metres": 1e+23,
+      "ours": "gruppo-locale"
+    },
+    {
+      "id": 177,
+      "name": "Virgo Cluster",
+      "metres": 3e+23,
+      "ours": "ammasso-della-vergine"
+    },
+    {
+      "id": 178,
+      "name": "Fornax Cluster",
+      "metres": 2e+23,
+      "ours": "ammasso-della-fornace"
+    },
+    {
+      "id": 179,
+      "name": "IC 1101",
+      "metres": 5e+22,
+      "ours": "ic-1101"
+    },
+    {
+      "id": 180,
+      "name": "Abell 2029",
+      "metres": 6e+22,
+      "ours": "abell-2029"
+    },
+    {
+      "id": 181,
+      "name": "Whirlpool Galaxy",
+      "metres": 1.8e+21,
+      "ours": "galassia-vortice"
+    },
+    {
+      "id": 182,
+      "name": "Tadpole Galaxy",
+      "metres": 3e+21,
+      "ours": "galassia-girino"
+    },
+    {
+      "id": 183,
+      "name": "Pinwheel Galaxy",
+      "metres": 1.7e+21,
+      "ours": "galassia-girandola"
+    },
+    {
+      "id": 184,
+      "name": "Cartwheel Galaxy",
+      "metres": 1.5e+21,
+      "ours": "galassia-ruota-di-carro"
+    },
+    {
+      "id": 185,
+      "name": "NGC 1232",
+      "metres": 2.2e+21,
+      "ours": "ngc-1232"
+    },
+    {
+      "id": 186,
+      "name": "Omega Centauri",
+      "metres": 1500000000000000000,
+      "ours": "omega-centauri"
+    },
+    {
+      "id": 187,
+      "name": "Messier 54",
+      "metres": 3000000000000000000,
+      "ours": "messier-54"
+    },
+    {
+      "id": 188,
+      "name": "Virgo A",
+      "metres": 2.5e+21,
+      "ours": "virgo-a"
+    },
+    {
+      "id": 189,
+      "name": "NGC 4889",
+      "metres": 5e+21,
+      "ours": "ngc-4889"
+    },
+    {
+      "id": 190,
+      "name": "Leo II Dwarf Galaxy",
+      "metres": 20000000000000000000,
+      "ours": "leo-ii"
+    },
+    {
+      "id": 191,
+      "name": "Canes Venatici Dwarf Galaxy I",
+      "metres": 65000000000000000000,
+      "ours": "canes-venatici-i"
+    },
+    {
+      "id": 192,
+      "name": "NGC 3310",
+      "metres": 220000000000000000000,
+      "ours": "ngc-3310"
+    },
+    {
+      "id": 193,
+      "name": "Hoover Dam",
+      "metres": 220,
+      "ours": "diga-di-hoover"
+    },
+    {
+      "id": 194,
+      "name": "Grand Canyon",
+      "metres": 450000,
+      "ours": "grand-canyon"
+    },
+    {
+      "id": 195,
+      "name": "Distance to the Great Attractor",
+      "metres": 2.5e+24,
+      "ours": "distanza-del-grande-attrattore"
+    },
+    {
+      "id": 196,
+      "name": "Distance to the Shapley Supercluster",
+      "metres": 6.5e+24,
+      "ours": "distanza-del-superammasso-di-shapley"
+    },
+    {
+      "id": 197,
+      "name": "Distance to the Andromeda Galaxy",
+      "metres": 2e+22,
+      "ours": "distanza-di-andromeda"
+    },
+    {
+      "id": 198,
+      "name": "Total Human Height",
+      "metres": 10000000000,
+      "ours": "altezza-totale-dell-umanita"
+    },
+    {
+      "id": 199,
+      "name": "Hydrogen Atom",
+      "metres": 3.1e-11,
+      "ours": "atomo-di-idrogeno"
+    },
+    {
+      "id": 200,
+      "name": "Helium Atom",
+      "metres": 2.5e-11,
+      "ours": "atomo-di-elio"
+    },
+    {
+      "id": 201,
+      "name": "Helium Nucleus",
+      "metres": 3e-15,
+      "ours": "nucleo-di-elio"
+    },
+    {
+      "id": 202,
+      "name": "Chlorine Nucleus",
+      "metres": 6e-15,
+      "ours": "nucleo-di-cloro"
+    },
+    {
+      "id": 203,
+      "name": "Uranium Nucleus",
+      "metres": 1.5e-14,
+      "ours": "nucleo-di-uranio"
+    },
+    {
+      "id": 204,
+      "name": "Glass Marble",
+      "metres": 0.015,
+      "ours": "biglia"
+    },
+    {
+      "id": 205,
+      "name": "Human",
+      "metres": 1.7,
+      "ours": "essere-umano"
+    },
+    {
+      "id": 206,
+      "name": "Japanese Spider Crab",
+      "metres": 3,
+      "ours": "granchio-gigante-del-giappone"
+    },
+    {
+      "id": 207,
+      "name": "Eiffel Tower",
+      "metres": 320,
+      "ours": "torre-eiffel"
+    },
+    {
+      "id": 208,
+      "name": "Approximate size of this viewport",
+      "metres": 0.2,
+      "ours": "uno-schermo"
+    },
+    {
+      "id": 209,
+      "name": "Proton",
+      "metres": 1e-15,
+      "ours": "protone"
+    },
+    {
+      "id": 210,
+      "name": "Neutron",
+      "metres": 1e-15,
+      "ours": "neutrone"
+    },
+    {
+      "id": 211,
+      "name": "Angstrom",
+      "metres": 1e-10,
+      "ours": "angstrom"
+    },
+    {
+      "id": 212,
+      "name": "Cesium Atom",
+      "metres": 5e-10,
+      "ours": "atomo-di-cesio"
+    },
+    {
+      "id": 213,
+      "name": "Quantum Foam",
+      "metres": 9.3e-36,
+      "ours": "schiuma-quantistica"
+    },
+    {
+      "id": 214,
+      "name": "Planck Length",
+      "metres": 1.6e-35,
+      "ours": "lunghezza-di-planck"
+    },
+    {
+      "id": 215,
+      "name": "Inch Ruler",
+      "metres": 0.3,
+      "ours": "righello-da-un-piede"
+    },
+    {
+      "id": 216,
+      "name": "Dodo Bird",
+      "metres": 1,
+      "ours": "dodo"
+    },
+    {
+      "id": 217,
+      "name": "Redwood Tree",
+      "metres": 100,
+      "ours": "sequoia-hyperion"
+    },
+    {
+      "id": 218,
+      "name": "Boeing 747",
+      "metres": 65,
+      "ours": "boeing-747-8"
+    },
+    {
+      "id": 219,
+      "name": "Saguaro Cactus",
+      "metres": 14,
+      "ours": "saguaro"
+    },
+    {
+      "id": 220,
+      "name": "Blue Whale",
+      "metres": 30,
+      "ours": "balenottera-azzurra"
+    },
+    {
+      "id": 221,
+      "name": "Basketball",
+      "metres": 0.24,
+      "ours": "pallone-da-basket"
+    },
+    {
+      "id": 222,
+      "name": "Elephant",
+      "metres": 5,
+      "ours": "elefante-africano"
+    },
+    {
+      "id": 223,
+      "name": "Angel Falls",
+      "metres": 980,
+      "ours": "cascate-dell-angelo"
+    },
+    {
+      "id": 224,
+      "name": "Burj Khalifa",
+      "metres": 828,
+      "ours": "burj-khalifa"
+    },
+    {
+      "id": 225,
+      "name": "Uluru",
+      "metres": 3000,
+      "ours": "uluru"
+    },
+    {
+      "id": 226,
+      "name": "Large Hadron Collider",
+      "metres": 8600,
+      "ours": "large-hadron-collider"
+    },
+    {
+      "id": 227,
+      "name": "Boeing Everett Factory",
+      "metres": 1000,
+      "ours": "fabbrica-boeing-di-everett"
+    },
+    {
+      "id": 228,
+      "name": "Titanic",
+      "metres": 270,
+      "ours": "titanic"
+    },
+    {
+      "id": 229,
+      "name": "Vatican City",
+      "metres": 800,
+      "ours": "citta-del-vaticano"
+    },
+    {
+      "id": 230,
+      "name": "Oak Tree",
+      "metres": 15,
+      "ours": "quercia"
+    },
+    {
+      "id": 231,
+      "name": "Gamma Ray Wavelength",
+      "metres": 1e-12,
+      "ours": "raggi-gamma"
+    },
+    {
+      "id": 232,
+      "name": "X-Ray Wavelength",
+      "metres": 5e-10,
+      "ours": "raggi-x"
+    },
+    {
+      "id": 233,
+      "name": "Ultraviolet Wavelength",
+      "metres": 6e-8,
+      "ours": "ultravioletto"
+    },
+    {
+      "id": 234,
+      "name": "Violet Light Wavelength",
+      "metres": 4e-7,
+      "ours": "luce-viola"
+    },
+    {
+      "id": 235,
+      "name": "Red Light Wavelength",
+      "metres": 7.5e-7,
+      "ours": "luce-rossa"
+    },
+    {
+      "id": 236,
+      "name": "Infrared Wavelength",
+      "metres": 0.000015,
+      "ours": "infrarosso-termico"
+    },
+    {
+      "id": 237,
+      "name": "Microwave Wavelength",
+      "metres": 0.01,
+      "ours": "microonde-del-forno"
+    },
+    {
+      "id": 238,
+      "name": "FM Radio Wavelength",
+      "metres": 1,
+      "ours": "onde-radio-fm"
+    },
+    {
+      "id": 239,
+      "name": "AM Radio Wavelength",
+      "metres": 1000,
+      "ours": "onde-radio-am"
+    },
+    {
+      "id": 240,
+      "name": "DNA",
+      "metres": 3e-9,
+      "ours": "dna-spessore"
+    },
+    {
+      "id": 241,
+      "name": "White Blood Cell",
+      "metres": 0.00001,
+      "ours": "globulo-bianco"
+    },
+    {
+      "id": 242,
+      "name": "Red Blood Cell",
+      "metres": 0.000007,
+      "ours": "globulo-rosso"
+    },
+    {
+      "id": 243,
+      "name": "Ovum (Human Egg)",
+      "metres": 0.00012,
+      "ours": "ovulo-umano"
+    },
+    {
+      "id": 244,
+      "name": "Smallest Object Visible to the Naked Eye",
+      "metres": 0.0001,
+      "ours": "limite-dell-occhio-nudo"
+    },
+    {
+      "id": 245,
+      "name": "Pencil Lead",
+      "metres": 0.0007,
+      "ours": "mina-di-matita"
+    },
+    {
+      "id": 246,
+      "name": "Largest Bacteria",
+      "metres": 0.00075,
+      "ours": "batterio-piu-grande"
+    },
+    {
+      "id": 247,
+      "name": "Shrew",
+      "metres": 0.1,
+      "ours": "toporagno"
+    },
+    {
+      "id": 248,
+      "name": "HIV",
+      "metres": 9e-8,
+      "ours": "hiv"
+    },
+    {
+      "id": 249,
+      "name": "Grain of Sand",
+      "metres": 0.0005,
+      "ours": "granello-di-sabbia"
+    },
+    {
+      "id": 250,
+      "name": "Silt Particle",
+      "metres": 0.00005,
+      "ours": "particella-di-limo"
+    },
+    {
+      "id": 251,
+      "name": "Clay Particle",
+      "metres": 0.000002,
+      "ours": "particella-di-argilla"
+    },
+    {
+      "id": 252,
+      "name": "Water Molecule",
+      "metres": 2.8e-10,
+      "ours": "molecola-d-acqua"
+    },
+    {
+      "id": 253,
+      "name": "Russell's Teapot",
+      "metres": 0.25,
+      "ours": "teiera-di-russell"
+    },
+    {
+      "id": 254,
+      "name": "Minecraft World",
+      "metres": 64000000,
+      "ours": "mondo-di-minecraft"
+    },
+    {
+      "id": 255,
+      "name": "Up Quark",
+      "metres": 1e-18,
+      "ours": "quark-up"
+    },
+    {
+      "id": 256,
+      "name": "Down Quark",
+      "metres": 1e-18,
+      "ours": "quark-down"
+    },
+    {
+      "id": 257,
+      "name": "Charm Quark",
+      "metres": 1e-19,
+      "ours": "quark-charm"
+    },
+    {
+      "id": 258,
+      "name": "Strange Quark",
+      "metres": 4e-19,
+      "ours": "quark-strange"
+    },
+    {
+      "id": 259,
+      "name": "Top Quark",
+      "metres": 1e-22,
+      "ours": "quark-top"
+    },
+    {
+      "id": 260,
+      "name": "Bottom Quark",
+      "metres": 3e-20,
+      "ours": "quark-bottom"
+    },
+    {
+      "id": 261,
+      "name": "Smallest Thing Visible to an Electron Microscope",
+      "metres": 5e-11,
+      "ours": "risoluzione-record-di-un-microscopio-elettronico"
+    },
+    {
+      "id": 262,
+      "name": "Lengths shorter than this are not confirmed.",
+      "metres": 1e-16,
+      "ours": "lunghezze-sondate-da-lhc"
+    },
+    {
+      "id": 263,
+      "name": "Distance to the HDF",
+      "metres": 1.27e+26,
+      "ours": "distanza-dell-hubble-deep-field"
+    },
+    {
+      "id": 264,
+      "name": "Central Park",
+      "metres": 4000,
+      "ours": "central-park"
+    },
+    {
+      "id": 265,
+      "name": "Marathon",
+      "metres": 42200,
+      "ours": "maratona"
+    },
+    {
+      "id": 266,
+      "name": "Wandering Albatross",
+      "metres": 2.3,
+      "ours": "albatro-urlatore"
+    },
+    {
+      "id": 267,
+      "name": "Width of Human Hair",
+      "metres": 0.0001,
+      "ours": "capello-umano"
+    },
+    {
+      "id": 268,
+      "name": "Ant",
+      "metres": 0.004,
+      "ours": "formica"
+    },
+    {
+      "id": 269,
+      "name": "Average U.S. House",
+      "metres": 15,
+      "ours": "casa-media-negli-usa"
+    },
+    {
+      "id": 270,
+      "name": "Giraffe",
+      "metres": 6,
+      "ours": "giraffa"
+    },
+    {
+      "id": 271,
+      "name": "Tyrannosaurus Rex",
+      "metres": 7,
+      "ours": "tyrannosaurus-rex"
+    },
+    {
+      "id": 272,
+      "name": "Amphilicoelias fragilimus",
+      "metres": 30,
+      "ours": "maraapunisaurus"
+    },
+    {
+      "id": 273,
+      "name": "Hummingbird",
+      "metres": 0.1,
+      "ours": "colibri"
+    },
+    {
+      "id": 274,
+      "name": "Apollo Lunar Module",
+      "metres": 9,
+      "ours": "modulo-lunare-apollo"
+    },
+    {
+      "id": 275,
+      "name": "Football Field",
+      "metres": 109.7,
+      "ours": "campo-da-football-americano"
+    },
+    {
+      "id": 276,
+      "name": "Gateway Arch",
+      "metres": 192,
+      "ours": "gateway-arch"
+    },
+    {
+      "id": 277,
+      "name": "Washington Monument",
+      "metres": 169,
+      "ours": null
+    },
+    {
+      "id": 278,
+      "name": "Saturn V",
+      "metres": 110,
+      "ours": "saturn-v"
+    },
+    {
+      "id": 279,
+      "name": "ISS",
+      "metres": 108,
+      "ours": "stazione-spaziale-internazionale"
+    },
+    {
+      "id": 280,
+      "name": "Statue of Liberty",
+      "metres": 93,
+      "ours": null
+    },
+    {
+      "id": 281,
+      "name": "Great Wall of China",
+      "metres": 8800000,
+      "ours": "grande-muraglia-cinese"
+    },
+    {
+      "id": 282,
+      "name": "Depth of the Mariana Trench",
+      "metres": 10900,
+      "ours": "fossa-delle-marianne-profondita"
+    },
+    {
+      "id": 283,
+      "name": "Sleet",
+      "metres": 0.005,
+      "ours": "nevischio"
+    },
+    {
+      "id": 284,
+      "name": "Largest Hailstone",
+      "metres": 0.2,
+      "ours": "chicco-di-grandine-piu-grande"
+    },
+    {
+      "id": 285,
+      "name": "Grain of Rice",
+      "metres": 0.005,
+      "ours": "chicco-di-riso"
+    },
+    {
+      "id": 286,
+      "name": "Beach ball",
+      "metres": 0.8,
+      "ours": "pallone-da-spiaggia"
+    },
+    {
+      "id": 287,
+      "name": "Rafflesia",
+      "metres": 1,
+      "ours": "rafflesia"
+    },
+    {
+      "id": 288,
+      "name": "U.S. Penny",
+      "metres": 0.019,
+      "ours": "penny-statunitense"
+    },
+    {
+      "id": 289,
+      "name": "Grain of Salt",
+      "metres": 0.0005,
+      "ours": "granello-di-sale"
+    },
+    {
+      "id": 290,
+      "name": "String",
+      "metres": 9.3e-36,
+      "ours": "stringa"
+    },
+    {
+      "id": 291,
+      "name": "Buckyball",
+      "metres": 1e-9,
+      "ours": "fullerene-c60"
+    },
+    {
+      "id": 292,
+      "name": "Sunflower",
+      "metres": 2.5,
+      "ours": "girasole"
+    },
+    {
+      "id": 293,
+      "name": "X Chromosome",
+      "metres": 0.000004,
+      "ours": "cromosoma-x"
+    },
+    {
+      "id": 294,
+      "name": "Y Chromosome",
+      "metres": 0.0000015,
+      "ours": "cromosoma-y"
+    },
+    {
+      "id": 295,
+      "name": "Glucose Molecule",
+      "metres": 8e-10,
+      "ours": "molecola-di-glucosio"
+    },
+    {
+      "id": 296,
+      "name": "Phospholipid",
+      "metres": 2.5e-9,
+      "ours": "fosfolipide"
+    },
+    {
+      "id": 297,
+      "name": "Phospholipid Bilayer",
+      "metres": 5e-9,
+      "ours": "doppio-strato-fosfolipidico"
+    },
+    {
+      "id": 298,
+      "name": "Sunflower Seed",
+      "metres": 0.007,
+      "ours": "seme-di-girasole"
+    },
+    {
+      "id": 299,
+      "name": "Skin Cell",
+      "metres": 0.000035,
+      "ours": "cellula-della-pelle"
+    },
+    {
+      "id": 300,
+      "name": "Amoeba",
+      "metres": 0.00035,
+      "ours": "ameba"
+    },
+    {
+      "id": 301,
+      "name": "E. coli",
+      "metres": 0.000002,
+      "ours": "escherichia-coli"
+    },
+    {
+      "id": 302,
+      "name": "Paramecium",
+      "metres": 0.0002,
+      "ours": "paramecio"
+    },
+    {
+      "id": 303,
+      "name": "Duckweed",
+      "metres": 0.002,
+      "ours": "lenticchia-d-acqua"
+    },
+    {
+      "id": 304,
+      "name": "Mist droplet",
+      "metres": 0.00002,
+      "ours": "gocciolina-di-nebbia"
+    },
+    {
+      "id": 305,
+      "name": "Thickness of Paper",
+      "metres": 0.00015,
+      "ours": "foglio-di-carta-spessore"
+    },
+    {
+      "id": 306,
+      "name": "Transistor Gate",
+      "metres": 2.5e-8,
+      "ours": "gate-di-un-transistor-in-produzione"
+    },
+    {
+      "id": 307,
+      "name": "Largest Virus",
+      "metres": 4.4e-7,
+      "ours": "virus-piu-grande"
+    },
+    {
+      "id": 308,
+      "name": "Smallest Thing Visible to an Optical Microscope",
+      "metres": 2e-7,
+      "ours": "limite-del-microscopio-ottico"
+    },
+    {
+      "id": 309,
+      "name": "Range of the Weak Force",
+      "metres": 1e-17,
+      "ours": "raggio-d-azione-della-forza-debole"
+    },
+    {
+      "id": 310,
+      "name": "Mimivirus",
+      "metres": 4e-7,
+      "ours": "mimivirus"
+    },
+    {
+      "id": 311,
+      "name": "Bacteriophage",
+      "metres": 2e-7,
+      "ours": "batteriofago-t4"
+    },
+    {
+      "id": 312,
+      "name": "Dust mite",
+      "metres": 0.0003,
+      "ours": "acaro-della-polvere"
+    },
+    {
+      "id": 313,
+      "name": "Twip",
+      "metres": 0.0000176,
+      "ours": "twip"
+    },
+    {
+      "id": 314,
+      "name": "Thou",
+      "metres": 0.0000254,
+      "ours": "thou"
+    },
+    {
+      "id": 315,
+      "name": "Width of Silk Fiber",
+      "metres": 0.000015,
+      "ours": "fibra-di-seta"
+    },
+    {
+      "id": 316,
+      "name": "Neutron Star",
+      "metres": 24000,
+      "ours": "stella-di-neutroni"
+    },
+    {
+      "id": 317,
+      "name": "Chloroplast",
+      "metres": 0.000008,
+      "ours": "cloroplasto"
+    },
+    {
+      "id": 318,
+      "name": "Cell nucleus",
+      "metres": 0.000007,
+      "ours": "nucleo-cellulare"
+    },
+    {
+      "id": 319,
+      "name": "Texas",
+      "metres": 1200000,
+      "ours": "texas"
+    },
+    {
+      "id": 320,
+      "name": "Electron (Classical)",
+      "metres": 5.64e-15,
+      "ours": "elettrone-raggio-classico"
+    },
+    {
+      "id": 321,
+      "name": "Carbon Nanotube",
+      "metres": 1e-9,
+      "ours": "nanotubo-di-carbonio"
+    },
+    {
+      "id": 322,
+      "name": "Alpha Helix",
+      "metres": 8e-10,
+      "ours": "alfa-elica-di-una-proteina"
+    },
+    {
+      "id": 323,
+      "name": "Hepatitis B Virus",
+      "metres": 4.2e-8,
+      "ours": "virus-dell-epatite-b"
+    },
+    {
+      "id": 324,
+      "name": "Porcine circovirus",
+      "metres": 1.7e-8,
+      "ours": "circovirus-suino"
+    },
+    {
+      "id": 325,
+      "name": "Mitochondrion",
+      "metres": 0.000004,
+      "ours": "mitocondrio"
+    },
+    {
+      "id": 326,
+      "name": "Carbon Atom",
+      "metres": 1.6e-10,
+      "ours": "atomo-di-carbonio"
+    },
+    {
+      "id": 327,
+      "name": "The Great Barrier Reef",
+      "metres": 2600000,
+      "ours": "grande-barriera-corallina"
+    }
+  ]
+}

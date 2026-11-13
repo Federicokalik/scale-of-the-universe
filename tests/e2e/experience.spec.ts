@@ -215,7 +215,7 @@ test('the differences page exists in every language and fits a phone', async ({ 
   const page = await context.newPage();
   for (const code of ['en', 'ar', 'ja', 'ru']) {
     await page.goto(`/${code}/differences/`);
-    await expect(page.locator('tbody tr')).toHaveCount(136);
+    await expect(page.locator('tbody tr')).toHaveCount(312);
     expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(375);
   }
   await context.close();

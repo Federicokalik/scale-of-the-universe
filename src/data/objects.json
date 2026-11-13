@@ -30,6 +30,7 @@
     "kind": "q",
     "glyph": "",
     "flags": [
+      "r",
       "i",
       "u"
     ],
@@ -99,6 +100,7 @@
     "kind": "q",
     "glyph": "",
     "flags": [
+      "r",
       "u"
     ],
     "image": "neutrino",
@@ -164,6 +166,7 @@
     "kind": "q",
     "glyph": "",
     "flags": [
+      "n",
       "i",
       "u"
     ],
@@ -286,6 +289,7 @@
     "kind": "q",
     "glyph": "",
     "flags": [
+      "r",
       "u"
     ],
     "image": "quark-charm",
@@ -310,8 +314,8 @@
     "kind": "q",
     "glyph": "",
     "flags": [
-      "u",
-      "r"
+      "n",
+      "u"
     ],
     "image": "elettrone-limite-superiore",
     "sources": [
@@ -354,7 +358,7 @@
     "kind": "q",
     "glyph": "",
     "flags": [
-      "r"
+      "n"
     ],
     "image": "limite-sul-raggio-dei-quark",
     "sources": [
@@ -373,8 +377,8 @@
     "kind": "q",
     "glyph": "",
     "flags": [
-      "u",
-      "r"
+      "r",
+      "u"
     ],
     "image": "quark-up",
     "sources": [
@@ -403,8 +407,8 @@
     "kind": "q",
     "glyph": "",
     "flags": [
-      "u",
-      "r"
+      "r",
+      "u"
     ],
     "image": "quark-down",
     "sources": [
@@ -524,7 +528,9 @@
     "size": 1.7e-15,
     "kind": "a",
     "glyph": "",
-    "flags": [],
+    "flags": [
+      "r"
+    ],
     "image": "neutrone",
     "sources": [
       {
@@ -611,7 +617,9 @@
     "size": 6.7e-15,
     "kind": "a",
     "glyph": "",
-    "flags": [],
+    "flags": [
+      "r"
+    ],
     "image": "nucleo-di-cloro",
     "sources": [
       {
@@ -633,7 +641,9 @@
     "size": 1e-14,
     "kind": "a",
     "glyph": "",
-    "flags": [],
+    "flags": [
+      "n"
+    ],
     "image": "nucleo-atomico-medio",
     "sources": [
       {
@@ -724,6 +734,7 @@
     "kind": "w",
     "glyph": "#c9a2ff",
     "flags": [
+      "r",
       "u"
     ],
     "image": "raggi-gamma",
@@ -747,7 +758,9 @@
     "size": 2.426e-12,
     "kind": "w",
     "glyph": "#9fd0ff",
-    "flags": [],
+    "flags": [
+      "n"
+    ],
     "image": "lunghezza-d-onda-compton-dell-elettrone",
     "sources": [
       {
@@ -875,7 +888,9 @@
     "size": 1.54e-10,
     "kind": "w",
     "glyph": "#b8c8ff",
-    "flags": [],
+    "flags": [
+      "r"
+    ],
     "image": "raggi-x",
     "sources": [
       {
@@ -917,7 +932,7 @@
     "kind": "a",
     "glyph": "",
     "flags": [
-      "r"
+      "n"
     ],
     "image": "atomo-di-zolfo",
     "sources": [
@@ -982,7 +997,7 @@
     "kind": "m",
     "glyph": "",
     "flags": [
-      "r"
+      "n"
     ],
     "image": "gate-di-transistor-piu-corto",
     "sources": [
@@ -1057,7 +1072,9 @@
     "size": 9e-10,
     "kind": "m",
     "glyph": "",
-    "flags": [],
+    "flags": [
+      "r"
+    ],
     "image": "molecola-di-glucosio",
     "sources": [
       {
@@ -1123,7 +1140,9 @@
     "size": 1.2e-9,
     "kind": "m",
     "glyph": "",
-    "flags": [],
+    "flags": [
+      "r"
+    ],
     "image": "nanotubo-di-carbonio",
     "sources": [
       {
@@ -1257,7 +1276,9 @@
     "size": 8e-9,
     "kind": "b",
     "glyph": "",
-    "flags": [],
+    "flags": [
+      "n"
+    ],
     "image": "membrana-cellulare",
     "sources": [
       {
@@ -1329,8 +1350,7 @@
     "kind": "m",
     "glyph": "",
     "flags": [
-      "n",
-      "r"
+      "n"
     ],
     "image": "anticorpo-igg",
     "sources": [
@@ -1436,6 +1456,7 @@
     "kind": "w",
     "glyph": "#8f7bff",
     "flags": [
+      "r",
       "u"
     ],
     "image": "ultravioletto",
@@ -1498,7 +1519,9 @@
     "size": 1.25e-7,
     "kind": "o",
     "glyph": "💿",
-    "flags": [],
+    "flags": [
+      "n"
+    ],
     "image": "fossetta-di-un-cd-profondita",
     "sources": [
       {
@@ -1592,7 +1615,7 @@
     "kind": "m",
     "glyph": "",
     "flags": [
-      "r",
+      "n",
       "u"
     ],
     "image": "particella-piu-penetrante-per-un-filtro-ffp2",
@@ -1657,9 +1680,7 @@
     "size": 7e-7,
     "kind": "w",
     "glyph": "#ef4444",
-    "flags": [
-      "r"
-    ],
+    "flags": [],
     "image": "luce-rossa",
     "sources": [
       {
@@ -1676,7 +1697,9 @@
     "size": 7.5e-7,
     "kind": "b",
     "glyph": "🦠",
-    "flags": [],
+    "flags": [
+      "r"
+    ],
     "image": "mimivirus",
     "sources": [
       {
@@ -1735,6 +1758,7 @@
     "kind": "b",
     "glyph": "",
     "flags": [
+      "r",
       "u"
     ],
     "image": "cromosoma-y",
@@ -1763,9 +1787,7 @@
     "size": 0.000002,
     "kind": "o",
     "glyph": "",
-    "flags": [
-      "r"
-    ],
+    "flags": [],
     "image": "particella-di-argilla",
     "sources": [
       {
@@ -1804,7 +1826,9 @@
     "size": 0.0000025,
     "kind": "b",
     "glyph": "",
-    "flags": [],
+    "flags": [
+      "r"
+    ],
     "image": "mitocondrio",
     "sources": [
       {
@@ -1840,7 +1864,9 @@
     "size": 0.000006,
     "kind": "b",
     "glyph": "",
-    "flags": [],
+    "flags": [
+      "r"
+    ],
     "image": "nucleo-cellulare",
     "sources": [
       {
@@ -1862,7 +1888,9 @@
     "size": 0.0000062,
     "kind": "b",
     "glyph": "",
-    "flags": [],
+    "flags": [
+      "r"
+    ],
     "image": "cloroplasto",
     "sources": [
       {
@@ -1931,7 +1959,9 @@
     "size": 0.00001,
     "kind": "w",
     "glyph": "#f97316",
-    "flags": [],
+    "flags": [
+      "r"
+    ],
     "image": "infrarosso-termico",
     "sources": [
       {
@@ -1953,7 +1983,9 @@
     "size": 0.000012,
     "kind": "b",
     "glyph": "",
-    "flags": [],
+    "flags": [
+      "r"
+    ],
     "image": "globulo-bianco",
     "sources": [
       {
@@ -1971,6 +2003,7 @@
     "kind": "o",
     "glyph": "",
     "flags": [
+      "r",
       "u"
     ],
     "image": "fibra-di-seta",
@@ -2017,6 +2050,7 @@
     "kind": "o",
     "glyph": "🧶",
     "flags": [
+      "n",
       "u"
     ],
     "image": "fibra-acrilica",
@@ -2072,6 +2106,7 @@
     "kind": "b",
     "glyph": "",
     "flags": [
+      "r",
       "u"
     ],
     "image": "cellula-della-pelle",
@@ -2095,7 +2130,9 @@
     "size": 0.000032,
     "kind": "o",
     "glyph": "",
-    "flags": [],
+    "flags": [
+      "r"
+    ],
     "image": "particella-di-limo",
     "sources": [
       {
@@ -2117,7 +2154,9 @@
     "size": 0.00005,
     "kind": "b",
     "glyph": "",
-    "flags": [],
+    "flags": [
+      "n"
+    ],
     "image": "granulo-di-polline",
     "sources": [
       {
@@ -2177,7 +2216,9 @@
     "size": 0.00008,
     "kind": "o",
     "glyph": "",
-    "flags": [],
+    "flags": [
+      "r"
+    ],
     "image": "capello-umano",
     "sources": [
       {
@@ -2213,7 +2254,9 @@
     "size": 0.000105,
     "kind": "o",
     "glyph": "📄",
-    "flags": [],
+    "flags": [
+      "r"
+    ],
     "image": "foglio-di-carta-spessore",
     "sources": [
       {
@@ -2258,6 +2301,7 @@
     "kind": "b",
     "glyph": "",
     "flags": [
+      "n",
       "u"
     ],
     "image": "protista-ciliato",
@@ -2281,7 +2325,9 @@
     "size": 0.00025,
     "kind": "b",
     "glyph": "",
-    "flags": [],
+    "flags": [
+      "r"
+    ],
     "image": "paramecio",
     "sources": [
       {
@@ -2346,7 +2392,9 @@
     "size": 0.00031,
     "kind": "o",
     "glyph": "🧂",
-    "flags": [],
+    "flags": [
+      "r"
+    ],
     "image": "granello-di-sale",
     "sources": [
       {
@@ -2363,7 +2411,9 @@
     "size": 0.0005,
     "kind": "b",
     "glyph": "",
-    "flags": [],
+    "flags": [
+      "r"
+    ],
     "image": "ameba",
     "sources": [
       {
@@ -2416,7 +2466,9 @@
     "size": 0.00053,
     "kind": "o",
     "glyph": "",
-    "flags": [],
+    "flags": [
+      "n"
+    ],
     "image": "pelle-delle-palpebre",
     "sources": [
       {
@@ -2455,7 +2507,9 @@
     "size": 0.00076,
     "kind": "o",
     "glyph": "💳",
-    "flags": [],
+    "flags": [
+      "n"
+    ],
     "image": "carta-di-credito-spessore",
     "sources": [
       {
@@ -2576,7 +2630,9 @@
     "size": 0.003,
     "kind": "b",
     "glyph": "🌿",
-    "flags": [],
+    "flags": [
+      "r"
+    ],
     "image": "lenticchia-d-acqua",
     "sources": [
       {
@@ -2593,7 +2649,9 @@
     "size": 0.0031,
     "kind": "o",
     "glyph": "",
-    "flags": [],
+    "flags": [
+      "n"
+    ],
     "image": "seme-di-sesamo",
     "sources": [
       {
@@ -2637,7 +2695,9 @@
     "size": 0.0041,
     "kind": "o",
     "glyph": "🦶",
-    "flags": [],
+    "flags": [
+      "n"
+    ],
     "image": "pelle-della-pianta-del-piede",
     "sources": [
       {
@@ -2655,6 +2715,7 @@
     "kind": "o",
     "glyph": "🔲",
     "flags": [
+      "n",
       "u"
     ],
     "image": "microchip",
@@ -2678,7 +2739,9 @@
     "size": 0.006,
     "kind": "o",
     "glyph": "🍚",
-    "flags": [],
+    "flags": [
+      "r"
+    ],
     "image": "chicco-di-riso",
     "sources": [
       {
@@ -2696,8 +2759,8 @@
     "kind": "o",
     "glyph": "",
     "flags": [
-      "u",
-      "r"
+      "r",
+      "u"
     ],
     "image": "seme-di-girasole",
     "sources": [
@@ -2716,6 +2779,7 @@
     "kind": "o",
     "glyph": "❄️",
     "flags": [
+      "n",
       "u"
     ],
     "image": "fiocco-di-neve",
@@ -2754,7 +2818,7 @@
     "kind": "o",
     "glyph": "🥚",
     "flags": [
-      "r"
+      "n"
     ],
     "image": "uovo-di-colibri",
     "sources": [
@@ -2852,9 +2916,7 @@
     "size": 0.0254,
     "kind": "u",
     "glyph": "",
-    "flags": [
-      "r"
-    ],
+    "flags": [],
     "image": "pollice",
     "sources": [
       {
@@ -2871,9 +2933,7 @@
     "size": 0.032,
     "kind": "o",
     "glyph": "🥚",
-    "flags": [
-      "r"
-    ],
+    "flags": [],
     "image": "uovo-di-quaglia",
     "sources": [
       {
@@ -2907,7 +2967,9 @@
     "size": 0.057,
     "kind": "o",
     "glyph": "🟧",
-    "flags": [],
+    "flags": [
+      "n"
+    ],
     "image": "cubo-di-rubik",
     "sources": [
       {
@@ -2929,7 +2991,9 @@
     "size": 0.09,
     "kind": "b",
     "glyph": "🐦",
-    "flags": [],
+    "flags": [
+      "r"
+    ],
     "image": "colibri",
     "sources": [
       {
@@ -2969,6 +3033,7 @@
     "kind": "o",
     "glyph": "☕",
     "flags": [
+      "n",
       "u"
     ],
     "image": "tazza",
@@ -3035,7 +3100,9 @@
     "size": 0.152,
     "kind": "o",
     "glyph": "🥚",
-    "flags": [],
+    "flags": [
+      "n"
+    ],
     "image": "uovo-di-struzzo",
     "sources": [
       {
@@ -3161,7 +3228,9 @@
     "size": 0.34,
     "kind": "o",
     "glyph": "💻",
-    "flags": [],
+    "flags": [
+      "r"
+    ],
     "image": "uno-schermo",
     "sources": [
       {
@@ -3179,6 +3248,7 @@
     "kind": "o",
     "glyph": "❄️",
     "flags": [
+      "n",
       "u"
     ],
     "image": "fiocco-di-neve-piu-grande",
@@ -3221,7 +3291,9 @@
     "size": 0.6,
     "kind": "o",
     "glyph": "🏐",
-    "flags": [],
+    "flags": [
+      "r"
+    ],
     "image": "pallone-da-spiaggia",
     "sources": [
       {
@@ -3331,6 +3403,7 @@
     "kind": "b",
     "glyph": "🪱",
     "flags": [
+      "r",
       "u"
     ],
     "image": "verme-gigante-del-gippsland",
@@ -3355,7 +3428,7 @@
     "kind": "o",
     "glyph": "🚗",
     "flags": [
-      "r"
+      "n"
     ],
     "image": "isetta",
     "sources": [
@@ -3395,7 +3468,9 @@
     "size": 2.7,
     "kind": "g",
     "glyph": "🚪",
-    "flags": [],
+    "flags": [
+      "n"
+    ],
     "image": "dal-pavimento-al-soffitto",
     "sources": [
       {
@@ -3511,6 +3586,7 @@
     "kind": "b",
     "glyph": "🐍",
     "flags": [
+      "n",
       "u"
     ],
     "image": "anaconda-verde",
@@ -3534,7 +3610,9 @@
     "size": 6.5,
     "kind": "b",
     "glyph": "🐘",
-    "flags": [],
+    "flags": [
+      "r"
+    ],
     "image": "elefante-africano",
     "sources": [
       {
@@ -3556,7 +3634,9 @@
     "size": 7,
     "kind": "o",
     "glyph": "🛰️",
-    "flags": [],
+    "flags": [
+      "r"
+    ],
     "image": "modulo-lunare-apollo",
     "sources": [
       {
@@ -3578,7 +3658,9 @@
     "size": 12,
     "kind": "b",
     "glyph": "🌵",
-    "flags": [],
+    "flags": [
+      "r"
+    ],
     "image": "saguaro",
     "sources": [
       {
@@ -3600,7 +3682,9 @@
     "size": 12.2,
     "kind": "o",
     "glyph": "🚌",
-    "flags": [],
+    "flags": [
+      "n"
+    ],
     "image": "autobus",
     "sources": [
       {
@@ -3660,7 +3744,9 @@
     "size": 20,
     "kind": "b",
     "glyph": "🌳",
-    "flags": [],
+    "flags": [
+      "r"
+    ],
     "image": "quercia",
     "sources": [
       {
@@ -3714,7 +3800,6 @@
     "kind": "b",
     "glyph": "🦕",
     "flags": [
-      "r",
       "u"
     ],
     "image": "maraapunisaurus",
@@ -3753,8 +3838,7 @@
     "kind": "g",
     "glyph": "🗼",
     "flags": [
-      "n",
-      "r"
+      "n"
     ],
     "image": "torre-di-pisa",
     "sources": [
@@ -3900,9 +3984,7 @@
     "size": 138.5,
     "kind": "g",
     "glyph": "🔺",
-    "flags": [
-      "r"
-    ],
+    "flags": [],
     "image": "grande-piramide-di-giza",
     "sources": [
       {
@@ -4077,9 +4159,7 @@
     "size": 330,
     "kind": "g",
     "glyph": "🗼",
-    "flags": [
-      "r"
-    ],
+    "flags": [],
     "image": "torre-eiffel",
     "sources": [
       {
@@ -4125,7 +4205,9 @@
     "size": 442,
     "kind": "g",
     "glyph": "🏢",
-    "flags": [],
+    "flags": [
+      "n"
+    ],
     "image": "willis-tower",
     "sources": [
       {
@@ -4147,7 +4229,9 @@
     "size": 484,
     "kind": "g",
     "glyph": "🏢",
-    "flags": [],
+    "flags": [
+      "n"
+    ],
     "image": "international-commerce-centre",
     "sources": [
       {
@@ -4370,7 +4454,9 @@
     "size": 1609,
     "kind": "u",
     "glyph": "",
-    "flags": [],
+    "flags": [
+      "n"
+    ],
     "image": "miglio",
     "sources": [
       {
@@ -4411,7 +4497,9 @@
     "size": 3200,
     "kind": "g",
     "glyph": "",
-    "flags": [],
+    "flags": [
+      "n"
+    ],
     "image": "acceleratore-lineare-di-stanford",
     "sources": [
       {
@@ -4433,7 +4521,9 @@
     "size": 3600,
     "kind": "g",
     "glyph": "🪨",
-    "flags": [],
+    "flags": [
+      "r"
+    ],
     "image": "uluru",
     "sources": [
       {
@@ -4526,6 +4616,7 @@
     "kind": "g",
     "glyph": "🏝️",
     "flags": [
+      "r",
       "u"
     ],
     "image": "palm-jebel-ali",
@@ -4562,7 +4653,7 @@
     "kind": "g",
     "glyph": "⭕",
     "flags": [
-      "r"
+      "n"
     ],
     "image": "lep",
     "sources": [
@@ -4602,9 +4693,7 @@
     "size": 10935,
     "kind": "g",
     "glyph": "🌊",
-    "flags": [
-      "r"
-    ],
+    "flags": [],
     "image": "fossa-delle-marianne-profondita",
     "sources": [
       {
@@ -4669,9 +4758,7 @@
     "size": 24000,
     "kind": "s",
     "glyph": "#cfe6ff",
-    "flags": [
-      "r"
-    ],
+    "flags": [],
     "image": "stella-di-neutroni",
     "sources": [
       {
@@ -4695,8 +4782,7 @@
     "glyph": "🌋",
     "flags": [
       "n",
-      "u",
-      "r"
+      "u"
     ],
     "image": "olympus-mons-altezza",
     "sources": [
@@ -4769,7 +4855,7 @@
     "kind": "p",
     "glyph": "#8c8377",
     "flags": [
-      "r",
+      "n",
       "u"
     ],
     "image": "ganymed",
@@ -4863,7 +4949,9 @@
     "size": 51500,
     "kind": "p",
     "glyph": "#8e9aa3",
-    "flags": [],
+    "flags": [
+      "n"
+    ],
     "image": "bianca",
     "sources": [
       {
@@ -4961,7 +5049,7 @@
     "kind": "p",
     "glyph": "#8e9aa3",
     "flags": [
-      "r"
+      "n"
     ],
     "image": "belinda",
     "sources": [
@@ -5033,7 +5121,7 @@
     "kind": "p",
     "glyph": "#7d8791",
     "flags": [
-      "r"
+      "n"
     ],
     "image": "galatea",
     "sources": [
@@ -5056,9 +5144,7 @@
     "size": 248000,
     "kind": "g",
     "glyph": "",
-    "flags": [
-      "r"
-    ],
+    "flags": [],
     "image": "ruanda",
     "sources": [
       {
@@ -5081,8 +5167,7 @@
     "kind": "p",
     "glyph": "#9a9a9a",
     "flags": [
-      "n",
-      "r"
+      "n"
     ],
     "image": "psyche",
     "sources": [
@@ -5106,7 +5191,7 @@
     "kind": "p",
     "glyph": "#9aa3ab",
     "flags": [
-      "r"
+      "n"
     ],
     "image": "nereide",
     "sources": [
@@ -5163,9 +5248,7 @@
     "size": 426000,
     "kind": "g",
     "glyph": "",
-    "flags": [
-      "r"
-    ],
+    "flags": [],
     "image": "west-virginia",
     "sources": [
       {
@@ -5209,7 +5292,9 @@
     "size": 472000,
     "kind": "p",
     "glyph": "#b9bcc2",
-    "flags": [],
+    "flags": [
+      "n"
+    ],
     "image": "miranda",
     "sources": [
       {
@@ -5271,8 +5356,7 @@
     "kind": "p",
     "glyph": "#a8a29e",
     "flags": [
-      "n",
-      "r"
+      "n"
     ],
     "image": "vesta",
     "sources": [
@@ -5568,7 +5652,9 @@
     "size": 1577000,
     "kind": "p",
     "glyph": "#b9bcc2",
-    "flags": [],
+    "flags": [
+      "n"
+    ],
     "image": "titania",
     "sources": [
       {
@@ -5609,9 +5695,7 @@
     "size": 2326000,
     "kind": "p",
     "glyph": "#e7e5e4",
-    "flags": [
-      "r"
-    ],
+    "flags": [],
     "image": "eris",
     "sources": [
       {
@@ -5633,9 +5717,7 @@
     "size": 2377000,
     "kind": "p",
     "glyph": "#d6b99a",
-    "flags": [
-      "r"
-    ],
+    "flags": [],
     "image": "plutone",
     "sources": [
       {
@@ -6100,7 +6182,6 @@
     "kind": "o",
     "glyph": "🟩",
     "flags": [
-      "r",
       "u"
     ],
     "image": "mondo-di-minecraft",
@@ -6463,7 +6544,9 @@
     "size": 1200000000,
     "kind": "s",
     "glyph": "#ffc98a",
-    "flags": [],
+    "flags": [
+      "r"
+    ],
     "image": "alfa-centauri-b",
     "sources": [
       {
@@ -6516,7 +6599,9 @@
     "size": 1700000000,
     "kind": "s",
     "glyph": "#ffeeb5",
-    "flags": [],
+    "flags": [
+      "r"
+    ],
     "image": "alfa-centauri-a",
     "sources": [
       {
@@ -6611,7 +6696,9 @@
     "size": 5200000000,
     "kind": "s",
     "glyph": "#bcd0ff",
-    "flags": [],
+    "flags": [
+      "r"
+    ],
     "image": "regolo",
     "sources": [
       {
@@ -6669,7 +6756,9 @@
     "size": 12600000000,
     "kind": "s",
     "glyph": "#ffc78a",
-    "flags": [],
+    "flags": [
+      "r"
+    ],
     "image": "pollux",
     "sources": [
       {
@@ -6753,6 +6842,7 @@
     "kind": "s",
     "glyph": "#a9c4ff",
     "flags": [
+      "n",
       "u"
     ],
     "image": "vv-cephei-b",
@@ -6837,7 +6927,9 @@
     "size": 57900000000,
     "kind": "d",
     "glyph": "",
-    "flags": [],
+    "flags": [
+      "n"
+    ],
     "image": "distanza-mercurio-sole",
     "sources": [
       {
@@ -6952,7 +7044,9 @@
     "size": 108000000000,
     "kind": "s",
     "glyph": "#a9c4ff",
-    "flags": [],
+    "flags": [
+      "r"
+    ],
     "image": "rigel",
     "sources": [
       {
@@ -7071,8 +7165,8 @@
     "kind": "s",
     "glyph": "#ff5a3c",
     "flags": [
-      "u",
-      "r"
+      "r",
+      "u"
     ],
     "image": "la-superba",
     "sources": [
@@ -7091,6 +7185,7 @@
     "kind": "s",
     "glyph": "#bcd0ff",
     "flags": [
+      "r",
       "u"
     ],
     "image": "s-doradus",
@@ -7110,7 +7205,7 @@
     "kind": "s",
     "glyph": "#ff7a4d",
     "flags": [
-      "r",
+      "n",
       "u"
     ],
     "image": "v838-monocerotis",
@@ -7139,7 +7234,9 @@
     "size": 778500000000,
     "kind": "d",
     "glyph": "",
-    "flags": [],
+    "flags": [
+      "n"
+    ],
     "image": "distanza-giove-sole",
     "sources": [
       {
@@ -7157,7 +7254,7 @@
     "kind": "s",
     "glyph": "#ffe28a",
     "flags": [
-      "r"
+      "n"
     ],
     "image": "v382-carinae",
     "sources": [
@@ -7319,8 +7416,8 @@
     "kind": "s",
     "glyph": "#ff4f33",
     "flags": [
-      "u",
-      "r"
+      "r",
+      "u"
     ],
     "image": "mu-cephei",
     "sources": [
@@ -7344,6 +7441,7 @@
     "kind": "s",
     "glyph": "#ff5f3d",
     "flags": [
+      "r",
       "u"
     ],
     "image": "ky-cygni",
@@ -7368,6 +7466,7 @@
     "kind": "s",
     "glyph": "#ff6a45",
     "flags": [
+      "r",
       "u"
     ],
     "image": "vv-cephei-a",
@@ -7452,7 +7551,9 @@
     "size": 5906000000000,
     "kind": "d",
     "glyph": "",
-    "flags": [],
+    "flags": [
+      "n"
+    ],
     "image": "distanza-plutone-sole",
     "sources": [
       {
@@ -7575,9 +7676,7 @@
     "size": 53000000000000,
     "kind": "d",
     "glyph": "",
-    "flags": [
-      "r"
-    ],
+    "flags": [],
     "image": "afelio-della-cometa-hale-bopp",
     "sources": [
       {
@@ -7654,8 +7753,8 @@
     "kind": "n",
     "glyph": "3",
     "flags": [
-      "u",
-      "r"
+      "r",
+      "u"
     ],
     "image": "hamburger-di-gomez",
     "sources": [
@@ -7774,7 +7873,6 @@
     "kind": "n",
     "glyph": "1",
     "flags": [
-      "r",
       "u"
     ],
     "image": "nebulosa-occhio-di-gatto",
@@ -8193,7 +8291,9 @@
     "size": 67000000000000000,
     "kind": "n",
     "glyph": "0",
-    "flags": [],
+    "flags": [
+      "r"
+    ],
     "image": "nebulosa-cono",
     "sources": [
       {
@@ -8278,7 +8378,9 @@
     "size": 280000000000000000,
     "kind": "n",
     "glyph": "1",
-    "flags": [],
+    "flags": [
+      "n"
+    ],
     "image": "nube-interstellare-locale",
     "sources": [
       {
@@ -8342,7 +8444,7 @@
     "kind": "n",
     "glyph": "4",
     "flags": [
-      "r",
+      "n",
       "u"
     ],
     "image": "messier-14",
@@ -8443,7 +8545,9 @@
     "size": 1200000000000000000,
     "kind": "n",
     "glyph": "0",
-    "flags": [],
+    "flags": [
+      "r"
+    ],
     "image": "nebulosa-rosetta",
     "sources": [
       {
@@ -8633,8 +8737,8 @@
     "kind": "x",
     "glyph": "E",
     "flags": [
-      "u",
-      "r"
+      "r",
+      "u"
     ],
     "image": "leo-ii",
     "sources": [
@@ -8657,7 +8761,9 @@
     "size": 47000000000000000000,
     "kind": "d",
     "glyph": "",
-    "flags": [],
+    "flags": [
+      "n"
+    ],
     "image": "getto-relativistico-di-m87",
     "sources": [
       {
@@ -8733,7 +8839,6 @@
     "kind": "x",
     "glyph": "E",
     "flags": [
-      "r",
       "u"
     ],
     "image": "nana-ellittica-del-sagittario",
@@ -8860,7 +8965,7 @@
     "kind": "x",
     "glyph": "",
     "flags": [
-      "r",
+      "n",
       "u"
     ],
     "image": "ngc-7714",
@@ -8890,7 +8995,7 @@
     "kind": "x",
     "glyph": "",
     "flags": [
-      "r"
+      "n"
     ],
     "image": "galassia-occhio-nero",
     "sources": [
@@ -8913,7 +9018,9 @@
     "size": 580000000000000000000,
     "kind": "x",
     "glyph": "",
-    "flags": [],
+    "flags": [
+      "r"
+    ],
     "image": "galassia-del-triangolo",
     "sources": [
       {
@@ -9214,7 +9321,9 @@
     "size": 2.65e+21,
     "kind": "x",
     "glyph": "",
-    "flags": [],
+    "flags": [
+      "r"
+    ],
     "image": "galassia-girino",
     "sources": [
       {
@@ -9486,8 +9595,8 @@
     "kind": "d",
     "glyph": "",
     "flags": [
-      "u",
-      "r"
+      "r",
+      "u"
     ],
     "image": "distanza-del-grande-attrattore",
     "sources": [
@@ -9865,9 +9974,7 @@
     "size": 8.8e+26,
     "kind": "c",
     "glyph": "",
-    "flags": [
-      "r"
-    ],
+    "flags": [],
     "image": "universo-osservabile",
     "sources": [
       {

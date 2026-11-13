@@ -21,12 +21,13 @@ const { ui, objects } = await loadSceneData(locale.code);
 const base = import.meta.env.BASE_URL;
 const home = `${base}${locale.code}/`;
 const has = (flag: string) => objects.filter((o) => o.flags.some((f) => f === flag));
+const then = originals as Record<string, number>;
+const shared = objects.filter((o) => then[o.id]);
 const updated = has('r');
 const added = has('n');
 const hypothetical = has('i');
 const uncertain = has('u');
-const totals = { r: updated.length, new: added.length, i: hypothetical.length, u: uncertain.length };
-const then = originals as Record<string, number>;
+const totals = { kept: shared.length, r: updated.length, new: added.length, i: hypothetical.length, u: uncertain.length };
 const size = (metres: number) => formatSize(metres, locale.code, ui);
 /** How many times larger (×) or smaller (÷) the current value is than the one recorded for 2012. */
 function change(now: number, before: number): string {
@@ -47,7 +48,7 @@ function change(now: number, before: number): string {
     <p class="lead">{fill(ui['diff.intro'], totals)}</p>
 
     <section>
-      <h2><span class="dot" style={`background:${FLAG_COLOUR.r}`}></span>{ui['diff.updated.title']} · {updated.length}</h2>
+      <h2><span class="dot" style={`background:${FLAG_COLOUR.r}`}></span>{ui['diff.updated.title']} · {shared.length}</h2>
       <p>{ui['diff.updated.intro']}</p>
       <table>
         <thead>
@@ -60,14 +61,15 @@ function change(now: number, before: number): string {
         </thead>
         <tbody>
           {
-            updated.map((o) => (
-              <tr>
+            shared.map((o) => (
+              <tr class={o.flags.some((f) => f === 'r') ? 'changed' : ''}>
                 <th scope="row">
+                  <span class="dot" style={o.flags.some((f) => f === 'r') ? `background:${FLAG_COLOUR.r}` : 'visibility:hidden'} />
                   <a href={`${home}#${o.id}`}>{o.name}</a>
                 </th>
                 <td class="num">{size(o.size)}</td>
-                <td class="num">{then[o.id] ? size(then[o.id]) : '–'}</td>
-                <td class="num wide">{then[o.id] ? change(o.size, then[o.id]) : ''}</td>
+                <td class="num">{size(then[o.id])}</td>
+                <td class="num wide">{change(o.size, then[o.id])}</td>
               </tr>
             ))
           }
@@ -204,7 +206,16 @@ function change(now: number, before: number): string {
     text-transform: uppercase;
   }
   tbody th {
-    font-weight: 500;
+    font-weight: 400;
+  }
+  tbody th .dot {
+    margin-inline-end: 8px;
+  }
+  tr.changed th {
+    font-weight: 600;
+  }
+  tr.changed td.num {
+    color: var(--text);
   }
   .num {
     text-align: end;

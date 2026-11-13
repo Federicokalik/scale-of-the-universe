@@ -1,6 +1,7 @@
 ---
 import '../../styles/glass.css';
 import '../../styles/ui.css';
+import originals from '../../data/originals.json';
 import { ENABLED_LOCALES, type Locale } from '../../data/locales';
 import { FLAG_COLOUR, FLAG_ORDER, ZOOM_MAX, ZOOM_MIN, ZOOM_START } from '../../engine/constants';
 import Base from '../../layouts/Base.astro';
@@ -25,6 +26,7 @@ const sourceGroups = sourceIndex(objects);
 const photos = objects.filter((o) => o.image && o.imageShape !== 'art' && o.credit).sort((a, b) => a.name.localeCompare(b.name, locale.code));
 const totals = {
   n: objects.length,
+  kept: Object.keys(originals).length,
   r: count('r'),
   new: count('n'),
   i: count('i'),

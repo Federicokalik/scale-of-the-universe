@@ -1,33 +1,46 @@
-// Reads, from the draft this project started from, the values it recorded for the 2012 list
-// ("L'originale: 80 km") and writes them in metres to src/data/originals.json.
-//   node scripts/extract-originals.mjs
-// Only plain figures are taken. A remark in words ("the original confused it with the radius") is left out:
-// it cannot be shown as a number. The values are the draft's notes; they were not re-checked on the original site.
+// Builds src/data/originals.json (object id -> size in the 2012 list, in metres) from
+// reference/original-2012.json, the list of Scale of the Universe 2 with each entry paired to an object here.
+//   node scripts/extract-originals.mjs            -> writes originals.json and reports
+//   node scripts/extract-originals.mjs --flags    -> also sets the "r" and "n" flags in objects.json from it
+// The flags then mean exactly what the site says:
+//   n  the object is not in the 2012 list
+//   r  it is in the 2012 list and its value here differs from the one there by more than 10 %
+// (the original gives one or two significant figures, so smaller gaps are mostly rounding).
 import { readFileSync, writeFileSync } from 'node:fs';
 
-const slugify = (name) =>
-  name.normalize('NFKD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
-const UNIT = { 'Å': 1e-10, UA: 1.495978707e11, nm: 1e-9, 'µm': 1e-6, mm: 1e-3, cm: 1e-2, m: 1, km: 1e3, 'milioni di km': 1e9, 'miliardi di km': 1e12, 'anni luce': 9.4607e15 };
-const POWER = { '⁻': '-', '⁰': 0, '¹': 1, '²': 2, '³': 3, '⁴': 4, '⁵': 5, '⁶': 6, '⁷': 7, '⁸': 8, '⁹': 9 };
+const THRESHOLD = 0.1;
+const read = (path) => JSON.parse(readFileSync(path, 'utf8'));
+const original = read('reference/original-2012.json').objects;
+const objects = read('src/data/objects.json');
+const known = new Set(objects.map((o) => o.id));
 
-const ids = new Set(JSON.parse(readFileSync('src/data/objects.json', 'utf8')).map((o) => o.id));
 const out = {};
-const skipped = [];
-for (const line of readFileSync('reference/draft.html', 'utf8').split('\n')) {
-  const fields = line.split('|');
-  if (fields.length < 6 || !/originale/i.test(line)) continue;
-  const id = slugify(fields[0]);
-  if (!ids.has(id)) continue;
-  const note = fields.slice(5).join('|');
-  const plain = note.match(/L'originale(?::| indicava| fermava il confine a)\s*([\d.,]+)\s*(miliardi di km|milioni di km|anni luce|UA|Å|nm|µm|mm|cm|km|m)(?![\wÀ-ÿ])/);
-  // A bare figure right after a size in light-years is in light-years too ("Circa 230 anni luce. L'originale: 60.").
-  const bare = note.match(/anni luce\. L'originale:\s*([\d.,]+)\.?\s*$/);
-  const power = note.match(/L'originale[^.]*?10([⁻⁰¹²³⁴⁵⁶⁷⁸⁹]+)\s*m\b/);
-  if (plain) out[id] = Number((Number(plain[1].replace(/\./g, '').replace(',', '.')) * UNIT[plain[2]]).toPrecision(6));
-  else if (bare) out[id] = Number((Number(bare[1].replace(/\./g, '').replace(',', '.')) * UNIT['anni luce']).toPrecision(6));
-  else if (power) out[id] = 10 ** Number([...power[1]].map((c) => POWER[c]).join(''));
-  else skipped.push(`${id}: ${note.slice(note.search(/L'originale|originale/)).slice(0, 80)}`);
+for (const entry of original) {
+  if (!entry.ours) continue;
+  if (!known.has(entry.ours)) throw new Error(`reference/original-2012.json pairs "${entry.name}" with unknown object ${entry.ours}`);
+  if (out[entry.ours]) throw new Error(`two original entries are paired with ${entry.ours}`);
+  out[entry.ours] = entry.metres;
 }
-writeFileSync('src/data/originals.json', JSON.stringify(out, null, 2) + '\n');
-console.log(`${Object.keys(out).length} original value(s) written.`);
-for (const s of skipped) console.log(`  left out: ${s}`);
+const ordered = Object.fromEntries(objects.filter((o) => out[o.id]).map((o) => [o.id, out[o.id]]));
+writeFileSync('src/data/originals.json', JSON.stringify(ordered, null, 2) + '\n');
+
+const differs = (o) => Math.abs(o.size / out[o.id] - 1) > THRESHOLD;
+const fresh = objects.filter((o) => !out[o.id]);
+const changed = objects.filter((o) => out[o.id] && differs(o));
+console.log(`${Object.keys(ordered).length} objects are in the 2012 list; ${changed.length} differ by more than ${THRESHOLD * 100} %; ${fresh.length} are not in it.`);
+console.log(`Original entries with no object here: ${original.filter((e) => !e.ours).map((e) => e.name).join(', ')}.`);
+
+if (process.argv.includes('--flags')) {
+  let touched = 0;
+  for (const o of objects) {
+    const flags = o.flags.filter((f) => f !== 'r' && f !== 'n');
+    if (!out[o.id]) flags.push('n');
+    else if (differs(o)) flags.push('r');
+    const order = ['r', 'n', 'i', 'u'];
+    flags.sort((a, b) => order.indexOf(a) - order.indexOf(b));
+    if (flags.join() !== o.flags.join()) touched++;
+    o.flags = flags;
+  }
+  writeFileSync('src/data/objects.json', JSON.stringify(objects, null, 2) + '\n');
+  console.log(`Flags set from the list: ${touched} object(s) changed.`);
+}
