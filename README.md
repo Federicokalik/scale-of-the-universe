@@ -2,7 +2,9 @@
 
 An interactive zoom through 447 objects, from the Planck length (10⁻³⁵ m) to the observable universe (10²⁷ m), each drawn to scale.
 
-> **Work in progress.** The foundations are in place; source-checking every value, real images and translations are still to come.
+> **Not yet published.** Data, images and eleven languages are in place; a final polish pass is still to come.
+>
+> Italian is the original language. English, German, Dutch (Belgium), Portuguese (Brazil), Spanish, French, Russian, Simplified Chinese, Arabic and Japanese are automatic translations, not reviewed by native speakers. `node scripts/check-translations.mjs` checks them against the Italian for missing entries, lost placeholders and lost numbers.
 
 ## Credit
 

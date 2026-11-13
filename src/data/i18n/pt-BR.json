@@ -1,0 +1,1900 @@
+{
+  "ui": {
+    "title": "Escala do Universo",
+    "title.full": "Escala do Universo 2026",
+    "subtitle": "Edição de novembro de 2026",
+    "description": "Do comprimento de Planck ao universo observável: {n} objetos em escala, com dimensões verificadas.",
+    "count": "{n} objetos de 10⁻³⁵ a 10²⁷ metros",
+    "canvas.label": "Vista em escala dos objetos do universo",
+    "search.placeholder": "Buscar um objeto…",
+    "search.label": "Buscar um objeto",
+    "search.empty": "Nenhum objeto com este nome.",
+    "music.off": "♪ Ativar música",
+    "music.on": "♪ Música ativada",
+    "music.unavailable": "♪ Áudio indisponível",
+    "volume.label": "Volume da música",
+    "about.button": "Método e fontes",
+    "card.close": "Fechar ficha",
+    "dialog.close": "Fechar",
+    "zoom.out": "Reduzir a escala",
+    "zoom.in": "Ampliar a escala",
+    "zoom.label": "Escala, em potências de dez de metros",
+    "hint": "Roda do mouse, gesto de pinça ou arrastar na vertical para mudar a escala · clique em um objeto para ver a ficha · setas do teclado",
+    "unit.ly.billions": "{n} bilhões de anos-luz",
+    "unit.ly.millions": "{n} milhões de anos-luz",
+    "unit.ly.one": "1 ano-luz",
+    "unit.ly": "{n} anos-luz",
+    "unit.au": "{n} UA",
+    "unit.mkm": "{n} milhões de km",
+    "compare.times": "Cerca de {n} vezes {a}.",
+    "compare.fraction": "Cerca de 1/{n} em relação a {a}.",
+    "anchor.proton": "um próton",
+    "anchor.hydrogen": "um átomo de hidrogênio",
+    "anchor.redcell": "um glóbulo vermelho",
+    "anchor.hair": "um fio de cabelo",
+    "anchor.person": "uma pessoa",
+    "anchor.everest": "o Everest",
+    "anchor.earth": "a Terra",
+    "anchor.sun": "o Sol",
+    "anchor.au": "a distância Terra–Sol",
+    "anchor.ly": "um ano-luz",
+    "anchor.milkyway": "a Via Láctea",
+    "anchor.universe": "o universo observável",
+    "kind.u": "Unidade de medida",
+    "kind.d": "Distância ou extensão",
+    "kind.w": "Comprimento de onda",
+    "kind.q": "Partícula",
+    "kind.a": "Átomo ou núcleo",
+    "kind.m": "Molécula e nanoescala",
+    "kind.b": "Biologia",
+    "kind.o": "Objeto",
+    "kind.g": "Lugar ou construção",
+    "kind.p": "Planeta, lua ou corpo menor",
+    "kind.s": "Estrela",
+    "kind.h": "Buraco negro",
+    "kind.n": "Nebulosa ou aglomerado estelar",
+    "kind.x": "Galáxia",
+    "kind.c": "Estrutura cósmica",
+    "flag.r": "Atualizado",
+    "flag.n": "Novo",
+    "flag.i": "Hipotético",
+    "flag.u": "Incerto",
+    "regime.0": "Escala de Planck e partículas",
+    "regime.1": "Núcleos atômicos",
+    "regime.2": "Átomos e moléculas",
+    "regime.3": "Vírus e células",
+    "regime.4": "O mundo minúsculo",
+    "regime.5": "Escala humana",
+    "regime.6": "Geografia, luas e asteroides",
+    "regime.7": "Planetas e estrelas",
+    "regime.8": "Estrelas gigantes e Sistema Solar",
+    "regime.9": "Nebulosas e aglomerados",
+    "regime.10": "Galáxias",
+    "regime.11": "Estrutura em grande escala",
+    "dialog.title": "Método e fontes",
+    "dialog.intro": "Reinterpretação independente da ideia de <a href=\"https://scaleofuniverse.com/\">Scale of the Universe</a>, de Cary e Michael Huang. Gráficos, textos, código e música são originais; da obra de partida resta apenas a lista dos objetos, que são fatos.",
+    "dialog.experiment": "Todo o trabalho é um experimento para testar o Claude Fable 5.2, o modelo da Anthropic. O modelo escreveu o código e os textos, pesquisou e conferiu os dados e escolheu as imagens por conta própria, a partir dos pedidos de Federico Calicchia. Nenhuma pessoa revisou o resultado: o site é publicado tal como o modelo o produziu e pode conter erros.",
+    "dialog.translation": "O italiano é o idioma original deste site. Os outros idiomas são traduções automáticas, não revisadas por falantes nativos: se encontrar um erro, avise.",
+    "dialog.contents.title": "O que contém",
+    "dialog.contents.count": "{n} objetos: a lista da versão de 2012, com {r} valores corrigidos e um objeto removido por falta de fonte, mais {new} objetos novos.",
+    "dialog.flag.r": "o valor da lista de 2012 estava desatualizado ou errado e foi corrigido.",
+    "dialog.flag.n": "objeto ausente do original, muitas vezes uma descoberta de 2015–2026.",
+    "dialog.flag.i": "previsto por uma teoria ou usado como experimento mental, nunca observado.",
+    "dialog.flag.u": "medida contestada ou com margens de erro amplas.",
+    "dialog.sizes.title": "Como ler as dimensões",
+    "dialog.sizes.body": "Cada objeto é desenhado em escala com o seu diâmetro ou a sua maior extensão. Até onde sabemos, as partículas elementares são pontuais: suas posições são convenções herdadas do original e estão marcadas como incertas. As distâncias cosmológicas são comóveis, salvo onde indicado. As ilustrações são esquemáticas e indicativas: onde falta uma fotografia, a forma real do objeto não é reproduzida.",
+    "dialog.sources.title": "Principais fontes",
+    "dialog.sources.intro": "{verified} objetos de {n} têm um valor conferido em uma fonte aberta e citada, principalmente agências espaciais, órgãos de metrologia, bancos de dados, artigos científicos e enciclopédias. A fonte de cada valor, com a data da última verificação, está na ficha do objeto.",
+    "dialog.sources.all": "Lista completa: {sources} fontes de {sites} sites",
+    "dialog.diff.title": "No que difere do original",
+    "dialog.diff.intro": "O original é Scale of the Universe 2, de Cary e Michael Huang (2012). Esta edição retoma a ideia e a lista de objetos, e muda o resto:",
+    "dialog.diff.values": "{r} valores da lista de 2012 foram corrigidos ou atualizados; cada ficha indica a fonte do valor atual.",
+    "dialog.diff.new": "{new} objetos são novos, em grande parte descobertas ou medições dos anos 2015–2026.",
+    "dialog.diff.flags": "Todo objeto hipotético ({i}) ou de medida incerta ({u}) é indicado como tal, em vez de ser apresentado como um fato.",
+    "dialog.diff.art": "Gráficos, textos, código e música foram refeitos do zero: nada da obra original foi copiado.",
+    "dialog.diff.open": "O código e os dados são públicos e reutilizáveis: código com licença MIT, textos e ilustrações originais com licença CC BY 4.0.",
+    "dialog.images.title": "Imagens",
+    "dialog.images.intro": "{photos} objetos têm uma fotografia de terceiros, usada com licença livre (domínio público, CC0, CC BY ou CC BY-SA): autor e licença estão na ficha do objeto. Os outros {art} têm uma ilustração original, desenhada para este site e reutilizável com licença CC BY 4.0, porque desses objetos não existe foto ou não existe uma foto livre e segura.",
+    "dialog.images.all": "Créditos das {photos} fotografias",
+    "dialog.ui.title": "Fontes da interface",
+    "dialog.ui.concept": "A ideia do zoom contínuo por potências de dez: <a href=\"https://scaleofuniverse.com/\">Scale of the Universe</a>, de Cary e Michael Huang; a mesma ideia é conhecida do filme <i>Powers of Ten</i>, de Charles e Ray Eames (1977).",
+    "dialog.ui.type": "Fontes tipográficas: Fraunces e Public Sans (licença SIL Open Font License), servidas por este mesmo site: nenhuma requisição a servidores externos.",
+    "dialog.ui.art": "Na tela, os objetos sem fotografia aparecem com a sua ilustração ou como desenhos gerados pelo código desta página. O fundo também é gerado: a cor acompanha a escala e escurece em direção às dimensões cósmicas; cada círculo marca uma potência de dez.",
+    "dialog.ui.music": "Música: gerada em tempo real pelo navegador com a Web Audio API; muda de timbre com a escala e não usa gravações.",
+    "dialog.ui.stack": "Site construído com <a href=\"https://astro.build/\">Astro</a> e <a href=\"https://unocss.dev/\">UnoCSS</a>, publicado no GitHub Pages.",
+    "dialog.privacy.title": "Privacidade",
+    "dialog.privacy.body": "Este site não usa cookies e não rastreia nada: nenhuma estatística, nenhum serviço de terceiros, nenhum dado enviado a ninguém. A única coisa que fica guardada é o idioma que você escolhe, e ela permanece no seu navegador. O site está hospedado no GitHub Pages, que, como qualquer servidor, recebe o endereço IP de quem o visita, conforme a própria política de privacidade.",
+    "dialog.author": "Um projeto de <a href=\"https://calicchia.design/\">Federico Calicchia</a>.",
+    "card.sources": "Fontes",
+    "card.image": "Imagem",
+    "card.illustration": "Ilustração original",
+    "card.verified": "Verificado em {date}",
+    "card.newtab": "abre em uma nova aba"
+  },
+  "objects": {
+    "schiuma-quantistica": {
+      "name": "Espuma quântica",
+      "desc": "A espuma quântica é a hipotética estrutura irregular e flutuante que o espaço-tempo poderia ter em escalas extremas, da ordem do comprimento de Planck, igual a cerca de 1,6 × 10⁻³⁵ m. Nunca foi observada, e a dimensão indicada é uma convenção, não uma medida. Em 2015, observações de quasares distantes com os telescópios Chandra, Fermi e VERITAS excluíram dois dos modelos propostos."
+    },
+    "stringa": {
+      "name": "Corda",
+      "desc": "Na teoria das cordas, as partículas elementares são modos de vibração de objetos unidimensionais, as cordas. Se a teoria deve descrever também a gravidade, o comprimento característico delas é da ordem do comprimento de Planck, cerca de 10⁻³⁵ m. Até hoje não existem dados experimentais que a confirmem, e a dimensão indicada é uma convenção."
+    },
+    "lunghezza-di-planck": {
+      "name": "Comprimento de Planck",
+      "desc": "O comprimento de Planck é uma das constantes físicas fundamentais tabeladas pelo CODATA. O valor recomendado em 2022 é 1,616255×10⁻³⁵ m, com uma incerteza relativa de cerca de 1,1×10⁻⁵. O raio de carga do próton é cerca de 5×10¹⁹ vezes maior."
+    },
+    "yoctometro": {
+      "name": "Ioctômetro",
+      "desc": "O ioctômetro vale 10⁻²⁴ m, ou seja, um milionésimo de bilionésimo de bilionésimo de metro. O prefixo yocto foi adotado pela Conferência Geral de Pesos e Medidas em 1991. O comprimento de Planck corresponde a cerca de 1,6×10⁻¹¹ ioctômetros."
+    },
+    "neutrino": {
+      "name": "Neutrino",
+      "desc": "O neutrino é uma partícula elementar sem carga elétrica e não tem uma dimensão medida: o valor indicado é uma posição convencional. É a mais leve das partículas com massa conhecidas. O experimento KATRIN, com 259 dias de dados, estabeleceu para a sua massa um limite superior de 0,45 eV com 90% de confiança."
+    },
+    "quark-top": {
+      "name": "Quark top",
+      "desc": "O quark top é a partícula elementar mais pesada que se conhece. A média das medições diretas reunida pelo Particle Data Group dá uma massa de 172,60 ± 0,27 GeV. Não tem uma dimensão medida, e o valor indicado é uma convenção."
+    },
+    "zeptometro": {
+      "name": "Zeptômetro",
+      "desc": "O zeptômetro vale 10⁻²¹ m, um milésimo de attômetro. O prefixo zepto foi adotado pela Conferência Geral de Pesos e Medidas em 1991. Na sensibilidade máxima, os interferômetros do LIGO detectam variações de distância entre os espelhos iguais a um décimo de milésimo da largura de um próton, ou seja, da ordem de cem zeptômetros."
+    },
+    "preone": {
+      "name": "Préon",
+      "desc": "Os préons são hipotéticos constituintes de quarks e léptons, nunca observados. As buscas por interações de contato nos aceleradores não encontraram sinais de estrutura interna e fixam a escala de compositividade acima de 24 TeV para o canal elétron-quark. Isso corresponde a distâncias inferiores a cerca de 10⁻²⁰ m, portanto a dimensão indicada é apenas uma convenção."
+    },
+    "neutrino-ad-alta-energia": {
+      "name": "Neutrino de alta energia",
+      "desc": "Em 13 de fevereiro de 2023, o detector ARCA do telescópio de neutrinos KM3NeT registrou um evento compatível com um neutrino de cerca de 220 PeV. Segundo a colaboração, o evento, chamado KM3-230213A, é o neutrino mais energético já observado. A dimensão indicada é uma convenção, porque um neutrino não tem um raio medido."
+    },
+    "quark-bottom": {
+      "name": "Quark bottom",
+      "desc": "O quark bottom é um quark de terceira geração com carga elétrica −1/3 e massa de cerca de 4,19 GeV no esquema usado pelo Particle Data Group. Foi descoberto no Fermilab em 1977, quando o experimento E288 observou a partícula upsilon, estado ligado de um bottom e do seu antiquark. Não tem uma dimensão medida, e o valor indicado é uma convenção."
+    },
+    "lunghezze-sondate-da-lhc": {
+      "name": "Comprimentos sondados pelo LHC",
+      "desc": "Desde 2022, o Large Hadron Collider do CERN faz colidir prótons à energia recorde de 13,6 TeV. A menor distância que se consegue explorar depende da energia trocada entre os constituintes dos prótons: as estimativas vão de cerca de 10⁻¹⁹ m, para energias de alguns TeV, a cerca de 1,5 × 10⁻²⁰ m se for considerada toda a energia da colisão. O valor indicado é, portanto, uma ordem de grandeza e não uma medida."
+    },
+    "sensibilita-di-ligo": {
+      "name": "Sensibilidade do LIGO",
+      "desc": "O LIGO é um par de interferômetros a laser em forma de L, com braços de 4 km de comprimento, construídos para detectar ondas gravitacionais. Ele consegue medir uma variação no comprimento dos braços inferior a um décimo de milésimo do diâmetro de um próton, ou seja, cerca de 10⁻¹⁹ m. Com essa sensibilidade, registrou em 2015 o primeiro sinal de ondas gravitacionais, anunciado em 2016."
+    },
+    "quark-charm": {
+      "name": "Quark charm",
+      "desc": "O quark charm pertence à segunda geração de quarks, tem carga elétrica +2/3 e massa de cerca de 1,273 GeV segundo o Particle Data Group. Não tem uma dimensão medida: o tamanho mostrado é uma convenção. O experimento ZEUS, no HERA, estabeleceu que uma eventual estrutura dos quarks é menor que 0,43×10⁻¹⁸ m."
+    },
+    "quark-strange": {
+      "name": "Quark strange",
+      "desc": "O quark strange pertence à segunda geração de quarks, tem carga elétrica −1/3 e massa de cerca de 93,5 MeV segundo o Particle Data Group. Não tem uma dimensão medida: o tamanho mostrado é uma convenção. O experimento ZEUS, no HERA, estabeleceu que uma eventual estrutura dos quarks é menor que 0,43×10⁻¹⁸ m."
+    },
+    "limite-sul-raggio-dei-quark": {
+      "name": "Limite para o raio dos quarks",
+      "desc": "É o limite superior para o raio efetivo dos quarks obtido pela colaboração ZEUS com as colisões entre elétrons e prótons do acelerador HERA, em Hamburgo. A análise, publicada em 2016 com dados correspondentes a cerca de 1 fb⁻¹ de luminosidade, fixa o limite em 0,43×10⁻¹⁸ m com um nível de confiança de 95%. Se os quarks têm uma estrutura interna, ela é menor que isso."
+    },
+    "attometro": {
+      "name": "Attômetro",
+      "desc": "O attômetro vale 10⁻¹⁸ m, um milésimo de femtômetro. O prefixo atto foi adotado pela Conferência Geral de Pesos e Medidas em 1964. É a escala em que se procuram eventuais dimensões dos quarks: o experimento ZEUS, no colisor HERA, estabeleceu para o raio efetivo deles um limite superior de 0,43 attômetro."
+    },
+    "quark-up": {
+      "name": "Quark up",
+      "desc": "O quark up tem carga elétrica +2/3 e massa de cerca de 2,16 MeV segundo o Particle Data Group. Com o quark down forma a primeira geração, aquela de que é feita toda a matéria estável. Não tem uma dimensão medida: o tamanho mostrado é o limite superior do experimento ZEUS, no HERA, segundo o qual uma eventual estrutura tem raio inferior a 0,43×10⁻¹⁸ m."
+    },
+    "quark-down": {
+      "name": "Quark down",
+      "desc": "O quark down tem carga elétrica −1/3 e massa de cerca de 4,70 MeV segundo o Particle Data Group, pouco mais que o dobro da do quark up. Com o quark up forma a primeira geração, aquela de que é feita toda a matéria estável. Não tem uma dimensão medida: o tamanho mostrado é o limite superior do experimento ZEUS, no HERA, segundo o qual uma eventual estrutura tem raio inferior a 0,43×10⁻¹⁸ m."
+    },
+    "elettrone-limite-superiore": {
+      "name": "Elétron (limite superior)",
+      "desc": "Nas colisões entre elétrons e pósitrons, nunca foi observada nenhuma estrutura interna do elétron. Uma análise dos dados dos experimentos ALEPH, L3 e OPAL, no acelerador LEP do CERN, fixa para a sua dimensão um limite superior de 2,8×10⁻¹⁹ m, com um nível de confiança de 95%. O elétron se comporta, portanto, como um ponto pelo menos até essa escala."
+    },
+    "raggio-d-azione-della-forza-debole": {
+      "name": "Alcance da força fraca",
+      "desc": "A força fraca atua apenas a distâncias brevíssimas porque as partículas que a transportam, os bósons W e Z, são muito pesadas. Seu alcance se estima dividindo ħc pela energia de massa do bóson W, 80,37 GeV: obtém-se cerca de 2,5×10⁻¹⁸ m. É menos de um centésimo do raio clássico do elétron."
+    },
+    "femtometro": {
+      "name": "Femtômetro",
+      "desc": "O femtômetro vale 10⁻¹⁵ m e é a escala dos núcleos atômicos. É chamado também de fermi, um nome que o NIST inclui entre os que não devem ser usados com o SI. O raio de carga do próton mede cerca de 0,84 femtômetro."
+    },
+    "protone": {
+      "name": "Próton",
+      "desc": "O próton é uma das duas partículas que formam os núcleos atômicos, composto por três quarks mantidos juntos pelos glúons. Não tem uma borda nítida: como dimensão usa-se o dobro do raio de carga quadrático médio, que segundo o CODATA 2022 vale 0,84075 fm com uma incerteza de 0,00064 fm. O diâmetro resultante é de cerca de 1,68 fm, ou seja, 1,68 milionésimo de bilionésimo de metro."
+    },
+    "neutrone": {
+      "name": "Nêutron",
+      "desc": "O nêutron é a partícula neutra dos núcleos atômicos, formado por três quarks mantidos juntos pelos glúons, como o próton. Por não ter carga líquida, sua extensão é obtida a partir do raio magnético, que o Particle Data Group indica como 0,864 fm: o dobro dá cerca de 1,7 fm. Fora do núcleo é instável e decai com uma vida média de 878,3 segundos, pouco menos de 15 minutos."
+    },
+    "nucleo-di-elio": {
+      "name": "Núcleo de hélio",
+      "desc": "O núcleo de hélio-4, chamado também de partícula alfa, é formado por dois prótons e dois nêutrons. Seu raio de carga quadrático médio vale 1,6785 fm segundo o CODATA 2022, portanto o diâmetro convencional é de cerca de 3,36 fm. A medição mais precisa, 1,67824 fm, foi publicada na Nature em 2021, estudando íons de hélio muônico, em que um múon toma o lugar de um elétron."
+    },
+    "deuterone": {
+      "name": "Dêuteron",
+      "desc": "O dêuteron é o núcleo do deutério, o isótopo pesado do hidrogênio, e é formado por um próton e um nêutron. Seu raio de carga quadrático médio vale 2,12778 fm segundo o CODATA 2022, para um diâmetro convencional de cerca de 4,3 fm. Mesmo tendo apenas dois núcleons, é mais extenso que o núcleo de hélio-4, que tem quatro."
+    },
+    "elettrone-raggio-classico": {
+      "name": "Elétron (raio clássico)",
+      "desc": "O raio clássico do elétron é uma constante com dimensões de comprimento, construída com a carga e a massa do elétron: vale 2,818×10⁻¹⁵ m segundo o CODATA 2022. O tamanho mostrado é o dobro, cerca de 5,64×10⁻¹⁵ m. É uma convenção e não uma medida: nos experimentos o elétron aparece como pontual até escalas milhares de vezes menores."
+    },
+    "nucleo-di-cloro": {
+      "name": "Núcleo de cloro",
+      "desc": "O cloro-35 é o isótopo mais comum do cloro, com 17 prótons e 18 nêutrons no núcleo. Uma medição de 2025 com raios X de átomos muônicos, feita no Paul Scherrer Institut, dá um raio de carga quadrático médio de 3,3335 fm, portanto um diâmetro convencional de cerca de 6,7 fm. O cloro-37, com dois nêutrons a mais, resulta apenas um pouco maior: 3,3445 fm."
+    },
+    "nucleo-atomico-medio": {
+      "name": "Núcleo atômico médio",
+      "desc": "O núcleo é o centro do átomo, formado por prótons e nêutrons. Os núcleos medem poucos femtômetros: o diâmetro vai de cerca de 1,7 fm para o próton isolado a cerca de 15 fm para o ouro, e 10 fm é um valor típico para um núcleo de massa média a alta. Embora seja de dez mil a cem mil vezes menor que o átomo, o núcleo contém mais de 99,9% da sua massa."
+    },
+    "nucleo-di-piombo-208": {
+      "name": "Núcleo de chumbo-208",
+      "desc": "O chumbo-208 tem 82 prótons e 126 nêutrons e é considerado o nuclídeo estável mais pesado. Seu raio de carga quadrático médio vale cerca de 5,506 fm, para um diâmetro convencional de cerca de 11 fm. Os nêutrons se estendem um pouco além dos prótons: o experimento PREX-2 do Jefferson Lab mediu em 2021 uma \"pele de nêutrons\" com 0,283 fm de espessura, com uma incerteza de 0,071 fm."
+    },
+    "nucleo-di-uranio": {
+      "name": "Núcleo de urânio",
+      "desc": "O núcleo do urânio-238 contém 92 prótons e 146 nêutrons. Seu raio de carga quadrático médio é de 5,857 fm, o que corresponde a uma esfera uniforme de cerca de 15 fm de diâmetro. Não é uma esfera perfeita: os dados experimentais indicam uma forma alongada."
+    },
+    "picometro": {
+      "name": "Picômetro",
+      "desc": "O picômetro vale 10⁻¹² m, um milésimo de nanômetro. O prefixo pico faz parte dos prefixos do SI desde 1960. É a unidade adequada às dimensões atômicas: o raio de Bohr, a escala de comprimento do átomo de hidrogênio, vale cerca de 52,9 picômetros."
+    },
+    "raggi-gamma": {
+      "name": "Raios gama",
+      "desc": "Os raios gama são a radiação eletromagnética de menor comprimento de onda e maior energia. Por convenção, a NASA chama de gama todos os fótons com energia superior a 100 keV, ou seja, com comprimento de onda abaixo de cerca de 12 picômetros; o valor mostrado aqui, 1,3 picômetro, corresponde a um fóton de cerca de 1 MeV. Na Terra são produzidos por decaimentos radioativos, relâmpagos e explosões nucleares."
+    },
+    "lunghezza-d-onda-compton-dell-elettrone": {
+      "name": "Comprimento de onda Compton do elétron",
+      "desc": "O comprimento de onda Compton do elétron é uma constante física ligada à massa do elétron. O valor recomendado pelo CODATA 2022 é 2,42631023538 × 10⁻¹² m, ou seja, cerca de 2,43 picômetros. Leva o nome do efeito Compton, em que um fóton colide com um elétron e perde energia."
+    },
+    "risoluzione-record-di-un-microscopio-elettronico": {
+      "name": "Resolução recorde de um microscópio eletrônico",
+      "desc": "A pticografia eletrônica reconstrói a imagem de um cristal a partir das figuras de difração de um feixe de elétrons. Em um trabalho de 2021, Zhen Chen e colegas obtiveram um desfoque instrumental inferior a 20 picômetros, ou seja, 0,2 Å. Nesse nível, o limite já não é o instrumento, mas a agitação térmica dos átomos da rede."
+    },
+    "atomo-di-elio": {
+      "name": "Átomo de hélio",
+      "desc": "O hélio tem dois prótons e dois elétrons. Seu raio atômico calculado é de 31 pm, portanto o diâmetro é de cerca de 62 pm, contra os 106 pm do hidrogênio obtidos do raio de Bohr (52,9 pm). O valor depende da definição: o raio covalente é de 28 pm."
+    },
+    "angstrom": {
+      "name": "Ångström",
+      "desc": "O ångström vale 10⁻¹⁰ m, ou seja, 0,1 nanômetro, e é uma unidade externa ao Sistema Internacional. Tem a ordem de grandeza dos átomos: o raio de Bohr vale cerca de 0,529 ångström."
+    },
+    "atomo-di-idrogeno": {
+      "name": "Átomo de hidrogênio",
+      "desc": "O átomo de hidrogênio é formado por um próton e um elétron. Sua dimensão aqui é o dobro do raio de Bohr, a constante que fixa a escala do átomo no estado fundamental: 52,9 pm, portanto cerca de 106 pm de diâmetro. Ligado em uma molécula, resulta menor: o raio covalente é de 31 pm."
+    },
+    "atomo-di-carbonio": {
+      "name": "Átomo de carbono",
+      "desc": "O carbono é o elemento com seis prótons, base das moléculas orgânicas. Seu raio covalente nas ligações simples (sp3) é de 76 pm, portanto o diâmetro é de cerca de 152 pm. O raio se reduz a 73 pm no carbono sp2 e a 69 pm no sp."
+    },
+    "raggi-x": {
+      "name": "Raios X",
+      "desc": "Os raios X são aqui representados pela linha Kα do cobre, emitida pelos tubos de raios X com ânodo de cobre. O componente Kα1 tem um comprimento de onda medido de 1,5405929 ångström, cerca de 0,154 nanômetro, comparável às distâncias entre os átomos em um cristal. O cobre é o material mais comum para o ânodo na difração de cristal único."
+    },
+    "legame-carbonio-carbonio": {
+      "name": "Ligação carbono–carbono",
+      "desc": "A ligação simples entre dois átomos de carbono tem cerca de 154 picômetros de comprimento: no etano, a distância medida entre os dois núcleos é de 1,536 Å. Cadeias e anéis dessas ligações formam o esqueleto das moléculas orgânicas."
+    },
+    "atomo-di-zolfo": {
+      "name": "Átomo de enxofre",
+      "desc": "O enxofre é o elemento com 16 prótons. Seu raio covalente é de 105 pm, portanto o diâmetro é de cerca de 210 pm. O raio de van der Waals, que mede o espaço ocupado pelo átomo não ligado, é quase o dobro: 189 pm."
+    },
+    "molecola-di-co2": {
+      "name": "Molécula de CO₂",
+      "desc": "O dióxido de carbono é uma molécula linear: um átomo de carbono entre dois de oxigênio, com ligações C=O de 1,162 Å. A distância entre os dois oxigênios é, portanto, de 2,32 Å. Sua concentração na atmosfera ultrapassou as 425 partes por milhão: em setembro de 2026, a média mensal medida em Mauna Loa era de 426,07 ppm."
+    },
+    "molecola-d-acqua": {
+      "name": "Molécula de água",
+      "desc": "Uma molécula de água é feita de um átomo de oxigênio e dois de hidrogênio, com ligações O–H de 0,958 Å e um ângulo de 104,5°. O diâmetro de cerca de 2,75 Å usado aqui é um valor efetivo, o da molécula tratada como uma esfera: as fontes dão valores entre 2,63 e 2,8 Å. Os dois núcleos de hidrogênio distam entre si apenas 1,51 Å."
+    },
+    "gate-di-transistor-piu-corto": {
+      "name": "Porta de transistor mais curta",
+      "desc": "É um transistor com canal de dissulfeto de molibdênio em que a porta (gate) é a borda de uma folha de grafeno, com a espessura de um único átomo: 0,34 nm. Foi apresentado na Nature em março de 2022 por um grupo da Tsinghua University, em Pequim; o recorde anterior, de 2021, era de 0,65 nm. Segundo as simulações dos autores, o canal efetivo tem 0,34 nm de comprimento com o transistor ligado e 4,54 nm com o transistor desligado."
+    },
+    "atomo-di-cesio": {
+      "name": "Átomo de césio",
+      "desc": "O césio é um metal alcalino com 55 prótons. No metal sólido, dois átomos vizinhos distam cerca de 532 pm, o que corresponde a um raio metálico de 266 pm; o raio covalente é de 244 pm, mais que o triplo do do carbono. A transição hiperfina do césio-133, a 9.192.631.770 Hz, define o segundo no Sistema Internacional."
+    },
+    "molecola-di-caffeina": {
+      "name": "Molécula de cafeína",
+      "desc": "A cafeína (C₈H₁₀N₄O₂, nome sistemático 1,3,7-trimetilpurina-2,6-diona) é uma molécula quase plana, formada por dois anéis fundidos com três grupos metila. No modelo tridimensional calculado pelo PubChem, os dois núcleos mais distantes ficam a cerca de 0,76 nm, e a 0,65 nm se os hidrogênios forem excluídos. A dimensão depende, portanto, do que se mede, e, contando também as nuvens eletrônicas, o volume ocupado é maior."
+    },
+    "molecola-di-glucosio": {
+      "name": "Molécula de glicose",
+      "desc": "A glicose é um açúcar simples de fórmula C₆H₁₂O₆, que em solução quase sempre se fecha em anel. Nessa forma, a molécula mede cerca de 0,86 nm ao longo do eixo maior e 0,84 nm ao longo do menor, incluindo os raios de van der Waals."
+    },
+    "nanometro": {
+      "name": "Nanômetro",
+      "desc": "O nanômetro vale 10⁻⁹ m, um bilionésimo de metro. O prefixo nano faz parte dos prefixos do SI desde 1960. No cristal de silício, o parâmetro de rede, ou seja, o lado da célula unitária, mede cerca de 0,543 nanômetro."
+    },
+    "fullerene-c60": {
+      "name": "Fulereno C₆₀",
+      "desc": "O fulereno C₆₀ é uma gaiola fechada de sessenta átomos de carbono dispostos como as costuras de uma bola de futebol, com 12 pentágonos e 20 hexágonos. A molécula tem um diâmetro de cerca de 1,03 nm, enquanto dois átomos de carbono diametralmente opostos distam 0,71 nm. Foi descoberto em 1985 por Harold Kroto, Richard Smalley e Robert Curl, premiados com o Nobel de Química em 1996."
+    },
+    "nanotubo-di-carbonio": {
+      "name": "Nanotubo de carbono",
+      "desc": "Um nanotubo de parede simples é uma folha de átomos de carbono com a espessura de uma única camada, enrolada em cilindro. Os primeiros, obtidos em 1993 por um grupo da IBM vaporizando juntos carbono e cobalto em um arco elétrico, tinham todos um diâmetro de cerca de 1,2 nm. O diâmetro varia de um nanotubo para outro conforme o modo como é produzido."
+    },
+    "alfa-elica-di-una-proteina": {
+      "name": "Hélice alfa de uma proteína",
+      "desc": "A hélice alfa é o enrolamento em espiral mais comum de uma cadeia proteica: cada volta compreende 3,6 aminoácidos e avança 5,4 Å. O esqueleto, sem cadeias laterais, tem um diâmetro de cerca de 0,6 nm. As cadeias laterais se projetam para fora, portanto a largura total depende dos aminoácidos presentes, e o valor de cerca de 1,2 nm usado aqui é uma estimativa convencional."
+    },
+    "dna-spessore": {
+      "name": "DNA (espessura)",
+      "desc": "O DNA é uma dupla hélice formada por duas fitas pareadas por meio das bases nitrogenadas. O diâmetro é de 2 nm, uniforme ao longo de toda a molécula, e cada volta mede 3,4 nm e contém cerca de 10 pares de bases. A estrutura foi reconstruída nos anos 1950 por Watson e Crick a partir dos dados de difração de raios X de Rosalind Franklin."
+    },
+    "fosfolipide": {
+      "name": "Fosfolipídio",
+      "desc": "Um fosfolipídio é uma molécula com uma cabeça hidrofílica contendo um grupo fosfato e duas caudas hidrofóbicas de ácidos graxos. Tem tipicamente 2–2,5 nm de comprimento, ou seja, metade da espessura de uma membrana. Na água, essas moléculas se dispõem espontaneamente em uma bicamada, a estrutura básica das membranas celulares."
+    },
+    "doppio-strato-fosfolipidico": {
+      "name": "Bicamada fosfolipídica",
+      "desc": "A bicamada fosfolipídica é formada por duas fileiras de fosfolipídios com as caudas hidrofóbicas voltadas para dentro e as cabeças voltadas para a água. A espessura é de cerca de 5 nm: uma bicamada de DPPC mede 4,6 nm, enquanto as membranas plasmáticas completas vão de 5 a 10 nm. Um glóbulo vermelho, com cerca de 8 µm de largura, é mais ou menos 1.000 vezes mais largo."
+    },
+    "emoglobina": {
+      "name": "Hemoglobina",
+      "desc": "A hemoglobina é a proteína dos glóbulos vermelhos que transporta o oxigênio: é feita de quatro cadeias, duas alfa e duas beta, cada uma com um grupo heme que contém um átomo de ferro. A molécula tem um diâmetro de cerca de 5 nm, com dimensões de cerca de 6 × 5 × 5 nm. A previsão da estrutura das proteínas com o AlphaFold rendeu a Demis Hassabis e John Jumper o Nobel de Química de 2024."
+    },
+    "membrana-cellulare": {
+      "name": "Membrana celular",
+      "desc": "A membrana celular é o fino invólucro que separa o interior da célula do ambiente externo. É formada por uma bicamada de lipídios com cerca de 4 nm de espessura, atravessada e revestida por proteínas que levam a espessura total tipicamente a 7,5–10 nm."
+    },
+    "anticorpo-igg": {
+      "name": "Anticorpo IgG",
+      "desc": "A imunoglobulina G é um anticorpo: uma proteína em forma de Y de cerca de 150 kDa, com dois braços Fab que se ligam ao antígeno e uma haste Fc. Sua extensão máxima é de cerca de 15 nm: as medições em solução dão 15–16 nm, as feitas sobre superfície cerca de 14 × 8 nm. Os braços são muito flexíveis graças à região de dobradiça, portanto a forma muda continuamente."
+    },
+    "gate-di-un-transistor-in-produzione": {
+      "name": "Porta de um transistor em produção",
+      "desc": "Nos chips chamados de 2 nm, em produção em série desde o fim de 2025, o nome é um rótulo comercial e não mede nenhuma parte do transistor. Os fabricantes não divulgam o comprimento da porta (gate): o chip de demonstração de 2 nm da IBM, de 2021, tinha uma porta de 12 nm, com cerca de duas dúzias de átomos de comprimento. O roteiro IRDS 2022 prevê que o comprimento do canal deixe de diminuir em torno de 12 nm."
+    },
+    "luce-euv-per-litografia": {
+      "name": "Luz EUV para litografia",
+      "desc": "A litografia EUV imprime os circuitos dos microchips com luz ultravioleta extrema de comprimento de onda 13,5 nm, quase na fronteira com os raios X. Para gerá-la, um laser de CO2 atinge com dois pulsos uma gota de estanho em rápido movimento. Segundo o fabricante ASML, essas máquinas imprimem as camadas mais complexas dos chips dos nós de 7, 5 e 3 nm."
+    },
+    "circovirus-suino": {
+      "name": "Circovírus suíno",
+      "desc": "O circovírus suíno é um vírus de DNA circular de fita simples que infecta os porcos. O vírion do tipo 1 (PCV1) mede entre 17 e 20,7 nm de diâmetro, o do tipo 2 cerca de 20,5 nm. Segundo o ICTV, PCV1 e PCV2 são os menores vírus capazes de se replicar de forma autônoma nas células de mamíferos."
+    },
+    "ribosoma": {
+      "name": "Ribossomo",
+      "desc": "O ribossomo é o complexo de RNA e proteínas que lê o RNA mensageiro e monta as proteínas. Mede tipicamente entre 20 e 30 nm: cerca de 21 nm o da bactéria Escherichia coli, cerca de 25 nm o das células de mamíferos. No ribossomo de E. coli, cerca de dois terços da massa são RNA e um terço proteínas."
+    },
+    "virus-dell-epatite-b": {
+      "name": "Vírus da hepatite B",
+      "desc": "O vírus da hepatite B infecta as células do fígado. O vírion infeccioso, chamado de partícula de Dane, é uma esfera de camada dupla com 42 nm de diâmetro. Contém um genoma de DNA circular parcialmente de fita dupla de cerca de 3.200 pares de bases."
+    },
+    "nanoparticella-lipidica": {
+      "name": "Nanopartícula lipídica",
+      "desc": "Uma nanopartícula lipídica é a esfera de gorduras que envolve o mRNA das vacinas e o leva para dentro das células. Mede cerca de 60–100 nm de diâmetro e é feita de quatro componentes: um lipídio ionizável, um fosfolipídio neutro, colesterol e um lipídio ligado a PEG. As vacinas contra a COVID-19 da Pfizer-BioNTech e da Moderna usam ambas essa tecnologia."
+    },
+    "ultravioletto": {
+      "name": "Ultravioleta",
+      "desc": "O ultravioleta é a radiação com comprimento de onda mais curto que o da luz visível. Segundo a Organização Mundial da Saúde, a região UV vai de 100 a 400 nm e se divide em UVA (315–400 nm), UVB (280–315 nm) e UVC (100–280 nm); outras convenções a estendem a comprimentos de onda mais curtos. O UVC é totalmente filtrado pela atmosfera, e cerca de 95% do UV que chega ao solo é UVA."
+    },
+    "sars-cov-2": {
+      "name": "SARS-CoV-2",
+      "desc": "O SARS-CoV-2 é o coronavírus responsável pela pandemia de COVID-19. As partículas são aproximadamente esféricas e, nas primeiras imagens ao microscópio eletrônico, publicadas em 2020, o diâmetro variava entre cerca de 60 e 140 nm. As espículas na superfície, com 9 a 12 nm de comprimento, dão ao vírion o aspecto de uma coroa solar, de onde vem o nome da família."
+    },
+    "hiv": {
+      "name": "HIV",
+      "desc": "O HIV é o retrovírus que causa a AIDS. Suas partículas, aproximadamente esféricas, não têm uma dimensão fixa: as fontes indicam de 80–100 nm até uma média de 145 nm, com vírions individuais entre 120 e 200 nm nas medições por crio-microscopia eletrônica. O valor de 120 nm usado aqui é, portanto, indicativo."
+    },
+    "fossetta-di-un-cd-profondita": {
+      "name": "Pit de um CD (profundidade)",
+      "desc": "Os pits de um CD são as minúsculas cavidades que codificam os dados ao longo da trilha em espiral do disco. Têm cerca de 125 nm de profundidade, ou seja, cerca de um quarto do comprimento de onda que o laser infravermelho de 780 nm assume dentro do plástico do disco. Assim, a luz refletida pelo pit e a refletida pela superfície ao redor ficam defasadas de meio comprimento de onda e se atenuam mutuamente, e o leitor distingue os dois níveis."
+    },
+    "limite-del-microscopio-ottico": {
+      "name": "Limite do microscópio óptico",
+      "desc": "O limite de difração de Abbe diz que um microscópio óptico distingue dois pontos apenas se distarem mais que cerca de metade do comprimento de onda da luz. Na prática, a distância mínima vai de 200 nm para a luz azul a 350 nm para a vermelha. As técnicas de superresolução como o MINFLUX localizam as moléculas com uma precisão de 1–3 nm."
+    },
+    "batteriofago-t4": {
+      "name": "Bacteriófago T4",
+      "desc": "O bacteriófago T4 é um vírus que infecta a bactéria Escherichia coli. Tem uma cabeça alongada de 120 nm por 86 nm e uma cauda contrátil de 140 nm, para um comprimento total de cerca de 260 nm. Na base da cauda estão presas seis fibras de cerca de 160 nm, que lhe dão o aspecto de um módulo de pouso."
+    },
+    "batterio-piu-piccolo": {
+      "name": "Menor bactéria",
+      "desc": "Mycoplasma genitalium é uma bactéria do grupo dos micoplasmas, que têm um diâmetro de cerca de 0,2–0,4 µm e estão entre as menores bactérias. Quando foi sequenciado, em 1995, seu genoma de 580.070 pares de bases era o menor conhecido para um organismo de vida livre."
+    },
+    "particella-piu-penetrante-per-un-filtro-ffp2": {
+      "name": "Partícula mais penetrante para um filtro FFP2",
+      "desc": "Um filtro facial retém bem tanto as partículas grandes quanto as minúsculas: no meio há um tamanho que passa com mais facilidade, chamado de partícula mais penetrante. Por convenção indica-se 0,3 µm, o tamanho que o órgão norte-americano NIOSH considera o mais difícil de filtrar. As medições em filtros N95 de carga eletrostática, porém, a situam entre 40 e 300 nm, muitas vezes em torno de 40–50 nm."
+    },
+    "luce-viola": {
+      "name": "Luz violeta",
+      "desc": "O violeta é a cor de menor comprimento de onda do espectro visível. A fronteira com o ultravioleta é convencional: a NASA indica cerca de 380 nm como limite para o olho humano, enquanto outras páginas suas fazem o visível começar em 400 nm, o valor usado aqui. No outro extremo está o vermelho, a cerca de 700 nm."
+    },
+    "luce-verde": {
+      "name": "Luz verde",
+      "desc": "A luz verde em torno de 550 nm cai onde o olho humano é mais sensível em condições de boa iluminação. A função de eficiência luminosa fotópica V(λ) tem o máximo em 555 nm. A candela, a unidade do SI de intensidade luminosa, é realizada com uma eficácia luminosa de 683 lm/W a 540 × 10¹² Hz, igual a 555,016 nm no ar."
+    },
+    "luce-rossa": {
+      "name": "Luz vermelha",
+      "desc": "A luz vermelha ocupa o extremo de maior comprimento de onda do espectro visível, em torno de 700 nanômetros. Segundo a NASA, o olho humano percebe tipicamente os comprimentos de onda entre 380 nm (violeta) e 700 nm (vermelho). Além desse limite começa o infravermelho."
+    },
+    "mimivirus": {
+      "name": "Mimivírus",
+      "desc": "O Mimivírus é um vírus gigante que infecta amebas. O capsídeo tem um diâmetro de cerca de 500 nm e é coberto por uma densa camada de fibras de 125 nm de comprimento, para um diâmetro total de cerca de 750 nm. Por causa do seu aspecto externo, foi inicialmente identificado por engano como uma bactéria."
+    },
+    "micrometro": {
+      "name": "Micrômetro",
+      "desc": "O micrômetro vale 10⁻⁶ m, um milionésimo de metro. O antigo nome mícron é listado pelo NIST entre os que não devem ser usados com o SI. Um glóbulo vermelho humano tem um diâmetro de cerca de 7,7 micrômetros."
+    },
+    "virus-piu-grande": {
+      "name": "Maior vírus",
+      "desc": "Pithovirus sibericum é um vírus gigante com uma partícula em forma de ânfora de 1,5 µm de comprimento. Foi isolado de uma amostra de permafrost siberiano com mais de 30.000 anos e descrito em 2014, quando superou em tamanho os pandoravírus, com cerca de 1 µm de comprimento. Seu genoma, de cerca de 600.000 pares de bases, é porém muito menor que o deles."
+    },
+    "cromosoma-y": {
+      "name": "Cromossomo Y",
+      "desc": "O cromossomo Y é o menor dos dois cromossomos sexuais humanos e contém quase 2% do DNA da célula. Na metáfase, quando está no máximo da condensação, tem tipicamente 2 ou 3 µm de comprimento, mas a medida muda com o grau de condensação. Sua sequência completa, 62.460.029 pares de bases, só foi publicada em 2023 pelo consórcio Telomere-to-Telomere."
+    },
+    "escherichia-coli": {
+      "name": "Escherichia coli",
+      "desc": "Escherichia coli é uma bactéria em forma de bastonete, usada há décadas como organismo modelo na biologia. Uma célula mede tipicamente cerca de 2 µm de comprimento e 1 µm de diâmetro, com um volume em torno de 1 µm³. As dimensões não são fixas: as células que crescem mais rápido são também maiores."
+    },
+    "particella-di-argilla": {
+      "name": "Partícula de argila",
+      "desc": "Em granulometria, chama-se argila a fração mais fina de um solo. A norma ISO 14688-1 e a classificação usada nos Estados Unidos fixam o mesmo limite: são argila as partículas com diâmetro de até 0,002 mm, ou seja, 2 µm. O valor indicado é, portanto, o diâmetro máximo, e a maioria das partículas é menor."
+    },
+    "mitocondrio": {
+      "name": "Mitocôndria",
+      "desc": "A mitocôndria é a organela que produz a maior parte do ATP, a molécula que fornece energia à célula. Na forma clássica de bastonete, tem tipicamente cerca de 2 µm de comprimento e cerca de 1 µm de largura, mas em muitas células as mitocôndrias se fundem em redes que se estendem por dezenas de micrômetros. Conserva um pequeno genoma próprio, herança do procarioto do qual se acredita que derive."
+    },
+    "cellula-di-lievito": {
+      "name": "Célula de levedura",
+      "desc": "Saccharomyces cerevisiae é a levedura usada para fazer pão e cerveja. Suas células são quase esféricas, com um diâmetro de cerca de 4 µm na forma haploide e cerca de 6 µm na diploide. É um organismo modelo da biologia celular e foi o primeiro eucarioto com o genoma sequenciado por inteiro, em 1996."
+    },
+    "nucleo-cellulare": {
+      "name": "Núcleo celular",
+      "desc": "O núcleo é o compartimento da célula eucariótica que guarda o DNA. Seu diâmetro vai tipicamente de 2 a 10 µm conforme o organismo e o tipo de célula. Em uma célula humana, contém cerca de 2 metros de DNA dobrado."
+    },
+    "cloroplasto": {
+      "name": "Cloroplasto",
+      "desc": "O cloroplasto é a organela das plantas e das algas em que ocorre a fotossíntese. Tem a forma de um disco com tipicamente de 5 a 10 µm de comprimento. Como a mitocôndria, possui DNA e ribossomos próprios."
+    },
+    "cromosoma-x": {
+      "name": "Cromossomo X",
+      "desc": "O cromossomo X é um dos dois cromossomos sexuais humanos: conta cerca de 155 milhões de pares de bases, o equivalente a cerca de 5% do DNA da célula. Na metáfase tem poucos micrômetros de comprimento, tipicamente entre 5 e 7 µm, mas a medida depende do grau de condensação. Nas células com dois cromossomos X, um dos dois é inativado nas primeiras fases do desenvolvimento embrionário."
+    },
+    "globulo-rosso": {
+      "name": "Glóbulo vermelho",
+      "desc": "O glóbulo vermelho, ou eritrócito, é a célula do sangue que transporta o oxigênio. É um disco bicôncavo com um diâmetro médio de 7–8 µm e, ao amadurecer na medula óssea, expulsa o núcleo e grande parte das organelas. Permanece em circulação por até 120 dias."
+    },
+    "infrarosso-termico": {
+      "name": "Infravermelho térmico",
+      "desc": "O infravermelho térmico é a banda em que emitem os objetos à temperatura ambiente: pela lei de Wien, um corpo a 20 °C tem o pico de emissão em cerca de 9,9 µm. A NASA indica como infravermelho térmico a região entre 8 e 15 µm. O infravermelho foi descoberto em 1800 por William Herschel, medindo a temperatura além do vermelho do espectro solar."
+    },
+    "globulo-bianco": {
+      "name": "Glóbulo branco",
+      "desc": "Os glóbulos brancos, ou leucócitos, são as células do sangue que defendem o organismo. O diâmetro muda conforme o tipo: 10–12 µm para os neutrófilos, de 6 a 14 µm para os linfócitos e de 12 a 20 µm para os monócitos. São muito menos numerosos que os glóbulos vermelhos: tipicamente de 5.000 a 10.000 por microlitro de sangue."
+    },
+    "fibra-di-seta": {
+      "name": "Fibra de seda",
+      "desc": "O fio que o bicho-da-seda emite para construir o casulo é formado por dois filamentos de fibroína mantidos juntos por uma camada de sericina. Cada filamento tem um diâmetro de 7–14 µm, enquanto o fio duplo mede tipicamente de 15 a 26 µm. De um único casulo obtém-se um fio contínuo de 600 a 1.500 metros de comprimento."
+    },
+    "twip": {
+      "name": "Twip",
+      "desc": "O twip é uma unidade de medida usada em software para posicionar os elementos na tela de modo independente do monitor. Vale um vigésimo de ponto tipográfico, ou seja, 1/1440 de polegada, igual a cerca de 17,64 micrômetros. Em um centímetro cabem cerca de 567."
+    },
+    "fibra-acrilica": {
+      "name": "Fibra acrílica",
+      "desc": "A fibra acrílica é uma fibra sintética composta por pelo menos 85% em peso de acrilonitrila. O diâmetro depende do título escolhido pelo fabricante: com uma densidade de 1,18 g/cm³, uma fibra de 3 deniers mede cerca de 19 µm e uma de 15 deniers cerca de 42 µm. Não derrete, mas se decompõe acima de cerca de 260 °C."
+    },
+    "gocciolina-di-nebbia": {
+      "name": "Gotícula de neblina",
+      "desc": "A neblina é uma nuvem em contato com o solo, feita de gotículas de água suspensas no ar. O diâmetro delas vai de cerca de 1 a 40 µm, como nas nuvens, mas na neblina as gotículas costumam ficar na parte baixa desse intervalo. O valor indicado é, portanto, uma ordem de grandeza, não uma medida típica."
+    },
+    "thou": {
+      "name": "Thou",
+      "desc": "O thou, chamado também de mil, é um milésimo de polegada. Corresponde exatamente a 25,4 micrômetros, ou seja, 0,0254 milímetro. Em um milímetro cabem, portanto, cerca de 39 thou."
+    },
+    "cellula-della-pelle": {
+      "name": "Célula da pele",
+      "desc": "Os queratinócitos são as células principais da epiderme. Nascem na camada basal, onde medem 6–10 µm, e em cerca de um mês sobem à superfície achatando-se em escamas sem núcleo, os corneócitos. Um corneócito tem uma superfície de 700–1.200 µm², o que corresponde a um diâmetro de cerca de 30–40 µm."
+    },
+    "particella-di-limo": {
+      "name": "Partícula de silte",
+      "desc": "O silte é a fração de um solo com grãos intermediários entre a argila e a areia. Pela norma ISO 14688-1, compreende as partículas com diâmetro entre 0,002 e 0,063 mm, ou seja, de 2 a 63 µm. A classificação usada nos Estados Unidos para os solos agrícolas, por outro lado, põe o limite superior em 0,05 mm."
+    },
+    "granulo-di-polline": {
+      "name": "Grão de pólen",
+      "desc": "O grão de pólen transporta as células reprodutivas masculinas das plantas com semente. As dimensões mudam muito com a espécie: de cerca de 10 µm na urtiga a cerca de 200 µm no abeto-branco. Até o mesmo grão vivo incha e se contrai conforme a umidade."
+    },
+    "pixel-di-uno-smartphone": {
+      "name": "Pixel de um smartphone",
+      "desc": "A tela de um smartphone recente tem uma densidade de cerca de 460 pixels por polegada: é o valor que a Apple declara para o iPhone 16, com 2556 × 1179 pixels em uma diagonal de 6,1 polegadas. Com essa densidade, cada pixel tem cerca de 55 µm de largura, menos que a espessura de um fio de cabelo. Por isso, à distância normal de leitura, os pixels individuais não se distinguem."
+    },
+    "spermatozoo": {
+      "name": "Espermatozoide",
+      "desc": "O espermatozoide é a célula reprodutiva masculina. O humano tem ao todo cerca de 55 micrômetros de comprimento: a cabeça, que contém o núcleo, mede 4–5 micrômetros, enquanto a cauda tem cerca de 50 micrômetros. Quase todo o comprimento se deve, portanto, à cauda, o flagelo que o faz se mover."
+    },
+    "capello-umano": {
+      "name": "Fio de cabelo humano",
+      "desc": "Um fio de cabelo humano tem aproximadamente de 80 a 100 µm de largura, segundo a National Nanotechnology Initiative dos Estados Unidos. A espessura muda muito de pessoa para pessoa e também entre os fios da mesma cabeça. É um dos termos de comparação mais usados para as dimensões microscópicas: equivale a 80.000–100.000 nanômetros."
+    },
+    "limite-dell-occhio-nudo": {
+      "name": "Limite do olho nu",
+      "desc": "O limite do olho nu é a menor distância em que dois pontos próximos ainda são vistos separados. O valor de referência usado em microscopia é cerca de 0,1 mm, ou seja, 100 µm, mas é uma convenção: depende da visão de cada pessoa, da luz e do contraste. Um microscópio óptico padrão chega a cerca de 0,2 µm, quinhentas vezes melhor."
+    },
+    "foglio-di-carta-spessore": {
+      "name": "Folha de papel (espessura)",
+      "desc": "Uma folha de papel comum de impressora de 80 g/m² tem cerca de um décimo de milímetro de espessura. A ficha técnica de um fabricante indica 106 µm, com uma tolerância de 3 µm, medidos segundo a norma ISO 534. Uma resma de 500 folhas tem, portanto, pouco mais de 5 cm de altura."
+    },
+    "ovulo-umano": {
+      "name": "Óvulo humano",
+      "desc": "A célula-ovo, ou oócito, é a célula reprodutiva feminina. Em um estudo com 1.563 oócitos humanos, o diâmetro médio medido foi de 115 micrômetros, com valores entre 60 e 171 micrômetros. Suas dimensões são maiores que as das outras células do corpo."
+    },
+    "protista-ciliato": {
+      "name": "Protista ciliado",
+      "desc": "Os ciliados são organismos unicelulares cobertos de cílios, que batem para impulsionar a célula na água ou para levar o alimento até a boca. Conhecem-se cerca de 7.000 espécies e as dimensões variam muito: os paramécios vão tipicamente de 50 a 300 micrômetros, enquanto alguns gêneros chegam a 2 milímetros. O valor de 180 micrômetros indica, portanto, apenas um tamanho intermediário."
+    },
+    "paramecio": {
+      "name": "Paramécio",
+      "desc": "O paramécio é um protista ciliado de água doce, usado há mais de um século como organismo modelo em genética e biologia celular. As espécies do gênero têm tipicamente de 50 a 300 micrômetros de comprimento, e as maiores, como Paramecium caudatum, medem 170–310 micrômetros, o suficiente para serem apenas visíveis a olho nu. Como todos os ciliados, cada célula tem dois tipos de núcleo."
+    },
+    "pixel-di-un-monitor": {
+      "name": "Pixel de um monitor",
+      "desc": "A densidade de referência para os monitores de mesa é de 96 pixels por polegada: com essa densidade, um pixel tem 1/96 de polegada de largura, ou seja, cerca de 0,26 mm. É também a base do pixel de referência usado pelo W3C para definir a unidade px nas páginas da web. As telas dos telefones de hoje, com cerca de 460 pixels por polegada, são quase cinco vezes mais densas."
+    },
+    "acaro-della-polvere": {
+      "name": "Ácaro da poeira",
+      "desc": "Os ácaros da poeira são minúsculos aracnídeos que vivem em camas, sofás e tapetes, onde se alimentam das escamas de pele perdidas por pessoas e animais domésticos. As fontes dão comprimentos diferentes, de cerca de um quarto de milímetro até cerca de 0,5 mm para os adultos, portanto só se veem bem ao microscópio. Seus excrementos podem provocar ou agravar a asma em pessoas sensibilizadas."
+    },
+    "granello-di-sale": {
+      "name": "Grão de sal",
+      "desc": "Um grão de sal de cozinha é um pequeno cristal de cloreto de sódio. No sal de mesa granulado, os grãos medem tipicamente de 0,3 a 1,5 mm, e o mostrado aqui está entre os menores. O sal para conservas é mais regular, com cubinhos arredondados de cerca de 0,5 mm."
+    },
+    "ameba": {
+      "name": "Ameba",
+      "desc": "Amoeba proteus é um grande organismo unicelular de água doce que se desloca e captura o alimento estendendo pseudópodes. Não tem uma forma fixa: as células em movimento têm tipicamente de 220 a 760 micrômetros de comprimento, com uma média de 425. Vive em água doce e em esfagno úmido e não é uma espécie rara."
+    },
+    "tardigrado": {
+      "name": "Tardígrado",
+      "desc": "Os tardígrados são animais microscópicos, com em média de 0,1 a 0,5 mm de comprimento, dos quais se conhecem mais de 1.000 espécies. Podem entrar em criptobiose, um estado de vida suspensa. Dessa forma sobrevivem a condições extremas como a ausência de oxigênio, o vácuo e as radiações ionizantes."
+    },
+    "granello-di-sabbia": {
+      "name": "Grão de areia",
+      "desc": "Em geologia, chama-se areia um sedimento solto com grãos de diâmetro entre 0,062 e 2 mm. As areias se dividem em cinco classes, de muito fina (0,125–0,062 mm) a muito grossa (2–1 mm). Um grão de cerca de 0,5 mm fica na fronteira entre areia média e areia grossa."
+    },
+    "pelle-delle-palpebre": {
+      "name": "Pele das pálpebras",
+      "desc": "A pele das pálpebras tem cerca de 0,5 mm de espessura. Segundo o atlas de histologia da Universidade de Leeds, é o valor mais baixo do corpo humano, onde a espessura da pele chega a 4,0 mm nos calcanhares. É uma pele fina, com quatro camadas celulares na epiderme em vez das cinco da pele espessa."
+    },
+    "mina-di-matita": {
+      "name": "Grafite de lapiseira",
+      "desc": "As grafites para lapiseira são vendidas em diâmetros nominais fixos, e a mostrada aqui é de 0,7 mm. Os fabricantes a descrevem como grafite fina, adequada às lapiseiras comuns, que traça uma linha de cerca de 0,7 mm de largura."
+    },
+    "carta-di-credito-spessore": {
+      "name": "Cartão de crédito (espessura)",
+      "desc": "Os cartões de crédito seguem o formato ID-1 da norma ISO/IEC 7810, que fixa uma espessura nominal de 0,76 mm. O mesmo formato mede 85,60 mm por 53,98 mm. A norma prevê a mesma espessura também para outros três formatos de cartões de identificação, entre eles o ID-000, de 25 mm por 15 mm."
+    },
+    "millimetro": {
+      "name": "Milímetro",
+      "desc": "O milímetro é a milésima parte do metro: o prefixo SI milli indica o fator 10⁻³. Uma polegada corresponde exatamente a 25,4 milímetros."
+    },
+    "picco-del-fondo-cosmico-a-microonde": {
+      "name": "Pico da radiação cósmica de fundo em micro-ondas",
+      "desc": "A radiação cósmica de fundo em micro-ondas é a radiação residual do Big Bang que preenche todo o universo, formada cerca de 380.000 anos depois. Hoje tem o espectro de um corpo negro a 2,7255 K, cujo pico por unidade de comprimento de onda cai em cerca de 1,06 mm. É o ponto mais distante no tempo que se pode observar com a luz."
+    },
+    "goccia-di-pioggia": {
+      "name": "Gota de chuva",
+      "desc": "As gotas de chuva não têm a forma de lágrima dos desenhos. As com raio inferior a 1 mm são esféricas, enquanto as maiores, ao cair, lembram a metade superior de um pão de hambúrguer. Segundo a NASA, uma gota que cresce até cerca de 4 mm ou mais se divide em gotas menores."
+    },
+    "lenticchia-d-acqua": {
+      "name": "Lentilha-d'água",
+      "desc": "A lentilha-d'água comum (Lemna minor) é uma planta aquática que flutua livre e forma tapetes verdes na superfície de lagoas e águas paradas. Cada plantinha é uma única fronde oval de 1 a 8 mm de comprimento, tipicamente poucos milímetros. Está entre as menores plantas com flor."
+    },
+    "seme-di-sesamo": {
+      "name": "Semente de gergelim",
+      "desc": "A semente de gergelim (Sesamum indicum) tem tipicamente cerca de 3 mm de comprimento e quase 2 mm de largura. Contém cerca de 50% de óleo e 25% de proteínas. Mil sementes pesam mais ou menos 28 gramas."
+    },
+    "formica": {
+      "name": "Formiga",
+      "desc": "As formigas são insetos sociais da família Formicidae, com cerca de 12.000 espécies descritas no mundo. As dimensões mudam muito de uma espécie para outra: a operária da comum formiga-preta-dos-jardins (Lasius niger) tem de 3,5 a 5 mm de comprimento. Estima-se que as espécies existentes sejam na verdade cerca de 15.000."
+    },
+    "pelle-della-pianta-del-piede": {
+      "name": "Pele da planta do pé",
+      "desc": "Sob o pé, a pele atinge a espessura máxima do corpo humano: cerca de 4,0 mm nos calcanhares, contra 0,5 mm nas pálpebras. É pele espessa, que se encontra onde a abrasão é forte, ou seja, nas plantas dos pés, nas palmas das mãos e nas pontas dos dedos. Sua epiderme tem cinco camadas celulares em vez das quatro da pele fina."
+    },
+    "nevischio": {
+      "name": "Granizo miúdo",
+      "desc": "O granizo miúdo é uma precipitação de grânulos de gelo muito pequenos, brancos e opacos, achatados ou alongados. O diâmetro deles é em geral inferior a 1 mm. Ao cair no chão, não quicam nem se quebram, e em geral descem em pequenas quantidades de neblinas ou de camadas espessas de nuvens."
+    },
+    "microchip": {
+      "name": "Microchip",
+      "desc": "Um microchip é um circuito integrado construído sobre uma minúscula pastilha de silício. Não existe uma medida única: o exemplo aqui é um pequeno circuito integrado de 8 pinos como o temporizador NE555, que no encapsulamento SOIC ocupa 4,9 mm por 6 mm."
+    },
+    "chicco-di-riso": {
+      "name": "Grão de arroz",
+      "desc": "O comprimento de um grão de arroz depende da variedade. A escala do instituto internacional IRRI, reportada pela FAO para o arroz integral, chama de curto um grão abaixo de 5,50 mm, médio entre 5,51 e 6,60 mm, longo entre 6,61 e 7,50 mm e extralongo acima de 7,50 mm. Um grão de 6 mm é, portanto, de grão médio."
+    },
+    "fiocco-di-neve": {
+      "name": "Floco de neve",
+      "desc": "Um floco de neve pode ser um único cristal de gelo ou um agregado de muitos cristais. Segundo o físico Kenneth Libbrecht, do Caltech, um cristal de bom tamanho mede cerca de 2 mm e um excepcional chega a 10 mm, enquanto os agregados fotografados pela meteorologista Sandra Yuter chegam a 35 mm. O valor de 8 mm indica, portanto, um floco grande, não uma medida padrão."
+    },
+    "batterio-piu-grande": {
+      "name": "Maior bactéria",
+      "desc": "Thiomargarita magnifica, descrita na Science em 2022, é a maior bactéria conhecida: sua célula filamentosa tem em média mais de 9.000 micrômetros de comprimento, cerca de um centímetro, e é visível a olho nu. A maioria das bactérias mede em torno de 2 micrômetros, e as maiores conhecidas anteriormente chegavam a 750 micrômetros. Seu DNA está envolto em compartimentos delimitados por membranas, algo incomum para uma bactéria."
+    },
+    "chicco-di-caffe": {
+      "name": "Grão de café",
+      "desc": "O grão de café é a semente do cafeeiro, que é torrada antes de ser moída. Em um estudo de 2022 com amostras comerciais torradas, o comprimento médio foi de 10,95 mm para a espécie Arabica e de 10,46 mm para a Robusta, com uma largura um pouco superior a 8 mm. A medida muda com a variedade, portanto cerca de 1 cm é um valor típico."
+    },
+    "seme-di-girasole": {
+      "name": "Semente de girassol",
+      "desc": "A semente de girassol é na verdade um fruto seco, o aquênio, que envolve a semente propriamente dita. Um estudo da Universidade de Uludağ mediu em média 7,79 mm de comprimento, 7,12 mm de largura e 4,18 mm de espessura. O comprimento depende muito da variedade, e as sementes para petiscar são sensivelmente mais longas."
+    },
+    "uovo-di-colibri": {
+      "name": "Ovo de beija-flor",
+      "desc": "O menor ovo posto por uma ave é, segundo o Guinness World Records, o de Mellisuga minima, um beija-flor que vive na Jamaica. Dois exemplares mediam menos de 10 mm de comprimento e pesavam 0,365 g e 0,375 g."
+    },
+    "biglia": {
+      "name": "Bola de gude",
+      "desc": "A bola de gude é uma pequena esfera, hoje quase sempre de vidro, usada em muitas brincadeiras infantis. A medida mais comum é 5/8 de polegada, ou seja, cerca de 16 mm, que é também a fixada pelos regulamentos dos torneios para as bolas-alvo. As bolas de gude mais antigas eram de pedra ou de argila."
+    },
+    "penny-statunitense": {
+      "name": "Penny norte-americano",
+      "desc": "O penny é a moeda de um centavo de dólar dos Estados Unidos e por lei tem um diâmetro de 0,75 polegada, ou seja, 19,05 mm. O último exemplar destinado à circulação foi cunhado em 12 de novembro de 2025 na casa da moeda da Filadélfia. As moedas já emitidas continuam a ter curso legal."
+    },
+    "moneta-da-1-euro": {
+      "name": "Moeda de 1 euro",
+      "desc": "A moeda de 1 euro tem um diâmetro de 23,25 mm, uma espessura de 2,33 mm e pesa 7,50 g. É bimetálica: o anel externo é de níquel-latão, enquanto a parte interna é formada por três camadas de cuproníquel, níquel e cuproníquel. A borda alterna trechos lisos e trechos serrilhados."
+    },
+    "pollice": {
+      "name": "Polegada",
+      "desc": "A polegada é uma unidade de comprimento anglo-saxônica que vale exatamente 2,54 centímetros. Doze polegadas formam um pé, igual a 0,3048 metro."
+    },
+    "uovo-di-quaglia": {
+      "name": "Ovo de codorna",
+      "desc": "O ovo da codorna-japonesa doméstica, o que se encontra à venda, tem tipicamente cerca de 32 mm de comprimento e cerca de 25 mm de largura. Em um estudo da Universidade de Iași, o peso médio foi de 10,44 g. A casca é clara com manchas escuras."
+    },
+    "uovo-di-gallina": {
+      "name": "Ovo de galinha",
+      "desc": "Um ovo de galinha poedeira tem tipicamente entre 5,5 e 6 cm de comprimento e pouco mais de 4 cm de largura. Em um estudo de 2024 com nove tipos genéticos, os ovos das poedeiras Lohmann Brown mediam em média 56,12 mm de comprimento e 43,32 mm de largura, com um peso de 59,59 g. As raças menores botam ovos de cerca de 51 mm."
+    },
+    "cubo-di-rubik": {
+      "name": "Cubo de Rubik",
+      "desc": "O cubo de Rubik é um quebra-cabeça mecânico formado por 27 cubinhos, inventado em Budapeste pelo professor de design Ernő Rubik, que montou o primeiro exemplar em 1974. A aresta mede entre 5,5 e 5,7 cm aproximadamente: o exemplar do Victoria and Albert Museum, de Londres, tem 5,5 cm de altura. Desde 2014 faz parte da National Toy Hall of Fame."
+    },
+    "colibri": {
+      "name": "Beija-flor",
+      "desc": "Os beija-flores são pequenas aves americanas capazes de ficar paradas no ar diante das flores. O beija-flor-de-garganta-rubi, o mais difundido no leste da América do Norte, tem tipicamente de 7,5 a 9 cm de comprimento e pesa menos de 4 gramas. Suas asas batem cerca de 53 vezes por segundo."
+    },
+    "toporagno": {
+      "name": "Musaranho",
+      "desc": "O musaranho-comum é um pequeno mamífero insetívoro difundido em grande parte da Europa até a Sibéria. Cabeça e corpo medem tipicamente de 5 a 8 cm e a cauda de 2,5 a 4,5 cm, para um total em torno de 10 cm e um peso de 5–14 gramas. Vive em média cerca de dois anos."
+    },
+    "tazza": {
+      "name": "Caneca",
+      "desc": "A caneca do tipo mug é um recipiente cilíndrico com alça, usado para bebidas quentes. Não existe uma medida padrão: a altura vai tipicamente de 8 a 11 cm conforme o modelo, e por exemplo a caneca de grés FÄRGRIK da IKEA tem 11 cm de altura e comporta 25 cl. O valor de cerca de 10 cm é, portanto, indicativo."
+    },
+    "microonde-del-forno": {
+      "name": "Micro-ondas do forno",
+      "desc": "Os fornos de micro-ondas domésticos trabalham a 2.450 MHz, o que corresponde a um comprimento de onda de cerca de 12,2 cm. As micro-ondas fazem vibrar as moléculas de água contidas no alimento e isso produz o calor que o cozinha. A frequência cai em uma banda reservada a usos industriais, científicos e médicos (2.450 MHz ± 50 MHz), a mesma região do espectro usada pelos dispositivos de rádio sem licença a 2,4 GHz."
+    },
+    "smartphone": {
+      "name": "Smartphone",
+      "desc": "Um smartphone atual tem tipicamente cerca de 15 cm de altura. O iPhone 16, por exemplo, mede 147,6 mm de altura, 71,6 mm de largura e 7,8 mm de espessura, com uma tela de 6,1 polegadas na diagonal. As dimensões mudam de modelo para modelo."
+    },
+    "uovo-di-struzzo": {
+      "name": "Ovo de avestruz",
+      "desc": "O ovo de avestruz é o maior posto por um animal vivo. Mede em média cerca de 15 cm de comprimento por 13 cm de largura e pesa cerca de 1,5 kg, o equivalente a mais ou menos 24 ovos de galinha. Em relação às dimensões do adulto, porém, é um ovo pequeno."
+    },
+    "lombrico-comune": {
+      "name": "Minhoca comum",
+      "desc": "A minhoca comum (Lumbricus terrestris) é um verme anelídeo originário da Europa, de cor que vai do rosado ao marrom-avermelhado. Quando adulta, tem tipicamente de 10 a 25 cm de comprimento. Escava galerias verticais permanentes que descem em profundidade no solo."
+    },
+    "chicco-di-grandine-piu-grande": {
+      "name": "Pedra de granizo recorde (EUA)",
+      "desc": "A pedra de granizo caída em Vivian, em Dakota do Sul, em 23 de julho de 2010 media 8 polegadas de diâmetro, ou seja, cerca de 20 cm, e pesava cerca de 0,88 kg. Segundo o National Weather Service, detém o recorde dos Estados Unidos em diâmetro e em peso. O recorde de circunferência continua, porém, com uma pedra caída em Aurora, em Nebraska, em 2003."
+    },
+    "pallone-da-calcio": {
+      "name": "Bola de futebol",
+      "desc": "A bola de futebol regulamentar é uma esfera com uma circunferência entre 68 e 70 cm, o que corresponde a um diâmetro de cerca de 22 cm. Segundo as Regras do Jogo da IFAB, deve pesar entre 410 e 450 gramas no início da partida. A pressão prevista vai de 0,6 a 1,1 atmosfera."
+    },
+    "pallone-da-basket": {
+      "name": "Bola de basquete",
+      "desc": "A bola de basquete tamanho 7, usada nas competições masculinas, tem uma circunferência entre 750 e 770 mm, igual a um diâmetro de cerca de 24 cm. O regulamento da FIBA fixa o peso entre 580 e 620 gramas. Nas competições femininas usa-se a bola tamanho 6, um pouco menor, com uma circunferência entre 715 e 730 mm."
+    },
+    "teiera-di-russell": {
+      "name": "Bule de Russell",
+      "desc": "O bule de Russell é um experimento mental proposto pelo filósofo Bertrand Russell em 1952, no ensaio \"Is There a God?\". Russell imagina um bule de porcelana em órbita elíptica em torno do Sol entre a Terra e Marte, pequeno demais para ser visto até pelos telescópios mais potentes: ninguém poderia provar que não existe, mas isso não é motivo para acreditar nele. O argumento diz respeito ao ônus da prova, e a medida de cerca de 25 cm aqui indicada é apenas a de um bule comum."
+    },
+    "righello-da-un-piede": {
+      "name": "Régua de um pé",
+      "desc": "Uma régua de um pé tem exatamente 0,3048 metro de comprimento, ou seja, 30,48 cm. A relação entre pé e metro foi fixada assim em 1959. Nos Estados Unidos, o antigo \"survey foot\", ligeiramente diferente, foi declarado obsoleto a partir de 1º de janeiro de 2023."
+    },
+    "uno-schermo": {
+      "name": "Uma tela",
+      "desc": "A tela de um laptop compacto tem uma diagonal de cerca de 34 cm: mais ou menos a janela em que você está olhando, se usa um computador. O MacBook Air de 13 polegadas, por exemplo, tem uma tela de 13,6 polegadas na diagonal, ou seja, 34,5 cm. As telas dos telefones são muito menores e as dos monitores de mesa maiores."
+    },
+    "fiocco-di-neve-piu-grande": {
+      "name": "Maior floco de neve",
+      "desc": "Segundo o Guinness World Records, na noite de 27 de janeiro de 1887 uma tempestade fez cair no vale do rio Clark Fork, perto de Missoula, em Montana, flocos de neve descritos como \"maiores que panelas de leite\". As crônicas falam de flocos de até 38 cm de largura e 20 cm de espessura. Trata-se de um testemunho da época, não de uma medição instrumental."
+    },
+    "gatto": {
+      "name": "Gato",
+      "desc": "O gato doméstico (Felis catus) é um pequeno felino que pesa em média de 4 a 5,5 kg. Do nariz à base da cauda, um adulto mede tipicamente entre 45 e 55 cm: em um estudo com 546 gatos de rua e ferais na Austrália, a média era de 50 cm para as fêmeas e 55 cm para os machos. Descende provavelmente do gato-selvagem-africano."
+    },
+    "pallone-da-spiaggia": {
+      "name": "Bola de praia",
+      "desc": "A bola de praia é uma bola inflável de vinil leve, em geral de gomos coloridos. Não existe uma medida padrão: um modelo muito difundido, o Glossy Panel Ball da Intex, tem um diâmetro declarado de 24 polegadas, ou seja, cerca de 61 cm. À venda encontram-se tanto menores quanto muito maiores."
+    },
+    "metro": {
+      "name": "Metro",
+      "desc": "O metro é a unidade de comprimento do Sistema Internacional. Desde 1983 é definido como a distância percorrida pela luz no vácuo em 1/299.792.458 de segundo. Dessa forma, a velocidade da luz vale exatamente 299.792.458 metros por segundo."
+    },
+    "dodo": {
+      "name": "Dodô",
+      "desc": "O dodô era uma ave que não voava e vivia na ilha Maurício, onde os europeus o encontraram no fim do século XVI. Tinha cerca de um metro de altura e pesava em torno de 20 kg, segundo o Museu de História Natural da Universidade de Oxford. O último avistamento confirmado remonta a 1662."
+    },
+    "rafflesia": {
+      "name": "Rafflesia",
+      "desc": "Rafflesia arnoldii é uma planta parasita sem folhas, caule nem raízes, que cresce dentro dos cipós da floresta em Sumatra. Sua flor é a maior flor individual conhecida: ultrapassa o metro de diâmetro, com um recorde de 111 cm medido em 2020, e pode pesar até 11 kg. Exala um cheiro desagradável que atrai as moscas polinizadoras."
+    },
+    "essere-umano": {
+      "name": "Ser humano",
+      "desc": "A estatura de um ser humano adulto varia muito entre populações e indivíduos. Entre os nascidos em 1996, a média mundial é de 171 cm para os homens e 159 cm para as mulheres."
+    },
+    "bicicletta": {
+      "name": "Bicicleta",
+      "desc": "Uma bicicleta convencional para adultos tem tipicamente cerca de 1,8 metro de comprimento e cerca de 0,65 metro de largura no guidão. São as dimensões de referência usadas nas diretrizes britânicas para projetar as ciclovias. Bicicletas de carga e bicicletas com reboque podem ser mais longas, tanto que nos projetos se considera um espaço ocupado de até 2,8 metros."
+    },
+    "verme-gigante-del-gippsland": {
+      "name": "Minhoca gigante de Gippsland",
+      "desc": "A minhoca gigante de Gippsland (Megascolides australis) vive no subsolo ao longo das margens dos cursos d'água em Gippsland, no estado australiano de Victoria. Tem em média cerca de um metro de comprimento e, esticada, pode passar de dois metros; os relatos de três metros não são confirmados. O corpo tem de 300 a 400 segmentos e o animal pode viver dez anos ou mais."
+    },
+    "isetta": {
+      "name": "Isetta",
+      "desc": "A Isetta é um microcarro projetado pela Iso, de Milão, e construído sob licença pela BMW a partir de 1955. O BMW Isetta 250 Standard tem 2.285 mm de comprimento, ou seja, cerca de 2,3 m, e monta um motor monocilíndrico de 247 cm³. Da primeira versão BMW foram vendidos mais de 26.000 exemplares."
+    },
+    "girasole": {
+      "name": "Girassol",
+      "desc": "O girassol comum (Helianthus annuus) é uma planta anual originária do oeste dos Estados Unidos e do México. O caule tem tipicamente de meio metro a 3 metros de altura e carrega capítulos de 8 a 15 cm de largura nas formas silvestres."
+    },
+    "dal-pavimento-al-soffitto": {
+      "name": "Do piso ao teto",
+      "desc": "É a altura interna mínima exigida na Itália para os cômodos de moradia: 2,70 m. Desde 28 de julho de 2024, o texto único da construção civil permite ao projetista atestar também cômodos mais baixos, até o limite de 2,40 m, na presença de determinadas condições."
+    },
+    "onde-radio-fm": {
+      "name": "Ondas de rádio FM",
+      "desc": "O rádio FM transmite na banda entre 88 e 108 MHz. Nessas frequências, o comprimento de onda vai de cerca de 3,4 m a cerca de 2,8 m: 3 m correspondem a 100 MHz, no centro da banda."
+    },
+    "albatro-urlatore": {
+      "name": "Albatroz-errante",
+      "desc": "O albatroz-errante (Diomedea exulans) é uma grande ave marinha dos oceanos do sul. Sua envergadura vai de 2,5 a 3,5 m, com uma média de 3,1 m, e é considerada a maior entre as aves vivas. O corpo tem de 1,1 a 1,35 m de comprimento e pesa em média cerca de 8 kg."
+    },
+    "granchio-gigante-del-giappone": {
+      "name": "Caranguejo-aranha-gigante do Japão",
+      "desc": "O caranguejo-aranha-gigante do Japão (Macrocheira kaempferi) é o maior artrópode vivo conhecido, embora não o mais pesado. Com as patas estendidas, um adulto pode chegar perto de 4 metros de uma garra a outra, enquanto a carapaça tem apenas cerca de 37 cm de comprimento. Vive nos fundos marinhos ao largo do Japão, em média entre 150 e 300 metros de profundidade."
+    },
+    "automobile": {
+      "name": "Automóvel",
+      "desc": "Um automóvel médio de hoje tem cerca de 4,5 m de comprimento: um Volkswagen Golf, por exemplo, mede 4,28 m. Segundo a Transport & Environment, o carro novo médio vendido na Europa tinha 4,09 m de comprimento em 2000 e desde então aumenta cerca de 1,2 cm por ano. Se a tendência continuar, em 2040 chegará a 4,56 m."
+    },
+    "giraffa": {
+      "name": "Girafa",
+      "desc": "A girafa (Giraffa camelopardalis) é o mamífero mais alto do mundo e vive nas savanas africanas. Os machos chegam a cerca de 5,7 m do solo ao topo dos chifres, enquanto as fêmeas são mais baixas em 0,7–1 m."
+    },
+    "anaconda-verde": {
+      "name": "Sucuri-verde",
+      "desc": "A sucuri-verde (Eunectes murinus) é uma grande serpente constritora semiaquática da América do Sul. As fêmeas medem em média cerca de 6 m e os machos cerca de 3 m. São relatados exemplares de 9 m ou mais, com massas de até 250 kg, mas o tamanho máximo real é muito discutido."
+    },
+    "elefante-africano": {
+      "name": "Elefante-africano",
+      "desc": "O elefante-africano-da-savana (Loxodonta africana) é o maior animal terrestre vivo. O comprimento de cabeça e corpo, incluindo a tromba, vai de 6 a 7,5 m; os machos têm de 2,9 a 3,7 m de altura na cernelha e pesam em média cerca de 6.000 kg."
+    },
+    "modulo-lunare-apollo": {
+      "name": "Módulo lunar Apollo",
+      "desc": "O módulo lunar Apollo era o veículo de dois estágios, construído pela Grumman, que levava dois astronautas da órbita lunar à superfície da Lua e de volta. Com as pernas estendidas, tinha cerca de 7 m de altura e media 9,4 m na diagonal entre os pés do trem de pouso. Entre 1969 e 1972, seis módulos lunares levaram à Lua doze astronautas."
+    },
+    "saguaro": {
+      "name": "Saguaro",
+      "desc": "O saguaro (Carnegiea gigantea) é o grande cacto colunar do deserto de Sonora. Um exemplar adulto costuma passar dos 12 m e pode chegar a cerca de 15 m (50 pés), com um peso de 2 toneladas ou mais. Cresce muito lentamente: os primeiros ramos surgem em geral entre os 60 e os 75 anos e a vida média é estimada em 150–175 anos."
+    },
+    "autobus": {
+      "name": "Ônibus",
+      "desc": "Um ônibus urbano padrão de dois eixos tem cerca de 12 m de comprimento. O Mercedes-Benz Citaro, por exemplo, mede 12,14 m de comprimento, 2,55 m de largura e 3,12 m de altura."
+    },
+    "tyrannosaurus-rex": {
+      "name": "Tyrannosaurus rex",
+      "desc": "Tyrannosaurus rex é um grande dinossauro carnívoro que viveu na América do Norte no fim do Cretáceo, entre 68 e 66 milhões de anos atrás. SUE, o esqueleto do Field Museum de Chicago, mede 40,5 pés (cerca de 12,3 m) de comprimento e tem 4 m de altura no quadril. É o esqueleto de T. rex mais completo em volume ósseo, cerca de 90%, e foi descoberto em 1990 em Dakota do Sul."
+    },
+    "casa-media-negli-usa": {
+      "name": "Casa média nos EUA",
+      "desc": "Nos Estados Unidos, as casas unifamiliares concluídas em 2025 têm uma área mediana de 2.142 pés quadrados, cerca de 199 m², segundo o Census Bureau. Em um único andar, equivale a um quadrado de cerca de 14 m de lado, portanto os 15 m indicados são uma ordem de grandeza do lado maior e não um dado medido."
+    },
+    "quercia": {
+      "name": "Carvalho",
+      "desc": "O carvalho mostrado aqui é o carvalho-comum (Quercus robur), grande árvore decídua difundida na Europa. Quando adulto, tem tipicamente entre 20 e 40 m de altura. Segundo o Woodland Trust, os carvalhos do Reino Unido podem abrigar mais de 2.300 espécies diferentes."
+    },
+    "schermo-solare-del-telescopio-webb": {
+      "name": "Escudo solar do telescópio Webb",
+      "desc": "O escudo solar do telescópio espacial James Webb mede 21,2 m por 14,2 m, mais ou menos como uma quadra de tênis. É formado por cinco camadas de Kapton revestidas de alumínio: a primeira tem 0,05 mm de espessura, as outras quatro 0,025 mm. Mantém o telescópio na sombra do Sol para que possa observar no infravermelho."
+    },
+    "balenottera-azzurra": {
+      "name": "Baleia-azul",
+      "desc": "A baleia-azul (Balaenoptera musculus) é o maior animal que já viveu na Terra, segundo a NOAA. No Atlântico Norte e no Pacífico Norte chega a cerca de 27 m, enquanto na Antártida pode atingir cerca de 33 m e superar as 150 toneladas."
+    },
+    "maraapunisaurus": {
+      "name": "Maraapunisaurus",
+      "desc": "Maraapunisaurus fragillimus é um saurópode do Jurássico descrito por Edward Cope em 1878 como Amphicoelias fragillimus e reclassificado em 2018 como rebaquissaurídeo basal. É conhecido por uma única vértebra, perdida e documentada somente na publicação original. A revisão de 2018 estima uma vértebra de 2,4 m de altura e um comprimento total entre 30,3 e 32 m, muito menos que as estimativas anteriores."
+    },
+    "argentinosaurus": {
+      "name": "Argentinosaurus",
+      "desc": "Argentinosaurus é um saurópode titanossauro que viveu na Argentina no Cretáceo superior, cerca de 90 milhões de anos atrás, e foi descrito por Bonaparte e Coria em 1993. O Natural History Museum de Londres lhe atribui um comprimento de 35 m e uma massa de 70.000 kg. Está entre os maiores dinossauros conhecidos."
+    },
+    "torre-di-pisa": {
+      "name": "Torre de Pisa",
+      "desc": "É o campanário da catedral de Pisa, iniciado em 1174 e inclinado já durante a construção. A Opera della Primaziale Pisana, que a administra, indica uma altura de 58,36 m, um diâmetro externo de 15 m e um peso de 14.453 toneladas. No interior, uma escada de 273 degraus leva à cela dos sete sinos."
+    },
+    "boeing-747-8": {
+      "name": "Boeing 747-8",
+      "desc": "O Boeing 747-8 é a última versão do 747 e tem 76,3 m de comprimento, 5,6 m a mais que o 747-400. O último exemplar, um cargueiro 747-8, foi entregue à Atlas Air em 31 de janeiro de 2023. Em mais de meio século de produção, a fábrica de Everett construiu 1.574 Boeing 747."
+    },
+    "stazione-spaziale-internazionale": {
+      "name": "Estação Espacial Internacional",
+      "desc": "A Estação Espacial Internacional mede 109 m de uma extremidade à outra, quase como um campo de futebol americano. É habitada sem interrupção desde novembro de 2000. A NASA se comprometeu a utilizá-la até 2030, depois do que será reentrada de forma controlada."
+    },
+    "campo-da-football-americano": {
+      "name": "Campo de futebol americano",
+      "desc": "O regulamento da NFL prescreve um campo retangular de 360 pés de comprimento, ou seja, 109,7 m, e 160 pés de largura, cerca de 48,8 m. O comprimento inclui as duas zonas de gol, de 10 jardas de profundidade cada uma, nas laterais das 100 jardas do campo de jogo."
+    },
+    "saturn-v": {
+      "name": "Saturn V",
+      "desc": "O Saturn V é o foguete que levou os astronautas das missões Apollo à Lua. Tinha 363 pés de altura, ou seja, cerca de 110,6 m, como um edifício de 36 andares, e na decolagem desenvolvia um empuxo de 34,5 milhões de newtons. Voou de 1967 a 1973, quando o último exemplar colocou em órbita a estação Skylab."
+    },
+    "sequoia-hyperion": {
+      "name": "Sequoia Hyperion",
+      "desc": "Hyperion é uma sequoia-vermelha (Sequoia sempervirens) do Redwood National Park, na Califórnia, e é a árvore viva mais alta conhecida. Descoberta em 25 de agosto de 2006 por Chris Atkins e Michael Taylor, em 2019 media 116,07 m. A posição exata é mantida em sigilo e a área ao redor da árvore é fechada ao público."
+    },
+    "starship": {
+      "name": "Starship",
+      "desc": "A Starship é o foguete da SpaceX formado pelo propulsor Super Heavy e pela nave de mesmo nome. A versão V3, que voou pela primeira vez em 22 de maio de 2026, tem cerca de 124 m de altura e desenvolve na decolagem um empuxo de cerca de 80 meganewtons. É o foguete mais alto e mais potente já construído."
+    },
+    "grande-piramide-di-giza": {
+      "name": "Grande Pirâmide de Gizé",
+      "desc": "É a pirâmide do faraó Quéops em Gizé, no Egito, a mais alta do mundo segundo o Guinness World Records. Concluída há cerca de 4.500 anos, tinha 146,7 m de altura. A erosão e o vandalismo a reduziram para cerca de 137–138 m."
+    },
+    "dimorphos": {
+      "name": "Dimorphos",
+      "desc": "Dimorphos é a pequena lua do asteroide Didymos, com um diâmetro de cerca de 151 m. Em 26 de setembro de 2022, a sonda DART da NASA a atingiu de propósito, modificando sua órbita em torno de Didymos. A sonda europeia Hera, lançada em 7 de outubro de 2024, tem o encontro previsto para novembro de 2026, para estudar de perto os efeitos do impacto."
+    },
+    "colosseo": {
+      "name": "Coliseu",
+      "desc": "O Anfiteatro Flaviano de Roma, inaugurado pelo imperador Tito no ano 80, é o maior anfiteatro do mundo. A planta mede 189 m no eixo maior e 156 m no menor, para uma área de cerca de 2 hectares. As estimativas sobre a capacidade variam muito, de 45.000 a 87.000 espectadores."
+    },
+    "gateway-arch": {
+      "name": "Gateway Arch",
+      "desc": "É o arco revestido de aço inoxidável que se ergue em Saint Louis, no Missouri, às margens do Mississippi. Tem 630 pés de altura, ou seja, 192 m, e é igualmente largo entre as faces externas das duas pernas. Tem a forma de uma catenária invertida e o National Park Service o indica como o monumento mais alto dos Estados Unidos."
+    },
+    "oumuamua": {
+      "name": "ʻOumuamua",
+      "desc": "ʻOumuamua é o primeiro objeto interestelar observado no Sistema Solar, descoberto em 19 de outubro de 2017 pelo telescópio Pan-STARRS1, no Havaí. Nunca foi resolvido em imagem: segundo a NASA tem até 400 m de comprimento e talvez dez vezes mais comprido que largo, enquanto as medições do Spitzer limitam o diâmetro esférico equivalente a um valor entre 100 e 440 m conforme a composição hipotetizada. Seu brilho variava por um fator de 10 a cada 7,3 horas."
+    },
+    "diga-di-hoover": {
+      "name": "Represa Hoover",
+      "desc": "É uma barragem de arco-gravidade em concreto sobre o rio Colorado, na fronteira entre o Arizona e Nevada. Mede 726,4 pés, ou seja, 221,4 m, da rocha de fundação à estrada sobre a crista. O corpo da barragem contém 3,25 milhões de jardas cúbicas de concreto, cerca de 2,5 milhões de m³, lançadas entre junho de 1933 e maio de 1935."
+    },
+    "titanic": {
+      "name": "Titanic",
+      "desc": "O Titanic era um transatlântico de 269 m de comprimento, com uma arqueação bruta de 46.329 toneladas. Ao ser lançado ao mar, era o maior objeto móvel já colocado na água. Afundou em 15 de abril de 1912 depois de bater em um iceberg, e morreram cerca de 1.500 pessoas."
+    },
+    "onde-radio-am": {
+      "name": "Ondas de rádio AM",
+      "desc": "O rádio AM em ondas médias usa, segundo a norma norte-americana, a banda entre 535 e 1.705 kHz. Nessas frequências, o comprimento de onda vai de cerca de 560 m a cerca de 176 m: 300 m correspondem a 1 MHz."
+    },
+    "torre-eiffel": {
+      "name": "Torre Eiffel",
+      "desc": "A torre construída por Gustave Eiffel para a Exposição Universal de Paris de 1889 alcança hoje 330 m na ponta das antenas. A estrutura arquitetônica, sem antenas, tem 300 m de altura e uma massa de cerca de 8.000 toneladas."
+    },
+    "apophis": {
+      "name": "Apophis",
+      "desc": "Apophis é um asteroide próximo da Terra com um diâmetro médio de cerca de 340 m, descoberto em 19 de junho de 2004. Em 13 de abril de 2029 passará a cerca de 32.000 km da superfície terrestre, mais perto que muitos satélites em órbita geossíncrona, sem risco de impacto. A sonda OSIRIS-APEX da NASA foi redirecionada para estudá-lo durante a passagem."
+    },
+    "willis-tower": {
+      "name": "Willis Tower",
+      "desc": "O arranha-céu de Chicago, chamado Sears Tower até 2009, tem 442,1 m de altura até o teto e 527 m até a ponta das antenas. Ao fim das obras, em 1973 segundo a proprietária, era o edifício mais alto do mundo."
+    },
+    "international-commerce-centre": {
+      "name": "International Commerce Centre",
+      "desc": "O International Commerce Centre é um arranha-céu de escritórios e hotel em Kowloon, Hong Kong, concluído em 2010. Tem 484 m de altura e 108 andares acima do solo. Na classificação do Council on Vertical Urbanism, é o edifício mais alto de Hong Kong e o décimo terceiro do mundo."
+    },
+    "bennu": {
+      "name": "Bennu",
+      "desc": "Bennu é um asteroide próximo da Terra rico em carbono, com um diâmetro médio de cerca de 484 m e um diâmetro equatorial de cerca de 500 m. A sonda OSIRIS-REx da NASA coletou uma amostra dele em 20 de outubro de 2020 e a entregou à Terra em 24 de setembro de 2023. Gira sobre si mesmo em 4,3 horas."
+    },
+    "merdeka-118": {
+      "name": "Merdeka 118",
+      "desc": "Merdeka 118 é um arranha-céu de 118 andares em Kuala Lumpur, na Malásia, concluído em 2023. Sua altura arquitetônica, incluindo a flecha, é de 678,9 m, enquanto o andar ocupado mais alto fica a 502,8 m. Na classificação do Council on Vertical Urbanism, é o segundo edifício mais alto do mundo, depois do Burj Khalifa."
+    },
+    "burj-khalifa": {
+      "name": "Burj Khalifa",
+      "desc": "O Burj Khalifa é um arranha-céu de 163 andares em Dubai, nos Emirados Árabes Unidos, inaugurado em 4 de janeiro de 2010. Com uma altura arquitetônica de 828 m, é o edifício mais alto do mundo. O andar ocupado mais alto fica a 584,5 m do solo."
+    },
+    "cascate-dell-angelo": {
+      "name": "Salto Ángel",
+      "desc": "O Salto Ángel, ou Kerepakupai Merú, despenca do Auyán tepui, no Parque Nacional de Canaima, na Venezuela. O desnível total é de 979 m, com uma queda única de 807 m, e é registrado como a cachoeira mais alta do mundo. A medição remonta a uma expedição de 1949, e discute-se se todos os 979 m pertencem a uma única cachoeira."
+    },
+    "chilometro": {
+      "name": "Quilômetro",
+      "desc": "O quilômetro vale mil metros: o prefixo SI kilo indica o fator 10³. Uma milha terrestre corresponde a 1,609344 quilômetro."
+    },
+    "fabbrica-boeing-di-everett": {
+      "name": "Fábrica da Boeing em Everett",
+      "desc": "A principal fábrica de montagem da Boeing em Everett, no estado de Washington, é registrada como o maior edifício do mundo em volume: 13,4 milhões de m³ em 39,8 hectares de área coberta. Foi construída nos anos 1960 para produzir o 747 e desde então cresceu muito. A Boeing não divulga o comprimento do edifício, portanto o valor de cerca de 1 km aqui indicado é uma estimativa."
+    },
+    "3i-atlas": {
+      "name": "3I/ATLAS",
+      "desc": "3I/ATLAS é um cometa, o terceiro objeto interestelar conhecido, detectado em 1º de julho de 2025 pelo telescópio de rastreamento ATLAS, no Chile. O núcleo não é visível diretamente: as observações do Hubble indicam um diâmetro entre 440 m e 5,6 km, e um estudo baseado na aceleração não gravitacional o estima em torno de 1 km. Atingiu o periélio por volta de 30 de outubro de 2025, a cerca de 1,4 unidade astronômica do Sol."
+    },
+    "citta-del-vaticano": {
+      "name": "Cidade do Vaticano",
+      "desc": "A Cidade do Vaticano é um enclave na cidade de Roma, nascido com os Tratados de Latrão de 11 de fevereiro de 1929. Seu território mede no máximo 1.045 m de comprimento e 850 m de largura, para uma área de 0,44 km². É o menor Estado independente do mundo."
+    },
+    "half-dome": {
+      "name": "Half Dome",
+      "desc": "O Half Dome é uma cúpula de granodiorito no Parque Nacional de Yosemite, na Califórnia, lisa em três lados e com uma parede vertical no quarto. O cume fica a cerca de 2.680 m acima do nível do mar e se eleva pouco menos de 1.500 m acima do fundo do Yosemite Valley. Foi escalada pela primeira vez em 1875 por George Anderson e hoje se alcança com uma caminhada de 4.800 pés (cerca de 1.460 m) de desnível."
+    },
+    "miglio": {
+      "name": "Milha",
+      "desc": "A milha terrestre é uma unidade de comprimento anglo-saxônica igual a 1.609,344 metros, ou seja, 5.280 pés. Nos Estados Unidos existe também uma milha baseada no pé topográfico, mais longa em cerca de 3 milímetros."
+    },
+    "cruithne": {
+      "name": "Cruithne",
+      "desc": "Cruithne é um asteroide próximo da Terra com um diâmetro efetivo de cerca de 2,07 km, medido no infravermelho pelo satélite NEOWISE. Dá uma volta em torno do Sol em cerca de um ano, como a Terra, e visto do nosso planeta parece percorrer uma órbita em ferradura. Não é uma lua da Terra, mas um companheiro orbital dela."
+    },
+    "acceleratore-lineare-di-stanford": {
+      "name": "Acelerador linear de Stanford",
+      "desc": "O acelerador linear do SLAC National Accelerator Laboratory, na Califórnia, tem 2 milhas de comprimento, ou seja, cerca de 3,2 km, e produziu seu primeiro feixe de partículas em 21 de maio de 1966. Segundo o SLAC, é o mais longo acelerador linear já construído. Seus feixes levaram à descoberta do quark charm e do lépton tau."
+    },
+    "uluru": {
+      "name": "Uluru",
+      "desc": "Uluru, antes conhecido como Ayers Rock, é um grande monólito de arenito no Território do Norte, na Austrália, com cerca de meio bilhão de anos. Tem cerca de 3,6 km de comprimento, 348 m de altura acima da planície e uma circunferência de 9,4 km. Para os Anangu, os guardiões tradicionais, é inseparável da Tjukurpa, a lei tradicional."
+    },
+    "central-park": {
+      "name": "Central Park",
+      "desc": "O Central Park é o grande parque público no centro de Manhattan, em Nova York, projetado por Frederick Law Olmsted e Calvert Vaux e criado em 1858. Estende-se da 59th à 110th Street por cerca de 2,5 milhas, ou seja, 4 km, e cobre 843 acres, cerca de 341 hectares. Recebe cerca de 42 milhões de visitas por ano."
+    },
+    "cometa-67p": {
+      "name": "Cometa 67P",
+      "desc": "O cometa 67P/Churyumov-Gerasimenko tem um núcleo de dois lóbulos que mede 4,34 × 2,60 × 2,12 km. A sonda europeia Rosetta chegou a ele em agosto de 2014 e o acompanhou ao longo da órbita, e seu módulo Philae foi o primeiro a pousar em um cometa. A densidade média do núcleo, 533 kg/m³, é cerca de metade da da água."
+    },
+    "monte-bianco": {
+      "name": "Monte Branco",
+      "desc": "O Monte Branco é o cume mais alto dos Alpes e da Europa Ocidental, na fronteira entre a Itália e a França. A medição dos geômetras da Alta Saboia de outubro de 2026 dá 4.807,47 m, quase dois metros a mais que em 2023. A altitude muda de um levantamento para outro porque o vento e as precipitações deslocam a neve que cobre o cume."
+    },
+    "palm-jebel-ali": {
+      "name": "Palm Jebel Ali",
+      "desc": "Palm Jebel Ali é um grande projeto costeiro de Dubai, na zona de Jebel Ali, desenvolvido pela empresa Nakheel. O plano aprovado em maio de 2023 indica uma área de 13,4 km², o dobro da Palm Jumeirah, e cerca de 110 km de nova costa. A largura de cerca de 7 km aqui usada é uma estimativa indicativa: as fontes oficiais não informam um comprimento."
+    },
+    "large-hadron-collider": {
+      "name": "Large Hadron Collider",
+      "desc": "O Large Hadron Collider do CERN, perto de Genebra, é o maior e mais potente acelerador de partículas do mundo. Seu anel subterrâneo tem uma circunferência de 26.659 m, o que corresponde a um diâmetro de cerca de 8,5 km, e contém 9.593 ímãs. Entrou em funcionamento em 10 de setembro de 2008 no túnel construído originalmente para o LEP."
+    },
+    "lep": {
+      "name": "LEP",
+      "desc": "O LEP (Large Electron-Positron Collider) do CERN foi o maior acelerador de elétrons e pósitrons já construído, com uma circunferência de 27 km e, portanto, um diâmetro de cerca de 8,5 km. Entrou em serviço em julho de 1989 e foi desligado em 2 de novembro de 2000. Seu túnel abriga hoje o Large Hadron Collider."
+    },
+    "monte-everest": {
+      "name": "Monte Everest",
+      "desc": "O Everest, na fronteira entre o Nepal e a Região Autônoma do Tibete, na China, é a montanha mais alta da Terra acima do nível do mar. Seu cume está a 8.848,86 m, segundo a medição anunciada em 2020 pelos topógrafos chineses e nepaleses. A primeira escalada documentada é a de Edmund Hillary e Tenzing Norgay, em 29 de maio de 1953."
+    },
+    "fossa-delle-marianne-profondita": {
+      "name": "Fossa das Marianas (profundidade)",
+      "desc": "O Abismo Challenger, na Fossa das Marianas, é o ponto mais profundo dos mares: fica no oceano Pacífico, cerca de 300 km a sudoeste de Guam. Os mergulhos tripulados de junho de 2020 mediram 10.935 m, com uma incerteza de 6 m. As medições feitas da superfície dão valores diferentes, de 10.900 a 11.034 m."
+    },
+    "deimos": {
+      "name": "Deimos",
+      "desc": "Deimos é a menor das duas luas de Marte, descoberta em 11 de agosto de 1877 por Asaph Hall. Tem forma irregular: o eixo mais longo mede cerca de 15,6 km, contra um diâmetro médio de cerca de 12,4 km. Orbita Marte a cada cerca de 30 horas."
+    },
+    "cometa-di-halley": {
+      "name": "Cometa Halley",
+      "desc": "O cometa Halley tem um núcleo de cerca de 15 × 8 km, fotografado de perto em 1986 pela sonda europeia Giotto. Está entre os objetos mais escuros do Sistema Solar: reflete apenas 3% da luz que recebe. Percorre sua órbita em média em 76 anos e voltará a ser visível em 2061."
+    },
+    "olympus-mons-altezza": {
+      "name": "Olympus Mons (altura)",
+      "desc": "Olympus Mons é um vulcão em escudo de Marte, o maior vulcão e a montanha mais alta do Sistema Solar. O Guinness World Records indica 25 km da base ao cume, quase três vezes o Everest, mas o valor muda conforme a referência escolhida para medi-lo. Apesar da altura, tem encostas muito suaves, porque é mais de 20 vezes mais largo que alto."
+    },
+    "fobos": {
+      "name": "Fobos",
+      "desc": "Fobos é a maior das duas luas de Marte, de forma irregular: o eixo mais longo mede cerca de 26 km, contra um diâmetro médio de cerca de 22 km. Orbita tão perto do planeta que completa três voltas por dia. A missão japonesa MMX, lançada em 20 de outubro de 2026, tem como objetivo trazer amostras dele à Terra em 2031."
+    },
+    "stella-di-neutroni": {
+      "name": "Estrela de nêutrons",
+      "desc": "Uma estrela de nêutrons é o resto compacto do núcleo de uma estrela massiva que explodiu como supernova. As medições do telescópio de raios X NICER dão um raio de cerca de 12,7 km para o pulsar PSR J0030+0451 (1,34 massa solar) e de cerca de 12,4 km para PSR J0740+6620 (2,07 massas solares), com incertezas de cerca de 1 km. Mais massa que o Sol cabe, portanto, em uma esfera de cerca de 24 km de largura."
+    },
+    "future-circular-collider": {
+      "name": "Future Circular Collider",
+      "desc": "O Future Circular Collider é o acelerador proposto pelo CERN como sucessor do LHC: um anel de 90,7 km de circunferência, ou seja, cerca de 29 km de diâmetro, em um túnel a uma profundidade média de 200 m sob a França e a Suíça. O estudo de viabilidade foi publicado em 2025. Ainda não está aprovado: a decisão sobre a construção é esperada por volta de 2028."
+    },
+    "ganymed": {
+      "name": "Ganymed",
+      "desc": "(1036) Ganymed é um asteroide do tipo Amor descoberto em 1924 por Walter Baade e é considerado o maior asteroide próximo da Terra. As estimativas do diâmetro vão de cerca de 35 a cerca de 40 km conforme o método de medição. Não deve ser confundido com Ganimedes, a lua de Júpiter, e sua órbita não cruza a da Terra: o periélio está a 1,24 unidade astronômica do Sol."
+    },
+    "arrokoth": {
+      "name": "Arrokoth",
+      "desc": "Arrokoth, antes conhecido como 2014 MU69, é um pequeno objeto do cinturão de Kuiper formado por dois lóbulos em contato e com cerca de 35 km de comprimento. A sonda New Horizons o sobrevoou em 1º de janeiro de 2019: é o objeto mais distante já explorado de perto por uma sonda. Foi descoberto em 2014 com o telescópio espacial Hubble e é ainda mais vermelho que Plutão."
+    },
+    "maratona": {
+      "name": "Maratona",
+      "desc": "A maratona é a prova de corrida mais longa do programa olímpico: 42,195 km, ou 26 milhas e 385 jardas. A distância remonta aos Jogos de Londres de 1908, quando o percurso foi alongado para que partisse do castelo de Windsor. Foi fixada como padrão em 1921."
+    },
+    "nix": {
+      "name": "Nix",
+      "desc": "Nix é uma pequena lua de Plutão, descoberta em 2005 com o telescópio espacial Hubble. As imagens da New Horizons de 2015 mostram um corpo alongado de cerca de 50 × 35 × 33 km. Sua superfície é muito reflexiva, com um albedo geométrico de cerca de 0,56, e gira em cerca de 1,8 dia sem mostrar sempre a mesma face a Plutão."
+    },
+    "idra": {
+      "name": "Hidra",
+      "desc": "Hidra é a mais externa das duas luas de Plutão descobertas em 2005 com o telescópio espacial Hubble. É um corpo alongado de cerca de 62 × 37 × 29 km, medido graças ao sobrevoo da New Horizons em 2015. Gira sobre si mesma em cerca de 10 horas, muito mais depressa que os 38 dias que leva para completar uma órbita, e tem uma superfície clara com albedo de cerca de 0,83."
+    },
+    "bianca": {
+      "name": "Bianca",
+      "desc": "Bianca é uma das pequenas luas internas de Urano, com um diâmetro de cerca de 51–54 km. Foi descoberta em 23 de janeiro de 1986 nas imagens da sonda Voyager 2, junto com outros nove satélites do planeta. É um corpo escuro, que reflete apenas cerca de 7% da luz que recebe."
+    },
+    "buco-nero-stellare": {
+      "name": "Buraco negro estelar",
+      "desc": "Um buraco negro de massa estelar nasce do colapso do núcleo de uma estrela muito massiva. O exemplo mostrado aqui tem 10 massas solares: o raio de Schwarzschild vale cerca de 2,95 km por massa solar, portanto o horizonte de eventos tem um diâmetro de cerca de 59 km. Segundo a NASA, as massas desses objetos vão de poucas a centenas de vezes a do Sol."
+    },
+    "rhode-island": {
+      "name": "Rhode Island",
+      "desc": "Rhode Island é o menor dos Estados Unidos: tem cerca de 48 milhas de comprimento, ou seja, 77 km, e 37 milhas de largura, cerca de 60 km. Fica no nordeste do país, entre Massachusetts, Connecticut e o oceano Atlântico, com capital em Providence. É um dos 13 estados originais."
+    },
+    "belinda": {
+      "name": "Belinda",
+      "desc": "Belinda é uma pequena lua interna de Urano, com um diâmetro médio de cerca de 90 km. Foi descoberta em 13 de janeiro de 1986 nas imagens da sonda Voyager 2 e é um dos dez satélites de Urano encontrados pela missão. Sua superfície é escura e reflete cerca de 7% da luz."
+    },
+    "brunei": {
+      "name": "Brunei",
+      "desc": "Brunei é um pequeno sultanato na costa noroeste da ilha de Bornéu, com capital em Bandar Seri Begawan e uma área de 5.765 km². É cercado pelo estado malaio de Sarawak, que com uma faixa de território o divide em duas partes. A extensão de cerca de 120 km aqui usada é uma estimativa indicativa, não uma medida oficial."
+    },
+    "galatea": {
+      "name": "Galateia",
+      "desc": "Galateia é uma pequena lua interna de Netuno de forma irregular: o eixo mais longo mede cerca de 204 km, contra um diâmetro médio de cerca de 176 km. Foi descoberta em julho de 1989 pela equipe científica da sonda Voyager 2. Acredita-se que sua gravidade perturbe os anéis de Netuno."
+    },
+    "gaia-bh3": {
+      "name": "Gaia BH3",
+      "desc": "Gaia BH3 é um buraco negro dormente em um sistema binário a cerca de 1900 anos-luz da Terra, identificado nos dados astrométricos do satélite Gaia e anunciado em 2024. Sua massa, obtida da órbita da estrela companheira, é de 32,7 massas solares. No momento da descoberta, era o buraco negro de origem estelar mais massivo conhecido na Via Láctea."
+    },
+    "psyche": {
+      "name": "Psyche",
+      "desc": "(16) Psyche é um grande asteroide rico em metal do cinturão principal, com uma forma irregular parecida com uma batata. No ponto mais largo mede cerca de 278 km, contra um diâmetro equivalente de cerca de 222 km. A sonda Psyche da NASA, lançada em 13 de outubro de 2023, deve iniciar sua missão em torno do asteroide em agosto de 2029."
+    },
+    "ruanda": {
+      "name": "Ruanda",
+      "desc": "Ruanda é um pequeno país sem litoral da África centro-oriental, com uma área de 26.338 km². No ponto de máxima extensão, de nordeste a sudoeste, mede cerca de 248 km, enquanto na direção perpendicular chega a 166 km. É chamado de \"o País das Mil Colinas\" e seu território sobe de 950 a 4.500 metros de altitude."
+    },
+    "nereide": {
+      "name": "Nereida",
+      "desc": "Nereida é uma das luas mais externas de Netuno, descoberta por Gerard Kuiper em 1º de maio de 1949. Seu diâmetro é estimado em cerca de 357 km pelas medições térmicas dos telescópios Spitzer e Herschel, perto dos 340 km obtidos pela sonda Voyager 2. Sua órbita está entre as mais excêntricas das luas do sistema solar, com excentricidade 0,75, e leva 360 dias para ser percorrida."
+    },
+    "mimas": {
+      "name": "Mimas",
+      "desc": "Mimas é a menor e a mais interna das luas maiores de Saturno, com um diâmetro médio de cerca de 396 km. A cratera Herschel, com 130 km de largura, cobre um terço do seu diâmetro. Um estudo publicado na Nature em 2024, baseado nos dados da sonda Cassini, indica que sob a crosta gelada se esconde um oceano global formado há menos de 25 milhões de anos."
+    },
+    "west-virginia": {
+      "name": "Virgínia Ocidental",
+      "desc": "A Virgínia Ocidental é um estado dos EUA na região dos Montes Apalaches, com capital em Charleston e uma área de cerca de 62.760 km². De leste a oeste estende-se por 265 milhas, ou seja, cerca de 426 km, e de norte a sul por no máximo 381 km. Tem uma das formas mais irregulares entre os estados americanos, com dois estreitos prolongamentos de território ao norte e a leste."
+    },
+    "grand-canyon": {
+      "name": "Grand Canyon",
+      "desc": "O Grand Canyon é a garganta escavada pelo rio Colorado no planalto do Arizona. Medido ao longo do rio, de Lees Ferry às Grand Wash Cliffs, tem 277 milhas de comprimento, ou seja, 446 km. Em média tem 16 km de largura de uma borda a outra e cerca de 1,6 km de profundidade."
+    },
+    "miranda": {
+      "name": "Miranda",
+      "desc": "Miranda é a menor das cinco luas maiores de Urano, com um diâmetro médio de cerca de 472 km, e foi descoberta por Gerard Kuiper em 1948. A sonda Voyager 2, em 1986, revelou uma superfície muito variada, marcada por grandes cânions de falha. A escarpa Verona Rupes, a mais alta conhecida no sistema solar, é estimada em cerca de 20 km de profundidade."
+    },
+    "encelado": {
+      "name": "Encélado",
+      "desc": "Encélado é uma lua gelada de Saturno com um diâmetro médio de cerca de 504 km. Do polo sul, jatos semelhantes a gêiseres lançam no espaço vapor de água e grãos de gelo provenientes de um oceano subterrâneo. Nos dados da sonda Cassini foram encontradas moléculas orgânicas complexas e, em 2023, fosfatos."
+    },
+    "vesta": {
+      "name": "Vesta",
+      "desc": "Vesta é o segundo corpo mais massivo do cinturão principal de asteroides, depois de Ceres: mede cerca de 569 × 555 × 453 km, com um diâmetro médio de cerca de 525 km. A sonda Dawn da NASA a orbitou de 16 de julho de 2011 a 5 de setembro de 2012. A cratera Rheasilvia, com cerca de 500 km de largura, é quase tão grande quanto o próprio asteroide."
+    },
+    "dysnomia": {
+      "name": "Dysnomia",
+      "desc": "Dysnomia é a única lua conhecida do planeta anão Éris. Seu diâmetro não é medido diretamente: um modelo térmico baseado em dados do radiotelescópio ALMA dá 615 km, com um intervalo de 565 a 675 km, enquanto a estimativa anterior dos mesmos autores era de 700 ± 115 km. A superfície é muito escura, com um albedo de cerca de 0,05."
+    },
+    "cerere": {
+      "name": "Ceres",
+      "desc": "Ceres é o maior corpo do cinturão de asteroides entre Marte e Júpiter e o único planeta anão do Sistema Solar interno, com um diâmetro médio de cerca de 939 km. Foi descoberta por Giuseppe Piazzi em 1801. Em 2015, a sonda Dawn da NASA chegou a ela, tornando-a o primeiro planeta anão visitado por uma nave espacial."
+    },
+    "megametro": {
+      "name": "Megâmetro",
+      "desc": "O megâmetro vale um milhão de metros, ou seja, mil quilômetros: o prefixo SI mega indica o fator 10⁶. O diâmetro equatorial da Terra, 12.756 quilômetros, corresponde a cerca de 12,8 megâmetros."
+    },
+    "sedna": {
+      "name": "Sedna",
+      "desc": "Sedna é um objeto transnetuniano de órbita muito alongada, que mesmo no ponto mais próximo do Sol fica a cerca de 76 unidades astronômicas. Nunca foi resolvida em imagem: as medições térmicas do telescópio espacial Herschel dão um diâmetro de 995 ± 80 km, portanto entre cerca de 915 e 1.075 km. Quando foi descoberta, em 2003, era o objeto mais distante já observado no Sistema Solar."
+    },
+    "quaoar": {
+      "name": "Quaoar",
+      "desc": "Quaoar é um planeta anão além da órbita de Netuno, a quase 44 vezes a distância Terra-Sol, com um raio estimado de 555 km, ou seja, um diâmetro de cerca de 1.110 km. Em 2023 foi anunciado um anel denso a quase sete vezes e meia o raio de Quaoar, muito além do limite de Roche. Segundo a teoria clássica, a essa distância o material deveria ter se agregado em uma pequena lua."
+    },
+    "italia": {
+      "name": "Itália",
+      "desc": "A Itália é uma península em forma de bota que se alonga no Mediterrâneo por cerca de 1.185 km de noroeste a sudeste, com uma largura máxima de 381 km. Incluindo a Sicília e a Sardenha, sua área é de cerca de 301.000 km². Entre a Vetta d'Italia, nos Alpes, e a costa meridional de Lampedusa há cerca de 11 graus e meio de latitude, equivalentes a quase 1.290 km."
+    },
+    "caronte": {
+      "name": "Caronte",
+      "desc": "Caronte é a maior das cinco luas de Plutão, com um diâmetro de cerca de 1.212 km. É cerca de metade do tamanho de Plutão: nenhum outro satélite conhecido é tão grande em relação ao seu planeta. Os dois corpos mostram sempre a mesma face um ao outro e Caronte completa uma órbita em 6,4 dias terrestres."
+    },
+    "gonggong": {
+      "name": "Gonggong",
+      "desc": "Gonggong, antes conhecido como 2007 OR10, é um grande objeto transnetuniano descoberto em Palomar em 17 de julho de 2007. As medições térmicas combinadas com a órbita da sua lua Xiangliu dão um diâmetro de 1.230 ± 50 km. Com uma massa de 1,75 × 10²¹ kg, resulta o quinto planeta anão em massa, depois de Éris, Plutão, Haumea e Makemake."
+    },
+    "california": {
+      "name": "Califórnia",
+      "desc": "A Califórnia é um estado dos EUA voltado para o oceano Pacífico, entre o Oregon ao norte e o México ao sul, com capital em Sacramento. Sua extensão máxima de norte a sul é de cerca de 780 milhas, ou seja, em torno de 1.250 km, enquanto de leste a oeste mede cerca de 560 km. É o terceiro estado americano em área e o primeiro em população."
+    },
+    "texas": {
+      "name": "Texas",
+      "desc": "O Texas é um estado do sul dos EUA, o mais extenso da federação depois do Alasca, com capital em Austin. A distância máxima em linha reta é de 801 milhas, cerca de 1.290 km, do canto noroeste do Panhandle até o Rio Grande abaixo de Brownsville. De leste a oeste, entre o rio Sabine e os arredores de El Paso, mede 773 milhas, cerca de 1.244 km."
+    },
+    "makemake": {
+      "name": "Makemake",
+      "desc": "Makemake é um planeta anão do cinturão de Kuiper com um diâmetro de cerca de 1.430 km. Uma ocultação estelar observada em 2011 mostrou uma forma ligeiramente achatada, com eixos de 1.430 ± 9 km e 1.502 ± 45 km, e nenhuma atmosfera global como a de Plutão. Visto da Terra, é o segundo objeto mais brilhante do cinturão de Kuiper depois de Plutão."
+    },
+    "haumea": {
+      "name": "Haumea",
+      "desc": "Haumea é um planeta anão do cinturão de Kuiper de forma muito alongada: o eixo maior mede pelo menos 2.322 km, enquanto a esfera de mesmo volume tem um diâmetro de cerca de 1.595 km. Gira sobre si mesma em 3,9 horas, uma das rotações mais rápidas entre os grandes corpos do Sistema Solar. Em 2017, uma ocultação estelar revelou um anel de 70 km de largura com raio de cerca de 2.287 km."
+    },
+    "titania": {
+      "name": "Titânia",
+      "desc": "Titânia é a maior lua de Urano, com um diâmetro médio de cerca de 1.578 km. A sonda Voyager 2 fotografou nela um sistema de vales de falha com até cerca de 1.600 km de comprimento, sinal de uma antiga atividade geológica."
+    },
+    "grande-barriera-corallina": {
+      "name": "Grande Barreira de Corais",
+      "desc": "A Grande Barreira de Corais é o maior sistema de recifes de coral do mundo e fica no Mar de Coral, ao largo de Queensland, na Austrália. Estende-se por 1.429 milhas, ou seja, cerca de 2.300 km, e é formada por quase 3.000 recifes distintos. Grande parte da sua área é protegida por um parque marinho gerido por uma autoridade australiana."
+    },
+    "eris": {
+      "name": "Éris",
+      "desc": "Éris é um planeta anão além da órbita de Netuno. A ocultação de uma estrela observada em 2010 deu um diâmetro de 2.326 km, com uma incerteza de 12 km: cerca de 50 km menos que Plutão. Sua massa, porém, é 27% maior que a de Plutão."
+    },
+    "plutone": {
+      "name": "Plutão",
+      "desc": "Plutão é um planeta anão do cinturão de Kuiper, com um diâmetro de cerca de 2.377 km, igual a cerca de dois terços do da Lua. A única sonda que o visitou de perto é a New Horizons da NASA, que o sobrevoou em 14 de julho de 2015."
+    },
+    "tritone": {
+      "name": "Tritão",
+      "desc": "Tritão é a maior lua de Netuno, com um diâmetro médio de cerca de 2.705 km. É a única grande lua do Sistema Solar com órbita retrógrada, ou seja, percorrida em sentido oposto ao da rotação do planeta. Sua crosta é feita de nitrogênio congelado."
+    },
+    "europa": {
+      "name": "Europa",
+      "desc": "Europa é uma das quatro luas galileanas de Júpiter, com um diâmetro médio de cerca de 3.122 km, pouco menos que o da Lua. A sonda Europa Clipper da NASA, lançada em 14 de outubro de 2024, chegará a Júpiter em abril de 2030 e fará 49 sobrevoos próximos de Europa."
+    },
+    "luna": {
+      "name": "Lua",
+      "desc": "A Lua é o único satélite natural da Terra, com um diâmetro médio de cerca de 3.475 km. A missão Artemis II, lançada em 1º de abril de 2026 e de volta em 10 de abril, levou quatro astronautas em torno da Lua: para a NASA, é o primeiro sobrevoo lunar tripulado em 50 anos."
+    },
+    "io": {
+      "name": "Io",
+      "desc": "Io é a mais interna das quatro luas galileanas de Júpiter, com um diâmetro médio de cerca de 3.643 km, pouco mais que a Lua. É o corpo com a maior atividade vulcânica do Sistema Solar: tem centenas de vulcões, alimentados pelas marés provocadas por Júpiter e pelas luas vizinhas."
+    },
+    "larghezza-degli-stati-uniti": {
+      "name": "Largura dos Estados Unidos",
+      "desc": "É a distância de costa a costa atravessando os 48 estados contíguos dos EUA. Segundo o Serviço Geológico dos Estados Unidos, de West Quoddy Head, no Maine, até o Pacífico, ao longo do paralelo, são 2.742 milhas, cerca de 4.413 km. Os dois pontos mais distantes entre si, West Quoddy Head e Point Arena, na Califórnia, distam 2.892 milhas, cerca de 4.654 km."
+    },
+    "callisto": {
+      "name": "Calisto",
+      "desc": "Calisto é a segunda lua de Júpiter em tamanho e a terceira do Sistema Solar, com um diâmetro médio de cerca de 4.821 km. Segundo a NASA, é o objeto mais craterizado do Sistema Solar. Os dados da sonda Galileo indicam que pode esconder um oceano salgado sob a superfície."
+    },
+    "mercurio": {
+      "name": "Mercúrio",
+      "desc": "Mercúrio é o planeta mais próximo do Sol, com um diâmetro médio de cerca de 4.879 km. A sonda BepiColombo da ESA e da JAXA, lançada em 20 de outubro de 2018, foi projetada para estudá-lo a partir da órbita. O plano de missão da ESA fixa a entrada em órbita em 21 de novembro de 2026 e o início das observações científicas em abril de 2027."
+    },
+    "titano": {
+      "name": "Titã",
+      "desc": "Titã é a maior lua de Saturno, com um diâmetro médio de cerca de 5.150 km. É a única lua do Sistema Solar com uma atmosfera densa e o único lugar além da Terra com líquidos estáveis na superfície, na forma de lagos e mares de hidrocarbonetos. O lançamento do drone Dragonfly da NASA está previsto para não antes de julho de 2028, com chegada no fim de 2034."
+    },
+    "ganimede": {
+      "name": "Ganimedes",
+      "desc": "Ganimedes, lua de Júpiter, é a maior do Sistema Solar: com um diâmetro médio de cerca de 5.262 km supera até o planeta Mercúrio. É a única lua com um campo magnético próprio. A sonda Juice da ESA, lançada em 14 de abril de 2023, chegará a Júpiter em julho de 2031 e concluirá a missão em órbita em torno de Ganimedes."
+    },
+    "marte": {
+      "name": "Marte",
+      "desc": "Marte é o quarto planeta a partir do Sol, um mundo rochoso com um diâmetro médio de cerca de 6.779 km, pouco mais da metade do terrestre, e duas pequenas luas, Fobos e Deimos. Seu dia dura 24,66 horas, quase como o nosso, e a pressão no solo é de apenas 6,36 milibares."
+    },
+    "asia": {
+      "name": "Ásia",
+      "desc": "A Ásia é a mais vasta das partes do mundo, com uma área de cerca de 44,6 milhões de km² incluindo as águas interiores. A terra firme se estende por mais de 75 graus de latitude, do Cabo Chelyuskin, na Sibéria, ao Cabo Piai, na península Malaia, ou seja, por cerca de 8.500 km de norte a sul. Ali estão as montanhas mais altas da Terra, entre elas o Everest."
+    },
+    "trappist-1-e": {
+      "name": "TRAPPIST-1 e",
+      "desc": "TRAPPIST-1 e é um exoplaneta rochoso a cerca de 40 anos-luz da Terra, com um raio igual a 0,92 vez o terrestre, ou seja, um diâmetro de cerca de 11.700 km. Orbita em 6,1 dias uma anã vermelha, a uma distância em que a água líquida na superfície é teoricamente possível se o planeta tiver uma atmosfera. O telescópio Webb o está observando: os primeiros quatro trânsitos indicam que ele não conserva a atmosfera primária de hidrogênio e hélio, enquanto permanece aberta a possibilidade de uma atmosfera secundária."
+    },
+    "sirio-b": {
+      "name": "Sirius B",
+      "desc": "Sirius B é a anã branca mais próxima e mais brilhante do céu, companheira de Sirius A, em torno da qual orbita em 50,13 anos. Tem uma massa de 1,018 massa solar e um raio de cerca de 0,0081 raio solar, ou seja, um diâmetro de 11.300–11.700 km, um pouco menos que o da Terra. Uma massa igual à do Sol está, portanto, comprimida em um volume menor que o do nosso planeta."
+    },
+    "venere": {
+      "name": "Vênus",
+      "desc": "Vênus é o segundo planeta a partir do Sol e tem um diâmetro médio de cerca de 12.104 km, 95% do da Terra. Sua atmosfera densa produz no solo uma pressão de 92 bar e uma temperatura média de 464 °C. Gira em sentido retrógrado e muito lentamente: um dia solar dura cerca de 117 dias terrestres."
+    },
+    "terra": {
+      "name": "Terra",
+      "desc": "A Terra é o terceiro planeta a partir do Sol e o maior dos quatro planetas rochosos, com um diâmetro médio de cerca de 12.742 km. Não é uma esfera perfeita: o raio equatorial mede 6.378,1 km e o polar 6.356,8 km, uma diferença de cerca de 21 km. Tem uma temperatura média de 15 °C e um único satélite natural, a Lua."
+    },
+    "grande-muraglia-cinese": {
+      "name": "Grande Muralha da China",
+      "desc": "A Grande Muralha é um conjunto de fortificações construídas na China por diferentes dinastias ao longo de mais de 2.000 anos. Em junho de 2012, a Administração Estatal do Patrimônio Cultural fixou seu comprimento oficial, incluindo as ramificações, em 21.196,18 km. A estimativa anterior de 8.851,8 km dizia respeito apenas às muralhas da dinastia Ming."
+    },
+    "k2-18-b": {
+      "name": "K2-18 b",
+      "desc": "K2-18 b é um planeta sub-Netuno a 120 anos-luz da Terra, com uma massa 8,6 vezes a terrestre e um raio estimado entre 2,37 e 2,6 raios terrestres, ou seja, um diâmetro entre cerca de 30.000 e 33.000 km. Em 2023, o telescópio Webb detectou metano e dióxido de carbono em sua atmosfera. O possível sinal de dimetilsulfeto, proposto como bioassinatura em 2025, não está confirmado: uma análise conjunta de todos os dados do Webb não encontrou provas estatísticas suficientes."
+    },
+    "nettuno": {
+      "name": "Netuno",
+      "desc": "Netuno é o oitavo planeta do Sistema Solar e o mais distante do Sol, um gigante com um diâmetro médio de cerca de 49.244 km no nível de pressão de 1 bar, quase quatro vezes o terrestre. Leva cerca de 165 anos para completar uma órbita e tem 16 luas conhecidas. Em sua atmosfera foram medidos ventos de até 580 m/s, mais de 2.000 km/h."
+    },
+    "urano": {
+      "name": "Urano",
+      "desc": "Urano é o sétimo planeta a partir do Sol, um gigante com um diâmetro médio de cerca de 50.724 km no nível de pressão de 1 bar, quatro vezes o terrestre. Seu eixo de rotação é inclinado 97,77° em relação à órbita, portanto o planeta gira quase deitado de lado. Leva 84 anos para completar uma órbita e tem 28 luas conhecidas."
+    },
+    "mondo-di-minecraft": {
+      "name": "Mundo de Minecraft",
+      "desc": "No Minecraft Java Edition, o mundo jogável é um quadrado delimitado pela borda do mundo, com no máximo 59.999.968 blocos de largura, ou seja, cerca de 60 milhões. Cada bloco equivale a um metro, portanto o mundo mede cerca de 60.000 km por lado. O limite é uma escolha do software e vale apenas para esta edição do jogo."
+    },
+    "orbita-geostazionaria": {
+      "name": "Órbita geoestacionária",
+      "desc": "Um satélite a 42.164 km do centro da Terra, ou seja, a cerca de 36.000 km de altitude, leva 23 horas, 56 minutos e 4 segundos para uma órbita: exatamente uma rotação da Terra. O diâmetro da órbita é, portanto, de cerca de 84.300 km. Visto da Terra, um satélite geoestacionário sobre o equador fica parado no mesmo ponto do céu, algo útil para a meteorologia e as telecomunicações."
+    },
+    "saturno": {
+      "name": "Saturno",
+      "desc": "Saturno é o sexto planeta a partir do Sol e o segundo em tamanho, com um diâmetro médio de cerca de 116.460 km no nível de pressão de 1 bar, sem contar os anéis. É muito achatado nos polos: o diâmetro equatorial é de 120.536 km, o polar de 108.728 km. Sua densidade média, 687 kg/m³, é inferior à da água, e a ficha da NASA lhe atribui 274 luas."
+    },
+    "eblm-j0555-57ab": {
+      "name": "EBLM J0555-57Ab",
+      "desc": "EBLM J0555-57Ab é uma pequena estrela que eclipsa uma companheira parecida com o Sol a cada 7,8 dias, descrita em 2017. Tem uma massa de cerca de 85 vezes a de Júpiter (0,081 massa solar) e um raio de 0,084 raio solar, portanto um diâmetro de cerca de 117.000 km, comparável ao de Saturno. Sua massa está próxima do limite mínimo para a fusão do hidrogênio."
+    },
+    "gliese-229-b": {
+      "name": "Gliese 229 B",
+      "desc": "Gliese 229 B, descoberta em 1995 em torno de uma anã vermelha a 5,76 parsecs, é a primeira anã marrom do tipo T conhecida. Em 2024 viu-se que é um par, Gliese 229 Ba e Bb, de 38,1 e 34,4 massas de Júpiter, que se orbitam a cada 12,1 dias a 0,042 unidade astronômica. Os raios dos dois componentes não foram medidos: as estimativas feitas quando era considerada um único objeto vão de cerca de 0,94 a 1,1 raio de Júpiter."
+    },
+    "giove": {
+      "name": "Júpiter",
+      "desc": "Júpiter é o quinto planeta a partir do Sol e o maior do Sistema Solar, com um diâmetro médio de cerca de 139.820 km no nível de pressão de 1 bar, quase onze vezes o terrestre. Sua massa é 318 vezes a da Terra. Gira muito depressa, com um dia de apenas 9,93 horas, e tem 95 luas conhecidas."
+    },
+    "trappist-1": {
+      "name": "TRAPPIST-1",
+      "desc": "TRAPPIST-1 é uma anã vermelha ultrafria em torno da qual orbitam sete planetas conhecidos. Seu raio é 0,1192 raio solar, ou seja, um diâmetro de cerca de 166.000 km, pouco mais que o de Júpiter. As densidades dos sete planetas são compatíveis com uma composição rochosa."
+    },
+    "wolf-359": {
+      "name": "Wolf 359",
+      "desc": "Wolf 359 é uma anã vermelha do tipo M6 a cerca de 7,9 anos-luz, entre as estrelas mais próximas do Sol. Tem um raio de 0,144 raio solar, ou seja, um diâmetro de cerca de 200.000 km, e uma massa de 0,110 massa solar. A temperatura superficial é de cerca de 2.750 kelvin, menos da metade da do Sol."
+    },
+    "proxima-centauri": {
+      "name": "Proxima Centauri",
+      "desc": "Proxima Centauri é a estrela mais próxima do Sol, a cerca de 4,2 anos-luz, e está ligada gravitacionalmente ao par Alfa Centauri A e B com uma órbita de cerca de 550.000 anos. O raio adotado é 0,154 raio solar, ou seja, um diâmetro de cerca de 215.000 km, enquanto a medição interferométrica direta dá 0,141 raio solar (cerca de 196.000 km). Sua massa é cerca de 12% da do Sol."
+    },
+    "tres-4-b": {
+      "name": "TrES-4 b",
+      "desc": "TrES-4 b é um Júpiter quente descoberto em 2007, que orbita sua estrela em 3,55 dias. Tem uma massa inferior à de Júpiter, mas um raio estimado entre 1,61 e 1,78 raio de Júpiter conforme as diferentes análises, ou seja, um diâmetro entre cerca de 230.000 e 255.000 km. No momento da descoberta, era o planeta em trânsito com o maior raio e a menor densidade conhecidos."
+    },
+    "anelli-di-saturno": {
+      "name": "Anéis de Saturno",
+      "desc": "Os anéis principais de Saturno (C, B e A) chegam a 136.780 km do centro do planeta, para um diâmetro de cerca de 273.600 km. Contando também o fino anel F, a 139.826 km, chega-se a cerca de 280.000 km. A espessura típica dos anéis principais é, por outro lado, de apenas cerca de 10 metros."
+    },
+    "distanza-terra-luna": {
+      "name": "Distância Terra–Lua",
+      "desc": "A Lua orbita a uma distância média de 384.400 km da Terra, medida entre os centros dos dois corpos. A órbita é elíptica: a distância varia de cerca de 363.300 km no perigeu a 405.500 km no apogeu. As medições a laser nos refletores deixados pelas missões Apollo mostram que a Lua se afasta 3,8 cm por ano."
+    },
+    "stella-di-kapteyn": {
+      "name": "Estrela de Kapteyn",
+      "desc": "A estrela de Kapteyn é uma anã vermelha pobre em metais a 3,91 parsecs (cerca de 12,8 anos-luz) e é a estrela do halo galáctico mais próxima do Sol. Seu raio medido é 0,291 raio solar, ou seja, um diâmetro de cerca de 405.000 km. Pela cinemática de estrela do halo e pela baixa metalicidade, atribui-se a ela uma idade superior a 10 bilhões de anos."
+    },
+    "stella-di-luyten": {
+      "name": "Estrela de Luyten",
+      "desc": "A estrela de Luyten (GJ 273) é uma anã vermelha do tipo M3,5 a cerca de 12,4 anos-luz do Sol. Tem um raio de 0,319 raio solar, ou seja, um diâmetro de cerca de 444.000 km, e uma massa de cerca de 0,30 massa solar. Sua temperatura superficial é de cerca de 3.300 kelvin."
+    },
+    "gliese-229-a": {
+      "name": "Gliese 229 A",
+      "desc": "Gliese 229 A é uma anã vermelha do tipo M1 a 5,76 parsecs (cerca de 18,8 anos-luz) do Sol, com uma massa de 0,579 massa solar. Seu raio é estimado em 0,53 ± 0,05 raio solar, ou seja, um diâmetro de cerca de 740.000 km com uma margem de cerca de 70.000 km. Em torno dela orbita Gliese 229 B, a primeira anã marrom do tipo T descoberta."
+    },
+    "gigametro": {
+      "name": "Gigâmetro",
+      "desc": "O gigâmetro vale um bilhão de metros, ou seja, um milhão de quilômetros: o prefixo SI giga indica o fator 10⁹. O diâmetro do Sol é de cerca de 1,4 gigâmetro. A distância média entre a Terra e o Sol é de cerca de 150 gigâmetros."
+    },
+    "alfa-centauri-b": {
+      "name": "Alfa Centauri B",
+      "desc": "Alfa Centauri B é uma estrela laranja do tipo K1, o componente menor do par Alfa Centauri, o sistema de tipo solar mais próximo de nós. As medições interferométricas do VLTI dão um diâmetro angular de 5,999 milésimos de segundo de arco e um raio de 0,8632 raio solar, ou seja, um diâmetro de cerca de 1,2 milhão de km. A companheira Alfa Centauri A é maior, com 1,2234 raio solar."
+    },
+    "sole": {
+      "name": "Sol",
+      "desc": "O Sol é a estrela do Sistema Solar. O raio solar nominal fixado pela União Astronômica Internacional em 2015 é 695.700 km, portanto o diâmetro é 1.391.400 km. É um valor convencional exato, usado como unidade para as outras estrelas, baseado em uma medição do raio fotosférico de 695.658 ± 140 km."
+    },
+    "distanza-del-telescopio-webb": {
+      "name": "Distância do telescópio Webb",
+      "desc": "O telescópio espacial James Webb não orbita a Terra, mas o Sol, a 1,5 milhão de km do nosso planeta, junto ao segundo ponto de Lagrange (L2). De lá permanece alinhado com a Terra enquanto esta gira em torno do Sol, de modo que o grande escudo solar pode proteger o telescópio da luz e do calor do Sol, da Terra e da Lua. Para chegar a essa posição, levou cerca de 30 dias."
+    },
+    "alfa-centauri-a": {
+      "name": "Alfa Centauri A",
+      "desc": "Alfa Centauri A é a estrela principal do sistema triplo mais próximo do Sol, a cerca de 4 anos-luz. Seu raio, medido com o interferômetro VLTI, é 1,2234 vez o do Sol, igual a um diâmetro de cerca de 1,7 milhão de km. Em 2025, o telescópio Webb observou nela um candidato a planeta gigante gasoso, ainda não confirmado."
+    },
+    "sirio-a": {
+      "name": "Sirius A",
+      "desc": "Sirius A é a estrela mais brilhante do céu noturno, na constelação do Cão Maior. Seu diâmetro, medido com o interferômetro VLTI, é 1,711 vez o do Sol, ou seja, cerca de 2,38 milhões de km. Em torno dela orbita Sirius B, uma anã branca menor que a Terra, mas com 98% da massa do Sol."
+    },
+    "altair": {
+      "name": "Altair",
+      "desc": "Altair é a estrela mais luminosa da Águia e gira tão depressa que é achatada nos polos. O interferômetro CHARA registrou sua superfície: o raio vale 1,634 raio solar nos polos e 2,029 no equador, ou seja, diâmetros de cerca de 2,27 e 2,82 milhões de km. O valor mostrado, 2,5 milhões de km, é um meio-termo entre os dois."
+    },
+    "procione": {
+      "name": "Prócion",
+      "desc": "Prócion A é uma estrela do tipo F5 no Cão Menor, entre as mais próximas do Sol. Seu diâmetro, medido com o interferômetro VLTI, é 2,048 vezes o do Sol, ou seja, cerca de 2,85 milhões de km. Segundo os modelos, está terminando a fase de sequência principal, com uma idade de cerca de 2,3 bilhões de anos."
+    },
+    "vega": {
+      "name": "Vega",
+      "desc": "Vega, na Lira, é uma estrela do tipo A0 usada por muito tempo como referência para medir a luminosidade das outras estrelas. Gira rapidamente e a vemos quase de um polo: o raio vale 2,418 raios solares nos polos e 2,726 no equador, para um diâmetro médio de cerca de 3,6 milhões de km. Sua idade é estimada em torno de 700 milhões de anos."
+    },
+    "regolo": {
+      "name": "Régulo",
+      "desc": "Régulo é a estrela principal do Leão, do tipo B7. Gira a 96% da velocidade crítica, tanto que o raio equatorial (4,21 raios solares) supera em cerca de 30% o polar (3,22): o diâmetro vai de 4,5 a 5,9 milhões de km, com uma média de cerca de 5,2. Os polos são mais de 3000 K mais quentes que o equador."
+    },
+    "perielio-della-parker-solar-probe": {
+      "name": "Periélio da Parker Solar Probe",
+      "desc": "Em 24 de dezembro de 2024, a sonda Parker Solar Probe da NASA passou a 3,8 milhões de milhas, cerca de 6,1 milhões de km, da superfície do Sol: quase 6,9 milhões de km do seu centro. Naquele momento viajava a cerca de 692.000 km/h, ou seja, 192 km/s. Segundo a NASA, é a velocidade mais alta já alcançada por um objeto construído pelo ser humano."
+    },
+    "spica": {
+      "name": "Spica",
+      "desc": "Spica, na Virgem, é um sistema binário próximo de duas estrelas quentes e massivas. A primária tem um raio de 7,47 ± 0,54 raios solares, ou seja, um diâmetro de cerca de 10,4 milhões de km, e uma massa de cerca de 11,4 massas solares. É uma variável pulsante do tipo Beta Cephei e o sistema tem uma idade estimada de 12,5 milhões de anos."
+    },
+    "pollux": {
+      "name": "Pollux",
+      "desc": "Pollux, em Gêmeos, é uma gigante laranja do tipo K em torno da qual orbita um planeta. O diâmetro angular medido por interferometria, 7,96 milésimos de segundo de arco, corresponde a um raio de 8,8 ± 0,1 raios solares, ou seja, a um diâmetro de cerca de 12 milhões de km. De suas oscilações obtém-se uma massa de 1,91 massa solar."
+    },
+    "altezza-totale-dell-umanita": {
+      "name": "Altura total da humanidade",
+      "desc": "Se todos os seres humanos subissem uns na cabeça dos outros, formariam uma coluna de cerca de 13 milhões de km, mais de 30 vezes a distância entre a Terra e a Lua. É uma estimativa: a ONU contava 8,2 bilhões de pessoas em 2024 e os adultos têm em média 171 cm de altura (homens) e 159 cm (mulheres), mas na conta entram também as crianças. Com uma estatura média entre 1,5 e 1,65 m, o total vai de cerca de 12 a 14 milhões de km."
+    },
+    "capella": {
+      "name": "Capela",
+      "desc": "Capela, no Cocheiro, aparece como uma única estrela, mas é um sistema binário de duas gigantes de massa quase igual, cerca de 2,5 vezes a do Sol. A primária tem um raio de 11,98 ± 0,57 raios solares, ou seja, um diâmetro de cerca de 16,7 milhões de km, enquanto a secundária mede 8,83 raios solares. A primária está no fim da fase em que queima hélio no núcleo."
+    },
+    "sistema-di-trappist-1": {
+      "name": "Sistema de TRAPPIST-1",
+      "desc": "TRAPPIST-1 é uma estrela do tipo M em torno da qual orbitam planetas do tipo terrestre. O mais externo, TRAPPIST-1 h, anunciado em 2017, dista da estrela 0,06189 unidade astronômica e completa uma órbita em 18,8 dias: o diâmetro de sua órbita é de cerca de 18,5 milhões de km. O sistema inteiro caberia seis vezes dentro da órbita de Mercúrio."
+    },
+    "vv-cephei-b": {
+      "name": "VV Cephei B",
+      "desc": "VV Cephei B é a companheira azul, do tipo B0-B2, da supergigante vermelha VV Cephei A, que a eclipsa a cada 20 anos aproximadamente. Seu raio é estimado entre 13 e 25 raios solares, ou seja, um diâmetro entre cerca de 18 e 35 milhões de km: o valor mostrado, 25 milhões de km, está dentro desse intervalo. A estrela é envolta por um disco de gás capturado do vento da companheira, o que dificulta a medição."
+    },
+    "sagittarius-a": {
+      "name": "Sagittarius A*",
+      "desc": "Sagittarius A* é o buraco negro supermassivo no centro da Via Láctea. Sua massa, medida em 2021 pela colaboração GRAVITY seguindo as órbitas das estrelas próximas, é de 4,3 milhões de massas solares. A primeira imagem foi publicada em 2022 pelo Event Horizon Telescope."
+    },
+    "alnitak": {
+      "name": "Alnitak",
+      "desc": "Alnitak (Zeta Orionis) é uma das três estrelas do Cinturão de Órion e é um sistema triplo. O componente principal é uma supergigante azul do tipo O9,5 com um raio de 20 ± 3 raios solares, ou seja, um diâmetro de cerca de 28 milhões de km, com um intervalo entre 23 e 32. O valor depende da distância adotada, 387 parsecs, enquanto a órbita do sistema indicaria 294."
+    },
+    "arturo": {
+      "name": "Arcturo",
+      "desc": "Arcturo, no Boieiro, é uma gigante vermelha com uma massa de cerca de 1,08 massa solar, pouco mais que o Sol. Seu raio é 25,4 ± 0,2 raios solares, ou seja, um diâmetro de cerca de 35,3 milhões de km. Tem uma idade estimada de 7,1 bilhões de anos e uma composição química típica das estrelas do disco espesso da Galáxia."
+    },
+    "distanza-mercurio-sole": {
+      "name": "Distância Mercúrio–Sol",
+      "desc": "Mercúrio é o planeta mais próximo do Sol: orbita a uma distância média de 57,9 milhões de km, ou seja, 0,387 vez a da Terra. A órbita é muito alongada, tanto que a distância varia de 46,0 milhões de km no periélio a 69,8 milhões no afélio. Uma volta completa dura 88 dias."
+    },
+    "r136a1": {
+      "name": "R136a1",
+      "desc": "R136a1 é uma estrela do tipo Wolf-Rayet no aglomerado R136, na Grande Nuvem de Magalhães. A análise dos espectros do Hubble lhe atribui um raio de cerca de 42,7 raios solares, ou seja, um diâmetro de cerca de 59 milhões de km. É a estrela mais massiva conhecida: as estimativas vão de 170 a 230 massas solares segundo as observações Gemini de 2022, até mais de 250 segundo outros estudos."
+    },
+    "aldebaran": {
+      "name": "Aldebarã",
+      "desc": "Aldebarã é uma gigante laranja do tipo K5 III, a estrela mais brilhante do Touro, a cerca de 20,4 parsecs (67 anos-luz) do Sol. Seu diâmetro angular de cerca de 20 milésimos de segundo de arco corresponde a um raio de 45,1 raios solares, ou seja, a um diâmetro de cerca de 62,7 milhões de km. Tem uma massa um pouco superior à do Sol, cerca de 1,13 massa solar."
+    },
+    "polare": {
+      "name": "Polaris",
+      "desc": "A Estrela Polar (Polaris Aa) é uma supergigante amarela e a variável cefeida mais próxima, a cerca de 137 parsecs (447 anos-luz). O interferômetro CHARA mediu nela um diâmetro angular médio de 3,143 milésimos de segundo de arco, igual a um raio de 46,3 raios solares e a um diâmetro de cerca de 64 milhões de km. Da órbita da companheira, que dura cerca de 30 anos, obtém-se uma massa de 5,13 massas solares."
+    },
+    "albireo-a": {
+      "name": "Albireo A",
+      "desc": "Albireo A é o componente laranja da célebre estrela dupla do Cisne, uma gigante luminosa do tipo K. O interferômetro NPOI mediu nela um diâmetro angular de 4,904 milésimos de segundo de arco, que corresponde a um raio de cerca de 58,7 raios solares e a um diâmetro de cerca de 82 milhões de km. Não é uma estrela única: tem pelo menos uma companheira próxima, com um período orbital de cerca de 122 anos."
+    },
+    "rigel": {
+      "name": "Rigel",
+      "desc": "Rigel é uma supergigante azul do tipo B8 Ia, a estrela mais brilhante de Órion. O diâmetro angular de 2,75 milésimos de segundo de arco, medido com o interferômetro CHARA, corresponde a um raio de 78,9 ± 7,4 raios solares, ou seja, a um diâmetro de cerca de 110 milhões de km. É uma das estrelas mais próximas destinadas a explodir como supernova do tipo II."
+    },
+    "distanza-terra-sole": {
+      "name": "Distância Terra–Sol",
+      "desc": "A distância média entre a Terra e o Sol corresponde a uma unidade astronômica, que desde 2012 a União Astronômica Internacional fixa por definição em exatos 149.597.870.700 metros, ou seja, cerca de 149,6 milhões de km. A luz do Sol leva cerca de 8 minutos e 19 segundos para percorrê-la."
+    },
+    "gacrux": {
+      "name": "Gacrux",
+      "desc": "Gacrux (Gamma Crucis) é a gigante vermelha do tipo M3,5 III no alto do Cruzeiro do Sul, a cerca de 27 parsecs (88 anos-luz) do Sol. O diâmetro angular de 24,7 milésimos de segundo de arco corresponde a um raio de cerca de 73 raios solares, ou seja, a um diâmetro de cerca de 100 milhões de km. É uma das gigantes vermelhas mais próximas de nós."
+    },
+    "deneb": {
+      "name": "Deneb",
+      "desc": "Deneb é uma supergigante branca do tipo A2, a estrela mais brilhante do Cisne. Sua distância é mal conhecida e, com ela, o raio: a análise espectroscópica a 802 parsecs dá 203 ± 17 raios solares (cerca de 280 milhões de km de diâmetro), enquanto o diâmetro angular NPOI com a paralaxe Hipparcos (cerca de 433 parsecs) dá cerca de 117 raios solares. Em ambos os casos é uma das estrelas intrinsecamente mais luminosas visíveis a olho nu, com cerca de 196.000 vezes a luminosidade do Sol na estimativa mais alta."
+    },
+    "enif": {
+      "name": "Enif",
+      "desc": "Enif (Epsilon Pegasi) é uma supergigante laranja do tipo K2, a estrela mais brilhante de Pégaso, a cerca de 211 parsecs (690 anos-luz). O interferômetro NPOI mediu nela um diâmetro angular de 8,038 milésimos de segundo de arco, que corresponde a um raio de cerca de 183 raios solares e a um diâmetro de cerca de 254 milhões de km. Sua luminosidade é cerca de 8.500 vezes a do Sol."
+    },
+    "r-doradus": {
+      "name": "R Doradus",
+      "desc": "R Doradus é uma gigante vermelha variável a cerca de 55 parsecs (180 anos-luz), a estrela do ramo assintótico mais próxima de nós. Seu diâmetro angular no infravermelho, 51,2 milésimos de segundo de arco, corresponde a um diâmetro de cerca de 415 milhões de km, em torno de 300 vezes o do Sol. Em 2024, o ALMA registrou sua superfície, acompanhando bolhas de gás quente 75 vezes maiores que o Sol que afloram e afundam em cerca de um mês."
+    },
+    "pistol-star": {
+      "name": "Pistol Star",
+      "desc": "A Pistol Star é uma variável azul luminosa no aglomerado do Quinteto, perto do centro da Via Láctea. Os modelos de atmosfera lhe atribuem um raio de 306 raios solares, ou seja, um diâmetro de cerca de 430 milhões de km, e uma luminosidade de cerca de 1,6 milhão de vezes a do Sol. A poeira do plano galáctico a esconde da luz visível: é estudada no infravermelho."
+    },
+    "la-superba": {
+      "name": "La Superba",
+      "desc": "La Superba (Y Canum Venaticorum) é uma estrela de carbono do tipo J nos Cães de Caça, de um vermelho muito intenso. Seu raio não é medido diretamente: de uma luminosidade de cerca de 6.200 vezes a do Sol e de uma temperatura de cerca de 2.760 K obtêm-se cerca de 340 raios solares a 218 parsecs, ou seja, cerca de 480 milhões de km de diâmetro, e até cerca de 430 raios solares se a distância for de 272 parsecs. É cercada por uma casca de gás e poeira expelida no passado."
+    },
+    "s-doradus": {
+      "name": "S Doradus",
+      "desc": "S Doradus é uma variável azul luminosa na Grande Nuvem de Magalhães, protótipo da classe de variáveis que leva o seu nome. Seu raio muda de fato com o tempo: de cerca de 100 raios solares no mínimo de luz a cerca de 380 no máximo, ou seja, de cerca de 140 a 530 milhões de km de diâmetro. Enquanto isso, a temperatura superficial cai de cerca de 20.000 para 9.000 K."
+    },
+    "v838-monocerotis": {
+      "name": "V838 Monocerotis",
+      "desc": "V838 Monocerotis é a estrela que em 2002 produziu uma erupção do tipo nova vermelha, atribuída à fusão de duas estrelas. No fim de 2004, seu raio era estimado em 1.570 ± 400 raios solares, depois a estrela se contraiu: 750 ± 200 raios solares em 2014 e cerca de 464 em um modelo de 2021. O valor mostrado, cerca de 650 milhões de km de diâmetro, corresponde a esta última estimativa."
+    },
+    "v382-carinae": {
+      "name": "V382 Carinae",
+      "desc": "V382 Carinae (HD 96918) é uma hipergigante amarela na constelação de Carina. Um estudo de 2026, que recalcula sua distância com os dados do Gaia, obtém de um diâmetro angular de 2,18 milésimos de segundo de arco um raio de 616 ± 69 raios solares, ou seja, um diâmetro de cerca de 857 milhões de km. As estimativas anteriores iam de 485 a 700 raios solares."
+    },
+    "distanza-giove-sole": {
+      "name": "Distância Júpiter–Sol",
+      "desc": "Júpiter orbita a uma distância média do Sol de cerca de 778,5 milhões de km, igual a 5,2 unidades astronômicas. A distância varia de 740,6 milhões de km no periélio a 816,4 milhões de km no afélio. Uma órbita completa dura 4.332,6 dias, quase 12 anos terrestres."
+    },
+    "antares": {
+      "name": "Antares",
+      "desc": "Antares é uma supergigante vermelha na constelação de Escorpião. O interferômetro VLTI mediu seu diâmetro angular, 37,4 milésimos de segundo de arco, que com a paralaxe dá um raio de 680 raios solares, igual a 3,2 unidades astronômicas. O diâmetro é, portanto, de cerca de 946 milhões de km: no lugar do Sol, a estrela chegaria além da órbita de Marte."
+    },
+    "v354-cephei": {
+      "name": "V354 Cephei",
+      "desc": "V354 Cephei é uma supergigante vermelha na constelação de Cefeu. As estimativas do seu raio são muito discordantes: cerca de 690 raios solares com a luminosidade mais baixa publicada, 76.000 vezes a do Sol, e 1.520 raios solares segundo um estudo de 2005 que lhe atribuía uma luminosidade quase cinco vezes maior. O valor mostrado, cerca de 950 milhões de km de diâmetro, corresponde à estimativa mais baixa."
+    },
+    "terametro": {
+      "name": "Terâmetro",
+      "desc": "O terâmetro (Tm) vale 10^12 metros, ou seja, um bilhão de quilômetros: o prefixo SI tera indica um fator de um trilhão. Corresponde a cerca de 6,7 unidades astronômicas, quase sete vezes a distância média entre a Terra e o Sol. A luz leva cerca de 56 minutos para percorrê-lo."
+    },
+    "betelgeuse": {
+      "name": "Betelgeuse",
+      "desc": "Betelgeuse é uma supergigante vermelha na constelação de Órion. Um estudo de 2020 estima seu raio em 764 raios solares, com uma margem de cerca de 700 a 880, e a distância em 168 parsecs: o diâmetro é de cerca de 1,06 bilhão de km. Depois do Grande Escurecimento de 2019-2020, em 2025 o telescópio Gemini Norte revelou uma provável estrela companheira em órbita muito próxima."
+    },
+    "uy-scuti": {
+      "name": "UY Scuti",
+      "desc": "UY Scuti é uma supergigante vermelha na constelação do Escudo. Em 2013, a interferometria com o VLTI lhe atribuiu um raio de 1.708 ± 192 raios solares, adotando uma distância de 2.900 parsecs. Com a distância menor obtida dos dados do Gaia, cerca de 1.870 parsecs, um catálogo de 2024 a reduz a cerca de 909 raios solares, ou seja, 1,26 bilhão de km de diâmetro."
+    },
+    "ky-cygni": {
+      "name": "KY Cygni",
+      "desc": "KY Cygni é uma supergigante vermelha na constelação do Cisne. Seu raio não é medido diretamente e as estimativas vão de cerca de 1.000 a 2.850 raios solares, conforme a luminosidade adotada. O valor mostrado, cerca de 1.035 raios solares, ou seja, 1,44 bilhão de km de diâmetro, fica no extremo inferior desse intervalo."
+    },
+    "vv-cephei-a": {
+      "name": "VV Cephei A",
+      "desc": "VV Cephei A é a supergigante vermelha de um sistema binário eclipsante com um período de cerca de 20,3 anos. Seu raio foi estimado entre 600 e 1.800 raios solares, porque a atmosfera externa semitransparente faz as eclipses começarem e terminarem de modo gradual. O valor mostrado corresponde a cerca de 1.050 raios solares, ou seja, 1,46 bilhão de km de diâmetro."
+    },
+    "mu-cephei": {
+      "name": "Mu Cephei",
+      "desc": "Mu Cephei, a Estrela Granada de Herschel, é uma supergigante vermelha na constelação de Cefeu. As estimativas do raio dependem da distância, ainda mal conhecida: 972 ± 228 raios solares em um estudo de 2019 que adota 641 parsecs, 1.420 em um estudo de 2005. O valor mostrado segue a estimativa mais recente, cerca de 1,35 bilhão de km de diâmetro."
+    },
+    "vy-canis-majoris": {
+      "name": "VY Canis Majoris",
+      "desc": "VY Canis Majoris é uma supergigante vermelha na constelação do Cão Maior, envolta por um extenso invólucro de poeira. O interferômetro VLTI mediu o diâmetro angular da fotosfera, 11,3 ± 0,3 milésimos de segundo de arco, que corresponde a um raio de 1.420 ± 120 raios solares. O diâmetro é, portanto, de cerca de 1,98 bilhão de km."
+    },
+    "woh-g64": {
+      "name": "WOH G64",
+      "desc": "WOH G64 é uma supergigante vermelha da Grande Nuvem de Magalhães, cercada por um espesso toro de poeira. Em 2009 seu raio foi calculado em 1.540 raios solares, mas por volta de 2014 a estrela mudou e um estudo publicado em 2026 indica um raio atual de cerca de 800 raios solares, o valor mostrado aqui. Espectros de 2024-2025 mostram que ainda é uma supergigante vermelha, portanto sua natureza e suas dimensões continuam em discussão."
+    },
+    "stephenson-2-18": {
+      "name": "Stephenson 2-18",
+      "desc": "Stephenson 2-18, chamada também de DFK 1, é uma supergigante vermelha associada ao aglomerado Stephenson 2 (RSGC2). O raio de cerca de 2.150 raios solares não é uma medida: é calculado a partir de uma luminosidade de cerca de 437.000 vezes a do Sol e de uma temperatura de 3.200 K estimadas em 2012. Um estudo de 2026 baixa a luminosidade para 321.000 ± 115.000 sóis, o que corresponde a cerca de 1.840 raios solares, e observa que a estrela poderia não pertencer ao aglomerado."
+    },
+    "distanza-nettuno-sole": {
+      "name": "Distância Netuno–Sol",
+      "desc": "Netuno, o planeta mais externo, orbita a uma distância média do Sol de cerca de 4,5 bilhões de km, igual a cerca de 30,1 unidades astronômicas. Sua órbita é quase circular: a distância varia apenas de 4,47 a 4,56 bilhões de km. Uma volta completa leva 60.189 dias, quase 165 anos terrestres."
+    },
+    "distanza-plutone-sole": {
+      "name": "Distância Plutão–Sol",
+      "desc": "Plutão orbita a uma distância média do Sol de cerca de 5,9 bilhões de km, ou seja, cerca de 39,5 unidades astronômicas. Sua órbita é muito alongada: a distância varia de 4,43 bilhões de km no periélio a 7,30 bilhões de km no afélio. Uma volta completa dura 90.560 dias, cerca de 248 anos terrestres."
+    },
+    "fascia-di-kuiper": {
+      "name": "Cinturão de Kuiper",
+      "desc": "O cinturão de Kuiper é uma região em forma de rosca povoada por corpos gelados além da órbita de Netuno. A parte principal vai de cerca de 30 a cerca de 50 unidades astronômicas do Sol, portanto mede cerca de 100 UA (15 bilhões de km) de um lado a outro. Além da sua borda se sobrepõe o disco disperso, que segundo a NASA chega a quase 1.000 UA."
+    },
+    "voyager-1": {
+      "name": "Voyager 1",
+      "desc": "A Voyager 1, lançada em 5 de setembro de 1977, é o objeto construído pelo ser humano mais distante da Terra. A NASA calculou para 18 de novembro de 2026 a marca de um dia-luz de distância, ou seja, 25,902 bilhões de km: a essa distância, um sinal de rádio leva 24 horas para chegar à sonda. Em agosto de 2012 foi a primeira sonda a entrar no espaço interestelar."
+    },
+    "giorno-luce": {
+      "name": "Dia-luz",
+      "desc": "O dia-luz é a distância que a luz percorre no vácuo em 24 horas: cerca de 25,9 bilhões de quilômetros, igual a cerca de 173 unidades astronômicas. Segundo a NASA, a sonda Voyager 1 alcança essa distância da Terra em 18 de novembro de 2026, marca nunca atingida por outro objeto construído pelo ser humano."
+    },
+    "eliopausa": {
+      "name": "Heliopausa",
+      "desc": "A heliopausa é a fronteira externa da heliosfera, a bolha de partículas e campos magnéticos gerada pelo Sol. A Voyager 1 a atravessou em 25 de agosto de 2012 a cerca de 122 unidades astronômicas do Sol, ou seja, cerca de 18 bilhões de km, e a Voyager 2 a seguiu em 5 de novembro de 2018. O diâmetro aqui indicado, cerca de 240 UA, é o dobro dessa distância; as duas Voyager continuam sendo os únicos objetos construídos pelo ser humano a ter alcançado o espaço interestelar."
+    },
+    "m87": {
+      "name": "M87*",
+      "desc": "M87* é o buraco negro supermassivo no centro da galáxia Messier 87, a 55 milhões de anos-luz da Terra. A colaboração Event Horizon Telescope estimou sua massa em 6,5 bilhões de massas solares, com uma incerteza de 0,7 bilhão. Em 2019 foi o primeiro buraco negro de que se obteve uma imagem."
+    },
+    "afelio-della-cometa-hale-bopp": {
+      "name": "Afélio do cometa Hale-Bopp",
+      "desc": "O cometa Hale-Bopp, descoberto em 23 de julho de 1995 e que passou pelo periélio em 1º de abril de 1997, percorre uma órbita muito alongada. Os elementos orbitais do JPL situam seu afélio a cerca de 354 unidades astronômicas do Sol, mais de dez vezes a distância de Netuno. O núcleo tem um diâmetro de cerca de 60 km."
+    },
+    "afelio-di-sedna": {
+      "name": "Afélio de Sedna",
+      "desc": "Sedna é um corpo transnetuniano com uma órbita muito alongada, que leva cerca de 11.000 anos para ser percorrida. Seu afélio está a cerca de 936 unidades astronômicas segundo os estudos recentes, mas os elementos orbitais heliocêntricos do JPL dão cerca de 1.010 UA: o valor depende do sistema de referência e da época do cálculo. Sedna está se aproximando do periélio, a cerca de 76 UA, que alcançará em 2075-2076."
+    },
+    "buco-nero-del-cosmic-horseshoe": {
+      "name": "Buraco negro do Cosmic Horseshoe",
+      "desc": "Buraco negro ultramassivo no centro da galáxia que funciona como lente no sistema Cosmic Horseshoe, a cerca de 5 bilhões de anos-luz. Um estudo de 2025 estima sua massa em cerca de 36 bilhões de massas solares combinando lente gravitacional e movimento das estrelas, com um intervalo entre cerca de 30 e 43 bilhões, mais uma incerteza sistemática adicional. Os autores o indicam entre os dez buracos negros mais massivos conhecidos."
+    },
+    "ton-618": {
+      "name": "TON 618",
+      "desc": "TON 618 é um quasar muito luminoso alimentado por um buraco negro ultramassivo. A massa não é medida diretamente, mas estimada a partir da largura da linha Hβ no espectro: 66 bilhões de massas solares segundo um estudo de 2004, cerca de 41 bilhões segundo uma recalibração de 2019. O diâmetro indicado corresponde à estimativa mais alta."
+    },
+    "nebulosa-stingray": {
+      "name": "Nebulosa Stingray",
+      "desc": "A Nebulosa Stingray (Hen 3-1357) é considerada a mais jovem nebulosa planetária conhecida: seu gás começou a brilhar apenas nos anos 1980. O diâmetro depende da distância, estimada entre 0,83 e 5,6 quiloparsecs, e vai, portanto, de cerca de 2 × 10^14 a 1,5 × 10^15 m. As imagens do Hubble de 1996 e de 2016 mostram que em vinte anos ela se enfraqueceu de modo drástico."
+    },
+    "petametro": {
+      "name": "Petâmetro",
+      "desc": "O petâmetro (Pm) vale 10^15 metros, ou seja, um trilhão de quilômetros: o prefixo SI peta indica um fator 10^15. Corresponde a cerca de um décimo de ano-luz (0,106) e a cerca de 6.700 unidades astronômicas. A luz leva quase 39 dias para percorrê-lo."
+    },
+    "distanza-proxima-alfa-centauri-a": {
+      "name": "Distância Proxima–Alfa Centauri A",
+      "desc": "Proxima Centauri está ligada gravitacionalmente ao par de estrelas Alfa Centauri A e B, como mostraram medições de velocidade publicadas em 2017. Hoje se encontra perto do ponto mais distante da sua órbita, a cerca de 13.000 unidades astronômicas do par, e no periastro desce a cerca de 4.300 UA. Uma órbita completa dura cerca de 550.000 anos."
+    },
+    "nebulosa-occhio-di-gatto": {
+      "name": "Nebulosa Olho de Gato",
+      "desc": "A Nebulosa Olho de Gato (NGC 6543) é uma nebulosa planetária na constelação do Dragão, entre as mais complexas conhecidas. O núcleo brilhante interno mede 16,1 segundos de arco que, à distância de 1001 ± 269 parsecs obtida a partir da sua expansão, correspondem a cerca de 2,4 × 10^15 m, com uma incerteza de cerca de 27%. O mesmo estudo lhe atribui uma idade de cerca de 1000 anos."
+    },
+    "hamburger-di-gomez": {
+      "name": "Hambúrguer de Gomez",
+      "desc": "O Hambúrguer de Gomez (IRAS 18059-3211) é uma jovem estrela escondida por um grande disco protoplanetário visto quase de lado: a poeira escura é a carne, a luz refletida são os dois pães. As observações do ALMA publicadas em 2026 dão ao disco de gás um raio de cerca de 900 unidades astronômicas, portanto um diâmetro de cerca de 2,7 × 10^14 m, a uma distância revista de 139 ± 24 parsecs. Com a distância de 250 parsecs usada anteriormente, o disco resultaria quase o dobro."
+    },
+    "nebulosa-clessidra": {
+      "name": "Nebulosa da Ampulheta",
+      "desc": "A Nebulosa da Ampulheta (MyCn 18) é uma jovem nebulosa planetária na constelação da Mosca, a cerca de 8000 anos-luz. A ampulheta mede 18 segundos de arco de polo a polo, igual a cerca de 6,5 × 10^15 m na distância habitual de 2,4 quiloparsecs, ou 8,6 × 10^15 m se a distância for de 3,2 quiloparsecs. O Hubble revelou em 1996 sua forma de ampulheta com as paredes marcadas por finos arcos."
+    },
+    "nebulosa-blinking": {
+      "name": "Nebulosa Blinking",
+      "desc": "A Nebulosa Blinking (NGC 6826, Caldwell 15) é uma nebulosa planetária no Cisne: ao telescópio parece sumir quando se fixa a estrela central e reaparecer quando se desvia o olhar. Segundo a NASA, dista cerca de 2200 anos-luz, tem cerca de mil anos e menos de meio ano-luz de largura. A casca externa mede 31 × 27 segundos de arco, portanto de cerca de 3 × 10^15 m a mais de 7 × 10^15 m conforme a distância adotada."
+    },
+    "nebulosa-homunculus": {
+      "name": "Nebulosa Homunculus",
+      "desc": "A Nebulosa Homunculus é a casca de gás e poeira de dois lóbulos expelida pela estrela Eta Carinae durante a erupção de 1843, quando por algum tempo se tornou a segunda estrela mais brilhante do céu. Segundo a NASA, mede cerca de dois terços de ano-luz ao longo do eixo maior, ou seja, em torno de 6 × 10^15 m. O nome, dado por Enrique Gaviola em 1950, vem dos apêndices que lembram vagamente uma cabeça e pés."
+    },
+    "nebulosa-ngc-2392": {
+      "name": "Nebulosa NGC 2392",
+      "desc": "NGC 2392 é uma nebulosa planetária em Gêmeos, descoberta por William Herschel em 1787: uma bolha interna empurrada pelo vento da estrela moribunda e uma casca externa enfeitada por filamentos em forma de cometa. A casca externa tem um raio de 23 segundos de arco e, a 1,4 quiloparsec, um diâmetro de cerca de 9,6 × 10^15 m, mas as estimativas de distância vão de 1,28 a 1,8 quiloparsec. Em 2020, a NASA anunciou que não usaria mais o apelido \"Nebulosa do Esquimó\"."
+    },
+    "anno-luce": {
+      "name": "Ano-luz",
+      "desc": "O ano-luz é a distância que a luz percorre no vácuo em um ano: cerca de 9.461 bilhões de quilômetros, ou seja, 9,46 × 10^15 metros. Com o ano juliano de 365,25 dias, o valor exato é 9.460.730.472.580,8 km. Equivale a cerca de 63.240 unidades astronômicas."
+    },
+    "nebulosa-uovo-marcio": {
+      "name": "Nebulosa do Ovo Podre",
+      "desc": "A Nebulosa do Ovo Podre, chamada também de Nebulosa Calabash ou OH 231.8+4.2, é o gás expelido por uma estrela moribunda a cerca de 5000 anos-luz, na constelação da Popa. Tem 1,4 ano-luz de comprimento, cerca de 1,3 × 10^16 m, e deve o apelido à abundância de enxofre. Segundo a NASA, se tornará uma nebulosa planetária completa em cerca de 1000 anos."
+    },
+    "nebulosa-formica": {
+      "name": "Nebulosa da Formiga",
+      "desc": "A Nebulosa da Formiga (Menzel 3) é uma nebulosa planetária bipolar na constelação da Régua: dois lóbulos de gás expelidos por uma estrela moribunda parecida com o Sol, que juntos lembram a cabeça e o tórax de uma formiga. No céu tem cerca de 1 minuto de arco de comprimento. A NASA a situa a cerca de 3000 anos-luz, o que dá 1,6 ano-luz (1,5 × 10^16 m), enquanto a ficha ESA/Hubble indica 8000 anos-luz, que levariam o comprimento a cerca de 2,2 × 10^16 m."
+    },
+    "nebulosa-boomerang": {
+      "name": "Nebulosa Bumerangue",
+      "desc": "A Nebulosa Bumerangue é uma jovem nebulosa planetária no Centauro, a cerca de 5000 anos-luz. Seu gás em rápida expansão esfriou até cerca de 1 kelvin, menos que a radiação cósmica de fundo em micro-ondas, e faz dela o objeto mais frio conhecido no Universo. As observações do ALMA mostram que o fluxo ultrafrio se estende por quase quatro anos-luz, cerca de 3,6 × 10^16 m."
+    },
+    "nebulosa-anello": {
+      "name": "Nebulosa do Anel",
+      "desc": "A Nebulosa do Anel (M57, NGC 6720) é uma nebulosa planetária na Lira, a cerca de 2000-2500 anos-luz da Terra. Segundo a NASA, o anel principal mede cerca de 1 ano-luz, ou seja, cerca de 9,5 × 10^15 m. Em 2023, o telescópio Webb mostrou nela cerca de 20.000 glóbulos densos ricos em hidrogênio molecular."
+    },
+    "nube-di-oort": {
+      "name": "Nuvem de Oort",
+      "desc": "A nuvem de Oort é uma casca esférica teorizada de corpos gelados que circunda o Sistema Solar e é considerada a fonte dos cometas de longo período. Segundo a NASA, a borda interna fica entre 2.000 e 5.000 unidades astronômicas do Sol e a externa entre 10.000 e 100.000 UA; o diâmetro aqui indicado usa o limite mais distante. Na velocidade atual, a Voyager 1 levará cerca de 300 anos para alcançá-la e talvez 30.000 para sair dela."
+    },
+    "parsec": {
+      "name": "Parsec",
+      "desc": "O parsec (pc) é a unidade de distância mais usada pelos astrônomos para estrelas e galáxias: vale cerca de 3,0857 × 10^16 metros, ou seja, 3,26 anos-luz. Corresponde a cerca de 206.265 unidades astronômicas e desde 2015 uma resolução da União Astronômica Internacional fixa seu valor exato a partir da unidade astronômica."
+    },
+    "nebulosa-testa-di-cavallo": {
+      "name": "Nebulosa Cabeça de Cavalo",
+      "desc": "A Cabeça de Cavalo, catalogada como Barnard 33, é uma nuvem escura de poeira e gás na constelação de Órion, visível porque se destaca contra o brilho vermelho do hidrogênio ao fundo. Segundo a NASA, tem cerca de 5 anos-luz de altura. As estimativas da sua distância vão de 1.300 a 1.600 anos-luz conforme a fonte."
+    },
+    "distanza-sole-proxima": {
+      "name": "Distância Sol–Proxima",
+      "desc": "Proxima Centauri é uma anã vermelha e é a estrela mais próxima do Sol: dista 1,295 parsec, ou seja, cerca de 4,2 anos-luz ou 40.000 bilhões de km. Sua luminosidade é cerca de 0,1% da solar, portanto não se vê a olho nu. Desde 2016 sabe-se que em torno dela orbita pelo menos um planeta, Proxima b."
+    },
+    "pilastri-della-creazione": {
+      "name": "Pilares da Criação",
+      "desc": "Os Pilares da Criação são colunas de gás frio e poeira no coração da Nebulosa da Águia, erodidas pela radiação ultravioleta de jovens estrelas próximas. Têm de 4 a 5 anos-luz de altura. Tornados célebres por uma imagem do telescópio Hubble de 1995, foram registrados no infravermelho pelo telescópio Webb em 2022."
+    },
+    "nebulosa-elica": {
+      "name": "Nebulosa da Hélice",
+      "desc": "A Nebulosa da Hélice (NGC 7293) é uma nebulosa planetária, ou seja, o gás expelido por uma estrela parecida com o Sol que chegou ao fim da vida. A cerca de 650 anos-luz, na constelação de Aquário, é uma das nebulosas planetárias mais próximas da Terra. A dimensão depende do que se mede: o anel brilhante tem quase 3 anos-luz de largura, enquanto o halo externo mais fraco ultrapassa 6 anos-luz."
+    },
+    "nebulosa-bolla": {
+      "name": "Nebulosa da Bolha",
+      "desc": "A Nebulosa da Bolha (NGC 7635) é uma casca de gás inflada pelo vento de uma estrela 45 vezes mais massiva que o Sol, na constelação de Cassiopeia. A NASA lhe atribui um diâmetro de 7 anos-luz a 7.100 anos-luz de distância, enquanto a ESA indica cerca de 10 anos-luz a 8.000 anos-luz. Foi descoberta por William Herschel em 1787."
+    },
+    "nebulosa-cono": {
+      "name": "Nebulosa do Cone",
+      "desc": "A Nebulosa do Cone é uma coluna de gás frio e poeira em uma região de formação estelar (NGC 2264) na constelação do Unicórnio, a cerca de 2.500 anos-luz. Tem 7 anos-luz de comprimento total. A célebre imagem do telescópio Hubble mostra apenas a parte superior, com 2,5 anos-luz."
+    },
+    "the-spire": {
+      "name": "The Spire",
+      "desc": "The Spire é uma torre de gás frio e poeira na Nebulosa da Águia (M16), registrada pelo telescópio Hubble em luz visível e infravermelha. Tem 9,5 anos-luz de comprimento, mais que o dobro da distância entre o Sol e a estrela mais próxima. A radiação das jovens estrelas quentes próximas a ilumina e a erode."
+    },
+    "nebulosa-granchio": {
+      "name": "Nebulosa do Caranguejo",
+      "desc": "A Nebulosa do Caranguejo (M1) é o que restou da supernova observada pelos astrônomos chineses em 1054, a 6.500 anos-luz na constelação do Touro. Desde então continua a se expandir e hoje tem cerca de 11 anos-luz de largura. No centro está um pulsar, uma estrela de nêutrons em rápida rotação que alimenta a nebulosa."
+    },
+    "nebulosa-di-orione": {
+      "name": "Nebulosa de Órion",
+      "desc": "A Nebulosa de Órion (M42) é uma nuvem de gás iluminada por jovens estrelas quentes, visível a olho nu sob o Cinturão de Órion. Segundo a NASA, é a grande região de formação estelar mais próxima da Terra: uma medição de paralaxe de 2007 a situa a 414 parsecs, cerca de 1.350 anos-luz. No céu cobre cerca de um grau, que a essa distância corresponde a cerca de 24 anos-luz."
+    },
+    "nube-interstellare-locale": {
+      "name": "Nuvem Interestelar Local",
+      "desc": "A Nuvem Interestelar Local é a nuvem de gás rarefeito, sobretudo hidrogênio e hélio, que o Sistema Solar está atravessando. Tem cerca de 30 anos-luz de largura e uma temperatura de cerca de 6.000 °C. Segundo a NASA, o Sol sairá dela em breve, em escala astronômica."
+    },
+    "nebulosa-grotta": {
+      "name": "Nebulosa da Caverna",
+      "desc": "A Nebulosa da Caverna (Caldwell 9, Sh2-155) é uma nebulosa de emissão na constelação de Cefeu, onde estão se formando novas estrelas. Segundo a NASA, se estende por cerca de 40 anos-luz e dista cerca de 3.000 anos-luz. É difusa e de pouco contraste, tanto que só foi catalogada em 1959 por Stewart Sharpless."
+    },
+    "nebulosa-aquila": {
+      "name": "Nebulosa da Águia",
+      "desc": "A Nebulosa da Águia (M16) é uma nebulosa de emissão com um jovem aglomerado de estrelas, a cerca de 7.000 anos-luz na constelação da Serpente. Mede cerca de 70 por 55 anos-luz e contém os célebres Pilares da Criação, que são apenas uma pequena parte dela. Foi descoberta em 1745 pelo astrônomo suíço Jean-Philippe Loys de Chéseaux."
+    },
+    "nebulosa-nord-america": {
+      "name": "Nebulosa da América do Norte",
+      "desc": "A Nebulosa da América do Norte (NGC 7000) é uma nebulosa de emissão na constelação do Cisne, cuja forma lembra a do continente. As medições do satélite Gaia a situam a cerca de 785 parsecs, ou seja, 2.560 anos-luz, e a essa distância resulta com entre 85 e 90 anos-luz de largura. As páginas de divulgação da NASA ainda informam cerca de 50 anos-luz, calculados com a antiga distância de 1.500 anos-luz."
+    },
+    "messier-14": {
+      "name": "Messier 14",
+      "desc": "Messier 14 é um aglomerado globular na constelação de Ofiúco, a cerca de 29.000 anos-luz da Terra, que contém mais de 150.000 estrelas. O NOIRLab lhe atribui um diâmetro de cerca de 72 anos-luz, mas um aglomerado globular não tem uma borda nítida e outras estimativas chegam a cerca de 100 anos-luz. Foi descoberto por Charles Messier em 1764."
+    },
+    "esametro": {
+      "name": "Exâmetro",
+      "desc": "O exâmetro (Em) vale 10^18 metros: o prefixo SI exa indica um fator 10^18. Corresponde a cerca de 106 anos-luz, ou seja, a cerca de 32 parsecs. A luz que parte hoje de uma ponta de um exâmetro chega à outra depois de pouco mais de um século."
+    },
+    "nebulosa-laguna": {
+      "name": "Nebulosa da Lagoa",
+      "desc": "A Nebulosa da Lagoa (Messier 8) é uma grande nuvem de gás e poeira em Sagitário em que nascem novas estrelas, visível também a olho nu sob céus escuros. Segundo o ESO, dista cerca de 5.000 anos-luz e se estende por cerca de 100 anos-luz, mas as estimativas variam: o ESA/Hubble indica 55 anos-luz a uma distância de 4.000. No seu interior encontra-se o jovem aglomerado estelar NGC 6530."
+    },
+    "nebulosa-rosetta": {
+      "name": "Nebulosa da Roseta",
+      "desc": "A Nebulosa da Roseta é uma nuvem de gás de emissão na constelação do Unicórnio, a cerca de 5.000 anos-luz da Terra. Tem um diâmetro de cerca de 130 anos-luz, mais de cinco vezes o da Nebulosa de Órion. No centro está o jovem aglomerado estelar NGC 2244, cujas estrelas massivas escavaram a cavidade central e fazem o gás brilhar."
+    },
+    "omega-centauri": {
+      "name": "Ômega Centauri",
+      "desc": "Ômega Centauri é o aglomerado globular mais massivo da Via Láctea, com cerca de 10 milhões de estrelas a cerca de 17.000 anos-luz da Terra. O ESO lhe atribui um diâmetro de cerca de 150 anos-luz, enquanto a NASA indica cerca de 450 anos-luz contando as regiões externas mais rarefeitas. Em 2024, o movimento de sete estrelas velocíssimas observadas pelo Hubble forneceu fortes indícios de um buraco negro de massa intermediária no seu centro."
+    },
+    "nebulosa-della-carena": {
+      "name": "Nebulosa de Carina",
+      "desc": "A Nebulosa de Carina é uma vasta região de formação estelar da Via Láctea, a cerca de 7.500 anos-luz da Terra na constelação austral de Carina. Segundo o ESO e a ESA, se estende por cerca de 260 anos-luz, enquanto a NASA indica cerca de 300. Abriga Eta Carinae, um sistema estelar mais de um milhão de vezes mais luminoso que o Sol."
+    },
+    "anello-di-barnard": {
+      "name": "Anel de Barnard",
+      "desc": "O Anel de Barnard é um imenso arco de hidrogênio incandescente que envolve a constelação de Órion, com cerca de 300 anos-luz de largura e a cerca de 1.500 de distância. É fraco demais para ser visto a olho nu e aparece apenas em fotografias de longa exposição. Acredita-se que tenha sido modelado por antigas explosões de supernova e pelos ventos das estrelas massivas da região."
+    },
+    "messier-54": {
+      "name": "Messier 54",
+      "desc": "Messier 54 é um aglomerado globular a cerca de 90.000 anos-luz da Terra, o primeiro descoberto fora da Via Láctea: pertence à galáxia anã elíptica de Sagitário, de que ocupa o núcleo. Sua extensão depende da definição: o raio de maré de cerca de 77 parsecs corresponde a um diâmetro de cerca de 500 anos-luz, mas metade da luz vem de uma esfera de apenas 6,4 parsecs de raio. Messier o descobriu em 1778 e só em 1994 se compreendeu que não faz parte da nossa galáxia."
+    },
+    "nebulosa-tarantola": {
+      "name": "Nebulosa da Tarântula",
+      "desc": "A Nebulosa da Tarântula (30 Doradus) fica na Grande Nuvem de Magalhães, a cerca de 170.000 anos-luz da Terra, e mede cerca de 1.000 anos-luz de uma ponta a outra. Segundo a NASA, é a região de formação estelar maior e mais luminosa do Grupo Local e abriga as estrelas mais quentes e massivas conhecidas. Apesar da distância, é visível a olho nu no hemisfério sul."
+    },
+    "bolla-locale": {
+      "name": "Bolha Local",
+      "desc": "A Bolha Local é uma cavidade de gás rarefeito com cerca de 1.000 anos-luz de largura, em cujo interior se encontra hoje o Sol. Segundo um estudo publicado na Nature em 2022, foi escavada por cerca de 15 supernovas explodidas a partir de 14 milhões de anos atrás. Em sua superfície se encontram todas as jovens regiões de formação estelar próximas de nós."
+    },
+    "leo-ii": {
+      "name": "Leo II",
+      "desc": "Leo II é uma galáxia anã esferoidal satélite da Via Láctea, a cerca de 233 kpc (760.000 anos-luz) de nós. Sua extensão depende da definição: o raio do núcleo é de cerca de 178 pc e o raio de maré de cerca de 632 pc, portanto o diâmetro vai de cerca de 360 a cerca de 1.260 pc (de 1.200 a 4.100 anos-luz); aqui é mostrado o de maré. As medições indicam que é dominada pela matéria escura."
+    },
+    "getto-relativistico-di-m87": {
+      "name": "Jato relativístico de M87",
+      "desc": "Do buraco negro supermassivo no centro da galáxia elíptica M87 sai um jato de gás quentíssimo que viaja a velocidades próximas à da luz. A parte visível do jato tem cerca de 5.000 anos-luz de comprimento. Treze anos de observações do telescópio Hubble mostraram que o plasma parece se mover em espiral ao longo do jato."
+    },
+    "nana-del-cane-maggiore": {
+      "name": "Anã do Cão Maior",
+      "desc": "A sobredensidade do Cão Maior é um grupo de estrelas perto do plano galáctico, assinalado em 2003 entre as gigantes vermelhas do catálogo 2MASS e proposto como resto de uma galáxia anã engolida pela Via Láctea. Uma medição ao longo da linha de visada dá um raio de meia luz de cerca de 0,94 kpc, ou seja, um diâmetro de cerca de 6.000 anos-luz, com amplas incertezas. Sua natureza é contestada: segundo outros estudos, é apenas a deformação do disco externo da Via Láctea."
+    },
+    "canes-venatici-i": {
+      "name": "Canes Venatici I",
+      "desc": "Canes Venatici I é uma galáxia anã satélite da Via Láctea, descoberta em 2006 nos dados do Sloan Digital Sky Survey a cerca de 220 kpc (720.000 anos-luz) de distância. O raio que contém metade da sua luz é de cerca de 550 pc, para um diâmetro de cerca de 1.100 pc (3.600 anos-luz). As regiões externas aparecem mais extensas e distorcidas, portanto a extensão total é maior e não bem definida."
+    },
+    "onda-di-radcliffe": {
+      "name": "Onda de Radcliffe",
+      "desc": "A Onda de Radcliffe é uma cadeia ondulada de nuvens de gás em que nascem estrelas, com cerca de 2,7 quiloparsecs de comprimento, ou seja, cerca de 9.000 anos-luz, que atravessa as redondezas do Sol. Foi descrita na Nature em janeiro de 2020 graças às distâncias medidas pelo satélite Gaia e contém cerca de três milhões de massas solares de gás. Sua forma é a de uma onda amortecida que sobe e desce até cerca de 500 anos-luz em relação ao plano da Via Láctea."
+    },
+    "nana-ellittica-del-sagittario": {
+      "name": "Anã elíptica de Sagitário",
+      "desc": "A anã elíptica de Sagitário é uma galáxia satélite da Via Láctea, a cerca de 26 kpc (86.000 anos-luz) do Sol. Seu corpo principal mede cerca de 450 minutos de arco ao longo do eixo maior, ou seja, cerca de 3,4 kpc (11.000 anos-luz), mas a borda é mal definida porque a Via Láctea a está despedaçando. As estrelas arrancadas formam caudas de maré que se estendem por mais de 150 graus no céu."
+    },
+    "piccola-nube-di-magellano": {
+      "name": "Pequena Nuvem de Magalhães",
+      "desc": "A Pequena Nuvem de Magalhães é uma galáxia anã satélite da Via Láctea, na constelação austral do Tucano. Seu maior diâmetro aparente é de 320 minutos de arco, mais de 5 graus, que à distância de cerca de 61 kpc (200.000 anos-luz) correspondem a cerca de 5,7 kpc, ou seja, cerca de 18.500 anos-luz. A NASA indica uma distância ligeiramente maior, cerca de 210.000 anos-luz."
+    },
+    "ngc-3310": {
+      "name": "NGC 3310",
+      "desc": "NGC 3310 é uma galáxia espiral na Ursa Maior com intensa formação de estrelas. Seu diâmetro aparente de 3,1 minutos de arco corresponde a cerca de 12 kpc (38.000 anos-luz) à distância média de cerca de 13 Mpc informada pelo NED. As estimativas de distância vão, porém, de cerca de 11 a 19 Mpc, e a NASA, que adota 18 Mpc, indica um diâmetro de cerca de 52.000 anos-luz."
+    },
+    "grande-nube-di-magellano": {
+      "name": "Grande Nuvem de Magalhães",
+      "desc": "A Grande Nuvem de Magalhães é uma galáxia satélite da Via Láctea, classificada como espiral barrada de tipo magalhânico, a cerca de 50 kpc (163.000 anos-luz). Seu maior diâmetro aparente é de 645 minutos de arco, quase 11 graus, que a essa distância correspondem a cerca de 9,4 kpc, ou seja, cerca de 30.600 anos-luz."
+    },
+    "ngc-7714": {
+      "name": "NGC 7714",
+      "desc": "NGC 7714 é uma galáxia espiral na constelação de Peixes, a cerca de 100 milhões de anos-luz, deformada pela interação com a companheira menor NGC 7715. Seu diâmetro aparente de 1,9 minuto de arco corresponde a cerca de 16 kpc, ou seja, entre 50.000 e 55.000 anos-luz conforme a distância adotada. As duas galáxias se roçaram entre 100 e 200 milhões de anos atrás e estão unidas por uma ponte de estrelas."
+    },
+    "bolle-di-fermi": {
+      "name": "Bolhas de Fermi",
+      "desc": "As Bolhas de Fermi são dois enormes lóbulos que emitem raios gama e se estendem acima e abaixo do centro da Via Láctea. Cada uma tem cerca de 25.000 anos-luz de altura, para um total de 50.000 anos-luz, cerca de metade do diâmetro da galáxia. Foram descobertas em 2010 nos dados do telescópio espacial Fermi da NASA e podem ser o resíduo de uma antiga erupção do buraco negro central."
+    },
+    "galassia-occhio-nero": {
+      "name": "Galáxia do Olho Negro",
+      "desc": "A Galáxia do Olho Negro (M64) é uma espiral na Cabeleira de Berenice, conhecida pela faixa de poeira escura ao lado do núcleo. Segundo o NOIRLab, mede cerca de 55.000 anos-luz de diâmetro; do diâmetro aparente de 10 minutos de arco e de uma distância de cerca de 5,5 Mpc (18 milhões de anos-luz) obtêm-se cerca de 53.000 anos-luz. Contém dois sistemas de gás e estrelas que giram em sentidos opostos."
+    },
+    "galassia-del-triangolo": {
+      "name": "Galáxia do Triângulo",
+      "desc": "A Galáxia do Triângulo (M33) é uma espiral a cerca de 3 milhões de anos-luz, a terceira em tamanho no Grupo Local depois de Andrômeda e da Via Láctea. Segundo o ESA/Hubble, mede cerca de 60.000 anos-luz de diâmetro e contém cerca de 40 bilhões de estrelas."
+    },
+    "galassia-vortice": {
+      "name": "Galáxia do Redemoinho",
+      "desc": "A Galáxia do Redemoinho (M51) é uma espiral nos Cães de Caça, em interação com a pequena companheira NGC 5195. Seu diâmetro aparente é de 11,2 minutos de arco, mas a distância é incerta: entre cerca de 23 e 31 milhões de anos-luz conforme as fontes. Resulta um diâmetro de cerca de 77.000 anos-luz com a distância média informada pelo NED, enquanto a NASA indica cerca de 60.000 anos-luz."
+    },
+    "via-lattea": {
+      "name": "Via Láctea",
+      "desc": "A Via Láctea é a galáxia espiral em que se encontra o Sol, que dista cerca de 8 kpc (26.000 anos-luz) do centro. O diâmetro do disco estelar até a isofota de 25 magnitudes por segundo de arco quadrado é estimado em 26,8 ± 1,1 kpc, ou seja, cerca de 87.400 anos-luz. O valor arredondado mais citado, inclusive pela NASA, é de cerca de 100.000 anos-luz."
+    },
+    "galassia-sombrero": {
+      "name": "Galáxia do Sombrero",
+      "desc": "A Galáxia do Sombrero (M104) é uma espiral vista quase de lado na constelação de Virgem, com um grande bojo central e uma banda escura de poeira. O diâmetro maior de 8,7 minutos de arco, à distância de 9,55 megaparsecs (cerca de 31 milhões de anos-luz), corresponde a cerca de 79.000 anos-luz, mas as fontes vão dos 50.000 anos-luz indicados pelo ESA/Hubble a valores mais altos conforme onde se põe a borda. O Hubble distingue ali quase 2.000 aglomerados globulares, cerca de dez vezes os da Via Láctea."
+    },
+    "zettametro": {
+      "name": "Zettâmetro",
+      "desc": "O zettâmetro (Zm) vale 10^21 metros: o prefixo SI zetta indica um fator 10^21. Corresponde a cerca de 105.700 anos-luz, ou seja, a cerca de 32.400 parsecs. É uma unidade adequada para expressar as dimensões das galáxias."
+    },
+    "virgo-a": {
+      "name": "Virgo A",
+      "desc": "Virgo A é a radiofonte associada a Messier 87, galáxia elíptica gigante do aglomerado de Virgem a cerca de 54 milhões de anos-luz. O corpo luminoso mede cerca de 130.000 anos-luz (o ESA/Hubble indica 120.000), enquanto o halo de estrelas chega a cerca de um milhão de anos-luz de diâmetro segundo as medições do VLT. O buraco negro no seu centro é o primeiro de que se obteve uma imagem, publicada em 2019 pelo Event Horizon Telescope."
+    },
+    "galassia-ruota-di-carro": {
+      "name": "Galáxia da Roda de Carroça",
+      "desc": "A Galáxia da Roda de Carroça é uma galáxia em anel a cerca de 500 milhões de anos-luz, na constelação do Escultor. O anel externo, com cerca de 150.000 anos-luz de largura, nasceu do choque frontal com uma galáxia menor que a atravessou. Segundo a NASA, contém pelo menos alguns bilhões de estrelas novas e poderia abrigar a Via Láctea inteira."
+    },
+    "andromeda": {
+      "name": "Andrômeda",
+      "desc": "Andrômeda (M31) é a grande galáxia espiral mais próxima da Via Láctea, a 2,5 milhões de anos-luz. O disco visível tem um eixo maior de cerca de 190–200 minutos de arco, ou seja, cerca de 140.000–150.000 anos-luz, e no céu aparece com seis vezes a largura da Lua cheia. Seu halo de gás rarefeito é muito mais extenso: o Hubble o traçou até 1,3 milhão de anos-luz da galáxia."
+    },
+    "galassia-girandola": {
+      "name": "Galáxia do Catavento",
+      "desc": "A Galáxia do Catavento (M101) é uma espiral vista de frente na Ursa Maior, a cerca de 25 milhões de anos-luz. Seu disco de estrelas, poeira e gás mede 170.000 anos-luz, quase o dobro da Via Láctea. Os astrônomos estimam que contenha pelo menos um trilhão de estrelas."
+    },
+    "ngc-1232": {
+      "name": "NGC 1232",
+      "desc": "NGC 1232 é uma galáxia espiral vista quase de frente na constelação de Erídano, a cerca de 60 milhões de anos-luz. Seu eixo maior de 7,4 minutos de arco corresponde a cerca de 130.000 anos-luz, pouco mais que a Via Láctea. As observações em raios X do Chandra revelaram nela uma nuvem de gás a 6 milhões de graus, provável vestígio do choque com uma galáxia anã."
+    },
+    "ngc-4889": {
+      "name": "NGC 4889",
+      "desc": "NGC 4889 é uma galáxia elíptica gigante, a maior e mais luminosa da região central do aglomerado de Coma, a cerca de 300 milhões de anos-luz. Seu eixo maior de 2,9 minutos de arco corresponde a cerca de 250.000 anos-luz. No centro abriga um buraco negro de 21 bilhões de massas solares, entre os mais massivos já medidos."
+    },
+    "galassia-girino": {
+      "name": "Galáxia do Girino",
+      "desc": "A Galáxia do Girino (UGC 10214) é uma espiral deformada a cerca de 420 milhões de anos-luz, na constelação do Dragão. O encontro com uma pequena galáxia compacta arrancou dela uma cauda de estrelas e gás com mais de 280.000 anos-luz de comprimento. Na cauda brilham aglomerados de jovens estrelas azuis, cada um com até cerca de um milhão de estrelas."
+    },
+    "strada-percorsa-dalla-terra-attorno-al-sole": {
+      "name": "Caminho percorrido pela Terra em torno do Sol",
+      "desc": "A cada ano a Terra percorre em torno do Sol uma órbita de cerca de 940 milhões de km, à velocidade média de 29,78 km/s. Multiplicando pelos 4,54 bilhões de anos de idade do planeta, obtêm-se cerca de 4,3 bilhões de bilhões de km, equivalentes a cerca de 450.000 anos-luz. É uma estimativa que supõe uma órbita sempre igual à de hoje."
+    },
+    "distanza-di-andromeda": {
+      "name": "Distância de Andrômeda",
+      "desc": "A galáxia de Andrômeda, ou M31, dista cerca de 2,5 milhões de anos-luz e é a grande galáxia mais próxima da Via Láctea. A luz que vemos dela hoje partiu, portanto, há 2,5 milhões de anos. Apesar da distância, o telescópio Hubble consegue distinguir as estrelas individuais do seu disco."
+    },
+    "ic-1101": {
+      "name": "IC 1101",
+      "desc": "IC 1101 é a galáxia elíptica gigante no centro do aglomerado Abell 2029, a mais de um bilhão de anos-luz. Imagens muito profundas do Isaac Newton Telescope, descritas em um estudo de 2026 ainda não submetido à revisão por pares, situam a borda a 260 quiloparsecs do centro, para um diâmetro de cerca de 520 quiloparsecs, ou seja, 1,7 milhão de anos-luz. Estimativas anteriores chegavam a 5,6 milhões de anos-luz, e o resultado depende de como se define a borda da galáxia."
+    },
+    "ammasso-della-fornace": {
+      "name": "Aglomerado da Fornalha",
+      "desc": "O aglomerado da Fornalha é um aglomerado de galáxias na constelação austral de mesmo nome, cujo centro dista cerca de 65 milhões de anos-luz da Terra. Seu raio virial é de cerca de 0,7 megaparsec, portanto o diâmetro é de cerca de 1,4 megaparsec, ou seja, entre 4,5 e 5 milhões de anos-luz. Contém quase sessenta galáxias grandes e um número semelhante de galáxias anãs, com a galáxia gigante NGC 1399 no centro."
+    },
+    "abell-2029": {
+      "name": "Abell 2029",
+      "desc": "Abell 2029 é um aglomerado de galáxias muito massivo a cerca de 1 bilhão de anos-luz da Terra, com redshift 0,0767. As observações em raios X do satélite Suzaku mediram seu raio r200, usado como estimativa do raio virial, em 1,92 megaparsec: o diâmetro é, portanto, de cerca de 3,8 megaparsecs, igual a cerca de 12,5 milhões de anos-luz. Compreende milhares de galáxias imersas em uma gigantesca nuvem de gás quente."
+    },
+    "gruppo-locale": {
+      "name": "Grupo Local",
+      "desc": "O Grupo Local é o grupo de galáxias a que pertence a Via Láctea e se estende por quase 10 milhões de anos-luz. Os membros mais massivos são Andrômeda (M31) e a Via Láctea, seguidas pela galáxia do Triângulo (M33). Um levantamento de 2012 lista mais de 100 galáxias a até 3 megaparsecs do Sol, quase todas anãs, dentro e em volta do grupo."
+    },
+    "ammasso-della-vergine": {
+      "name": "Aglomerado de Virgem",
+      "desc": "O aglomerado de Virgem é o grande aglomerado de galáxias mais próximo, a 16,5 megaparsecs, ou seja, cerca de 54 milhões de anos-luz. Seu raio virial é de 6 graus no céu, igual a 1,72 megaparsec: o diâmetro é, portanto, de cerca de 3,4 megaparsecs, ou seja, cerca de 11 milhões de anos-luz, embora o aglomerado não tenha uma borda nítida. O catálogo clássico do aglomerado lista 2.096 galáxias."
+    },
+    "alcioneo": {
+      "name": "Alcioneu",
+      "desc": "Alcioneu é uma radiogaláxia gigante descoberta nas imagens do radiotelescópio LOFAR e descrita em 2022. Seus lóbulos de rádio se estendem em projeção por 4,99 megaparsecs, cerca de 16 milhões de anos-luz, e o comprimento real é de pelo menos 5 megaparsecs. No momento da descoberta, era a maior estrutura conhecida de origem galáctica, recorde que passou em 2024 para Porphyrion."
+    },
+    "porphyrion": {
+      "name": "Porphyrion",
+      "desc": "Porphyrion é um par de jatos de plasma lançados por um buraco negro supermassivo em uma galáxia a 7,5 bilhões de anos-luz. Anunciado em 2024 com dados do LOFAR, uGMRT e Keck, se estende por cerca de 7 megaparsecs, ou seja, 23 milhões de anos-luz, o equivalente a 140 Vias Lácteas enfileiradas. É a maior estrutura produzida por uma galáxia observada até agora."
+    },
+    "yottametro": {
+      "name": "Iotâmetro",
+      "desc": "O iotâmetro (Ym) vale 10^24 metros: o prefixo SI yotta indica um fator 10^24. Corresponde a cerca de 105,7 milhões de anos-luz, ou seja, a cerca de 32,4 milhões de parsecs. Um gigaparsec equivale a quase 31 iotâmetros."
+    },
+    "superammasso-della-vergine": {
+      "name": "Superaglomerado de Virgem",
+      "desc": "O Superaglomerado de Virgem, ou Superaglomerado Local, é o conjunto achatado de cerca de 50 grupos de galáxias, entre eles o Grupo Local, centrado no aglomerado de Virgem. Não tem fronteiras nítidas e seu diâmetro é estimado de modo aproximado em cerca de 100 milhões de anos-luz, com uma massa de cerca de 10¹⁵ massas solares. Em 2014 foi definido Laniakea, um superaglomerado muito mais extenso que inclui também o aglomerado de Virgem."
+    },
+    "distanza-del-grande-attrattore": {
+      "name": "Distância do Grande Atrator",
+      "desc": "O Grande Atrator é uma região do espaço com uma enorme concentração de massa, cuja gravidade domina a nossa parte do Universo. É associado ao aglomerado de galáxias da Régua, que dista cerca de 220 milhões de anos-luz. A distância é aproximada, porque a zona fica atrás do plano da Via Láctea, onde estrelas e poeira escondem grande parte dos objetos."
+    },
+    "vuoto-del-boote": {
+      "name": "Vazio de Boötes",
+      "desc": "O Vazio de Boötes é uma região quase esférica e quase sem galáxias na direção da constelação de Boötes. O estudo de 1987 que confirmou sua existência lhe atribui um raio de 62 megaparsecs, calculado, porém, com uma constante de Hubble de 50 km/s por megaparsec. Com os valores atuais da constante, o diâmetro cai de cerca de 400 para cerca de 280 ou 300 milhões de anos-luz, de modo que a cifra de 330 milhões é apenas indicativa."
+    },
+    "scala-acustica-barionica": {
+      "name": "Escala acústica bariônica",
+      "desc": "As ondas de pressão do Universo primordial deixaram uma marca na distribuição das galáxias: os pares de galáxias tendem a se encontrar a uma distância que hoje vale cerca de 500 milhões de anos-luz. Esse comprimento conhecido serve de régua padrão para medir a expansão cósmica. As medições do DESI de 2025, combinadas com outros dados, preferem uma energia escura que muda com o tempo, mas com uma significância entre 2,8 e 4,2 sigma que não basta para confirmá-lo."
+    },
+    "laniakea": {
+      "name": "Laniakea",
+      "desc": "Laniakea é o superaglomerado a que pertence a Via Láctea, definido em 2014 por Brent Tully e colegas como o volume dentro do qual os movimentos das galáxias convergem para o interior. Tem um diâmetro de 160 megaparsecs, cerca de 520 milhões de anos-luz, e contém uma massa de 10¹⁷ massas solares em cerca de 100.000 grandes galáxias. O nome vem do havaiano e une as palavras para céu e espaçoso."
+    },
+    "distanza-del-superammasso-di-shapley": {
+      "name": "Distância do superaglomerado de Shapley",
+      "desc": "O superaglomerado de Shapley, que leva o nome do astrônomo Harlow Shapley, dista cerca de 650 milhões de anos-luz. É uma das concentrações de galáxias mais massivas do Universo local. O gás quente dos seus aglomerados emite raios X, observados entre outros pelo telescópio eROSITA."
+    },
+    "complesso-pesci-balena": {
+      "name": "Complexo Peixes–Baleia",
+      "desc": "O Complexo de superaglomerados Peixes-Baleia é uma estrutura proposta por Brent Tully em 1986 e 1987, em que os aglomerados ricos em galáxias se agrupam em complexos de cerca de 50 aglomerados. Tully estima sua extensão em cerca de 300 megaparsecs, ou seja, cerca de 1 bilhão de anos-luz, um valor que depende da constante de Hubble adotada. Segundo o autor, nossa região do universo também faz parte dele, com os aglomerados concentrados no plano traçado pelas galáxias próximas."
+    },
+    "quipu": {
+      "name": "Quipu",
+      "desc": "Quipu é uma superestrutura de aglomerados de galáxias identificada com um mapa dos aglomerados observados nos raios X a distâncias entre 130 e 250 megaparsecs e apresentada em 2025 por Hans Böhringer e colegas. Tem mais de 400 megaparsecs de comprimento, ou seja, mais de 1,3 bilhão de anos-luz, com uma massa estimada de cerca de 2 × 10¹⁷ massas solares. Os autores a descrevem como a maior estrutura cósmica descoberta até agora."
+    },
+    "grande-muraglia-sloan": {
+      "name": "Grande Muralha Sloan",
+      "desc": "A Grande Muralha Sloan é um filamento de galáxias identificado nos dados do Sloan Digital Sky Survey, a uma distância mediana de cerca de 310 megaparsecs, ou seja, cerca de um bilhão de anos-luz. Seu comprimento observado é de 1,37 bilhão de anos-luz, que se tornam 450 megaparsecs em coordenadas comóveis. Os autores da medição a descreveram como a maior estrutura observada até então, 80% mais longa que a Grande Muralha descoberta por Geller e Huchra."
+    },
+    "supervuoto-di-eridano": {
+      "name": "Supervazio de Erídano",
+      "desc": "O supervazio de Erídano é uma vasta região pobre em galáxias, a cerca de 3 bilhões de anos-luz, alinhada com a Mancha Fria da radiação cósmica de fundo em micro-ondas. Quem o identificou em 2015 lhe atribui um diâmetro de cerca de 1,8 bilhão de anos-luz, mas o raio medido tem um erro de cerca de 23%, portanto o diâmetro pode ir de cerca de 1,6 a 2,5 bilhões de anos-luz. Segundo análises posteriores, no modelo cosmológico padrão o vazio explica apenas 10–20% do resfriamento observado."
+    },
+    "vuoto-kbc": {
+      "name": "Vazio KBC",
+      "desc": "O vazio KBC, do nome de Keenan, Barger e Cowie, que o propuseram em 2013, é uma possível região de baixa densidade que circunda o Grupo Local até cerca de 300 megaparsecs. O diâmetro é, portanto, de cerca de 600 megaparsecs, ou seja, cerca de 2 bilhões de anos-luz, com uma densidade de matéria estimada inferior à média em cerca de 46%. Sua existência e sua profundidade são discutidas, também porque um vazio assim poderia influir na medição local da constante de Hubble."
+    },
+    "gigaparsec": {
+      "name": "Gigaparsec",
+      "desc": "O gigaparsec (Gpc) vale um bilhão de parsecs, ou seja, cerca de 3,0857 × 10^25 metros. Corresponde a cerca de 3,26 bilhões de anos-luz. É a unidade usada para as maiores distâncias cosmológicas."
+    },
+    "arco-gigante": {
+      "name": "Arco Gigante",
+      "desc": "O Arco Gigante é uma estrutura em forma de arco quase simétrico na constelação de Boötes, a mais de 9,2 bilhões de anos-luz, anunciada em 2021. Estende-se por cerca de 1 gigaparsec, ou seja, cerca de 3,3 bilhões de anos-luz, e foi encontrado graças à absorção do magnésio nos espectros de quasares mais distantes. Os autores estimam uma significância estatística entre 3 e 4,8 sigma conforme o método usado e falam com cautela de um possível desafio ao princípio cosmológico."
+    },
+    "huge-lqg": {
+      "name": "Huge-LQG",
+      "desc": "O Huge-LQG é um grande grupo de 73 quasares com redshift médio 1,27, identificado no catálogo do Sloan Digital Sky Survey e descrito em 2012. Sua maior dimensão é de cerca de 1.240 megaparsecs, ou seja, cerca de 4 bilhões de anos-luz, enquanto a dimensão característica é de cerca de 500 megaparsecs. Sua realidade física é contestada: uma análise posterior mostra que o mesmo algoritmo encontra agrupamentos ainda mais extensos em distribuições aleatórias de pontos."
+    },
+    "grande-muraglia-ercole-corona-boreale": {
+      "name": "Grande Muralha Hércules–Coroa Boreal",
+      "desc": "A Grande Muralha Hércules-Coroa Boreal é uma concentração de explosões de raios gama com redshift em torno de 2, a uma distância de cerca de 10 bilhões de anos-luz: 14 das 31 explosões dessa faixa caem em cerca de um oitavo do céu. Os autores estimam sua extensão entre 2.000 e 3.000 megaparsecs, ou seja, entre cerca de 6,5 e 9,8 bilhões de anos-luz. Se fosse real, seria a maior estrutura conhecida, mas os próprios descobridores escrevem que, para estabelecer se existe de fato, são necessários novos dados."
+    },
+    "distanza-dell-hubble-deep-field": {
+      "name": "Distância do Hubble Deep Field",
+      "desc": "O Hubble Deep Field é uma imagem de 1995 de uma minúscula zona do céu, em que o telescópio Hubble revelou pelo menos 1.500 galáxias, muitas cerca de quatro bilhões de vezes mais fracas do que o olho humano vê. Algumas são vistas como eram há mais de 10 bilhões de anos, talvez menos de um bilhão de anos depois do Big Bang. A distância indicada, cerca de 12,7 bilhões de anos-luz, é, portanto, o caminho da luz das mais remotas e é uma estimativa, não uma medida única."
+    },
+    "raggio-di-hubble": {
+      "name": "Raio de Hubble",
+      "desc": "O raio de Hubble é a distância em que, segundo a lei de Hubble, o espaço se afasta de nós à velocidade da luz: obtém-se dividindo a velocidade da luz pela constante de Hubble. Com o valor obtido pelo Planck, 67,4 km/s por megaparsec, vale cerca de 14,5 bilhões de anos-luz; com o medido por cefeidas e supernovas, 73,0, cai para cerca de 13,4. A diferença entre as duas medições, conhecida como tensão de Hubble, ainda não foi resolvida."
+    },
+    "mom-z14": {
+      "name": "MoM-z14",
+      "desc": "MoM-z14 é uma galáxia observada pelo telescópio James Webb com redshift 14,44, ou seja, como era apenas 280 milhões de anos depois do Big Bang. Na confirmação, publicada em janeiro de 2026, era a galáxia mais distante conhecida. Sua luz viajou por cerca de 13,5 bilhões de anos, mas, pela expansão do Universo, hoje a galáxia dista cerca de 34 bilhões de anos-luz."
+    },
+    "universo-osservabile": {
+      "name": "Universo observável",
+      "desc": "O universo observável é a esfera, centrada na Terra, da qual a luz teve tempo de chegar até nós desde o início da expansão. Seu raio atual é de cerca de 14.300 megaparsecs, portanto o diâmetro é de cerca de 93 bilhões de anos-luz. É maior do que sugere a idade do universo, cerca de 13,8 bilhões de anos, porque nesse meio-tempo o espaço se expandiu."
+    },
+    "universo-intero": {
+      "name": "Universo inteiro",
+      "desc": "Ninguém conhece a dimensão do universo inteiro, ou seja, de tudo o que existe além da parte que podemos observar: pode ser finito ou infinito. As medições do satélite WMAP indicam que a curvatura do espaço é nula dentro de 0,4%, um resultado compatível com um universo infinito, mas que não o demonstra. A dimensão indicada aqui é, portanto, apenas uma convenção, não uma medida."
+    }
+  }
+}

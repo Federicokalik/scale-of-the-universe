@@ -60,9 +60,21 @@ test('a filter chip toggles', async ({ page }) => {
   await expect(chip).toHaveAttribute('aria-pressed', 'false');
 });
 
-test('a language that is not enabled yet is a 404', async ({ page }) => {
-  expect((await page.goto('/de/'))!.status()).toBe(404);
+test('an unknown language is a 404', async ({ page }) => {
   expect((await page.goto('/xx/'))!.status()).toBe(404);
+});
+
+test('every language opens, in its own direction, with a translated card', async ({ page }) => {
+  for (const [code, dir] of [['en', 'ltr'], ['de', 'ltr'], ['nl-BE', 'ltr'], ['pt-BR', 'ltr'], ['es', 'ltr'], ['fr', 'ltr'], ['ru', 'ltr'], ['zh-Hans', 'ltr'], ['ar', 'rtl'], ['ja', 'ltr']]) {
+    await page.goto(`/${code}/#terra`);
+    await expect(page.locator('html')).toHaveAttribute('lang', code);
+    await expect(page.locator('html')).toHaveAttribute('dir', dir);
+    await expect(page.locator('.card h2')).not.toHaveText('');
+    await expect(page.locator('.card h2')).not.toHaveText('Terra', { timeout: 1 }).catch(() => {
+      // Portuguese and Spanish share the Italian name of the Earth; any other language must not.
+      if (!['pt-BR', 'es'].includes(code)) throw new Error(`${code}: the card is still in Italian`);
+    });
+  }
 });
 
 test('method dialog: credit, experiment, differences, interface sources, privacy', async ({ page }) => {

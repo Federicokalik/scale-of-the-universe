@@ -2,8 +2,8 @@
 //   node scripts/check-translations.mjs                 -> report; exits 1 on a structural problem
 //   node scripts/check-translations.mjs --merge <dir>   -> first builds <code>.json from <dir>/<code>/{ui,chunk-N}.json
 // Structural problems (missing or extra keys, empty text, a lost placeholder or HTML tag) are errors.
-// A description whose digits differ from the Italian is only listed: a number may rightly be written
-// in words, or regrouped, in another language, so a person has to look.
+// A description that lacks a number present in the Italian is only listed: a number may rightly be
+// written in words, or in other units of counting (万, 亿), in another language, so a person has to look.
 import { existsSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 
 const DIR = 'src/data/i18n';
@@ -13,7 +13,7 @@ const source = read(`${DIR}/it.json`);
 const mergeAt = process.argv.indexOf('--merge');
 if (mergeAt > 0) {
   const from = process.argv[mergeAt + 1];
-  for (const code of readdirSync(from).filter((d) => existsSync(`${from}/${d}/ui.json`))) {
+  for (const code of readdirSync(from).filter((d) => d !== 'src' && existsSync(`${from}/${d}/ui.json`))) {
     const objects = {};
     for (const file of readdirSync(`${from}/${code}`).filter((f) => /^chunk-\d+\.json$/.test(f)).sort()) Object.assign(objects, read(`${from}/${code}/${file}`));
     const ui = read(`${from}/${code}/ui.json`);
@@ -32,9 +32,19 @@ if (mergeAt > 0) {
 const tokens = (text, pattern) => (text.match(pattern) ?? []).sort().join(' ');
 const PLACEHOLDER = /\{\w+\}/g;
 const TAG = /<[^>]+>/g;
-/** Digits with separators and spaces removed, so 1,609344 and 1.609344 and 12 742 compare equal. */
-const digits = (text) =>
-  (text.replace(/[٠-٩]/g, (d) => String(d.charCodeAt(0) - 0x660)).replace(/(\d)[.,   '’]+(?=\d)/g, '$1').match(/\d+/g) ?? []).sort().join(' ');
+/** The numbers in a text, with decimal and thousands separators removed, so 1,609344 and 1.609344 compare equal. */
+const numbers = (text) =>
+  text
+    .replace(/[٠-٩]/g, (d) => String(d.charCodeAt(0) - 0x660))
+    .replace(/[０-９]/g, (d) => String(d.charCodeAt(0) - 0xff10))
+    .replace(/(\d)[.,\u00a0\u202f\u2009'’](?=\d)/g, '$1')
+    .replace(/(\d) (?=\d{3}(\D|$))/g, '$1')
+    .match(/\d+/g) ?? [];
+/** Numbers of two or more digits in the Italian that the translation does not carry. */
+const lost = (original, text) => {
+  const have = numbers(text);
+  return numbers(original).filter((n) => n.length > 1 && !have.includes(n));
+};
 
 let errors = 0;
 for (const file of readdirSync(DIR).filter((f) => f.endsWith('.json') && f !== 'it.json').sort()) {
@@ -58,7 +68,7 @@ for (const file of readdirSync(DIR).filter((f) => f.endsWith('.json') && f !== '
     if (!original) continue;
     if (!entry?.name?.trim()) problems.push(`${id}: no name`);
     if (!entry?.desc?.trim()) problems.push(`${id}: no description`);
-    else if (digits(entry.desc) !== digits(original.desc)) notes.push(id);
+    else if (lost(original.desc, entry.desc).length) notes.push(`${id}: ${lost(original.desc, entry.desc).join(' ')}`);
     else if (entry.desc.length < original.desc.length * 0.25 && !/^(zh|ja)/.test(code)) notes.push(`${id} (much shorter)`);
   }
   errors += problems.length;
